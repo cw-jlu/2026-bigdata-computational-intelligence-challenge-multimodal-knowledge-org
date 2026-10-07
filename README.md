@@ -1,34 +1,65 @@
-# 2026 Big Data Computational Intelligence Challenge
-## Track: Multimodal Knowledge Organization and Decision Generation
-> 2026全国大数据与计算智能挑战赛 · 多模态融合的知识组织与决策生成赛道
+# 多模态融合的知识组织与决策生成
 
-本仓库为参赛队伍源代码仓库，用于大赛初赛、复赛、决赛源码留存与赛后反作弊、作品复现审核。
+2026 全国大数据与计算智能挑战赛参赛项目。
 
-### 队伍信息
-- Team Name：联合制胜队
-- Members：XXX, XXX, XXX
+本项目面向连续多日的开源军情、网上舆论和雷达信息，构建可复现的多源信息融合与军事态势日报生成流程。
 
-### 分支说明
-- `stage1`：初赛代码（截止2026-10-14）
-- `stage2`：复赛代码（截止2026-10-17）
-- `stage3`：决赛答辩版本（深圳线下评审）
-- `main`：文档、环境配置、说明文件
+## 比赛任务
 
-### 赛题任务简介
-基于开源军情文本、网上舆论、雷达结构化记录表，完成：
-1. 多源数据清洗解析（TXT/XLSX）
-2. 实体与活动要素归一化抽取
-3. 跨源实体关联、事件重建
-4. 冲突识别、雷达噪声过滤，判定可信事实
-5. 海域归类，统计机舰批次架次
-6. 跨日活动追踪与态势趋势分析
-7. 输出标准化态势日报（DOCX/XLSX/PNG）
+系统需要完成：
 
-### 环境与复现
-> 请后续填写依赖 `requirements.txt`、数据集路径、一键运行脚本
+1. 解析和清洗 TXT 文本、XLSX 雷达记录；
+2. 抽取并标准化国家、平台、批号、时间、区域、任务和数量等要素；
+3. 关联不同来源，重建同一事件；
+4. 识别文本冲突、主体—平台错配和雷达噪声，筛选可信事实；
+5. 判断东海、南海、黄海活动方向并完成节点统计；
+6. 追踪跨日活动主线，生成趋势分析；
+7. 输出符合规范的 DOCX、XLSX 和 PNG 日报成果。
+
+## 仓库结构
+
+```text
+.
+├── docs/       # 赛题说明、数据口径、输出规范和复现要求
+├── artifact/  # 不同模型的初赛实现与 Workflow 方案
+├── 赛题2-初赛/数据/  # 本地原始数据（不提交到 Git）
+├── output/    # 生成的日报成果（不提交到 Git）
+├── .env.example
+└── README.md
+```
+
+## 环境配置
+
 ```bash
-# 示例复现命令
-python src/main.py --stage stage1
+python -m venv .venv
+# Windows PowerShell
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+Copy-Item .env.example .env
+```
 
+请根据本地数据集和模型服务修改 `.env`。不要提交真实密钥、数据集或生成结果。
 
-## 仓库目录结构
+## 运行方式
+
+当前有两个可运行的规则基线，均以 `赛题2-初赛/数据` 为输入；生成结果保存在各自的 `output/` 下，不提交到 Git。Claude 版本已有模块化抽取、轨迹解析、融合与报告代码，后续优先改进事件关联和事实核验。
+
+```powershell
+cd artifact/20261008_001929_claude-opus-5.5high
+python run.py --input ../../赛题2-初赛/数据 --output output --stage prelim
+```
+
+方案与优先级见 [`artifact/20261008_005717_gpt-6_workflow全流程方案.md`](artifact/20261008_005717_gpt-6_workflow全流程方案.md)。
+
+## 文档
+
+详细说明见 [`docs/README.md`](docs/README.md)。
+
+## 赛段分支
+
+- `stage1`：初赛版本
+- `stage2`：复赛版本
+- `stage3`：决赛答辩版本
+- `main`：公共文档和环境配置
+
+每个阶段应保留可复现的代码、配置、依赖和最高成绩产物。
