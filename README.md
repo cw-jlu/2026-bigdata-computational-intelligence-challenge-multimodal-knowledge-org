@@ -51,6 +51,8 @@ python run.py --input ../../赛题2-初赛/数据 --output output --stage prelim
 
 方案与优先级见 [`artifact/20261008_005717_gpt-6_workflow全流程方案.md`](artifact/20261008_005717_gpt-6_workflow全流程方案.md)。
 
+新增的运行时 Workflow + Agent 版本位于 [`artifact/20261008_workflow_agent_v1/`](artifact/20261008_workflow_agent_v1/README.md)，对应[三段架构与两种可信判定方案](artifact/20261008_workflow_agent方案_v1.md)。该版本支持无 API 预处理、模型自主工具调查、风险分级/排序或辩论核验，以及事实包驱动的报告生成；DS/GPT/Claude 接口待真实配置联调。目前通过合成样本工程测试，尚无真实数据效果或比赛成绩。
+
 ## 文档
 
 详细说明见 [`docs/README.md`](docs/README.md)。

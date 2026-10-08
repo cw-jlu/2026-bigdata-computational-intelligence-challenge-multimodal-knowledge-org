@@ -1,0 +1,5 @@
+2026-10-08T20:42:00+08:00 WARNING 本次结果目录：D:\CW\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\artifact\20261008_204137_976_workflow-agent-v1.1_deepseek-v4-pro_risk
+2026-10-08T20:44:25+08:00 INFO 预处理完成：7000条记录，527组轨迹，0项文件质量问题
+2026-10-08T20:44:26+08:00 INFO 本轮 7000 条输入安排为 1527 个调查任务，节点日优先
+2026-10-08T20:44:26+08:00 INFO 分析 2025-05-10 R-050d2d9fff1c2d8b8610
+2026-10-08T20:44:49+08:00 INFO 分析 2025-05-10 R-070baa8f214567e2f6be

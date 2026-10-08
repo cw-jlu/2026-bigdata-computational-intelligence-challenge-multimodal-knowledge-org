@@ -1,0 +1,32 @@
+{
+  "model_calls_by_role": {
+    "analysis": 10
+  },
+  "tokens_by_role": {
+    "analysis": {
+      "input_tokens": 214353,
+      "output_tokens": 4487,
+      "cache_hit_tokens": 147968,
+      "cache_creation_tokens": 0
+    }
+  },
+  "tool_calls": {
+    "read_record": 21,
+    "get_track": 2,
+    "search_records": 11,
+    "list_events": 2,
+    "lookup_knowledge": 3,
+    "list_records": 2,
+    "submit_event": 1
+  },
+  "tool_errors": {},
+  "failed_tasks": {
+    "BudgetExceeded": 2
+  },
+  "http_retries": 0,
+  "mean_model_latency_seconds": {
+    "analysis": 5.640699999999197
+  },
+  "usage_limits": "包含已返回 usage 的截断响应；超时且未返回 usage 的请求用量未知",
+  "pricing": "未填价格，仅记录用量，不估算费用"
+}

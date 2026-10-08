@@ -1,0 +1,11 @@
+{
+  "purpose": "首节点真实数据完整运行",
+  "node": "2025-05-10",
+  "start": "2025-05-01",
+  "pilot_directory": "D:\\CW\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261008_204137_976_workflow-agent-v1.1_deepseek-v4-pro_risk",
+  "changes": [
+    "上下文预算100000提升至500000字符，工具调用40提升至80，轮数18提升至24",
+    "显式finish_seed表示调查完成；证据不足仍保留pending，不可采信；预算中断保持未完成"
+  ],
+  "trace": "全量请求响应/工具/用量/时延/错误/快照，密钥不保存"
+}

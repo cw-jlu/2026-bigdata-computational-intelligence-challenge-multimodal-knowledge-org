@@ -1,0 +1,19 @@
+{
+  "providers": {
+    "ds": {"protocol": "openai", "base_url": "", "model": "", "api_key_env": "DS_API_KEY", "preserve_reasoning_content": true, "extra_body": {"max_tokens": 4096}},
+    "gpt": {"protocol": "openai", "base_url": "", "model": "", "api_key_env": "OPENAI_API_KEY", "extra_body": {}},
+    "claude": {"protocol": "anthropic", "base_url": "", "model": "", "api_key_env": "ANTHROPIC_API_KEY", "extra_body": {}}
+  },
+  "roles": {"analysis": "gpt", "risk": "gpt", "support": "gpt", "critic": "claude", "judge": "ds", "writer": "gpt"},
+  "trust_mode": "risk",
+  "group_radar_seeds": true,
+  "max_turns": 18,
+  "max_tool_calls": 40,
+  "max_output_tokens": 4096,
+  "max_context_chars": 100000,
+  "timeout_seconds": 90,
+  "retries": 2,
+  "required_fields": ["country", "platform", "count", "start", "end", "region", "direction", "task"],
+  "speed_warning_kmh": {"飞机": 1500, "舰船": 100},
+  "max_ranking_candidates": 100
+}

@@ -1,0 +1,22 @@
+{
+  "invocation_id": "71af5eb482554bf5857fe11af24383a0",
+  "started_at": "2026-10-08T20:49:06.755+08:00",
+  "status": "failed",
+  "version": "workflow-agent-v1.2",
+  "input": "D:\\CW\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\赛题2-初赛\\数据",
+  "stage": "all",
+  "start": "2025.5.1",
+  "node": "2025.5.10",
+  "max_seeds": null,
+  "python": "3.10.0",
+  "platform": "Windows-10-10.0.26100-SP0",
+  "packages": {
+    "openpyxl": "3.1.5",
+    "python-docx": "1.2.0",
+    "matplotlib": "3.10.9"
+  },
+  "error_type": "OSError",
+  "error": "[Errno 28] No space left on device",
+  "ended_at": "2026-10-08T22:15:49.343+08:00",
+  "elapsed_seconds": 5202.484
+}

@@ -1,0 +1,64 @@
+本次结果目录：D:\CW\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\artifact\20261008_204853_747_workflow-agent-v1.2_deepseek-v4-pro_risk
+预处理完成：7000条记录，527组轨迹，0项文件质量问题
+本轮 7000 条输入安排为 1527 个调查任务，节点日优先
+分析 2025-05-10 R-050d2d9fff1c2d8b8610
+分析 2025-05-10 R-070baa8f214567e2f6be
+分析 2025-05-10 R-0c0e49b5efe08472a411
+分析 2025-05-10 R-0ca7f300e4fd18a7d398
+分析 2025-05-10 R-0ec5614054e803be9ca9
+分析 2025-05-10 R-1c655d93450611c93821
+分析 2025-05-10 R-222eb8259bedd5d54a3b
+分析 2025-05-10 R-25e25d46cd52635ddb26
+分析 2025-05-10 R-2b21e624cf656f0ad75d
+分析 2025-05-10 R-2dc41d74fa1262f69189
+分析 2025-05-10 R-35845e486f04f022e92f
+分析 2025-05-10 R-37cd7f98b9ca6383e359
+分析 2025-05-10 R-44aabd433ad152bde3c2
+分析 2025-05-10 R-4ca06edefa31ec645d6a
+分析 2025-05-10 R-4d3b8b1e5187662d78d9
+分析 2025-05-10 R-50b2247e9b4620188ffb
+分析 2025-05-10 R-5b0d4fb6da8a9892765a
+分析 2025-05-10 R-5d3a400aa0d5010064e9
+分析 2025-05-10 R-5d5fee2552499d80150f
+分析 2025-05-10 R-5f9f225dab180ea915e2
+分析 2025-05-10 R-609fd0ab6a88ea6c9645
+分析 2025-05-10 R-6817ff86745c9ee3b1ce
+分析 2025-05-10 R-687303db5af41e808690
+分析 2025-05-10 R-6ab73c3ec9adbb8035f0
+分析 2025-05-10 R-6ca5e2fa87bb3cba129f
+分析 2025-05-10 R-703be7531139d68f6f92
+分析 2025-05-10 R-725792c42c16f5befdb9
+分析 2025-05-10 R-72d0355b07f29ba25050
+分析 2025-05-10 R-736ee1f57a345e605ee0
+分析 2025-05-10 R-782cca77e93df2fec8cc
+分析 2025-05-10 R-785309a38d008811a1d1
+分析 2025-05-10 R-7a3e768e218f2ed35c73
+分析 2025-05-10 R-883b013c74cba6ce2960
+分析 2025-05-10 R-900eb6a2709d1bd1b213
+分析 2025-05-10 R-90d6afcc3868777f61f8
+分析 2025-05-10 R-9ab283f3580fd1c29492
+分析 2025-05-10 R-a55fa39dffd1bf0c4572
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\CW\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\artifact\20261008_workflow_agent_v1\workflow_agent\cli.py", line 136, in _execute
+    analyze_seed(providers["analysis"], config, evidence, seed, trace)
+  File "D:\CW\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\artifact\20261008_workflow_agent_v1\workflow_agent\analysis.py", line 102, in analyze_seed
+    run_agent(provider, settings, SYSTEM, "调查 seed：\n" + dumps(payload), specs, handlers, trace, "analysis:" + seed["id"], stop_when=lambda: state["finished"])
+  File "D:\CW\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\artifact\20261008_workflow_agent_v1\workflow_agent\engine.py", line 29, in run_agent
+    result = _run(provider, settings, system, task, specs, handlers, record, stop_when)
+  File "D:\CW\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\artifact\20261008_workflow_agent_v1\workflow_agent\engine.py", line 51, in _run
+    record({"stage": "model_response", "turn": turn, "assistant": reply["message"], "usage": reply["usage"],
+  File "D:\CW\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\artifact\20261008_workflow_agent_v1\workflow_agent\engine.py", line 23, in record
+    append_json(trace_path, {"task": task_id, "task_run_id": task_run_id, "role": task_id.split(":", 1)[0],
+  File "D:\CW\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\artifact\20261008_workflow_agent_v1\workflow_agent\common.py", line 76, in append_json
+    with path.open("a", encoding="utf-8") as f:
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\CW\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\artifact\20261008_workflow_agent_v1\workflow_agent\cli.py", line 67, in execute
+    result = _execute(args)

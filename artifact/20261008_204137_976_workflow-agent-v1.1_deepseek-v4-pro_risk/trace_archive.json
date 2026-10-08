@@ -1,0 +1,7 @@
+{
+  "file": "traces.jsonl.gz",
+  "uncompressed_sha256": "83fa869200e5eaa60a102335f1601c2d3def2c04481a37c2fdb351c27a6aef88",
+  "original_bytes": 1475489,
+  "compressed_bytes": 125062,
+  "verified": true
+}

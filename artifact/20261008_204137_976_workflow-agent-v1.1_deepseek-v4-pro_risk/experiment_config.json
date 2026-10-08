@@ -1,0 +1,62 @@
+{
+  "providers": {
+    "ds": {
+      "protocol": "openai",
+      "base_url": "https://api.deepseek.com",
+      "model": "deepseek-v4-pro",
+      "api_key_env": "DS_API_KEY",
+      "preserve_reasoning_content": true,
+      "extra_body": {
+        "max_tokens": 8192,
+        "thinking": {
+          "type": "disabled"
+        }
+      }
+    },
+    "gpt": {
+      "protocol": "openai",
+      "base_url": "",
+      "model": "",
+      "api_key_env": "OPENAI_API_KEY",
+      "extra_body": {}
+    },
+    "claude": {
+      "protocol": "anthropic",
+      "base_url": "",
+      "model": "",
+      "api_key_env": "ANTHROPIC_API_KEY",
+      "extra_body": {}
+    }
+  },
+  "roles": {
+    "analysis": "ds",
+    "risk": "ds",
+    "support": "ds",
+    "critic": "claude",
+    "judge": "ds",
+    "writer": "ds"
+  },
+  "trust_mode": "risk",
+  "max_turns": 18,
+  "max_tool_calls": 40,
+  "max_output_tokens": 8192,
+  "max_context_chars": 100000,
+  "timeout_seconds": 90,
+  "retries": 1,
+  "required_fields": [
+    "country",
+    "platform",
+    "count",
+    "start",
+    "end",
+    "region",
+    "direction",
+    "task"
+  ],
+  "speed_warning_kmh": {
+    "飞机": 1500,
+    "舰船": 100
+  },
+  "max_ranking_candidates": 100,
+  "group_radar_seeds": true
+}

@@ -1,0 +1,10 @@
+{
+  "purpose": "真实数据首节点运行，risk路线；先小批调查检查真实调用，再续跑全部调查和核验",
+  "start": "2025-05-01",
+  "node": "2025-05-10",
+  "data_root": "D:\\CW\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\赛题2-初赛\\数据",
+  "model": "deepseek-v4-pro",
+  "thinking": "disabled",
+  "trace": "完整请求/响应/工具输入输出/错误/用量/耗时",
+  "grouped_radar": true
+}

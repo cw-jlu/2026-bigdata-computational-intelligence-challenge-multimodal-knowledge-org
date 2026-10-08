@@ -1,0 +1,1850 @@
+{
+  "issues": [],
+  "flagged_records": [],
+  "flagged_tracks": [
+    {
+      "id": "TR-048a677da755c2c126e2",
+      "day": "2025-05-01",
+      "kind": "飞机",
+      "batch": "AIR-0435F7FE86050A",
+      "record_ids": [
+        "R-27e38461652f65bdc37c",
+        "R-7ef3ca7389ef5a217b3b",
+        "R-ce8a03e02007cfb6e7c4",
+        "R-cdb1991125bb5be35e7a",
+        "R-67209a36d5d24cb74da6",
+        "R-c79d84bee4f2b74b6c7c",
+        "R-41419007c6e3d39e24ef",
+        "R-ebc66b50050fa1057564",
+        "R-8b803cb2db9f639591b1",
+        "R-c14b08795a40c55b7eac",
+        "R-11f2571b231d5dc97e1d",
+        "R-197a4bc5899a7f6101fb",
+        "R-d26100b1210dd6cd8680"
+      ],
+      "flags": [
+        "position_jump_candidate",
+        "same_timestamp"
+      ],
+      "segments": [
+        {
+          "from": "R-27e38461652f65bdc37c",
+          "to": "R-7ef3ca7389ef5a217b3b",
+          "hours": 0.2361111111111111,
+          "distance_km": 1631.9898157276339,
+          "speed_kmh": 6911.956866611155
+        },
+        {
+          "from": "R-7ef3ca7389ef5a217b3b",
+          "to": "R-ce8a03e02007cfb6e7c4",
+          "hours": 0.04722222222222222,
+          "distance_km": 1630.2266577258977,
+          "speed_kmh": 34522.4468694896
+        },
+        {
+          "from": "R-ce8a03e02007cfb6e7c4",
+          "to": "R-cdb1991125bb5be35e7a",
+          "hours": 0.18888888888888888,
+          "distance_km": 1631.5219231023166,
+          "speed_kmh": 8637.469004659324
+        },
+        {
+          "from": "R-cdb1991125bb5be35e7a",
+          "to": "R-67209a36d5d24cb74da6",
+          "hours": 0.09444444444444444,
+          "distance_km": 1636.992521416071,
+          "speed_kmh": 17332.86199146428
+        },
+        {
+          "from": "R-67209a36d5d24cb74da6",
+          "to": "R-c79d84bee4f2b74b6c7c",
+          "hours": 0.14166666666666666,
+          "distance_km": 1620.3154366336767,
+          "speed_kmh": 11437.520729178894
+        },
+        {
+          "from": "R-c79d84bee4f2b74b6c7c",
+          "to": "R-41419007c6e3d39e24ef",
+          "hours": 0.14166666666666666,
+          "distance_km": 1616.3551702821965,
+          "speed_kmh": 11409.565907874328
+        },
+        {
+          "from": "R-41419007c6e3d39e24ef",
+          "to": "R-ebc66b50050fa1057564",
+          "hours": 0.09444444444444444,
+          "distance_km": 1619.7952319365602,
+          "speed_kmh": 17150.773044034166
+        },
+        {
+          "from": "R-ebc66b50050fa1057564",
+          "to": "R-8b803cb2db9f639591b1",
+          "hours": 0.18888888888888888,
+          "distance_km": 1618.753153914423,
+          "speed_kmh": 8569.869638370474
+        },
+        {
+          "from": "R-8b803cb2db9f639591b1",
+          "to": "R-c14b08795a40c55b7eac",
+          "hours": 0.04722222222222222,
+          "distance_km": 1606.9668736682725,
+          "speed_kmh": 34029.886736504595
+        },
+        {
+          "from": "R-c14b08795a40c55b7eac",
+          "to": "R-11f2571b231d5dc97e1d",
+          "hours": 0.2361111111111111,
+          "distance_km": 9.505532675713361,
+          "speed_kmh": 40.25872662655071
+        },
+        {
+          "from": "R-11f2571b231d5dc97e1d",
+          "to": "R-197a4bc5899a7f6101fb",
+          "hours": 0.0,
+          "distance_km": 1595.4786046735896,
+          "speed_kmh": null
+        },
+        {
+          "from": "R-197a4bc5899a7f6101fb",
+          "to": "R-d26100b1210dd6cd8680",
+          "hours": 0.0,
+          "distance_km": 7.494713865623003,
+          "speed_kmh": null
+        }
+      ]
+    },
+    {
+      "id": "TR-a8251cc91c3baa5871d8",
+      "day": "2025-05-01",
+      "kind": "飞机",
+      "batch": "AIR-511B24203B9156",
+      "record_ids": [
+        "R-0c4c9b4bd4eaff328240",
+        "R-130bc4c0d235f0c63654",
+        "R-f78bb3c6f8ee7b63893b",
+        "R-44f51bcc36cb84f74c5c",
+        "R-b4015cc8cf750a6bf025",
+        "R-cc5f01bd08cdfa148f7e",
+        "R-33b71aecdc8a5e75187c",
+        "R-4a0d3087d6cb5d8de106",
+        "R-71f9a0eb6abf7e83484c",
+        "R-81a1c1facbb0c34c35c6",
+        "R-aa4da59eab8f4f5cbd81",
+        "R-1877fc933e1b8d574ba5"
+      ],
+      "flags": [
+        "position_jump_candidate",
+        "same_timestamp"
+      ],
+      "segments": [
+        {
+          "from": "R-0c4c9b4bd4eaff328240",
+          "to": "R-130bc4c0d235f0c63654",
+          "hours": 0.0,
+          "distance_km": 2828.4784159729334,
+          "speed_kmh": null
+        },
+        {
+          "from": "R-130bc4c0d235f0c63654",
+          "to": "R-f78bb3c6f8ee7b63893b",
+          "hours": 0.2833333333333333,
+          "distance_km": 2819.984653146573,
+          "speed_kmh": 9952.887011105551
+        },
+        {
+          "from": "R-f78bb3c6f8ee7b63893b",
+          "to": "R-44f51bcc36cb84f74c5c",
+          "hours": 0.0,
+          "distance_km": 2813.9481425378035,
+          "speed_kmh": null
+        },
+        {
+          "from": "R-44f51bcc36cb84f74c5c",
+          "to": "R-b4015cc8cf750a6bf025",
+          "hours": 0.2833333333333333,
+          "distance_km": 2814.7624402884953,
+          "speed_kmh": 9934.455671606454
+        },
+        {
+          "from": "R-b4015cc8cf750a6bf025",
+          "to": "R-cc5f01bd08cdfa148f7e",
+          "hours": 0.0,
+          "distance_km": 2819.270821882016,
+          "speed_kmh": null
+        },
+        {
+          "from": "R-cc5f01bd08cdfa148f7e",
+          "to": "R-33b71aecdc8a5e75187c",
+          "hours": 0.2833333333333333,
+          "distance_km": 9.813065378477878,
+          "speed_kmh": 34.63434839462781
+        },
+        {
+          "from": "R-33b71aecdc8a5e75187c",
+          "to": "R-4a0d3087d6cb5d8de106",
+          "hours": 0.0,
+          "distance_km": 2812.5551160001346,
+          "speed_kmh": null
+        },
+        {
+          "from": "R-4a0d3087d6cb5d8de106",
+          "to": "R-71f9a0eb6abf7e83484c",
+          "hours": 0.2833333333333333,
+          "distance_km": 10.050132984921275,
+          "speed_kmh": 35.471057593839795
+        },
+        {
+          "from": "R-71f9a0eb6abf7e83484c",
+          "to": "R-81a1c1facbb0c34c35c6",
+          "hours": 0.0,
+          "distance_km": 2806.576837595223,
+          "speed_kmh": null
+        },
+        {
+          "from": "R-81a1c1facbb0c34c35c6",
+          "to": "R-aa4da59eab8f4f5cbd81",
+          "hours": 0.2833333333333333,
+          "distance_km": 2797.3159044322806,
+          "speed_kmh": 9872.879662702167
+        },
+        {
+          "from": "R-aa4da59eab8f4f5cbd81",
+          "to": "R-1877fc933e1b8d574ba5",
+          "hours": 0.0,
+          "distance_km": 2794.1350214802733,
+          "speed_kmh": null
+        }
+      ]
+    },
+    {
+      "id": "TR-fa5c2d747813076010c1",
+      "day": "2025-05-02",
+      "kind": "飞机",
+      "batch": "AIR-02BA5552FA5859",
+      "record_ids": [
+        "R-960c27b257519f33f081",
+        "R-c9fa251e2961580975b4",
+        "R-e81c64b44017f2dcc4dc",
+        "R-a7365bc46d1a57bd8b8c",
+        "R-1a8514604fc2f4522663",
+        "R-e1b027137d9630620bf0",
+        "R-b927c1695033426fc846",
+        "R-b3c903be1111cd2e6ed2",
+        "R-f105a9e1c234b69112e2",
+        "R-33df525cf5c87eccc0b9",
+        "R-f62075d1294240137613",
+        "R-ec43c129f16902ec3321",
+        "R-a91b2e22097213dfb409"
+      ],
+      "flags": [
+        "position_jump_candidate",
+        "same_timestamp"
+      ],
+      "segments": [
+        {
+          "from": "R-960c27b257519f33f081",
+          "to": "R-c9fa251e2961580975b4",
+          "hours": 0.4027777777777778,
+          "distance_km": 1658.0556238813426,
+          "speed_kmh": 4116.551893774368
+        },
+        {
+          "from": "R-c9fa251e2961580975b4",
+          "to": "R-e81c64b44017f2dcc4dc",
+          "hours": 0.08055555555555556,
+          "distance_km": 1661.5813516377682,
+          "speed_kmh": 20626.52712377919
+        },
+        {
+          "from": "R-e81c64b44017f2dcc4dc",
+          "to": "R-a7365bc46d1a57bd8b8c",
+          "hours": 0.32222222222222224,
+          "distance_km": 1651.2560933453558,
+          "speed_kmh": 5124.5878758993795
+        },
+        {
+          "from": "R-a7365bc46d1a57bd8b8c",
+          "to": "R-1a8514604fc2f4522663",
+          "hours": 0.16111111111111112,
+          "distance_km": 1659.7066793169556,
+          "speed_kmh": 10301.627664725931
+        },
+        {
+          "from": "R-1a8514604fc2f4522663",
+          "to": "R-e1b027137d9630620bf0",
+          "hours": 0.24166666666666667,
+          "distance_km": 1638.354221384691,
+          "speed_kmh": 6779.396778143549
+        },
+        {
+          "from": "R-e1b027137d9630620bf0",
+          "to": "R-b927c1695033426fc846",
+          "hours": 0.24166666666666667,
+          "distance_km": 1638.997986517516,
+          "speed_kmh": 6782.060633865583
+        },
+        {
+          "from": "R-b927c1695033426fc846",
+          "to": "R-b3c903be1111cd2e6ed2",
+          "hours": 0.16111111111111112,
+          "distance_km": 1636.6132737641356,
+          "speed_kmh": 10158.289285432566
+        },
+        {
+          "from": "R-b3c903be1111cd2e6ed2",
+          "to": "R-f105a9e1c234b69112e2",
+          "hours": 0.32222222222222224,
+          "distance_km": 1640.5129720734224,
+          "speed_kmh": 5091.247154710621
+        },
+        {
+          "from": "R-f105a9e1c234b69112e2",
+          "to": "R-33df525cf5c87eccc0b9",
+          "hours": 0.08055555555555556,
+          "distance_km": 1623.3529106633562,
+          "speed_kmh": 20151.967166855455
+        },
+        {
+          "from": "R-33df525cf5c87eccc0b9",
+          "to": "R-f62075d1294240137613",
+          "hours": 0.4027777777777778,
+          "distance_km": 1634.6689306884225,
+          "speed_kmh": 4058.4883796402214
+        },
+        {
+          "from": "R-f62075d1294240137613",
+          "to": "R-ec43c129f16902ec3321",
+          "hours": 0.0,
+          "distance_km": 2.980581681820794,
+          "speed_kmh": null
+        },
+        {
+          "from": "R-ec43c129f16902ec3321",
+          "to": "R-a91b2e22097213dfb409",
+          "hours": 0.0,
+          "distance_km": 1625.744924223578,
+          "speed_kmh": null
+        }
+      ]
+    },
+    {
+      "id": "TR-6b4112434a8d441faec1",
+      "day": "2025-05-02",
+      "kind": "飞机",
+      "batch": "AIR-74F8425F5F8BF3",
+      "record_ids": [
+        "R-86c88c1270b9dc6416fd",
+        "R-43f1787b93f19e1ca295",
+        "R-38f6e6bd466aab50fa2d",
+        "R-e6ceb2cee72b9dfd23ca",
+        "R-dc2f5d88a223c814595f",
+        "R-66434823582d85b4baf7",
+        "R-c63fcb23095d4fd63ca1",
+        "R-2b19f97a587a767c2127",
+        "R-375ab08045c586ca2ec4",
+        "R-d24b591492cbf4e9f1e4",
+        "R-755b158690105a83d678",
+        "R-e15169909da7870ed1ed"
+      ],
+      "flags": [
+        "position_jump_candidate",
+        "same_timestamp"
+      ],
+      "segments": [
+        {
+          "from": "R-86c88c1270b9dc6416fd",
+          "to": "R-43f1787b93f19e1ca295",
+          "hours": 0.0,
+          "distance_km": 792.0956433360541,
+          "speed_kmh": null
+        },
+        {
+          "from": "R-43f1787b93f19e1ca295",
+          "to": "R-38f6e6bd466aab50fa2d",
+          "hours": 0.2833333333333333,
+          "distance_km": 793.7155539062968,
+          "speed_kmh": 2801.34901378693
+        },
+        {
+          "from": "R-38f6e6bd466aab50fa2d",
+          "to": "R-e6ceb2cee72b9dfd23ca",
+          "hours": 0.0,
+          "distance_km": 777.4138768387619,
+          "speed_kmh": null
+        },
+        {
+          "from": "R-e6ceb2cee72b9dfd23ca",
+          "to": "R-dc2f5d88a223c814595f",
+          "hours": 0.2833333333333333,
+          "distance_km": 11.1099392703815,
+          "speed_kmh": 39.21155036605235
+        },
+        {
+          "from": "R-dc2f5d88a223c814595f",
+          "to": "R-66434823582d85b4baf7",
+          "hours": 0.0,
+          "distance_km": 748.6072794217716,
+          "speed_kmh": null
+        },
+        {
+          "from": "R-66434823582d85b4baf7",
+          "to": "R-c63fcb23095d4fd63ca1",
+          "hours": 0.2833333333333333,
+          "distance_km": 733.9431998992097,
+          "speed_kmh": 2590.387764350152
+        },
+        {
+          "from": "R-c63fcb23095d4fd63ca1",
+          "to": "R-2b19f97a587a767c2127",
+          "hours": 0.0,
+          "distance_km": 724.4702059832813,
+          "speed_kmh": null
+        },
+        {
+          "from": "R-2b19f97a587a767c2127",
+          "to": "R-375ab08045c586ca2ec4",
+          "hours": 0.2833333333333333,
+          "distance_km": 705.7498798366138,
+          "speed_kmh": 2490.8819288351074
+        },
+        {
+          "from": "R-375ab08045c586ca2ec4",
+          "to": "R-d24b591492cbf4e9f1e4",
+          "hours": 0.0,
+          "distance_km": 697.5841014420008,
+          "speed_kmh": null
+        },
+        {
+          "from": "R-d24b591492cbf4e9f1e4",
+          "to": "R-755b158690105a83d678",
+          "hours": 0.2833333333333333,
+          "distance_km": 686.0759792503495,
+          "speed_kmh": 2421.4446326482926
+        },
+        {
+          "from": "R-755b158690105a83d678",
+          "to": "R-e15169909da7870ed1ed",
+          "hours": 0.0,
+          "distance_km": 685.5377388393309,
+          "speed_kmh": null
+        }
+      ]
+    },
+    {
+      "id": "TR-6d748e3d0726cca7adb5",
+      "day": "2025-05-03",
+      "kind": "舰船",
+      "batch": "SHIP-91536FFB32FE93",
+      "record_ids": [
+        "R-9faf5ee355fdfe3a89b4",
+        "R-0f49d063f6f332f30ed3",
+        "R-8e1bbaf20c4513da33ff",
+        "R-9f59414e409dab1fd62e",
+        "R-806bf502dc2a73a3a99e",
+        "R-e14a6e2fed4f1106542b",
+        "R-d42d08982c961340efc2",
+        "R-9ac1906ea16db985fd99",
+        "R-e7f734f7bad0470cc0c8",
+        "R-7597d259d0d025ff0fe6",
+        "R-f578e046cc2ff29cc11a",
+        "R-1645dcbfb1d0bb16bd71"
+      ],
+      "flags": [
+        "inconsistent:活动区域",
+        "same_timestamp"
+      ],
+      "segments": [
+        {
+          "from": "R-9faf5ee355fdfe3a89b4",
+          "to": "R-0f49d063f6f332f30ed3",
+          "hours": 0.0
+        },
+        {
+          "from": "R-0f49d063f6f332f30ed3",
+          "to": "R-8e1bbaf20c4513da33ff",
+          "hours": 0.48333333333333334
+        },
+        {
+          "from": "R-8e1bbaf20c4513da33ff",
+          "to": "R-9f59414e409dab1fd62e",
+          "hours": 0.0
+        },
+        {
+          "from": "R-9f59414e409dab1fd62e",
+          "to": "R-806bf502dc2a73a3a99e",
+          "hours": 0.48333333333333334
+        },
+        {
+          "from": "R-806bf502dc2a73a3a99e",
+          "to": "R-e14a6e2fed4f1106542b",
+          "hours": 0.0
+        },
+        {
+          "from": "R-e14a6e2fed4f1106542b",
+          "to": "R-d42d08982c961340efc2",
+          "hours": 0.48333333333333334
+        },
+        {
+          "from": "R-d42d08982c961340efc2",
+          "to": "R-9ac1906ea16db985fd99",
+          "hours": 0.0
+        },
+        {
+          "from": "R-9ac1906ea16db985fd99",
+          "to": "R-e7f734f7bad0470cc0c8",
+          "hours": 0.48333333333333334
+        },
+        {
+          "from": "R-e7f734f7bad0470cc0c8",
+          "to": "R-7597d259d0d025ff0fe6",
+          "hours": 0.0
+        },
+        {
+          "from": "R-7597d259d0d025ff0fe6",
+          "to": "R-f578e046cc2ff29cc11a",
+          "hours": 0.48333333333333334
+        },
+        {
+          "from": "R-f578e046cc2ff29cc11a",
+          "to": "R-1645dcbfb1d0bb16bd71",
+          "hours": 0.0
+        }
+      ]
+    },
+    {
+      "id": "TR-8ed697f4c04bc969a667",
+      "day": "2025-05-03",
+      "kind": "舰船",
+      "batch": "SHIP-C3E3011E6055C0",
+      "record_ids": [
+        "R-d85331f622c0759674a5",
+        "R-972dbb39349ea024cf6b",
+        "R-2f551acee70934842b5c",
+        "R-8ec3c4d65fe311134062",
+        "R-b3e0d982c7676dc4e3ca",
+        "R-80192481e33e3cea9631",
+        "R-f13dd7544247c8c44bf2",
+        "R-3a75fdf04fff57d91cc4",
+        "R-3702bc9887a2e37fd686",
+        "R-a04b03aaf9cbc68e8722",
+        "R-a9f3078e128cb9861c07"
+      ],
+      "flags": [
+        "inconsistent:活动区域",
+        "same_timestamp"
+      ],
+      "segments": [
+        {
+          "from": "R-d85331f622c0759674a5",
+          "to": "R-972dbb39349ea024cf6b",
+          "hours": 0.2833333333333333
+        },
+        {
+          "from": "R-972dbb39349ea024cf6b",
+          "to": "R-2f551acee70934842b5c",
+          "hours": 0.07083333333333333
+        },
+        {
+          "from": "R-2f551acee70934842b5c",
+          "to": "R-8ec3c4d65fe311134062",
+          "hours": 0.2125
+        },
+        {
+          "from": "R-8ec3c4d65fe311134062",
+          "to": "R-b3e0d982c7676dc4e3ca",
+          "hours": 0.14166666666666666
+        },
+        {
+          "from": "R-b3e0d982c7676dc4e3ca",
+          "to": "R-80192481e33e3cea9631",
+          "hours": 0.14166666666666666
+        },
+        {
+          "from": "R-80192481e33e3cea9631",
+          "to": "R-f13dd7544247c8c44bf2",
+          "hours": 0.2125
+        },
+        {
+          "from": "R-f13dd7544247c8c44bf2",
+          "to": "R-3a75fdf04fff57d91cc4",
+          "hours": 0.07083333333333333
+        },
+        {
+          "from": "R-3a75fdf04fff57d91cc4",
+          "to": "R-3702bc9887a2e37fd686",
+          "hours": 0.2833333333333333
+        },
+        {
+          "from": "R-3702bc9887a2e37fd686",
+          "to": "R-a04b03aaf9cbc68e8722",
+          "hours": 0.0
+        },
+        {
+          "from": "R-a04b03aaf9cbc68e8722",
+          "to": "R-a9f3078e128cb9861c07",
+          "hours": 0.0
+        }
+      ]
+    },
+    {
+      "id": "TR-41c827efada39405209d",
+      "day": "2025-05-04",
+      "kind": "舰船",
+      "batch": "SHIP-688D7CE6A63347",
+      "record_ids": [
+        "R-eed7301d340cf7ac861a",
+        "R-e7eb5c460f2cf15bdd65",
+        "R-4f59577fe42affb744d0",
+        "R-c78c6dd82a656e799c21",
+        "R-de82fd4e5365e4211d06",
+        "R-ed62d2aa52f0dff9976b",
+        "R-c67e5d2cba46e2c67859",
+        "R-0b626c4b2575e162ab02",
+        "R-6a6a0a38cd49a7ab2225",
+        "R-e55f9a7dfb2118259754",
+        "R-4273abcfedfaa33824a2",
+        "R-44cef8db3e6c25f35894",
+        "R-814c265c16c976914ee5"
+      ],
+      "flags": [
+        "inconsistent:活动区域",
+        "same_timestamp"
+      ],
+      "segments": [
+        {
+          "from": "R-eed7301d340cf7ac861a",
+          "to": "R-e7eb5c460f2cf15bdd65",
+          "hours": 0.4027777777777778
+        },
+        {
+          "from": "R-e7eb5c460f2cf15bdd65",
+          "to": "R-4f59577fe42affb744d0",
+          "hours": 0.08055555555555556
+        },
+        {
+          "from": "R-4f59577fe42affb744d0",
+          "to": "R-c78c6dd82a656e799c21",
+          "hours": 0.32222222222222224
+        },
+        {
+          "from": "R-c78c6dd82a656e799c21",
+          "to": "R-de82fd4e5365e4211d06",
+          "hours": 0.16111111111111112
+        },
+        {
+          "from": "R-de82fd4e5365e4211d06",
+          "to": "R-ed62d2aa52f0dff9976b",
+          "hours": 0.24166666666666667
+        },
+        {
+          "from": "R-ed62d2aa52f0dff9976b",
+          "to": "R-c67e5d2cba46e2c67859",
+          "hours": 0.24166666666666667
+        },
+        {
+          "from": "R-c67e5d2cba46e2c67859",
+          "to": "R-0b626c4b2575e162ab02",
+          "hours": 0.16111111111111112
+        },
+        {
+          "from": "R-0b626c4b2575e162ab02",
+          "to": "R-6a6a0a38cd49a7ab2225",
+          "hours": 0.32222222222222224
+        },
+        {
+          "from": "R-6a6a0a38cd49a7ab2225",
+          "to": "R-e55f9a7dfb2118259754",
+          "hours": 0.08055555555555556
+        },
+        {
+          "from": "R-e55f9a7dfb2118259754",
+          "to": "R-4273abcfedfaa33824a2",
+          "hours": 0.4027777777777778
+        },
+        {
+          "from": "R-4273abcfedfaa33824a2",
+          "to": "R-44cef8db3e6c25f35894",
+          "hours": 0.0
+        },
+        {
+          "from": "R-44cef8db3e6c25f35894",
+          "to": "R-814c265c16c976914ee5",
+          "hours": 0.0
+        }
+      ]
+    },
+    {
+      "id": "TR-d4a760ff50ad17d37bde",
+      "day": "2025-05-04",
+      "kind": "舰船",
+      "batch": "SHIP-51170807A5809D",
+      "record_ids": [
+        "R-3b88eaed9088a21a65f9",
+        "R-a3eef539d7583154f7ac",
+        "R-a6ca4d850033e58eb4b7",
+        "R-91f0b36e8815a799e742",
+        "R-5917e14f08a428055dbb",
+        "R-3c29a2946bd771d13b42",
+        "R-3614d47434d5a4542438",
+        "R-f01b9864c193e9bbb6d2",
+        "R-af079b5f3cccb7dbb178",
+        "R-6705c9d77fc99a9f7904",
+        "R-f220e92de6a446814b5a",
+        "R-7dbcf5350893134aadf9"
+      ],
+      "flags": [
+        "inconsistent:活动区域",
+        "same_timestamp"
+      ],
+      "segments": [
+        {
+          "from": "R-3b88eaed9088a21a65f9",
+          "to": "R-a3eef539d7583154f7ac",
+          "hours": 0.0
+        },
+        {
+          "from": "R-a3eef539d7583154f7ac",
+          "to": "R-a6ca4d850033e58eb4b7",
+          "hours": 0.2833333333333333
+        },
+        {
+          "from": "R-a6ca4d850033e58eb4b7",
+          "to": "R-91f0b36e8815a799e742",
+          "hours": 0.0
+        },
+        {
+          "from": "R-91f0b36e8815a799e742",
+          "to": "R-5917e14f08a428055dbb",
+          "hours": 0.2833333333333333
+        },
+        {
+          "from": "R-5917e14f08a428055dbb",
+          "to": "R-3c29a2946bd771d13b42",
+          "hours": 0.0
+        },
+        {
+          "from": "R-3c29a2946bd771d13b42",
+          "to": "R-3614d47434d5a4542438",
+          "hours": 0.2833333333333333
+        },
+        {
+          "from": "R-3614d47434d5a4542438",
+          "to": "R-f01b9864c193e9bbb6d2",
+          "hours": 0.0
+        },
+        {
+          "from": "R-f01b9864c193e9bbb6d2",
+          "to": "R-af079b5f3cccb7dbb178",
+          "hours": 0.2833333333333333
+        },
+        {
+          "from": "R-af079b5f3cccb7dbb178",
+          "to": "R-6705c9d77fc99a9f7904",
+          "hours": 0.0
+        },
+        {
+          "from": "R-6705c9d77fc99a9f7904",
+          "to": "R-f220e92de6a446814b5a",
+          "hours": 0.2833333333333333
+        },
+        {
+          "from": "R-f220e92de6a446814b5a",
+          "to": "R-7dbcf5350893134aadf9",
+          "hours": 0.0
+        }
+      ]
+    },
+    {
+      "id": "TR-980dc2e441ac798d9e75",
+      "day": "2025-05-05",
+      "kind": "飞机",
+      "batch": "AIR-AC042D74F49704",
+      "record_ids": [
+        "R-f47fcedffe876a9184e6",
+        "R-3f51204b275da4b98edb",
+        "R-fcc23961e1fcc6596066",
+        "R-52ba66c51d7d06092178",
+        "R-36243066a1f7432b8025",
+        "R-4364d771e66af86050f8",
+        "R-9aff81d02575df6f8c3f",
+        "R-3aa99eb7e7e051c4daa8",
+        "R-3f8e2c57fcfc30e2cd06",
+        "R-700d1378c271332d792b",
+        "R-671f8be9a02fc581e79c",
+        "R-6b70cc8604231c7ea1cd"
+      ],
+      "flags": [
+        "position_jump_candidate",
+        "same_timestamp"
+      ],
+      "segments": [
+        {
+          "from": "R-f47fcedffe876a9184e6",
+          "to": "R-3f51204b275da4b98edb",
+          "hours": 0.0,
+          "distance_km": 1666.85934417586,
+          "speed_kmh": null
+        },
+        {
+          "from": "R-3f51204b275da4b98edb",
+          "to": "R-fcc23961e1fcc6596066",
+          "hours": 0.2833333333333333,
+          "distance_km": 10.412305517220705,
+          "speed_kmh": 36.749313590190724
+        },
+        {
+          "from": "R-fcc23961e1fcc6596066",
+          "to": "R-52ba66c51d7d06092178",
+          "hours": 0.0,
+          "distance_km": 1666.27125669174,
+          "speed_kmh": null
+        },
+        {
+          "from": "R-52ba66c51d7d06092178",
+          "to": "R-36243066a1f7432b8025",
+          "hours": 0.2833333333333333,
+          "distance_km": 10.240800286273032,
+          "speed_kmh": 36.144001010375405
+        },
+        {
+          "from": "R-36243066a1f7432b8025",
+          "to": "R-4364d771e66af86050f8",
+          "hours": 0.0,
+          "distance_km": 1647.9503736477616,
+          "speed_kmh": null
+        },
+        {
+          "from": "R-4364d771e66af86050f8",
+          "to": "R-9aff81d02575df6f8c3f",
+          "hours": 0.2833333333333333,
+          "distance_km": 1647.9847625641962,
+          "speed_kmh": 5816.416809050104
+        },
+        {
+          "from": "R-9aff81d02575df6f8c3f",
+          "to": "R-3aa99eb7e7e051c4daa8",
+          "hours": 0.0,
+          "distance_km": 1639.7648160798385,
+          "speed_kmh": null
+        },
+        {
+          "from": "R-3aa99eb7e7e051c4daa8",
+          "to": "R-3f8e2c57fcfc30e2cd06",
+          "hours": 0.2833333333333333,
+          "distance_km": 16.248030865568147,
+          "speed_kmh": 57.34599129024052
+        },
+        {
+          "from": "R-3f8e2c57fcfc30e2cd06",
+          "to": "R-700d1378c271332d792b",
+          "hours": 0.0,
+          "distance_km": 1633.3208465206649,
+          "speed_kmh": null
+        },
+        {
+          "from": "R-700d1378c271332d792b",
+          "to": "R-671f8be9a02fc581e79c",
+          "hours": 0.2833333333333333,
+          "distance_km": 1632.4496467363906,
+          "speed_kmh": 5761.586988481379
+        },
+        {
+          "from": "R-671f8be9a02fc581e79c",
+          "to": "R-6b70cc8604231c7ea1cd",
+          "hours": 0.0,
+          "distance_km": 1620.3879472846074,
+          "speed_kmh": null
+        }
+      ]
+    },
+    {
+      "id": "TR-2eda2ef96cb62406f5e0",
+      "day": "2025-05-05",
+      "kind": "飞机",
+      "batch": "AIR-8E3FBEC051E310",
+      "record_ids": [
+        "R-f3e4a62b3473048ea820",
+        "R-e2aad3f58c0df6d9fb58",
+        "R-3d44efdd185ba093fdd9",
+        "R-f1bc4540b98bad65b010",
+        "R-4324b0240074b3ee8b3f",
+        "R-b8d43abd918d710a3bed",
+        "R-8094734ecf6565af8eec",
+        "R-3d10f143dad98896cdba",
+        "R-ddc6d1c98bda21ab8943",
+        "R-f21e6c8d6fb004c15260",
+        "R-fd4bf1f7a4a09a41f102",
+        "R-ffed461a9432faf7cb4a"
+      ],
+      "flags": [
+        "position_jump_candidate",
+        "same_timestamp"
+      ],
+      "segments": [
+        {
+          "from": "R-f3e4a62b3473048ea820",
+          "to": "R-e2aad3f58c0df6d9fb58",
+          "hours": 0.0,
+          "distance_km": 1850.4499038910312,
+          "speed_kmh": null
+        },
+        {
+          "from": "R-e2aad3f58c0df6d9fb58",
+          "to": "R-3d44efdd185ba093fdd9",
+          "hours": 0.2833333333333333,
+          "distance_km": 1842.1740278425827,
+          "speed_kmh": 6501.790686503234
+        },
+        {
+          "from": "R-3d44efdd185ba093fdd9",
+          "to": "R-f1bc4540b98bad65b010",
+          "hours": 0.0,
+          "distance_km": 1846.4998009827573,
+          "speed_kmh": null
+        },
+        {
+          "from": "R-f1bc4540b98bad65b010",
+          "to": "R-4324b0240074b3ee8b3f",
+          "hours": 0.2833333333333333,
+          "distance_km": 8.553339641324692,
+          "speed_kmh": 30.188257557616563
+        },
+        {
+          "from": "R-4324b0240074b3ee8b3f",
+          "to": "R-b8d43abd918d710a3bed",
+          "hours": 0.0,
+          "distance_km": 1839.1881558933508,
+          "speed_kmh": null
+        },
+        {
+          "from": "R-b8d43abd918d710a3bed",
+          "to": "R-8094734ecf6565af8eec",
+          "hours": 0.2833333333333333,
+          "distance_km": 1838.310298452626,
+          "speed_kmh": 6488.15399453868
+        },
+        {
+          "from": "R-8094734ecf6565af8eec",
+          "to": "R-3d10f143dad98896cdba",
+          "hours": 0.0,
+          "distance_km": 1825.389531868468,
+          "speed_kmh": null
+        },
+        {
+          "from": "R-3d10f143dad98896cdba",
+          "to": "R-ddc6d1c98bda21ab8943",
+          "hours": 0.2833333333333333,
+          "distance_km": 1833.7548197482429,
+          "speed_kmh": 6472.075834405563
+        },
+        {
+          "from": "R-ddc6d1c98bda21ab8943",
+          "to": "R-f21e6c8d6fb004c15260",
+          "hours": 0.0,
+          "distance_km": 1816.414246020577,
+          "speed_kmh": null
+        },
+        {
+          "from": "R-f21e6c8d6fb004c15260",
+          "to": "R-fd4bf1f7a4a09a41f102",
+          "hours": 0.2833333333333333,
+          "distance_km": 17.00584641809155,
+          "speed_kmh": 60.02063441679371
+        },
+        {
+          "from": "R-fd4bf1f7a4a09a41f102",
+          "to": "R-ffed461a9432faf7cb4a",
+          "hours": 0.0,
+          "distance_km": 1806.5926939325616,
+          "speed_kmh": null
+        }
+      ]
+    },
+    {
+      "id": "TR-e9012119ac7feef43ad5",
+      "day": "2025-05-06",
+      "kind": "舰船",
+      "batch": "SHIP-163346A6D0F39B",
+      "record_ids": [
+        "R-b1216e9ebb20600390c2",
+        "R-a30435dc6aafb191da6f",
+        "R-a4d6087a718a39d1977c",
+        "R-c865d80a3b8ce1da17ce",
+        "R-440993f9b913f2418101",
+        "R-54a98581f787a67296a4",
+        "R-0ebba811f37f13701da6",
+        "R-3918fec1c0a6d4e954ca",
+        "R-dadd3bfcf5653ba946f9",
+        "R-aa438aa460cb34679b05",
+        "R-68447025782f9d5629e9",
+        "R-388b87ea71a7aad3bd4a"
+      ],
+      "flags": [
+        "inconsistent:活动区域",
+        "same_timestamp"
+      ],
+      "segments": [
+        {
+          "from": "R-b1216e9ebb20600390c2",
+          "to": "R-a30435dc6aafb191da6f",
+          "hours": 0.0
+        },
+        {
+          "from": "R-a30435dc6aafb191da6f",
+          "to": "R-a4d6087a718a39d1977c",
+          "hours": 0.48333333333333334
+        },
+        {
+          "from": "R-a4d6087a718a39d1977c",
+          "to": "R-c865d80a3b8ce1da17ce",
+          "hours": 0.0
+        },
+        {
+          "from": "R-c865d80a3b8ce1da17ce",
+          "to": "R-440993f9b913f2418101",
+          "hours": 0.48333333333333334
+        },
+        {
+          "from": "R-440993f9b913f2418101",
+          "to": "R-54a98581f787a67296a4",
+          "hours": 0.0
+        },
+        {
+          "from": "R-54a98581f787a67296a4",
+          "to": "R-0ebba811f37f13701da6",
+          "hours": 0.48333333333333334
+        },
+        {
+          "from": "R-0ebba811f37f13701da6",
+          "to": "R-3918fec1c0a6d4e954ca",
+          "hours": 0.0
+        },
+        {
+          "from": "R-3918fec1c0a6d4e954ca",
+          "to": "R-dadd3bfcf5653ba946f9",
+          "hours": 0.48333333333333334
+        },
+        {
+          "from": "R-dadd3bfcf5653ba946f9",
+          "to": "R-aa438aa460cb34679b05",
+          "hours": 0.0
+        },
+        {
+          "from": "R-aa438aa460cb34679b05",
+          "to": "R-68447025782f9d5629e9",
+          "hours": 0.48333333333333334
+        },
+        {
+          "from": "R-68447025782f9d5629e9",
+          "to": "R-388b87ea71a7aad3bd4a",
+          "hours": 0.0
+        }
+      ]
+    },
+    {
+      "id": "TR-d7ac1dd521cd5e3aaa0a",
+      "day": "2025-05-06",
+      "kind": "舰船",
+      "batch": "SHIP-F9E51DA56CA4EE",
+      "record_ids": [
+        "R-6ad5dbc4cb5e3eb7e129",
+        "R-db266e9836fea2bac897",
+        "R-70244fde0c4e4be89109",
+        "R-861853c97e083e4a1569",
+        "R-b3a994872af5ff18cffc",
+        "R-edde8d6c1c254a99baa7",
+        "R-9203b344e39e6ce35cf8",
+        "R-a831f8df2d6900a47adc",
+        "R-7856a2370b7edca90bc6",
+        "R-539625a8058d208f9acc",
+        "R-a1f8b239cd1f2d8c30b7",
+        "R-2735b6ce25deefaf3a4b"
+      ],
+      "flags": [
+        "inconsistent:活动区域",
+        "same_timestamp"
+      ],
+      "segments": [
+        {
+          "from": "R-6ad5dbc4cb5e3eb7e129",
+          "to": "R-db266e9836fea2bac897",
+          "hours": 0.0
+        },
+        {
+          "from": "R-db266e9836fea2bac897",
+          "to": "R-70244fde0c4e4be89109",
+          "hours": 0.2833333333333333
+        },
+        {
+          "from": "R-70244fde0c4e4be89109",
+          "to": "R-861853c97e083e4a1569",
+          "hours": 0.0
+        },
+        {
+          "from": "R-861853c97e083e4a1569",
+          "to": "R-b3a994872af5ff18cffc",
+          "hours": 0.2833333333333333
+        },
+        {
+          "from": "R-b3a994872af5ff18cffc",
+          "to": "R-edde8d6c1c254a99baa7",
+          "hours": 0.0
+        },
+        {
+          "from": "R-edde8d6c1c254a99baa7",
+          "to": "R-9203b344e39e6ce35cf8",
+          "hours": 0.2833333333333333
+        },
+        {
+          "from": "R-9203b344e39e6ce35cf8",
+          "to": "R-a831f8df2d6900a47adc",
+          "hours": 0.0
+        },
+        {
+          "from": "R-a831f8df2d6900a47adc",
+          "to": "R-7856a2370b7edca90bc6",
+          "hours": 0.2833333333333333
+        },
+        {
+          "from": "R-7856a2370b7edca90bc6",
+          "to": "R-539625a8058d208f9acc",
+          "hours": 0.0
+        },
+        {
+          "from": "R-539625a8058d208f9acc",
+          "to": "R-a1f8b239cd1f2d8c30b7",
+          "hours": 0.2833333333333333
+        },
+        {
+          "from": "R-a1f8b239cd1f2d8c30b7",
+          "to": "R-2735b6ce25deefaf3a4b",
+          "hours": 0.0
+        }
+      ]
+    },
+    {
+      "id": "TR-ed3155e5cd5749455af6",
+      "day": "2025-05-07",
+      "kind": "舰船",
+      "batch": "SHIP-9F1C56A509229A",
+      "record_ids": [
+        "R-01d33da1e07c261407f9",
+        "R-c48297e4dc0b0f5740f4",
+        "R-57754df1dad1384dd7e4",
+        "R-cb05c50ca356f310a3c1",
+        "R-1780d7c3f8852e33acdd",
+        "R-364d6dfa84808f59ed5c",
+        "R-7297154fc813871a0678",
+        "R-e3cfadcb22e5482a977b",
+        "R-3fab876b32a37296c977",
+        "R-c2234d9647ea423cc825",
+        "R-50a218e41cdbc97bcd4d",
+        "R-56734c00202b09fc061e"
+      ],
+      "flags": [
+        "inconsistent:活动区域",
+        "same_timestamp"
+      ],
+      "segments": [
+        {
+          "from": "R-01d33da1e07c261407f9",
+          "to": "R-c48297e4dc0b0f5740f4",
+          "hours": 0.0
+        },
+        {
+          "from": "R-c48297e4dc0b0f5740f4",
+          "to": "R-57754df1dad1384dd7e4",
+          "hours": 0.2833333333333333
+        },
+        {
+          "from": "R-57754df1dad1384dd7e4",
+          "to": "R-cb05c50ca356f310a3c1",
+          "hours": 0.0
+        },
+        {
+          "from": "R-cb05c50ca356f310a3c1",
+          "to": "R-1780d7c3f8852e33acdd",
+          "hours": 0.2833333333333333
+        },
+        {
+          "from": "R-1780d7c3f8852e33acdd",
+          "to": "R-364d6dfa84808f59ed5c",
+          "hours": 0.0
+        },
+        {
+          "from": "R-364d6dfa84808f59ed5c",
+          "to": "R-7297154fc813871a0678",
+          "hours": 0.2833333333333333
+        },
+        {
+          "from": "R-7297154fc813871a0678",
+          "to": "R-e3cfadcb22e5482a977b",
+          "hours": 0.0
+        },
+        {
+          "from": "R-e3cfadcb22e5482a977b",
+          "to": "R-3fab876b32a37296c977",
+          "hours": 0.2833333333333333
+        },
+        {
+          "from": "R-3fab876b32a37296c977",
+          "to": "R-c2234d9647ea423cc825",
+          "hours": 0.0
+        },
+        {
+          "from": "R-c2234d9647ea423cc825",
+          "to": "R-50a218e41cdbc97bcd4d",
+          "hours": 0.2833333333333333
+        },
+        {
+          "from": "R-50a218e41cdbc97bcd4d",
+          "to": "R-56734c00202b09fc061e",
+          "hours": 0.0
+        }
+      ]
+    },
+    {
+      "id": "TR-0faae93df73f7927f7bf",
+      "day": "2025-05-07",
+      "kind": "舰船",
+      "batch": "SHIP-E79015835E3D1C",
+      "record_ids": [
+        "R-f4a42308fcb4e21ca576",
+        "R-5ced1f042f54e7436d68",
+        "R-44ae3f23417f656418a0",
+        "R-9737af3abd530c6a836f",
+        "R-e2ec744c6d5aa1da209e",
+        "R-0e8ab82907691c8a2ee5",
+        "R-76d48ff0e0f556a39c06",
+        "R-9d94a2a7d6edc9e87418",
+        "R-27116e4b62c6729ae4d3",
+        "R-e91af3e4b723adc4a716",
+        "R-7dbc916d19ae33622185",
+        "R-76210cdfab0f3ed3eb6d"
+      ],
+      "flags": [
+        "inconsistent:活动区域",
+        "same_timestamp"
+      ],
+      "segments": [
+        {
+          "from": "R-f4a42308fcb4e21ca576",
+          "to": "R-5ced1f042f54e7436d68",
+          "hours": 0.0
+        },
+        {
+          "from": "R-5ced1f042f54e7436d68",
+          "to": "R-44ae3f23417f656418a0",
+          "hours": 0.48333333333333334
+        },
+        {
+          "from": "R-44ae3f23417f656418a0",
+          "to": "R-9737af3abd530c6a836f",
+          "hours": 0.0
+        },
+        {
+          "from": "R-9737af3abd530c6a836f",
+          "to": "R-e2ec744c6d5aa1da209e",
+          "hours": 0.48333333333333334
+        },
+        {
+          "from": "R-e2ec744c6d5aa1da209e",
+          "to": "R-0e8ab82907691c8a2ee5",
+          "hours": 0.0
+        },
+        {
+          "from": "R-0e8ab82907691c8a2ee5",
+          "to": "R-76d48ff0e0f556a39c06",
+          "hours": 0.48333333333333334
+        },
+        {
+          "from": "R-76d48ff0e0f556a39c06",
+          "to": "R-9d94a2a7d6edc9e87418",
+          "hours": 0.0
+        },
+        {
+          "from": "R-9d94a2a7d6edc9e87418",
+          "to": "R-27116e4b62c6729ae4d3",
+          "hours": 0.48333333333333334
+        },
+        {
+          "from": "R-27116e4b62c6729ae4d3",
+          "to": "R-e91af3e4b723adc4a716",
+          "hours": 0.0
+        },
+        {
+          "from": "R-e91af3e4b723adc4a716",
+          "to": "R-7dbc916d19ae33622185",
+          "hours": 0.48333333333333334
+        },
+        {
+          "from": "R-7dbc916d19ae33622185",
+          "to": "R-76210cdfab0f3ed3eb6d",
+          "hours": 0.0
+        }
+      ]
+    },
+    {
+      "id": "TR-cd65a9dbf4cf1b9aaa61",
+      "day": "2025-05-08",
+      "kind": "舰船",
+      "batch": "SHIP-0FA3693A3A3F3A",
+      "record_ids": [
+        "R-11001fea547677f26d43",
+        "R-0b63872bde331a27b800",
+        "R-2f2a3533c90cae41bf4d",
+        "R-2b2e5f77b458aad4fc18",
+        "R-477629ca255b35f7dc44",
+        "R-e218522b3942653c79c9",
+        "R-9cb247441626a5317649",
+        "R-f70b8f1c9a5de11bbc01",
+        "R-54ef9069afeb1c8417e5",
+        "R-7149d32c6543efc5e263",
+        "R-fa26818ea49881145b68",
+        "R-66d5fe4a3890ad2908b7",
+        "R-73c8150a6ae91b35a4df"
+      ],
+      "flags": [
+        "inconsistent:活动区域",
+        "same_timestamp"
+      ],
+      "segments": [
+        {
+          "from": "R-11001fea547677f26d43",
+          "to": "R-0b63872bde331a27b800",
+          "hours": 0.4027777777777778
+        },
+        {
+          "from": "R-0b63872bde331a27b800",
+          "to": "R-2f2a3533c90cae41bf4d",
+          "hours": 0.08055555555555556
+        },
+        {
+          "from": "R-2f2a3533c90cae41bf4d",
+          "to": "R-2b2e5f77b458aad4fc18",
+          "hours": 0.32222222222222224
+        },
+        {
+          "from": "R-2b2e5f77b458aad4fc18",
+          "to": "R-477629ca255b35f7dc44",
+          "hours": 0.16111111111111112
+        },
+        {
+          "from": "R-477629ca255b35f7dc44",
+          "to": "R-e218522b3942653c79c9",
+          "hours": 0.24166666666666667
+        },
+        {
+          "from": "R-e218522b3942653c79c9",
+          "to": "R-9cb247441626a5317649",
+          "hours": 0.24166666666666667
+        },
+        {
+          "from": "R-9cb247441626a5317649",
+          "to": "R-f70b8f1c9a5de11bbc01",
+          "hours": 0.16111111111111112
+        },
+        {
+          "from": "R-f70b8f1c9a5de11bbc01",
+          "to": "R-54ef9069afeb1c8417e5",
+          "hours": 0.32222222222222224
+        },
+        {
+          "from": "R-54ef9069afeb1c8417e5",
+          "to": "R-7149d32c6543efc5e263",
+          "hours": 0.08055555555555556
+        },
+        {
+          "from": "R-7149d32c6543efc5e263",
+          "to": "R-fa26818ea49881145b68",
+          "hours": 0.4027777777777778
+        },
+        {
+          "from": "R-fa26818ea49881145b68",
+          "to": "R-66d5fe4a3890ad2908b7",
+          "hours": 0.0
+        },
+        {
+          "from": "R-66d5fe4a3890ad2908b7",
+          "to": "R-73c8150a6ae91b35a4df",
+          "hours": 0.0
+        }
+      ]
+    },
+    {
+      "id": "TR-3a75fcd0eadd9627294f",
+      "day": "2025-05-08",
+      "kind": "舰船",
+      "batch": "SHIP-991990838B3BE1",
+      "record_ids": [
+        "R-332c40e17384a1266831",
+        "R-be61b2014dd712cb12a0",
+        "R-a518872d1ece5439f948",
+        "R-027fecbbdf25284949d5",
+        "R-6e331922f1d7347fb06f",
+        "R-b4c519f8fc596fbf78a9",
+        "R-9abfb34560fbed1776af",
+        "R-c1ff7e479ecf34644d33",
+        "R-1cae2ffcf749b255cc64",
+        "R-50a76d769ca82e7ee2b4",
+        "R-fa4a9079be308b1c41d4",
+        "R-87c81ba49b60c1387216"
+      ],
+      "flags": [
+        "inconsistent:活动区域",
+        "same_timestamp"
+      ],
+      "segments": [
+        {
+          "from": "R-332c40e17384a1266831",
+          "to": "R-be61b2014dd712cb12a0",
+          "hours": 0.0
+        },
+        {
+          "from": "R-be61b2014dd712cb12a0",
+          "to": "R-a518872d1ece5439f948",
+          "hours": 0.2833333333333333
+        },
+        {
+          "from": "R-a518872d1ece5439f948",
+          "to": "R-027fecbbdf25284949d5",
+          "hours": 0.0
+        },
+        {
+          "from": "R-027fecbbdf25284949d5",
+          "to": "R-6e331922f1d7347fb06f",
+          "hours": 0.2833333333333333
+        },
+        {
+          "from": "R-6e331922f1d7347fb06f",
+          "to": "R-b4c519f8fc596fbf78a9",
+          "hours": 0.0
+        },
+        {
+          "from": "R-b4c519f8fc596fbf78a9",
+          "to": "R-9abfb34560fbed1776af",
+          "hours": 0.2833333333333333
+        },
+        {
+          "from": "R-9abfb34560fbed1776af",
+          "to": "R-c1ff7e479ecf34644d33",
+          "hours": 0.0
+        },
+        {
+          "from": "R-c1ff7e479ecf34644d33",
+          "to": "R-1cae2ffcf749b255cc64",
+          "hours": 0.2833333333333333
+        },
+        {
+          "from": "R-1cae2ffcf749b255cc64",
+          "to": "R-50a76d769ca82e7ee2b4",
+          "hours": 0.0
+        },
+        {
+          "from": "R-50a76d769ca82e7ee2b4",
+          "to": "R-fa4a9079be308b1c41d4",
+          "hours": 0.2833333333333333
+        },
+        {
+          "from": "R-fa4a9079be308b1c41d4",
+          "to": "R-87c81ba49b60c1387216",
+          "hours": 0.0
+        }
+      ]
+    },
+    {
+      "id": "TR-977cf550d9a0b2a75569",
+      "day": "2025-05-09",
+      "kind": "飞机",
+      "batch": "AIR-2B0AD2C8589D1F",
+      "record_ids": [
+        "R-c9e50553a0e727ec85fb",
+        "R-675c285018fc5fb62c0e",
+        "R-ac83fb754c50b0bac60b",
+        "R-71ab3b1c5e5fc9dfa664",
+        "R-d1982217c788ad0d425f",
+        "R-8dd6542de306076b4c4d",
+        "R-14621b756d18ba925117",
+        "R-45ada3f03e420d8932c0",
+        "R-335e6e8204a89aef1032",
+        "R-10feb306ce2240681970",
+        "R-1208b1711c66666c08b6",
+        "R-1a9e01869efe8aa109b9",
+        "R-4e3ef34a3e0efbaf5d2e"
+      ],
+      "flags": [
+        "position_jump_candidate",
+        "same_timestamp"
+      ],
+      "segments": [
+        {
+          "from": "R-c9e50553a0e727ec85fb",
+          "to": "R-675c285018fc5fb62c0e",
+          "hours": 0.4027777777777778,
+          "distance_km": 719.2634594012435,
+          "speed_kmh": 1785.757554375501
+        },
+        {
+          "from": "R-675c285018fc5fb62c0e",
+          "to": "R-ac83fb754c50b0bac60b",
+          "hours": 0.08055555555555556,
+          "distance_km": 725.2025901799948,
+          "speed_kmh": 9002.514912579245
+        },
+        {
+          "from": "R-ac83fb754c50b0bac60b",
+          "to": "R-71ab3b1c5e5fc9dfa664",
+          "hours": 0.32222222222222224,
+          "distance_km": 712.359364706888,
+          "speed_kmh": 2210.77044219379
+        },
+        {
+          "from": "R-71ab3b1c5e5fc9dfa664",
+          "to": "R-d1982217c788ad0d425f",
+          "hours": 0.16111111111111112,
+          "distance_km": 718.4592265716177,
+          "speed_kmh": 4459.402095961765
+        },
+        {
+          "from": "R-d1982217c788ad0d425f",
+          "to": "R-8dd6542de306076b4c4d",
+          "hours": 0.24166666666666667,
+          "distance_km": 722.7893899999798,
+          "speed_kmh": 2990.8526482757784
+        },
+        {
+          "from": "R-8dd6542de306076b4c4d",
+          "to": "R-14621b756d18ba925117",
+          "hours": 0.24166666666666667,
+          "distance_km": 735.862910597296,
+          "speed_kmh": 3044.9499748853627
+        },
+        {
+          "from": "R-14621b756d18ba925117",
+          "to": "R-45ada3f03e420d8932c0",
+          "hours": 0.16111111111111112,
+          "distance_km": 731.422291439216,
+          "speed_kmh": 4539.862498588237
+        },
+        {
+          "from": "R-45ada3f03e420d8932c0",
+          "to": "R-335e6e8204a89aef1032",
+          "hours": 0.32222222222222224,
+          "distance_km": 736.5458190662331,
+          "speed_kmh": 2285.831852274516
+        },
+        {
+          "from": "R-335e6e8204a89aef1032",
+          "to": "R-10feb306ce2240681970",
+          "hours": 0.08055555555555556,
+          "distance_km": 730.9367048076989,
+          "speed_kmh": 9073.69702519902
+        },
+        {
+          "from": "R-10feb306ce2240681970",
+          "to": "R-1208b1711c66666c08b6",
+          "hours": 0.4027777777777778,
+          "distance_km": 747.3174663383248,
+          "speed_kmh": 1855.408881943427
+        },
+        {
+          "from": "R-1208b1711c66666c08b6",
+          "to": "R-1a9e01869efe8aa109b9",
+          "hours": 0.0,
+          "distance_km": 3.463422732128617,
+          "speed_kmh": null
+        },
+        {
+          "from": "R-1a9e01869efe8aa109b9",
+          "to": "R-4e3ef34a3e0efbaf5d2e",
+          "hours": 0.0,
+          "distance_km": 737.019162582884,
+          "speed_kmh": null
+        }
+      ]
+    },
+    {
+      "id": "TR-115761b54c421d4b577f",
+      "day": "2025-05-09",
+      "kind": "飞机",
+      "batch": "AIR-1C3E61B9284A80",
+      "record_ids": [
+        "R-804abc3d27068675af84",
+        "R-d3ffd34e5361842e8ba3",
+        "R-513e432aa76c4a1a4361",
+        "R-7a4c877bf06fa06e4a50",
+        "R-7b86b2eed557a5e69ae4",
+        "R-d17eee5547781b18cdf4",
+        "R-d99b99fcd117a98803bf",
+        "R-6ea8b23dddf7c11f4200",
+        "R-6db0a57b6f24e8edf3e4",
+        "R-1e4c3f42d75c6146caeb",
+        "R-0dee6108ba1851b46504",
+        "R-d8441dd26bfcf2f652f6"
+      ],
+      "flags": [
+        "position_jump_candidate",
+        "same_timestamp"
+      ],
+      "segments": [
+        {
+          "from": "R-804abc3d27068675af84",
+          "to": "R-d3ffd34e5361842e8ba3",
+          "hours": 0.0,
+          "distance_km": 2752.195335513484,
+          "speed_kmh": null
+        },
+        {
+          "from": "R-d3ffd34e5361842e8ba3",
+          "to": "R-513e432aa76c4a1a4361",
+          "hours": 0.2833333333333333,
+          "distance_km": 2753.7832560063744,
+          "speed_kmh": 9719.235021198969
+        },
+        {
+          "from": "R-513e432aa76c4a1a4361",
+          "to": "R-7a4c877bf06fa06e4a50",
+          "hours": 0.0,
+          "distance_km": 2758.0851966998307,
+          "speed_kmh": null
+        },
+        {
+          "from": "R-7a4c877bf06fa06e4a50",
+          "to": "R-7b86b2eed557a5e69ae4",
+          "hours": 0.2833333333333333,
+          "distance_km": 16.436398015733328,
+          "speed_kmh": 58.01081652611763
+        },
+        {
+          "from": "R-7b86b2eed557a5e69ae4",
+          "to": "R-d17eee5547781b18cdf4",
+          "hours": 0.0,
+          "distance_km": 2771.756358095415,
+          "speed_kmh": null
+        },
+        {
+          "from": "R-d17eee5547781b18cdf4",
+          "to": "R-d99b99fcd117a98803bf",
+          "hours": 0.2833333333333333,
+          "distance_km": 2772.2098454461175,
+          "speed_kmh": 9784.270042751003
+        },
+        {
+          "from": "R-d99b99fcd117a98803bf",
+          "to": "R-6ea8b23dddf7c11f4200",
+          "hours": 0.0,
+          "distance_km": 2770.89768290284,
+          "speed_kmh": null
+        },
+        {
+          "from": "R-6ea8b23dddf7c11f4200",
+          "to": "R-6db0a57b6f24e8edf3e4",
+          "hours": 0.2833333333333333,
+          "distance_km": 2781.9050681977346,
+          "speed_kmh": 9818.488475992004
+        },
+        {
+          "from": "R-6db0a57b6f24e8edf3e4",
+          "to": "R-1e4c3f42d75c6146caeb",
+          "hours": 0.0,
+          "distance_km": 2770.4495982967796,
+          "speed_kmh": null
+        },
+        {
+          "from": "R-1e4c3f42d75c6146caeb",
+          "to": "R-0dee6108ba1851b46504",
+          "hours": 0.2833333333333333,
+          "distance_km": 12.225942756748559,
+          "speed_kmh": 43.150386200289034
+        },
+        {
+          "from": "R-0dee6108ba1851b46504",
+          "to": "R-d8441dd26bfcf2f652f6",
+          "hours": 0.0,
+          "distance_km": 2763.939933959886,
+          "speed_kmh": null
+        }
+      ]
+    },
+    {
+      "id": "TR-4b245f4ba85cfd75726b",
+      "day": "2025-05-10",
+      "kind": "舰船",
+      "batch": "SHIP-C8D66FB15B8C0B",
+      "record_ids": [
+        "R-6817ff86745c9ee3b1ce",
+        "R-0632657109ebebbbc90e",
+        "R-8d57679f6f309926278d",
+        "R-0535fb4d070aa469d459",
+        "R-81002db5025168ba3df7",
+        "R-94b4a4ee1f1302ba5142",
+        "R-3e6abd4a322543b486c8",
+        "R-1eb494843363a800aff2",
+        "R-4d4e49933652d7a03db4",
+        "R-8a773652a0b6e3a191fb",
+        "R-4da29f90a6741b475672",
+        "R-febe9b8eb45e48393999",
+        "R-7b8df40a1658f9dad771",
+        "R-c83beb948bb935b893ff"
+      ],
+      "flags": [
+        "inconsistent:活动区域",
+        "same_timestamp"
+      ],
+      "segments": [
+        {
+          "from": "R-6817ff86745c9ee3b1ce",
+          "to": "R-0632657109ebebbbc90e",
+          "hours": 0.0
+        },
+        {
+          "from": "R-0632657109ebebbbc90e",
+          "to": "R-8d57679f6f309926278d",
+          "hours": 0.2361111111111111
+        },
+        {
+          "from": "R-8d57679f6f309926278d",
+          "to": "R-0535fb4d070aa469d459",
+          "hours": 0.0
+        },
+        {
+          "from": "R-0535fb4d070aa469d459",
+          "to": "R-81002db5025168ba3df7",
+          "hours": 0.2361111111111111
+        },
+        {
+          "from": "R-81002db5025168ba3df7",
+          "to": "R-94b4a4ee1f1302ba5142",
+          "hours": 0.0
+        },
+        {
+          "from": "R-94b4a4ee1f1302ba5142",
+          "to": "R-3e6abd4a322543b486c8",
+          "hours": 0.2361111111111111
+        },
+        {
+          "from": "R-3e6abd4a322543b486c8",
+          "to": "R-1eb494843363a800aff2",
+          "hours": 0.0
+        },
+        {
+          "from": "R-1eb494843363a800aff2",
+          "to": "R-4d4e49933652d7a03db4",
+          "hours": 0.2361111111111111
+        },
+        {
+          "from": "R-4d4e49933652d7a03db4",
+          "to": "R-8a773652a0b6e3a191fb",
+          "hours": 0.0
+        },
+        {
+          "from": "R-8a773652a0b6e3a191fb",
+          "to": "R-4da29f90a6741b475672",
+          "hours": 0.2361111111111111
+        },
+        {
+          "from": "R-4da29f90a6741b475672",
+          "to": "R-febe9b8eb45e48393999",
+          "hours": 0.0
+        },
+        {
+          "from": "R-febe9b8eb45e48393999",
+          "to": "R-7b8df40a1658f9dad771",
+          "hours": 0.2361111111111111
+        },
+        {
+          "from": "R-7b8df40a1658f9dad771",
+          "to": "R-c83beb948bb935b893ff",
+          "hours": 0.0
+        }
+      ]
+    },
+    {
+      "id": "TR-250549f194f39a686c56",
+      "day": "2025-05-10",
+      "kind": "舰船",
+      "batch": "SHIP-F4B78A88D06154",
+      "record_ids": [
+        "R-f3045ba3c49507192bb2",
+        "R-cc4ecf31e1e23a568cb4",
+        "R-043206806d0a5c526c1b",
+        "R-83ae389050c8ea0ae229",
+        "R-442b8e671be4f402708d",
+        "R-a067ac8309f1ed18e3a0",
+        "R-ceb4bc772b19541b5d97",
+        "R-73e76748aa95a9e6228e",
+        "R-af3330dff28e8e7c5c07",
+        "R-d8d7f64af90e7dbd4253",
+        "R-e3c5ddfaaabba6c3cd58",
+        "R-70eaa3e94619d9aac89d",
+        "R-76477fff5affc59ddad7"
+      ],
+      "flags": [
+        "inconsistent:活动区域",
+        "same_timestamp"
+      ],
+      "segments": [
+        {
+          "from": "R-f3045ba3c49507192bb2",
+          "to": "R-cc4ecf31e1e23a568cb4",
+          "hours": 0.4027777777777778
+        },
+        {
+          "from": "R-cc4ecf31e1e23a568cb4",
+          "to": "R-043206806d0a5c526c1b",
+          "hours": 0.08055555555555556
+        },
+        {
+          "from": "R-043206806d0a5c526c1b",
+          "to": "R-83ae389050c8ea0ae229",
+          "hours": 0.32222222222222224
+        },
+        {
+          "from": "R-83ae389050c8ea0ae229",
+          "to": "R-442b8e671be4f402708d",
+          "hours": 0.16111111111111112
+        },
+        {
+          "from": "R-442b8e671be4f402708d",
+          "to": "R-a067ac8309f1ed18e3a0",
+          "hours": 0.24166666666666667
+        },
+        {
+          "from": "R-a067ac8309f1ed18e3a0",
+          "to": "R-ceb4bc772b19541b5d97",
+          "hours": 0.24166666666666667
+        },
+        {
+          "from": "R-ceb4bc772b19541b5d97",
+          "to": "R-73e76748aa95a9e6228e",
+          "hours": 0.16111111111111112
+        },
+        {
+          "from": "R-73e76748aa95a9e6228e",
+          "to": "R-af3330dff28e8e7c5c07",
+          "hours": 0.32222222222222224
+        },
+        {
+          "from": "R-af3330dff28e8e7c5c07",
+          "to": "R-d8d7f64af90e7dbd4253",
+          "hours": 0.08055555555555556
+        },
+        {
+          "from": "R-d8d7f64af90e7dbd4253",
+          "to": "R-e3c5ddfaaabba6c3cd58",
+          "hours": 0.4027777777777778
+        },
+        {
+          "from": "R-e3c5ddfaaabba6c3cd58",
+          "to": "R-70eaa3e94619d9aac89d",
+          "hours": 0.0
+        },
+        {
+          "from": "R-70eaa3e94619d9aac89d",
+          "to": "R-76477fff5affc59ddad7",
+          "hours": 0.0
+        }
+      ]
+    }
+  ]
+}
