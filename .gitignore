@@ -43,3 +43,6 @@ temp/
 # Coding Agents
 .claude/
 .codex/
+
+# Complete competition artifacts, including generated reports and archives
+!artifact/**

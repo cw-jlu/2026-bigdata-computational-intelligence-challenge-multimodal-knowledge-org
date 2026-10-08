@@ -1,0 +1,66 @@
+[
+  {
+    "node": "2025.5.10",
+    "core_events": 39,
+    "air": 23,
+    "ship": 16,
+    "excluded": 0,
+    "mainline": "德国“台风”多用途战斗机"
+  },
+  {
+    "node": "2025.5.18",
+    "core_events": 41,
+    "air": 19,
+    "ship": 22,
+    "excluded": 1,
+    "mainline": "美国阿利·伯克级导弹驱逐舰"
+  },
+  {
+    "node": "2025.5.30",
+    "core_events": 39,
+    "air": 22,
+    "ship": 17,
+    "excluded": 0,
+    "mainline": "菲律宾FA-50PH轻型战斗机"
+  },
+  {
+    "node": "2025.6.9",
+    "core_events": 40,
+    "air": 20,
+    "ship": 20,
+    "excluded": 0,
+    "mainline": "越南苏-30MK2多用途战斗机"
+  },
+  {
+    "node": "2025.6.17",
+    "core_events": 44,
+    "air": 21,
+    "ship": 23,
+    "excluded": 1,
+    "mainline": "德国“台风”多用途战斗机"
+  },
+  {
+    "node": "2025.6.29",
+    "core_events": 40,
+    "air": 20,
+    "ship": 20,
+    "excluded": 0,
+    "mainline": "韩国P-8A“海神”反潜巡逻机"
+  },
+  {
+    "node": "2025.7.9",
+    "core_events": 39,
+    "air": 21,
+    "ship": 18,
+    "excluded": 0,
+    "mainline": "新西兰P-8A“海神”反潜巡逻机"
+  },
+  {
+    "node": "2025.7.17",
+    "core_events": 41,
+    "air": 20,
+    "ship": 21,
+    "excluded": 0,
+    "mainline": "越南苏-30MK2多用途战斗机"
+  }
+]

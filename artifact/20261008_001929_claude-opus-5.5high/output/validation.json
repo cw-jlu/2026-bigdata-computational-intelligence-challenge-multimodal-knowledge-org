@@ -1,0 +1,810 @@
+[
+  {
+    "node": "2025.5.10",
+    "ok": true,
+    "checks": [
+      {
+        "check": "docx标题",
+        "pass": true,
+        "detail": "5月10日飞机舰船活动情况"
+      },
+      {
+        "check": "docx章节:当日活动总览",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:一、重要军事动向",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:二、重点态势分析",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:三、外（台）机舰活动情况",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:四、美重要武器平台部署情况",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:五、次日关注重点",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx引用附图1",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx引用附图2",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx引用附图3",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx引用附图4",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "xlsx工作表",
+        "pass": true,
+        "detail": "['飞机', '舰艇']"
+      },
+      {
+        "check": "飞机表字段",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "舰艇表字段",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png:01_舰机侦巡数量曲线图.png",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png:02_中国主要机舰活动示意图.png",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png:03_美国主要机舰活动示意图.png",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png:04_其他国家主要机舰活动示意图.png",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png数量",
+        "pass": true,
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "node": "2025.5.18",
+    "ok": true,
+    "checks": [
+      {
+        "check": "docx标题",
+        "pass": true,
+        "detail": "5月18日飞机舰船活动情况"
+      },
+      {
+        "check": "docx章节:当日活动总览",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:一、重要军事动向",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:二、重点态势分析",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:三、外（台）机舰活动情况",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:四、美重要武器平台部署情况",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:五、次日关注重点",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx引用附图1",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx引用附图2",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx引用附图3",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx引用附图4",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "xlsx工作表",
+        "pass": true,
+        "detail": "['飞机', '舰艇']"
+      },
+      {
+        "check": "飞机表字段",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "舰艇表字段",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png:01_舰机侦巡数量曲线图.png",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png:02_中国主要机舰活动示意图.png",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png:03_美国主要机舰活动示意图.png",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png:04_其他国家主要机舰活动示意图.png",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png数量",
+        "pass": true,
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "node": "2025.5.30",
+    "ok": true,
+    "checks": [
+      {
+        "check": "docx标题",
+        "pass": true,
+        "detail": "5月30日飞机舰船活动情况"
+      },
+      {
+        "check": "docx章节:当日活动总览",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:一、重要军事动向",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:二、重点态势分析",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:三、外（台）机舰活动情况",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:四、美重要武器平台部署情况",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:五、次日关注重点",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx引用附图1",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx引用附图2",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx引用附图3",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx引用附图4",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "xlsx工作表",
+        "pass": true,
+        "detail": "['飞机', '舰艇']"
+      },
+      {
+        "check": "飞机表字段",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "舰艇表字段",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png:01_舰机侦巡数量曲线图.png",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png:02_中国主要机舰活动示意图.png",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png:03_美国主要机舰活动示意图.png",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png:04_其他国家主要机舰活动示意图.png",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png数量",
+        "pass": true,
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "node": "2025.6.9",
+    "ok": true,
+    "checks": [
+      {
+        "check": "docx标题",
+        "pass": true,
+        "detail": "6月9日飞机舰船活动情况"
+      },
+      {
+        "check": "docx章节:当日活动总览",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:一、重要军事动向",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:二、重点态势分析",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:三、外（台）机舰活动情况",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:四、美重要武器平台部署情况",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:五、次日关注重点",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx引用附图1",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx引用附图2",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx引用附图3",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx引用附图4",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "xlsx工作表",
+        "pass": true,
+        "detail": "['飞机', '舰艇']"
+      },
+      {
+        "check": "飞机表字段",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "舰艇表字段",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png:01_舰机侦巡数量曲线图.png",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png:02_中国主要机舰活动示意图.png",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png:03_美国主要机舰活动示意图.png",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png:04_其他国家主要机舰活动示意图.png",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png数量",
+        "pass": true,
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "node": "2025.6.17",
+    "ok": true,
+    "checks": [
+      {
+        "check": "docx标题",
+        "pass": true,
+        "detail": "6月17日飞机舰船活动情况"
+      },
+      {
+        "check": "docx章节:当日活动总览",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:一、重要军事动向",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:二、重点态势分析",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:三、外（台）机舰活动情况",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:四、美重要武器平台部署情况",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:五、次日关注重点",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx引用附图1",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx引用附图2",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx引用附图3",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx引用附图4",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "xlsx工作表",
+        "pass": true,
+        "detail": "['飞机', '舰艇']"
+      },
+      {
+        "check": "飞机表字段",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "舰艇表字段",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png:01_舰机侦巡数量曲线图.png",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png:02_中国主要机舰活动示意图.png",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png:03_美国主要机舰活动示意图.png",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png:04_其他国家主要机舰活动示意图.png",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png数量",
+        "pass": true,
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "node": "2025.6.29",
+    "ok": true,
+    "checks": [
+      {
+        "check": "docx标题",
+        "pass": true,
+        "detail": "6月29日飞机舰船活动情况"
+      },
+      {
+        "check": "docx章节:当日活动总览",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:一、重要军事动向",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:二、重点态势分析",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:三、外（台）机舰活动情况",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:四、美重要武器平台部署情况",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:五、次日关注重点",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx引用附图1",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx引用附图2",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx引用附图3",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx引用附图4",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "xlsx工作表",
+        "pass": true,
+        "detail": "['飞机', '舰艇']"
+      },
+      {
+        "check": "飞机表字段",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "舰艇表字段",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png:01_舰机侦巡数量曲线图.png",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png:02_中国主要机舰活动示意图.png",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png:03_美国主要机舰活动示意图.png",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png:04_其他国家主要机舰活动示意图.png",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png数量",
+        "pass": true,
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "node": "2025.7.9",
+    "ok": true,
+    "checks": [
+      {
+        "check": "docx标题",
+        "pass": true,
+        "detail": "7月9日飞机舰船活动情况"
+      },
+      {
+        "check": "docx章节:当日活动总览",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:一、重要军事动向",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:二、重点态势分析",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:三、外（台）机舰活动情况",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:四、美重要武器平台部署情况",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:五、次日关注重点",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx引用附图1",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx引用附图2",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx引用附图3",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx引用附图4",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "xlsx工作表",
+        "pass": true,
+        "detail": "['飞机', '舰艇']"
+      },
+      {
+        "check": "飞机表字段",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "舰艇表字段",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png:01_舰机侦巡数量曲线图.png",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png:02_中国主要机舰活动示意图.png",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png:03_美国主要机舰活动示意图.png",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png:04_其他国家主要机舰活动示意图.png",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png数量",
+        "pass": true,
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "node": "2025.7.17",
+    "ok": true,
+    "checks": [
+      {
+        "check": "docx标题",
+        "pass": true,
+        "detail": "7月17日飞机舰船活动情况"
+      },
+      {
+        "check": "docx章节:当日活动总览",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:一、重要军事动向",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:二、重点态势分析",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:三、外（台）机舰活动情况",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:四、美重要武器平台部署情况",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx章节:五、次日关注重点",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx引用附图1",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx引用附图2",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx引用附图3",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "docx引用附图4",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "xlsx工作表",
+        "pass": true,
+        "detail": "['飞机', '舰艇']"
+      },
+      {
+        "check": "飞机表字段",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "舰艇表字段",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png:01_舰机侦巡数量曲线图.png",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png:02_中国主要机舰活动示意图.png",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png:03_美国主要机舰活动示意图.png",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png:04_其他国家主要机舰活动示意图.png",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "check": "png数量",
+        "pass": true,
+        "detail": ""
+      }
+    ]
+  }
+]

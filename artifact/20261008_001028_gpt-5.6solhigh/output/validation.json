@@ -1,0 +1,42 @@
+[
+  {
+    "package": "output\\2025.5.10日报",
+    "ok": true,
+    "errors": []
+  },
+  {
+    "package": "output\\2025.5.18日报",
+    "ok": true,
+    "errors": []
+  },
+  {
+    "package": "output\\2025.5.30日报",
+    "ok": true,
+    "errors": []
+  },
+  {
+    "package": "output\\2025.6.9日报",
+    "ok": true,
+    "errors": []
+  },
+  {
+    "package": "output\\2025.6.17日报",
+    "ok": true,
+    "errors": []
+  },
+  {
+    "package": "output\\2025.6.29日报",
+    "ok": true,
+    "errors": []
+  },
+  {
+    "package": "output\\2025.7.9日报",
+    "ok": true,
+    "errors": []
+  },
+  {
+    "package": "output\\2025.7.17日报",
+    "ok": true,
+    "errors": []
+  }
+]
