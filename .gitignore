@@ -17,15 +17,6 @@ htmlcov/
 .env.*
 !.env.example
 
-# Local data and generated outputs
-data/
-datasets/
-赛题2-初赛/数据/
-output/
-outputs/
-checkpoints/
-*.zip
-*.7z
 
 # Editors and OS
 .idea/
