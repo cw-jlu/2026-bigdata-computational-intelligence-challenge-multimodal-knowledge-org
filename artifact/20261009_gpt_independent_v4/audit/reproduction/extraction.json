@@ -1,0 +1,785 @@
+{
+  "seconds": 37.28,
+  "days": [
+    {
+      "date": "2025.5.1",
+      "radar_candidates": 52,
+      "included": 18,
+      "outside": 9,
+      "excluded": 25,
+      "unmatched_atoms": 3,
+      "documents": 100,
+      "atoms": 102
+    },
+    {
+      "date": "2025.5.2",
+      "radar_candidates": 52,
+      "included": 21,
+      "outside": 12,
+      "excluded": 19,
+      "unmatched_atoms": 2,
+      "documents": 100,
+      "atoms": 102
+    },
+    {
+      "date": "2025.5.3",
+      "radar_candidates": 53,
+      "included": 23,
+      "outside": 9,
+      "excluded": 21,
+      "unmatched_atoms": 3,
+      "documents": 100,
+      "atoms": 103
+    },
+    {
+      "date": "2025.5.4",
+      "radar_candidates": 52,
+      "included": 21,
+      "outside": 10,
+      "excluded": 21,
+      "unmatched_atoms": 3,
+      "documents": 100,
+      "atoms": 102
+    },
+    {
+      "date": "2025.5.5",
+      "radar_candidates": 54,
+      "included": 19,
+      "outside": 10,
+      "excluded": 25,
+      "unmatched_atoms": 5,
+      "documents": 100,
+      "atoms": 104
+    },
+    {
+      "date": "2025.5.6",
+      "radar_candidates": 52,
+      "included": 26,
+      "outside": 9,
+      "excluded": 17,
+      "unmatched_atoms": 2,
+      "documents": 100,
+      "atoms": 102
+    },
+    {
+      "date": "2025.5.7",
+      "radar_candidates": 54,
+      "included": 22,
+      "outside": 8,
+      "excluded": 24,
+      "unmatched_atoms": 5,
+      "documents": 100,
+      "atoms": 104
+    },
+    {
+      "date": "2025.5.8",
+      "radar_candidates": 53,
+      "included": 22,
+      "outside": 8,
+      "excluded": 23,
+      "unmatched_atoms": 1,
+      "documents": 100,
+      "atoms": 103
+    },
+    {
+      "date": "2025.5.9",
+      "radar_candidates": 52,
+      "included": 20,
+      "outside": 10,
+      "excluded": 22,
+      "unmatched_atoms": 2,
+      "documents": 100,
+      "atoms": 102
+    },
+    {
+      "date": "2025.5.10",
+      "radar_candidates": 53,
+      "included": 24,
+      "outside": 7,
+      "excluded": 22,
+      "unmatched_atoms": 1,
+      "documents": 100,
+      "atoms": 103
+    },
+    {
+      "date": "2025.5.11",
+      "radar_candidates": 55,
+      "included": 19,
+      "outside": 11,
+      "excluded": 25,
+      "unmatched_atoms": 3,
+      "documents": 100,
+      "atoms": 105
+    },
+    {
+      "date": "2025.5.12",
+      "radar_candidates": 52,
+      "included": 24,
+      "outside": 11,
+      "excluded": 17,
+      "unmatched_atoms": 2,
+      "documents": 100,
+      "atoms": 102
+    },
+    {
+      "date": "2025.5.13",
+      "radar_candidates": 53,
+      "included": 19,
+      "outside": 8,
+      "excluded": 26,
+      "unmatched_atoms": 6,
+      "documents": 100,
+      "atoms": 103
+    },
+    {
+      "date": "2025.5.14",
+      "radar_candidates": 51,
+      "included": 25,
+      "outside": 10,
+      "excluded": 16,
+      "unmatched_atoms": 0,
+      "documents": 100,
+      "atoms": 101
+    },
+    {
+      "date": "2025.5.15",
+      "radar_candidates": 56,
+      "included": 15,
+      "outside": 5,
+      "excluded": 36,
+      "unmatched_atoms": 4,
+      "documents": 100,
+      "atoms": 106
+    },
+    {
+      "date": "2025.5.16",
+      "radar_candidates": 55,
+      "included": 23,
+      "outside": 10,
+      "excluded": 22,
+      "unmatched_atoms": 0,
+      "documents": 100,
+      "atoms": 105
+    },
+    {
+      "date": "2025.5.17",
+      "radar_candidates": 55,
+      "included": 17,
+      "outside": 9,
+      "excluded": 29,
+      "unmatched_atoms": 4,
+      "documents": 100,
+      "atoms": 105
+    },
+    {
+      "date": "2025.5.18",
+      "radar_candidates": 55,
+      "included": 19,
+      "outside": 9,
+      "excluded": 27,
+      "unmatched_atoms": 3,
+      "documents": 100,
+      "atoms": 105
+    },
+    {
+      "date": "2025.5.19",
+      "radar_candidates": 52,
+      "included": 19,
+      "outside": 6,
+      "excluded": 27,
+      "unmatched_atoms": 0,
+      "documents": 100,
+      "atoms": 102
+    },
+    {
+      "date": "2025.5.20",
+      "radar_candidates": 55,
+      "included": 23,
+      "outside": 10,
+      "excluded": 22,
+      "unmatched_atoms": 0,
+      "documents": 100,
+      "atoms": 105
+    },
+    {
+      "date": "2025.5.21",
+      "radar_candidates": 52,
+      "included": 21,
+      "outside": 13,
+      "excluded": 18,
+      "unmatched_atoms": 2,
+      "documents": 100,
+      "atoms": 102
+    },
+    {
+      "date": "2025.5.22",
+      "radar_candidates": 52,
+      "included": 19,
+      "outside": 8,
+      "excluded": 25,
+      "unmatched_atoms": 4,
+      "documents": 100,
+      "atoms": 102
+    },
+    {
+      "date": "2025.5.23",
+      "radar_candidates": 53,
+      "included": 17,
+      "outside": 11,
+      "excluded": 25,
+      "unmatched_atoms": 3,
+      "documents": 100,
+      "atoms": 103
+    },
+    {
+      "date": "2025.5.24",
+      "radar_candidates": 52,
+      "included": 26,
+      "outside": 12,
+      "excluded": 14,
+      "unmatched_atoms": 0,
+      "documents": 100,
+      "atoms": 102
+    },
+    {
+      "date": "2025.5.25",
+      "radar_candidates": 57,
+      "included": 19,
+      "outside": 8,
+      "excluded": 30,
+      "unmatched_atoms": 1,
+      "documents": 100,
+      "atoms": 107
+    },
+    {
+      "date": "2025.5.26",
+      "radar_candidates": 52,
+      "included": 20,
+      "outside": 9,
+      "excluded": 23,
+      "unmatched_atoms": 8,
+      "documents": 100,
+      "atoms": 102
+    },
+    {
+      "date": "2025.5.27",
+      "radar_candidates": 54,
+      "included": 19,
+      "outside": 9,
+      "excluded": 26,
+      "unmatched_atoms": 2,
+      "documents": 100,
+      "atoms": 104
+    },
+    {
+      "date": "2025.5.28",
+      "radar_candidates": 53,
+      "included": 20,
+      "outside": 9,
+      "excluded": 24,
+      "unmatched_atoms": 0,
+      "documents": 100,
+      "atoms": 103
+    },
+    {
+      "date": "2025.5.29",
+      "radar_candidates": 55,
+      "included": 19,
+      "outside": 9,
+      "excluded": 27,
+      "unmatched_atoms": 1,
+      "documents": 100,
+      "atoms": 105
+    },
+    {
+      "date": "2025.5.30",
+      "radar_candidates": 53,
+      "included": 23,
+      "outside": 10,
+      "excluded": 20,
+      "unmatched_atoms": 7,
+      "documents": 100,
+      "atoms": 107
+    },
+    {
+      "date": "2025.5.31",
+      "radar_candidates": 52,
+      "included": 19,
+      "outside": 9,
+      "excluded": 24,
+      "unmatched_atoms": 4,
+      "documents": 100,
+      "atoms": 102
+    },
+    {
+      "date": "2025.6.1",
+      "radar_candidates": 52,
+      "included": 23,
+      "outside": 10,
+      "excluded": 19,
+      "unmatched_atoms": 1,
+      "documents": 100,
+      "atoms": 102
+    },
+    {
+      "date": "2025.6.2",
+      "radar_candidates": 53,
+      "included": 21,
+      "outside": 8,
+      "excluded": 24,
+      "unmatched_atoms": 1,
+      "documents": 100,
+      "atoms": 103
+    },
+    {
+      "date": "2025.6.3",
+      "radar_candidates": 55,
+      "included": 20,
+      "outside": 11,
+      "excluded": 24,
+      "unmatched_atoms": 5,
+      "documents": 100,
+      "atoms": 105
+    },
+    {
+      "date": "2025.6.4",
+      "radar_candidates": 54,
+      "included": 24,
+      "outside": 8,
+      "excluded": 22,
+      "unmatched_atoms": 2,
+      "documents": 100,
+      "atoms": 104
+    },
+    {
+      "date": "2025.6.5",
+      "radar_candidates": 52,
+      "included": 22,
+      "outside": 8,
+      "excluded": 22,
+      "unmatched_atoms": 5,
+      "documents": 100,
+      "atoms": 102
+    },
+    {
+      "date": "2025.6.6",
+      "radar_candidates": 54,
+      "included": 22,
+      "outside": 9,
+      "excluded": 23,
+      "unmatched_atoms": 2,
+      "documents": 100,
+      "atoms": 104
+    },
+    {
+      "date": "2025.6.7",
+      "radar_candidates": 53,
+      "included": 22,
+      "outside": 10,
+      "excluded": 21,
+      "unmatched_atoms": 0,
+      "documents": 100,
+      "atoms": 103
+    },
+    {
+      "date": "2025.6.8",
+      "radar_candidates": 55,
+      "included": 17,
+      "outside": 10,
+      "excluded": 28,
+      "unmatched_atoms": 16,
+      "documents": 100,
+      "atoms": 115
+    },
+    {
+      "date": "2025.6.9",
+      "radar_candidates": 53,
+      "included": 24,
+      "outside": 10,
+      "excluded": 19,
+      "unmatched_atoms": 0,
+      "documents": 100,
+      "atoms": 103
+    },
+    {
+      "date": "2025.6.10",
+      "radar_candidates": 52,
+      "included": 18,
+      "outside": 11,
+      "excluded": 23,
+      "unmatched_atoms": 5,
+      "documents": 100,
+      "atoms": 102
+    },
+    {
+      "date": "2025.6.11",
+      "radar_candidates": 51,
+      "included": 17,
+      "outside": 10,
+      "excluded": 24,
+      "unmatched_atoms": 4,
+      "documents": 100,
+      "atoms": 101
+    },
+    {
+      "date": "2025.6.12",
+      "radar_candidates": 55,
+      "included": 18,
+      "outside": 7,
+      "excluded": 30,
+      "unmatched_atoms": 1,
+      "documents": 100,
+      "atoms": 105
+    },
+    {
+      "date": "2025.6.13",
+      "radar_candidates": 52,
+      "included": 19,
+      "outside": 13,
+      "excluded": 20,
+      "unmatched_atoms": 5,
+      "documents": 100,
+      "atoms": 102
+    },
+    {
+      "date": "2025.6.14",
+      "radar_candidates": 54,
+      "included": 18,
+      "outside": 9,
+      "excluded": 27,
+      "unmatched_atoms": 2,
+      "documents": 100,
+      "atoms": 104
+    },
+    {
+      "date": "2025.6.15",
+      "radar_candidates": 52,
+      "included": 18,
+      "outside": 9,
+      "excluded": 25,
+      "unmatched_atoms": 5,
+      "documents": 100,
+      "atoms": 102
+    },
+    {
+      "date": "2025.6.16",
+      "radar_candidates": 53,
+      "included": 22,
+      "outside": 8,
+      "excluded": 23,
+      "unmatched_atoms": 2,
+      "documents": 100,
+      "atoms": 103
+    },
+    {
+      "date": "2025.6.17",
+      "radar_candidates": 55,
+      "included": 17,
+      "outside": 10,
+      "excluded": 28,
+      "unmatched_atoms": 6,
+      "documents": 100,
+      "atoms": 105
+    },
+    {
+      "date": "2025.6.18",
+      "radar_candidates": 52,
+      "included": 22,
+      "outside": 5,
+      "excluded": 25,
+      "unmatched_atoms": 3,
+      "documents": 100,
+      "atoms": 102
+    },
+    {
+      "date": "2025.6.19",
+      "radar_candidates": 53,
+      "included": 24,
+      "outside": 8,
+      "excluded": 21,
+      "unmatched_atoms": 0,
+      "documents": 100,
+      "atoms": 103
+    },
+    {
+      "date": "2025.6.20",
+      "radar_candidates": 52,
+      "included": 16,
+      "outside": 11,
+      "excluded": 25,
+      "unmatched_atoms": 4,
+      "documents": 100,
+      "atoms": 102
+    },
+    {
+      "date": "2025.6.21",
+      "radar_candidates": 55,
+      "included": 18,
+      "outside": 11,
+      "excluded": 26,
+      "unmatched_atoms": 5,
+      "documents": 100,
+      "atoms": 105
+    },
+    {
+      "date": "2025.6.22",
+      "radar_candidates": 52,
+      "included": 22,
+      "outside": 10,
+      "excluded": 20,
+      "unmatched_atoms": 2,
+      "documents": 100,
+      "atoms": 102
+    },
+    {
+      "date": "2025.6.23",
+      "radar_candidates": 52,
+      "included": 19,
+      "outside": 7,
+      "excluded": 26,
+      "unmatched_atoms": 4,
+      "documents": 100,
+      "atoms": 104
+    },
+    {
+      "date": "2025.6.24",
+      "radar_candidates": 54,
+      "included": 20,
+      "outside": 7,
+      "excluded": 27,
+      "unmatched_atoms": 2,
+      "documents": 100,
+      "atoms": 104
+    },
+    {
+      "date": "2025.6.25",
+      "radar_candidates": 52,
+      "included": 19,
+      "outside": 10,
+      "excluded": 23,
+      "unmatched_atoms": 5,
+      "documents": 100,
+      "atoms": 102
+    },
+    {
+      "date": "2025.6.26",
+      "radar_candidates": 57,
+      "included": 21,
+      "outside": 6,
+      "excluded": 30,
+      "unmatched_atoms": 2,
+      "documents": 100,
+      "atoms": 107
+    },
+    {
+      "date": "2025.6.27",
+      "radar_candidates": 55,
+      "included": 20,
+      "outside": 10,
+      "excluded": 25,
+      "unmatched_atoms": 5,
+      "documents": 100,
+      "atoms": 107
+    },
+    {
+      "date": "2025.6.28",
+      "radar_candidates": 52,
+      "included": 23,
+      "outside": 9,
+      "excluded": 20,
+      "unmatched_atoms": 2,
+      "documents": 100,
+      "atoms": 103
+    },
+    {
+      "date": "2025.6.29",
+      "radar_candidates": 53,
+      "included": 22,
+      "outside": 11,
+      "excluded": 20,
+      "unmatched_atoms": 2,
+      "documents": 100,
+      "atoms": 103
+    },
+    {
+      "date": "2025.6.30",
+      "radar_candidates": 54,
+      "included": 24,
+      "outside": 9,
+      "excluded": 21,
+      "unmatched_atoms": 4,
+      "documents": 100,
+      "atoms": 106
+    },
+    {
+      "date": "2025.7.1",
+      "radar_candidates": 55,
+      "included": 20,
+      "outside": 7,
+      "excluded": 28,
+      "unmatched_atoms": 3,
+      "documents": 100,
+      "atoms": 105
+    },
+    {
+      "date": "2025.7.2",
+      "radar_candidates": 55,
+      "included": 21,
+      "outside": 7,
+      "excluded": 27,
+      "unmatched_atoms": 9,
+      "documents": 100,
+      "atoms": 109
+    },
+    {
+      "date": "2025.7.3",
+      "radar_candidates": 52,
+      "included": 23,
+      "outside": 11,
+      "excluded": 18,
+      "unmatched_atoms": 6,
+      "documents": 100,
+      "atoms": 108
+    },
+    {
+      "date": "2025.7.4",
+      "radar_candidates": 54,
+      "included": 23,
+      "outside": 10,
+      "excluded": 21,
+      "unmatched_atoms": 0,
+      "documents": 100,
+      "atoms": 104
+    },
+    {
+      "date": "2025.7.5",
+      "radar_candidates": 57,
+      "included": 18,
+      "outside": 8,
+      "excluded": 31,
+      "unmatched_atoms": 13,
+      "documents": 100,
+      "atoms": 113
+    },
+    {
+      "date": "2025.7.6",
+      "radar_candidates": 54,
+      "included": 25,
+      "outside": 11,
+      "excluded": 18,
+      "unmatched_atoms": 4,
+      "documents": 100,
+      "atoms": 104
+    },
+    {
+      "date": "2025.7.7",
+      "radar_candidates": 55,
+      "included": 20,
+      "outside": 8,
+      "excluded": 27,
+      "unmatched_atoms": 6,
+      "documents": 100,
+      "atoms": 107
+    },
+    {
+      "date": "2025.7.8",
+      "radar_candidates": 52,
+      "included": 23,
+      "outside": 8,
+      "excluded": 21,
+      "unmatched_atoms": 0,
+      "documents": 100,
+      "atoms": 102
+    },
+    {
+      "date": "2025.7.9",
+      "radar_candidates": 52,
+      "included": 24,
+      "outside": 10,
+      "excluded": 18,
+      "unmatched_atoms": 1,
+      "documents": 100,
+      "atoms": 102
+    },
+    {
+      "date": "2025.7.10",
+      "radar_candidates": 57,
+      "included": 22,
+      "outside": 8,
+      "excluded": 27,
+      "unmatched_atoms": 16,
+      "documents": 100,
+      "atoms": 123
+    },
+    {
+      "date": "2025.7.11",
+      "radar_candidates": 52,
+      "included": 21,
+      "outside": 9,
+      "excluded": 22,
+      "unmatched_atoms": 3,
+      "documents": 100,
+      "atoms": 102
+    },
+    {
+      "date": "2025.7.12",
+      "radar_candidates": 53,
+      "included": 20,
+      "outside": 5,
+      "excluded": 28,
+      "unmatched_atoms": 5,
+      "documents": 100,
+      "atoms": 103
+    },
+    {
+      "date": "2025.7.13",
+      "radar_candidates": 52,
+      "included": 20,
+      "outside": 9,
+      "excluded": 23,
+      "unmatched_atoms": 5,
+      "documents": 100,
+      "atoms": 102
+    },
+    {
+      "date": "2025.7.14",
+      "radar_candidates": 57,
+      "included": 17,
+      "outside": 8,
+      "excluded": 32,
+      "unmatched_atoms": 7,
+      "documents": 100,
+      "atoms": 107
+    },
+    {
+      "date": "2025.7.15",
+      "radar_candidates": 52,
+      "included": 23,
+      "outside": 9,
+      "excluded": 20,
+      "unmatched_atoms": 2,
+      "documents": 100,
+      "atoms": 102
+    },
+    {
+      "date": "2025.7.16",
+      "radar_candidates": 54,
+      "included": 21,
+      "outside": 9,
+      "excluded": 24,
+      "unmatched_atoms": 4,
+      "documents": 100,
+      "atoms": 104
+    },
+    {
+      "date": "2025.7.17",
+      "radar_candidates": 53,
+      "included": 22,
+      "outside": 10,
+      "excluded": 21,
+      "unmatched_atoms": 5,
+      "documents": 100,
+      "atoms": 103
+    }
+  ]
+}

@@ -1,0 +1,5401 @@
+[
+  {
+    "event_id": "E7ea0025b1ecd",
+    "date": "2025.5.10",
+    "kind": "飞机",
+    "country": "英国",
+    "platform": "P-8A“海神”反潜巡逻机",
+    "platform_key": "P8A",
+    "batch": "AIR-3B564DE1F3DD6D",
+    "quantity": 1,
+    "interval": [
+      1209,
+      1354
+    ],
+    "region": "南海",
+    "direction": "南海",
+    "task": "联合巡逻",
+    "radar_file": "赛题2-初赛/数据/2025.5.10/雷达信息表_2025.5.10.xlsx",
+    "radar_rows": [
+      3,
+      37,
+      52,
+      68,
+      71,
+      167,
+      207,
+      215,
+      228,
+      269
+    ],
+    "points": [
+      {
+        "row": 52,
+        "time": "2025-05-10T20:09:00",
+        "xy": [
+          111.2088,
+          17.7505
+        ],
+        "minute": 1209
+      },
+      {
+        "row": 215,
+        "time": "2025-05-10T20:25:06",
+        "xy": [
+          111.2033,
+          17.7723
+        ],
+        "minute": 1225
+      },
+      {
+        "row": 3,
+        "time": "2025-05-10T20:41:13",
+        "xy": [
+          111.2667,
+          17.7281
+        ],
+        "minute": 1241
+      },
+      {
+        "row": 71,
+        "time": "2025-05-10T20:57:20",
+        "xy": [
+          111.392,
+          17.7031
+        ],
+        "minute": 1257
+      },
+      {
+        "row": 37,
+        "time": "2025-05-10T21:13:26",
+        "xy": [
+          111.4295,
+          17.7368
+        ],
+        "minute": 1273
+      },
+      {
+        "row": 269,
+        "time": "2025-05-10T21:29:33",
+        "xy": [
+          111.5621,
+          17.7747
+        ],
+        "minute": 1289
+      },
+      {
+        "row": 228,
+        "time": "2025-05-10T21:45:40",
+        "xy": [
+          111.5538,
+          17.8015
+        ],
+        "minute": 1305
+      },
+      {
+        "row": 68,
+        "time": "2025-05-10T22:01:46",
+        "xy": [
+          111.688,
+          17.7944
+        ],
+        "minute": 1321
+      },
+      {
+        "row": 167,
+        "time": "2025-05-10T22:17:53",
+        "xy": [
+          111.74,
+          17.7772
+        ],
+        "minute": 1337
+      },
+      {
+        "row": 207,
+        "time": "2025-05-10T22:34:00",
+        "xy": [
+          111.824,
+          17.8207
+        ],
+        "minute": 1354
+      }
+    ],
+    "xy": [
+      111.49164999999999,
+      17.7735
+    ],
+    "track_id": "7ea0025b1ecd",
+    "facts": {
+      "country": {
+        "value": "英国",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "platform": {
+        "value": "P8A",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "quantity": {
+        "value": 1,
+        "sources": [
+          "雷达",
+          "开源军情"
+        ]
+      },
+      "task": {
+        "value": "联合巡逻",
+        "sources": [
+          "雷达",
+          "网上舆论"
+        ]
+      },
+      "activity_window": {
+        "value": [
+          1209,
+          1354
+        ],
+        "sources": [
+          "雷达",
+          "网上舆论"
+        ],
+        "radar_observation_window": [
+          1209,
+          1354
+        ],
+        "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+      },
+      "region": {
+        "value": "南海",
+        "sources": [
+          "开源军情",
+          "网上舆论",
+          "雷达"
+        ],
+        "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+      },
+      "date": {
+        "value": "2025.5.10",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      }
+    },
+    "corrections": [],
+    "claims": [
+      "25b4af4e5a51",
+      "b92b1eda5dc3"
+    ],
+    "candidate_pairs": [
+      {
+        "claims": [
+          "25b4af4e5a51",
+          "b92b1eda5dc3"
+        ],
+        "verdict": {
+          "facts": {
+            "country": {
+              "value": "英国",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "platform": {
+              "value": "P8A",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "quantity": {
+              "value": 1,
+              "sources": [
+                "雷达",
+                "开源军情"
+              ]
+            },
+            "task": {
+              "value": "联合巡逻",
+              "sources": [
+                "雷达",
+                "网上舆论"
+              ]
+            },
+            "activity_window": {
+              "value": [
+                1209,
+                1354
+              ],
+              "sources": [
+                "雷达",
+                "网上舆论"
+              ],
+              "radar_observation_window": [
+                1209,
+                1354
+              ],
+              "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+            },
+            "region": {
+              "value": "南海",
+              "sources": [
+                "开源军情",
+                "网上舆论",
+                "雷达"
+              ],
+              "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+            },
+            "date": {
+              "value": "2025.5.10",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            }
+          },
+          "region": "南海",
+          "direction": "南海",
+          "conflicts": [],
+          "corrections": []
+        },
+        "evidence_strength": 16
+      }
+    ],
+    "candidates": [
+      {
+        "claim_id": "b40261af58d5",
+        "file": "赛题2-初赛/数据/2025.5.10/开源军情/016_开源军情-新西兰P-8A反潜巡逻机在仁爱礁附近海域执行反潜巡逻.txt",
+        "source": "开源军情",
+        "line": 5,
+        "support": [
+          "platform",
+          "region-broad"
+        ],
+        "conflict": [
+          "country冲突:雷达=英国,文本=新西兰",
+          "task冲突:雷达=联合巡逻,文本=['反潜巡逻']",
+          "time冲突:[1209, 1354]/[1033, 1178]"
+        ],
+        "missing": [
+          "quantity"
+        ],
+        "region_relation": "missing",
+        "time_relation": "separate",
+        "eligible": false,
+        "track_id": "7ea0025b1ecd"
+      },
+      {
+        "claim_id": "25b4af4e5a51",
+        "file": "赛题2-初赛/数据/2025.5.10/开源军情/023_开源军情-英国空军P-8A反潜巡逻机与RC-135W电子侦察机在海南岛东南海域活动.txt",
+        "source": "开源军情",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "quantity",
+          "region-broad"
+        ],
+        "conflict": [],
+        "missing": [
+          "task",
+          "time"
+        ],
+        "region_relation": "missing",
+        "time_relation": "missing",
+        "eligible": true,
+        "track_id": "7ea0025b1ecd"
+      },
+      {
+        "claim_id": "8eaa8251365c",
+        "file": "赛题2-初赛/数据/2025.5.10/开源军情/050_开源军情-新西兰空军P-8A反潜巡逻机在北大西洋持续活动.txt",
+        "source": "开源军情",
+        "line": 5,
+        "support": [
+          "platform",
+          "quantity"
+        ],
+        "conflict": [
+          "country冲突:雷达=英国,文本=新西兰",
+          "region冲突:轨迹坐标不在文本核心海域宽容包络内"
+        ],
+        "missing": [
+          "task",
+          "time"
+        ],
+        "region_relation": "missing",
+        "time_relation": "missing",
+        "eligible": false,
+        "track_id": "7ea0025b1ecd"
+      },
+      {
+        "claim_id": "c6a3bfe1958b",
+        "file": "赛题2-初赛/数据/2025.5.10/网上舆论/012_(网上舆情)-新西兰P-8A反潜巡逻机南海活动引媒体关注.txt",
+        "source": "网上舆论",
+        "line": 5,
+        "support": [
+          "platform",
+          "quantity",
+          "region-broad"
+        ],
+        "conflict": [
+          "country冲突:雷达=英国,文本=新西兰",
+          "task冲突:雷达=联合巡逻,文本=['反潜巡逻']"
+        ],
+        "missing": [
+          "time"
+        ],
+        "region_relation": "missing",
+        "time_relation": "missing",
+        "eligible": false,
+        "track_id": "7ea0025b1ecd"
+      },
+      {
+        "claim_id": "b92b1eda5dc3",
+        "file": "赛题2-初赛/数据/2025.5.10/网上舆论/032_(网上舆情)-英国空军P-8A反潜巡逻机在南海执行联合巡逻.txt",
+        "source": "网上舆论",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "task",
+          "time",
+          "region-broad"
+        ],
+        "conflict": [],
+        "missing": [
+          "quantity"
+        ],
+        "region_relation": "missing",
+        "time_relation": "exact",
+        "eligible": true,
+        "track_id": "7ea0025b1ecd"
+      },
+      {
+        "claim_id": "11e67a3f33a6",
+        "file": "赛题2-初赛/数据/2025.5.10/网上舆论/045_(网上舆情)-新西兰反潜巡逻机在北大西洋执行长时间巡逻任务.txt",
+        "source": "网上舆论",
+        "line": 5,
+        "support": [
+          "platform"
+        ],
+        "conflict": [
+          "country冲突:雷达=英国,文本=新西兰",
+          "task冲突:雷达=联合巡逻,文本=['反潜巡逻']",
+          "time冲突:[1209, 1354]/[1071, 1156]",
+          "region冲突:轨迹坐标不在文本核心海域宽容包络内"
+        ],
+        "missing": [
+          "quantity"
+        ],
+        "region_relation": "missing",
+        "time_relation": "separate",
+        "eligible": false,
+        "track_id": "7ea0025b1ecd"
+      }
+    ],
+    "decision": "纳入",
+    "reasons": [],
+    "base_candidate": "英国沃丁顿空军基地",
+    "base_verified": false,
+    "raw_region_values": [],
+    "raw_field_values": {
+      "country": [
+        "英国"
+      ],
+      "platform": [
+        "P-8A“海神”反潜巡逻机"
+      ],
+      "quantity": [
+        "1"
+      ],
+      "task": [
+        "联合巡逻"
+      ],
+      "base": [
+        "英国沃丁顿空军基地"
+      ]
+    },
+    "competing_tracks": 1,
+    "trajectory_note": ""
+  },
+  {
+    "event_id": "Edea178b293f7",
+    "date": "2025.5.10",
+    "kind": "舰船",
+    "country": "印度",
+    "platform": "卡尔瓦里级常规潜艇",
+    "platform_key": "卡尔瓦里",
+    "batch": "SHIP-65264CA1B8CB37",
+    "quantity": 1,
+    "interval": [
+      356,
+      441
+    ],
+    "region": "东海南部",
+    "direction": "东海",
+    "task": "例行部署",
+    "radar_file": "赛题2-初赛/数据/2025.5.10/雷达信息表_2025.5.10.xlsx",
+    "radar_rows": [
+      11,
+      18,
+      25,
+      33,
+      66,
+      81,
+      95,
+      114,
+      133,
+      153,
+      176,
+      198,
+      252,
+      293
+    ],
+    "points": [],
+    "xy": null,
+    "track_id": "dea178b293f7",
+    "facts": {
+      "country": {
+        "value": "印度",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "platform": {
+        "value": "卡尔瓦里",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "quantity": {
+        "value": 1,
+        "sources": [
+          "雷达",
+          "开源军情"
+        ]
+      },
+      "task": {
+        "value": "例行部署",
+        "sources": [
+          "雷达",
+          "网上舆论"
+        ]
+      },
+      "activity_window": {
+        "value": [
+          356,
+          441
+        ],
+        "sources": [
+          "雷达",
+          "网上舆论"
+        ],
+        "radar_observation_window": [
+          356,
+          441
+        ],
+        "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+      },
+      "region": {
+        "value": "东海南部",
+        "sources": [
+          "开源军情",
+          "网上舆论",
+          "雷达"
+        ],
+        "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+      },
+      "date": {
+        "value": "2025.5.10",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      }
+    },
+    "corrections": [],
+    "claims": [
+      "cac2e34ca7a7",
+      "6a566777c82c"
+    ],
+    "candidate_pairs": [
+      {
+        "claims": [
+          "cac2e34ca7a7",
+          "6a566777c82c"
+        ],
+        "verdict": {
+          "facts": {
+            "country": {
+              "value": "印度",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "platform": {
+              "value": "卡尔瓦里",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "quantity": {
+              "value": 1,
+              "sources": [
+                "雷达",
+                "开源军情"
+              ]
+            },
+            "task": {
+              "value": "例行部署",
+              "sources": [
+                "雷达",
+                "网上舆论"
+              ]
+            },
+            "activity_window": {
+              "value": [
+                356,
+                441
+              ],
+              "sources": [
+                "雷达",
+                "网上舆论"
+              ],
+              "radar_observation_window": [
+                356,
+                441
+              ],
+              "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+            },
+            "region": {
+              "value": "东海南部",
+              "sources": [
+                "开源军情",
+                "网上舆论",
+                "雷达"
+              ],
+              "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+            },
+            "date": {
+              "value": "2025.5.10",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            }
+          },
+          "region": "东海南部",
+          "direction": "东海",
+          "conflicts": [],
+          "corrections": []
+        },
+        "evidence_strength": 21
+      }
+    ],
+    "candidates": [
+      {
+        "claim_id": "cac2e34ca7a7",
+        "file": "赛题2-初赛/数据/2025.5.10/开源军情/006_开源军情-印度海军卡尔瓦里级常规潜艇在东海南部活动.txt",
+        "source": "开源军情",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "quantity",
+          "region"
+        ],
+        "conflict": [],
+        "missing": [
+          "task",
+          "time"
+        ],
+        "region_relation": "exact",
+        "time_relation": "missing",
+        "eligible": true,
+        "track_id": "dea178b293f7"
+      },
+      {
+        "claim_id": "1196b24bd0d3",
+        "file": "赛题2-初赛/数据/2025.5.10/开源军情/014_开源军情-印度海军卡尔瓦里级潜艇在赤尾屿海域实施海上巡逻.txt",
+        "source": "开源军情",
+        "line": 5,
+        "support": [
+          "platform",
+          "country"
+        ],
+        "conflict": [
+          "task冲突:雷达=例行部署,文本=['海上巡逻']",
+          "time冲突:[356, 441]/[670, 815]",
+          "region冲突:['东海南部']/赤尾屿海域"
+        ],
+        "missing": [
+          "quantity"
+        ],
+        "region_relation": "conflict",
+        "time_relation": "separate",
+        "eligible": false,
+        "track_id": "dea178b293f7"
+      },
+      {
+        "claim_id": "162c3094bdf8",
+        "file": "赛题2-初赛/数据/2025.5.10/网上舆论/035_(网上舆情)-印度“卡尔瓦里级”潜艇在赤尾屿海域活动引关注.txt",
+        "source": "网上舆论",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "quantity"
+        ],
+        "conflict": [
+          "region冲突:['东海南部']/赤尾屿海域"
+        ],
+        "missing": [
+          "task",
+          "time"
+        ],
+        "region_relation": "conflict",
+        "time_relation": "missing",
+        "eligible": false,
+        "track_id": "dea178b293f7"
+      },
+      {
+        "claim_id": "6a566777c82c",
+        "file": "赛题2-初赛/数据/2025.5.10/网上舆论/047_(网上舆情)-印度海军潜艇在东海保持例行部署引发媒体关注.txt",
+        "source": "网上舆论",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "task",
+          "time",
+          "region"
+        ],
+        "conflict": [],
+        "missing": [
+          "quantity"
+        ],
+        "region_relation": "contains",
+        "time_relation": "exact",
+        "eligible": true,
+        "track_id": "dea178b293f7"
+      }
+    ],
+    "decision": "纳入",
+    "reasons": [],
+    "base_candidate": "印度维沙卡帕特南海军基地",
+    "base_verified": false,
+    "raw_region_values": [
+      "东海南部"
+    ],
+    "raw_field_values": {
+      "country": [
+        "印度"
+      ],
+      "platform": [
+        "卡尔瓦里级常规潜艇"
+      ],
+      "quantity": [
+        "1"
+      ],
+      "task": [
+        "例行部署"
+      ],
+      "base": [
+        "印度维沙卡帕特南海军基地"
+      ]
+    },
+    "competing_tracks": 1,
+    "trajectory_note": ""
+  },
+  {
+    "event_id": "Ef822ba029b86",
+    "date": "2025.5.18",
+    "kind": "飞机",
+    "country": "美国",
+    "platform": "P-8A“海神”反潜巡逻机",
+    "platform_key": "P8A",
+    "batch": "AIR-21D56C7A7D64EE",
+    "quantity": 1,
+    "interval": [
+      169,
+      254
+    ],
+    "region": "南海",
+    "direction": "南海",
+    "task": "反潜巡逻",
+    "radar_file": "赛题2-初赛/数据/2025.5.18/雷达信息表_2025.5.18.xlsx",
+    "radar_rows": [
+      3,
+      28,
+      65,
+      72,
+      97,
+      136,
+      170,
+      176,
+      187,
+      208,
+      252,
+      276,
+      285
+    ],
+    "points": [
+      {
+        "row": 3,
+        "time": "2025-05-18T02:49:00",
+        "xy": [
+          108.8905,
+          5.0098
+        ],
+        "minute": 169
+      },
+      {
+        "row": 28,
+        "time": "2025-05-18T02:56:05",
+        "xy": [
+          108.7769,
+          5.0233
+        ],
+        "minute": 176
+      },
+      {
+        "row": 187,
+        "time": "2025-05-18T03:03:10",
+        "xy": [
+          108.7633,
+          4.9441
+        ],
+        "minute": 183
+      },
+      {
+        "row": 136,
+        "time": "2025-05-18T03:10:15",
+        "xy": [
+          108.7771,
+          4.9545
+        ],
+        "minute": 190
+      },
+      {
+        "row": 285,
+        "time": "2025-05-18T03:17:20",
+        "xy": [
+          108.6904,
+          4.978
+        ],
+        "minute": 197
+      },
+      {
+        "row": 208,
+        "time": "2025-05-18T03:24:25",
+        "xy": [
+          108.6862,
+          4.983
+        ],
+        "minute": 204
+      },
+      {
+        "row": 252,
+        "time": "2025-05-18T03:31:30",
+        "xy": [
+          108.5889,
+          4.9763
+        ],
+        "minute": 211
+      },
+      {
+        "row": 65,
+        "time": "2025-05-18T03:38:35",
+        "xy": [
+          108.5374,
+          4.8792
+        ],
+        "minute": 218
+      },
+      {
+        "row": 170,
+        "time": "2025-05-18T03:45:40",
+        "xy": [
+          108.5722,
+          4.9557
+        ],
+        "minute": 225
+      },
+      {
+        "row": 276,
+        "time": "2025-05-18T03:52:45",
+        "xy": [
+          108.4641,
+          4.8703
+        ],
+        "minute": 232
+      },
+      {
+        "row": 97,
+        "time": "2025-05-18T03:59:50",
+        "xy": [
+          108.4012,
+          4.9433
+        ],
+        "minute": 239
+      },
+      {
+        "row": 72,
+        "time": "2025-05-18T04:06:55",
+        "xy": [
+          108.4356,
+          4.9344
+        ],
+        "minute": 246
+      },
+      {
+        "row": 176,
+        "time": "2025-05-18T04:14:00",
+        "xy": [
+          108.4167,
+          4.843
+        ],
+        "minute": 254
+      }
+    ],
+    "xy": [
+      108.5889,
+      4.9545
+    ],
+    "track_id": "f822ba029b86",
+    "facts": {
+      "country": {
+        "value": "美国",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "platform": {
+        "value": "P8A",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "quantity": {
+        "value": 1,
+        "sources": [
+          "雷达",
+          "网上舆论"
+        ]
+      },
+      "task": {
+        "value": "反潜巡逻",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "activity_window": {
+        "value": [
+          169,
+          254
+        ],
+        "sources": [
+          "雷达",
+          "开源军情"
+        ],
+        "radar_observation_window": [
+          169,
+          254
+        ],
+        "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+      },
+      "region": {
+        "value": "南海",
+        "sources": [
+          "开源军情",
+          "网上舆论",
+          "雷达"
+        ],
+        "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+      },
+      "date": {
+        "value": "2025.5.18",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      }
+    },
+    "corrections": [],
+    "claims": [
+      "50b196ce9890",
+      "b1a7a3a117a5"
+    ],
+    "candidate_pairs": [
+      {
+        "claims": [
+          "50b196ce9890",
+          "b1a7a3a117a5"
+        ],
+        "verdict": {
+          "facts": {
+            "country": {
+              "value": "美国",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "platform": {
+              "value": "P8A",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "quantity": {
+              "value": 1,
+              "sources": [
+                "雷达",
+                "网上舆论"
+              ]
+            },
+            "task": {
+              "value": "反潜巡逻",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "activity_window": {
+              "value": [
+                169,
+                254
+              ],
+              "sources": [
+                "雷达",
+                "开源军情"
+              ],
+              "radar_observation_window": [
+                169,
+                254
+              ],
+              "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+            },
+            "region": {
+              "value": "南海",
+              "sources": [
+                "开源军情",
+                "网上舆论",
+                "雷达"
+              ],
+              "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+            },
+            "date": {
+              "value": "2025.5.18",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            }
+          },
+          "region": "南海",
+          "direction": "南海",
+          "conflicts": [],
+          "corrections": []
+        },
+        "evidence_strength": 18
+      }
+    ],
+    "candidates": [
+      {
+        "claim_id": "12fd10a27c43",
+        "file": "赛题2-初赛/数据/2025.5.18/开源军情/021_开源军情-美军P-8A反潜巡逻机在北部湾持续开展活动.txt",
+        "source": "开源军情",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "quantity",
+          "region-broad"
+        ],
+        "conflict": [
+          "time冲突:[169, 254]/[688, 778]"
+        ],
+        "missing": [
+          "task"
+        ],
+        "region_relation": "missing",
+        "time_relation": "separate",
+        "eligible": false,
+        "track_id": "f822ba029b86"
+      },
+      {
+        "claim_id": "b15f224677fe",
+        "file": "赛题2-初赛/数据/2025.5.18/开源军情/034_开源军情-美国P-8A反潜巡逻机在南海中部执行联合巡逻任务.txt",
+        "source": "开源军情",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "region-broad"
+        ],
+        "conflict": [
+          "task冲突:雷达=反潜巡逻,文本=['联合巡逻']",
+          "time冲突:[169, 254]/[483, 628]"
+        ],
+        "missing": [
+          "quantity"
+        ],
+        "region_relation": "missing",
+        "time_relation": "separate",
+        "eligible": false,
+        "track_id": "f822ba029b86"
+      },
+      {
+        "claim_id": "50b196ce9890",
+        "file": "赛题2-初赛/数据/2025.5.18/开源军情/047_开源军情-美军P-8A反潜巡逻机在纳土纳群岛北部海域执行反潜巡逻.txt",
+        "source": "开源军情",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "task",
+          "time",
+          "region-broad"
+        ],
+        "conflict": [],
+        "missing": [
+          "quantity"
+        ],
+        "region_relation": "missing",
+        "time_relation": "exact",
+        "eligible": true,
+        "track_id": "f822ba029b86"
+      },
+      {
+        "claim_id": "66c9c26e22e3",
+        "file": "赛题2-初赛/数据/2025.5.18/网上舆论/018_(网上舆情)-美军一架P-8A反潜机在南海中部执行联合巡逻任务.txt",
+        "source": "网上舆论",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "quantity",
+          "region-broad"
+        ],
+        "conflict": [
+          "task冲突:雷达=反潜巡逻,文本=['联合巡逻']",
+          "time冲突:[169, 254]/[483, 628]"
+        ],
+        "missing": [],
+        "region_relation": "missing",
+        "time_relation": "separate",
+        "eligible": false,
+        "track_id": "f822ba029b86"
+      },
+      {
+        "claim_id": "b1a7a3a117a5",
+        "file": "赛题2-初赛/数据/2025.5.18/网上舆论/024_(网上舆情)-美军一架P-8A反潜机在南海执行巡逻任务.txt",
+        "source": "网上舆论",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "quantity",
+          "task",
+          "region-broad"
+        ],
+        "conflict": [],
+        "missing": [
+          "time"
+        ],
+        "region_relation": "missing",
+        "time_relation": "missing",
+        "eligible": true,
+        "track_id": "f822ba029b86"
+      },
+      {
+        "claim_id": "b9622b2825d8",
+        "file": "赛题2-初赛/数据/2025.5.18/网上舆论/027_(网上舆情)-美军两架“P-8A”反潜巡逻机在北部湾执行海上侦察巡逻.txt",
+        "source": "网上舆论",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "region-broad"
+        ],
+        "conflict": [
+          "quantity冲突:雷达=1,文本=2",
+          "task冲突:雷达=反潜巡逻,文本=['海上侦察巡逻']",
+          "time冲突:[169, 254]/[688, 778]"
+        ],
+        "missing": [],
+        "region_relation": "missing",
+        "time_relation": "separate",
+        "eligible": false,
+        "track_id": "f822ba029b86"
+      }
+    ],
+    "decision": "纳入",
+    "reasons": [],
+    "base_candidate": "关岛安德森空军基地",
+    "base_verified": false,
+    "raw_region_values": [],
+    "raw_field_values": {
+      "country": [
+        "美国"
+      ],
+      "platform": [
+        "P-8A“海神”反潜巡逻机"
+      ],
+      "quantity": [
+        "1"
+      ],
+      "task": [
+        "反潜巡逻"
+      ],
+      "base": [
+        "关岛安德森空军基地"
+      ]
+    },
+    "competing_tracks": 1,
+    "trajectory_note": ""
+  },
+  {
+    "event_id": "E65f37d04fce7",
+    "date": "2025.5.18",
+    "kind": "舰船",
+    "country": "法国",
+    "platform": "地平线级导弹驱逐舰",
+    "platform_key": "地平线",
+    "batch": "SHIP-5946CAFDE26C1A",
+    "quantity": 1,
+    "interval": [
+      708,
+      793
+    ],
+    "region": "钓鱼岛海域",
+    "direction": "东海",
+    "task": "反潜巡逻",
+    "radar_file": "赛题2-初赛/数据/2025.5.18/雷达信息表_2025.5.18.xlsx",
+    "radar_rows": [
+      3,
+      24,
+      66,
+      72,
+      89,
+      101,
+      151,
+      194,
+      246,
+      255
+    ],
+    "points": [],
+    "xy": null,
+    "track_id": "65f37d04fce7",
+    "facts": {
+      "country": {
+        "value": "法国",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "platform": {
+        "value": "地平线",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "quantity": {
+        "value": 1,
+        "sources": [
+          "雷达",
+          "网上舆论"
+        ]
+      },
+      "task": {
+        "value": "反潜巡逻",
+        "sources": [
+          "雷达",
+          "开源军情"
+        ]
+      },
+      "activity_window": {
+        "value": [
+          708,
+          793
+        ],
+        "sources": [
+          "雷达",
+          "开源军情"
+        ],
+        "radar_observation_window": [
+          708,
+          793
+        ],
+        "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+      },
+      "region": {
+        "value": "钓鱼岛海域",
+        "sources": [
+          "开源军情",
+          "网上舆论",
+          "雷达"
+        ],
+        "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+      },
+      "date": {
+        "value": "2025.5.18",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      }
+    },
+    "corrections": [],
+    "claims": [
+      "090ce76e603c",
+      "a1c55df865ff"
+    ],
+    "candidate_pairs": [
+      {
+        "claims": [
+          "090ce76e603c",
+          "a1c55df865ff"
+        ],
+        "verdict": {
+          "facts": {
+            "country": {
+              "value": "法国",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "platform": {
+              "value": "地平线",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "quantity": {
+              "value": 1,
+              "sources": [
+                "雷达",
+                "网上舆论"
+              ]
+            },
+            "task": {
+              "value": "反潜巡逻",
+              "sources": [
+                "雷达",
+                "开源军情"
+              ]
+            },
+            "activity_window": {
+              "value": [
+                708,
+                793
+              ],
+              "sources": [
+                "雷达",
+                "开源军情"
+              ],
+              "radar_observation_window": [
+                708,
+                793
+              ],
+              "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+            },
+            "region": {
+              "value": "钓鱼岛海域",
+              "sources": [
+                "开源军情",
+                "网上舆论",
+                "雷达"
+              ],
+              "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+            },
+            "date": {
+              "value": "2025.5.18",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            }
+          },
+          "region": "钓鱼岛海域",
+          "direction": "东海",
+          "conflicts": [],
+          "corrections": []
+        },
+        "evidence_strength": 26
+      }
+    ],
+    "candidates": [
+      {
+        "claim_id": "090ce76e603c",
+        "file": "赛题2-初赛/数据/2025.5.18/开源军情/044_开源军情-法国地平线级驱逐舰在钓鱼岛海域执行反潜巡逻.txt",
+        "source": "开源军情",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "task",
+          "time",
+          "region"
+        ],
+        "conflict": [],
+        "missing": [
+          "quantity"
+        ],
+        "region_relation": "exact",
+        "time_relation": "exact",
+        "eligible": true,
+        "track_id": "65f37d04fce7"
+      },
+      {
+        "claim_id": "a1c55df865ff",
+        "file": "赛题2-初赛/数据/2025.5.18/网上舆论/008_(网上舆情)-法国海军地平线级驱逐舰结束部署驶离钓鱼岛海域.txt",
+        "source": "网上舆论",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "quantity",
+          "region"
+        ],
+        "conflict": [],
+        "missing": [
+          "task",
+          "time"
+        ],
+        "region_relation": "exact",
+        "time_relation": "missing",
+        "eligible": true,
+        "track_id": "65f37d04fce7"
+      }
+    ],
+    "decision": "纳入",
+    "reasons": [],
+    "base_candidate": "法国土伦海军基地",
+    "base_verified": false,
+    "raw_region_values": [
+      "钓鱼岛海域"
+    ],
+    "raw_field_values": {
+      "country": [
+        "法国"
+      ],
+      "platform": [
+        "地平线级导弹驱逐舰"
+      ],
+      "quantity": [
+        "1"
+      ],
+      "task": [
+        "反潜巡逻"
+      ],
+      "base": [
+        "法国土伦海军基地"
+      ]
+    },
+    "competing_tracks": 1,
+    "trajectory_note": ""
+  },
+  {
+    "event_id": "E8a120c9d5fbb",
+    "date": "2025.5.30",
+    "kind": "飞机",
+    "country": "澳大利亚",
+    "platform": "EA-18G“咆哮者”电子攻击机",
+    "platform_key": "EA18G",
+    "batch": "AIR-6D87BDE4F5F959",
+    "quantity": 1,
+    "interval": [
+      1231,
+      1376
+    ],
+    "region": "南海",
+    "direction": "南海",
+    "task": "电子侦察",
+    "radar_file": "赛题2-初赛/数据/2025.5.30/雷达信息表_2025.5.30.xlsx",
+    "radar_rows": [
+      5,
+      47,
+      121,
+      144,
+      158,
+      170,
+      232,
+      244,
+      281,
+      297,
+      298
+    ],
+    "points": [
+      {
+        "row": 297,
+        "time": "2025-05-30T20:31:00",
+        "xy": [
+          108.6612,
+          5.0006
+        ],
+        "minute": 1231
+      },
+      {
+        "row": 121,
+        "time": "2025-05-30T20:45:30",
+        "xy": [
+          108.6929,
+          5.0198
+        ],
+        "minute": 1245
+      },
+      {
+        "row": 144,
+        "time": "2025-05-30T21:00:00",
+        "xy": [
+          108.6374,
+          5.0343
+        ],
+        "minute": 1260
+      },
+      {
+        "row": 170,
+        "time": "2025-05-30T21:14:30",
+        "xy": [
+          108.653,
+          5.1122
+        ],
+        "minute": 1274
+      },
+      {
+        "row": 47,
+        "time": "2025-05-30T21:29:00",
+        "xy": [
+          108.7166,
+          5.1331
+        ],
+        "minute": 1289
+      },
+      {
+        "row": 244,
+        "time": "2025-05-30T21:43:30",
+        "xy": [
+          108.732,
+          5.1223
+        ],
+        "minute": 1303
+      },
+      {
+        "row": 158,
+        "time": "2025-05-30T21:58:00",
+        "xy": [
+          108.7585,
+          5.2107
+        ],
+        "minute": 1318
+      },
+      {
+        "row": 5,
+        "time": "2025-05-30T22:12:30",
+        "xy": [
+          108.7929,
+          5.1529
+        ],
+        "minute": 1332
+      },
+      {
+        "row": 298,
+        "time": "2025-05-30T22:27:00",
+        "xy": [
+          108.7895,
+          5.2445
+        ],
+        "minute": 1347
+      },
+      {
+        "row": 281,
+        "time": "2025-05-30T22:41:30",
+        "xy": [
+          108.8031,
+          5.2399
+        ],
+        "minute": 1361
+      },
+      {
+        "row": 232,
+        "time": "2025-05-30T22:56:00",
+        "xy": [
+          108.8105,
+          5.2435
+        ],
+        "minute": 1376
+      }
+    ],
+    "xy": [
+      108.732,
+      5.1331
+    ],
+    "track_id": "8a120c9d5fbb",
+    "facts": {
+      "country": {
+        "value": "澳大利亚",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "platform": {
+        "value": "EA18G",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "quantity": {
+        "value": 1,
+        "sources": [
+          "雷达",
+          "开源军情"
+        ]
+      },
+      "task": {
+        "value": "电子侦察",
+        "sources": [
+          "雷达",
+          "网上舆论"
+        ]
+      },
+      "activity_window": {
+        "value": [
+          1231,
+          1376
+        ],
+        "sources": [
+          "雷达",
+          "网上舆论"
+        ],
+        "radar_observation_window": [
+          1231,
+          1376
+        ],
+        "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+      },
+      "region": {
+        "value": "南海",
+        "sources": [
+          "开源军情",
+          "网上舆论",
+          "雷达"
+        ],
+        "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+      },
+      "date": {
+        "value": "2025.5.30",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      }
+    },
+    "corrections": [],
+    "claims": [
+      "f0ce78cb2035",
+      "9a40c818ab6c"
+    ],
+    "candidate_pairs": [
+      {
+        "claims": [
+          "f0ce78cb2035",
+          "9a40c818ab6c"
+        ],
+        "verdict": {
+          "facts": {
+            "country": {
+              "value": "澳大利亚",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "platform": {
+              "value": "EA18G",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "quantity": {
+              "value": 1,
+              "sources": [
+                "雷达",
+                "开源军情"
+              ]
+            },
+            "task": {
+              "value": "电子侦察",
+              "sources": [
+                "雷达",
+                "网上舆论"
+              ]
+            },
+            "activity_window": {
+              "value": [
+                1231,
+                1376
+              ],
+              "sources": [
+                "雷达",
+                "网上舆论"
+              ],
+              "radar_observation_window": [
+                1231,
+                1376
+              ],
+              "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+            },
+            "region": {
+              "value": "南海",
+              "sources": [
+                "开源军情",
+                "网上舆论",
+                "雷达"
+              ],
+              "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+            },
+            "date": {
+              "value": "2025.5.30",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            }
+          },
+          "region": "南海",
+          "direction": "南海",
+          "conflicts": [],
+          "corrections": []
+        },
+        "evidence_strength": 16
+      }
+    ],
+    "candidates": [
+      {
+        "claim_id": "f0ce78cb2035",
+        "file": "赛题2-初赛/数据/2025.5.30/开源军情/042_开源军情-澳大利亚EA-18G电子攻击机在纳土纳群岛北部海域活动.txt",
+        "source": "开源军情",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "quantity",
+          "region-broad"
+        ],
+        "conflict": [],
+        "missing": [
+          "task",
+          "time"
+        ],
+        "region_relation": "missing",
+        "time_relation": "missing",
+        "eligible": true,
+        "track_id": "8a120c9d5fbb"
+      },
+      {
+        "claim_id": "9a40c818ab6c",
+        "file": "赛题2-初赛/数据/2025.5.30/网上舆论/042_(网上舆情)-澳军EA-18G电子攻击机在南海执行侦察任务.txt",
+        "source": "网上舆论",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "task",
+          "time",
+          "region-broad"
+        ],
+        "conflict": [],
+        "missing": [
+          "quantity"
+        ],
+        "region_relation": "missing",
+        "time_relation": "exact",
+        "eligible": true,
+        "track_id": "8a120c9d5fbb"
+      }
+    ],
+    "decision": "纳入",
+    "reasons": [],
+    "base_candidate": "澳大利亚达尔文空军基地",
+    "base_verified": false,
+    "raw_region_values": [],
+    "raw_field_values": {
+      "country": [
+        "澳大利亚"
+      ],
+      "platform": [
+        "EA-18G“咆哮者”电子攻击机"
+      ],
+      "quantity": [
+        "1"
+      ],
+      "task": [
+        "电子侦察"
+      ],
+      "base": [
+        "澳大利亚达尔文空军基地"
+      ]
+    },
+    "competing_tracks": 1,
+    "trajectory_note": ""
+  },
+  {
+    "event_id": "Ec2647945272a",
+    "date": "2025.5.30",
+    "kind": "舰船",
+    "country": "印度",
+    "platform": "卡尔瓦里级常规潜艇",
+    "platform_key": "卡尔瓦里",
+    "batch": "SHIP-7AE284DDE9E3AF",
+    "quantity": 1,
+    "interval": [
+      670,
+      815
+    ],
+    "region": "赤尾屿海域",
+    "direction": "东海",
+    "task": "战备巡逻",
+    "radar_file": "赛题2-初赛/数据/2025.5.30/雷达信息表_2025.5.30.xlsx",
+    "radar_rows": [
+      4,
+      52,
+      66,
+      103,
+      143,
+      144,
+      160,
+      164,
+      179,
+      208,
+      242,
+      264,
+      301
+    ],
+    "points": [],
+    "xy": null,
+    "track_id": "c2647945272a",
+    "facts": {
+      "country": {
+        "value": "印度",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "platform": {
+        "value": "卡尔瓦里",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "quantity": {
+        "value": 1,
+        "sources": [
+          "雷达",
+          "网上舆论"
+        ]
+      },
+      "task": {
+        "value": "战备巡逻",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "activity_window": {
+        "value": [
+          670,
+          815
+        ],
+        "sources": [
+          "雷达",
+          "开源军情"
+        ],
+        "radar_observation_window": [
+          670,
+          815
+        ],
+        "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+      },
+      "region": {
+        "value": "赤尾屿海域",
+        "sources": [
+          "开源军情",
+          "网上舆论",
+          "雷达"
+        ],
+        "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+      },
+      "date": {
+        "value": "2025.5.30",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      }
+    },
+    "corrections": [],
+    "claims": [
+      "ea51f5a25dca",
+      "4a827fcc4428"
+    ],
+    "candidate_pairs": [
+      {
+        "claims": [
+          "ea51f5a25dca",
+          "4a827fcc4428"
+        ],
+        "verdict": {
+          "facts": {
+            "country": {
+              "value": "印度",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "platform": {
+              "value": "卡尔瓦里",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "quantity": {
+              "value": 1,
+              "sources": [
+                "雷达",
+                "网上舆论"
+              ]
+            },
+            "task": {
+              "value": "战备巡逻",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "activity_window": {
+              "value": [
+                670,
+                815
+              ],
+              "sources": [
+                "雷达",
+                "开源军情"
+              ],
+              "radar_observation_window": [
+                670,
+                815
+              ],
+              "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+            },
+            "region": {
+              "value": "赤尾屿海域",
+              "sources": [
+                "开源军情",
+                "网上舆论",
+                "雷达"
+              ],
+              "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+            },
+            "date": {
+              "value": "2025.5.30",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            }
+          },
+          "region": "赤尾屿海域",
+          "direction": "东海",
+          "conflicts": [],
+          "corrections": []
+        },
+        "evidence_strength": 23
+      }
+    ],
+    "candidates": [
+      {
+        "claim_id": "ea51f5a25dca",
+        "file": "赛题2-初赛/数据/2025.5.30/开源军情/014_开源军情-印度海军卡尔瓦里级潜艇在赤尾屿海域执行战备巡逻.txt",
+        "source": "开源军情",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "task",
+          "time",
+          "region"
+        ],
+        "conflict": [],
+        "missing": [
+          "quantity"
+        ],
+        "region_relation": "exact",
+        "time_relation": "exact",
+        "eligible": true,
+        "track_id": "c2647945272a"
+      },
+      {
+        "claim_id": "2e451e5f1f29",
+        "file": "赛题2-初赛/数据/2025.5.30/开源军情/047_开源军情-印度海军卡尔瓦里级潜艇在东海南部执行海上巡逻.txt",
+        "source": "开源军情",
+        "line": 5,
+        "support": [
+          "platform",
+          "country"
+        ],
+        "conflict": [
+          "task冲突:雷达=战备巡逻,文本=['海上巡逻']",
+          "time冲突:[670, 815]/[356, 441]",
+          "region冲突:['赤尾屿海域']/东海南部"
+        ],
+        "missing": [
+          "quantity"
+        ],
+        "region_relation": "conflict",
+        "time_relation": "separate",
+        "eligible": false,
+        "track_id": "c2647945272a"
+      },
+      {
+        "claim_id": "7d00bfe124ef",
+        "file": "赛题2-初赛/数据/2025.5.30/网上舆论/013_(网上舆情)-印度海军卡尔瓦里级潜艇被指在东海南部持续活动.txt",
+        "source": "网上舆论",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "quantity"
+        ],
+        "conflict": [
+          "region冲突:['赤尾屿海域']/东海南部"
+        ],
+        "missing": [
+          "task",
+          "time"
+        ],
+        "region_relation": "conflict",
+        "time_relation": "missing",
+        "eligible": false,
+        "track_id": "c2647945272a"
+      },
+      {
+        "claim_id": "4a827fcc4428",
+        "file": "赛题2-初赛/数据/2025.5.30/网上舆论/031_(网上舆情)-印度海军“卡尔瓦里级”潜艇现身东海引发持续部署关注.txt",
+        "source": "网上舆论",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "quantity",
+          "task",
+          "region"
+        ],
+        "conflict": [],
+        "missing": [
+          "time"
+        ],
+        "region_relation": "contains",
+        "time_relation": "missing",
+        "eligible": true,
+        "track_id": "c2647945272a"
+      }
+    ],
+    "decision": "纳入",
+    "reasons": [],
+    "base_candidate": "印度维沙卡帕特南海军基地",
+    "base_verified": false,
+    "raw_region_values": [
+      "赤尾屿海域"
+    ],
+    "raw_field_values": {
+      "country": [
+        "印度"
+      ],
+      "platform": [
+        "卡尔瓦里级常规潜艇"
+      ],
+      "quantity": [
+        "1"
+      ],
+      "task": [
+        "战备巡逻"
+      ],
+      "base": [
+        "印度维沙卡帕特南海军基地"
+      ]
+    },
+    "competing_tracks": 1,
+    "trajectory_note": ""
+  },
+  {
+    "event_id": "Edee14f738d05",
+    "date": "2025.6.9",
+    "kind": "飞机",
+    "country": "英国",
+    "platform": "RC-135W电子侦察机",
+    "platform_key": "RC135W",
+    "batch": "AIR-900D3E39F755EC",
+    "quantity": 1,
+    "interval": [
+      681,
+      826
+    ],
+    "region": "东海",
+    "direction": "东海",
+    "task": "电子侦察",
+    "radar_file": "赛题2-初赛/数据/2025.6.9/雷达信息表_2025.6.9.xlsx",
+    "radar_rows": [
+      3,
+      17,
+      64,
+      141,
+      150,
+      162,
+      168,
+      196,
+      259,
+      261,
+      269,
+      292
+    ],
+    "points": [
+      {
+        "row": 141,
+        "time": "2025-06-09T11:21:00",
+        "xy": [
+          123.9257,
+          28.746
+        ],
+        "minute": 681
+      },
+      {
+        "row": 64,
+        "time": "2025-06-09T11:34:10",
+        "xy": [
+          123.9155,
+          28.7541
+        ],
+        "minute": 694
+      },
+      {
+        "row": 168,
+        "time": "2025-06-09T11:47:21",
+        "xy": [
+          123.8616,
+          28.7493
+        ],
+        "minute": 707
+      },
+      {
+        "row": 269,
+        "time": "2025-06-09T12:00:32",
+        "xy": [
+          123.8804,
+          28.6858
+        ],
+        "minute": 720
+      },
+      {
+        "row": 150,
+        "time": "2025-06-09T12:13:43",
+        "xy": [
+          123.9859,
+          28.6879
+        ],
+        "minute": 733
+      },
+      {
+        "row": 162,
+        "time": "2025-06-09T12:26:54",
+        "xy": [
+          123.9437,
+          28.7276
+        ],
+        "minute": 746
+      },
+      {
+        "row": 259,
+        "time": "2025-06-09T12:40:05",
+        "xy": [
+          123.9691,
+          28.7315
+        ],
+        "minute": 760
+      },
+      {
+        "row": 3,
+        "time": "2025-06-09T12:53:16",
+        "xy": [
+          123.9433,
+          28.6694
+        ],
+        "minute": 773
+      },
+      {
+        "row": 261,
+        "time": "2025-06-09T13:06:27",
+        "xy": [
+          123.9547,
+          28.669
+        ],
+        "minute": 786
+      },
+      {
+        "row": 17,
+        "time": "2025-06-09T13:19:38",
+        "xy": [
+          123.978,
+          28.7189
+        ],
+        "minute": 799
+      },
+      {
+        "row": 196,
+        "time": "2025-06-09T13:32:49",
+        "xy": [
+          124.0506,
+          28.7259
+        ],
+        "minute": 812
+      },
+      {
+        "row": 292,
+        "time": "2025-06-09T13:46:00",
+        "xy": [
+          124.0192,
+          28.6682
+        ],
+        "minute": 826
+      }
+    ],
+    "xy": [
+      123.9492,
+      28.7224
+    ],
+    "track_id": "dee14f738d05",
+    "facts": {
+      "country": {
+        "value": "英国",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "platform": {
+        "value": "RC135W",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "quantity": {
+        "value": 1,
+        "sources": [
+          "雷达",
+          "网上舆论"
+        ]
+      },
+      "task": {
+        "value": "电子侦察",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "activity_window": {
+        "value": [
+          681,
+          826
+        ],
+        "sources": [
+          "雷达",
+          "开源军情"
+        ],
+        "radar_observation_window": [
+          681,
+          826
+        ],
+        "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+      },
+      "region": {
+        "value": "东海",
+        "sources": [
+          "开源军情",
+          "网上舆论",
+          "雷达"
+        ],
+        "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+      },
+      "date": {
+        "value": "2025.6.9",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      }
+    },
+    "corrections": [],
+    "claims": [
+      "39de98926468",
+      "736273ec1d62"
+    ],
+    "candidate_pairs": [
+      {
+        "claims": [
+          "8c8d60c9d670",
+          "736273ec1d62"
+        ],
+        "verdict": {
+          "facts": {
+            "country": {
+              "value": "英国",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "platform": {
+              "value": "RC135W",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "quantity": {
+              "value": 1,
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "task": {
+              "value": "电子侦察",
+              "sources": [
+                "雷达",
+                "网上舆论"
+              ]
+            },
+            "activity_window": {
+              "value": [
+                681,
+                826
+              ],
+              "sources": [
+                "雷达"
+              ],
+              "radar_observation_window": [
+                681,
+                826
+              ],
+              "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+            },
+            "region": {
+              "value": "东海",
+              "sources": [
+                "开源军情",
+                "网上舆论",
+                "雷达"
+              ],
+              "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+            },
+            "date": {
+              "value": "2025.6.9",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            }
+          },
+          "region": "东海",
+          "direction": "东海",
+          "conflicts": [
+            "活动起止时段不足两类来源支持"
+          ],
+          "corrections": []
+        },
+        "evidence_strength": 12
+      },
+      {
+        "claims": [
+          "39de98926468",
+          "736273ec1d62"
+        ],
+        "verdict": {
+          "facts": {
+            "country": {
+              "value": "英国",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "platform": {
+              "value": "RC135W",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "quantity": {
+              "value": 1,
+              "sources": [
+                "雷达",
+                "网上舆论"
+              ]
+            },
+            "task": {
+              "value": "电子侦察",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "activity_window": {
+              "value": [
+                681,
+                826
+              ],
+              "sources": [
+                "雷达",
+                "开源军情"
+              ],
+              "radar_observation_window": [
+                681,
+                826
+              ],
+              "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+            },
+            "region": {
+              "value": "东海",
+              "sources": [
+                "开源军情",
+                "网上舆论",
+                "雷达"
+              ],
+              "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+            },
+            "date": {
+              "value": "2025.6.9",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            }
+          },
+          "region": "东海",
+          "direction": "东海",
+          "conflicts": [],
+          "corrections": []
+        },
+        "evidence_strength": 18
+      }
+    ],
+    "candidates": [
+      {
+        "claim_id": "8c8d60c9d670",
+        "file": "赛题2-初赛/数据/2025.6.9/开源军情/018_开源军情-英国空军RC-135W电子侦察机在长江口外海完成活动后离开.txt",
+        "source": "开源军情",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "quantity",
+          "region-broad"
+        ],
+        "conflict": [],
+        "missing": [
+          "task",
+          "time"
+        ],
+        "region_relation": "missing",
+        "time_relation": "missing",
+        "eligible": true,
+        "track_id": "dee14f738d05"
+      },
+      {
+        "claim_id": "39de98926468",
+        "file": "赛题2-初赛/数据/2025.6.9/开源军情/034_开源军情-英国空军RC-135W电子侦察机在东海持续实施电子侦察.txt",
+        "source": "开源军情",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "task",
+          "time",
+          "region-broad"
+        ],
+        "conflict": [],
+        "missing": [
+          "quantity"
+        ],
+        "region_relation": "missing",
+        "time_relation": "exact",
+        "eligible": true,
+        "track_id": "dee14f738d05"
+      },
+      {
+        "claim_id": "736273ec1d62",
+        "file": "赛题2-初赛/数据/2025.6.9/网上舆论/004_(网上舆情)-英军RC-135W电子侦察机被曝在东海执行侦察任务.txt",
+        "source": "网上舆论",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "quantity",
+          "task",
+          "region-broad"
+        ],
+        "conflict": [],
+        "missing": [
+          "time"
+        ],
+        "region_relation": "missing",
+        "time_relation": "missing",
+        "eligible": true,
+        "track_id": "dee14f738d05"
+      },
+      {
+        "claim_id": "9d5000fc32d6",
+        "file": "赛题2-初赛/数据/2025.6.9/网上舆论/036_(网上舆情)-英国电子侦察机在东海执行长时间情报监视任务.txt",
+        "source": "网上舆论",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "region-broad"
+        ],
+        "conflict": [
+          "task冲突:雷达=电子侦察,文本=['情报监视侦察']",
+          "time冲突:[681, 826]/[895, 980]"
+        ],
+        "missing": [
+          "quantity"
+        ],
+        "region_relation": "missing",
+        "time_relation": "separate",
+        "eligible": false,
+        "track_id": "dee14f738d05"
+      }
+    ],
+    "decision": "纳入",
+    "reasons": [],
+    "base_candidate": "冲绳嘉手纳空军基地",
+    "base_verified": false,
+    "raw_region_values": [],
+    "raw_field_values": {
+      "country": [
+        "英国"
+      ],
+      "platform": [
+        "RC-135W电子侦察机"
+      ],
+      "quantity": [
+        "1"
+      ],
+      "task": [
+        "电子侦察"
+      ],
+      "base": [
+        "冲绳嘉手纳空军基地"
+      ]
+    },
+    "competing_tracks": 1,
+    "trajectory_note": ""
+  },
+  {
+    "event_id": "E6e7acd5f8c61",
+    "date": "2025.6.9",
+    "kind": "舰船",
+    "country": "法国",
+    "platform": "戴高乐号航空母舰",
+    "platform_key": "戴高乐",
+    "batch": "SHIP-DAC6E72221D22D",
+    "quantity": 1,
+    "interval": [
+      494,
+      639
+    ],
+    "region": "南海",
+    "direction": "南海",
+    "task": "编队警戒部署",
+    "radar_file": "赛题2-初赛/数据/2025.6.9/雷达信息表_2025.6.9.xlsx",
+    "radar_rows": [
+      4,
+      31,
+      38,
+      56,
+      111,
+      184,
+      218,
+      231,
+      236,
+      245,
+      258,
+      263
+    ],
+    "points": [],
+    "xy": null,
+    "track_id": "6e7acd5f8c61",
+    "facts": {
+      "country": {
+        "value": "法国",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "platform": {
+        "value": "戴高乐",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "quantity": {
+        "value": 1,
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "task": {
+        "value": "编队警戒部署",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "activity_window": {
+        "value": [
+          494,
+          639
+        ],
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ],
+        "radar_observation_window": [
+          494,
+          639
+        ],
+        "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+      },
+      "region": {
+        "value": "南海",
+        "sources": [
+          "开源军情",
+          "网上舆论",
+          "雷达"
+        ],
+        "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+      },
+      "date": {
+        "value": "2025.6.9",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      }
+    },
+    "corrections": [],
+    "claims": [
+      "13eea633540c",
+      "6251bf4ae1ae"
+    ],
+    "candidate_pairs": [
+      {
+        "claims": [
+          "13eea633540c",
+          "6251bf4ae1ae"
+        ],
+        "verdict": {
+          "facts": {
+            "country": {
+              "value": "法国",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "platform": {
+              "value": "戴高乐",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "quantity": {
+              "value": 1,
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "task": {
+              "value": "编队警戒部署",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "activity_window": {
+              "value": [
+                494,
+                639
+              ],
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ],
+              "radar_observation_window": [
+                494,
+                639
+              ],
+              "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+            },
+            "region": {
+              "value": "南海",
+              "sources": [
+                "开源军情",
+                "网上舆论",
+                "雷达"
+              ],
+              "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+            },
+            "date": {
+              "value": "2025.6.9",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            }
+          },
+          "region": "南海",
+          "direction": "南海",
+          "conflicts": [],
+          "corrections": []
+        },
+        "evidence_strength": 36
+      }
+    ],
+    "candidates": [
+      {
+        "claim_id": "b270a8624c18",
+        "file": "赛题2-初赛/数据/2025.6.9/开源军情/030_开源军情-法国海军戴高乐号航母编队在中沙群岛海域执行联合巡航行动.txt",
+        "source": "开源军情",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "quantity",
+          "region"
+        ],
+        "conflict": [
+          "task冲突:雷达=编队警戒部署,文本=['联合巡航']",
+          "time冲突:[494, 639]/[699, 789]"
+        ],
+        "missing": [],
+        "region_relation": "contains",
+        "time_relation": "separate",
+        "eligible": false,
+        "track_id": "6e7acd5f8c61"
+      },
+      {
+        "claim_id": "13eea633540c",
+        "file": "赛题2-初赛/数据/2025.6.9/开源军情/043_开源军情-法国戴高乐号航母在南海完成编队警戒部署后离开任务海域.txt",
+        "source": "开源军情",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "quantity",
+          "task",
+          "time",
+          "region"
+        ],
+        "conflict": [],
+        "missing": [],
+        "region_relation": "exact",
+        "time_relation": "exact",
+        "eligible": true,
+        "track_id": "6e7acd5f8c61"
+      },
+      {
+        "claim_id": "0300c06c4119",
+        "file": "赛题2-初赛/数据/2025.6.9/网上舆论/033_(网上舆情)-法国航母编队南海中沙群岛海域持续活动引关注.txt",
+        "source": "网上舆论",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "quantity",
+          "region"
+        ],
+        "conflict": [
+          "task冲突:雷达=编队警戒部署,文本=['联合巡航']",
+          "time冲突:[494, 639]/[764, 789]"
+        ],
+        "missing": [],
+        "region_relation": "contains",
+        "time_relation": "separate",
+        "eligible": false,
+        "track_id": "6e7acd5f8c61"
+      },
+      {
+        "claim_id": "6251bf4ae1ae",
+        "file": "赛题2-初赛/数据/2025.6.9/网上舆论/037_(网上舆情)-法国航母“戴高乐”号在南海展开编队警戒部署.txt",
+        "source": "网上舆论",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "quantity",
+          "task",
+          "time",
+          "region"
+        ],
+        "conflict": [],
+        "missing": [],
+        "region_relation": "exact",
+        "time_relation": "exact",
+        "eligible": true,
+        "track_id": "6e7acd5f8c61"
+      }
+    ],
+    "decision": "纳入",
+    "reasons": [],
+    "base_candidate": "法国土伦海军基地",
+    "base_verified": false,
+    "raw_region_values": [
+      "南海"
+    ],
+    "raw_field_values": {
+      "country": [
+        "法国"
+      ],
+      "platform": [
+        "戴高乐号航空母舰"
+      ],
+      "quantity": [
+        "1"
+      ],
+      "task": [
+        "编队警戒部署"
+      ],
+      "base": [
+        "法国土伦海军基地"
+      ]
+    },
+    "competing_tracks": 1,
+    "trajectory_note": ""
+  },
+  {
+    "event_id": "E1252ca3506d0",
+    "date": "2025.6.17",
+    "kind": "飞机",
+    "country": "澳大利亚",
+    "platform": "P-8A“海神”反潜巡逻机",
+    "platform_key": "P8A",
+    "batch": "AIR-15297A9B050E29",
+    "quantity": 1,
+    "interval": [
+      307,
+      452
+    ],
+    "region": "南海",
+    "direction": "南海",
+    "task": "反潜巡逻",
+    "radar_file": "赛题2-初赛/数据/2025.6.17/雷达信息表_2025.6.17.xlsx",
+    "radar_rows": [
+      2,
+      18,
+      38,
+      42,
+      68,
+      79,
+      89,
+      101,
+      209,
+      251,
+      254,
+      271,
+      298
+    ],
+    "points": [
+      {
+        "row": 18,
+        "time": "2025-06-17T05:07:00",
+        "xy": [
+          114.5666,
+          14.757
+        ],
+        "minute": 307
+      },
+      {
+        "row": 101,
+        "time": "2025-06-17T05:19:05",
+        "xy": [
+          114.6582,
+          14.7863
+        ],
+        "minute": 319
+      },
+      {
+        "row": 89,
+        "time": "2025-06-17T05:31:10",
+        "xy": [
+          114.6458,
+          14.8129
+        ],
+        "minute": 331
+      },
+      {
+        "row": 42,
+        "time": "2025-06-17T05:43:15",
+        "xy": [
+          114.6505,
+          14.8608
+        ],
+        "minute": 343
+      },
+      {
+        "row": 271,
+        "time": "2025-06-17T05:55:20",
+        "xy": [
+          114.6604,
+          14.9352
+        ],
+        "minute": 355
+      },
+      {
+        "row": 2,
+        "time": "2025-06-17T06:07:25",
+        "xy": [
+          114.6779,
+          14.926
+        ],
+        "minute": 367
+      },
+      {
+        "row": 79,
+        "time": "2025-06-17T06:19:30",
+        "xy": [
+          114.7445,
+          14.9917
+        ],
+        "minute": 379
+      },
+      {
+        "row": 254,
+        "time": "2025-06-17T06:31:35",
+        "xy": [
+          114.7449,
+          14.9933
+        ],
+        "minute": 391
+      },
+      {
+        "row": 298,
+        "time": "2025-06-17T06:43:40",
+        "xy": [
+          114.7342,
+          15.0528
+        ],
+        "minute": 403
+      },
+      {
+        "row": 68,
+        "time": "2025-06-17T06:55:45",
+        "xy": [
+          114.7018,
+          15.1025
+        ],
+        "minute": 415
+      },
+      {
+        "row": 38,
+        "time": "2025-06-17T07:07:50",
+        "xy": [
+          114.7723,
+          15.1357
+        ],
+        "minute": 427
+      },
+      {
+        "row": 209,
+        "time": "2025-06-17T07:19:55",
+        "xy": [
+          114.7472,
+          15.1619
+        ],
+        "minute": 439
+      },
+      {
+        "row": 251,
+        "time": "2025-06-17T07:32:00",
+        "xy": [
+          114.7623,
+          15.2348
+        ],
+        "minute": 452
+      }
+    ],
+    "xy": [
+      114.7018,
+      14.9917
+    ],
+    "track_id": "1252ca3506d0",
+    "facts": {
+      "country": {
+        "value": "澳大利亚",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "platform": {
+        "value": "P8A",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "quantity": {
+        "value": 1,
+        "sources": [
+          "雷达",
+          "网上舆论"
+        ]
+      },
+      "task": {
+        "value": "反潜巡逻",
+        "sources": [
+          "雷达",
+          "开源军情"
+        ]
+      },
+      "activity_window": {
+        "value": [
+          307,
+          452
+        ],
+        "sources": [
+          "雷达",
+          "开源军情"
+        ],
+        "radar_observation_window": [
+          307,
+          452
+        ],
+        "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+      },
+      "region": {
+        "value": "南海",
+        "sources": [
+          "开源军情",
+          "网上舆论",
+          "雷达"
+        ],
+        "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+      },
+      "date": {
+        "value": "2025.6.17",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      }
+    },
+    "corrections": [],
+    "claims": [
+      "98bc7b579cc8",
+      "ea34a5d71706"
+    ],
+    "candidate_pairs": [
+      {
+        "claims": [
+          "98bc7b579cc8",
+          "ea34a5d71706"
+        ],
+        "verdict": {
+          "facts": {
+            "country": {
+              "value": "澳大利亚",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "platform": {
+              "value": "P8A",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "quantity": {
+              "value": 1,
+              "sources": [
+                "雷达",
+                "网上舆论"
+              ]
+            },
+            "task": {
+              "value": "反潜巡逻",
+              "sources": [
+                "雷达",
+                "开源军情"
+              ]
+            },
+            "activity_window": {
+              "value": [
+                307,
+                452
+              ],
+              "sources": [
+                "雷达",
+                "开源军情"
+              ],
+              "radar_observation_window": [
+                307,
+                452
+              ],
+              "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+            },
+            "region": {
+              "value": "南海",
+              "sources": [
+                "开源军情",
+                "网上舆论",
+                "雷达"
+              ],
+              "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+            },
+            "date": {
+              "value": "2025.6.17",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            }
+          },
+          "region": "南海",
+          "direction": "南海",
+          "conflicts": [],
+          "corrections": []
+        },
+        "evidence_strength": 16
+      }
+    ],
+    "candidates": [
+      {
+        "claim_id": "98bc7b579cc8",
+        "file": "赛题2-初赛/数据/2025.6.17/开源军情/012_开源军情-澳大利亚P-8A与F-35A在南海执行反潜巡逻.txt",
+        "source": "开源军情",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "task",
+          "time",
+          "region-broad"
+        ],
+        "conflict": [],
+        "missing": [
+          "quantity"
+        ],
+        "region_relation": "missing",
+        "time_relation": "exact",
+        "eligible": true,
+        "track_id": "1252ca3506d0"
+      },
+      {
+        "claim_id": "ab7c84deeb68",
+        "file": "赛题2-初赛/数据/2025.6.17/开源军情/050_开源军情-澳大利亚P-8A反潜巡逻机在黄海持续活动.txt",
+        "source": "开源军情",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "quantity"
+        ],
+        "conflict": [
+          "region冲突:轨迹坐标不在文本核心海域宽容包络内"
+        ],
+        "missing": [
+          "task",
+          "time"
+        ],
+        "region_relation": "missing",
+        "time_relation": "missing",
+        "eligible": false,
+        "track_id": "1252ca3506d0"
+      },
+      {
+        "claim_id": "b0d600e28f67",
+        "file": "赛题2-初赛/数据/2025.6.17/网上舆论/021_(网上舆情)-澳大利亚P-8A“海神”反潜巡逻机在黄海执行海上侦察巡逻.txt",
+        "source": "网上舆论",
+        "line": 5,
+        "support": [
+          "platform",
+          "country"
+        ],
+        "conflict": [
+          "task冲突:雷达=反潜巡逻,文本=['海上侦察巡逻']",
+          "time冲突:[307, 452]/[1033, 1178]",
+          "region冲突:轨迹坐标不在文本核心海域宽容包络内"
+        ],
+        "missing": [
+          "quantity"
+        ],
+        "region_relation": "missing",
+        "time_relation": "separate",
+        "eligible": false,
+        "track_id": "1252ca3506d0"
+      },
+      {
+        "claim_id": "ea34a5d71706",
+        "file": "赛题2-初赛/数据/2025.6.17/网上舆论/036_(网上舆情)-澳大利亚P-8A反潜巡逻机进入南海活动引关注.txt",
+        "source": "网上舆论",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "quantity",
+          "region-broad"
+        ],
+        "conflict": [],
+        "missing": [
+          "task",
+          "time"
+        ],
+        "region_relation": "missing",
+        "time_relation": "missing",
+        "eligible": true,
+        "track_id": "1252ca3506d0"
+      }
+    ],
+    "decision": "纳入",
+    "reasons": [],
+    "base_candidate": "澳大利亚达尔文空军基地",
+    "base_verified": false,
+    "raw_region_values": [],
+    "raw_field_values": {
+      "country": [
+        "澳大利亚"
+      ],
+      "platform": [
+        "P-8A“海神”反潜巡逻机"
+      ],
+      "quantity": [
+        "1"
+      ],
+      "task": [
+        "反潜巡逻"
+      ],
+      "base": [
+        "澳大利亚达尔文空军基地"
+      ]
+    },
+    "competing_tracks": 1,
+    "trajectory_note": ""
+  },
+  {
+    "event_id": "Ed58e4718c43e",
+    "date": "2025.6.17",
+    "kind": "舰船",
+    "country": "台湾",
+    "platform": "康定级导弹护卫舰",
+    "platform_key": "康定",
+    "batch": "SHIP-FBF2A35D9790DF",
+    "quantity": 1,
+    "interval": [
+      708,
+      793
+    ],
+    "region": "青岛外海",
+    "direction": "黄海",
+    "task": "反潜巡逻",
+    "radar_file": "赛题2-初赛/数据/2025.6.17/雷达信息表_2025.6.17.xlsx",
+    "radar_rows": [
+      3,
+      39,
+      43,
+      68,
+      73,
+      119,
+      136,
+      218,
+      233,
+      283
+    ],
+    "points": [],
+    "xy": null,
+    "track_id": "d58e4718c43e",
+    "facts": {
+      "country": {
+        "value": "台湾",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "platform": {
+        "value": "康定",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "quantity": {
+        "value": 1,
+        "sources": [
+          "雷达",
+          "网上舆论"
+        ]
+      },
+      "task": {
+        "value": "反潜巡逻",
+        "sources": [
+          "雷达",
+          "开源军情"
+        ]
+      },
+      "activity_window": {
+        "value": [
+          708,
+          793
+        ],
+        "sources": [
+          "雷达",
+          "开源军情"
+        ],
+        "radar_observation_window": [
+          708,
+          793
+        ],
+        "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+      },
+      "region": {
+        "value": "青岛外海",
+        "sources": [
+          "开源军情",
+          "网上舆论",
+          "雷达"
+        ],
+        "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+      },
+      "date": {
+        "value": "2025.6.17",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      }
+    },
+    "corrections": [],
+    "claims": [
+      "eab08fea9292",
+      "2dc4ec38d59a"
+    ],
+    "candidate_pairs": [
+      {
+        "claims": [
+          "eab08fea9292",
+          "2dc4ec38d59a"
+        ],
+        "verdict": {
+          "facts": {
+            "country": {
+              "value": "台湾",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "platform": {
+              "value": "康定",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "quantity": {
+              "value": 1,
+              "sources": [
+                "雷达",
+                "网上舆论"
+              ]
+            },
+            "task": {
+              "value": "反潜巡逻",
+              "sources": [
+                "雷达",
+                "开源军情"
+              ]
+            },
+            "activity_window": {
+              "value": [
+                708,
+                793
+              ],
+              "sources": [
+                "雷达",
+                "开源军情"
+              ],
+              "radar_observation_window": [
+                708,
+                793
+              ],
+              "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+            },
+            "region": {
+              "value": "青岛外海",
+              "sources": [
+                "开源军情",
+                "网上舆论",
+                "雷达"
+              ],
+              "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+            },
+            "date": {
+              "value": "2025.6.17",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            }
+          },
+          "region": "青岛外海",
+          "direction": "黄海",
+          "conflicts": [],
+          "corrections": []
+        },
+        "evidence_strength": 26
+      }
+    ],
+    "candidates": [
+      {
+        "claim_id": "eab08fea9292",
+        "file": "赛题2-初赛/数据/2025.6.17/开源军情/043_开源军情-台湾海军康定级导弹护卫舰在青岛外海执行反潜巡逻.txt",
+        "source": "开源军情",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "task",
+          "time",
+          "region"
+        ],
+        "conflict": [],
+        "missing": [
+          "quantity"
+        ],
+        "region_relation": "exact",
+        "time_relation": "exact",
+        "eligible": true,
+        "track_id": "d58e4718c43e"
+      },
+      {
+        "claim_id": "2dc4ec38d59a",
+        "file": "赛题2-初赛/数据/2025.6.17/网上舆论/042_(网上舆情)-台军康定级舰持续在青岛外海活动引发区域关注.txt",
+        "source": "网上舆论",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "quantity",
+          "region"
+        ],
+        "conflict": [],
+        "missing": [
+          "task",
+          "time"
+        ],
+        "region_relation": "exact",
+        "time_relation": "missing",
+        "eligible": true,
+        "track_id": "d58e4718c43e"
+      }
+    ],
+    "decision": "纳入",
+    "reasons": [],
+    "base_candidate": "台湾苏澳港",
+    "base_verified": false,
+    "raw_region_values": [
+      "青岛外海"
+    ],
+    "raw_field_values": {
+      "country": [
+        "台湾"
+      ],
+      "platform": [
+        "康定级导弹护卫舰"
+      ],
+      "quantity": [
+        "1"
+      ],
+      "task": [
+        "反潜巡逻"
+      ],
+      "base": [
+        "台湾苏澳港"
+      ]
+    },
+    "competing_tracks": 1,
+    "trajectory_note": ""
+  },
+  {
+    "event_id": "E43a0874a6f4e",
+    "date": "2025.6.29",
+    "kind": "飞机",
+    "country": "澳大利亚",
+    "platform": "F-35A隐身战斗机",
+    "platform_key": "F35A",
+    "batch": "AIR-E13BD57A156414",
+    "quantity": 1,
+    "interval": [
+      895,
+      980
+    ],
+    "region": "黄海",
+    "direction": "黄海",
+    "task": "空中警戒",
+    "radar_file": "赛题2-初赛/数据/2025.6.29/雷达信息表_2025.6.29.xlsx",
+    "radar_rows": [
+      4,
+      7,
+      11,
+      18,
+      111,
+      127,
+      144,
+      173,
+      178,
+      185,
+      253,
+      301
+    ],
+    "points": [
+      {
+        "row": 111,
+        "time": "2025-06-29T14:55:00",
+        "xy": [
+          123.1352,
+          34.3792
+        ],
+        "minute": 895
+      },
+      {
+        "row": 11,
+        "time": "2025-06-29T15:02:43",
+        "xy": [
+          123.1465,
+          34.2768
+        ],
+        "minute": 902
+      },
+      {
+        "row": 127,
+        "time": "2025-06-29T15:10:27",
+        "xy": [
+          123.1883,
+          34.2748
+        ],
+        "minute": 910
+      },
+      {
+        "row": 18,
+        "time": "2025-06-29T15:18:10",
+        "xy": [
+          123.1614,
+          34.2285
+        ],
+        "minute": 918
+      },
+      {
+        "row": 4,
+        "time": "2025-06-29T15:25:54",
+        "xy": [
+          123.1733,
+          34.1225
+        ],
+        "minute": 925
+      },
+      {
+        "row": 301,
+        "time": "2025-06-29T15:33:38",
+        "xy": [
+          123.1862,
+          34.0935
+        ],
+        "minute": 933
+      },
+      {
+        "row": 144,
+        "time": "2025-06-29T15:41:21",
+        "xy": [
+          123.1379,
+          34.033
+        ],
+        "minute": 941
+      },
+      {
+        "row": 185,
+        "time": "2025-06-29T15:49:05",
+        "xy": [
+          123.1318,
+          34.0091
+        ],
+        "minute": 949
+      },
+      {
+        "row": 7,
+        "time": "2025-06-29T15:56:49",
+        "xy": [
+          123.1916,
+          33.9012
+        ],
+        "minute": 956
+      },
+      {
+        "row": 173,
+        "time": "2025-06-29T16:04:32",
+        "xy": [
+          123.1172,
+          33.8363
+        ],
+        "minute": 964
+      },
+      {
+        "row": 178,
+        "time": "2025-06-29T16:12:16",
+        "xy": [
+          123.1869,
+          33.8717
+        ],
+        "minute": 972
+      },
+      {
+        "row": 253,
+        "time": "2025-06-29T16:20:00",
+        "xy": [
+          123.1193,
+          33.7627
+        ],
+        "minute": 980
+      }
+    ],
+    "xy": [
+      123.15395000000001,
+      34.06325
+    ],
+    "track_id": "43a0874a6f4e",
+    "facts": {
+      "country": {
+        "value": "澳大利亚",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "platform": {
+        "value": "F35A",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "quantity": {
+        "value": 1,
+        "sources": [
+          "雷达",
+          "开源军情"
+        ]
+      },
+      "task": {
+        "value": "空中警戒",
+        "sources": [
+          "雷达",
+          "网上舆论"
+        ]
+      },
+      "activity_window": {
+        "value": [
+          895,
+          980
+        ],
+        "sources": [
+          "雷达",
+          "网上舆论"
+        ],
+        "radar_observation_window": [
+          895,
+          980
+        ],
+        "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+      },
+      "region": {
+        "value": "黄海",
+        "sources": [
+          "开源军情",
+          "网上舆论",
+          "雷达"
+        ],
+        "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+      },
+      "date": {
+        "value": "2025.6.29",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      }
+    },
+    "corrections": [],
+    "claims": [
+      "4fc3648729fc",
+      "4df7956bfc63"
+    ],
+    "candidate_pairs": [
+      {
+        "claims": [
+          "4fc3648729fc",
+          "4df7956bfc63"
+        ],
+        "verdict": {
+          "facts": {
+            "country": {
+              "value": "澳大利亚",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "platform": {
+              "value": "F35A",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "quantity": {
+              "value": 1,
+              "sources": [
+                "雷达",
+                "开源军情"
+              ]
+            },
+            "task": {
+              "value": "空中警戒",
+              "sources": [
+                "雷达",
+                "网上舆论"
+              ]
+            },
+            "activity_window": {
+              "value": [
+                895,
+                980
+              ],
+              "sources": [
+                "雷达",
+                "网上舆论"
+              ],
+              "radar_observation_window": [
+                895,
+                980
+              ],
+              "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+            },
+            "region": {
+              "value": "黄海",
+              "sources": [
+                "开源军情",
+                "网上舆论",
+                "雷达"
+              ],
+              "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+            },
+            "date": {
+              "value": "2025.6.29",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            }
+          },
+          "region": "黄海",
+          "direction": "黄海",
+          "conflicts": [],
+          "corrections": []
+        },
+        "evidence_strength": 16
+      }
+    ],
+    "candidates": [
+      {
+        "claim_id": "4fc3648729fc",
+        "file": "赛题2-初赛/数据/2025.6.29/开源军情/016_开源军情-澳大利亚空军F-35A与MC-55A编队在南黄海持续活动.txt",
+        "source": "开源军情",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "quantity",
+          "region-broad"
+        ],
+        "conflict": [],
+        "missing": [
+          "task",
+          "time"
+        ],
+        "region_relation": "missing",
+        "time_relation": "missing",
+        "eligible": true,
+        "track_id": "43a0874a6f4e"
+      },
+      {
+        "claim_id": "4df7956bfc63",
+        "file": "赛题2-初赛/数据/2025.6.29/网上舆论/023_(网上舆情)-澳大利亚F-35A战斗机在黄海执行空中警戒.txt",
+        "source": "网上舆论",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "task",
+          "time",
+          "region-broad"
+        ],
+        "conflict": [],
+        "missing": [
+          "quantity"
+        ],
+        "region_relation": "missing",
+        "time_relation": "exact",
+        "eligible": true,
+        "track_id": "43a0874a6f4e"
+      }
+    ],
+    "decision": "纳入",
+    "reasons": [],
+    "base_candidate": "澳大利亚达尔文空军基地",
+    "base_verified": false,
+    "raw_region_values": [],
+    "raw_field_values": {
+      "country": [
+        "澳大利亚"
+      ],
+      "platform": [
+        "F-35A隐身战斗机"
+      ],
+      "quantity": [
+        "1"
+      ],
+      "task": [
+        "空中警戒"
+      ],
+      "base": [
+        "澳大利亚达尔文空军基地"
+      ]
+    },
+    "competing_tracks": 1,
+    "trajectory_note": ""
+  },
+  {
+    "event_id": "E85d3cfcf403c",
+    "date": "2025.6.29",
+    "kind": "舰船",
+    "country": "印度",
+    "platform": "维克兰特号航空母舰",
+    "platform_key": "维克兰特",
+    "batch": "SHIP-30C0D1B212BAC3",
+    "quantity": 1,
+    "interval": [
+      846,
+      991
+    ],
+    "region": "南海北部",
+    "direction": "南海",
+    "task": "例行部署",
+    "radar_file": "赛题2-初赛/数据/2025.6.29/雷达信息表_2025.6.29.xlsx",
+    "radar_rows": [
+      6,
+      46,
+      90,
+      154,
+      159,
+      169,
+      202,
+      221,
+      229,
+      259,
+      297
+    ],
+    "points": [],
+    "xy": null,
+    "track_id": "85d3cfcf403c",
+    "facts": {
+      "country": {
+        "value": "印度",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "platform": {
+        "value": "维克兰特",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "quantity": {
+        "value": 1,
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "task": {
+        "value": "例行部署",
+        "sources": [
+          "雷达",
+          "网上舆论"
+        ]
+      },
+      "activity_window": {
+        "value": [
+          846,
+          991
+        ],
+        "sources": [
+          "雷达",
+          "网上舆论"
+        ],
+        "radar_observation_window": [
+          846,
+          991
+        ],
+        "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+      },
+      "region": {
+        "value": "南海北部",
+        "sources": [
+          "开源军情",
+          "网上舆论",
+          "雷达"
+        ],
+        "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+      },
+      "date": {
+        "value": "2025.6.29",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      }
+    },
+    "corrections": [],
+    "claims": [
+      "84499182555b",
+      "f31d582ca7ae"
+    ],
+    "candidate_pairs": [
+      {
+        "claims": [
+          "84499182555b",
+          "f31d582ca7ae"
+        ],
+        "verdict": {
+          "facts": {
+            "country": {
+              "value": "印度",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "platform": {
+              "value": "维克兰特",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "quantity": {
+              "value": 1,
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "task": {
+              "value": "例行部署",
+              "sources": [
+                "雷达",
+                "网上舆论"
+              ]
+            },
+            "activity_window": {
+              "value": [
+                846,
+                991
+              ],
+              "sources": [
+                "雷达",
+                "网上舆论"
+              ],
+              "radar_observation_window": [
+                846,
+                991
+              ],
+              "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+            },
+            "region": {
+              "value": "南海北部",
+              "sources": [
+                "开源军情",
+                "网上舆论",
+                "雷达"
+              ],
+              "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+            },
+            "date": {
+              "value": "2025.6.29",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            }
+          },
+          "region": "南海北部",
+          "direction": "南海",
+          "conflicts": [],
+          "corrections": []
+        },
+        "evidence_strength": 23
+      }
+    ],
+    "candidates": [
+      {
+        "claim_id": "84499182555b",
+        "file": "赛题2-初赛/数据/2025.6.29/开源军情/035_开源军情-印度维克兰特号航空母舰在南海北部持续活动.txt",
+        "source": "开源军情",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "quantity",
+          "region"
+        ],
+        "conflict": [],
+        "missing": [
+          "task",
+          "time"
+        ],
+        "region_relation": "exact",
+        "time_relation": "missing",
+        "eligible": true,
+        "track_id": "85d3cfcf403c"
+      },
+      {
+        "claim_id": "f31d582ca7ae",
+        "file": "赛题2-初赛/数据/2025.6.29/网上舆论/003_(网上舆情)-印度航母“维克兰特”号进入南海活动引发媒体关注.txt",
+        "source": "网上舆论",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "quantity",
+          "task",
+          "time",
+          "region"
+        ],
+        "conflict": [],
+        "missing": [],
+        "region_relation": "contains",
+        "time_relation": "exact",
+        "eligible": true,
+        "track_id": "85d3cfcf403c"
+      }
+    ],
+    "decision": "纳入",
+    "reasons": [],
+    "base_candidate": "印度维沙卡帕特南海军基地",
+    "base_verified": false,
+    "raw_region_values": [
+      "南海北部"
+    ],
+    "raw_field_values": {
+      "country": [
+        "印度"
+      ],
+      "platform": [
+        "维克兰特号航空母舰"
+      ],
+      "quantity": [
+        "1"
+      ],
+      "task": [
+        "例行部署"
+      ],
+      "base": [
+        "印度维沙卡帕特南海军基地"
+      ]
+    },
+    "competing_tracks": 1,
+    "trajectory_note": ""
+  },
+  {
+    "event_id": "Ec4affdf4ce5d",
+    "date": "2025.7.9",
+    "kind": "飞机",
+    "country": "日本",
+    "platform": "RQ-4“全球鹰”无人机",
+    "platform_key": "RQ4",
+    "batch": "AIR-E6002140F96CB5",
+    "quantity": 1,
+    "interval": [
+      345,
+      430
+    ],
+    "region": "曾母暗沙海域",
+    "direction": "南海",
+    "task": "海上侦察巡逻",
+    "radar_file": "赛题2-初赛/数据/2025.7.9/雷达信息表_2025.7.9.xlsx",
+    "radar_rows": [
+      3,
+      14,
+      56,
+      128,
+      192,
+      199,
+      222,
+      230,
+      288,
+      291,
+      298
+    ],
+    "points": [
+      {
+        "row": 230,
+        "time": "2025-07-09T05:45:00",
+        "xy": [
+          112.4427,
+          3.6383
+        ],
+        "minute": 345
+      },
+      {
+        "row": 222,
+        "time": "2025-07-09T05:53:30",
+        "xy": [
+          112.412,
+          3.6527
+        ],
+        "minute": 353
+      },
+      {
+        "row": 128,
+        "time": "2025-07-09T06:02:00",
+        "xy": [
+          112.3949,
+          3.6521
+        ],
+        "minute": 362
+      },
+      {
+        "row": 56,
+        "time": "2025-07-09T06:10:30",
+        "xy": [
+          112.4337,
+          3.6828
+        ],
+        "minute": 370
+      },
+      {
+        "row": 298,
+        "time": "2025-07-09T06:19:00",
+        "xy": [
+          112.4553,
+          3.7094
+        ],
+        "minute": 379
+      },
+      {
+        "row": 3,
+        "time": "2025-07-09T06:27:30",
+        "xy": [
+          112.4661,
+          3.6503
+        ],
+        "minute": 387
+      },
+      {
+        "row": 199,
+        "time": "2025-07-09T06:36:00",
+        "xy": [
+          112.4656,
+          3.6408
+        ],
+        "minute": 396
+      },
+      {
+        "row": 288,
+        "time": "2025-07-09T06:44:30",
+        "xy": [
+          112.49,
+          3.6833
+        ],
+        "minute": 404
+      },
+      {
+        "row": 14,
+        "time": "2025-07-09T06:53:00",
+        "xy": [
+          112.5746,
+          3.7133
+        ],
+        "minute": 413
+      },
+      {
+        "row": 291,
+        "time": "2025-07-09T07:01:30",
+        "xy": [
+          112.5382,
+          3.646
+        ],
+        "minute": 421
+      },
+      {
+        "row": 192,
+        "time": "2025-07-09T07:10:00",
+        "xy": [
+          112.5444,
+          3.6862
+        ],
+        "minute": 430
+      }
+    ],
+    "xy": [
+      112.4656,
+      3.6527
+    ],
+    "track_id": "c4affdf4ce5d",
+    "facts": {
+      "country": {
+        "value": "日本",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "platform": {
+        "value": "RQ4",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "quantity": {
+        "value": 1,
+        "sources": [
+          "雷达",
+          "网上舆论"
+        ]
+      },
+      "task": {
+        "value": "海上侦察巡逻",
+        "sources": [
+          "雷达",
+          "开源军情"
+        ]
+      },
+      "activity_window": {
+        "value": [
+          345,
+          430
+        ],
+        "sources": [
+          "雷达",
+          "开源军情"
+        ],
+        "radar_observation_window": [
+          345,
+          430
+        ],
+        "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+      },
+      "region": {
+        "value": "曾母暗沙海域",
+        "sources": [
+          "开源军情",
+          "网上舆论",
+          "雷达"
+        ],
+        "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+      },
+      "date": {
+        "value": "2025.7.9",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      }
+    },
+    "corrections": [],
+    "claims": [
+      "73ddee3f3c96",
+      "b2f7f5886615"
+    ],
+    "candidate_pairs": [
+      {
+        "claims": [
+          "73ddee3f3c96",
+          "b2f7f5886615"
+        ],
+        "verdict": {
+          "facts": {
+            "country": {
+              "value": "日本",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "platform": {
+              "value": "RQ4",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "quantity": {
+              "value": 1,
+              "sources": [
+                "雷达",
+                "网上舆论"
+              ]
+            },
+            "task": {
+              "value": "海上侦察巡逻",
+              "sources": [
+                "雷达",
+                "开源军情"
+              ]
+            },
+            "activity_window": {
+              "value": [
+                345,
+                430
+              ],
+              "sources": [
+                "雷达",
+                "开源军情"
+              ],
+              "radar_observation_window": [
+                345,
+                430
+              ],
+              "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+            },
+            "region": {
+              "value": "曾母暗沙海域",
+              "sources": [
+                "开源军情",
+                "网上舆论",
+                "雷达"
+              ],
+              "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+            },
+            "date": {
+              "value": "2025.7.9",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            }
+          },
+          "region": "曾母暗沙海域",
+          "direction": "南海",
+          "conflicts": [],
+          "corrections": []
+        },
+        "evidence_strength": 16
+      }
+    ],
+    "candidates": [
+      {
+        "claim_id": "73ddee3f3c96",
+        "file": "赛题2-初赛/数据/2025.7.9/开源军情/044_开源军情-日本RQ-4无人机在曾母暗沙海域执行海上侦察巡逻.txt",
+        "source": "开源军情",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "task",
+          "time",
+          "region-broad"
+        ],
+        "conflict": [],
+        "missing": [
+          "quantity"
+        ],
+        "region_relation": "missing",
+        "time_relation": "exact",
+        "eligible": true,
+        "track_id": "c4affdf4ce5d"
+      },
+      {
+        "claim_id": "b2f7f5886615",
+        "file": "赛题2-初赛/数据/2025.7.9/网上舆论/045_(网上舆情)-日本全球鹰无人机在曾母暗沙海域活动引关注.txt",
+        "source": "网上舆论",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "quantity",
+          "region-broad"
+        ],
+        "conflict": [],
+        "missing": [
+          "task",
+          "time"
+        ],
+        "region_relation": "missing",
+        "time_relation": "missing",
+        "eligible": true,
+        "track_id": "c4affdf4ce5d"
+      }
+    ],
+    "decision": "纳入",
+    "reasons": [],
+    "base_candidate": "日本那霸航空基地",
+    "base_verified": false,
+    "raw_region_values": [],
+    "raw_field_values": {
+      "country": [
+        "日本"
+      ],
+      "platform": [
+        "RQ-4“全球鹰”无人机"
+      ],
+      "quantity": [
+        "1"
+      ],
+      "task": [
+        "海上侦察巡逻"
+      ],
+      "base": [
+        "日本那霸航空基地"
+      ]
+    },
+    "competing_tracks": 1,
+    "trajectory_note": ""
+  },
+  {
+    "event_id": "E8c65013452c8",
+    "date": "2025.7.9",
+    "kind": "舰船",
+    "country": "加拿大",
+    "platform": "维多利亚级常规潜艇",
+    "platform_key": "维多利亚",
+    "batch": "SHIP-CBF728BABB4814",
+    "quantity": 1,
+    "interval": [
+      1044,
+      1189
+    ],
+    "region": "南康暗沙海域",
+    "direction": "南海",
+    "task": "反潜巡逻",
+    "radar_file": "赛题2-初赛/数据/2025.7.9/雷达信息表_2025.7.9.xlsx",
+    "radar_rows": [
+      5,
+      23,
+      39,
+      73,
+      92,
+      140,
+      174,
+      187,
+      188,
+      198,
+      227,
+      267,
+      279
+    ],
+    "points": [],
+    "xy": null,
+    "track_id": "8c65013452c8",
+    "facts": {
+      "country": {
+        "value": "加拿大",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "platform": {
+        "value": "维多利亚",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "quantity": {
+        "value": 1,
+        "sources": [
+          "雷达",
+          "开源军情"
+        ]
+      },
+      "task": {
+        "value": "反潜巡逻",
+        "sources": [
+          "雷达",
+          "网上舆论"
+        ]
+      },
+      "activity_window": {
+        "value": [
+          1044,
+          1189
+        ],
+        "sources": [
+          "雷达",
+          "网上舆论"
+        ],
+        "radar_observation_window": [
+          1044,
+          1189
+        ],
+        "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+      },
+      "region": {
+        "value": "南康暗沙海域",
+        "sources": [
+          "开源军情",
+          "网上舆论",
+          "雷达"
+        ],
+        "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+      },
+      "date": {
+        "value": "2025.7.9",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      }
+    },
+    "corrections": [],
+    "claims": [
+      "ad8b92add450",
+      "716148d5ee56"
+    ],
+    "candidate_pairs": [
+      {
+        "claims": [
+          "ad8b92add450",
+          "716148d5ee56"
+        ],
+        "verdict": {
+          "facts": {
+            "country": {
+              "value": "加拿大",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "platform": {
+              "value": "维多利亚",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "quantity": {
+              "value": 1,
+              "sources": [
+                "雷达",
+                "开源军情"
+              ]
+            },
+            "task": {
+              "value": "反潜巡逻",
+              "sources": [
+                "雷达",
+                "网上舆论"
+              ]
+            },
+            "activity_window": {
+              "value": [
+                1044,
+                1189
+              ],
+              "sources": [
+                "雷达",
+                "网上舆论"
+              ],
+              "radar_observation_window": [
+                1044,
+                1189
+              ],
+              "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+            },
+            "region": {
+              "value": "南康暗沙海域",
+              "sources": [
+                "开源军情",
+                "网上舆论",
+                "雷达"
+              ],
+              "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+            },
+            "date": {
+              "value": "2025.7.9",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            }
+          },
+          "region": "南康暗沙海域",
+          "direction": "南海",
+          "conflicts": [],
+          "corrections": []
+        },
+        "evidence_strength": 21
+      }
+    ],
+    "candidates": [
+      {
+        "claim_id": "ad8b92add450",
+        "file": "赛题2-初赛/数据/2025.7.9/开源军情/014_开源军情-加拿大维多利亚级潜艇在南康暗沙海域持续活动.txt",
+        "source": "开源军情",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "quantity",
+          "region"
+        ],
+        "conflict": [],
+        "missing": [
+          "task",
+          "time"
+        ],
+        "region_relation": "exact",
+        "time_relation": "missing",
+        "eligible": true,
+        "track_id": "8c65013452c8"
+      },
+      {
+        "claim_id": "716148d5ee56",
+        "file": "赛题2-初赛/数据/2025.7.9/网上舆论/022_(网上舆情)-加拿大潜艇南海反潜巡逻引关注 区域侦巡态势受审视.txt",
+        "source": "网上舆论",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "task",
+          "time",
+          "region"
+        ],
+        "conflict": [],
+        "missing": [
+          "quantity"
+        ],
+        "region_relation": "contains",
+        "time_relation": "exact",
+        "eligible": true,
+        "track_id": "8c65013452c8"
+      }
+    ],
+    "decision": "纳入",
+    "reasons": [],
+    "base_candidate": "加拿大埃斯奎莫尔特海军基地",
+    "base_verified": false,
+    "raw_region_values": [
+      "南康暗沙海域"
+    ],
+    "raw_field_values": {
+      "country": [
+        "加拿大"
+      ],
+      "platform": [
+        "维多利亚级常规潜艇"
+      ],
+      "quantity": [
+        "1"
+      ],
+      "task": [
+        "反潜巡逻"
+      ],
+      "base": [
+        "加拿大埃斯奎莫尔特海军基地"
+      ]
+    },
+    "competing_tracks": 1,
+    "trajectory_note": ""
+  },
+  {
+    "event_id": "E41285ff2fdf4",
+    "date": "2025.7.17",
+    "kind": "飞机",
+    "country": "美国",
+    "platform": "B-52H战略轰炸机",
+    "platform_key": "B52H",
+    "batch": "AIR-85185794114528",
+    "quantity": 2,
+    "interval": [
+      494,
+      639
+    ],
+    "region": "东海",
+    "direction": "东海",
+    "task": "远程轰炸训练",
+    "radar_file": "赛题2-初赛/数据/2025.7.17/雷达信息表_2025.7.17.xlsx",
+    "radar_rows": [
+      2,
+      43,
+      54,
+      65,
+      160,
+      163,
+      183,
+      204,
+      219,
+      254,
+      286,
+      287,
+      294
+    ],
+    "points": [
+      {
+        "row": 163,
+        "time": "2025-07-17T08:14:00",
+        "xy": [
+          124.1974,
+          29.0257
+        ],
+        "minute": 494
+      },
+      {
+        "row": 294,
+        "time": "2025-07-17T08:26:05",
+        "xy": [
+          124.2112,
+          28.9894
+        ],
+        "minute": 506
+      },
+      {
+        "row": 65,
+        "time": "2025-07-17T08:38:10",
+        "xy": [
+          124.1611,
+          29.0257
+        ],
+        "minute": 518
+      },
+      {
+        "row": 43,
+        "time": "2025-07-17T08:50:15",
+        "xy": [
+          124.2383,
+          28.9389
+        ],
+        "minute": 530
+      },
+      {
+        "row": 54,
+        "time": "2025-07-17T09:02:20",
+        "xy": [
+          124.1729,
+          28.9292
+        ],
+        "minute": 542
+      },
+      {
+        "row": 183,
+        "time": "2025-07-17T09:14:25",
+        "xy": [
+          124.2267,
+          28.9249
+        ],
+        "minute": 554
+      },
+      {
+        "row": 286,
+        "time": "2025-07-17T09:26:30",
+        "xy": [
+          124.2111,
+          28.9182
+        ],
+        "minute": 566
+      },
+      {
+        "row": 254,
+        "time": "2025-07-17T09:38:35",
+        "xy": [
+          124.2178,
+          28.8851
+        ],
+        "minute": 578
+      },
+      {
+        "row": 160,
+        "time": "2025-07-17T09:50:40",
+        "xy": [
+          124.1547,
+          28.8318
+        ],
+        "minute": 590
+      },
+      {
+        "row": 204,
+        "time": "2025-07-17T10:02:45",
+        "xy": [
+          124.1806,
+          28.8041
+        ],
+        "minute": 602
+      },
+      {
+        "row": 219,
+        "time": "2025-07-17T10:14:50",
+        "xy": [
+          124.1633,
+          28.8026
+        ],
+        "minute": 614
+      },
+      {
+        "row": 2,
+        "time": "2025-07-17T10:26:55",
+        "xy": [
+          124.1772,
+          28.687
+        ],
+        "minute": 626
+      },
+      {
+        "row": 287,
+        "time": "2025-07-17T10:39:00",
+        "xy": [
+          124.1591,
+          28.67
+        ],
+        "minute": 639
+      }
+    ],
+    "xy": [
+      124.1806,
+      28.9182
+    ],
+    "track_id": "41285ff2fdf4",
+    "facts": {
+      "country": {
+        "value": "美国",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "platform": {
+        "value": "B52H",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "quantity": {
+        "value": 2,
+        "sources": [
+          "雷达",
+          "网上舆论"
+        ]
+      },
+      "task": {
+        "value": "远程轰炸训练",
+        "sources": [
+          "雷达",
+          "开源军情"
+        ]
+      },
+      "activity_window": {
+        "value": [
+          494,
+          639
+        ],
+        "sources": [
+          "雷达",
+          "开源军情"
+        ],
+        "radar_observation_window": [
+          494,
+          639
+        ],
+        "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+      },
+      "region": {
+        "value": "东海",
+        "sources": [
+          "开源军情",
+          "网上舆论",
+          "雷达"
+        ],
+        "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+      },
+      "date": {
+        "value": "2025.7.17",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      }
+    },
+    "corrections": [],
+    "claims": [
+      "518556745d41",
+      "adfbbad3fbc9"
+    ],
+    "candidate_pairs": [
+      {
+        "claims": [
+          "518556745d41",
+          "adfbbad3fbc9"
+        ],
+        "verdict": {
+          "facts": {
+            "country": {
+              "value": "美国",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "platform": {
+              "value": "B52H",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "quantity": {
+              "value": 2,
+              "sources": [
+                "雷达",
+                "网上舆论"
+              ]
+            },
+            "task": {
+              "value": "远程轰炸训练",
+              "sources": [
+                "雷达",
+                "开源军情"
+              ]
+            },
+            "activity_window": {
+              "value": [
+                494,
+                639
+              ],
+              "sources": [
+                "雷达",
+                "开源军情"
+              ],
+              "radar_observation_window": [
+                494,
+                639
+              ],
+              "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+            },
+            "region": {
+              "value": "东海",
+              "sources": [
+                "开源军情",
+                "网上舆论",
+                "雷达"
+              ],
+              "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+            },
+            "date": {
+              "value": "2025.7.17",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            }
+          },
+          "region": "东海",
+          "direction": "东海",
+          "conflicts": [],
+          "corrections": []
+        },
+        "evidence_strength": 16
+      }
+    ],
+    "candidates": [
+      {
+        "claim_id": "518556745d41",
+        "file": "赛题2-初赛/数据/2025.7.17/开源军情/017_开源军情-美B-52H战略轰炸机在东海组织远程轰炸训练.txt",
+        "source": "开源军情",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "task",
+          "time",
+          "region-broad"
+        ],
+        "conflict": [],
+        "missing": [
+          "quantity"
+        ],
+        "region_relation": "missing",
+        "time_relation": "exact",
+        "eligible": true,
+        "track_id": "41285ff2fdf4"
+      },
+      {
+        "claim_id": "adfbbad3fbc9",
+        "file": "赛题2-初赛/数据/2025.7.17/网上舆论/019_(网上舆情)-美B-52H轰炸机在东海持续活动引发区域关注.txt",
+        "source": "网上舆论",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "quantity",
+          "region-broad"
+        ],
+        "conflict": [],
+        "missing": [
+          "task",
+          "time"
+        ],
+        "region_relation": "missing",
+        "time_relation": "missing",
+        "eligible": true,
+        "track_id": "41285ff2fdf4"
+      }
+    ],
+    "decision": "纳入",
+    "reasons": [],
+    "base_candidate": "关岛安德森空军基地",
+    "base_verified": false,
+    "raw_region_values": [],
+    "raw_field_values": {
+      "country": [
+        "美国"
+      ],
+      "platform": [
+        "B-52H战略轰炸机"
+      ],
+      "quantity": [
+        "2"
+      ],
+      "task": [
+        "远程轰炸训练"
+      ],
+      "base": [
+        "关岛安德森空军基地"
+      ]
+    },
+    "competing_tracks": 1,
+    "trajectory_note": ""
+  },
+  {
+    "event_id": "Ee772075fa027",
+    "date": "2025.7.17",
+    "kind": "舰船",
+    "country": "越南",
+    "platform": "猎豹3.9级导弹护卫舰",
+    "platform_key": "猎豹3.9",
+    "batch": "SHIP-F1DA41EB38AC4D",
+    "quantity": 1,
+    "interval": [
+      868,
+      1013
+    ],
+    "region": "万安滩海域",
+    "direction": "南海",
+    "task": "例行部署",
+    "radar_file": "赛题2-初赛/数据/2025.7.17/雷达信息表_2025.7.17.xlsx",
+    "radar_rows": [
+      4,
+      15,
+      44,
+      98,
+      130,
+      132,
+      160,
+      205,
+      247,
+      284,
+      290
+    ],
+    "points": [],
+    "xy": null,
+    "track_id": "e772075fa027",
+    "facts": {
+      "country": {
+        "value": "越南",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "platform": {
+        "value": "猎豹3.9",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "quantity": {
+        "value": 1,
+        "sources": [
+          "雷达",
+          "网上舆论"
+        ]
+      },
+      "task": {
+        "value": "例行部署",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      },
+      "activity_window": {
+        "value": [
+          868,
+          1013
+        ],
+        "sources": [
+          "雷达",
+          "开源军情"
+        ],
+        "radar_observation_window": [
+          868,
+          1013
+        ],
+        "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+      },
+      "region": {
+        "value": "万安滩海域",
+        "sources": [
+          "开源军情",
+          "网上舆论",
+          "雷达"
+        ],
+        "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+      },
+      "date": {
+        "value": "2025.7.17",
+        "sources": [
+          "雷达",
+          "开源军情",
+          "网上舆论"
+        ]
+      }
+    },
+    "corrections": [],
+    "claims": [
+      "ba5f620aa8e0",
+      "928a7bfaaf4e"
+    ],
+    "candidate_pairs": [
+      {
+        "claims": [
+          "ba5f620aa8e0",
+          "928a7bfaaf4e"
+        ],
+        "verdict": {
+          "facts": {
+            "country": {
+              "value": "越南",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "platform": {
+              "value": "猎豹3.9",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "quantity": {
+              "value": 1,
+              "sources": [
+                "雷达",
+                "网上舆论"
+              ]
+            },
+            "task": {
+              "value": "例行部署",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            },
+            "activity_window": {
+              "value": [
+                868,
+                1013
+              ],
+              "sources": [
+                "雷达",
+                "开源军情"
+              ],
+              "radar_observation_window": [
+                868,
+                1013
+              ],
+              "note": "雷达位置时间不是起飞/降落时间；文本一致时段可包含部分观测"
+            },
+            "region": {
+              "value": "万安滩海域",
+              "sources": [
+                "开源军情",
+                "网上舆论",
+                "雷达"
+              ],
+              "specificity_note": "飞机单文本细分区域仅保留为候选；宽容包络不证明具体地点"
+            },
+            "date": {
+              "value": "2025.7.17",
+              "sources": [
+                "雷达",
+                "开源军情",
+                "网上舆论"
+              ]
+            }
+          },
+          "region": "万安滩海域",
+          "direction": "南海",
+          "conflicts": [],
+          "corrections": []
+        },
+        "evidence_strength": 23
+      }
+    ],
+    "candidates": [
+      {
+        "claim_id": "ba5f620aa8e0",
+        "file": "赛题2-初赛/数据/2025.7.17/开源军情/010_开源军情-越南猎豹3.9级导弹护卫舰离开万安滩海域结束例行部署.txt",
+        "source": "开源军情",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "task",
+          "time",
+          "region"
+        ],
+        "conflict": [],
+        "missing": [
+          "quantity"
+        ],
+        "region_relation": "exact",
+        "time_relation": "exact",
+        "eligible": true,
+        "track_id": "e772075fa027"
+      },
+      {
+        "claim_id": "928a7bfaaf4e",
+        "file": "赛题2-初赛/数据/2025.7.17/网上舆论/009_(网上舆情)-越南海军导弹护卫舰在南海南部保持例行部署引发关注.txt",
+        "source": "网上舆论",
+        "line": 5,
+        "support": [
+          "platform",
+          "country",
+          "quantity",
+          "task",
+          "region"
+        ],
+        "conflict": [],
+        "missing": [
+          "time"
+        ],
+        "region_relation": "contains",
+        "time_relation": "missing",
+        "eligible": true,
+        "track_id": "e772075fa027"
+      }
+    ],
+    "decision": "纳入",
+    "reasons": [],
+    "base_candidate": "常驻母港",
+    "base_verified": false,
+    "raw_region_values": [
+      "万安滩海域"
+    ],
+    "raw_field_values": {
+      "country": [
+        "越南"
+      ],
+      "platform": [
+        "猎豹3.9级导弹护卫舰"
+      ],
+      "quantity": [
+        "1"
+      ],
+      "task": [
+        "例行部署"
+      ],
+      "base": [
+        "常驻母港"
+      ]
+    },
+    "competing_tracks": 1,
+    "trajectory_note": ""
+  }
+]

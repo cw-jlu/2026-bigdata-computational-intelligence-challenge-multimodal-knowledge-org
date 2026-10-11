@@ -1,0 +1,21 @@
+{
+  "seconds": 14.17,
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+  "os": "Windows-11-10.0.26200-SP0",
+  "argv": [
+    "artifact/20261009_gpt_independent_v4/code/run.py",
+    "--input",
+    "赛题2-初赛/数据",
+    "--output",
+    "artifact/20261009_gpt_independent_v4/output",
+    "--reuse-evidence",
+    "--doc-python",
+    "C:/Users/Evann/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "--node",
+    "C:/Users/Evann/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe"
+  ],
+  "doc_python": "C:/Users/Evann/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+  "node": "C:/Users/Evann/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+  "model_calls": 0,
+  "randomness": "none"
+}

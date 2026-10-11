@@ -37,3 +37,15 @@ temp/
 
 # Complete competition artifacts, including generated reports and archives
 !artifact/**
+
+# Restored runtime traces and Python cache are local resume files.
+artifact/**/traces.jsonl
+artifact/**/__pycache__/
+
+# Local dependencies and caches stay excluded from archived artifacts.
+artifact/**/node_modules/
+artifact/**/node_modules/**
+artifact/**/__pycache__/**
+artifact/**/.venv*/
+artifact/**/.venv*/**
+artifact/**/*.py[cod]

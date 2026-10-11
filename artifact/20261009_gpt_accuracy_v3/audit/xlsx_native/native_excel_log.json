@@ -1,0 +1,1520 @@
+[
+  {
+    "read_only": true,
+    "row_count": 17,
+    "range": "A1:P17",
+    "column_count": 16,
+    "row_height_checks": [
+      {
+        "row": 2,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 3,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 4,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 5,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 6,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 7,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 8,
+        "excel_autofit_height": 45.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 9,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 10,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 11,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 12,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 13,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 14,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 15,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 16,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 17,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      }
+    ],
+    "cell_A2_display": "2025.05.10",
+    "xlsx_sha256": "2b1331aa0cde75820360facf232ab633adb343f6cf77c50ee657f524e7c09701",
+    "sheet": "飞机",
+    "date": "2025.5.10",
+    "cell_A2_serial": 45787.0,
+    "engine": "Microsoft Excel full used range native export",
+    "pdf": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\audit\\xlsx_native\\2025.5.10_飞机.pdf"
+  },
+  {
+    "read_only": true,
+    "row_count": 10,
+    "range": "A1:K10",
+    "column_count": 11,
+    "row_height_checks": [
+      {
+        "row": 2,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 3,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 4,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 5,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 6,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 7,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 8,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 9,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 10,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      }
+    ],
+    "cell_A2_display": "2025.05.10",
+    "xlsx_sha256": "2b1331aa0cde75820360facf232ab633adb343f6cf77c50ee657f524e7c09701",
+    "sheet": "舰艇",
+    "date": "2025.5.10",
+    "cell_A2_serial": 45787.0,
+    "engine": "Microsoft Excel full used range native export",
+    "pdf": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\audit\\xlsx_native\\2025.5.10_舰艇.pdf"
+  },
+  {
+    "read_only": true,
+    "row_count": 15,
+    "range": "A1:P15",
+    "column_count": 16,
+    "row_height_checks": [
+      {
+        "row": 2,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 3,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 4,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 5,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 6,
+        "excel_autofit_height": 45.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 7,
+        "excel_autofit_height": 45.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 8,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 9,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 10,
+        "excel_autofit_height": 45.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 11,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 12,
+        "excel_autofit_height": 45.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 13,
+        "excel_autofit_height": 45.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 14,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 15,
+        "excel_autofit_height": 45.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      }
+    ],
+    "cell_A2_display": "2025.05.18",
+    "xlsx_sha256": "75717928959df15d7a859f18e94067e4b0fba706ab6810afc86c0a69beb4a0f6",
+    "sheet": "飞机",
+    "date": "2025.5.18",
+    "cell_A2_serial": 45795.0,
+    "engine": "Microsoft Excel full used range native export",
+    "pdf": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\audit\\xlsx_native\\2025.5.18_飞机.pdf"
+  },
+  {
+    "read_only": true,
+    "row_count": 14,
+    "range": "A1:K14",
+    "column_count": 11,
+    "row_height_checks": [
+      {
+        "row": 2,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 3,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 4,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 5,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 6,
+        "excel_autofit_height": 45.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 7,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 8,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 9,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 10,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 11,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 12,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 13,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 14,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      }
+    ],
+    "cell_A2_display": "2025.05.18",
+    "xlsx_sha256": "75717928959df15d7a859f18e94067e4b0fba706ab6810afc86c0a69beb4a0f6",
+    "sheet": "舰艇",
+    "date": "2025.5.18",
+    "cell_A2_serial": 45795.0,
+    "engine": "Microsoft Excel full used range native export",
+    "pdf": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\audit\\xlsx_native\\2025.5.18_舰艇.pdf"
+  },
+  {
+    "read_only": true,
+    "row_count": 17,
+    "range": "A1:P17",
+    "column_count": 16,
+    "row_height_checks": [
+      {
+        "row": 2,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 3,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 4,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 5,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 6,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 7,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 8,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 9,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 10,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 11,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 12,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 13,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 14,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 15,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 16,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 17,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      }
+    ],
+    "cell_A2_display": "2025.05.30",
+    "xlsx_sha256": "f6fe4b44b05356efbdff8e40fd41b989384c2d571c8b543c56512ac0ad6b3e36",
+    "sheet": "飞机",
+    "date": "2025.5.30",
+    "cell_A2_serial": 45807.0,
+    "engine": "Microsoft Excel full used range native export",
+    "pdf": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\audit\\xlsx_native\\2025.5.30_飞机.pdf"
+  },
+  {
+    "read_only": true,
+    "row_count": 13,
+    "range": "A1:K13",
+    "column_count": 11,
+    "row_height_checks": [
+      {
+        "row": 2,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 3,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 4,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 5,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 6,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 7,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 8,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 9,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 10,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 11,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 12,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 13,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      }
+    ],
+    "cell_A2_display": "2025.05.30",
+    "xlsx_sha256": "f6fe4b44b05356efbdff8e40fd41b989384c2d571c8b543c56512ac0ad6b3e36",
+    "sheet": "舰艇",
+    "date": "2025.5.30",
+    "cell_A2_serial": 45807.0,
+    "engine": "Microsoft Excel full used range native export",
+    "pdf": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\audit\\xlsx_native\\2025.5.30_舰艇.pdf"
+  },
+  {
+    "read_only": true,
+    "row_count": 15,
+    "range": "A1:P15",
+    "column_count": 16,
+    "row_height_checks": [
+      {
+        "row": 2,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 3,
+        "excel_autofit_height": 45.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 4,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 5,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 6,
+        "excel_autofit_height": 45.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 7,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 8,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 9,
+        "excel_autofit_height": 45.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 10,
+        "excel_autofit_height": 45.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 11,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 12,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 13,
+        "excel_autofit_height": 45.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 14,
+        "excel_autofit_height": 45.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 15,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      }
+    ],
+    "cell_A2_display": "2025.06.17",
+    "xlsx_sha256": "39b51da4e50dbf0482ab3c3682238de91e8bd922814657882bb70376c05bd2df",
+    "sheet": "飞机",
+    "date": "2025.6.17",
+    "cell_A2_serial": 45825.0,
+    "engine": "Microsoft Excel full used range native export",
+    "pdf": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\audit\\xlsx_native\\2025.6.17_飞机.pdf"
+  },
+  {
+    "read_only": true,
+    "row_count": 14,
+    "range": "A1:K14",
+    "column_count": 11,
+    "row_height_checks": [
+      {
+        "row": 2,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 3,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 4,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 5,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 6,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 7,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 8,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 9,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 10,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 11,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 12,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 13,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 14,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      }
+    ],
+    "cell_A2_display": "2025.06.17",
+    "xlsx_sha256": "39b51da4e50dbf0482ab3c3682238de91e8bd922814657882bb70376c05bd2df",
+    "sheet": "舰艇",
+    "date": "2025.6.17",
+    "cell_A2_serial": 45825.0,
+    "engine": "Microsoft Excel full used range native export",
+    "pdf": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\audit\\xlsx_native\\2025.6.17_舰艇.pdf"
+  },
+  {
+    "read_only": true,
+    "row_count": 15,
+    "range": "A1:P15",
+    "column_count": 16,
+    "row_height_checks": [
+      {
+        "row": 2,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 3,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 4,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 5,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 6,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 7,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 8,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 9,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 10,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 11,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 12,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 13,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 14,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 15,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      }
+    ],
+    "cell_A2_display": "2025.06.29",
+    "xlsx_sha256": "e2bb05a8f81c1530ecec40d79cbb3bb6035232e025890b11245e39c3d2e769ab",
+    "sheet": "飞机",
+    "date": "2025.6.29",
+    "cell_A2_serial": 45837.0,
+    "engine": "Microsoft Excel full used range native export",
+    "pdf": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\audit\\xlsx_native\\2025.6.29_飞机.pdf"
+  },
+  {
+    "read_only": true,
+    "row_count": 12,
+    "range": "A1:K12",
+    "column_count": 11,
+    "row_height_checks": [
+      {
+        "row": 2,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 3,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 4,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 5,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 6,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 7,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 8,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 9,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 10,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 11,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 12,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      }
+    ],
+    "cell_A2_display": "2025.06.29",
+    "xlsx_sha256": "e2bb05a8f81c1530ecec40d79cbb3bb6035232e025890b11245e39c3d2e769ab",
+    "sheet": "舰艇",
+    "date": "2025.6.29",
+    "cell_A2_serial": 45837.0,
+    "engine": "Microsoft Excel full used range native export",
+    "pdf": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\audit\\xlsx_native\\2025.6.29_舰艇.pdf"
+  },
+  {
+    "read_only": true,
+    "row_count": 17,
+    "range": "A1:P17",
+    "column_count": 16,
+    "row_height_checks": [
+      {
+        "row": 2,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 3,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 4,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 5,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 6,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 7,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 8,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 9,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 10,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 11,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 12,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 13,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 14,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 15,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 16,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 17,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      }
+    ],
+    "cell_A2_display": "2025.06.09",
+    "xlsx_sha256": "489dcbabaa1570b28490e8526557e7cdbeded64a88e66b39faad55cd1cb38a57",
+    "sheet": "飞机",
+    "date": "2025.6.9",
+    "cell_A2_serial": 45817.0,
+    "engine": "Microsoft Excel full used range native export",
+    "pdf": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\audit\\xlsx_native\\2025.6.9_飞机.pdf"
+  },
+  {
+    "read_only": true,
+    "row_count": 12,
+    "range": "A1:K12",
+    "column_count": 11,
+    "row_height_checks": [
+      {
+        "row": 2,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 3,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 4,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 5,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 6,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 7,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 8,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 9,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 10,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 11,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 12,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      }
+    ],
+    "cell_A2_display": "2025.06.09",
+    "xlsx_sha256": "489dcbabaa1570b28490e8526557e7cdbeded64a88e66b39faad55cd1cb38a57",
+    "sheet": "舰艇",
+    "date": "2025.6.9",
+    "cell_A2_serial": 45817.0,
+    "engine": "Microsoft Excel full used range native export",
+    "pdf": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\audit\\xlsx_native\\2025.6.9_舰艇.pdf"
+  },
+  {
+    "read_only": true,
+    "row_count": 16,
+    "range": "A1:P16",
+    "column_count": 16,
+    "row_height_checks": [
+      {
+        "row": 2,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 3,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 4,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 5,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 6,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 7,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 8,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 9,
+        "excel_autofit_height": 45.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 10,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 11,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 12,
+        "excel_autofit_height": 45.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 13,
+        "excel_autofit_height": 45.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 14,
+        "excel_autofit_height": 45.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 15,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 16,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      }
+    ],
+    "cell_A2_display": "2025.07.17",
+    "xlsx_sha256": "842e5ddd19f94fe8959de875cc68afa7abdf626fb6b2373713e040394af10493",
+    "sheet": "飞机",
+    "date": "2025.7.17",
+    "cell_A2_serial": 45855.0,
+    "engine": "Microsoft Excel full used range native export",
+    "pdf": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\audit\\xlsx_native\\2025.7.17_飞机.pdf"
+  },
+  {
+    "read_only": true,
+    "row_count": 14,
+    "range": "A1:K14",
+    "column_count": 11,
+    "row_height_checks": [
+      {
+        "row": 2,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 3,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 4,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 5,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 6,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 7,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 8,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 9,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 10,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 11,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 12,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 13,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 14,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      }
+    ],
+    "cell_A2_display": "2025.07.17",
+    "xlsx_sha256": "842e5ddd19f94fe8959de875cc68afa7abdf626fb6b2373713e040394af10493",
+    "sheet": "舰艇",
+    "date": "2025.7.17",
+    "cell_A2_serial": 45855.0,
+    "engine": "Microsoft Excel full used range native export",
+    "pdf": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\audit\\xlsx_native\\2025.7.17_舰艇.pdf"
+  },
+  {
+    "read_only": true,
+    "row_count": 15,
+    "range": "A1:P15",
+    "column_count": 16,
+    "row_height_checks": [
+      {
+        "row": 2,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 3,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 4,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 5,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 6,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 7,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 8,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 9,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 10,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 11,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 12,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 13,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 14,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 15,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      }
+    ],
+    "cell_A2_display": "2025.07.09",
+    "xlsx_sha256": "67f897adad9974ec36bff4c57794073e2d1fc60c58163b8e1487fb33ba78477e",
+    "sheet": "飞机",
+    "date": "2025.7.9",
+    "cell_A2_serial": 45847.0,
+    "engine": "Microsoft Excel full used range native export",
+    "pdf": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\audit\\xlsx_native\\2025.7.9_飞机.pdf"
+  },
+  {
+    "read_only": true,
+    "row_count": 13,
+    "range": "A1:K13",
+    "column_count": 11,
+    "row_height_checks": [
+      {
+        "row": 2,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 3,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 4,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 5,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 6,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 7,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 8,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 9,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 10,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 11,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 12,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      },
+      {
+        "row": 13,
+        "excel_autofit_height": 30.0,
+        "delivered_height": 82.1,
+        "may_clip": false
+      }
+    ],
+    "cell_A2_display": "2025.07.09",
+    "xlsx_sha256": "67f897adad9974ec36bff4c57794073e2d1fc60c58163b8e1487fb33ba78477e",
+    "sheet": "舰艇",
+    "date": "2025.7.9",
+    "cell_A2_serial": 45847.0,
+    "engine": "Microsoft Excel full used range native export",
+    "pdf": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\audit\\xlsx_native\\2025.7.9_舰艇.pdf"
+  }
+]

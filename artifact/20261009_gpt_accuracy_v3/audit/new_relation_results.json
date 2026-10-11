@@ -1,0 +1,328 @@
+{
+  "denominator": 10,
+  "passed": 10,
+  "positive": 5,
+  "negative": 5,
+  "distinct_existing_development_cases": 4,
+  "label_sha256": "5c0eaf55a0d9d60face8e0b45c37195cc2290884dec0394df6fbf6021d24d17b",
+  "limitation": "从已保存的四个开发案例完整原始正文和雷达人工补写10个关系/字段断言；不是新增独立样本，不能与26或24累加。先保存期望再执行checker。",
+  "results": [
+    {
+      "id": "R01",
+      "ok": true,
+      "errors": [],
+      "expected_relation": true,
+      "actual_relation": true,
+      "actual_quantities": [
+        1
+      ],
+      "claims": [
+        "53c4362be6d4"
+      ],
+      "links": [
+        {
+          "claim_id": "53c4362be6d4",
+          "file": "赛题2-初赛/数据/2025.5.10/开源军情/048_开源军情-日本P-1反潜巡逻机与SH-60K直升机编队离开东海.txt",
+          "source": "开源军情",
+          "line": 5,
+          "support": [
+            "platform",
+            "country",
+            "quantity",
+            "region-broad"
+          ],
+          "conflict": [],
+          "missing": [
+            "task",
+            "time"
+          ],
+          "region_relation": "missing",
+          "time_relation": "missing",
+          "eligible": true,
+          "track_id": "7f7576e50aee"
+        }
+      ]
+    },
+    {
+      "id": "R02",
+      "ok": true,
+      "errors": [],
+      "expected_relation": false,
+      "actual_relation": false,
+      "actual_quantities": [
+        2
+      ],
+      "claims": [
+        "0b610fd348d6"
+      ],
+      "links": []
+    },
+    {
+      "id": "R03",
+      "ok": true,
+      "errors": [],
+      "expected_relation": true,
+      "actual_relation": true,
+      "actual_quantities": [
+        2
+      ],
+      "claims": [
+        "2b4bb1365257"
+      ],
+      "links": [
+        {
+          "claim_id": "2b4bb1365257",
+          "file": "赛题2-初赛/数据/2025.5.10/开源军情/023_开源军情-英国空军P-8A反潜巡逻机与RC-135W电子侦察机在海南岛东南海域活动.txt",
+          "source": "开源军情",
+          "line": 5,
+          "support": [
+            "platform",
+            "country",
+            "quantity",
+            "region-broad"
+          ],
+          "conflict": [],
+          "missing": [
+            "task",
+            "time"
+          ],
+          "region_relation": "missing",
+          "time_relation": "missing",
+          "eligible": true,
+          "track_id": "c10a44fc19c5"
+        }
+      ]
+    },
+    {
+      "id": "R04",
+      "ok": true,
+      "errors": [],
+      "expected_relation": false,
+      "actual_relation": false,
+      "actual_quantities": [
+        1
+      ],
+      "claims": [
+        "25b4af4e5a51"
+      ],
+      "links": []
+    },
+    {
+      "id": "R05",
+      "ok": true,
+      "errors": [],
+      "expected_relation": true,
+      "actual_relation": true,
+      "actual_quantities": [
+        null
+      ],
+      "claims": [
+        "c54cc4d3a41b"
+      ],
+      "links": [
+        {
+          "claim_id": "c54cc4d3a41b",
+          "file": "赛题2-初赛/数据/2025.6.17/开源军情/041_开源军情-中国075型两栖攻击舰与901型综合补给舰在连云港外海联合巡航.txt",
+          "source": "开源军情",
+          "line": 5,
+          "support": [
+            "platform",
+            "country",
+            "task",
+            "time",
+            "region"
+          ],
+          "conflict": [],
+          "missing": [
+            "quantity"
+          ],
+          "region_relation": "exact",
+          "time_relation": "exact",
+          "eligible": true,
+          "track_id": "4a5339a65c4d"
+        }
+      ]
+    },
+    {
+      "id": "R06",
+      "ok": true,
+      "errors": [],
+      "expected_relation": false,
+      "actual_relation": false,
+      "actual_quantities": [
+        null
+      ],
+      "claims": [
+        "61f97cce088b"
+      ],
+      "links": [
+        {
+          "claim_id": "61f97cce088b",
+          "file": "赛题2-初赛/数据/2025.6.17/开源军情/035_开源军情-中国075型两栖攻击舰在黄海持续执行联合巡航任务行动.txt",
+          "source": "开源军情",
+          "line": 5,
+          "support": [
+            "platform",
+            "country",
+            "task",
+            "region"
+          ],
+          "conflict": [
+            "time冲突:[356, 441]/[1220, 1365]"
+          ],
+          "missing": [
+            "quantity"
+          ],
+          "region_relation": "contains",
+          "time_relation": "separate",
+          "eligible": false,
+          "track_id": "4a5339a65c4d"
+        }
+      ]
+    },
+    {
+      "id": "R07",
+      "ok": true,
+      "errors": [],
+      "expected_relation": true,
+      "actual_relation": true,
+      "actual_quantities": [
+        null
+      ],
+      "claims": [
+        "9f612f7c6bc9"
+      ],
+      "links": [
+        {
+          "claim_id": "9f612f7c6bc9",
+          "file": "赛题2-初赛/数据/2025.6.17/开源军情/001_开源军情-加拿大CF-188多用途战斗机在温州外海执行联合巡逻.txt",
+          "source": "开源军情",
+          "line": 5,
+          "support": [
+            "platform",
+            "country",
+            "task",
+            "time",
+            "region-broad"
+          ],
+          "conflict": [],
+          "missing": [
+            "quantity"
+          ],
+          "region_relation": "missing",
+          "time_relation": "exact",
+          "eligible": true,
+          "track_id": "1463314817f0"
+        }
+      ]
+    },
+    {
+      "id": "R08",
+      "ok": true,
+      "errors": [],
+      "expected_relation": false,
+      "actual_relation": false,
+      "actual_quantities": [
+        1
+      ],
+      "claims": [
+        "13f52e50dc5b"
+      ],
+      "links": [
+        {
+          "claim_id": "13f52e50dc5b",
+          "file": "赛题2-初赛/数据/2025.6.17/开源军情/015_开源军情-加拿大CF-188多用途战机在东海油气田海域联合巡逻.txt",
+          "source": "开源军情",
+          "line": 5,
+          "support": [
+            "platform",
+            "country",
+            "quantity",
+            "task",
+            "region-broad"
+          ],
+          "conflict": [
+            "time冲突:[483, 628]/[1062, 1152]"
+          ],
+          "missing": [],
+          "region_relation": "missing",
+          "time_relation": "separate",
+          "eligible": false,
+          "track_id": "1463314817f0"
+        }
+      ]
+    },
+    {
+      "id": "R09",
+      "ok": true,
+      "errors": [],
+      "expected_relation": true,
+      "actual_relation": true,
+      "actual_quantities": [
+        1
+      ],
+      "claims": [
+        "6b425bd988b6"
+      ],
+      "links": [
+        {
+          "claim_id": "6b425bd988b6",
+          "file": "赛题2-初赛/数据/2025.6.17/网上舆论/030_(网上舆情)-加拿大CF-188战斗机在东海执行联合巡逻任务.txt",
+          "source": "网上舆论",
+          "line": 5,
+          "support": [
+            "platform",
+            "country",
+            "quantity",
+            "task",
+            "region-broad"
+          ],
+          "conflict": [],
+          "missing": [
+            "time"
+          ],
+          "region_relation": "missing",
+          "time_relation": "missing",
+          "eligible": true,
+          "track_id": "1463314817f0"
+        }
+      ]
+    },
+    {
+      "id": "R10",
+      "ok": true,
+      "errors": [],
+      "expected_relation": false,
+      "actual_relation": false,
+      "actual_quantities": [
+        2
+      ],
+      "claims": [
+        "16d021a88f4f"
+      ],
+      "links": [
+        {
+          "claim_id": "16d021a88f4f",
+          "file": "赛题2-初赛/数据/2025.6.17/网上舆论/046_(网上舆情)-加拿大CF-188多用途战斗机在东海油气田海域执行联合巡逻.txt",
+          "source": "网上舆论",
+          "line": 5,
+          "support": [
+            "platform",
+            "country",
+            "task",
+            "region-broad"
+          ],
+          "conflict": [
+            "quantity冲突:雷达=1,文本=2",
+            "time冲突:[483, 628]/[1062, 1152]"
+          ],
+          "missing": [],
+          "region_relation": "missing",
+          "time_relation": "separate",
+          "eligible": false,
+          "track_id": "1463314817f0"
+        }
+      ]
+    }
+  ]
+}

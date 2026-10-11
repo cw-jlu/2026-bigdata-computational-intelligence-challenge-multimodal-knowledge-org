@@ -1,0 +1,42 @@
+{
+  "recorded_date": "2026-10-09",
+  "stage": "initial",
+  "node_count": 8,
+  "version": "20261009_gpt_accuracy_v2",
+  "source": "用户在本版本重做聊天中反馈的比赛评测结果；未独立获取平台原始记录",
+  "raw_user_feedback": "赛程=initial；节点数=8；完整性=84.4760；准确性=64.8389；格式=76.5391；分析=52.5000；总分=各节点(完整性×25%+准确性×40%+格式×15%+分析×20%)的平均值",
+  "reported_metrics": {
+    "completeness": "84.4760",
+    "accuracy": "64.8389",
+    "format": "76.5391",
+    "analysis": "52.5000"
+  },
+  "weights": {"completeness": "0.25", "accuracy": "0.40", "format": "0.15", "analysis": "0.20"},
+  "computed_total_from_displayed_means": "69.035425",
+  "computed_total_display_4dp": "69.0354",
+  "platform_total_separately_provided": false,
+  "per_node_scores": null,
+  "platform_submission_id": null,
+  "local_submission_zip": "artifact/20261009_gpt_accuracy_v2/output/日报_gpt_accuracy_v2.zip",
+  "local_submission_zip_sha256": "728086a59f3259463737abdc3786e926fc2f4b5f7c4b8663db74a2e67fa8f6a4",
+  "version_attribution": "按当前聊天上下文对应GPT独立重做v2；尚未独立核对平台上传的ZIP与本地ZIP哈希",
+  "baseline": {
+    "version": "20261008_001028_gpt-5.6solhigh",
+    "reported_metrics": {"completeness": "83.2458", "accuracy": "17.8993", "format": "73.3715", "analysis": "25.3750"},
+    "computed_total_from_displayed_means": "44.051895",
+    "computed_total_display_4dp": "44.0519"
+  },
+  "delta_vs_old_gpt": {
+    "completeness": "1.2302", "accuracy": "46.9396", "format": "3.1676", "analysis": "27.1250",
+    "weighted_contributions": {"completeness": "0.307550", "accuracy": "18.775840", "format": "0.475140", "analysis": "5.425000"},
+    "total_exact_from_displayed_means": "24.983530",
+    "total_display_4dp": "24.9835"
+  },
+  "limits": [
+    "四项数据按八节点均值解释，线性加权与逐节点加权后平均等价；显示均值已四舍五入，可能与平台未舍入值有微小差异",
+    "准确性64.8389是评测指标分，不解释为逐事件正确率64.8389%",
+    "没有逐节点或逐事件反馈，不能定位具体错误或把所有失分归因于单一机制",
+    "提示词、模型或运行配置、实现和核查投入不是受控单变量变化，不能单独估计提示词贡献",
+    "不覆盖评测前已交付ZIP、分析和验证记录"
+  ]
+}

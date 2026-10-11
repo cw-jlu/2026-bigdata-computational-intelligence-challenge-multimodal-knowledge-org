@@ -1,0 +1,33 @@
+{
+  "read_references": [
+    {
+      "path": "README.md",
+      "sha256": "8845490d014c2047c135d75f018ca04990e2d540f1bae1d339c85f59cdb1cd4c"
+    },
+    {
+      "path": "artifact/20261008_001028_gpt-5.6solhigh/solution.py",
+      "sha256": "72e6108636ecf93c3806c0d106419112d408e72520621597d0d497b34aea305f"
+    },
+    {
+      "path": "docs/01-赛题总览与赛程.md",
+      "sha256": "fc90c66dfe9f2c3b854842de3b6cbd98b60e6930e2596a5063b5d6ada67f0a07"
+    },
+    {
+      "path": "docs/02-数据说明与判定口径.md",
+      "sha256": "9673234756995583034df7d185b8362479128a1c0870197f41ed13b7cb267633"
+    },
+    {
+      "path": "docs/03-系统处理流程与算法要求.md",
+      "sha256": "d737544b71a625c65f1e024e3e2ac4c7e8eec3c7c479c093ee612ec5a5830e61"
+    },
+    {
+      "path": "docs/04-日报交付格式与文件规范.md",
+      "sha256": "7b0e91d38e53277e02a8397a8b5c11d85c959a03cec10ee54f6fd4af543187ce"
+    },
+    {
+      "path": "docs/05-评测标准与复现清单.md",
+      "sha256": "937e0e9c50c0f721386b9b72bd55e6ae589e1dfbc47eb3e3c15e6f33d6fd996d"
+    }
+  ],
+  "scope": "本次阅读仅仓库README、docs01—05、原始赛题来源及初始GPT。未读取Claude代码或产物；其他改进版GPT代码/产物也未使用。"
+}

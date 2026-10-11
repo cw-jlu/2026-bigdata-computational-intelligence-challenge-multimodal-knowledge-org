@@ -1,0 +1,200 @@
+{
+  "day": "2025.6.9",
+  "curve": [
+    {
+      "id": "2025.6.9-SHIP-3FC9A4B3CE06CF",
+      "date": "2025.6.9",
+      "hour": 14,
+      "kind": "舰艇",
+      "quantity": 1
+    },
+    {
+      "id": "2025.6.9-SHIP-E432BD765AA26E",
+      "date": "2025.6.9",
+      "hour": 14,
+      "kind": "舰艇",
+      "quantity": 1
+    },
+    {
+      "id": "2025.6.9-SHIP-DAC6E72221D22D",
+      "date": "2025.6.9",
+      "hour": 8,
+      "kind": "舰艇",
+      "quantity": 1
+    },
+    {
+      "id": "2025.6.9-SHIP-A188050063F370",
+      "date": "2025.6.9",
+      "hour": 5,
+      "kind": "舰艇",
+      "quantity": 1
+    },
+    {
+      "id": "2025.6.9-SHIP-F2257ED1CF6CA7",
+      "date": "2025.6.9",
+      "hour": 2,
+      "kind": "舰艇",
+      "quantity": 1
+    },
+    {
+      "id": "2025.6.9-SHIP-F0D85418133F6E",
+      "date": "2025.6.9",
+      "hour": 5,
+      "kind": "舰艇",
+      "quantity": 1
+    },
+    {
+      "id": "2025.6.9-SHIP-8B1D59AC58141C",
+      "date": "2025.6.9",
+      "hour": 11,
+      "kind": "舰艇",
+      "quantity": 1
+    },
+    {
+      "id": "2025.6.9-SHIP-5DCB81BF5DD2EA",
+      "date": "2025.6.9",
+      "hour": 11,
+      "kind": "舰艇",
+      "quantity": 1
+    },
+    {
+      "id": "2025.6.9-SHIP-287E8E861699DC",
+      "date": "2025.6.9",
+      "hour": 2,
+      "kind": "舰艇",
+      "quantity": 1
+    },
+    {
+      "id": "2025.6.9-AIR-D0EAB644175642",
+      "date": "2025.6.9",
+      "hour": 17,
+      "kind": "飞机",
+      "quantity": 1
+    },
+    {
+      "id": "2025.6.9-AIR-69D2C9DC4DC401",
+      "date": "2025.6.9",
+      "hour": 17,
+      "kind": "飞机",
+      "quantity": 1
+    },
+    {
+      "id": "2025.6.9-AIR-900D3E39F755EC",
+      "date": "2025.6.9",
+      "hour": 11,
+      "kind": "飞机",
+      "quantity": 1
+    },
+    {
+      "id": "2025.6.9-AIR-066899117BEDAE",
+      "date": "2025.6.9",
+      "hour": 14,
+      "kind": "飞机",
+      "quantity": 1
+    },
+    {
+      "id": "2025.6.9-AIR-9BF6C1A9FA673D",
+      "date": "2025.6.9",
+      "hour": 5,
+      "kind": "飞机",
+      "quantity": 1
+    },
+    {
+      "id": "2025.6.9-AIR-E36A81BF0E2BBE",
+      "date": "2025.6.9",
+      "hour": 8,
+      "kind": "飞机",
+      "quantity": 1
+    },
+    {
+      "id": "2025.6.9-AIR-5A6A39B6D60CEF",
+      "date": "2025.6.9",
+      "hour": 2,
+      "kind": "飞机",
+      "quantity": 1
+    },
+    {
+      "id": "2025.6.9-AIR-44C7C32D37FDB5",
+      "date": "2025.6.9",
+      "hour": 5,
+      "kind": "飞机",
+      "quantity": 1
+    },
+    {
+      "id": "2025.6.9-AIR-6E755AB58C6BC6",
+      "date": "2025.6.9",
+      "hour": 17,
+      "kind": "飞机",
+      "quantity": 1
+    },
+    {
+      "id": "2025.6.9-AIR-5CDFE525F75A28",
+      "date": "2025.6.9",
+      "hour": 2,
+      "kind": "飞机",
+      "quantity": 1
+    },
+    {
+      "id": "2025.6.9-AIR-546ED9656E40CA",
+      "date": "2025.6.9",
+      "hour": 20,
+      "kind": "飞机",
+      "quantity": 1
+    },
+    {
+      "id": "2025.6.9-AIR-7A59BD98A4C16F",
+      "date": "2025.6.9",
+      "hour": 8,
+      "kind": "飞机",
+      "quantity": 1
+    },
+    {
+      "id": "2025.6.9-AIR-B0B5F28180FE03",
+      "date": "2025.6.9",
+      "hour": 11,
+      "kind": "飞机",
+      "quantity": 1
+    },
+    {
+      "id": "2025.6.9-AIR-74C830734B7E44",
+      "date": "2025.6.9",
+      "hour": 14,
+      "kind": "飞机",
+      "quantity": 1
+    },
+    {
+      "id": "2025.6.9-AIR-296F85D0C21B4E",
+      "date": "2025.6.9",
+      "hour": 20,
+      "kind": "飞机",
+      "quantity": 1
+    }
+  ],
+  "diagrams": [
+    "2025.6.9-SHIP-3FC9A4B3CE06CF",
+    "2025.6.9-SHIP-E432BD765AA26E",
+    "2025.6.9-SHIP-DAC6E72221D22D",
+    "2025.6.9-SHIP-A188050063F370",
+    "2025.6.9-SHIP-F2257ED1CF6CA7",
+    "2025.6.9-SHIP-F0D85418133F6E",
+    "2025.6.9-SHIP-8B1D59AC58141C",
+    "2025.6.9-SHIP-5DCB81BF5DD2EA",
+    "2025.6.9-SHIP-287E8E861699DC",
+    "2025.6.9-AIR-D0EAB644175642",
+    "2025.6.9-AIR-69D2C9DC4DC401",
+    "2025.6.9-AIR-900D3E39F755EC",
+    "2025.6.9-AIR-066899117BEDAE",
+    "2025.6.9-AIR-9BF6C1A9FA673D",
+    "2025.6.9-AIR-E36A81BF0E2BBE",
+    "2025.6.9-AIR-5A6A39B6D60CEF",
+    "2025.6.9-AIR-44C7C32D37FDB5",
+    "2025.6.9-AIR-6E755AB58C6BC6",
+    "2025.6.9-AIR-5CDFE525F75A28",
+    "2025.6.9-AIR-546ED9656E40CA",
+    "2025.6.9-AIR-7A59BD98A4C16F",
+    "2025.6.9-AIR-B0B5F28180FE03",
+    "2025.6.9-AIR-74C830734B7E44",
+    "2025.6.9-AIR-296F85D0C21B4E"
+  ],
+  "source": "daily accepted events only"
+}

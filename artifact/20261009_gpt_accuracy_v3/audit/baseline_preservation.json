@@ -1,0 +1,1994 @@
+{
+  "checked": 497,
+  "all_unchanged": true,
+  "results": [
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/.gitignore",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/ANALYSIS.md",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/cases_after_fixes.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/cases_after_holdout_fixes.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/cases_final.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/cases_first_run.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/cases_raw_records.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/day_2025.5.10_raw_review.txt",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/dependency_install.log",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/dependency_install_pypi.log",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/full_reproduction.log",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/full_run.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/input_manifest.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/deliverable_manifest.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/validation.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/中间证据/candidate_links.jsonl",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/中间证据/chart_datasets.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/中间证据/claims.jsonl",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/中间证据/events.jsonl",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/中间证据/factpack_2025.5.10.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/中间证据/factpack_2025.5.18.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/中间证据/factpack_2025.5.30.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/中间证据/factpack_2025.6.17.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/中间证据/factpack_2025.6.29.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/中间证据/factpack_2025.6.9.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/中间证据/factpack_2025.7.17.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/中间证据/factpack_2025.7.9.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/中间证据/radar_tracks.jsonl",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/中间证据/reconstruction_summary.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/中间证据/source_coverage.jsonl",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/中间证据/workbook_rows.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.5.10/2025.5.10日报.docx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.5.10/2025.5.10机舰活动明细.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.5.10/附件图表/01_舰机侦巡数量曲线图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.5.10/附件图表/02_中国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.5.10/附件图表/03_美国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.5.10/附件图表/04_其他国家主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.5.18/2025.5.18日报.docx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.5.18/2025.5.18机舰活动明细.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.5.18/附件图表/01_舰机侦巡数量曲线图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.5.18/附件图表/02_中国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.5.18/附件图表/03_美国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.5.18/附件图表/04_其他国家主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.5.30/2025.5.30日报.docx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.5.30/2025.5.30机舰活动明细.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.5.30/附件图表/01_舰机侦巡数量曲线图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.5.30/附件图表/02_中国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.5.30/附件图表/03_美国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.5.30/附件图表/04_其他国家主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.6.17/2025.6.17日报.docx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.6.17/2025.6.17机舰活动明细.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.6.17/附件图表/01_舰机侦巡数量曲线图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.6.17/附件图表/02_中国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.6.17/附件图表/03_美国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.6.17/附件图表/04_其他国家主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.6.29/2025.6.29日报.docx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.6.29/2025.6.29机舰活动明细.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.6.29/附件图表/01_舰机侦巡数量曲线图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.6.29/附件图表/02_中国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.6.29/附件图表/03_美国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.6.29/附件图表/04_其他国家主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.6.9/2025.6.9日报.docx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.6.9/2025.6.9机舰活动明细.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.6.9/附件图表/01_舰机侦巡数量曲线图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.6.9/附件图表/02_中国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.6.9/附件图表/03_美国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.6.9/附件图表/04_其他国家主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.7.17/2025.7.17日报.docx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.7.17/2025.7.17机舰活动明细.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.7.17/附件图表/01_舰机侦巡数量曲线图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.7.17/附件图表/02_中国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.7.17/附件图表/03_美国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.7.17/附件图表/04_其他国家主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.7.9/2025.7.9日报.docx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.7.9/2025.7.9机舰活动明细.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.7.9/附件图表/01_舰机侦巡数量曲线图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.7.9/附件图表/02_中国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.7.9/附件图表/03_美国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报/2025.7.9/附件图表/04_其他国家主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/output/日报_gpt_accuracy_v2.zip",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/raw_inventory.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/raw_snapshot.jsonl",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/clean_reproduction/requirements.lock.txt",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/coverage_comparison.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/day_2025.5.10_raw_review.txt",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_renderer_attempt/attempt.log",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.10/contact-1.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.10/contact-2.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.10/page-1.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.10/page-2.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.10/page-3.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.10/page-4.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.10/page-5.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.10/page-6.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.10/page-7.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.10/page-8.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.10/report.pdf",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.18/contact-1.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.18/contact-2.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.18/page-1.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.18/page-2.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.18/page-3.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.18/page-4.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.18/page-5.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.18/page-6.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.18/page-7.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.18/page-8.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.18/report.pdf",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.30/contact-1.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.30/contact-2.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.30/contact-3.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.30/page-1.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.30/page-2.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.30/page-3.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.30/page-4.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.30/page-5.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.30/page-6.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.30/page-7.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.30/page-8.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.30/page-9.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.5.30/report.pdf",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.17/contact-1.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.17/contact-2.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.17/contact-3.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.17/page-1.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.17/page-2.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.17/page-3.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.17/page-4.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.17/page-5.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.17/page-6.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.17/page-7.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.17/page-8.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.17/page-9.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.17/report.pdf",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.29/contact-1.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.29/contact-2.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.29/contact-3.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.29/page-1.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.29/page-2.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.29/page-3.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.29/page-4.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.29/page-5.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.29/page-6.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.29/page-7.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.29/page-8.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.29/page-9.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.29/report.pdf",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.9/contact-1.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.9/contact-2.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.9/contact-3.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.9/page-1.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.9/page-2.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.9/page-3.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.9/page-4.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.9/page-5.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.9/page-6.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.9/page-7.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.9/page-8.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.9/page-9.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.6.9/report.pdf",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.7.17/contact-1.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.7.17/contact-2.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.7.17/contact-3.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.7.17/page-1.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.7.17/page-10.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.7.17/page-2.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.7.17/page-3.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.7.17/page-4.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.7.17/page-5.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.7.17/page-6.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.7.17/page-7.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.7.17/page-8.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.7.17/page-9.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.7.17/report.pdf",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.7.9/contact-1.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.7.9/contact-2.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.7.9/contact-3.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.7.9/page-1.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.7.9/page-2.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.7.9/page-3.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.7.9/page-4.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.7.9/page-5.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.7.9/page-6.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.7.9/page-7.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.7.9/page-8.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.7.9/page-9.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/2025.7.9/report.pdf",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/raster_checks.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/docx_visual/render_log.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/environment.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/evaluation_initial_20261009.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/fix_log.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/full_reproduction.log",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/full_run.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/holdout_cases.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/holdout_raw_review.txt",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/holdout_results.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/independent_cases.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/independent_cases_initial.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/input_manifest.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/invariance_results.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/manual_case_review.md",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_content_comparison.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/day_2025.5.10_raw_review.txt",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/full_reproduction.log",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/full_run.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/input_manifest.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/deliverable_manifest.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/validation.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/中间证据/candidate_links.jsonl",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/中间证据/chart_datasets.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/中间证据/claims.jsonl",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/中间证据/events.jsonl",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/中间证据/factpack_2025.5.10.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/中间证据/factpack_2025.5.18.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/中间证据/factpack_2025.5.30.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/中间证据/factpack_2025.6.17.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/中间证据/factpack_2025.6.29.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/中间证据/factpack_2025.6.9.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/中间证据/factpack_2025.7.17.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/中间证据/factpack_2025.7.9.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/中间证据/radar_tracks.jsonl",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/中间证据/reconstruction_summary.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/中间证据/source_coverage.jsonl",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/中间证据/workbook_rows.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.5.10/2025.5.10日报.docx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.5.10/2025.5.10机舰活动明细.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.5.10/附件图表/01_舰机侦巡数量曲线图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.5.10/附件图表/02_中国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.5.10/附件图表/03_美国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.5.10/附件图表/04_其他国家主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.5.18/2025.5.18日报.docx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.5.18/2025.5.18机舰活动明细.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.5.18/附件图表/01_舰机侦巡数量曲线图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.5.18/附件图表/02_中国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.5.18/附件图表/03_美国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.5.18/附件图表/04_其他国家主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.5.30/2025.5.30日报.docx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.5.30/2025.5.30机舰活动明细.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.5.30/附件图表/01_舰机侦巡数量曲线图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.5.30/附件图表/02_中国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.5.30/附件图表/03_美国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.5.30/附件图表/04_其他国家主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.6.17/2025.6.17日报.docx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.6.17/2025.6.17机舰活动明细.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.6.17/附件图表/01_舰机侦巡数量曲线图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.6.17/附件图表/02_中国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.6.17/附件图表/03_美国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.6.17/附件图表/04_其他国家主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.6.29/2025.6.29日报.docx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.6.29/2025.6.29机舰活动明细.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.6.29/附件图表/01_舰机侦巡数量曲线图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.6.29/附件图表/02_中国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.6.29/附件图表/03_美国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.6.29/附件图表/04_其他国家主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.6.9/2025.6.9日报.docx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.6.9/2025.6.9机舰活动明细.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.6.9/附件图表/01_舰机侦巡数量曲线图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.6.9/附件图表/02_中国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.6.9/附件图表/03_美国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.6.9/附件图表/04_其他国家主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.7.17/2025.7.17日报.docx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.7.17/2025.7.17机舰活动明细.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.7.17/附件图表/01_舰机侦巡数量曲线图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.7.17/附件图表/02_中国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.7.17/附件图表/03_美国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.7.17/附件图表/04_其他国家主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.7.9/2025.7.9日报.docx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.7.9/2025.7.9机舰活动明细.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.7.9/附件图表/01_舰机侦巡数量曲线图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.7.9/附件图表/02_中国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.7.9/附件图表/03_美国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报/2025.7.9/附件图表/04_其他国家主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/output/日报_gpt_accuracy_v2.zip",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/raw_inventory.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/portable_reproduction/raw_snapshot.jsonl",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/raw_inventory.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/raw_snapshot.jsonl",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/reconstruction_run.log",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/reference_manifest.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/verification_record.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/2025.5.10_舰艇.pdf",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/2025.5.10_舰艇.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/2025.5.10_飞机.pdf",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/2025.5.10_飞机.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/2025.5.18_舰艇.pdf",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/2025.5.18_舰艇.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/2025.5.18_飞机.pdf",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/2025.5.18_飞机.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/2025.5.30_舰艇.pdf",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/2025.5.30_舰艇.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/2025.5.30_飞机.pdf",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/2025.5.30_飞机.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/2025.6.17_舰艇.pdf",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/2025.6.17_舰艇.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/2025.6.17_飞机.pdf",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/2025.6.17_飞机.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/2025.6.29_舰艇.pdf",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/2025.6.29_舰艇.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/2025.6.29_飞机.pdf",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/2025.6.29_飞机.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/2025.6.9_舰艇.pdf",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/2025.6.9_舰艇.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/2025.6.9_飞机.pdf",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/2025.6.9_飞机.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/2025.7.17_舰艇.pdf",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/2025.7.17_舰艇.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/2025.7.17_飞机.pdf",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/2025.7.17_飞机.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/2025.7.9_舰艇.pdf",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/2025.7.9_舰艇.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/2025.7.9_飞机.pdf",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/2025.7.9_飞机.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/contact-1.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/contact-2.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/contact-3.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/contact-4.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_native/native_excel_log.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/2025.5.10_export_inspect.ndjson",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/2025.5.10_first_export_inspect.ndjson",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/2025.5.10_舰艇.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/2025.5.10_飞机.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/2025.5.18_export_inspect.ndjson",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/2025.5.18_first_export_inspect.ndjson",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/2025.5.18_舰艇.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/2025.5.18_飞机.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/2025.5.30_export_inspect.ndjson",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/2025.5.30_first_export_inspect.ndjson",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/2025.5.30_舰艇.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/2025.5.30_飞机.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/2025.6.17_export_inspect.ndjson",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/2025.6.17_first_export_inspect.ndjson",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/2025.6.17_舰艇.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/2025.6.17_飞机.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/2025.6.29_export_inspect.ndjson",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/2025.6.29_first_export_inspect.ndjson",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/2025.6.29_舰艇.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/2025.6.29_飞机.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/2025.6.9_export_inspect.ndjson",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/2025.6.9_first_export_inspect.ndjson",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/2025.6.9_舰艇.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/2025.6.9_飞机.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/2025.7.17_export_inspect.ndjson",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/2025.7.17_first_export_inspect.ndjson",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/2025.7.17_舰艇.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/2025.7.17_飞机.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/2025.7.9_export_inspect.ndjson",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/2025.7.9_first_export_inspect.ndjson",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/2025.7.9_舰艇.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/2025.7.9_飞机.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/audit/xlsx_visual/workbook_inspections.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/AUDIT.md",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/code/audit_cases.py",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/code/charts.py",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/code/check_holdout.py",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/code/fusion.py",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/code/holdout_review.py",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/code/inspect_raw.py",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/code/invariance_checks.py",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/code/package_reproduction.py",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/code/raster_excel.py",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/code/rasterize_qa.py",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/code/reconstruct.py",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/code/render_excel.ps1",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/code/render_word.ps1",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/code/report.py",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/code/review_coverage.py",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/code/run.py",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/code/validate.py",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/code/workbooks.mjs",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/code/workbooks_fallback.py",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/code/write_delivery_docs.py",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/deliverable_manifest.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/validation.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/中间证据/candidate_links.jsonl",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/中间证据/chart_datasets.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/中间证据/claims.jsonl",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/中间证据/events.jsonl",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/中间证据/factpack_2025.5.10.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/中间证据/factpack_2025.5.18.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/中间证据/factpack_2025.5.30.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/中间证据/factpack_2025.6.17.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/中间证据/factpack_2025.6.29.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/中间证据/factpack_2025.6.9.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/中间证据/factpack_2025.7.17.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/中间证据/factpack_2025.7.9.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/中间证据/radar_tracks.jsonl",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/中间证据/reconstruction_summary.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/中间证据/source_coverage.jsonl",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/中间证据/workbook_rows.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.5.10/2025.5.10日报.docx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.5.10/2025.5.10机舰活动明细.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.5.10/附件图表/01_舰机侦巡数量曲线图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.5.10/附件图表/02_中国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.5.10/附件图表/03_美国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.5.10/附件图表/04_其他国家主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.5.18/2025.5.18日报.docx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.5.18/2025.5.18机舰活动明细.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.5.18/附件图表/01_舰机侦巡数量曲线图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.5.18/附件图表/02_中国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.5.18/附件图表/03_美国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.5.18/附件图表/04_其他国家主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.5.30/2025.5.30日报.docx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.5.30/2025.5.30机舰活动明细.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.5.30/附件图表/01_舰机侦巡数量曲线图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.5.30/附件图表/02_中国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.5.30/附件图表/03_美国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.5.30/附件图表/04_其他国家主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.6.17/2025.6.17日报.docx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.6.17/2025.6.17机舰活动明细.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.6.17/附件图表/01_舰机侦巡数量曲线图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.6.17/附件图表/02_中国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.6.17/附件图表/03_美国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.6.17/附件图表/04_其他国家主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.6.29/2025.6.29日报.docx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.6.29/2025.6.29机舰活动明细.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.6.29/附件图表/01_舰机侦巡数量曲线图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.6.29/附件图表/02_中国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.6.29/附件图表/03_美国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.6.29/附件图表/04_其他国家主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.6.9/2025.6.9日报.docx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.6.9/2025.6.9机舰活动明细.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.6.9/附件图表/01_舰机侦巡数量曲线图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.6.9/附件图表/02_中国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.6.9/附件图表/03_美国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.6.9/附件图表/04_其他国家主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.7.17/2025.7.17日报.docx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.7.17/2025.7.17机舰活动明细.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.7.17/附件图表/01_舰机侦巡数量曲线图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.7.17/附件图表/02_中国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.7.17/附件图表/03_美国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.7.17/附件图表/04_其他国家主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.7.9/2025.7.9日报.docx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.7.9/2025.7.9机舰活动明细.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.7.9/附件图表/01_舰机侦巡数量曲线图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.7.9/附件图表/02_中国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.7.9/附件图表/03_美国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.7.9/附件图表/04_其他国家主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/output/日报_gpt_accuracy_v2.zip",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/README.md",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/reproduction_manifest.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/requirements-qa.txt",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/requirements.txt",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261009_gpt_accuracy_v2/复现材料_gpt_accuracy_v2.zip",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.5.10日报/2025.5.10日报.docx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.5.10日报/2025.5.10机舰活动明细.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.5.10日报/附件图表/01_舰机侦巡数量曲线图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.5.10日报/附件图表/02_中国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.5.10日报/附件图表/03_美国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.5.10日报/附件图表/04_其他国家主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.5.18日报/2025.5.18日报.docx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.5.18日报/2025.5.18机舰活动明细.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.5.18日报/附件图表/01_舰机侦巡数量曲线图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.5.18日报/附件图表/02_中国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.5.18日报/附件图表/03_美国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.5.18日报/附件图表/04_其他国家主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.5.30日报/2025.5.30日报.docx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.5.30日报/2025.5.30机舰活动明细.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.5.30日报/附件图表/01_舰机侦巡数量曲线图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.5.30日报/附件图表/02_中国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.5.30日报/附件图表/03_美国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.5.30日报/附件图表/04_其他国家主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.6.17日报/2025.6.17日报.docx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.6.17日报/2025.6.17机舰活动明细.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.6.17日报/附件图表/01_舰机侦巡数量曲线图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.6.17日报/附件图表/02_中国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.6.17日报/附件图表/03_美国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.6.17日报/附件图表/04_其他国家主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.6.29日报/2025.6.29日报.docx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.6.29日报/2025.6.29机舰活动明细.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.6.29日报/附件图表/01_舰机侦巡数量曲线图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.6.29日报/附件图表/02_中国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.6.29日报/附件图表/03_美国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.6.29日报/附件图表/04_其他国家主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.6.9日报/2025.6.9日报.docx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.6.9日报/2025.6.9机舰活动明细.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.6.9日报/附件图表/01_舰机侦巡数量曲线图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.6.9日报/附件图表/02_中国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.6.9日报/附件图表/03_美国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.6.9日报/附件图表/04_其他国家主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.7.17日报/2025.7.17日报.docx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.7.17日报/2025.7.17机舰活动明细.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.7.17日报/附件图表/01_舰机侦巡数量曲线图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.7.17日报/附件图表/02_中国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.7.17日报/附件图表/03_美国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.7.17日报/附件图表/04_其他国家主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.7.9日报/2025.7.9日报.docx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.7.9日报/2025.7.9机舰活动明细.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.7.9日报/附件图表/01_舰机侦巡数量曲线图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.7.9日报/附件图表/02_中国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.7.9日报/附件图表/03_美国主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.7.9日报/附件图表/04_其他国家主要机舰活动示意图.png",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/validation.json",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/output/中间结果/evidence.jsonl",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/README.md",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/requirements.txt",
+      "unchanged": true
+    },
+    {
+      "file": "artifact/20261008_001028_gpt-5.6solhigh/solution.py",
+      "unchanged": true
+    }
+  ]
+}

@@ -1,22 +1,22 @@
 {
-  "invocation_id": "71af5eb482554bf5857fe11af24383a0",
-  "started_at": "2026-10-08T20:49:06.755+08:00",
+  "invocation_id": "4ba7357cbe434faaaa7db3e0e1e6fdce",
+  "started_at": "2026-10-09T20:32:01.743+08:00",
   "status": "failed",
   "version": "workflow-agent-v1.2",
-  "input": "D:\\CW\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\赛题2-初赛\\数据",
-  "stage": "all",
+  "input": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\赛题2-初赛\\数据",
+  "stage": "report",
   "start": "2025.5.1",
   "node": "2025.5.10",
   "max_seeds": null,
-  "python": "3.10.0",
-  "platform": "Windows-10-10.0.26100-SP0",
+  "python": "3.13.9",
+  "platform": "Windows-11-10.0.26200-SP0",
   "packages": {
     "openpyxl": "3.1.5",
     "python-docx": "1.2.0",
-    "matplotlib": "3.10.9"
+    "matplotlib": "3.11.0"
   },
-  "error_type": "OSError",
-  "error": "[Errno 28] No space left on device",
-  "ended_at": "2026-10-08T22:15:49.343+08:00",
-  "elapsed_seconds": 5202.484
+  "error_type": "ValueError",
+  "error": "尚有 5676 条记录未完成调查；已保存检查点，可先续跑 analyze，再 review/report",
+  "ended_at": "2026-10-09T20:33:01.188+08:00",
+  "elapsed_seconds": 59.37474739999743
 }

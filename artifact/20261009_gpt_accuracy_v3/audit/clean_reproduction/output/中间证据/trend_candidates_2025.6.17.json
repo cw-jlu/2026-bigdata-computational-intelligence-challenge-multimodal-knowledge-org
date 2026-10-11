@@ -1,0 +1,558 @@
+[
+  {
+    "country": "美国",
+    "platform": "西奥多·罗斯福号航空母舰",
+    "platform_key": "西奥多罗斯福",
+    "direction": "南海",
+    "current_event_ids": [
+      "E54198fc4deb1"
+    ],
+    "dates": [
+      "2025.5.11",
+      "2025.5.15",
+      "2025.5.16",
+      "2025.5.17",
+      "2025.5.18",
+      "2025.5.20",
+      "2025.5.25",
+      "2025.5.29",
+      "2025.6.3",
+      "2025.6.8",
+      "2025.6.12",
+      "2025.6.17"
+    ],
+    "date_count": 12,
+    "same_specific_region_observations": 12,
+    "same_current_task_observations": 12,
+    "eligible": false,
+    "rejection": "不足三日或没有支持2—3阶段的实际变化",
+    "selection_basis": {
+      "current_important_platform": true,
+      "current_specific_region": false,
+      "same_region_ratio": 1.0,
+      "same_task_ratio": 1.0
+    },
+    "rank": [
+      1,
+      0,
+      1.0,
+      1.0,
+      12
+    ]
+  },
+  {
+    "country": "俄罗斯",
+    "platform": "图-95MS战略轰炸机",
+    "platform_key": "图95MS",
+    "direction": "东海",
+    "current_event_ids": [
+      "E38249882b5b9"
+    ],
+    "dates": [
+      "2025.6.17"
+    ],
+    "date_count": 1,
+    "same_specific_region_observations": 1,
+    "same_current_task_observations": 1,
+    "eligible": false,
+    "rejection": "不足三日或没有支持2—3阶段的实际变化",
+    "selection_basis": {
+      "current_important_platform": true,
+      "current_specific_region": false,
+      "same_region_ratio": 1.0,
+      "same_task_ratio": 1.0
+    },
+    "rank": [
+      1,
+      0,
+      1.0,
+      1.0,
+      1
+    ]
+  },
+  {
+    "country": "台湾",
+    "platform": "康定级导弹护卫舰",
+    "platform_key": "康定",
+    "direction": "黄海",
+    "current_event_ids": [
+      "Ed58e4718c43e"
+    ],
+    "dates": [
+      "2025.6.17"
+    ],
+    "date_count": 1,
+    "same_specific_region_observations": 1,
+    "same_current_task_observations": 1,
+    "eligible": false,
+    "rejection": "不足三日或没有支持2—3阶段的实际变化",
+    "selection_basis": {
+      "current_important_platform": false,
+      "current_specific_region": true,
+      "same_region_ratio": 1.0,
+      "same_task_ratio": 1.0
+    },
+    "rank": [
+      0,
+      1,
+      1.0,
+      1.0,
+      1
+    ]
+  },
+  {
+    "country": "德国",
+    "platform": "法兰克福号综合补给舰",
+    "platform_key": "法兰克福",
+    "direction": "东海",
+    "current_event_ids": [
+      "Edf1a54d044b9"
+    ],
+    "dates": [
+      "2025.6.17"
+    ],
+    "date_count": 1,
+    "same_specific_region_observations": 1,
+    "same_current_task_observations": 1,
+    "eligible": false,
+    "rejection": "不足三日或没有支持2—3阶段的实际变化",
+    "selection_basis": {
+      "current_important_platform": false,
+      "current_specific_region": true,
+      "same_region_ratio": 1.0,
+      "same_task_ratio": 1.0
+    },
+    "rank": [
+      0,
+      1,
+      1.0,
+      1.0,
+      1
+    ]
+  },
+  {
+    "country": "新加坡",
+    "platform": "福克50海上巡逻机",
+    "platform_key": "福克50",
+    "direction": "黄海",
+    "current_event_ids": [
+      "E0af5f3035ee1"
+    ],
+    "dates": [
+      "2025.6.17"
+    ],
+    "date_count": 1,
+    "same_specific_region_observations": 1,
+    "same_current_task_observations": 1,
+    "eligible": false,
+    "rejection": "不足三日或没有支持2—3阶段的实际变化",
+    "selection_basis": {
+      "current_important_platform": false,
+      "current_specific_region": true,
+      "same_region_ratio": 1.0,
+      "same_task_ratio": 1.0
+    },
+    "rank": [
+      0,
+      1,
+      1.0,
+      1.0,
+      1
+    ]
+  },
+  {
+    "country": "美国",
+    "platform": "刘易斯与克拉克级综合补给舰",
+    "platform_key": "刘易斯与克拉克",
+    "direction": "东海",
+    "current_event_ids": [
+      "E431de2913b31"
+    ],
+    "dates": [
+      "2025.6.17"
+    ],
+    "date_count": 1,
+    "same_specific_region_observations": 1,
+    "same_current_task_observations": 1,
+    "eligible": false,
+    "rejection": "不足三日或没有支持2—3阶段的实际变化",
+    "selection_basis": {
+      "current_important_platform": false,
+      "current_specific_region": true,
+      "same_region_ratio": 1.0,
+      "same_task_ratio": 1.0
+    },
+    "rank": [
+      0,
+      1,
+      1.0,
+      1.0,
+      1
+    ]
+  },
+  {
+    "country": "韩国",
+    "platform": "F-15K多用途战斗机",
+    "platform_key": "F15K",
+    "direction": "黄海",
+    "current_event_ids": [
+      "E0d6cdba194b7"
+    ],
+    "dates": [
+      "2025.6.17"
+    ],
+    "date_count": 1,
+    "same_specific_region_observations": 1,
+    "same_current_task_observations": 1,
+    "eligible": false,
+    "rejection": "不足三日或没有支持2—3阶段的实际变化",
+    "selection_basis": {
+      "current_important_platform": false,
+      "current_specific_region": true,
+      "same_region_ratio": 1.0,
+      "same_task_ratio": 1.0
+    },
+    "rank": [
+      0,
+      1,
+      1.0,
+      1.0,
+      1
+    ]
+  },
+  {
+    "country": "加拿大",
+    "platform": "CF-188多用途战斗机",
+    "platform_key": "CF188",
+    "direction": "东海",
+    "current_event_ids": [
+      "E1463314817f0",
+      "E2d5b669a0767"
+    ],
+    "dates": [
+      "2025.6.10",
+      "2025.6.17"
+    ],
+    "date_count": 2,
+    "same_specific_region_observations": 3,
+    "same_current_task_observations": 3,
+    "eligible": false,
+    "rejection": "不足三日或没有支持2—3阶段的实际变化",
+    "selection_basis": {
+      "current_important_platform": false,
+      "current_specific_region": true,
+      "same_region_ratio": 0.75,
+      "same_task_ratio": 0.75
+    },
+    "rank": [
+      0,
+      1,
+      0.75,
+      0.75,
+      2
+    ]
+  },
+  {
+    "country": "加拿大",
+    "platform": "哈里·德沃尔夫级近海巡逻舰",
+    "platform_key": "哈里德沃尔夫",
+    "direction": "黄海",
+    "current_event_ids": [
+      "Efbb08eac3ea1"
+    ],
+    "dates": [
+      "2025.6.15",
+      "2025.6.17"
+    ],
+    "date_count": 2,
+    "same_specific_region_observations": 1,
+    "same_current_task_observations": 1,
+    "eligible": false,
+    "rejection": "不足三日或没有支持2—3阶段的实际变化",
+    "selection_basis": {
+      "current_important_platform": false,
+      "current_specific_region": true,
+      "same_region_ratio": 0.5,
+      "same_task_ratio": 0.5
+    },
+    "rank": [
+      0,
+      1,
+      0.5,
+      0.5,
+      2
+    ]
+  },
+  {
+    "country": "德国",
+    "platform": "巴登-符腾堡号导弹护卫舰",
+    "platform_key": "巴登符腾堡",
+    "direction": "东海",
+    "current_event_ids": [
+      "E826410ac5d2c"
+    ],
+    "dates": [
+      "2025.6.5",
+      "2025.6.17"
+    ],
+    "date_count": 2,
+    "same_specific_region_observations": 1,
+    "same_current_task_observations": 1,
+    "eligible": false,
+    "rejection": "不足三日或没有支持2—3阶段的实际变化",
+    "selection_basis": {
+      "current_important_platform": false,
+      "current_specific_region": true,
+      "same_region_ratio": 0.5,
+      "same_task_ratio": 0.5
+    },
+    "rank": [
+      0,
+      1,
+      0.5,
+      0.5,
+      2
+    ]
+  },
+  {
+    "country": "菲律宾",
+    "platform": "FA-50PH轻型战斗机",
+    "platform_key": "FA50PH",
+    "direction": "东海",
+    "current_event_ids": [
+      "E83b2204ef95c"
+    ],
+    "dates": [
+      "2025.5.3",
+      "2025.5.12",
+      "2025.5.26",
+      "2025.6.6",
+      "2025.6.8",
+      "2025.6.17"
+    ],
+    "date_count": 6,
+    "same_specific_region_observations": 2,
+    "same_current_task_observations": 3,
+    "eligible": true,
+    "rejection": null,
+    "selection_basis": {
+      "current_important_platform": false,
+      "current_specific_region": true,
+      "same_region_ratio": 0.333,
+      "same_task_ratio": 0.5
+    },
+    "rank": [
+      0,
+      1,
+      0.3333333333333333,
+      0.5,
+      6
+    ]
+  },
+  {
+    "country": "日本",
+    "platform": "F-2A多用途战斗机",
+    "platform_key": "F2A",
+    "direction": "东海",
+    "current_event_ids": [
+      "E1bc5c54a90a3"
+    ],
+    "dates": [
+      "2025.5.22",
+      "2025.6.4",
+      "2025.6.13",
+      "2025.6.17"
+    ],
+    "date_count": 4,
+    "same_specific_region_observations": 1,
+    "same_current_task_observations": 3,
+    "eligible": true,
+    "rejection": null,
+    "selection_basis": {
+      "current_important_platform": false,
+      "current_specific_region": true,
+      "same_region_ratio": 0.25,
+      "same_task_ratio": 0.75
+    },
+    "rank": [
+      0,
+      1,
+      0.25,
+      0.75,
+      4
+    ]
+  },
+  {
+    "country": "菲律宾",
+    "platform": "AW-159“野猫”反潜直升机",
+    "platform_key": "AW159",
+    "direction": "东海",
+    "current_event_ids": [
+      "Eb3b17ebe859d"
+    ],
+    "dates": [
+      "2025.5.7",
+      "2025.5.16",
+      "2025.5.19",
+      "2025.5.20",
+      "2025.5.27",
+      "2025.6.6",
+      "2025.6.17"
+    ],
+    "date_count": 7,
+    "same_specific_region_observations": 1,
+    "same_current_task_observations": 1,
+    "eligible": true,
+    "rejection": null,
+    "selection_basis": {
+      "current_important_platform": false,
+      "current_specific_region": true,
+      "same_region_ratio": 0.143,
+      "same_task_ratio": 0.143
+    },
+    "rank": [
+      0,
+      1,
+      0.14285714285714285,
+      0.14285714285714285,
+      7
+    ]
+  },
+  {
+    "country": "澳大利亚",
+    "platform": "P-8A“海神”反潜巡逻机",
+    "platform_key": "P8A",
+    "direction": "黄海",
+    "current_event_ids": [
+      "Ea2a623e178fb"
+    ],
+    "dates": [
+      "2025.6.17"
+    ],
+    "date_count": 1,
+    "same_specific_region_observations": 1,
+    "same_current_task_observations": 1,
+    "eligible": false,
+    "rejection": "不足三日或没有支持2—3阶段的实际变化",
+    "selection_basis": {
+      "current_important_platform": false,
+      "current_specific_region": false,
+      "same_region_ratio": 1.0,
+      "same_task_ratio": 1.0
+    },
+    "rank": [
+      0,
+      0,
+      1.0,
+      1.0,
+      1
+    ]
+  },
+  {
+    "country": "澳大利亚",
+    "platform": "P-8A“海神”反潜巡逻机",
+    "platform_key": "P8A",
+    "direction": "南海",
+    "current_event_ids": [
+      "E1252ca3506d0"
+    ],
+    "dates": [
+      "2025.5.19",
+      "2025.5.24",
+      "2025.5.28",
+      "2025.6.2",
+      "2025.6.6",
+      "2025.6.8",
+      "2025.6.11",
+      "2025.6.14",
+      "2025.6.16",
+      "2025.6.17"
+    ],
+    "date_count": 10,
+    "same_specific_region_observations": 10,
+    "same_current_task_observations": 9,
+    "eligible": true,
+    "rejection": null,
+    "selection_basis": {
+      "current_important_platform": false,
+      "current_specific_region": false,
+      "same_region_ratio": 1.0,
+      "same_task_ratio": 0.9
+    },
+    "rank": [
+      0,
+      0,
+      1.0,
+      0.9,
+      10
+    ]
+  },
+  {
+    "country": "德国",
+    "platform": "“台风”多用途战斗机",
+    "platform_key": "台风",
+    "direction": "黄海",
+    "current_event_ids": [
+      "E8fbb0fdf6742"
+    ],
+    "dates": [
+      "2025.5.31",
+      "2025.6.2",
+      "2025.6.4",
+      "2025.6.7",
+      "2025.6.11",
+      "2025.6.15",
+      "2025.6.17"
+    ],
+    "date_count": 7,
+    "same_specific_region_observations": 6,
+    "same_current_task_observations": 2,
+    "eligible": true,
+    "rejection": null,
+    "selection_basis": {
+      "current_important_platform": false,
+      "current_specific_region": false,
+      "same_region_ratio": 0.857,
+      "same_task_ratio": 0.286
+    },
+    "rank": [
+      0,
+      0,
+      0.8571428571428571,
+      0.2857142857142857,
+      7
+    ]
+  },
+  {
+    "country": "韩国",
+    "platform": "世宗大王级导弹驱逐舰",
+    "platform_key": "世宗大王",
+    "direction": "黄海",
+    "current_event_ids": [
+      "Ef262f370f089"
+    ],
+    "dates": [
+      "2025.5.31",
+      "2025.6.12",
+      "2025.6.17"
+    ],
+    "date_count": 3,
+    "same_specific_region_observations": 2,
+    "same_current_task_observations": 2,
+    "eligible": true,
+    "rejection": null,
+    "selection_basis": {
+      "current_important_platform": false,
+      "current_specific_region": false,
+      "same_region_ratio": 0.667,
+      "same_task_ratio": 0.667
+    },
+    "rank": [
+      0,
+      0,
+      0.6666666666666666,
+      0.6666666666666666,
+      3
+    ]
+  }
+]

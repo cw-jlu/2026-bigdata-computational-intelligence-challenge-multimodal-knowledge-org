@@ -1,0 +1,34 @@
+{
+  "read_before_implementation": [
+    {
+      "file": "README.md",
+      "sha256_at_delivery": "bca0487485561f7ca33572e35fce17eb4286c90e6841888ba3f82ee74461f289"
+    },
+    {
+      "file": "docs/01-赛题总览与赛程.md",
+      "sha256_at_delivery": "fc90c66dfe9f2c3b854842de3b6cbd98b60e6930e2596a5063b5d6ada67f0a07"
+    },
+    {
+      "file": "docs/02-数据说明与判定口径.md",
+      "sha256_at_delivery": "9673234756995583034df7d185b8362479128a1c0870197f41ed13b7cb267633"
+    },
+    {
+      "file": "docs/03-系统处理流程与算法要求.md",
+      "sha256_at_delivery": "d737544b71a625c65f1e024e3e2ac4c7e8eec3c7c479c093ee612ec5a5830e61"
+    },
+    {
+      "file": "docs/04-日报交付格式与文件规范.md",
+      "sha256_at_delivery": "7b0e91d38e53277e02a8397a8b5c11d85c959a03cec10ee54f6fd4af543187ce"
+    },
+    {
+      "file": "docs/05-评测标准与复现清单.md",
+      "sha256_at_delivery": "68b8811ddcd30699c7ff5cd29d18b377465183731f49f7652a70c7ea9917304d"
+    }
+  ],
+  "old_gpt_only": [
+    "artifact/20261008_001028_gpt-5.6solhigh/solution.py",
+    "artifact/20261008_001028_gpt-5.6solhigh/README.md",
+    "artifact/20261008_001028_gpt-5.6solhigh/output/中间结果/evidence.jsonl"
+  ],
+  "restriction": "No Claude implementation or artifacts read/copied. Shared docs05 comparison table is a required rules document, not a competitor artifact."
+}

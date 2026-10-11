@@ -1,0 +1,21 @@
+{
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+  "os": "Windows-11-10.0.26200-SP0",
+  "dependencies": {
+    "openpyxl": "3.1.5",
+    "python-docx": "1.2.0",
+    "matplotlib": "3.11.0",
+    "Pillow": "12.0.0",
+    "lxml": "6.1.1",
+    "PyMuPDF": "1.27.2.3"
+  },
+  "docx_runtime_python": "3.12.14",
+  "artifact_tool": "2.8.89",
+  "random_seeds": [
+    4601,
+    4602
+  ],
+  "external_models": [],
+  "external_data": [],
+  "gpu_required": false
+}

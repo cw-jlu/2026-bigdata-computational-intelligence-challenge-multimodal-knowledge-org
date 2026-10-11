@@ -1,0 +1,367 @@
+{
+  "annotation_method": "工程师直接阅读原始TXT正文与XLSX行，按同一事件/不应关联及可纳入性分别标注；没有官方真值。这些标签不是由生成输出反推。文件前缀只作原始定位，不参与关联。数量缺失不能默认为1。原始日期5月1日和5月10日为开发核查集；其余七节点另做内容复核并参与修复，因此属于跨节点回归集。初始标签、错误定位及后续原始行复核修订全部保留。",
+  "cases": [
+    {
+      "id": "C01",
+      "date": "2025.5.10",
+      "category": "同型平台",
+      "batch": "AIR-A19EDC5BFA2976",
+      "source": "开源军情",
+      "file_prefix": "037_",
+      "should_associate": true,
+      "expected": {
+        "country": "马来西亚",
+        "platform": "A400M",
+        "region": "钓鱼岛海域",
+        "interval": [
+          895,
+          980
+        ],
+        "task": "远程兵力投送"
+      },
+      "basis": "037正文为14:55—16:20钓鱼岛投送；雷达飞机12/36/43等行同型同任务同时间，坐标约123.4E/26N。"
+    },
+    {
+      "id": "C02",
+      "date": "2025.5.10",
+      "category": "同型平台区域错配",
+      "batch": "AIR-A19EDC5BFA2976",
+      "source": "开源军情",
+      "file_prefix": "036_",
+      "should_associate": false,
+      "expected": {
+        "country": "马来西亚",
+        "platform": "A400M",
+        "region": "孟加拉湾"
+      },
+      "basis": "036为孟加拉湾另一活动；同型A400M不能替代钓鱼岛投送记录。"
+    },
+    {
+      "id": "C03",
+      "date": "2025.5.10",
+      "category": "同型平台任务错配",
+      "batch": "AIR-C98E9F2B779306",
+      "source": "网上舆论",
+      "file_prefix": "033_",
+      "should_associate": true,
+      "expected": {
+        "country": "马来西亚",
+        "platform": "A400M",
+        "region": "孟加拉湾",
+        "interval": [
+          873,
+          1018
+        ],
+        "task": "搜救训练"
+      },
+      "basis": "舆论033明确14:33—16:58搜救训练；飞机14/24/70等行虽与投送时段重叠，但坐标87.8E/14.7N。"
+    },
+    {
+      "id": "C04",
+      "date": "2025.5.10",
+      "category": "主体错配",
+      "batch": "SHIP-30A046A0E6AFD2",
+      "source": "开源军情",
+      "file_prefix": "024_",
+      "should_associate": false,
+      "expected": {
+        "country": "意大利",
+        "platform": "柯林斯",
+        "region": "长江口外海",
+        "quantity": 1
+      },
+      "basis": "开源024说意大利，舰船6/47/56等行和舆论038说澳大利亚；型号和区域相同不能跨主体纳入。"
+    },
+    {
+      "id": "C05",
+      "date": "2025.5.10",
+      "category": "主体错配",
+      "batch": "AIR-4E92B86326A346",
+      "source": "网上舆论",
+      "file_prefix": "028_",
+      "should_associate": false,
+      "expected": {
+        "country": "俄罗斯",
+        "platform": "E767",
+        "region": "济州岛西部海域",
+        "quantity": 1
+      },
+      "basis": "舆论028正文俄罗斯，开源046和飞机20/56/86等行日本；通讯社国籍与活动主体需分开。"
+    },
+    {
+      "id": "C06",
+      "date": "2025.5.10",
+      "category": "区域错配",
+      "batch": "SHIP-1BEADE90A1114F",
+      "source": "开源军情",
+      "file_prefix": "029_",
+      "should_associate": false,
+      "expected": {
+        "country": "中国",
+        "platform": "903A",
+        "region": "成山头外海",
+        "quantity": 1
+      },
+      "basis": "两文本指成山头/黄海；舰船55/78/89等整条轨迹却为东海南部，不能让两票覆盖雷达明确冲突。"
+    },
+    {
+      "id": "C07",
+      "date": "2025.5.10",
+      "category": "任务文本冲突",
+      "batch": "AIR-6A5EB9A4E1BBA4",
+      "source": "开源军情",
+      "file_prefix": "049_",
+      "should_associate": false,
+      "expected": {
+        "country": "中国",
+        "platform": "空警600",
+        "region": "南康暗沙海域",
+        "interval": [
+          675,
+          820
+        ],
+        "task": "空中警戒"
+      },
+      "basis": "开源049空中警戒，舆论030与飞机9/46/57等行预警指挥；角色词预警机不能变成开源任务支持。"
+    },
+    {
+      "id": "C08",
+      "date": "2025.5.10",
+      "category": "数量文本冲突",
+      "batch": "AIR-74BB12F6148F7E",
+      "source": "网上舆论",
+      "file_prefix": "029_",
+      "should_associate": false,
+      "expected": {
+        "country": "台湾",
+        "platform": "P3C",
+        "quantity": 2,
+        "region": "东海南部",
+        "interval": [
+          886,
+          976
+        ],
+        "task": "联合巡逻"
+      },
+      "basis": "舆论029两架；开源044一架、雷达飞机80/91/106等行1；无法解释为不同统计口径，排除标准日报。"
+    },
+    {
+      "id": "C09",
+      "date": "2025.5.10",
+      "category": "同型平台",
+      "batch": "AIR-C498D3CE9B3184",
+      "source": "网上舆论",
+      "file_prefix": "037_",
+      "should_associate": true,
+      "expected": {
+        "country": "台湾",
+        "platform": "P3C",
+        "region": "东海",
+        "interval": [
+          681,
+          826
+        ],
+        "task": "反潜巡逻"
+      },
+      "basis": "37舆论11:21—13:46反潜，与开源028和飞机5/30/33等行同一时段；不能与14:46联合巡逻混合。"
+    },
+    {
+      "id": "C10",
+      "date": "2025.5.10",
+      "category": "同型平台",
+      "batch": "AIR-C498D3CE9B3184",
+      "source": "网上舆论",
+      "file_prefix": "029_",
+      "should_associate": false,
+      "expected": {
+        "country": "台湾",
+        "platform": "P3C",
+        "quantity": 2,
+        "interval": [
+          886,
+          976
+        ]
+      },
+      "basis": "时段完全不相交且任务不同，属于另一批活动。"
+    },
+    {
+      "id": "C11",
+      "date": "2025.5.10",
+      "category": "别名区域包含",
+      "batch": "SHIP-0AB0D8C5EB8110",
+      "source": "网上舆论",
+      "file_prefix": "048_",
+      "should_associate": true,
+      "expected": {
+        "country": "澳大利亚",
+        "platform": "安扎克",
+        "quantity": 1,
+        "region": "东海",
+        "task": "自由航行"
+      },
+      "basis": "安扎克级省略导弹护卫舰后缀；东海包含上海外海；开源013和舰船3/9/21等行同任务，舆论俄罗斯卫星通讯社不是活动主体。"
+    },
+    {
+      "id": "C12",
+      "date": "2025.5.10",
+      "category": "时间文本冲突",
+      "batch": "AIR-4A3B2D7C0D9623",
+      "source": "开源军情",
+      "file_prefix": "010_",
+      "should_associate": false,
+      "expected": {
+        "country": "德国",
+        "platform": "台风",
+        "region": "黄岩岛海域",
+        "interval": [
+          1084,
+          1194
+        ],
+        "task": "空中警戒"
+      },
+      "basis": "开源010活动起始18:04；舆论016指17:29，雷达17/21/90等行17:29—19:54。两类文本时段起点差35分钟，缺少解释，不能多数票。"
+    },
+    {
+      "id": "C13",
+      "date": "2025.5.10",
+      "category": "时间文本冲突",
+      "batch": "SHIP-49592BAB51B8FF",
+      "source": "网上舆论",
+      "file_prefix": "025_",
+      "should_associate": false,
+      "expected": {
+        "country": "新加坡",
+        "platform": "无敌",
+        "quantity": 1,
+        "region": "东海中部",
+        "interval": [
+          1157,
+          1182
+        ],
+        "task": "海上巡逻"
+      },
+      "basis": "舆论025于19:17—19:42，开源004与舰船14/24/32等行18:12—19:42。可能是观测子窗口，但原文未明确，按保守策略保留候选不确认为一致时段。"
+    },
+    {
+      "id": "C14",
+      "date": "2025.5.10",
+      "category": "仅两源",
+      "batch": "AIR-093CB109918635",
+      "expect_inclusion": false,
+      "basis": "开源023明确英国2架RC-135W与P-8A编队；网上舆论仅033 P-8A，没有RC-135W子事实；雷达6/22/27等行不能补足第三类来源。"
+    },
+    {
+      "id": "C15",
+      "date": "2025.5.10",
+      "category": "仅两源多平台",
+      "batch": "AIR-730DC2A79E3FDD",
+      "expect_inclusion": false,
+      "basis": "开源048日本2架SH-60K和P-1；舆论044只说P-1。飞机19/38/39等行虽同编队时段，不得共享P-1舆论为SH-60K核验。"
+    },
+    {
+      "id": "C16",
+      "date": "2025.5.10",
+      "category": "仅两源多平台",
+      "batch": "AIR-B8FBF3CD333F7B",
+      "expect_inclusion": false,
+      "basis": "开源030意大利F-35B与P-72A联合活动；舆论049仅P-72A；飞机42/44/109等行F-35B不具三源覆盖。"
+    },
+    {
+      "id": "C17",
+      "date": "2025.5.10",
+      "category": "多平台拆分正确子事件",
+      "batch": "AIR-AF10F9EBB9E18A",
+      "expect_inclusion": true,
+      "basis": "开源048 P-1有自身数量1，舆论044 P-1自身05:07—07:32与任务，雷达2/10/26/41等行P-1；可拆分纳入，不能因为同篇还有SH-60K而全部排除。"
+    },
+    {
+      "id": "C18",
+      "date": "2025.5.10",
+      "category": "多平台拆分正确子事件",
+      "batch": "AIR-9740CBEDE14968",
+      "expect_inclusion": true,
+      "basis": "开源030 P-72A与F-35B共享黄海中部情报监视任务时段；舆论049一架P-72A，雷达54/65/84等行数量1，P-72A满足三源。"
+    },
+    {
+      "id": "C19",
+      "date": "2025.5.10",
+      "category": "雷达持续区域冲突",
+      "batch": "SHIP-F4B78A88D06154",
+      "expect_inclusion": false,
+      "basis": "重新直接核对全部原始行：舰船20/27/160/164/167/267/276为东海，31/80/141/213/239/299为连云港。两条持续区域记录而非单行异常；即使两文本黄海兼容，无法独立解释整组东海记录，排除。"
+    },
+    {
+      "id": "C20",
+      "date": "2025.5.10",
+      "category": "雷达持续区域冲突",
+      "batch": "SHIP-C8D66FB15B8C0B",
+      "expect_inclusion": false,
+      "basis": "重新直接核对全部原始行：舰船8/28/90/159/221/227/285为南海，与57/79/110/170/249/275/277宁波轨迹同刻重叠。不是首行孤立污染；两条持续区域记录不能简单投票，排除。"
+    },
+    {
+      "id": "C21",
+      "date": "2025.5.10",
+      "category": "主体文本冲突",
+      "batch": "SHIP-30A046A0E6AFD2",
+      "expect_inclusion": false,
+      "basis": "原始开源024意大利与澳大利亚雷达/舆论矛盾，第三类来源无一致关联。"
+    },
+    {
+      "id": "C22",
+      "date": "2025.5.10",
+      "category": "区域文本冲突",
+      "batch": "SHIP-1BEADE90A1114F",
+      "expect_inclusion": false,
+      "basis": "两文本黄海成山头与整条雷达东海南部冲突，无法消解。"
+    },
+    {
+      "id": "C23",
+      "date": "2025.5.10",
+      "category": "任务文本冲突",
+      "batch": "AIR-6A5EB9A4E1BBA4",
+      "expect_inclusion": false,
+      "basis": "开源任务空中警戒与雷达/舆论预警指挥冲突。"
+    },
+    {
+      "id": "C24",
+      "date": "2025.5.10",
+      "category": "数量文本冲突",
+      "batch": "AIR-74BB12F6148F7E",
+      "expect_inclusion": false,
+      "basis": "1架和两架的关键数量冲突，保留原文不投票。"
+    },
+    {
+      "id": "C25",
+      "date": "2025.5.10",
+      "category": "别名正确三源",
+      "batch": "AIR-9AF0FB7969EFE7",
+      "expect_inclusion": true,
+      "basis": "法国NH90/凯门鳄、南黄海/黄海包含；开源01520:31—22:56，舆论014一架反潜，雷达28/55/60等行均相符。"
+    },
+    {
+      "id": "C26",
+      "date": "2025.5.10",
+      "category": "同型平台主体错配",
+      "batch": "AIR-9D6E262963D302",
+      "expect_inclusion": true,
+      "basis": "美国RC-135V/W平台与活动由开源008两架、舆论02208:14—10:39及飞机16/66/111等行支持；不得与英国RC-135W混为一型或主体。正文电子侦察机是平台名，没有明确本次电子侦察任务措辞；具体任务必须标为未核实，不得把平台用途当任务。",
+      "expect_task": "任务未核实"
+    },
+    {
+      "id": "C27",
+      "date": "2025.5.1",
+      "category": "异常轨迹",
+      "batch": "AIR-0435F7FE86050A",
+      "expect_competing_tracks": 2,
+      "basis": "飞机10/138/152/156/216/227等行开始坐标122.4117,27.8816；27/62/84/163/177/181/266等行开始坐标114.2637,15.2165。19:00同刻两位置约1600km，不能拼为一条轨迹。"
+    },
+    {
+      "id": "C28",
+      "date": "2025.5.1",
+      "category": "异常轨迹",
+      "batch": "AIR-511B24203B9156",
+      "expect_competing_tracks": 2,
+      "basis": "越南苏-30MK2飞机37/45/131等行约116.5E11N；52/103/183等行约123E35N。两条相远轨迹同时段，保留竞争分支，不能平均位置。"
+    }
+  ]
+}

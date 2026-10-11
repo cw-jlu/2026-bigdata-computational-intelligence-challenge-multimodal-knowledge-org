@@ -1,0 +1,86 @@
+{
+  "versions": [
+    {
+      "version": "20261009_gpt_accuracy_v2",
+      "source": "本地Codex聊天turn_context，仅提取模型与推理强度元数据",
+      "session_file": "rollout-2026-10-09T11-08-30-01a11ea2-3abe-7701-aa06-84f47d474d12.jsonl",
+      "turns": [
+        {
+          "timestamp_utc": "2026-10-09T03:08:33.737Z",
+          "model": "gpt-6.1-sol",
+          "reasoning_effort": "high"
+        },
+        {
+          "timestamp_utc": "2026-10-09T03:47:36.447Z",
+          "model": "gpt-6.1-sol",
+          "reasoning_effort": "high"
+        },
+        {
+          "timestamp_utc": "2026-10-09T04:10:47.254Z",
+          "model": "gpt-6.1-sol",
+          "reasoning_effort": "high"
+        },
+        {
+          "timestamp_utc": "2026-10-09T04:12:07.083Z",
+          "model": "gpt-6.1-sol",
+          "reasoning_effort": "high"
+        },
+        {
+          "timestamp_utc": "2026-10-09T06:23:41.174Z",
+          "model": "gpt-6.1-sol",
+          "reasoning_effort": "high"
+        },
+        {
+          "timestamp_utc": "2026-10-09T06:31:11.718Z",
+          "model": "gpt-6.1-sol",
+          "reasoning_effort": "high"
+        }
+      ]
+    },
+    {
+      "version": "20261009_gpt_accuracy_v3",
+      "source": "本地Codex聊天turn_context，仅提取模型与推理强度元数据",
+      "session_file": "rollout-2026-10-09T14-51-15-01a11f6e-27aa-7592-9b72-84bd1dad265c.jsonl",
+      "turns": [
+        {
+          "timestamp_utc": "2026-10-09T06:51:33.947Z",
+          "model": "gpt-6.1-sol",
+          "reasoning_effort": "high"
+        },
+        {
+          "timestamp_utc": "2026-10-09T07:15:42.359Z",
+          "model": "gpt-6.1-sol",
+          "reasoning_effort": "high"
+        },
+        {
+          "timestamp_utc": "2026-10-09T07:37:51.784Z",
+          "model": "gpt-6.1-sol",
+          "reasoning_effort": "high"
+        },
+        {
+          "timestamp_utc": "2026-10-09T08:34:35.958Z",
+          "model": "gpt-6.1-sol",
+          "reasoning_effort": "high"
+        },
+        {
+          "timestamp_utc": "2026-10-09T08:44:50.992Z",
+          "model": "gpt-6.1-sol",
+          "reasoning_effort": "high"
+        },
+        {
+          "timestamp_utc": "2026-10-09T08:55:33.314Z",
+          "model": "gpt-6.1-sol",
+          "reasoning_effort": "high"
+        },
+        {
+          "timestamp_utc": "2026-10-09T08:58:40.209Z",
+          "model": "gpt-6.1-sol",
+          "reasoning_effort": "high"
+        }
+      ]
+    }
+  ],
+  "generation_runtime": "确定性本地Python规则/文档图表程序，不调用推理API；模型负责工程实现和分析设计",
+  "previous_record_precision": "评测前experiment_final中authoring_agent只记Codex GPT-6，API snapshot not exposed；本次找到聊天配置名gpt-6.1-sol及high。配置名不等于底层API快照ID。",
+  "preservation": "评分前源码、配置、提交ZIP和工程ZIP不覆盖；此为评分后新增元数据附录。"
+}

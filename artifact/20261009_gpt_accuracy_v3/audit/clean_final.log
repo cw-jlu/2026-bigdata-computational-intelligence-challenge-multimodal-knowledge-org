@@ -1,0 +1,335 @@
+raw input parsed 2025.5.1
+raw input parsed 2025.5.2
+raw input parsed 2025.5.3
+raw input parsed 2025.5.4
+raw input parsed 2025.5.5
+raw input parsed 2025.5.6
+raw input parsed 2025.5.7
+raw input parsed 2025.5.8
+raw input parsed 2025.5.9
+raw input parsed 2025.5.10
+raw input parsed 2025.5.11
+raw input parsed 2025.5.12
+raw input parsed 2025.5.13
+raw input parsed 2025.5.14
+raw input parsed 2025.5.15
+raw input parsed 2025.5.16
+raw input parsed 2025.5.17
+raw input parsed 2025.5.18
+raw input parsed 2025.5.19
+raw input parsed 2025.5.20
+raw input parsed 2025.5.21
+raw input parsed 2025.5.22
+raw input parsed 2025.5.23
+raw input parsed 2025.5.24
+raw input parsed 2025.5.25
+raw input parsed 2025.5.26
+raw input parsed 2025.5.27
+raw input parsed 2025.5.28
+raw input parsed 2025.5.29
+raw input parsed 2025.5.30
+raw input parsed 2025.5.31
+raw input parsed 2025.6.1
+raw input parsed 2025.6.2
+raw input parsed 2025.6.3
+raw input parsed 2025.6.4
+raw input parsed 2025.6.5
+raw input parsed 2025.6.6
+raw input parsed 2025.6.7
+raw input parsed 2025.6.8
+raw input parsed 2025.6.9
+raw input parsed 2025.6.10
+raw input parsed 2025.6.11
+raw input parsed 2025.6.12
+raw input parsed 2025.6.13
+raw input parsed 2025.6.14
+raw input parsed 2025.6.15
+raw input parsed 2025.6.16
+raw input parsed 2025.6.17
+raw input parsed 2025.6.18
+raw input parsed 2025.6.19
+raw input parsed 2025.6.20
+raw input parsed 2025.6.21
+raw input parsed 2025.6.22
+raw input parsed 2025.6.23
+raw input parsed 2025.6.24
+raw input parsed 2025.6.25
+raw input parsed 2025.6.26
+raw input parsed 2025.6.27
+raw input parsed 2025.6.28
+raw input parsed 2025.6.29
+raw input parsed 2025.6.30
+raw input parsed 2025.7.1
+raw input parsed 2025.7.2
+raw input parsed 2025.7.3
+raw input parsed 2025.7.4
+raw input parsed 2025.7.5
+raw input parsed 2025.7.6
+raw input parsed 2025.7.7
+raw input parsed 2025.7.8
+raw input parsed 2025.7.9
+raw input parsed 2025.7.10
+raw input parsed 2025.7.11
+raw input parsed 2025.7.12
+raw input parsed 2025.7.13
+raw input parsed 2025.7.14
+raw input parsed 2025.7.15
+raw input parsed 2025.7.16
+raw input parsed 2025.7.17
+{'days': 78, 'texts': 7800, 'radar_rows': 46800}
+[
+  {
+    "date": "2025.5.10",
+    "included": 25,
+    "excluded": 28,
+    "air_events": 16,
+    "ship_events": 9,
+    "air_quantity": 17,
+    "ship_quantity": 9,
+    "directions": {
+      "东海": 11,
+      "南海": 11,
+      "黄海": 3
+    },
+    "unknown_task": 1,
+    "trend": {
+      "country": "越南",
+      "platform": "猎豹3.9级导弹护卫舰",
+      "dates": 3,
+      "stages": 2
+    },
+    "exclusion_reasons": {
+      "缺少无冲突网上舆论关联": 12,
+      "非三大核心海域，保留核验结果但排除日报": 9,
+      "缺少无冲突开源军情关联": 8,
+      "具体区域文本互冲突": 1,
+      "文本具体区域不能建立包含关系": 1,
+      "区域不足两类来源支持": 1,
+      "雷达区域冲突不能由连续性与两类文本共同消解": 2
+    }
+  },
+  {
+    "date": "2025.5.18",
+    "included": 27,
+    "excluded": 30,
+    "air_events": 14,
+    "ship_events": 13,
+    "air_quantity": 15,
+    "ship_quantity": 13,
+    "directions": {
+      "南海": 12,
+      "东海": 7,
+      "黄海": 8
+    },
+    "unknown_task": 1,
+    "trend": {
+      "country": "加拿大",
+      "platform": "哈里·德沃尔夫级近海巡逻舰",
+      "dates": 3,
+      "stages": 2
+    },
+    "exclusion_reasons": {
+      "缺少无冲突开源军情关联": 8,
+      "缺少无冲突网上舆论关联": 17,
+      "非三大核心海域，保留核验结果但排除日报": 9,
+      "具体区域文本互冲突": 1,
+      "文本具体区域不能建立包含关系": 1,
+      "区域不足两类来源支持": 1
+    }
+  },
+  {
+    "date": "2025.5.30",
+    "included": 28,
+    "excluded": 25,
+    "air_events": 16,
+    "ship_events": 12,
+    "air_quantity": 17,
+    "ship_quantity": 12,
+    "directions": {
+      "南海": 12,
+      "黄海": 5,
+      "东海": 11
+    },
+    "unknown_task": 0,
+    "trend": {
+      "country": "马来西亚",
+      "platform": "苏-30MKM多用途战斗机",
+      "dates": 4,
+      "stages": 2
+    },
+    "exclusion_reasons": {
+      "非三大核心海域，保留核验结果但排除日报": 11,
+      "缺少无冲突开源军情关联": 4,
+      "缺少无冲突网上舆论关联": 8,
+      "具体区域文本互冲突": 1,
+      "文本具体区域不能建立包含关系": 1,
+      "区域不足两类来源支持": 1,
+      "雷达区域冲突不能由连续性与两类文本共同消解": 2,
+      "活动起止时段不足两类来源支持": 1
+    }
+  },
+  {
+    "date": "2025.6.9",
+    "included": 27,
+    "excluded": 26,
+    "air_events": 16,
+    "ship_events": 11,
+    "air_quantity": 16,
+    "ship_quantity": 11,
+    "directions": {
+      "黄海": 9,
+      "东海": 6,
+      "南海": 12
+    },
+    "unknown_task": 0,
+    "trend": {
+      "country": "意大利",
+      "platform": "F-35B短距起降战斗机",
+      "dates": 3,
+      "stages": 2
+    },
+    "exclusion_reasons": {
+      "非三大核心海域，保留核验结果但排除日报": 11,
+      "具体区域文本互冲突": 1,
+      "文本具体区域不能建立包含关系": 1,
+      "区域不足两类来源支持": 1,
+      "缺少无冲突网上舆论关联": 10,
+      "缺少无冲突开源军情关联": 3,
+      "雷达区域冲突不能由连续性与两类文本共同消解": 2,
+      "quantity不足两类来源支持": 1
+    }
+  },
+  {
+    "date": "2025.6.17",
+    "included": 27,
+    "excluded": 30,
+    "air_events": 14,
+    "ship_events": 13,
+    "air_quantity": 14,
+    "ship_quantity": 13,
+    "directions": {
+      "南海": 2,
+      "东海": 12,
+      "黄海": 13
+    },
+    "unknown_task": 1,
+    "trend": {
+      "country": "菲律宾",
+      "platform": "FA-50PH轻型战斗机",
+      "dates": 6,
+      "stages": 2
+    },
+    "exclusion_reasons": {
+      "缺少无冲突开源军情关联": 8,
+      "缺少无冲突网上舆论关联": 14,
+      "非三大核心海域，保留核验结果但排除日报": 11,
+      "另有明确同事件文本冲突，不能由选择两条相符文本覆盖:16d021a88f4f": 1
+    }
+  },
+  {
+    "date": "2025.6.29",
+    "included": 25,
+    "excluded": 28,
+    "air_events": 14,
+    "ship_events": 11,
+    "air_quantity": 14,
+    "ship_quantity": 11,
+    "directions": {
+      "南海": 10,
+      "黄海": 8,
+      "东海": 7
+    },
+    "unknown_task": 0,
+    "trend": {
+      "country": "英国",
+      "platform": "P-8A“海神”反潜巡逻机",
+      "dates": 3,
+      "stages": 2
+    },
+    "exclusion_reasons": {
+      "非三大核心海域，保留核验结果但排除日报": 10,
+      "缺少无冲突网上舆论关联": 12,
+      "缺少无冲突开源军情关联": 6,
+      "具体区域文本互冲突": 1,
+      "文本具体区域不能建立包含关系": 1,
+      "区域不足两类来源支持": 1,
+      "雷达区域冲突不能由连续性与两类文本共同消解": 2
+    }
+  },
+  {
+    "date": "2025.7.9",
+    "included": 26,
+    "excluded": 26,
+    "air_events": 14,
+    "ship_events": 12,
+    "air_quantity": 15,
+    "ship_quantity": 12,
+    "directions": {
+      "南海": 4,
+      "黄海": 9,
+      "东海": 13
+    },
+    "unknown_task": 0,
+    "trend": {
+      "country": "加拿大",
+      "platform": "维多利亚级常规潜艇",
+      "dates": 3,
+      "stages": 2
+    },
+    "exclusion_reasons": {
+      "缺少无冲突网上舆论关联": 8,
+      "缺少无冲突开源军情关联": 6,
+      "非三大核心海域，保留核验结果但排除日报": 10,
+      "具体区域文本互冲突": 1,
+      "文本具体区域不能建立包含关系": 1,
+      "区域不足两类来源支持": 1,
+      "雷达区域冲突不能由连续性与两类文本共同消解": 2
+    }
+  },
+  {
+    "date": "2025.7.17",
+    "included": 28,
+    "excluded": 27,
+    "air_events": 15,
+    "ship_events": 13,
+    "air_quantity": 16,
+    "ship_quantity": 13,
+    "directions": {
+      "东海": 8,
+      "南海": 11,
+      "黄海": 9
+    },
+    "unknown_task": 0,
+    "trend": {
+      "country": "马来西亚",
+      "platform": "苏-30MKM多用途战斗机",
+      "dates": 5,
+      "stages": 2
+    },
+    "exclusion_reasons": {
+      "非三大核心海域，保留核验结果但排除日报": 12,
+      "缺少无冲突开源军情关联": 7,
+      "缺少无冲突网上舆论关联": 11,
+      "轨迹存在同刻位置冲突或超过2400km/h跳变；不按点数投票": 1,
+      "活动起止时段不足两类来源支持": 1,
+      "具体区域文本互冲突": 1,
+      "文本具体区域不能建立包含关系": 1,
+      "区域不足两类来源支持": 1
+    }
+  }
+]
+running charts.py
+PNG charts created: 32
+running report.py
+DOCX created: 8
+running workbooks_fallback.py
+Portable XLSX fallback saved 2025.5.10
+Portable XLSX fallback saved 2025.5.18
+Portable XLSX fallback saved 2025.5.30
+Portable XLSX fallback saved 2025.6.9
+Portable XLSX fallback saved 2025.6.17
+Portable XLSX fallback saved 2025.6.29
+Portable XLSX fallback saved 2025.7.9
+Portable XLSX fallback saved 2025.7.17
+{"ok": true, "errors": [], "zip_errors": []}
+all eight node answers and submission ZIP validated

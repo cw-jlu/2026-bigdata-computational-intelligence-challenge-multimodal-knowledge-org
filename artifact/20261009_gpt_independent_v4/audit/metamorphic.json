@@ -1,0 +1,7 @@
+{
+  "seed": 31017,
+  "filename_and_row_shuffle_equal": true,
+  "daily_first_node_equal_without_future_input": true,
+  "trend_first_node_equal_without_future_input": true,
+  "note": "变形测试证明不使用编号/首行并检查日界稳定性；不作为内容准确率。"
+}

@@ -1,0 +1,1757 @@
+{
+  "version": "20261009_gpt_accuracy_v3",
+  "files": [
+    {
+      "path": "ANALYSIS.md",
+      "bytes": 7199,
+      "sha256": "828d853ad5fddde723db82f415f5b9ac36f7468a36ba58aa16768a11e6376dd8"
+    },
+    {
+      "path": "AUDIT.md",
+      "bytes": 4564,
+      "sha256": "646dda8522f421d9f81a788bbe5d3745b7bc4dbfd635cfdcd373868aacc72f71"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5506,
+      "sha256": "17c4f8e7310d71dc2bc693e8fb640c942a4a3a53614e3bc98775dbf0d2c105ca"
+    },
+    {
+      "path": "VISUAL_REVIEW.md",
+      "bytes": 2671,
+      "sha256": "f47bd8be238b54847000e83d69dc57761b5d0951df6b39ebddfc7c75dbcb6d97"
+    },
+    {
+      "path": "audit/ablation_analysis.json",
+      "bytes": 16310,
+      "sha256": "a0e32216b5d5aaab6bb115c647ffa20f061a4f0ebfe72f2359490f1f9bbef749"
+    },
+    {
+      "path": "audit/annotation_changes.json",
+      "bytes": 133560,
+      "sha256": "c15de2be5352fad8284ad96261abc787a13fa1705bfbfa496a43aad6580b5d64"
+    },
+    {
+      "path": "audit/baseline_freeze.json",
+      "bytes": 117645,
+      "sha256": "50f96c091e017db76019b86b2a2343e064d50f819b00e25796d8690a982a58c4"
+    },
+    {
+      "path": "audit/baseline_preservation.json",
+      "bytes": 74188,
+      "sha256": "84cd91103be59c3ef1214b43fc9ff235188b797c7986864aa3d64768198328fe"
+    },
+    {
+      "path": "audit/clean_final.log",
+      "bytes": 9535,
+      "sha256": "33d1ee0928bf9d947f906a29912475bae5d1ed72cc99aa6bdf7a4f65d77b4ace"
+    },
+    {
+      "path": "audit/clean_reproduction.log",
+      "bytes": 9535,
+      "sha256": "33d1ee0928bf9d947f906a29912475bae5d1ed72cc99aa6bdf7a4f65d77b4ace"
+    },
+    {
+      "path": "audit/clean_reproduction_comparison.json",
+      "bytes": 9929,
+      "sha256": "a356f9dbadc366ce6ea4bbbf264089fc657ea63dad8a74240b7f96e11f966a18"
+    },
+    {
+      "path": "audit/day_2025.5.10_raw_review.txt",
+      "bytes": 75514,
+      "sha256": "067cbb2e5855a877b6f32fbd6b24c31117293e5e47ea7ffe707d697648414588"
+    },
+    {
+      "path": "audit/development42_part28_final.json",
+      "bytes": 59150,
+      "sha256": "2e927de244d6362e7d2b9d27457b0d5609dc3e6466b0c0b98fab37a0a03ec2a1"
+    },
+    {
+      "path": "audit/development42_part28_first.json",
+      "bytes": 58695,
+      "sha256": "49e1cafee7f1cf57a8d18a9ea243b69bc45912e98a4dc9b5b9ea3da1bd49725e"
+    },
+    {
+      "path": "audit/diagnostic_raw_bundles.json",
+      "bytes": 519901,
+      "sha256": "df6f7643b7fc9d76d42b01e9bfa42c90a6872f7fc29f64a6a40919a2ac49807c"
+    },
+    {
+      "path": "audit/diagnostic_raw_review.txt",
+      "bytes": 76599,
+      "sha256": "d646047be23a041247efed07667831c474ad2392a31f207bb8f3b4ea60ecc12e"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.10/report.pdf",
+      "bytes": 1037792,
+      "sha256": "b164b2d204b19696a5240e2282b31892900545aa9412c2ef3310d59c1422a4a5"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.10/report_contact_1.png",
+      "bytes": 713139,
+      "sha256": "a9bf5173b5bd514e74749f6fda99063e33c274c63f102031ad5f8b5f01ef7e75"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.10/report_contact_2.png",
+      "bytes": 287685,
+      "sha256": "6c2c33a2cf6ac7b93e6d30a038a81c7a2ee4e01758bb8fdb26754e07dbdd8f5d"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.10/report_contact_3.png",
+      "bytes": 97118,
+      "sha256": "93a034afd771c731a6b8c164230dd051c11aa5543e129f8a7806c560c8c6732a"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.10/report_page_01.png",
+      "bytes": 312908,
+      "sha256": "7a1f0f73cceeb399cc56f3b12496af1efe3e7e5ae30819ce8694e24610991ebe"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.10/report_page_02.png",
+      "bytes": 316872,
+      "sha256": "a29bf3adabf64c5d8b05f3b95cfaca7c6a6b00351dcc37ffb6fe918cb05fdf6e"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.10/report_page_03.png",
+      "bytes": 224694,
+      "sha256": "5d9dd76b5e682162afa98cf5a936ff6e6785f8917ed9090ea5abc6902a9f0f67"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.10/report_page_04.png",
+      "bytes": 111791,
+      "sha256": "80478dc7c2d3e3745522cd5a4fd72087b78e4de83269b5de765bc8fb4dc9e8ab"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.10/report_page_05.png",
+      "bytes": 158460,
+      "sha256": "b45c0a9d348fbf0428b02a75827456d9dd275ddd5a9995f86622ec88b1c06fc1"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.10/report_page_06.png",
+      "bytes": 106548,
+      "sha256": "05871c125d44074084b9a53ee7db204436abd449695ffc898cd3baa9707b804f"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.10/report_page_07.png",
+      "bytes": 118038,
+      "sha256": "647db91cc46c4aeeabdde3c0bcd205db6ec624428b30447bf06821c814536144"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.10/report_page_08.png",
+      "bytes": 72859,
+      "sha256": "85b51799623bee11e7edb2ddd125c90922e5fa2d81a25733bf5e421dcd49e0e3"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.10/report_page_09.png",
+      "bytes": 173032,
+      "sha256": "6fb50ae50ab7cbf93a80e33a495fe6c2c123a464a5d91e4898d2e96d4c0cbcab"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.18/report.pdf",
+      "bytes": 1048213,
+      "sha256": "53cfba2d7320182e0e5d06d299836798c8a04c7efb975dc165d0b415296d9975"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.18/report_contact_1.png",
+      "bytes": 727169,
+      "sha256": "00c4db1638e7e7b2a89d29aaaf8b310aeae3f1a541ef5e98b78a66d092f930c0"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.18/report_contact_2.png",
+      "bytes": 297711,
+      "sha256": "b8a475df9f833248f47d203a50a7a8d4cbf0266e93d4beaca151118c4a2efdf5"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.18/report_contact_3.png",
+      "bytes": 101462,
+      "sha256": "07b0a7ad30278b6fb1b20dc84cc34cff02bf092c19d108de5b90d693fca0fb01"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.18/report_page_01.png",
+      "bytes": 313671,
+      "sha256": "bdfcb4b88a24a6e9ce49bd36f1cccb7132cd77b580da1a9c440ef10c57443e7f"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.18/report_page_02.png",
+      "bytes": 313516,
+      "sha256": "4835df76da94db661493aae76efaa8ce717b8c25324a819ba0bb524bb35ba892"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.18/report_page_03.png",
+      "bytes": 262959,
+      "sha256": "9430950c02247954fa355244cc82705c202853161fc11bc07c89e545769dcfb1"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.18/report_page_04.png",
+      "bytes": 94224,
+      "sha256": "90586f5bfab069aa9139f36f8fc605e5d4aa84d9d8a0c7b606a22f4b1b0a34fc"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.18/report_page_05.png",
+      "bytes": 167580,
+      "sha256": "ac93bb46a7574dbd988836efaa1a3be1d1d1f29d9d1adc96383be756d2583ef7"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.18/report_page_06.png",
+      "bytes": 91820,
+      "sha256": "fa304630d8afc53ff09bfb1a52a334f556946deb7b7bbf6b0e54e1bf6c364d81"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.18/report_page_07.png",
+      "bytes": 122461,
+      "sha256": "1e47e352ebd8932d2180ac270214b7d2aeda33445c038847a17e36aac1b6f91b"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.18/report_page_08.png",
+      "bytes": 85444,
+      "sha256": "d3fc67f83595185c681a732940faf953f176d9c21ed743c0c853b1f34214e710"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.18/report_page_09.png",
+      "bytes": 177049,
+      "sha256": "7b9128e95e9f01f250889bf92f940d169a7c030b878ea76bf57892c13a24e4a2"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.30/report.pdf",
+      "bytes": 1039177,
+      "sha256": "91d0afc68c30a4de58c3c788ec1ec8c488ff4c9e08c1f6fbb1d2dd5f31723fce"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.30/report_contact_1.png",
+      "bytes": 713498,
+      "sha256": "9f1145b82664e085ff39dab8514005b6fd6c96f972ad0881a51816bca2329656"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.30/report_contact_2.png",
+      "bytes": 302982,
+      "sha256": "a58325a54a57d8cac131e529850fdd22a871b3d552c5d9dbcbe28206a4dfcb63"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.30/report_contact_3.png",
+      "bytes": 93531,
+      "sha256": "059dab4ec4e97ec5d55a64bb2755efd4e27766a80ab930066a3e38266dc4256a"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.30/report_page_01.png",
+      "bytes": 311362,
+      "sha256": "0ee74196b8176ec58e65771c0a6ab260633cc8653a26fec1bbdf1d2d1770ea0f"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.30/report_page_02.png",
+      "bytes": 304983,
+      "sha256": "a187c92039e31bf68c5cdffa140b0762eedc9edad351045ace819ac5235ed368"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.30/report_page_03.png",
+      "bytes": 245269,
+      "sha256": "90b63987d1632cff81228957db43244bde376b1d206779c89af49cb4323d7f2b"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.30/report_page_04.png",
+      "bytes": 101803,
+      "sha256": "7d1dc781f451a4efb2ef462c3da74924d56442dfe39d569b47e3f2ba49627568"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.30/report_page_05.png",
+      "bytes": 175611,
+      "sha256": "9a88b3969cf0548d0d265c8feed6d46865e2210030a780adc2b8a3db08656d31"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.30/report_page_06.png",
+      "bytes": 97442,
+      "sha256": "3dddb9c7a3f860be6f4602a6a50b78be7bcf59ee3151f787ca0622a544e4d22c"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.30/report_page_07.png",
+      "bytes": 120101,
+      "sha256": "84fa25c7acca6e0b49b54dbf912da99c05f8a584966b717ea21853df03d456ce"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.30/report_page_08.png",
+      "bytes": 74898,
+      "sha256": "8033b83d4b778120d72d3bab3b54f0f078825ffbd5effbc9d35d9a19f8dbb894"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.5.30/report_page_09.png",
+      "bytes": 176733,
+      "sha256": "20b62a2bfaeb133bcf43ec51228ac158ca6c8032b60dfe9532bee942d424977c"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.17/report.pdf",
+      "bytes": 1044691,
+      "sha256": "7ee0dae5ce539db3d3cd9614dd33107311217e41fe094af5fa08c4d04fe18b3d"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.17/report_contact_1.png",
+      "bytes": 740189,
+      "sha256": "f2294ae6946203eac3297a6a965394909942abdaec77d62fb446aa3073261735"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.17/report_contact_2.png",
+      "bytes": 290919,
+      "sha256": "6abdaa91ebc2685f6249f52bb7d868716e973c0f8118a547c57fdac39da478bc"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.17/report_contact_3.png",
+      "bytes": 99702,
+      "sha256": "c67d69d083c228a1c69c542db11cf90f794ca207854c9846c0a64ca7367d7871"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.17/report_page_01.png",
+      "bytes": 310286,
+      "sha256": "63518b39665ae86943c43531ed36b0cb817c733920fca7afb0aa242ebb91a8e7"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.17/report_page_02.png",
+      "bytes": 294414,
+      "sha256": "1e703703d506b1a30bc00884f45f7285ab17b0c1ade15987d5e36db746acda81"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.17/report_page_03.png",
+      "bytes": 250809,
+      "sha256": "e88342989b8e803829dea2bd2ee31bdb141fafe31fd6a8074f2aa87348a9d7ea"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.17/report_page_04.png",
+      "bytes": 146722,
+      "sha256": "93569d69eaeefae415362da9790517da41e2880ce89371dca9dedc7779b5d3c9"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.17/report_page_05.png",
+      "bytes": 166117,
+      "sha256": "4fddb6a89e3ae644fb60c46f0b89a4e64ded7b038a2036b2a69165e2168073be"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.17/report_page_06.png",
+      "bytes": 94017,
+      "sha256": "7b2480fe633b9922baede893423624a8147e600ac9fbc2d5b7f232143b922905"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.17/report_page_07.png",
+      "bytes": 117444,
+      "sha256": "1458d46ab472096df9678ae0707ca81682c1a40fd727f47ff0925e19b243f596"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.17/report_page_08.png",
+      "bytes": 80589,
+      "sha256": "457f59a0e635838a2a1e590e4ed0bba3a61e67f4f457232b41fecc5f2ab536b8"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.17/report_page_09.png",
+      "bytes": 174226,
+      "sha256": "3f95a057a130df4c0d9937b7c00c8f6544c9846a1318bbd60101e23de5e4aed5"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.29/report.pdf",
+      "bytes": 1024567,
+      "sha256": "f68b306a053d0da2496e379e75cdf0d5458d01c2060c71a145886c8a31c863b6"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.29/report_contact_1.png",
+      "bytes": 794747,
+      "sha256": "64c312c75e5dc07ba68cdf6f05f40ef6a59a8b0decf0d5b87c1a3c226375fc2d"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.29/report_contact_2.png",
+      "bytes": 254068,
+      "sha256": "ea167786489ae90dea7c9dd42263e4c9965f23c8a19f09b0c89ac81318053f4b"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.29/report_page_01.png",
+      "bytes": 309600,
+      "sha256": "6b88639c0a8eb04cfe540f1befe7217939e4802d7b9d36c907ac4160ae0de5c9"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.29/report_page_02.png",
+      "bytes": 303138,
+      "sha256": "603a27bf9f993e0bb837c366c66e228069cc6a091e7486c51c8278aac47ba882"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.29/report_page_03.png",
+      "bytes": 285977,
+      "sha256": "870de3437140d966d1b63a0fef8a25157bd67785927a75cc2f42751fb66e40d3"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.29/report_page_04.png",
+      "bytes": 157548,
+      "sha256": "0191b997bc787850f67bf392948596a888b55ff3b8d93b340bb9067721e64769"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.29/report_page_05.png",
+      "bytes": 99770,
+      "sha256": "30f908a45218417f0992ad898df45fc2fdcc24d3a361c821127bd4a2e8fc4629"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.29/report_page_06.png",
+      "bytes": 121885,
+      "sha256": "cae49fead8f95bb67a148e0cbd2c1b8e579892db1a3127df61ff0c5b30431b79"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.29/report_page_07.png",
+      "bytes": 73137,
+      "sha256": "b26234677d25d6e236390a08ed1ab1cc17beb08b0f39bb8591461bc0b40b4871"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.29/report_page_08.png",
+      "bytes": 171780,
+      "sha256": "e96f0424698cdb7dcf96de50febcbac76715d6d44c03a011721796dad263a4ce"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.9/report.pdf",
+      "bytes": 1048085,
+      "sha256": "20e517260e998a77f4f38b3f1eb0ef510c777bf0e2d5064aaee77330e189ed22"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.9/report_contact_1.png",
+      "bytes": 810136,
+      "sha256": "2c02a0656ca6569ecb2a6b61fa407d6215d199b22e9e8e65540a0b1370d43c49"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.9/report_contact_2.png",
+      "bytes": 252518,
+      "sha256": "c5f2188dc446d329f25473941481d0b0a7c06f01f2a53806a6e585a5a0a96b88"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.9/report_page_01.png",
+      "bytes": 304543,
+      "sha256": "8c297511c5dd60c40191377b21ba994d81ff552529d6102e003b3fbf41894d08"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.9/report_page_02.png",
+      "bytes": 304999,
+      "sha256": "c40b1fdff58ae3884b4d9b5491de15266117afc9daa849d4687ddaf8d9a9480a"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.9/report_page_03.png",
+      "bytes": 267627,
+      "sha256": "a0e0c0006b76300263cecf716697c6022b63c5dc8c2b3e34609990e3f72f3076"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.9/report_page_04.png",
+      "bytes": 202626,
+      "sha256": "dd30e1a0ad20ddf22d3ac405525430fedb2e679bbdc41beadb557fb8e20c5896"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.9/report_page_05.png",
+      "bytes": 101379,
+      "sha256": "5df5250bee636ceae124147681be3efc90bd4f58b23856437b1ecca0a5a2d19c"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.9/report_page_06.png",
+      "bytes": 125865,
+      "sha256": "ff624f5acc837ee3e9c51dccca316022e5439183d0c2bc8fd0fd1e8a2d53718b"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.9/report_page_07.png",
+      "bytes": 74390,
+      "sha256": "44b20e7f9671ee17a1389571dba4b0cd8bf1af479c4e215424b10c2141ad1e93"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.6.9/report_page_08.png",
+      "bytes": 171882,
+      "sha256": "e51091b9e9a869edc6fc8112e988782018ea6f042d8bb78bbac768d336079a39"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.7.17/report.pdf",
+      "bytes": 1064776,
+      "sha256": "85b50a40be673d4bfb12d24f849510be2aa35afa5714ca8247e1b1d92ccb54f1"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.7.17/report_contact_1.png",
+      "bytes": 729511,
+      "sha256": "d558abc25325d11ed69e2908d3d07eb14ad3aaf0c4d18d41f07f86f66cf460ce"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.7.17/report_contact_2.png",
+      "bytes": 302018,
+      "sha256": "48ce98ea95bf46265f269dda8272a829b53acffd36fff52af81b200e8e9bc0eb"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.7.17/report_contact_3.png",
+      "bytes": 94190,
+      "sha256": "1ae649abaa88fdf34f88c2f734a867a2fd13ccc2fadbb30f005d7d8155305af4"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.7.17/report_page_01.png",
+      "bytes": 309760,
+      "sha256": "367e9a06a705fff4b27e7c2595f126bf99319e5332f4f0c8829cddeffc90a23b"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.7.17/report_page_02.png",
+      "bytes": 300232,
+      "sha256": "51f5ce77b68d68b1ad1719a06b5b511ed14df90a5ced566f06dcbce4f3510263"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.7.17/report_page_03.png",
+      "bytes": 248295,
+      "sha256": "6a0337e135037c9739e338bae393150e73307e08308fe80ab969dc926dfb8986"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.7.17/report_page_04.png",
+      "bytes": 132146,
+      "sha256": "17b09143d8af7860569aea80cb116ad960f366e5dec19d1ac5daa73ac81a7d36"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.7.17/report_page_05.png",
+      "bytes": 173794,
+      "sha256": "b1821273a049104e2e789f172093bf9aceca785e9e16382d7da5b40db67ef104"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.7.17/report_page_06.png",
+      "bytes": 100694,
+      "sha256": "414301335f81c15facece53817bf8db76a1de20650bf56417fd29a95a18c4c06"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.7.17/report_page_07.png",
+      "bytes": 121993,
+      "sha256": "df17dc115b5328189a2c57d311ec22a68c70f9f6c2975eecf92febcbc4684e5f"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.7.17/report_page_08.png",
+      "bytes": 72045,
+      "sha256": "7c19cf7cc39086aefdfb8bc1d3d52cddb0909d433d6e0ca01490d3fde25e4e48"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.7.17/report_page_09.png",
+      "bytes": 171296,
+      "sha256": "5f4a99b7119e0112a221d06818e1397f4d4c4f0c1b7db6c7a63657068f6a3306"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.7.9/report.pdf",
+      "bytes": 1046615,
+      "sha256": "9a830dd04a34c570384818ae66e5f9a324635b79a4aea109b972fa633501abac"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.7.9/report_contact_1.png",
+      "bytes": 815311,
+      "sha256": "995fae27df5954735efbe994e2956e1228d1c97574589805c4827954d5bff99f"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.7.9/report_contact_2.png",
+      "bytes": 249193,
+      "sha256": "b083f1c3033e6c6e4d006d2253c0270bccfef75ff346a22d59eecbbada33fab8"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.7.9/report_page_01.png",
+      "bytes": 305973,
+      "sha256": "a29ccd7af48a10afd41f4ff2e90a7cb6ff9fa82eb8a4a4c4d1474c2e3a25bf40"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.7.9/report_page_02.png",
+      "bytes": 323270,
+      "sha256": "cd10f68006e703591495cbd97719b0dac30b7ae7994fc1f38f2e7b189054137d"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.7.9/report_page_03.png",
+      "bytes": 251365,
+      "sha256": "e6ca3f85bb1f5e6a1fecae077568ad395e137ac6758da458c1c069bbb27fdb30"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.7.9/report_page_04.png",
+      "bytes": 207721,
+      "sha256": "e00a97f594cd9b5221f71ab8c81e24976b1cba9f2133cbacf4bac52e639af77d"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.7.9/report_page_05.png",
+      "bytes": 99446,
+      "sha256": "b05369734133b1859d4da6c01502e6d39bab4f01fde183f989744d31dbb1d29b"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.7.9/report_page_06.png",
+      "bytes": 120058,
+      "sha256": "e222fbf7ae49b0d5b373a1acaf62eba07fec156203703cccb9daa9b4cf21b50b"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.7.9/report_page_07.png",
+      "bytes": 74292,
+      "sha256": "f11d589c69b33f2e93fcb43adc104a986070f4cdb13896e945ec2aa3c5e345d2"
+    },
+    {
+      "path": "audit/docx_visual_release/2025.7.9/report_page_08.png",
+      "bytes": 172488,
+      "sha256": "ca47e503c0bb53320506200d6812dd56c5d0eac46cb8c71877092ab63c5eb94a"
+    },
+    {
+      "path": "audit/docx_visual_release/raster_checks.json",
+      "bytes": 1320965,
+      "sha256": "59dbc9e025c852e3179c5c8d050a94c944b9a78113f1544a104d19a219aabcf2"
+    },
+    {
+      "path": "audit/docx_visual_release/render_log.json",
+      "bytes": 5421,
+      "sha256": "af91b571cf948e29ba1f70e28f1966e3e1862b0ba4f7ba5de99b9a49612bfa6d"
+    },
+    {
+      "path": "audit/event_verification_stage.json",
+      "bytes": 7529,
+      "sha256": "a261026a236781ea6e03ac9740e405e46c1d3dd7d3ceb15ac4b4dc2a898ef023"
+    },
+    {
+      "path": "audit/final_integrity.json",
+      "bytes": 844,
+      "sha256": "b9c5dfd934378300a116d9c5640a62ff7d68ecbe172702580038c7323a9609c8"
+    },
+    {
+      "path": "audit/first_events_run.log",
+      "bytes": 6810,
+      "sha256": "b7f3ca475e85c2f7348cc7562e87f785175dd4b8a40a3e9af3cd4eec74120916"
+    },
+    {
+      "path": "audit/full_run.json",
+      "bytes": 2223,
+      "sha256": "c5de36dd566db6f77cebedeabff18c31165a654b85b8ed499b0431a92d81edb3"
+    },
+    {
+      "path": "audit/full_run.log",
+      "bytes": 10219,
+      "sha256": "c5e72ae70db57a2e547f1a32fbef01460c651e089ffaa2b9897ec35bdae38e08"
+    },
+    {
+      "path": "audit/holdout_cases.json",
+      "bytes": 4321,
+      "sha256": "62ae778554dad66a407b48e89157bc646904b64a733ca7e24e6d2b8cff42e6e4"
+    },
+    {
+      "path": "audit/holdout_results.json",
+      "bytes": 6644,
+      "sha256": "0d2609f7a619941dfaa6c1c6a9d7ffb0e5437114f1072d35e449c390b9a7e8d4"
+    },
+    {
+      "path": "audit/independent_cases.json",
+      "bytes": 13243,
+      "sha256": "48cf6b7737d3507118da1e63b92e6ed0debb47ffdc0b2e401a86df3bffe7f1bc"
+    },
+    {
+      "path": "audit/independent_cases_initial.json",
+      "bytes": 9757,
+      "sha256": "c087e2f8a2fc6e0c60aebb19e23d2c7cfe820b90f24d901388107268a14cf6f8"
+    },
+    {
+      "path": "audit/input_manifest.json",
+      "bytes": 2128834,
+      "sha256": "b68a284b0d201ad72de41b3f59022d277f3e6c5a7630af788150f51e7d36a7fd"
+    },
+    {
+      "path": "audit/invariance_results.json",
+      "bytes": 2338,
+      "sha256": "cb0df640f488c12cb7138c43e76c298a5fea2411941b75cb5651d9b29c7820cb"
+    },
+    {
+      "path": "audit/manual_visual_review.json",
+      "bytes": 17029,
+      "sha256": "eff703e9be9ccc8a5d9a5f9de44f6f337e4006f6371f68c293be2de1dd3087d7"
+    },
+    {
+      "path": "audit/new_cases_freeze.json",
+      "bytes": 364,
+      "sha256": "2d18603ab56e7a4119aac771894fba8857dcb139d144bc4bffe400133339853f"
+    },
+    {
+      "path": "audit/new_cases_freeze_initial.json",
+      "bytes": 364,
+      "sha256": "bcb4e9441dcfc9e0f543ff465d5a367aabf3ae3ccfed244ee969651f08e85d32"
+    },
+    {
+      "path": "audit/new_development_cases.json",
+      "bytes": 3484994,
+      "sha256": "598ce3b5062c5b96b26b25e50418ecc993f8209460f2bc2f5475fe928dfbe18f"
+    },
+    {
+      "path": "audit/new_development_cases_initial.json",
+      "bytes": 3085114,
+      "sha256": "c15612f6caa31a9b6e3815a3fb420b41c5e5424c06701a17a4c4faabdcc9492c"
+    },
+    {
+      "path": "audit/new_development_results.json",
+      "bytes": 60582,
+      "sha256": "62fb3837e6baf914cd22cd59dc578e9e3b07ead390ffab906fc3b4fbd258dcb9"
+    },
+    {
+      "path": "audit/new_relation_check.log",
+      "bytes": 5542,
+      "sha256": "28b7eea31ee9b80df70ee8a6bbda9faa823222a79ec298810c6a68640aef9104"
+    },
+    {
+      "path": "audit/new_relation_expectations.json",
+      "bytes": 130108,
+      "sha256": "5c0eaf55a0d9d60face8e0b45c37195cc2290884dec0394df6fbf6021d24d17b"
+    },
+    {
+      "path": "audit/new_relation_expectations_initial.json",
+      "bytes": 130099,
+      "sha256": "3f16310dd01f393caeb9c0c3a9a06501f9e7decf33925dcbf3125e21ff86bf1f"
+    },
+    {
+      "path": "audit/new_relation_label_corrections.json",
+      "bytes": 1811,
+      "sha256": "8150951593d7b67ae2d9f00c5bd5204bee26245f631dd5f2c00ffe2363810af8"
+    },
+    {
+      "path": "audit/new_relation_results.json",
+      "bytes": 8657,
+      "sha256": "dabdbb6d55a6cb2ceedea02d487e71bba9df473f2488f4bb2a15c34731ea6407"
+    },
+    {
+      "path": "audit/new_relation_results_initial.json",
+      "bytes": 3471,
+      "sha256": "bbc9276853d8711c85a1a8f727f19b284ab553c61891a4c5c302ea3fd731ed30"
+    },
+    {
+      "path": "audit/new_reserved_cases.json",
+      "bytes": 3228475,
+      "sha256": "10184ed81ea4d18cbf9ad3cc27968654f7afc2e5b90c6a5d4b685f216b6d04c2"
+    },
+    {
+      "path": "audit/new_reserved_results.json",
+      "bytes": 56506,
+      "sha256": "58aba3e4e43eb619ce69952afe8c84b78779608b3da2d9d15ac2fbe220fb8e94"
+    },
+    {
+      "path": "audit/official_sample_search.json",
+      "bytes": 838,
+      "sha256": "b7afccdcda3a23244117bebf921c338d65b5ab7a595b9dd79a2f12bc19e22a2b"
+    },
+    {
+      "path": "audit/packaged_renderer_attempt.log",
+      "bytes": 1189,
+      "sha256": "053571b5b9c75a4d62d4bd5893721d23dd678aeedc56e21df9a271f0e54f536f"
+    },
+    {
+      "path": "audit/problem_table.json",
+      "bytes": 64646,
+      "sha256": "d12b6c471f302a2c0576fd520e5941f27a1b4981c82201f88366625b625165b0"
+    },
+    {
+      "path": "audit/problem_table.md",
+      "bytes": 10061,
+      "sha256": "3996172acb704c436ba90f6501b81187a3bc0a602f9fdbce440fac7425d0a7c8"
+    },
+    {
+      "path": "audit/raw_inventory.json",
+      "bytes": 12714,
+      "sha256": "3ff8fdfbe83ee09fd120cb95eb778b66748daef10ff25f1ddc041126928a9f90"
+    },
+    {
+      "path": "audit/raw_snapshot.jsonl",
+      "bytes": 38966827,
+      "sha256": "6f6a6dc8b33be919fb5d92d9f6648cf19359ecd95886e1f8790569b04178d710"
+    },
+    {
+      "path": "audit/repro_final.log",
+      "bytes": 9535,
+      "sha256": "33d1ee0928bf9d947f906a29912475bae5d1ed72cc99aa6bdf7a4f65d77b4ace"
+    },
+    {
+      "path": "audit/repro_final/day_2025.5.10_raw_review.txt",
+      "bytes": 75514,
+      "sha256": "067cbb2e5855a877b6f32fbd6b24c31117293e5e47ea7ffe707d697648414588"
+    },
+    {
+      "path": "audit/repro_final/full_run.json",
+      "bytes": 2188,
+      "sha256": "6e749bab326d15ba9383b0398ffaf2b3e340d76fe474c28ffeaaf7e26d59ae16"
+    },
+    {
+      "path": "audit/repro_final/input_manifest.json",
+      "bytes": 2128834,
+      "sha256": "b68a284b0d201ad72de41b3f59022d277f3e6c5a7630af788150f51e7d36a7fd"
+    },
+    {
+      "path": "audit/repro_final/raw_inventory.json",
+      "bytes": 12714,
+      "sha256": "3ff8fdfbe83ee09fd120cb95eb778b66748daef10ff25f1ddc041126928a9f90"
+    },
+    {
+      "path": "audit/requirements.lock.txt",
+      "bytes": 315,
+      "sha256": "bb8e871b162982dc26eef55c7ff906ba41137b0bc58eddeaec1af30ba8a2f73c"
+    },
+    {
+      "path": "audit/reserved_exclusion_selection.json",
+      "bytes": 54484,
+      "sha256": "26d37c8d68b34b76ff93645b313d6409238fa53c141cdeb61d49b12bb5848cde"
+    },
+    {
+      "path": "audit/reserved_selection.json",
+      "bytes": 131938,
+      "sha256": "2fc3d547a083c046429c8b23f8e62a8af0df353e71bec01d8e6beb0f742daaf1"
+    },
+    {
+      "path": "audit/sampling_report.json",
+      "bytes": 873,
+      "sha256": "786154b0876f36aef9f4d482f7dd5827d87ae04eb9d4008116d455c524ee8399"
+    },
+    {
+      "path": "audit/trajectory_review.json",
+      "bytes": 230421,
+      "sha256": "f4ef12993f2a1e8949e9dd2410984cf49d24e2fb3cf16aba2ae5eb165984af50"
+    },
+    {
+      "path": "audit/trend_stage_run.log",
+      "bytes": 6801,
+      "sha256": "ad2e13eb93d63b3345b9cab91c7ac568f3517d5bdaa28835495a3b4bedb2e920"
+    },
+    {
+      "path": "audit/v2_comparison.json",
+      "bytes": 71989,
+      "sha256": "1d027e34d51ca76d1632c67e4d36168ed7ccc71ff292729a19026ae5f1225dc3"
+    },
+    {
+      "path": "audit/validator_probe_results.json",
+      "bytes": 1157,
+      "sha256": "c4900fa64cc6fdb9698d8fe9788d0cbc2e5b5a5c9c3baa0bf66995a2e16b2b75"
+    },
+    {
+      "path": "audit/validator_probes.log",
+      "bytes": 980,
+      "sha256": "bc3298e6ba0814f34fefa3da35b3995b7dcf4d860042915275bc423587e08578"
+    },
+    {
+      "path": "audit/xlsx_native/2025.5.10_舰艇.pdf",
+      "bytes": 107561,
+      "sha256": "766d08d8cedf8b01ccd2dea02d966477a7f4fbf19fe902293fd1fc691319f944"
+    },
+    {
+      "path": "audit/xlsx_native/2025.5.10_舰艇_contact_1.png",
+      "bytes": 54827,
+      "sha256": "e2232227d2e15e892daa7e619982c9becf97483fa15f3156e14711bc93b73d48"
+    },
+    {
+      "path": "audit/xlsx_native/2025.5.10_舰艇_page_01.png",
+      "bytes": 198462,
+      "sha256": "6356ca47f8ab607146fc731d8728e469ec1088ccefda3e7a719011376c01bf0a"
+    },
+    {
+      "path": "audit/xlsx_native/2025.5.10_飞机.pdf",
+      "bytes": 149278,
+      "sha256": "b1ad74e5d630c5351287ca1aa2816f6459204fc67d1a901f593b641d497f3470"
+    },
+    {
+      "path": "audit/xlsx_native/2025.5.10_飞机_contact_1.png",
+      "bytes": 69130,
+      "sha256": "295a3cc4c6ad9a33248e7f26d3dcf653775f0093fe6ef30a1ca6ba57f067beeb"
+    },
+    {
+      "path": "audit/xlsx_native/2025.5.10_飞机_page_01.png",
+      "bytes": 255275,
+      "sha256": "d9f6690d4809daaaf27a1fc880ba4c9a12ecd82a6e32e4a9c7adbff75ed036b2"
+    },
+    {
+      "path": "audit/xlsx_native/2025.5.10_飞机_page_02.png",
+      "bytes": 37487,
+      "sha256": "15d7ad2191c6deb2a111c8db337e2dafc0a888c4a61a38db670ca44f307bfacc"
+    },
+    {
+      "path": "audit/xlsx_native/2025.5.18_舰艇.pdf",
+      "bytes": 129541,
+      "sha256": "84cacc86d7652756951a88b959e29d51c36284249c06420a6a49e9d3993ae512"
+    },
+    {
+      "path": "audit/xlsx_native/2025.5.18_舰艇_contact_1.png",
+      "bytes": 70823,
+      "sha256": "4fffcd0b3efdd119291cf47c939db339407e534d8775cbcad9b2820b616c856d"
+    },
+    {
+      "path": "audit/xlsx_native/2025.5.18_舰艇_page_01.png",
+      "bytes": 252771,
+      "sha256": "42b7d1abc89f498759eb6941858ef3e935ccbb4b7a54f71ed7853c9f312c7575"
+    },
+    {
+      "path": "audit/xlsx_native/2025.5.18_舰艇_page_02.png",
+      "bytes": 40435,
+      "sha256": "c3ca3ae90c8fd45080e0401f03fa2099805a044c28421f5d657378f47f34f324"
+    },
+    {
+      "path": "audit/xlsx_native/2025.5.18_飞机.pdf",
+      "bytes": 144393,
+      "sha256": "82f166b43265f435417a37c10d156c0b48f6a9d64c88ee9795d9a5df0fd161a1"
+    },
+    {
+      "path": "audit/xlsx_native/2025.5.18_飞机_contact_1.png",
+      "bytes": 64659,
+      "sha256": "351b03f5125a1eced6dfeb31807637bbf59e2c67fc8ba54e5e18cc5480f68b76"
+    },
+    {
+      "path": "audit/xlsx_native/2025.5.18_飞机_page_01.png",
+      "bytes": 250784,
+      "sha256": "d80c74c9b3816e7cae622cd5f42d7ccfc6fbdc01d9a04b8b35445f908861d2e1"
+    },
+    {
+      "path": "audit/xlsx_native/2025.5.30_舰艇.pdf",
+      "bytes": 121157,
+      "sha256": "d33da826ca2dd7f8078fd2b46464df1796d14ca87c54378d14d28853f14b25f4"
+    },
+    {
+      "path": "audit/xlsx_native/2025.5.30_舰艇_contact_1.png",
+      "bytes": 67886,
+      "sha256": "2f74c6bd1205a18f6cba09e8c90bc21d5fa47c792d49aa1f5597e4fab8be14f8"
+    },
+    {
+      "path": "audit/xlsx_native/2025.5.30_舰艇_page_01.png",
+      "bytes": 254666,
+      "sha256": "96c06269205d1028b7111e6a8bcc77b3f0d2911880e6c6690e3c4cde82ef1b2b"
+    },
+    {
+      "path": "audit/xlsx_native/2025.5.30_飞机.pdf",
+      "bytes": 148868,
+      "sha256": "c2ef05a46024f0c09465c8950200ae812cbb25620d5551b51f2d5b21bd0239d1"
+    },
+    {
+      "path": "audit/xlsx_native/2025.5.30_飞机_contact_1.png",
+      "bytes": 69799,
+      "sha256": "07ccd3d1bf4ec6c7925f223b58d0ec2d917aa7778bed6ea1d65cf4614b42738d"
+    },
+    {
+      "path": "audit/xlsx_native/2025.5.30_飞机_page_01.png",
+      "bytes": 260390,
+      "sha256": "984c9a2eba326b0b08ce910c45ce810588a75413b47385e7c0f92dc59eed0639"
+    },
+    {
+      "path": "audit/xlsx_native/2025.5.30_飞机_page_02.png",
+      "bytes": 37473,
+      "sha256": "c596e5fa33d2be6ece692f094385e0feb4a9a65d681cf0568d6e16339885c8fe"
+    },
+    {
+      "path": "audit/xlsx_native/2025.6.17_舰艇.pdf",
+      "bytes": 120198,
+      "sha256": "8ee326281548311a1c1689bdfefe6d92f115eca286f3490a6926588dcf57cec7"
+    },
+    {
+      "path": "audit/xlsx_native/2025.6.17_舰艇_contact_1.png",
+      "bytes": 70071,
+      "sha256": "3033ce36176f04475ac14f035b144c9e8e9e7f0160c0adadfa517da75d44ddbe"
+    },
+    {
+      "path": "audit/xlsx_native/2025.6.17_舰艇_page_01.png",
+      "bytes": 248519,
+      "sha256": "72259c35fbb581e7432cc4999bc26161e90cd832f760f6abe16bdfb86f61e4e0"
+    },
+    {
+      "path": "audit/xlsx_native/2025.6.17_舰艇_page_02.png",
+      "bytes": 39762,
+      "sha256": "a78c8ebbdfc9737f49572e8b37798246566e9cbf8133241d66c55b1c4f3e50fe"
+    },
+    {
+      "path": "audit/xlsx_native/2025.6.17_飞机.pdf",
+      "bytes": 146542,
+      "sha256": "5cddab33706575922694249f8d256a80aad4eb83b86be1e225d49eb9f269c71a"
+    },
+    {
+      "path": "audit/xlsx_native/2025.6.17_飞机_contact_1.png",
+      "bytes": 65485,
+      "sha256": "ad8bc107f95a11703692603645ef00993a77c3a58d980efb93f442387e057014"
+    },
+    {
+      "path": "audit/xlsx_native/2025.6.17_飞机_page_01.png",
+      "bytes": 250261,
+      "sha256": "8d8bb92eb00959b46adb44936d7e87aa03e92f244fce6af37d9caf1f59096aa3"
+    },
+    {
+      "path": "audit/xlsx_native/2025.6.29_舰艇.pdf",
+      "bytes": 114999,
+      "sha256": "af02f3b2914cb5c333b21c09c196115702b4c91259eafd579b7d0e823611dd71"
+    },
+    {
+      "path": "audit/xlsx_native/2025.6.29_舰艇_contact_1.png",
+      "bytes": 63484,
+      "sha256": "47e4658f7e7181e5ec779366563369d6057cb788f2d89d850b83409ed47310d1"
+    },
+    {
+      "path": "audit/xlsx_native/2025.6.29_舰艇_page_01.png",
+      "bytes": 233834,
+      "sha256": "7119fec5cce746ea66b3a7a136186961c5ec0b4328ea59a5f582122d5909ebd1"
+    },
+    {
+      "path": "audit/xlsx_native/2025.6.29_飞机.pdf",
+      "bytes": 134940,
+      "sha256": "3377a302f7bad6156618975d920aac85c8fa49ef2c2e75e0a7f5c7152a26314e"
+    },
+    {
+      "path": "audit/xlsx_native/2025.6.29_飞机_contact_1.png",
+      "bytes": 64342,
+      "sha256": "0b261119224e9cadafd5b18e93089591699cb030c4cba4ed6def3ad0bd67cf6a"
+    },
+    {
+      "path": "audit/xlsx_native/2025.6.29_飞机_page_01.png",
+      "bytes": 245055,
+      "sha256": "77bd939dd1228fc8e19a86bc8900e5b13f6477b9bcbff954a896cdb91317a802"
+    },
+    {
+      "path": "audit/xlsx_native/2025.6.9_舰艇.pdf",
+      "bytes": 117467,
+      "sha256": "414223b48de3bf213cb17bef38fa8313cf0ecbc287fd6ef2193e767f03caa54d"
+    },
+    {
+      "path": "audit/xlsx_native/2025.6.9_舰艇_contact_1.png",
+      "bytes": 63045,
+      "sha256": "f47eb942aa8ccad5bd0624eada81b3ec68464be0bb9ed5ec25a4872e940a7eb2"
+    },
+    {
+      "path": "audit/xlsx_native/2025.6.9_舰艇_page_01.png",
+      "bytes": 233186,
+      "sha256": "41afa1191bbfda9ff6997cdc90078578893ad097ee2104f6fe9edd70216b6696"
+    },
+    {
+      "path": "audit/xlsx_native/2025.6.9_飞机.pdf",
+      "bytes": 139094,
+      "sha256": "20c0c71ea5c366d76277b33688e6673147087646171f355608cdd1d344fcb6b8"
+    },
+    {
+      "path": "audit/xlsx_native/2025.6.9_飞机_contact_1.png",
+      "bytes": 69858,
+      "sha256": "7ec821a29548cbcc4f8818262889455b07a352e92c955db43cdb575046ce64b4"
+    },
+    {
+      "path": "audit/xlsx_native/2025.6.9_飞机_page_01.png",
+      "bytes": 257876,
+      "sha256": "0aa35339e510799deba78a9a0209d4a6432a9aebfc639d5cdac6c633a516310f"
+    },
+    {
+      "path": "audit/xlsx_native/2025.6.9_飞机_page_02.png",
+      "bytes": 37573,
+      "sha256": "059075fb4d494339f243014f259509b366c3cf2ae9c1e0c40fa6da1fb2136b36"
+    },
+    {
+      "path": "audit/xlsx_native/2025.7.17_舰艇.pdf",
+      "bytes": 122629,
+      "sha256": "39b5fdb0a6f570ce1be2deb9de12696dff64a787a049dab28ea15792405d221c"
+    },
+    {
+      "path": "audit/xlsx_native/2025.7.17_舰艇_contact_1.png",
+      "bytes": 70588,
+      "sha256": "c25e5630fb640b0de501a3fcc3d7b4a4041e20380b2a7af1000c2ec999428899"
+    },
+    {
+      "path": "audit/xlsx_native/2025.7.17_舰艇_page_01.png",
+      "bytes": 249292,
+      "sha256": "a130db0ea54d0b4dee90072f25a3c4fba73f6d5e3fc952047196fa706f1c102d"
+    },
+    {
+      "path": "audit/xlsx_native/2025.7.17_舰艇_page_02.png",
+      "bytes": 40754,
+      "sha256": "062ea3b3f8ef4dc55f50c1c5bc9780f8703027cbc7323111660e75b46a799b15"
+    },
+    {
+      "path": "audit/xlsx_native/2025.7.17_飞机.pdf",
+      "bytes": 145026,
+      "sha256": "7e0dca31d4523e7e70de7185fa2a3611d495060aa7cee7a7d2ce4c6d2167fd45"
+    },
+    {
+      "path": "audit/xlsx_native/2025.7.17_飞机_contact_1.png",
+      "bytes": 68040,
+      "sha256": "8d37222f07071949d06a6d8d2fe41746d09d90bcbf0b280fb994c7ddf35df64c"
+    },
+    {
+      "path": "audit/xlsx_native/2025.7.17_飞机_page_01.png",
+      "bytes": 265554,
+      "sha256": "cde0b4f90aa899b722b2ca92c3c9f27624325cbb8e751dd491c737ec15d5b003"
+    },
+    {
+      "path": "audit/xlsx_native/2025.7.9_舰艇.pdf",
+      "bytes": 122706,
+      "sha256": "33bf70716f76f9787bb14f1f5c3bf8f3a3793de974183728bed1937c8b83ac5b"
+    },
+    {
+      "path": "audit/xlsx_native/2025.7.9_舰艇_contact_1.png",
+      "bytes": 67875,
+      "sha256": "b18ee6cbb5e91b09b8477ca59163190d88c591020b9f5830408113eb3a2939b4"
+    },
+    {
+      "path": "audit/xlsx_native/2025.7.9_舰艇_page_01.png",
+      "bytes": 255299,
+      "sha256": "51cd34c0857dae352e1d5e513333a8943067f869a4e406a1731d1800c2af07bc"
+    },
+    {
+      "path": "audit/xlsx_native/2025.7.9_飞机.pdf",
+      "bytes": 136846,
+      "sha256": "0b58e61aba75b021d14edcdaeb68bd5d5ea9520a7f0997c91c6d337cfc67b016"
+    },
+    {
+      "path": "audit/xlsx_native/2025.7.9_飞机_contact_1.png",
+      "bytes": 63910,
+      "sha256": "803fbba7c50e7d555b5590ca0dae5899b0b2d2f381f7e85274e63f7246236e67"
+    },
+    {
+      "path": "audit/xlsx_native/2025.7.9_飞机_page_01.png",
+      "bytes": 242184,
+      "sha256": "39e570a12cb64091a895fa59f4d9fbf613b5c97dbe5484c93679f61420d00dfd"
+    },
+    {
+      "path": "audit/xlsx_native/native_excel_log.json",
+      "bytes": 39769,
+      "sha256": "3982c7e794b3544719ec436b9319a85da1fb502452e9e859e269cad92fb16e30"
+    },
+    {
+      "path": "audit/xlsx_native/raster_checks.json",
+      "bytes": 912448,
+      "sha256": "51f534c5190ec231b3dfa40ee86276ed412387d3e922e0c5311869cfc10b61e3"
+    },
+    {
+      "path": "audit/xlsx_visual/2025.5.10_export_inspect.ndjson",
+      "bytes": 119261,
+      "sha256": "305fe69009a0789a7775429f9a386d7c1e3b9f319c0366b83c03addc922acb09"
+    },
+    {
+      "path": "audit/xlsx_visual/2025.5.10_舰艇.png",
+      "bytes": 246718,
+      "sha256": "22d46236c82131d4266a3ee2680e428d42477d864abfa78518e3c35465c70e57"
+    },
+    {
+      "path": "audit/xlsx_visual/2025.5.10_飞机.png",
+      "bytes": 461227,
+      "sha256": "95463e6a0025e0b30a36c9f95454479383c6a0ef35b3bcf776165b0dd4581345"
+    },
+    {
+      "path": "audit/xlsx_visual/2025.5.18_export_inspect.ndjson",
+      "bytes": 123374,
+      "sha256": "6535f799f2d15cbc60963063b6287804d9651435c508a1f4fc4132b4d2852679"
+    },
+    {
+      "path": "audit/xlsx_visual/2025.5.18_舰艇.png",
+      "bytes": 343942,
+      "sha256": "be53d075b90dfcd95715bd5ea7201b6a5d7b72fd1fb2f53559160a9e16577db1"
+    },
+    {
+      "path": "audit/xlsx_visual/2025.5.18_飞机.png",
+      "bytes": 418807,
+      "sha256": "8c4b61d817b1b1e3ed6be5a5a863e70049c60432fb98a58c1e628477ee7e7746"
+    },
+    {
+      "path": "audit/xlsx_visual/2025.5.30_export_inspect.ndjson",
+      "bytes": 129620,
+      "sha256": "cb508c511dbf5cde2503693947cdd63f3af7d135aebdb571324f03b6c1c3eb87"
+    },
+    {
+      "path": "audit/xlsx_visual/2025.5.30_舰艇.png",
+      "bytes": 320706,
+      "sha256": "38d774b77825e97a54e377a7723daf1e002bb2adf3cd7cbc604aada0026f9c6e"
+    },
+    {
+      "path": "audit/xlsx_visual/2025.5.30_飞机.png",
+      "bytes": 462594,
+      "sha256": "52197cb0fe0262e1229450f13447fbde68bac5394bd20bae5ca48efb1130972b"
+    },
+    {
+      "path": "audit/xlsx_visual/2025.6.17_export_inspect.ndjson",
+      "bytes": 123338,
+      "sha256": "f3fc1df167e62b7e18f9777692286e14e301492b9914736f88109f1aadec7f43"
+    },
+    {
+      "path": "audit/xlsx_visual/2025.6.17_舰艇.png",
+      "bytes": 335077,
+      "sha256": "a3bdc92d31094f21d97205f36c10009ae6645999bd4a9a05389eb563e4894f2f"
+    },
+    {
+      "path": "audit/xlsx_visual/2025.6.17_飞机.png",
+      "bytes": 425648,
+      "sha256": "18853b77d6124cc9b07207f0410ed777442351276aab2e4a52b5451824064f5f"
+    },
+    {
+      "path": "audit/xlsx_visual/2025.6.29_export_inspect.ndjson",
+      "bytes": 116362,
+      "sha256": "52764955a37fc506c322983ae8c736d94e7a3e0e9e547aeaa67f7d5cc91f0608"
+    },
+    {
+      "path": "audit/xlsx_visual/2025.6.29_舰艇.png",
+      "bytes": 291221,
+      "sha256": "0b42addf30cff3e2e3818c0f2977e1aa3d99285a4eaaec03b8759ba3be11cef9"
+    },
+    {
+      "path": "audit/xlsx_visual/2025.6.29_飞机.png",
+      "bytes": 409900,
+      "sha256": "d98cc8ed5c896eaf11f1a323229bf4546ff6952c71a1d723c1c683e6feecef2e"
+    },
+    {
+      "path": "audit/xlsx_visual/2025.6.9_export_inspect.ndjson",
+      "bytes": 126118,
+      "sha256": "3093809348929080aa92c9802aa576c96b9e12a710913f9482829e528cc669e1"
+    },
+    {
+      "path": "audit/xlsx_visual/2025.6.9_舰艇.png",
+      "bytes": 290123,
+      "sha256": "c02e001ddfe75db8e398e9087f0162bf1e4d313c19e72ad549f385dab731d500"
+    },
+    {
+      "path": "audit/xlsx_visual/2025.6.9_飞机.png",
+      "bytes": 459646,
+      "sha256": "0b8d26bb8b80d56ce4b3f0ea8526e057225c922f943da66986cdcb326362425d"
+    },
+    {
+      "path": "audit/xlsx_visual/2025.7.17_export_inspect.ndjson",
+      "bytes": 128210,
+      "sha256": "5b1bf713206c4ed088ea38a6432caedb9d9e48e8d6368de5890f81f6f370bf45"
+    },
+    {
+      "path": "audit/xlsx_visual/2025.7.17_舰艇.png",
+      "bytes": 338646,
+      "sha256": "e6a20f69576e360fe0711b591ad345acb5ddac1e41dc6c2dc8fe63575c7c55e2"
+    },
+    {
+      "path": "audit/xlsx_visual/2025.7.17_飞机.png",
+      "bytes": 448929,
+      "sha256": "2eadbc15b5db431bf11ee87d609cd0db898d6cd3fc48c9a4026ad476cd61215c"
+    },
+    {
+      "path": "audit/xlsx_visual/2025.7.9_export_inspect.ndjson",
+      "bytes": 119819,
+      "sha256": "68d3198bea24e73bd4d4de8c325907c4fac7e6ef4b875dad8637902dad46846e"
+    },
+    {
+      "path": "audit/xlsx_visual/2025.7.9_舰艇.png",
+      "bytes": 321065,
+      "sha256": "1bd3b30fe8fd9afdbbc9234d56ca3833d3c6baa7bb99ad3517e143a1de9e58eb"
+    },
+    {
+      "path": "audit/xlsx_visual/2025.7.9_飞机.png",
+      "bytes": 407749,
+      "sha256": "58ecd6bba5f3730a41b152290dadb1c458d4e25d6aaccc93a9751d1607dfee06"
+    },
+    {
+      "path": "audit/xlsx_visual/workbook_inspections.json",
+      "bytes": 48146,
+      "sha256": "d53bc77889bec6e0fa05633c1652c213846bb52bff80b808abcc0b4230d33b0e"
+    },
+    {
+      "path": "code/ablate.py",
+      "bytes": 1427,
+      "sha256": "e2fe24430839961a33bbbcf81cc2cca8af120546dc5c50e680231a83dcfc2800"
+    },
+    {
+      "path": "code/audit_cases.py",
+      "bytes": 3645,
+      "sha256": "13b6c76cf995e5a0f5764681f44cf6bac941e17bb5df11d0c11c1f30f61e7c5b"
+    },
+    {
+      "path": "code/charts.py",
+      "bytes": 4988,
+      "sha256": "6849f57426ed63ef7a5ddcd75dddea9fe55daffd4ea3f79bea14efda6cb13955"
+    },
+    {
+      "path": "code/check_holdout.py",
+      "bytes": 1189,
+      "sha256": "bde231978bbd662e133db8192d8a3bb5ba12af60c2e61ddec779c5d4fc834366"
+    },
+    {
+      "path": "code/check_new_cases.py",
+      "bytes": 2335,
+      "sha256": "d4ea69cf8539159c6c5aef19327cddae3b43dc35d8825d7f4a87cbd16c74182b"
+    },
+    {
+      "path": "code/compare_versions.py",
+      "bytes": 5301,
+      "sha256": "4d8ea4a40691669ccc9f753f70aac829b0bbeddcb1f924b216f290e731a18f2a"
+    },
+    {
+      "path": "code/diagnose.py",
+      "bytes": 2353,
+      "sha256": "2b28c238251eab5fe461b0687c5a025fe2b50c0cc638b03a1e4eea940dccbc49"
+    },
+    {
+      "path": "code/finalize_evidence.py",
+      "bytes": 9423,
+      "sha256": "1e29c30948c382db49190af617230d53203d2168b7a01a543a4a5d2bfad5b3c0"
+    },
+    {
+      "path": "code/freeze_baseline.py",
+      "bytes": 1961,
+      "sha256": "149bacb3260830e409ea66de00e79aed353809ab4f3abac266864012f5b7592b"
+    },
+    {
+      "path": "code/freeze_cases.py",
+      "bytes": 9144,
+      "sha256": "318bf9bad8559c874981dcc9179a8ad7c9fb2845a0e8f1f6d11418cbc113bd8f"
+    },
+    {
+      "path": "code/fusion.py",
+      "bytes": 38865,
+      "sha256": "4ae0d3bdcec4924bdf4f14c24b8b1883a2f5405665d1a80def5d8b950614990f"
+    },
+    {
+      "path": "code/fusion_event_stage.py",
+      "bytes": 38763,
+      "sha256": "90535f9ab0c5ff0ffb03e17a4846d5be6ae0567b4aa574367d9994dff6da87fa"
+    },
+    {
+      "path": "code/inspect_raw.py",
+      "bytes": 4007,
+      "sha256": "b6617777c9e8f0e4b14b1dd39f0de8c9626261f9d0bb077538ef0ddd24e292a1"
+    },
+    {
+      "path": "code/invariance_checks.py",
+      "bytes": 1745,
+      "sha256": "365b90f0e77973ca573f3ed0c2f94837a50c00b577322298e0542b5b2829ff54"
+    },
+    {
+      "path": "code/new_relation_checks.py",
+      "bytes": 5087,
+      "sha256": "490bdee3ca5899e67d460fa919ba04de893d54b5ddf4cbe4e20569a09e97f52c"
+    },
+    {
+      "path": "code/package_delivery.py",
+      "bytes": 5012,
+      "sha256": "706002250b278fcf9e71f9194625441b4a8577819432f7027fbdf32a3f948dea"
+    },
+    {
+      "path": "code/reconstruct.py",
+      "bytes": 3935,
+      "sha256": "96a784c7a31adf7028db96d1102c5acb7b7f92214dcdb859473419198cdf8a74"
+    },
+    {
+      "path": "code/render_excel_full.ps1",
+      "bytes": 2484,
+      "sha256": "8bf62fb0d32b3c57e915705153f1ae4c5cd1e8c79f497ee32e31ed7a1ef80f70"
+    },
+    {
+      "path": "code/render_qa.py",
+      "bytes": 2440,
+      "sha256": "6fb142c9e68be0dd9cae85715464de52598049d2c469f4bbbaf0d45443aa01eb"
+    },
+    {
+      "path": "code/render_word.ps1",
+      "bytes": 1487,
+      "sha256": "8fb63d66f38afdac92f7a64407da212c9d5ca5eec935895a7abcc959d1262a1c"
+    },
+    {
+      "path": "code/report.py",
+      "bytes": 17325,
+      "sha256": "47fd34ad7c34d65c188bae3b7d737248d926dba01b7125b15b3864b672a6f392"
+    },
+    {
+      "path": "code/run.py",
+      "bytes": 3170,
+      "sha256": "f19803d3f8d807a8203ad94d96da7efafebaa4dcf160a20696876003d87707d2"
+    },
+    {
+      "path": "code/trend_v3.py",
+      "bytes": 6346,
+      "sha256": "a2819d28809da63e8f99ec46d3a92cc9a0294a06e120ae11eef578d664324448"
+    },
+    {
+      "path": "code/validate.py",
+      "bytes": 13146,
+      "sha256": "01db156b65396f8a8465bdb13fbcef3587d5598d34cfe04043847153c8977f61"
+    },
+    {
+      "path": "code/workbooks.mjs",
+      "bytes": 3145,
+      "sha256": "e19999d3d1ffdefb658a8ff619f652505917806bf57b5876194af7f5d6cb5bfc"
+    },
+    {
+      "path": "code/workbooks_fallback.py",
+      "bytes": 2019,
+      "sha256": "9ee5600049c18d5c95121697bea16abfb963db1ff9e37d84e0bfbbd4ef1ba678"
+    },
+    {
+      "path": "code/write_delivery_docs.py",
+      "bytes": 24849,
+      "sha256": "4bd5196b75e177a129182b36353e1564072c0f8ae4aa3a5f49e1d7422356985d"
+    },
+    {
+      "path": "config/experiment.json",
+      "bytes": 1138,
+      "sha256": "dfd31535211eec2549fb489ce4fca2ec11765a141394f01433cd6f7f9b0b84b3"
+    },
+    {
+      "path": "config/experiment_final.json",
+      "bytes": 3929,
+      "sha256": "977ad19aaa40f530a182e1bba0903679640f5063f52bae1f0345689c5b5d24a4"
+    },
+    {
+      "path": "output/deliverable_manifest.json",
+      "bytes": 9236,
+      "sha256": "ac90806f3afa4f284a688b5991966ba7034a565758f5043d8c1eb02b0ea80573"
+    },
+    {
+      "path": "output/validation.json",
+      "bytes": 3623,
+      "sha256": "489b648b4c90a8938537bd543b600fd27d6182d1fad9267c8fa3cef391a764bd"
+    },
+    {
+      "path": "output/中间证据/candidate_links.jsonl",
+      "bytes": 6022262,
+      "sha256": "c7e908aff6c02a29af131ce3f276b35c98fa66387f9bfd17815875d2cb51ab93"
+    },
+    {
+      "path": "output/中间证据/chart_datasets.json",
+      "bytes": 78936,
+      "sha256": "f95b05f73043d2655a22ff0deb80764f5877effdd778d47805884e785d900507"
+    },
+    {
+      "path": "output/中间证据/claims.jsonl",
+      "bytes": 7923009,
+      "sha256": "3646f1e82e86dd2d20e36157aad08781d22d91a0e5552306cd9183ec240752bc"
+    },
+    {
+      "path": "output/中间证据/events.jsonl",
+      "bytes": 77995748,
+      "sha256": "35de463634ad312a147f10d219cef2959d31529886385d23c9eec98bb7f856d5"
+    },
+    {
+      "path": "output/中间证据/factpack_2025.5.10.json",
+      "bytes": 1749069,
+      "sha256": "27fd07f37e699bb6041067f67d6e968b8cb284b4cd3c52d0a80725c555260dc2"
+    },
+    {
+      "path": "output/中间证据/factpack_2025.5.18.json",
+      "bytes": 1966159,
+      "sha256": "3627f21351a28c277c958ae49bbe149e451a6c9fb805d12e64b367c6b367b9fd"
+    },
+    {
+      "path": "output/中间证据/factpack_2025.5.30.json",
+      "bytes": 1998474,
+      "sha256": "20e01a7803bb6f30dbadb1c03a3d191c0b4353a6e2093a93f4914ae3600ce9f5"
+    },
+    {
+      "path": "output/中间证据/factpack_2025.6.17.json",
+      "bytes": 2067837,
+      "sha256": "92cc1af1da5fbfe89724cb28f5c9ce079a5735f27561974f509f3853b0db2487"
+    },
+    {
+      "path": "output/中间证据/factpack_2025.6.29.json",
+      "bytes": 2004245,
+      "sha256": "df9e9a2ab17f0c905a428dfb4b4a19c422900a0e7e95cdf4231410c411e2cbb0"
+    },
+    {
+      "path": "output/中间证据/factpack_2025.6.9.json",
+      "bytes": 1966897,
+      "sha256": "7001510dc3cb0f4ce417d5c7221571f97ceac2d7487da931ad63f3c144bdffe3"
+    },
+    {
+      "path": "output/中间证据/factpack_2025.7.17.json",
+      "bytes": 2229346,
+      "sha256": "a2c65296e45d84e1f7d24cb9ba4bf781042ec8c99e82c5aaa01c913911ef7d27"
+    },
+    {
+      "path": "output/中间证据/factpack_2025.7.9.json",
+      "bytes": 1809730,
+      "sha256": "d218782f261a312e7183fe05ac0b97ac89150ed3e835b236bf8aa4e453a7a139"
+    },
+    {
+      "path": "output/中间证据/field_evidence.jsonl",
+      "bytes": 59991983,
+      "sha256": "9c65e0383ebdbdc68ec630978c489f9722c360074dbc1cbb4142450104b57499"
+    },
+    {
+      "path": "output/中间证据/radar_tracks.jsonl",
+      "bytes": 35564283,
+      "sha256": "48ac53701de681f7bd98f87298f784d738a74f4c01adc39dc715cde9da45b3e9"
+    },
+    {
+      "path": "output/中间证据/reconstruction_summary.json",
+      "bytes": 7520,
+      "sha256": "a0e51e1bb2c9883430bab016b82cf318b4cf663798330d9302d8034692c72c0b"
+    },
+    {
+      "path": "output/中间证据/source_coverage.jsonl",
+      "bytes": 2462096,
+      "sha256": "e7be110a3b5f6b2b0fc733837c0a6e65f2fc925303d4181e0806defbb5eb4382"
+    },
+    {
+      "path": "output/中间证据/trend_candidates_2025.5.10.json",
+      "bytes": 11492,
+      "sha256": "7558535ce4bd581e11649d0c861631264b82b4583f5d124439a5b5d0cbee41b3"
+    },
+    {
+      "path": "output/中间证据/trend_candidates_2025.5.18.json",
+      "bytes": 10950,
+      "sha256": "72e2c4e558d2e194937848b9d149c52b02fae7a4598ef6f1d34583055fbc6c51"
+    },
+    {
+      "path": "output/中间证据/trend_candidates_2025.5.30.json",
+      "bytes": 12439,
+      "sha256": "ae0b0c5d557e9cf613c64dab03020150932a48e42d9afc1bf692fd1b5086f166"
+    },
+    {
+      "path": "output/中间证据/trend_candidates_2025.6.17.json",
+      "bytes": 12923,
+      "sha256": "78e7739b64a70c29d5abd63bbe2e57f2abea08238a65d1070e9da1671e325de0"
+    },
+    {
+      "path": "output/中间证据/trend_candidates_2025.6.29.json",
+      "bytes": 10940,
+      "sha256": "55d9f37439cd35329a8648ca5573975a3ad27826adcae6d04ae66dbf86d0259f"
+    },
+    {
+      "path": "output/中间证据/trend_candidates_2025.6.9.json",
+      "bytes": 10332,
+      "sha256": "916aec095ae95f073271118feff2baea09d7f7e2662f42c9b8c13cd5514598bf"
+    },
+    {
+      "path": "output/中间证据/trend_candidates_2025.7.17.json",
+      "bytes": 12552,
+      "sha256": "7af0d4ac9f028a8957928eafd4d837030d87d960ff6e55ab5223382bc88b60cc"
+    },
+    {
+      "path": "output/中间证据/trend_candidates_2025.7.9.json",
+      "bytes": 11995,
+      "sha256": "b76a7b6bbcd65f33d369e22962fd449a5514df3c62dcbde39a36b146db5ae1b2"
+    },
+    {
+      "path": "output/中间证据/unallocated_claims.jsonl",
+      "bytes": 4671576,
+      "sha256": "571c25b64a8da44c6339fa7ac7455a11925c6774c6084031616c4d3204c69800"
+    },
+    {
+      "path": "output/中间证据/workbook_rows.json",
+      "bytes": 118829,
+      "sha256": "2f49e9f22d40aebeefc5c9667e39a22ecd87c5a3ad32f544896b78adc9399b63"
+    },
+    {
+      "path": "output/日报/2025.5.10/2025.5.10日报.docx",
+      "bytes": 622090,
+      "sha256": "6f0b67bdf63e9f6a86ac3a9b5cbd8130f2a7e7d1e8cb1faa5bf66ae55efba289"
+    },
+    {
+      "path": "output/日报/2025.5.10/2025.5.10机舰活动明细.xlsx",
+      "bytes": 10993,
+      "sha256": "2b1331aa0cde75820360facf232ab633adb343f6cf77c50ee657f524e7c09701"
+    },
+    {
+      "path": "output/日报/2025.5.10/附件图表/01_舰机侦巡数量曲线图.png",
+      "bytes": 123005,
+      "sha256": "7de05f78eb517595e677af736875eb338eb8b6aa117722d06f6fd08f69e16ed1"
+    },
+    {
+      "path": "output/日报/2025.5.10/附件图表/02_中国主要机舰活动示意图.png",
+      "bytes": 157834,
+      "sha256": "2814bafb7e897c7459f1b77a1fb694b8dda4608e3b053dad33a349292cdaf11b"
+    },
+    {
+      "path": "output/日报/2025.5.10/附件图表/03_美国主要机舰活动示意图.png",
+      "bytes": 78298,
+      "sha256": "61110c07e8119326b460bacac88f9b2f93905af91903d4957044cf133d49250f"
+    },
+    {
+      "path": "output/日报/2025.5.10/附件图表/04_其他国家主要机舰活动示意图.png",
+      "bytes": 269086,
+      "sha256": "ebfcd8d6678eca52c35191ba80bcb47b54b13c3bd3fafcca79943b73c9b935b5"
+    },
+    {
+      "path": "output/日报/2025.5.18/2025.5.18日报.docx",
+      "bytes": 645140,
+      "sha256": "14cf0c69b7b6c562fa44d2ad9139b4dc7c866f869e52aeef69f301b680f7eeaf"
+    },
+    {
+      "path": "output/日报/2025.5.18/2025.5.18机舰活动明细.xlsx",
+      "bytes": 11356,
+      "sha256": "75717928959df15d7a859f18e94067e4b0fba706ab6810afc86c0a69beb4a0f6"
+    },
+    {
+      "path": "output/日报/2025.5.18/附件图表/01_舰机侦巡数量曲线图.png",
+      "bytes": 113857,
+      "sha256": "337e8dba3e4920403236caf1f36672151413a3488da3ed09dc2abc80efdda08c"
+    },
+    {
+      "path": "output/日报/2025.5.18/附件图表/02_中国主要机舰活动示意图.png",
+      "bytes": 166884,
+      "sha256": "8c302e3989950136a04fb3707c84d509e3d96f2af6e69ca97a616faf2a6b600e"
+    },
+    {
+      "path": "output/日报/2025.5.18/附件图表/03_美国主要机舰活动示意图.png",
+      "bytes": 102009,
+      "sha256": "0e2ca75161a55e89a0b0891789bb42dcf2ceb95519755d0b2402e833ae579140"
+    },
+    {
+      "path": "output/日报/2025.5.18/附件图表/04_其他国家主要机舰活动示意图.png",
+      "bytes": 269374,
+      "sha256": "1912f8b8a2b011d825f7a15cb87e191474670426d0a40ba07f9a8866b95d6a71"
+    },
+    {
+      "path": "output/日报/2025.5.30/2025.5.30日报.docx",
+      "bytes": 671794,
+      "sha256": "cd47111fe57e94426f031f7298860aff3ba79aa144f87b7c3906a3e4baa0ac08"
+    },
+    {
+      "path": "output/日报/2025.5.30/2025.5.30机舰活动明细.xlsx",
+      "bytes": 11444,
+      "sha256": "f6fe4b44b05356efbdff8e40fd41b989384c2d571c8b543c56512ac0ad6b3e36"
+    },
+    {
+      "path": "output/日报/2025.5.30/附件图表/01_舰机侦巡数量曲线图.png",
+      "bytes": 123042,
+      "sha256": "2036de7839fe94b4dab746d81945776ab5a754d6e158de082b2e44645194edff"
+    },
+    {
+      "path": "output/日报/2025.5.30/附件图表/02_中国主要机舰活动示意图.png",
+      "bytes": 161684,
+      "sha256": "60b4bbdff71996cf0ac41d57457a965375c6e4fa6090bc546fd21621206cfa4b"
+    },
+    {
+      "path": "output/日报/2025.5.30/附件图表/03_美国主要机舰活动示意图.png",
+      "bytes": 78754,
+      "sha256": "64b68fa62165308f542b517d3b13b25ba6a1d68383a2bc4383d250cab83ba307"
+    },
+    {
+      "path": "output/日报/2025.5.30/附件图表/04_其他国家主要机舰活动示意图.png",
+      "bytes": 319567,
+      "sha256": "1534cdb492ae1de9d4f42cbef4c58270140fb4bd20968275306c40749415a0e3"
+    },
+    {
+      "path": "output/日报/2025.6.17/2025.6.17日报.docx",
+      "bytes": 636121,
+      "sha256": "1bfcc023fbd8376e90c9ef5579b1f8d0a855b9b242d2c1c5b5615d1bad84df2a"
+    },
+    {
+      "path": "output/日报/2025.6.17/2025.6.17机舰活动明细.xlsx",
+      "bytes": 11267,
+      "sha256": "39b51da4e50dbf0482ab3c3682238de91e8bd922814657882bb70376c05bd2df"
+    },
+    {
+      "path": "output/日报/2025.6.17/附件图表/01_舰机侦巡数量曲线图.png",
+      "bytes": 115791,
+      "sha256": "0dfc7c45b35df9a2d1f16f9b1fe4c1ca931c0f766d2852d937e371d3168a32d6"
+    },
+    {
+      "path": "output/日报/2025.6.17/附件图表/02_中国主要机舰活动示意图.png",
+      "bytes": 159652,
+      "sha256": "c7b77e3decbca2e4dd2fd9b3a153e4b9a10b5d7fe37b9b0cb9b6dec753f13964"
+    },
+    {
+      "path": "output/日报/2025.6.17/附件图表/03_美国主要机舰活动示意图.png",
+      "bytes": 93027,
+      "sha256": "57af97f6df7d8601dfa09468c76895480a4f85f1724e09b53685bbd4c6b98dfa"
+    },
+    {
+      "path": "output/日报/2025.6.17/附件图表/04_其他国家主要机舰活动示意图.png",
+      "bytes": 276013,
+      "sha256": "02f9fde1f22b3465f8e161a3bf2060948a201f142b1cdd45b249ea7f87671ebb"
+    },
+    {
+      "path": "output/日报/2025.6.29/2025.6.29日报.docx",
+      "bytes": 621476,
+      "sha256": "a4aafeae13bc9d62634a20c70787bf846314547fd598700e1b9291f87a7cbd81"
+    },
+    {
+      "path": "output/日报/2025.6.29/2025.6.29机舰活动明细.xlsx",
+      "bytes": 10967,
+      "sha256": "e2bb05a8f81c1530ecec40d79cbb3bb6035232e025890b11245e39c3d2e769ab"
+    },
+    {
+      "path": "output/日报/2025.6.29/附件图表/01_舰机侦巡数量曲线图.png",
+      "bytes": 119921,
+      "sha256": "54be8be47aedd428615a774bb9fd67cdbffe4fb17d59d26943099b2cff21aa3b"
+    },
+    {
+      "path": "output/日报/2025.6.29/附件图表/02_中国主要机舰活动示意图.png",
+      "bytes": 167389,
+      "sha256": "e6d353a24a14a0e3bfdcac53bd6c3cf37c68dee92f8605a122209742e3cb95c9"
+    },
+    {
+      "path": "output/日报/2025.6.29/附件图表/03_美国主要机舰活动示意图.png",
+      "bytes": 78857,
+      "sha256": "eed281e21ebd06225f6d92dea32a7a9e2ff6aa9906b14a5f5511a8a534f1996e"
+    },
+    {
+      "path": "output/日报/2025.6.29/附件图表/04_其他国家主要机舰活动示意图.png",
+      "bytes": 260660,
+      "sha256": "e02b06af5c8050c8abbe78cf072af04effc281af51610bb1092b15bae92ea88e"
+    },
+    {
+      "path": "output/日报/2025.6.9/2025.6.9日报.docx",
+      "bytes": 644999,
+      "sha256": "094052263a9ca84eefdc764cdbf4691f7944f9d27577e153479638b950498f0a"
+    },
+    {
+      "path": "output/日报/2025.6.9/2025.6.9机舰活动明细.xlsx",
+      "bytes": 11164,
+      "sha256": "489dcbabaa1570b28490e8526557e7cdbeded64a88e66b39faad55cd1cb38a57"
+    },
+    {
+      "path": "output/日报/2025.6.9/附件图表/01_舰机侦巡数量曲线图.png",
+      "bytes": 122230,
+      "sha256": "cff0cefd87b7e89f89263e530cfdd0ceed9199245c200f019625095cdd37cb4b"
+    },
+    {
+      "path": "output/日报/2025.6.9/附件图表/02_中国主要机舰活动示意图.png",
+      "bytes": 170126,
+      "sha256": "f93b818ec8e7eaf9fa7b2fb2f741273a02dad3817f0d14db37533c97a673089e"
+    },
+    {
+      "path": "output/日报/2025.6.9/附件图表/03_美国主要机舰活动示意图.png",
+      "bytes": 79099,
+      "sha256": "2c976a8676ef59d3f72f6a529aba8875911cdf25c385929c48a26c19b57a146d"
+    },
+    {
+      "path": "output/日报/2025.6.9/附件图表/04_其他国家主要机舰活动示意图.png",
+      "bytes": 281696,
+      "sha256": "b60b148f5e7b4be9c512223b45a8ff446997883346b5ec09867f14de9df83797"
+    },
+    {
+      "path": "output/日报/2025.7.17/2025.7.17日报.docx",
+      "bytes": 650478,
+      "sha256": "dc9259b0f9617f32a22248d55a7e747a607eea1f032aa938847a2187a0db8053"
+    },
+    {
+      "path": "output/日报/2025.7.17/2025.7.17机舰活动明细.xlsx",
+      "bytes": 11398,
+      "sha256": "842e5ddd19f94fe8959de875cc68afa7abdf626fb6b2373713e040394af10493"
+    },
+    {
+      "path": "output/日报/2025.7.17/附件图表/01_舰机侦巡数量曲线图.png",
+      "bytes": 122243,
+      "sha256": "5f8b5c5c86dff0c56f679440710d3244ba54e0761d378fb5c540eee01178bb4d"
+    },
+    {
+      "path": "output/日报/2025.7.17/附件图表/02_中国主要机舰活动示意图.png",
+      "bytes": 163762,
+      "sha256": "3157ce44f212b28a3520aed2309d5127c28cc9473638cb2191ee6fb3ac4aeddb"
+    },
+    {
+      "path": "output/日报/2025.7.17/附件图表/03_美国主要机舰活动示意图.png",
+      "bytes": 77117,
+      "sha256": "561760df409cf13cb241c87c5c91b7d974e8f1a3b677c8afdb9a1127c1c12ac5"
+    },
+    {
+      "path": "output/日报/2025.7.17/附件图表/04_其他国家主要机舰活动示意图.png",
+      "bytes": 296083,
+      "sha256": "80b2d95deaf9d3d7f60462da9763725db26a93394c4bd5f5df8c6440c5968ca5"
+    },
+    {
+      "path": "output/日报/2025.7.9/2025.7.9日报.docx",
+      "bytes": 642629,
+      "sha256": "6e8591911807fce35397f78d45b89cdbd8d5fed26c2646ae1198add2721cbd30"
+    },
+    {
+      "path": "output/日报/2025.7.9/2025.7.9机舰活动明细.xlsx",
+      "bytes": 11158,
+      "sha256": "67f897adad9974ec36bff4c57794073e2d1fc60c58163b8e1487fb33ba78477e"
+    },
+    {
+      "path": "output/日报/2025.7.9/附件图表/01_舰机侦巡数量曲线图.png",
+      "bytes": 119353,
+      "sha256": "13f0e73d08bcc3776e1d86a70624e962076ad21d45119d05b94fe9e5d3a35b80"
+    },
+    {
+      "path": "output/日报/2025.7.9/附件图表/02_中国主要机舰活动示意图.png",
+      "bytes": 167821,
+      "sha256": "23c8223c3ac4e0edd8aa2454625cb0698f3e1b7823d394d94d728811f1c49eb3"
+    },
+    {
+      "path": "output/日报/2025.7.9/附件图表/03_美国主要机舰活动示意图.png",
+      "bytes": 78737,
+      "sha256": "d4d16d25396f0b54ae2cc42e2556a74fd8484be554c7ee37208fe5f7ed770751"
+    },
+    {
+      "path": "output/日报/2025.7.9/附件图表/04_其他国家主要机舰活动示意图.png",
+      "bytes": 284445,
+      "sha256": "6b7efd5249358d3d340c35183a6166a56467cdb3eea6ceb8e12a573b48479a9d"
+    },
+    {
+      "path": "output/日报_gpt_accuracy_v3.zip",
+      "bytes": 9984154,
+      "sha256": "39bb0e2b28026d6a3d4b36a9fc0c7c080b9b330b74b87cda0d68716880e4d005"
+    },
+    {
+      "path": "requirements-qa.txt",
+      "bytes": 39,
+      "sha256": "b3f956ddcc031282116f49569655a9e84676936e8ea28e3ea5ac81666e34ed47"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 83,
+      "sha256": "3d37b5ffd3b63cdd4e6b8d026845274acbc706840462aecaf4ce720735350229"
+    }
+  ],
+  "excluded": "运行时/.venv/node_modules/__pycache__、早期重复渲染、重复清洁输出、损坏验证探针副本；所有原文件仍在版本目录。manifest本身及ZIP事后校验记录不纳入自引用哈希。",
+  "raw_data": "原始处理范围快照、输入文件SHA和完整案例原文保留；仓库原TXT/XLSX在外部原目录。"
+}

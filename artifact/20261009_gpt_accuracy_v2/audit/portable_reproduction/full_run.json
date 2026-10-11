@@ -1,0 +1,39 @@
+{
+  "seconds": 27.53,
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+  "os": "Windows-11-10.0.26200-SP0",
+  "cpu": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+  "commands": [
+    [
+      "D:\\APPfile\\anaconda\\python.exe",
+      "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v2\\code\\charts.py",
+      "artifact\\20261009_gpt_accuracy_v2\\audit\\portable_reproduction\\output\\中间证据",
+      "artifact\\20261009_gpt_accuracy_v2\\audit\\portable_reproduction\\output\\日报"
+    ],
+    [
+      "D:\\APPfile\\anaconda\\python.exe",
+      "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v2\\code\\report.py",
+      "artifact\\20261009_gpt_accuracy_v2\\audit\\portable_reproduction\\output\\中间证据",
+      "artifact\\20261009_gpt_accuracy_v2\\audit\\portable_reproduction\\output\\日报"
+    ],
+    [
+      "D:\\APPfile\\anaconda\\python.exe",
+      "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v2\\code\\workbooks_fallback.py",
+      "artifact\\20261009_gpt_accuracy_v2\\audit\\portable_reproduction\\output\\中间证据\\workbook_rows.json",
+      "artifact\\20261009_gpt_accuracy_v2\\audit\\portable_reproduction\\output\\日报"
+    ]
+  ],
+  "xlsx_engine": "openpyxl portable fallback (artifact tool unavailable or explicitly requested)",
+  "docx_python": "D:\\APPfile\\anaconda\\python.exe",
+  "seed": 4601,
+  "input": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\赛题2-初赛\\数据",
+  "output": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v2\\audit\\portable_reproduction\\output",
+  "original_input_reread": true,
+  "dependencies": {
+    "openpyxl": "3.1.5",
+    "python-docx": "1.2.0",
+    "matplotlib": "3.11.0",
+    "Pillow": "12.0.0"
+  },
+  "validation_ok": true
+}

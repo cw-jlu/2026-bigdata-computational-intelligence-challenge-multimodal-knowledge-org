@@ -1,0 +1,49 @@
+{
+  "probes": [
+    {
+      "probe": "header",
+      "rejected": true,
+      "errors": [
+        "列顺序错误:飞机"
+      ]
+    },
+    {
+      "probe": "date",
+      "rejected": true,
+      "errors": [
+        "日期不是原生日期/非当日:飞机",
+        "明细字段与核验事实包不一致:飞机"
+      ]
+    },
+    {
+      "probe": "curve_quantity",
+      "rejected": true,
+      "errors": [
+        "侦巡曲线数量不符"
+      ]
+    },
+    {
+      "probe": "chart_field",
+      "rejected": true,
+      "errors": [
+        "活动图字段与事件不符"
+      ]
+    },
+    {
+      "probe": "future_history",
+      "rejected": true,
+      "errors": [
+        "主线使用未来信息"
+      ]
+    },
+    {
+      "probe": "missing_reference",
+      "rejected": true,
+      "errors": [
+        "正文未引用附图4"
+      ]
+    }
+  ],
+  "all_rejected": true,
+  "scope": "仅复制到新版本audit子目录的故意错误副本；未改动交付或基线。校验器独立字面schema、日期及重算统计能检出列/日期/数量/字段/未来历史/正文引用错误。"
+}

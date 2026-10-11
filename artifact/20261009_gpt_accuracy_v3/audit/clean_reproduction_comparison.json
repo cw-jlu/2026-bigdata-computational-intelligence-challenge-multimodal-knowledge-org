@@ -1,0 +1,273 @@
+{
+  "all_equal": true,
+  "comparisons": [
+    {
+      "file": "events.jsonl",
+      "equal": true,
+      "primary_sha256": "35de463634ad312a147f10d219cef2959d31529886385d23c9eec98bb7f856d5",
+      "clean_sha256": "35de463634ad312a147f10d219cef2959d31529886385d23c9eec98bb7f856d5"
+    },
+    {
+      "file": "claims.jsonl",
+      "equal": true,
+      "primary_sha256": "3646f1e82e86dd2d20e36157aad08781d22d91a0e5552306cd9183ec240752bc",
+      "clean_sha256": "3646f1e82e86dd2d20e36157aad08781d22d91a0e5552306cd9183ec240752bc"
+    },
+    {
+      "file": "radar_tracks.jsonl",
+      "equal": true,
+      "primary_sha256": "48ac53701de681f7bd98f87298f784d738a74f4c01adc39dc715cde9da45b3e9",
+      "clean_sha256": "48ac53701de681f7bd98f87298f784d738a74f4c01adc39dc715cde9da45b3e9"
+    },
+    {
+      "file": "candidate_links.jsonl",
+      "equal": true,
+      "primary_sha256": "c7e908aff6c02a29af131ce3f276b35c98fa66387f9bfd17815875d2cb51ab93",
+      "clean_sha256": "c7e908aff6c02a29af131ce3f276b35c98fa66387f9bfd17815875d2cb51ab93"
+    },
+    {
+      "file": "field_evidence.jsonl",
+      "equal": true,
+      "primary_sha256": "9c65e0383ebdbdc68ec630978c489f9722c360074dbc1cbb4142450104b57499",
+      "clean_sha256": "9c65e0383ebdbdc68ec630978c489f9722c360074dbc1cbb4142450104b57499"
+    },
+    {
+      "file": "source_coverage.jsonl",
+      "equal": true,
+      "primary_sha256": "e7be110a3b5f6b2b0fc733837c0a6e65f2fc925303d4181e0806defbb5eb4382",
+      "clean_sha256": "e7be110a3b5f6b2b0fc733837c0a6e65f2fc925303d4181e0806defbb5eb4382"
+    },
+    {
+      "file": "unallocated_claims.jsonl",
+      "equal": true,
+      "primary_sha256": "571c25b64a8da44c6339fa7ac7455a11925c6774c6084031616c4d3204c69800",
+      "clean_sha256": "571c25b64a8da44c6339fa7ac7455a11925c6774c6084031616c4d3204c69800"
+    },
+    {
+      "file": "chart_datasets.json",
+      "equal": true,
+      "primary_sha256": "f95b05f73043d2655a22ff0deb80764f5877effdd778d47805884e785d900507",
+      "clean_sha256": "f95b05f73043d2655a22ff0deb80764f5877effdd778d47805884e785d900507"
+    },
+    {
+      "file": "workbook_rows.json",
+      "equal": true,
+      "primary_sha256": "2f49e9f22d40aebeefc5c9667e39a22ecd87c5a3ad32f544896b78adc9399b63",
+      "clean_sha256": "2f49e9f22d40aebeefc5c9667e39a22ecd87c5a3ad32f544896b78adc9399b63"
+    },
+    {
+      "file": "raw_snapshot.jsonl",
+      "equal": true
+    },
+    {
+      "file": "2025.5.10/2025.5.10日报.docx",
+      "equal": true,
+      "scope": "DOCX所有正文/表格文本，或XLSX所有工作表全部单元格；包元数据及不同Excel引擎样式不作字节相等要求"
+    },
+    {
+      "file": "2025.5.10/2025.5.10机舰活动明细.xlsx",
+      "equal": true,
+      "scope": "DOCX所有正文/表格文本，或XLSX所有工作表全部单元格；包元数据及不同Excel引擎样式不作字节相等要求"
+    },
+    {
+      "file": "2025.5.10/01_舰机侦巡数量曲线图.png",
+      "equal": true
+    },
+    {
+      "file": "2025.5.10/02_中国主要机舰活动示意图.png",
+      "equal": true
+    },
+    {
+      "file": "2025.5.10/03_美国主要机舰活动示意图.png",
+      "equal": true
+    },
+    {
+      "file": "2025.5.10/04_其他国家主要机舰活动示意图.png",
+      "equal": true
+    },
+    {
+      "file": "2025.5.18/2025.5.18日报.docx",
+      "equal": true,
+      "scope": "DOCX所有正文/表格文本，或XLSX所有工作表全部单元格；包元数据及不同Excel引擎样式不作字节相等要求"
+    },
+    {
+      "file": "2025.5.18/2025.5.18机舰活动明细.xlsx",
+      "equal": true,
+      "scope": "DOCX所有正文/表格文本，或XLSX所有工作表全部单元格；包元数据及不同Excel引擎样式不作字节相等要求"
+    },
+    {
+      "file": "2025.5.18/01_舰机侦巡数量曲线图.png",
+      "equal": true
+    },
+    {
+      "file": "2025.5.18/02_中国主要机舰活动示意图.png",
+      "equal": true
+    },
+    {
+      "file": "2025.5.18/03_美国主要机舰活动示意图.png",
+      "equal": true
+    },
+    {
+      "file": "2025.5.18/04_其他国家主要机舰活动示意图.png",
+      "equal": true
+    },
+    {
+      "file": "2025.5.30/2025.5.30日报.docx",
+      "equal": true,
+      "scope": "DOCX所有正文/表格文本，或XLSX所有工作表全部单元格；包元数据及不同Excel引擎样式不作字节相等要求"
+    },
+    {
+      "file": "2025.5.30/2025.5.30机舰活动明细.xlsx",
+      "equal": true,
+      "scope": "DOCX所有正文/表格文本，或XLSX所有工作表全部单元格；包元数据及不同Excel引擎样式不作字节相等要求"
+    },
+    {
+      "file": "2025.5.30/01_舰机侦巡数量曲线图.png",
+      "equal": true
+    },
+    {
+      "file": "2025.5.30/02_中国主要机舰活动示意图.png",
+      "equal": true
+    },
+    {
+      "file": "2025.5.30/03_美国主要机舰活动示意图.png",
+      "equal": true
+    },
+    {
+      "file": "2025.5.30/04_其他国家主要机舰活动示意图.png",
+      "equal": true
+    },
+    {
+      "file": "2025.6.9/2025.6.9日报.docx",
+      "equal": true,
+      "scope": "DOCX所有正文/表格文本，或XLSX所有工作表全部单元格；包元数据及不同Excel引擎样式不作字节相等要求"
+    },
+    {
+      "file": "2025.6.9/2025.6.9机舰活动明细.xlsx",
+      "equal": true,
+      "scope": "DOCX所有正文/表格文本，或XLSX所有工作表全部单元格；包元数据及不同Excel引擎样式不作字节相等要求"
+    },
+    {
+      "file": "2025.6.9/01_舰机侦巡数量曲线图.png",
+      "equal": true
+    },
+    {
+      "file": "2025.6.9/02_中国主要机舰活动示意图.png",
+      "equal": true
+    },
+    {
+      "file": "2025.6.9/03_美国主要机舰活动示意图.png",
+      "equal": true
+    },
+    {
+      "file": "2025.6.9/04_其他国家主要机舰活动示意图.png",
+      "equal": true
+    },
+    {
+      "file": "2025.6.17/2025.6.17日报.docx",
+      "equal": true,
+      "scope": "DOCX所有正文/表格文本，或XLSX所有工作表全部单元格；包元数据及不同Excel引擎样式不作字节相等要求"
+    },
+    {
+      "file": "2025.6.17/2025.6.17机舰活动明细.xlsx",
+      "equal": true,
+      "scope": "DOCX所有正文/表格文本，或XLSX所有工作表全部单元格；包元数据及不同Excel引擎样式不作字节相等要求"
+    },
+    {
+      "file": "2025.6.17/01_舰机侦巡数量曲线图.png",
+      "equal": true
+    },
+    {
+      "file": "2025.6.17/02_中国主要机舰活动示意图.png",
+      "equal": true
+    },
+    {
+      "file": "2025.6.17/03_美国主要机舰活动示意图.png",
+      "equal": true
+    },
+    {
+      "file": "2025.6.17/04_其他国家主要机舰活动示意图.png",
+      "equal": true
+    },
+    {
+      "file": "2025.6.29/2025.6.29日报.docx",
+      "equal": true,
+      "scope": "DOCX所有正文/表格文本，或XLSX所有工作表全部单元格；包元数据及不同Excel引擎样式不作字节相等要求"
+    },
+    {
+      "file": "2025.6.29/2025.6.29机舰活动明细.xlsx",
+      "equal": true,
+      "scope": "DOCX所有正文/表格文本，或XLSX所有工作表全部单元格；包元数据及不同Excel引擎样式不作字节相等要求"
+    },
+    {
+      "file": "2025.6.29/01_舰机侦巡数量曲线图.png",
+      "equal": true
+    },
+    {
+      "file": "2025.6.29/02_中国主要机舰活动示意图.png",
+      "equal": true
+    },
+    {
+      "file": "2025.6.29/03_美国主要机舰活动示意图.png",
+      "equal": true
+    },
+    {
+      "file": "2025.6.29/04_其他国家主要机舰活动示意图.png",
+      "equal": true
+    },
+    {
+      "file": "2025.7.9/2025.7.9日报.docx",
+      "equal": true,
+      "scope": "DOCX所有正文/表格文本，或XLSX所有工作表全部单元格；包元数据及不同Excel引擎样式不作字节相等要求"
+    },
+    {
+      "file": "2025.7.9/2025.7.9机舰活动明细.xlsx",
+      "equal": true,
+      "scope": "DOCX所有正文/表格文本，或XLSX所有工作表全部单元格；包元数据及不同Excel引擎样式不作字节相等要求"
+    },
+    {
+      "file": "2025.7.9/01_舰机侦巡数量曲线图.png",
+      "equal": true
+    },
+    {
+      "file": "2025.7.9/02_中国主要机舰活动示意图.png",
+      "equal": true
+    },
+    {
+      "file": "2025.7.9/03_美国主要机舰活动示意图.png",
+      "equal": true
+    },
+    {
+      "file": "2025.7.9/04_其他国家主要机舰活动示意图.png",
+      "equal": true
+    },
+    {
+      "file": "2025.7.17/2025.7.17日报.docx",
+      "equal": true,
+      "scope": "DOCX所有正文/表格文本，或XLSX所有工作表全部单元格；包元数据及不同Excel引擎样式不作字节相等要求"
+    },
+    {
+      "file": "2025.7.17/2025.7.17机舰活动明细.xlsx",
+      "equal": true,
+      "scope": "DOCX所有正文/表格文本，或XLSX所有工作表全部单元格；包元数据及不同Excel引擎样式不作字节相等要求"
+    },
+    {
+      "file": "2025.7.17/01_舰机侦巡数量曲线图.png",
+      "equal": true
+    },
+    {
+      "file": "2025.7.17/02_中国主要机舰活动示意图.png",
+      "equal": true
+    },
+    {
+      "file": "2025.7.17/03_美国主要机舰活动示意图.png",
+      "equal": true
+    },
+    {
+      "file": "2025.7.17/04_其他国家主要机舰活动示意图.png",
+      "equal": true
+    }
+  ],
+  "clean_run": "audit/repro_final/full_run.json",
+  "note": "主交付XLSX使用artifact-tool，纯Python复现使用openpyxl；事实、全部单元格、报告文本和PNG一致。可视化审核针对主交付文件。"
+}

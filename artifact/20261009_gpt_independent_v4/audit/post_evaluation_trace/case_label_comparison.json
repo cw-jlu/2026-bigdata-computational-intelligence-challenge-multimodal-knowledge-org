@@ -1,0 +1,359 @@
+{
+  "scope": "v2开发28例中明确纳入标签以及跨节点14例，与v4全部46例中关联肯定案例对照。",
+  "pairs": [
+    {
+      "v2": {
+        "id": "C14",
+        "date": "2025.5.10",
+        "category": "仅两源",
+        "batch": "AIR-093CB109918635",
+        "expect_inclusion": false,
+        "basis": "开源023明确英国2架RC-135W与P-8A编队；网上舆论仅033 P-8A，没有RC-135W子事实；雷达6/22/27等行不能补足第三类来源。"
+      },
+      "v4": {
+        "id": "G18",
+        "date": "2025.5.10",
+        "expect_association": true,
+        "expect_include": false,
+        "expected_fields": {},
+        "basis": "英国RC-135W2架在合编开源及雷达，舆论无该型号；不能挪用P-8A报道"
+      },
+      "v2_expect_include": false,
+      "include_disagreement": false,
+      "identity_limit": "按原始日期/批号定位，须结合文本引用和分支核对；候选关联与事件纳入标签分别处理。"
+    },
+    {
+      "v2": {
+        "id": "C15",
+        "date": "2025.5.10",
+        "category": "仅两源多平台",
+        "batch": "AIR-730DC2A79E3FDD",
+        "expect_inclusion": false,
+        "basis": "开源048日本2架SH-60K和P-1；舆论044只说P-1。飞机19/38/39等行虽同编队时段，不得共享P-1舆论为SH-60K核验。"
+      },
+      "v4": {
+        "id": "G20",
+        "date": "2025.5.10",
+        "expect_association": true,
+        "expect_include": false,
+        "expected_fields": {},
+        "basis": "合编开源SH-60K2架及雷达；无舆论SH-60K，不能套用P-1"
+      },
+      "v2_expect_include": false,
+      "include_disagreement": false,
+      "identity_limit": "按原始日期/批号定位，须结合文本引用和分支核对；候选关联与事件纳入标签分别处理。"
+    },
+    {
+      "v2": {
+        "id": "C16",
+        "date": "2025.5.10",
+        "category": "仅两源多平台",
+        "batch": "AIR-B8FBF3CD333F7B",
+        "expect_inclusion": false,
+        "basis": "开源030意大利F-35B与P-72A联合活动；舆论049仅P-72A；飞机42/44/109等行F-35B不具三源覆盖。"
+      },
+      "v4": {
+        "id": "G21",
+        "date": "2025.5.10",
+        "expect_association": true,
+        "expect_include": false,
+        "expected_fields": {},
+        "basis": "意大利F-35B与P-72A合编；舆论仅P-72A，F-35B缺舆论"
+      },
+      "v2_expect_include": false,
+      "include_disagreement": false,
+      "identity_limit": "按原始日期/批号定位，须结合文本引用和分支核对；候选关联与事件纳入标签分别处理。"
+    },
+    {
+      "v2": {
+        "id": "C17",
+        "date": "2025.5.10",
+        "category": "多平台拆分正确子事件",
+        "batch": "AIR-AF10F9EBB9E18A",
+        "expect_inclusion": true,
+        "basis": "开源048 P-1有自身数量1，舆论044 P-1自身05:07—07:32与任务，雷达2/10/26/41等行P-1；可拆分纳入，不能因为同篇还有SH-60K而全部排除。"
+      },
+      "v4": {
+        "id": "G19",
+        "date": "2025.5.10",
+        "expect_association": true,
+        "expect_include": true,
+        "expected_fields": {
+          "country": "日本",
+          "region": "东海",
+          "task": "反潜巡逻",
+          "quantity": 1,
+          "start": "05:07",
+          "end": "07:32"
+        },
+        "basis": "日本合编开源明确P-1一架；舆论P-1；雷达05:07—07:32东海反潜；SH-60K不是P-1"
+      },
+      "v2_expect_include": true,
+      "include_disagreement": false,
+      "identity_limit": "按原始日期/批号定位，须结合文本引用和分支核对；候选关联与事件纳入标签分别处理。"
+    },
+    {
+      "v2": {
+        "id": "C18",
+        "date": "2025.5.10",
+        "category": "多平台拆分正确子事件",
+        "batch": "AIR-9740CBEDE14968",
+        "expect_inclusion": true,
+        "basis": "开源030 P-72A与F-35B共享黄海中部情报监视任务时段；舆论049一架P-72A，雷达54/65/84等行数量1，P-72A满足三源。"
+      },
+      "v4": {
+        "id": "G22",
+        "date": "2025.5.10",
+        "expect_association": true,
+        "expect_include": true,
+        "expected_fields": {
+          "country": "意大利",
+          "region": "黄海中部",
+          "task": "情报监视侦察",
+          "quantity": 1,
+          "start": "02:49",
+          "end": "04:14"
+        },
+        "basis": "意大利P-72A黄海中部02:49—04:14；情报监视侦察；舆论1架与雷达1架"
+      },
+      "v2_expect_include": true,
+      "include_disagreement": false,
+      "identity_limit": "按原始日期/批号定位，须结合文本引用和分支核对；候选关联与事件纳入标签分别处理。"
+    },
+    {
+      "v2": {
+        "id": "C19",
+        "date": "2025.5.10",
+        "category": "雷达持续区域冲突",
+        "batch": "SHIP-F4B78A88D06154",
+        "expect_inclusion": false,
+        "basis": "重新直接核对全部原始行：舰船20/27/160/164/167/267/276为东海，31/80/141/213/239/299为连云港。两条持续区域记录而非单行异常；即使两文本黄海兼容，无法独立解释整组东海记录，排除。"
+      },
+      "v4": {
+        "id": "G12",
+        "date": "2025.5.10",
+        "expect_association": true,
+        "expect_include": false,
+        "expected_fields": {},
+        "basis": "056A连云港17:02—19:27；雷达同时东海与连云港并存，不能以首行东海填报"
+      },
+      "v2_expect_include": false,
+      "include_disagreement": false,
+      "identity_limit": "按原始日期/批号定位，须结合文本引用和分支核对；候选关联与事件纳入标签分别处理。"
+    },
+    {
+      "v2": {
+        "id": "C20",
+        "date": "2025.5.10",
+        "category": "雷达持续区域冲突",
+        "batch": "SHIP-C8D66FB15B8C0B",
+        "expect_inclusion": false,
+        "basis": "重新直接核对全部原始行：舰船8/28/90/159/221/227/285为南海，与57/79/110/170/249/275/277宁波轨迹同刻重叠。不是首行孤立污染；两条持续区域记录不能简单投票，排除。"
+      },
+      "v4": {
+        "id": "G11",
+        "date": "2025.5.10",
+        "expect_association": true,
+        "expect_include": false,
+        "expected_fields": {},
+        "basis": "新加坡无敌20:42—22:07；雷达相同时刻南海与宁波并存，各7行，无坐标证明可删哪组"
+      },
+      "v2_expect_include": false,
+      "include_disagreement": false,
+      "identity_limit": "按原始日期/批号定位，须结合文本引用和分支核对；候选关联与事件纳入标签分别处理。"
+    },
+    {
+      "v2": {
+        "id": "C21",
+        "date": "2025.5.10",
+        "category": "主体文本冲突",
+        "batch": "SHIP-30A046A0E6AFD2",
+        "expect_inclusion": false,
+        "basis": "原始开源024意大利与澳大利亚雷达/舆论矛盾，第三类来源无一致关联。"
+      },
+      "v4": {
+        "id": "G07",
+        "date": "2025.5.10",
+        "expect_association": true,
+        "expect_include": false,
+        "expected_fields": {},
+        "basis": "柯林斯级与长江口/东海吻合，但开源意大利与舆论/雷达澳大利亚冲突，不多数裁决"
+      },
+      "v2_expect_include": false,
+      "include_disagreement": false,
+      "identity_limit": "按原始日期/批号定位，须结合文本引用和分支核对；候选关联与事件纳入标签分别处理。"
+    },
+    {
+      "v2": {
+        "id": "C22",
+        "date": "2025.5.10",
+        "category": "区域文本冲突",
+        "batch": "SHIP-1BEADE90A1114F",
+        "expect_inclusion": false,
+        "basis": "两文本黄海成山头与整条雷达东海南部冲突，无法消解。"
+      },
+      "v4": {
+        "id": "G10",
+        "date": "2025.5.10",
+        "expect_association": true,
+        "expect_include": false,
+        "expected_fields": {},
+        "basis": "中国903A同一次08:08—10:33；两文本成山头黄海，雷达东海南部，无法消解"
+      },
+      "v2_expect_include": false,
+      "include_disagreement": false,
+      "identity_limit": "按原始日期/批号定位，须结合文本引用和分支核对；候选关联与事件纳入标签分别处理。"
+    },
+    {
+      "v2": {
+        "id": "C23",
+        "date": "2025.5.10",
+        "category": "任务文本冲突",
+        "batch": "AIR-6A5EB9A4E1BBA4",
+        "expect_inclusion": false,
+        "basis": "开源任务空中警戒与雷达/舆论预警指挥冲突。"
+      },
+      "v4": {
+        "id": "G15",
+        "date": "2025.5.10",
+        "expect_association": true,
+        "expect_include": false,
+        "expected_fields": {},
+        "basis": "空警-600南康暗沙；开源空中警戒，舆论/雷达预警指挥；不可按型号默认任务"
+      },
+      "v2_expect_include": false,
+      "include_disagreement": false,
+      "identity_limit": "按原始日期/批号定位，须结合文本引用和分支核对；候选关联与事件纳入标签分别处理。"
+    },
+    {
+      "v2": {
+        "id": "C24",
+        "date": "2025.5.10",
+        "category": "数量文本冲突",
+        "batch": "AIR-74BB12F6148F7E",
+        "expect_inclusion": false,
+        "basis": "1架和两架的关键数量冲突，保留原文不投票。"
+      },
+      "v4": {
+        "id": "G13",
+        "date": "2025.5.10",
+        "expect_association": true,
+        "expect_include": false,
+        "expected_fields": {},
+        "basis": "台湾P-3C14:46—16:16东海南部；开源1架，舆论2架，雷达1架"
+      },
+      "v2_expect_include": false,
+      "include_disagreement": false,
+      "identity_limit": "按原始日期/批号定位，须结合文本引用和分支核对；候选关联与事件纳入标签分别处理。"
+    },
+    {
+      "v2": {
+        "id": "H01",
+        "date": "2025.5.18",
+        "batch": "AIR-1CC2A2CC80B4D1",
+        "included": 1,
+        "direction": "南海",
+        "basis": "开源010一架韩国E-737北康，舆论005南海14:55—16:20空中警戒；两组开始坐标分别112.43/5.55与123.13/35.20。南海分支可限定到两类文本，黄海分支无文本支撑；不拼接同批号轨迹。"
+      },
+      "v4": {
+        "id": "G28",
+        "date": "2025.5.18",
+        "expect_association": true,
+        "expect_include": false,
+        "expected_fields": {},
+        "basis": "韩国E-737北康暗沙与南海；雷达至少两组南海/黄海坐标，不能取中位数伪造位置"
+      },
+      "v2_expect_include": true,
+      "include_disagreement": true,
+      "identity_limit": "按原始日期/批号定位，须结合文本引用和分支核对；候选关联与事件纳入标签分别处理。"
+    },
+    {
+      "v2": {
+        "id": "H05",
+        "date": "2025.6.9",
+        "batch": "SHIP-14EBF18869F04F",
+        "included": 0,
+        "basis": "开源006舟山17:02—19:27远海训练、舆论030一艘舟山；雷达持续南海/舟山同完整时段冲突，不取多数区域；另有中太平洋同型活动，不应混合。"
+      },
+      "v4": {
+        "id": "G39",
+        "date": "2025.6.9",
+        "expect_association": true,
+        "expect_include": false,
+        "expected_fields": {},
+        "basis": "中国093A舟山17:02—19:27远海训练；雷达南海/舟山两套不相容区域"
+      },
+      "v2_expect_include": false,
+      "include_disagreement": false,
+      "identity_limit": "按原始日期/批号定位，须结合文本引用和分支核对；候选关联与事件纳入标签分别处理。"
+    },
+    {
+      "v2": {
+        "id": "H07",
+        "date": "2025.6.17",
+        "batch": "AIR-DF120E6AF82F7E",
+        "included": 1,
+        "direction": "东海",
+        "task": "任务未核实",
+        "basis": "开源013 AW-15920:09—22:34长江口，正文未明确联合巡逻，仅标题含该任务；舆论020一架长江口，雷达两组南海与长江口开始坐标；只保留东海文本限定分支，具体任务单源，必须标未知。"
+      },
+      "v4": {
+        "id": "G29",
+        "date": "2025.6.17",
+        "expect_association": true,
+        "expect_include": false,
+        "expected_fields": {},
+        "basis": "菲律宾AW-15920:09—22:34长江口，雷达南海15N与东海31N并行"
+      },
+      "v2_expect_include": true,
+      "include_disagreement": true,
+      "identity_limit": "按原始日期/批号定位，须结合文本引用和分支核对；候选关联与事件纳入标签分别处理。"
+    },
+    {
+      "v2": {
+        "id": "H12",
+        "date": "2025.7.9",
+        "batch": "SHIP-AF41F705A929BC",
+        "included": 1,
+        "direction": "东海",
+        "task": "例行部署",
+        "basis": "山东开源002、舆论015与舰船2/8/37等行东海中部14:28—16:53例行部署均一致；当日东海北部17:53联合巡航另有舆论19:04起点冲突，不能合并。"
+      },
+      "v4": {
+        "id": "G44",
+        "date": "2025.7.9",
+        "expect_association": true,
+        "expect_include": false,
+        "expected_fields": {},
+        "basis": "山东号东海中部14:28—16:53三源关联，但两文本均未报艘数，不从单舰名称默认数量"
+      },
+      "v2_expect_include": true,
+      "include_disagreement": true,
+      "identity_limit": "按原始日期/批号定位，须结合文本引用和分支核对；候选关联与事件纳入标签分别处理。"
+    },
+    {
+      "v2": {
+        "id": "H13",
+        "date": "2025.7.17",
+        "batch": "AIR-CE2DA13274C502",
+        "included": 1,
+        "direction": "东海",
+        "task": "情报监视侦察",
+        "basis": "无侦7开源03617:35至19时、舆论00217:35—19:00、雷达两组起始坐标。19时=19:00必须识别；东海分支从17:49起被观测，不能冒充起飞时间；活动全窗口由两文本相同时间支持，南海分支不应拼入。"
+      },
+      "v4": {
+        "id": "G31",
+        "date": "2025.7.17",
+        "expect_association": true,
+        "expect_include": false,
+        "expected_fields": {},
+        "basis": "无侦-7东海17:35—19:00；雷达15N与29N并行，文本同意也不能隐藏轨迹冲突；原G31误用缺时间油气田文本，原始Excel时段重新人工核对后更正"
+      },
+      "v2_expect_include": true,
+      "include_disagreement": true,
+      "identity_limit": "按原始日期/批号定位，须结合文本引用和分支核对；候选关联与事件纳入标签分别处理。"
+    }
+  ],
+  "pairs_count": 16,
+  "disagreement_count": 4
+}

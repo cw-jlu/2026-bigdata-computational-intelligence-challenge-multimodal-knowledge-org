@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-09",
+  "queries": [
+    "多模态融合的知识组织与决策生成 2026 样例",
+    "2026 大数据与计算智能挑战赛 赛题2 初赛 日报"
+  ],
+  "public_pages": [
+    {
+      "url": "https://d2.nudt.edu.cn/tzs/",
+      "finding": "公开首页赛事公告及联系信息，未取得可下载DOCX/XLSX官方成品样例"
+    },
+    {
+      "url": "https://finance.sina.com.cn/wm/2026-08-25/doc-inipnyqs9723875.shtml",
+      "finding": "找到赛题名称及赛事官网入口；不是格式样例"
+    }
+  ],
+  "local_scope": "README、docs/01—07与原始数据结构；未读取来源不明提交目录成品",
+  "obtained_sample": null,
+  "limitation": "只说明本次检索未取得样例，不声称官网登录区或其他位置不存在样例。依据docs/04逐项核验。"
+}

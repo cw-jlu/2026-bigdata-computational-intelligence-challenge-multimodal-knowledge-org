@@ -1,0 +1,14 @@
+[
+  {
+    "file": "new_development_cases.json",
+    "sha256": "598ce3b5062c5b96b26b25e50418ecc993f8209460f2bc2f5475fe928dfbe18f",
+    "cases": 26,
+    "invalid_locators": 0
+  },
+  {
+    "file": "new_reserved_cases.json",
+    "sha256": "10184ed81ea4d18cbf9ad3cc27968654f7afc2e5b90c6a5d4b685f216b6d04c2",
+    "cases": 24,
+    "invalid_locators": 0
+  }
+]

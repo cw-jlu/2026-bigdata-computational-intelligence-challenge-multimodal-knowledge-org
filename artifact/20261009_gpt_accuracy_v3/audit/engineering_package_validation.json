@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "files": 351,
+  "bytes": 76859883,
+  "sha256": "774f2ae67412e371a001241c1c769d05789ef287a7fa0b304d5810167cbfd84e",
+  "crc_error": null,
+  "hash_errors": [],
+  "path": "工程交付_gpt_accuracy_v3.zip",
+  "note": "此记录在ZIP创建后保存于包外，避免包/记录自引用。包内manifest可独立重算。"
+}

@@ -1,0 +1,2838 @@
+{
+  "ok": false,
+  "checks": [
+    {
+      "path": "evidence/2025.5.1.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.1.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.1.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.1.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.1.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.1.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.10.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.10.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.10.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.10.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.10.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.10.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.11.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.11.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.11.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.11.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.11.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.11.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.12.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.12.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.12.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.12.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.12.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.12.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.13.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.13.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.13.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.13.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.13.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.13.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.14.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.14.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.14.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.14.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.14.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.14.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.15.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.15.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.15.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.15.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.15.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.15.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.16.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.16.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.16.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.16.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.16.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.16.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.17.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.17.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.17.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.17.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.17.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.17.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.18.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.18.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.18.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.18.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.18.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.18.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.19.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.19.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.19.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.19.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.19.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.19.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.2.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.2.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.2.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.2.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.2.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.2.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.20.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.20.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.20.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.20.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.20.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.20.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.21.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.21.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.21.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.21.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.21.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.21.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.22.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.22.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.22.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.22.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.22.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.22.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.23.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.23.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.23.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.23.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.23.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.23.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.24.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.24.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.24.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.24.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.24.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.24.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.25.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.25.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.25.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.25.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.25.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.25.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.26.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.26.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.26.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.26.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.26.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.26.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.27.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.27.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.27.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.27.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.27.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.27.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.28.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.28.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.28.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.28.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.28.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.28.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.29.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.29.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.29.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.29.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.29.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.29.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.3.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.3.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.3.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.3.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.3.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.3.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.30.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.30.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.30.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.30.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.30.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.30.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.31.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.31.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.31.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.31.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.31.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.31.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.4.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.4.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.4.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.4.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.4.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.4.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.5.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.5.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.5.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.5.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.5.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.5.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.6.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.6.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.6.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.6.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.6.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.6.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.7.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.7.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.7.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.7.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.7.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.7.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.8.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.8.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.8.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.8.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.8.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.8.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.9.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.9.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.9.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.9.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.9.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.5.9.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.1.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.1.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.1.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.1.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.1.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.1.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.10.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.10.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.10.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.10.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.10.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.10.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.11.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.11.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.11.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.11.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.11.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.11.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.12.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.12.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.12.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.12.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.12.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.12.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.13.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.13.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.13.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.13.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.13.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.13.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.14.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.14.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.14.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.14.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.14.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.14.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.15.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.15.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.15.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.15.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.15.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.15.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.16.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.16.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.16.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.16.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.16.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.16.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.17.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.17.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.17.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.17.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.17.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.17.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.18.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.18.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.18.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.18.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.18.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.18.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.19.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.19.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.19.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.19.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.19.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.19.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.2.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.2.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.2.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.2.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.2.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.2.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.20.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.20.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.20.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.20.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.20.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.20.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.21.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.21.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.21.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.21.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.21.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.21.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.22.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.22.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.22.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.22.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.22.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.22.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.23.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.23.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.23.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.23.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.23.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.23.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.24.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.24.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.24.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.24.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.24.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.24.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.25.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.25.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.25.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.25.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.25.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.25.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.26.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.26.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.26.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.26.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.26.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.26.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.27.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.27.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.27.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.27.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.27.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.27.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.28.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.28.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.28.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.28.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.28.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.28.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.29.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.29.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.29.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.29.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.29.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.29.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.3.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.3.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.3.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.3.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.3.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.3.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.30.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.30.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.30.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.30.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.30.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.30.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.4.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.4.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.4.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.4.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.4.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.4.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.5.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.5.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.5.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.5.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.5.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.5.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.6.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.6.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.6.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.6.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.6.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.6.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.7.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.7.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.7.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.7.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.7.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.7.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.8.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.8.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.8.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.8.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.8.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.8.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.9.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.9.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.9.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.9.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.9.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.6.9.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.1.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.1.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.1.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.1.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.1.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.1.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.10.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.10.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.10.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.10.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.10.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.10.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.11.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.11.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.11.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.11.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.11.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.11.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.12.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.12.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.12.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.12.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.12.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.12.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.13.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.13.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.13.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.13.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.13.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.13.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.14.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.14.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.14.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.14.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.14.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.14.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.15.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.15.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.15.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.15.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.15.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.15.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.16.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.16.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.16.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.16.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.16.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.16.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.17.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.17.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.17.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.17.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.17.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.17.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.2.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.2.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.2.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.2.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.2.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.2.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.3.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.3.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.3.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.3.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.3.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.3.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.4.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.4.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.4.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.4.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.4.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.4.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.5.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.5.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.5.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.5.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.5.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.5.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.6.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.6.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.6.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.6.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.6.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.6.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.7.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.7.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.7.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.7.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.7.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.7.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.8.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.8.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.8.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.8.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.8.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.8.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.9.ambiguities.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.9.atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.9.candidates.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.9.documents.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.9.events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/2025.7.9.unmatched_atoms.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/all_events.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "evidence/input_manifest.jsonl",
+      "kind": "raw evidence bytes",
+      "equal": true
+    },
+    {
+      "path": "payloads/2025.5.10.chart_data.json",
+      "kind": "payload values",
+      "equal": true
+    },
+    {
+      "path": "payloads/2025.5.10.json",
+      "kind": "payload values",
+      "equal": true
+    },
+    {
+      "path": "payloads/2025.5.18.chart_data.json",
+      "kind": "payload values",
+      "equal": true
+    },
+    {
+      "path": "payloads/2025.5.18.json",
+      "kind": "payload values",
+      "equal": true
+    },
+    {
+      "path": "payloads/2025.5.30.chart_data.json",
+      "kind": "payload values",
+      "equal": true
+    },
+    {
+      "path": "payloads/2025.5.30.json",
+      "kind": "payload values",
+      "equal": true
+    },
+    {
+      "path": "payloads/2025.6.17.chart_data.json",
+      "kind": "payload values",
+      "equal": true
+    },
+    {
+      "path": "payloads/2025.6.17.json",
+      "kind": "payload values",
+      "equal": true
+    },
+    {
+      "path": "payloads/2025.6.29.chart_data.json",
+      "kind": "payload values",
+      "equal": true
+    },
+    {
+      "path": "payloads/2025.6.29.json",
+      "kind": "payload values",
+      "equal": true
+    },
+    {
+      "path": "payloads/2025.6.9.chart_data.json",
+      "kind": "payload values",
+      "equal": true
+    },
+    {
+      "path": "payloads/2025.6.9.json",
+      "kind": "payload values",
+      "equal": true
+    },
+    {
+      "path": "payloads/2025.7.17.chart_data.json",
+      "kind": "payload values",
+      "equal": true
+    },
+    {
+      "path": "payloads/2025.7.17.json",
+      "kind": "payload values",
+      "equal": true
+    },
+    {
+      "path": "payloads/2025.7.9.chart_data.json",
+      "kind": "payload values",
+      "equal": true
+    },
+    {
+      "path": "payloads/2025.7.9.json",
+      "kind": "payload values",
+      "equal": true
+    },
+    {
+      "path": "日报/2025.5.10/2025.5.10日报.docx",
+      "kind": "DOCX paragraphs + four embedded figures",
+      "equal": true
+    },
+    {
+      "path": "日报/2025.5.10/2025.5.10机舰活动明细.xlsx",
+      "kind": "XLSX typed values and sheet order",
+      "equal": true
+    },
+    {
+      "path": "日报/2025.5.10/附件图表/01_舰机侦巡数量曲线图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.5.10/附件图表/02_中国主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.5.10/附件图表/03_美国主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.5.10/附件图表/04_其他国家主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.5.18/2025.5.18日报.docx",
+      "kind": "DOCX paragraphs + four embedded figures",
+      "equal": true
+    },
+    {
+      "path": "日报/2025.5.18/2025.5.18机舰活动明细.xlsx",
+      "kind": "XLSX typed values and sheet order",
+      "equal": true
+    },
+    {
+      "path": "日报/2025.5.18/附件图表/01_舰机侦巡数量曲线图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.5.18/附件图表/02_中国主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.5.18/附件图表/03_美国主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.5.18/附件图表/04_其他国家主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.5.30/2025.5.30日报.docx",
+      "kind": "DOCX paragraphs + four embedded figures",
+      "equal": true
+    },
+    {
+      "path": "日报/2025.5.30/2025.5.30机舰活动明细.xlsx",
+      "kind": "XLSX typed values and sheet order",
+      "equal": true
+    },
+    {
+      "path": "日报/2025.5.30/附件图表/01_舰机侦巡数量曲线图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.5.30/附件图表/02_中国主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.5.30/附件图表/03_美国主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.5.30/附件图表/04_其他国家主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.6.17/2025.6.17日报.docx",
+      "kind": "DOCX paragraphs + four embedded figures",
+      "equal": true
+    },
+    {
+      "path": "日报/2025.6.17/2025.6.17机舰活动明细.xlsx",
+      "kind": "XLSX typed values and sheet order",
+      "equal": true
+    },
+    {
+      "path": "日报/2025.6.17/附件图表/01_舰机侦巡数量曲线图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.6.17/附件图表/02_中国主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.6.17/附件图表/03_美国主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.6.17/附件图表/04_其他国家主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.6.29/2025.6.29日报.docx",
+      "kind": "DOCX paragraphs + four embedded figures",
+      "equal": true
+    },
+    {
+      "path": "日报/2025.6.29/2025.6.29机舰活动明细.xlsx",
+      "kind": "XLSX typed values and sheet order",
+      "equal": true
+    },
+    {
+      "path": "日报/2025.6.29/附件图表/01_舰机侦巡数量曲线图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.6.29/附件图表/02_中国主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.6.29/附件图表/03_美国主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.6.29/附件图表/04_其他国家主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.6.9/2025.6.9日报.docx",
+      "kind": "DOCX paragraphs + four embedded figures",
+      "equal": true
+    },
+    {
+      "path": "日报/2025.6.9/2025.6.9机舰活动明细.xlsx",
+      "kind": "XLSX typed values and sheet order",
+      "equal": true
+    },
+    {
+      "path": "日报/2025.6.9/附件图表/01_舰机侦巡数量曲线图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.6.9/附件图表/02_中国主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.6.9/附件图表/03_美国主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.6.9/附件图表/04_其他国家主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.7.17/2025.7.17日报.docx",
+      "kind": "DOCX paragraphs + four embedded figures",
+      "equal": true
+    },
+    {
+      "path": "日报/2025.7.17/2025.7.17机舰活动明细.xlsx",
+      "kind": "XLSX typed values and sheet order",
+      "equal": true
+    },
+    {
+      "path": "日报/2025.7.17/附件图表/01_舰机侦巡数量曲线图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.7.17/附件图表/02_中国主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.7.17/附件图表/03_美国主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.7.17/附件图表/04_其他国家主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.7.9/2025.7.9日报.docx",
+      "kind": "DOCX paragraphs + four embedded figures",
+      "equal": true
+    },
+    {
+      "path": "日报/2025.7.9/2025.7.9机舰活动明细.xlsx",
+      "kind": "XLSX typed values and sheet order",
+      "equal": true
+    },
+    {
+      "path": "日报/2025.7.9/附件图表/01_舰机侦巡数量曲线图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.7.9/附件图表/02_中国主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.7.9/附件图表/03_美国主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.7.9/附件图表/04_其他国家主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    }
+  ],
+  "failures": [
+    {
+      "path": "日报/2025.5.10/附件图表/01_舰机侦巡数量曲线图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.5.10/附件图表/02_中国主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.5.10/附件图表/03_美国主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.5.10/附件图表/04_其他国家主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.5.18/附件图表/01_舰机侦巡数量曲线图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.5.18/附件图表/02_中国主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.5.18/附件图表/03_美国主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.5.18/附件图表/04_其他国家主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.5.30/附件图表/01_舰机侦巡数量曲线图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.5.30/附件图表/02_中国主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.5.30/附件图表/03_美国主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.5.30/附件图表/04_其他国家主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.6.17/附件图表/01_舰机侦巡数量曲线图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.6.17/附件图表/02_中国主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.6.17/附件图表/03_美国主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.6.17/附件图表/04_其他国家主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.6.29/附件图表/01_舰机侦巡数量曲线图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.6.29/附件图表/02_中国主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.6.29/附件图表/03_美国主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.6.29/附件图表/04_其他国家主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.6.9/附件图表/01_舰机侦巡数量曲线图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.6.9/附件图表/02_中国主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.6.9/附件图表/03_美国主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.6.9/附件图表/04_其他国家主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.7.17/附件图表/01_舰机侦巡数量曲线图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.7.17/附件图表/02_中国主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.7.17/附件图表/03_美国主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.7.17/附件图表/04_其他国家主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.7.9/附件图表/01_舰机侦巡数量曲线图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.7.9/附件图表/02_中国主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.7.9/附件图表/03_美国主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    },
+    {
+      "path": "日报/2025.7.9/附件图表/04_其他国家主要机舰活动示意图.png",
+      "kind": "PNG bytes",
+      "equal": false
+    }
+  ],
+  "limitation": "复现稳定性，不是内容准确性；DOCX/XLSX容器时间戳不要求字节相同。"
+}

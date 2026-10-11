@@ -57,6 +57,8 @@ python run.py --input ../../赛题2-初赛/数据 --output output --stage prelim
 
 详细说明见 [`docs/README.md`](docs/README.md)。
 
+GPT 独立重做 v2 的完整实现与交付见 [`artifact/20261009_gpt_accuracy_v2/README.md`](artifact/20261009_gpt_accuracy_v2/README.md)。2026-10-09 收到 initial 八节点新结果：按所给均值计算总分 **69.0354**，比旧 GPT 提高 **24.9835** 分。[完整评测记录](docs/05-评测标准与复现清单.md)和[下一轮提示词草案](docs/07-评测反馈与提示词迭代.md)已归档；草案尚未执行。
+
 ## 赛段分支
 
 - `stage1`：初赛版本

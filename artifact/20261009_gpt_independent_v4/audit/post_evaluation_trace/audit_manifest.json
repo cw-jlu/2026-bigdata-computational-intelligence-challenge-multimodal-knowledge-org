@@ -1,0 +1,92 @@
+{
+  "previous_archives_unchanged": [
+    {
+      "path": "artifact/20261009_gpt_accuracy_v2/output/日报_gpt_accuracy_v2.zip",
+      "sha256": "728086a59f3259463737abdc3786e926fc2f4b5f7c4b8663db74a2e67fa8f6a4",
+      "matches_pre_audit_delivery_record": true
+    },
+    {
+      "path": "artifact/20261009_gpt_independent_v4/output/赛题2_初赛_八节点_提交.zip",
+      "sha256": "db718c7cdf686b7b70970bbecb265d6c75d65ee28b48e56d829da5eed7ab4176",
+      "matches_pre_audit_delivery_record": true
+    },
+    {
+      "path": "artifact/20261009_gpt_independent_v4/工程交付_代码证据成果.zip",
+      "sha256": "7d685a7732f6a88f84558b772fe585ee3d2a71267b224f7b3b8b9a7f63cd0631",
+      "matches_pre_audit_delivery_record": true
+    }
+  ],
+  "new_audit_files": [
+    {
+      "path": "case_label_comparison.json",
+      "bytes": 15057,
+      "sha256": "3063d65b9131d1514ac8746981ba73e139160cca9b1f83e81c700290a42d6c3d"
+    },
+    {
+      "path": "evaluation_comparison.json",
+      "bytes": 668,
+      "sha256": "a793ed6ae9b8ded631f3dd7d783a5f8ae9d2c5bbc64cefa3aa2c884be7d7d612"
+    },
+    {
+      "path": "event_comparison.json",
+      "bytes": 4604503,
+      "sha256": "eb55009014b15d664aefc0a18907785ff99f5a287fa8c71eb64f9710df63e743"
+    },
+    {
+      "path": "input_comparison.json",
+      "bytes": 283,
+      "sha256": "1bc2b0cbc67eaf1fb01092610d91fc10013e4391e4ce5fa90fb0be16b0385aee"
+    },
+    {
+      "path": "inspect_traces.py",
+      "bytes": 21721,
+      "sha256": "e518f988c3b4ca0836338e0536cbdf8a2057c24cc161b59270d9a9c411d5d699"
+    },
+    {
+      "path": "prompt_comparison.json",
+      "bytes": 6241,
+      "sha256": "ce6f517f8641de3e50f6ba2bff7951d296f41f5fa76bcd02fcac83523dc565f7"
+    },
+    {
+      "path": "raw_review_examples.json",
+      "bytes": 81183,
+      "sha256": "b2d17495df5e89e331b959d07f0ccacc212029cd5e48561eb33f7dd09180fd86"
+    },
+    {
+      "path": "repository_context_comparison.json",
+      "bytes": 833,
+      "sha256": "428b4d4ba774bd1daba4a037e6f1ee5f2e9dc183bcc50a0a03bf5471ee6c5ad2"
+    },
+    {
+      "path": "TRACE_REVIEW.md",
+      "bytes": 11592,
+      "sha256": "b128b6d4bc0f395e8780a4a469e4d209fbfd15dbb892c7710d0008c685e0aab7"
+    },
+    {
+      "path": "trend_comparison.json",
+      "bytes": 874155,
+      "sha256": "bc9da59a792e6238db0b5657fab26d7e866e8f4852a4bf9bd281058fa533fcad"
+    },
+    {
+      "path": "v2_trace_summary.json",
+      "bytes": 4501,
+      "sha256": "97e9ad7851fdc5524c04d0e5d5ed58a72b8b95a4e37afbd5595c213b656027ea"
+    },
+    {
+      "path": "v2_visible_timeline.json",
+      "bytes": 282736,
+      "sha256": "67cc06fc6ab6d117d62f4e635a012297f53e4a3ce0a6328ffd7f38f6b1fc88d5"
+    },
+    {
+      "path": "v4_trace_summary.json",
+      "bytes": 5706,
+      "sha256": "466d4f64c8c900f366ee67d52162246485e1d9b21d9f0f5c5605fb5db00e6133"
+    },
+    {
+      "path": "v4_visible_timeline.json",
+      "bytes": 252195,
+      "sha256": "3b5cf9b706516a0cdfb6b5b072a6961c311add3d46a20699a8217d1be928563b"
+    }
+  ],
+  "scope": "本次trace审计文件，独立于预评测工程包；不包含原始trace全文、推理正文或凭据。"
+}

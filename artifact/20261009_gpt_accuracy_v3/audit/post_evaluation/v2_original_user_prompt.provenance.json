@@ -1,0 +1,9 @@
+{
+  "source": "本地Codex v2聊天的原始user message，不含system/developer指令",
+  "session_id": "01a11ea2-3abe-7701-aa06-84f47d474d12",
+  "timestamp_utc": "2026-10-09T03:08:33.777Z",
+  "text_file": "v2_original_user_prompt.txt",
+  "sha256": "7b3d173022bda4aaf23a4fbb7f44412dd45994cc7a22faf28a7576ec72a2384c",
+  "edited": false,
+  "scope": "找回当时提示词；不是证明提示词独立贡献69.0354分"
+}

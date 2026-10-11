@@ -1,0 +1,249 @@
+{
+  "days": 78,
+  "events": 4249,
+  "included": 1964,
+  "nodes": [
+    {
+      "date": "2025.5.10",
+      "included": 25,
+      "excluded": 28,
+      "air_events": 16,
+      "ship_events": 9,
+      "air_quantity": 17,
+      "ship_quantity": 9,
+      "directions": {
+        "东海": 11,
+        "南海": 11,
+        "黄海": 3
+      },
+      "unknown_task": 1,
+      "trend": {
+        "country": "德国",
+        "platform": "“台风”多用途战斗机",
+        "dates": 5,
+        "stages": 3
+      },
+      "exclusion_reasons": {
+        "缺少无冲突网上舆论关联": 12,
+        "非三大核心海域，保留核验结果但排除日报": 9,
+        "缺少无冲突开源军情关联": 8,
+        "具体区域文本互冲突": 1,
+        "文本具体区域不能建立包含关系": 1,
+        "区域不足两类来源支持": 1,
+        "雷达区域冲突不能由连续性与两类文本共同消解": 2
+      }
+    },
+    {
+      "date": "2025.5.18",
+      "included": 27,
+      "excluded": 30,
+      "air_events": 14,
+      "ship_events": 13,
+      "air_quantity": 15,
+      "ship_quantity": 13,
+      "directions": {
+        "南海": 12,
+        "东海": 7,
+        "黄海": 8
+      },
+      "unknown_task": 1,
+      "trend": {
+        "country": "加拿大",
+        "platform": "哈里·德沃尔夫级近海巡逻舰",
+        "dates": 5,
+        "stages": 3
+      },
+      "exclusion_reasons": {
+        "缺少无冲突开源军情关联": 8,
+        "缺少无冲突网上舆论关联": 17,
+        "非三大核心海域，保留核验结果但排除日报": 9,
+        "具体区域文本互冲突": 1,
+        "文本具体区域不能建立包含关系": 1,
+        "区域不足两类来源支持": 1
+      }
+    },
+    {
+      "date": "2025.5.30",
+      "included": 28,
+      "excluded": 25,
+      "air_events": 16,
+      "ship_events": 12,
+      "air_quantity": 17,
+      "ship_quantity": 12,
+      "directions": {
+        "南海": 12,
+        "黄海": 5,
+        "东海": 11
+      },
+      "unknown_task": 0,
+      "trend": {
+        "country": "马来西亚",
+        "platform": "苏-30MKM多用途战斗机",
+        "dates": 9,
+        "stages": 3
+      },
+      "exclusion_reasons": {
+        "非三大核心海域，保留核验结果但排除日报": 11,
+        "缺少无冲突开源军情关联": 4,
+        "缺少无冲突网上舆论关联": 8,
+        "具体区域文本互冲突": 1,
+        "文本具体区域不能建立包含关系": 1,
+        "区域不足两类来源支持": 1,
+        "雷达区域冲突不能由连续性与两类文本共同消解": 2,
+        "活动起止时段不足两类来源支持": 1
+      }
+    },
+    {
+      "date": "2025.6.9",
+      "included": 27,
+      "excluded": 26,
+      "air_events": 16,
+      "ship_events": 11,
+      "air_quantity": 16,
+      "ship_quantity": 11,
+      "directions": {
+        "黄海": 9,
+        "东海": 6,
+        "南海": 12
+      },
+      "unknown_task": 0,
+      "trend": {
+        "country": "越南",
+        "platform": "苏-30MK2多用途战斗机",
+        "dates": 14,
+        "stages": 3
+      },
+      "exclusion_reasons": {
+        "非三大核心海域，保留核验结果但排除日报": 11,
+        "具体区域文本互冲突": 1,
+        "文本具体区域不能建立包含关系": 1,
+        "区域不足两类来源支持": 1,
+        "缺少无冲突网上舆论关联": 10,
+        "缺少无冲突开源军情关联": 3,
+        "雷达区域冲突不能由连续性与两类文本共同消解": 2,
+        "quantity不足两类来源支持": 1
+      }
+    },
+    {
+      "date": "2025.6.17",
+      "included": 26,
+      "excluded": 31,
+      "air_events": 13,
+      "ship_events": 13,
+      "air_quantity": 13,
+      "ship_quantity": 13,
+      "directions": {
+        "南海": 2,
+        "黄海": 13,
+        "东海": 11
+      },
+      "unknown_task": 1,
+      "trend": {
+        "country": "德国",
+        "platform": "“台风”多用途战斗机",
+        "dates": 21,
+        "stages": 3
+      },
+      "exclusion_reasons": {
+        "同一平台文本子证据被多个雷达事件竞争，不能唯一分配": 2,
+        "缺少无冲突开源军情关联": 8,
+        "缺少无冲突网上舆论关联": 14,
+        "非三大核心海域，保留核验结果但排除日报": 11
+      }
+    },
+    {
+      "date": "2025.6.29",
+      "included": 25,
+      "excluded": 28,
+      "air_events": 14,
+      "ship_events": 11,
+      "air_quantity": 14,
+      "ship_quantity": 11,
+      "directions": {
+        "南海": 10,
+        "黄海": 8,
+        "东海": 7
+      },
+      "unknown_task": 0,
+      "trend": {
+        "country": "韩国",
+        "platform": "P-8A“海神”反潜巡逻机",
+        "dates": 18,
+        "stages": 3
+      },
+      "exclusion_reasons": {
+        "非三大核心海域，保留核验结果但排除日报": 10,
+        "缺少无冲突网上舆论关联": 12,
+        "缺少无冲突开源军情关联": 6,
+        "具体区域文本互冲突": 1,
+        "文本具体区域不能建立包含关系": 1,
+        "区域不足两类来源支持": 1,
+        "雷达区域冲突不能由连续性与两类文本共同消解": 2
+      }
+    },
+    {
+      "date": "2025.7.9",
+      "included": 26,
+      "excluded": 26,
+      "air_events": 14,
+      "ship_events": 12,
+      "air_quantity": 15,
+      "ship_quantity": 12,
+      "directions": {
+        "南海": 4,
+        "黄海": 9,
+        "东海": 13
+      },
+      "unknown_task": 0,
+      "trend": {
+        "country": "新西兰",
+        "platform": "P-8A“海神”反潜巡逻机",
+        "dates": 22,
+        "stages": 3
+      },
+      "exclusion_reasons": {
+        "缺少无冲突网上舆论关联": 8,
+        "缺少无冲突开源军情关联": 6,
+        "非三大核心海域，保留核验结果但排除日报": 10,
+        "具体区域文本互冲突": 1,
+        "文本具体区域不能建立包含关系": 1,
+        "区域不足两类来源支持": 1,
+        "雷达区域冲突不能由连续性与两类文本共同消解": 2
+      }
+    },
+    {
+      "date": "2025.7.17",
+      "included": 28,
+      "excluded": 27,
+      "air_events": 15,
+      "ship_events": 13,
+      "air_quantity": 16,
+      "ship_quantity": 13,
+      "directions": {
+        "东海": 8,
+        "南海": 11,
+        "黄海": 9
+      },
+      "unknown_task": 0,
+      "trend": {
+        "country": "越南",
+        "platform": "苏-30MK2多用途战斗机",
+        "dates": 30,
+        "stages": 3
+      },
+      "exclusion_reasons": {
+        "非三大核心海域，保留核验结果但排除日报": 12,
+        "缺少无冲突开源军情关联": 7,
+        "缺少无冲突网上舆论关联": 11,
+        "轨迹存在同刻位置冲突或超过2400km/h跳变；不按点数投票": 1,
+        "活动起止时段不足两类来源支持": 1,
+        "具体区域文本互冲突": 1,
+        "文本具体区域不能建立包含关系": 1,
+        "区域不足两类来源支持": 1
+      }
+    }
+  ],
+  "seconds": 4.27,
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+  "os": "Windows-11-10.0.26200-SP0"
+}

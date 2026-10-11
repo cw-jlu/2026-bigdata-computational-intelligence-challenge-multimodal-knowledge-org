@@ -1,0 +1,38 @@
+{
+  "version": "20261009_gpt_accuracy_v3",
+  "comparison": "20261009_gpt_accuracy_v2",
+  "stage": "initial",
+  "nodes": [
+    "2025.5.10",
+    "2025.5.18",
+    "2025.5.30",
+    "2025.6.9",
+    "2025.6.17",
+    "2025.6.29",
+    "2025.7.9",
+    "2025.7.17"
+  ],
+  "data_start": "2025.5.1",
+  "data_cutoff": "2025.7.17",
+  "model": "deterministic local rules; no inference API",
+  "parameters": {
+    "air_anchor_branch_km": 80,
+    "jump_speed_kmh": 2400,
+    "same_time_km": 5,
+    "time_endpoint_tolerance_minutes": 5,
+    "line_gap_break_days": 15
+  },
+  "authoring_agent": "Codex GPT-6; API model snapshot not exposed",
+  "baseline_score": {
+    "completeness": 84.476,
+    "accuracy": 64.8389,
+    "format": 76.5391,
+    "analysis": 52.5,
+    "weighted_display_mean": 69.0354
+  },
+  "official_node_details": null,
+  "seed": 4601,
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+  "os": "Windows-11-10.0.26200-SP0",
+  "attribution": "No controlled prompt-only experiment; do not claim independent prompt effect or next-version score."
+}

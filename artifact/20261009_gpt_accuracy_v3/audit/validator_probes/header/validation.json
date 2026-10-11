@@ -1,0 +1,80 @@
+{
+  "ok": false,
+  "nodes": [
+    {
+      "date": "2025.5.10",
+      "ok": false,
+      "included": 25,
+      "errors": [
+        "列顺序错误:飞机"
+      ],
+      "format_checks": "文件、章节、表结构/原生日期/数值、PNG解析/数据/引用、DOCX章节日期、跨日日期/阶段",
+      "evidence_checks": "原文片段/原始行定位、来源种类、字段两源、子证据唯一性；不等于官方内容准确率"
+    },
+    {
+      "date": "2025.5.18",
+      "ok": true,
+      "included": 27,
+      "errors": [],
+      "format_checks": "文件、章节、表结构/原生日期/数值、PNG解析/数据/引用、DOCX章节日期、跨日日期/阶段",
+      "evidence_checks": "原文片段/原始行定位、来源种类、字段两源、子证据唯一性；不等于官方内容准确率"
+    },
+    {
+      "date": "2025.5.30",
+      "ok": true,
+      "included": 28,
+      "errors": [],
+      "format_checks": "文件、章节、表结构/原生日期/数值、PNG解析/数据/引用、DOCX章节日期、跨日日期/阶段",
+      "evidence_checks": "原文片段/原始行定位、来源种类、字段两源、子证据唯一性；不等于官方内容准确率"
+    },
+    {
+      "date": "2025.6.9",
+      "ok": true,
+      "included": 27,
+      "errors": [],
+      "format_checks": "文件、章节、表结构/原生日期/数值、PNG解析/数据/引用、DOCX章节日期、跨日日期/阶段",
+      "evidence_checks": "原文片段/原始行定位、来源种类、字段两源、子证据唯一性；不等于官方内容准确率"
+    },
+    {
+      "date": "2025.6.17",
+      "ok": true,
+      "included": 27,
+      "errors": [],
+      "format_checks": "文件、章节、表结构/原生日期/数值、PNG解析/数据/引用、DOCX章节日期、跨日日期/阶段",
+      "evidence_checks": "原文片段/原始行定位、来源种类、字段两源、子证据唯一性；不等于官方内容准确率"
+    },
+    {
+      "date": "2025.6.29",
+      "ok": true,
+      "included": 25,
+      "errors": [],
+      "format_checks": "文件、章节、表结构/原生日期/数值、PNG解析/数据/引用、DOCX章节日期、跨日日期/阶段",
+      "evidence_checks": "原文片段/原始行定位、来源种类、字段两源、子证据唯一性；不等于官方内容准确率"
+    },
+    {
+      "date": "2025.7.9",
+      "ok": true,
+      "included": 26,
+      "errors": [],
+      "format_checks": "文件、章节、表结构/原生日期/数值、PNG解析/数据/引用、DOCX章节日期、跨日日期/阶段",
+      "evidence_checks": "原文片段/原始行定位、来源种类、字段两源、子证据唯一性；不等于官方内容准确率"
+    },
+    {
+      "date": "2025.7.17",
+      "ok": true,
+      "included": 28,
+      "errors": [],
+      "format_checks": "文件、章节、表结构/原生日期/数值、PNG解析/数据/引用、DOCX章节日期、跨日日期/阶段",
+      "evidence_checks": "原文片段/原始行定位、来源种类、字段两源、子证据唯一性；不等于官方内容准确率"
+    }
+  ],
+  "zip": {
+    "path": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\audit\\validator_probes\\header\\日报_gpt_accuracy_v3.zip",
+    "files": null,
+    "errors": [
+      "节点校验失败，未创建提交ZIP"
+    ],
+    "sha256": null
+  },
+  "note": "仅结构、时间边界和证据链一致性；独立原始案例结果另存，二者均无官方重新评分"
+}

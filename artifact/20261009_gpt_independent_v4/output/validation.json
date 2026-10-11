@@ -1,0 +1,57 @@
+{
+  "ok": true,
+  "errors": [],
+  "nodes": [
+    {
+      "date": "2025.5.10",
+      "errors": [],
+      "included": 24,
+      "structural_checks": "DOCX/XLSX/PNG/日界/交叉合计/主线条件"
+    },
+    {
+      "date": "2025.5.18",
+      "errors": [],
+      "included": 19,
+      "structural_checks": "DOCX/XLSX/PNG/日界/交叉合计/主线条件"
+    },
+    {
+      "date": "2025.5.30",
+      "errors": [],
+      "included": 23,
+      "structural_checks": "DOCX/XLSX/PNG/日界/交叉合计/主线条件"
+    },
+    {
+      "date": "2025.6.9",
+      "errors": [],
+      "included": 24,
+      "structural_checks": "DOCX/XLSX/PNG/日界/交叉合计/主线条件"
+    },
+    {
+      "date": "2025.6.17",
+      "errors": [],
+      "included": 17,
+      "structural_checks": "DOCX/XLSX/PNG/日界/交叉合计/主线条件"
+    },
+    {
+      "date": "2025.6.29",
+      "errors": [],
+      "included": 22,
+      "structural_checks": "DOCX/XLSX/PNG/日界/交叉合计/主线条件"
+    },
+    {
+      "date": "2025.7.9",
+      "errors": [],
+      "included": 24,
+      "structural_checks": "DOCX/XLSX/PNG/日界/交叉合计/主线条件"
+    },
+    {
+      "date": "2025.7.17",
+      "errors": [],
+      "included": 22,
+      "structural_checks": "DOCX/XLSX/PNG/日界/交叉合计/主线条件"
+    }
+  ],
+  "zip_entries": 48,
+  "zip_sha256": "db718c7cdf686b7b70970bbecb265d6c75d65ee28b48e56d829da5eed7ab4176",
+  "limitation": "文件结构与内部一致性验证；不等于内容真值验证或官方评测。独立原始案例见audit/cases_final.json。"
+}

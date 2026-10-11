@@ -1,0 +1,842 @@
+{
+  "n": 46,
+  "passed": 46,
+  "failures": [],
+  "results": [
+    {
+      "id": "G01",
+      "category": "同型平台",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": true,
+      "actual_include": true,
+      "ok": true,
+      "field_errors": [],
+      "basis": "中国歼-10C；海南岛东南海域；08:03—10:28；战备警巡；1架",
+      "events": [
+        "2025.5.10-AIR-BAF8BCA0C55F92"
+      ],
+      "issues": {
+        "2025.5.10-AIR-BAF8BCA0C55F92": []
+      }
+    },
+    {
+      "id": "G02",
+      "category": "同型平台",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": true,
+      "actual_include": true,
+      "ok": true,
+      "field_errors": [],
+      "basis": "中国歼-10C；苏岩礁；08:41—10:06；战备警巡；1架",
+      "events": [
+        "2025.5.10-AIR-94408DEB623424"
+      ],
+      "issues": {
+        "2025.5.10-AIR-94408DEB623424": []
+      }
+    },
+    {
+      "id": "G03",
+      "category": "同型平台",
+      "expected_association": false,
+      "actual_association": false,
+      "expected_include": null,
+      "actual_include": false,
+      "ok": true,
+      "field_errors": [],
+      "basis": "开源海南东南与舆论东海不一致，不能因歼-10C同型合并",
+      "events": [],
+      "issues": {}
+    },
+    {
+      "id": "G04",
+      "category": "同型平台",
+      "expected_association": false,
+      "actual_association": false,
+      "expected_include": null,
+      "actual_include": false,
+      "ok": true,
+      "field_errors": [],
+      "basis": "开源苏岩礁与舆论海南东南不一致；活动起止时间不同",
+      "events": [],
+      "issues": {}
+    },
+    {
+      "id": "G05",
+      "category": "同型平台",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": true,
+      "actual_include": true,
+      "ok": true,
+      "field_errors": [],
+      "basis": "马来西亚A400M；钓鱼岛；远程兵力投送；14:55—16:20；舆论1架",
+      "events": [
+        "2025.5.10-AIR-A19EDC5BFA2976"
+      ],
+      "issues": {
+        "2025.5.10-AIR-A19EDC5BFA2976": []
+      }
+    },
+    {
+      "id": "G06",
+      "category": "同型平台",
+      "expected_association": false,
+      "actual_association": false,
+      "expected_include": null,
+      "actual_include": false,
+      "ok": true,
+      "field_errors": [],
+      "basis": "孟加拉湾搜救与东海投送不是同一事件",
+      "events": [],
+      "issues": {}
+    },
+    {
+      "id": "G07",
+      "category": "主体错配",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": false,
+      "actual_include": false,
+      "ok": true,
+      "field_errors": [],
+      "basis": "柯林斯级与长江口/东海吻合，但开源意大利与舆论/雷达澳大利亚冲突，不多数裁决",
+      "events": [
+        "2025.5.10-SHIP-30A046A0E6AFD2"
+      ],
+      "issues": {
+        "2025.5.10-SHIP-30A046A0E6AFD2": [
+          "关键字段country明确冲突：{'雷达': '澳大利亚', '开源军情': '意大利', '网上舆论': '澳大利亚'}"
+        ]
+      }
+    },
+    {
+      "id": "G08",
+      "category": "主体错配",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": false,
+      "actual_include": false,
+      "ok": true,
+      "field_errors": [],
+      "basis": "E-767济州岛；开源/雷达日本，舆论俄罗斯；保留身份冲突",
+      "events": [
+        "2025.5.10-AIR-4E92B86326A346"
+      ],
+      "issues": {
+        "2025.5.10-AIR-4E92B86326A346": [
+          "关键字段country明确冲突：{'雷达': '日本', '开源军情': '日本', '网上舆论': '俄罗斯'}"
+        ]
+      }
+    },
+    {
+      "id": "G09",
+      "category": "区域错配",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": false,
+      "actual_include": false,
+      "ok": true,
+      "field_errors": [],
+      "basis": "台湾经国号11:44—13:14对海突击；开源孟加拉湾，舆论安达曼海，雷达约88E15N；不得合票定区",
+      "events": [
+        "2025.5.10-AIR-3B6F61E3F12895"
+      ],
+      "issues": {
+        "2025.5.10-AIR-3B6F61E3F12895": [
+          "关键区域冲突：[{'source': '网上舆论', 'region': '安达曼海'}]"
+        ]
+      }
+    },
+    {
+      "id": "G10",
+      "category": "区域错配",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": false,
+      "actual_include": false,
+      "ok": true,
+      "field_errors": [],
+      "basis": "中国903A同一次08:08—10:33；两文本成山头黄海，雷达东海南部，无法消解",
+      "events": [
+        "2025.5.10-SHIP-1BEADE90A1114F"
+      ],
+      "issues": {
+        "2025.5.10-SHIP-1BEADE90A1114F": [
+          "关键区域冲突：[{'source': '雷达', 'region': '东海南部'}]"
+        ]
+      }
+    },
+    {
+      "id": "G11",
+      "category": "异常轨迹",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": false,
+      "actual_include": false,
+      "ok": true,
+      "field_errors": [],
+      "basis": "新加坡无敌20:42—22:07；雷达相同时刻南海与宁波并存，各7行，无坐标证明可删哪组",
+      "events": [
+        "2025.5.10-SHIP-C8D66FB15B8C0B"
+      ],
+      "issues": {
+        "2025.5.10-SHIP-C8D66FB15B8C0B": [
+          "雷达区域明确冲突：['南海', '宁波外海']",
+          "关键区域冲突：[{'source': '雷达', 'region': '南海'}]"
+        ]
+      }
+    },
+    {
+      "id": "G12",
+      "category": "异常轨迹",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": false,
+      "actual_include": false,
+      "ok": true,
+      "field_errors": [],
+      "basis": "056A连云港17:02—19:27；雷达同时东海与连云港并存，不能以首行东海填报",
+      "events": [
+        "2025.5.10-SHIP-F4B78A88D06154"
+      ],
+      "issues": {
+        "2025.5.10-SHIP-F4B78A88D06154": [
+          "雷达区域明确冲突：['东海', '连云港外海']",
+          "关键区域冲突：[{'source': '雷达', 'region': '东海'}]"
+        ]
+      }
+    },
+    {
+      "id": "G13",
+      "category": "文本冲突",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": false,
+      "actual_include": false,
+      "ok": true,
+      "field_errors": [],
+      "basis": "台湾P-3C14:46—16:16东海南部；开源1架，舆论2架，雷达1架",
+      "events": [
+        "2025.5.10-AIR-74BB12F6148F7E"
+      ],
+      "issues": {
+        "2025.5.10-AIR-74BB12F6148F7E": [
+          "关键字段quantity明确冲突：{'雷达': 1, '开源军情': 1, '网上舆论': 2}"
+        ]
+      }
+    },
+    {
+      "id": "G14",
+      "category": "文本冲突",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": false,
+      "actual_include": false,
+      "ok": true,
+      "field_errors": [],
+      "basis": "无敌级东海中部；开源18:12起，舆论19:17起，结束均19:42；明确起始冲突",
+      "events": [
+        "2025.5.10-SHIP-49592BAB51B8FF"
+      ],
+      "issues": {
+        "2025.5.10-SHIP-49592BAB51B8FF": [
+          "关键字段start明确冲突：{'雷达': 1092, '开源军情': 1092, '网上舆论': 1157}"
+        ]
+      }
+    },
+    {
+      "id": "G15",
+      "category": "文本冲突",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": false,
+      "actual_include": false,
+      "ok": true,
+      "field_errors": [],
+      "basis": "空警-600南康暗沙；开源空中警戒，舆论/雷达预警指挥；不可按型号默认任务",
+      "events": [
+        "2025.5.10-AIR-6A5EB9A4E1BBA4"
+      ],
+      "issues": {
+        "2025.5.10-AIR-6A5EB9A4E1BBA4": [
+          "关键字段task明确冲突：{'雷达': '预警指挥', '开源军情': '空中警戒', '网上舆论': '预警指挥'}"
+        ]
+      }
+    },
+    {
+      "id": "G16",
+      "category": "文本冲突",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": false,
+      "actual_include": false,
+      "ok": true,
+      "field_errors": [],
+      "basis": "德国台风黄岩岛；开源18:04—19:54，雷达17:29起，舆论17:29观察点；开源时段不可被投票替代",
+      "events": [
+        "2025.5.10-AIR-4A3B2D7C0D9623"
+      ],
+      "issues": {
+        "2025.5.10-AIR-4A3B2D7C0D9623": [
+          "关键字段start明确冲突：{'雷达': 1049, '开源军情': 1084}"
+        ]
+      }
+    },
+    {
+      "id": "G17",
+      "category": "合编拆分",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": true,
+      "actual_include": true,
+      "ok": true,
+      "field_errors": [],
+      "basis": "英国合编开源包含P-8A1架及RC-135W2架，舆论032仅P-8A；雷达P-8A20:09—22:34；只给P-8A使用",
+      "events": [
+        "2025.5.10-AIR-3B564DE1F3DD6D"
+      ],
+      "issues": {
+        "2025.5.10-AIR-3B564DE1F3DD6D": []
+      }
+    },
+    {
+      "id": "G18",
+      "category": "仅两源",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": false,
+      "actual_include": false,
+      "ok": true,
+      "field_errors": [],
+      "basis": "英国RC-135W2架在合编开源及雷达，舆论无该型号；不能挪用P-8A报道",
+      "events": [
+        "2025.5.10-AIR-093CB109918635"
+      ],
+      "issues": {
+        "2025.5.10-AIR-093CB109918635": [
+          "关键字段task不足两类来源支持",
+          "关键字段start不足两类来源支持",
+          "关键字段end不足两类来源支持",
+          "三类来源未全部关联，保留两源或单源候选"
+        ]
+      }
+    },
+    {
+      "id": "G19",
+      "category": "合编拆分",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": true,
+      "actual_include": true,
+      "ok": true,
+      "field_errors": [],
+      "basis": "日本合编开源明确P-1一架；舆论P-1；雷达05:07—07:32东海反潜；SH-60K不是P-1",
+      "events": [
+        "2025.5.10-AIR-AF10F9EBB9E18A"
+      ],
+      "issues": {
+        "2025.5.10-AIR-AF10F9EBB9E18A": []
+      }
+    },
+    {
+      "id": "G20",
+      "category": "仅两源",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": false,
+      "actual_include": false,
+      "ok": true,
+      "field_errors": [],
+      "basis": "合编开源SH-60K2架及雷达；无舆论SH-60K，不能套用P-1",
+      "events": [
+        "2025.5.10-AIR-730DC2A79E3FDD"
+      ],
+      "issues": {
+        "2025.5.10-AIR-730DC2A79E3FDD": [
+          "关键字段task不足两类来源支持",
+          "关键字段start不足两类来源支持",
+          "关键字段end不足两类来源支持",
+          "三类来源未全部关联，保留两源或单源候选"
+        ]
+      }
+    },
+    {
+      "id": "G21",
+      "category": "仅两源",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": false,
+      "actual_include": false,
+      "ok": true,
+      "field_errors": [],
+      "basis": "意大利F-35B与P-72A合编；舆论仅P-72A，F-35B缺舆论",
+      "events": [
+        "2025.5.10-AIR-B8FBF3CD333F7B"
+      ],
+      "issues": {
+        "2025.5.10-AIR-B8FBF3CD333F7B": [
+          "关键字段quantity不足两类来源支持",
+          "三类来源未全部关联，保留两源或单源候选"
+        ]
+      }
+    },
+    {
+      "id": "G22",
+      "category": "合编拆分",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": true,
+      "actual_include": true,
+      "ok": true,
+      "field_errors": [],
+      "basis": "意大利P-72A黄海中部02:49—04:14；情报监视侦察；舆论1架与雷达1架",
+      "events": [
+        "2025.5.10-AIR-9740CBEDE14968"
+      ],
+      "issues": {
+        "2025.5.10-AIR-9740CBEDE14968": []
+      }
+    },
+    {
+      "id": "G23",
+      "category": "边界口径",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": true,
+      "actual_include": true,
+      "ok": true,
+      "field_errors": [],
+      "basis": "新西兰奥特亚罗瓦；南海南部；例行部署；05:34—07:59；舆论/雷达1艘",
+      "events": [
+        "2025.5.10-SHIP-86AD1B85DCDEF3"
+      ],
+      "issues": {
+        "2025.5.10-SHIP-86AD1B85DCDEF3": []
+      }
+    },
+    {
+      "id": "G24",
+      "category": "边界口径",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": true,
+      "actual_include": true,
+      "ok": true,
+      "field_errors": [],
+      "basis": "澳大利亚安扎克；上海外海；02:16—04:41自由航行；舆论/雷达1艘",
+      "events": [
+        "2025.5.10-SHIP-0AB0D8C5EB8110"
+      ],
+      "issues": {
+        "2025.5.10-SHIP-0AB0D8C5EB8110": []
+      }
+    },
+    {
+      "id": "G25",
+      "category": "同型平台",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": true,
+      "actual_include": true,
+      "ok": true,
+      "field_errors": [],
+      "basis": "美国P-8A南海中部08:03—10:28联合巡逻，独立于纳土纳与北部湾活动",
+      "events": [
+        "2025.5.18-AIR-D99590FBECD5CC"
+      ],
+      "issues": {
+        "2025.5.18-AIR-D99590FBECD5CC": []
+      }
+    },
+    {
+      "id": "G26",
+      "category": "文本冲突",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": false,
+      "actual_include": false,
+      "ok": true,
+      "field_errors": [],
+      "basis": "北部湾11:28—12:58；开源1架，舆论2架，雷达1架",
+      "events": [
+        "2025.5.18-AIR-29EF65C15DBE99"
+      ],
+      "issues": {
+        "2025.5.18-AIR-29EF65C15DBE99": [
+          "关键字段quantity明确冲突：{'雷达': 1, '开源军情': 1, '网上舆论': 2}"
+        ]
+      }
+    },
+    {
+      "id": "G27",
+      "category": "主体错配",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": false,
+      "actual_include": false,
+      "ok": true,
+      "field_errors": [],
+      "basis": "空警-600济州岛20:00—21:30；开源中国，舆论台湾",
+      "events": [
+        "2025.5.18-AIR-0BB84A330134BA"
+      ],
+      "issues": {
+        "2025.5.18-AIR-0BB84A330134BA": [
+          "关键字段country明确冲突：{'雷达': '中国', '开源军情': '中国', '网上舆论': '台湾'}"
+        ]
+      }
+    },
+    {
+      "id": "G28",
+      "category": "异常轨迹",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": false,
+      "actual_include": false,
+      "ok": true,
+      "field_errors": [],
+      "basis": "韩国E-737北康暗沙与南海；雷达至少两组南海/黄海坐标，不能取中位数伪造位置",
+      "events": [
+        "2025.5.18-AIR-1CC2A2CC80B4D1"
+      ],
+      "issues": {
+        "2025.5.18-AIR-1CC2A2CC80B4D1": [
+          "雷达轨迹存在并行异地观测或不合理跳变，未能定位可独立删除的噪声行",
+          "关键区域冲突：[{'source': '雷达', 'reason': '轨迹与文本具体区域不相容'}]"
+        ]
+      }
+    },
+    {
+      "id": "G29",
+      "category": "异常轨迹",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": false,
+      "actual_include": false,
+      "ok": true,
+      "field_errors": [],
+      "basis": "菲律宾AW-15920:09—22:34长江口，雷达南海15N与东海31N并行",
+      "events": [
+        "2025.6.17-AIR-DF120E6AF82F7E"
+      ],
+      "issues": {
+        "2025.6.17-AIR-DF120E6AF82F7E": [
+          "雷达轨迹存在并行异地观测或不合理跳变，未能定位可独立删除的噪声行",
+          "关键字段task不足两类来源支持",
+          "关键区域冲突：[{'source': '雷达', 'reason': '轨迹与文本具体区域不相容'}]"
+        ]
+      }
+    },
+    {
+      "id": "G30",
+      "category": "主体错配",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": false,
+      "actual_include": false,
+      "ok": true,
+      "field_errors": [],
+      "basis": "福克50济州岛05:14—06:44；开源新加坡，舆论印度",
+      "events": [
+        "2025.6.17-AIR-1F7A5A767AA173"
+      ],
+      "issues": {
+        "2025.6.17-AIR-1F7A5A767AA173": [
+          "关键字段country明确冲突：{'雷达': '新加坡', '开源军情': '新加坡', '网上舆论': '印度'}"
+        ]
+      }
+    },
+    {
+      "id": "G31",
+      "category": "异常轨迹",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": false,
+      "actual_include": false,
+      "ok": true,
+      "field_errors": [],
+      "basis": "无侦-7东海17:35—19:00；雷达15N与29N并行，文本同意也不能隐藏轨迹冲突；原G31误用缺时间油气田文本，原始Excel时段重新人工核对后更正",
+      "events": [
+        "2025.7.17-AIR-CE2DA13274C502"
+      ],
+      "issues": {
+        "2025.7.17-AIR-CE2DA13274C502": [
+          "雷达轨迹存在并行异地观测或不合理跳变，未能定位可独立删除的噪声行",
+          "关键区域冲突：[{'source': '雷达', 'reason': '轨迹与文本具体区域不相容'}]"
+        ]
+      }
+    },
+    {
+      "id": "G32",
+      "category": "主体错配",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": false,
+      "actual_include": false,
+      "ok": true,
+      "field_errors": [],
+      "basis": "无侦-7东海南部20:00—21:30；开源中国，舆论台湾",
+      "events": [
+        "2025.7.17-AIR-815848C0A1257F"
+      ],
+      "issues": {
+        "2025.7.17-AIR-815848C0A1257F": [
+          "关键字段country明确冲突：{'雷达': '中国', '开源军情': '中国', '网上舆论': '台湾'}"
+        ]
+      }
+    },
+    {
+      "id": "G33",
+      "category": "留出时间冲突",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": false,
+      "actual_include": false,
+      "ok": true,
+      "field_errors": [],
+      "basis": "071东海北部结束均19:23；开源17:53起，舆论18:45起，不能直接多数投票",
+      "events": [
+        "2025.5.30-SHIP-18322D2B75D3A3"
+      ],
+      "issues": {
+        "2025.5.30-SHIP-18322D2B75D3A3": [
+          "关键字段start明确冲突：{'雷达': 1073, '开源军情': 1073, '网上舆论': 1125}"
+        ]
+      }
+    },
+    {
+      "id": "G34",
+      "category": "留出正常",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": true,
+      "actual_include": true,
+      "ok": true,
+      "field_errors": [],
+      "basis": "新西兰P-8A济州岛17:13—19:38联合巡逻；舆论/雷达1架",
+      "events": [
+        "2025.5.30-AIR-3504D0A15DE5CB"
+      ],
+      "issues": {
+        "2025.5.30-AIR-3504D0A15DE5CB": []
+      }
+    },
+    {
+      "id": "G35",
+      "category": "留出正常",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": true,
+      "actual_include": true,
+      "ok": true,
+      "field_errors": [],
+      "basis": "日本E-767曾母暗沙05:45—07:10预警指挥；舆论/雷达1架",
+      "events": [
+        "2025.5.30-AIR-65D7D93F9F027D"
+      ],
+      "issues": {
+        "2025.5.30-AIR-65D7D93F9F027D": []
+      }
+    },
+    {
+      "id": "G36",
+      "category": "留出正常",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": true,
+      "actual_include": true,
+      "ok": true,
+      "field_errors": [],
+      "basis": "澳大利亚柯林斯黄海中部17:24—19:49例行部署；开源/雷达1艘",
+      "events": [
+        "2025.5.30-SHIP-A313B909D0B466"
+      ],
+      "issues": {
+        "2025.5.30-SHIP-A313B909D0B466": []
+      }
+    },
+    {
+      "id": "G37",
+      "category": "留出合编",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": true,
+      "actual_include": true,
+      "ok": true,
+      "field_errors": [],
+      "basis": "法国大西洋2黄海中部20:09—22:34反潜；舆论1架，不能给同编E-2C",
+      "events": [
+        "2025.6.9-AIR-296F85D0C21B4E"
+      ],
+      "issues": {
+        "2025.6.9-AIR-296F85D0C21B4E": []
+      }
+    },
+    {
+      "id": "G38",
+      "category": "留出正常",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": true,
+      "actual_include": true,
+      "ok": true,
+      "field_errors": [],
+      "basis": "韩国岛山安昌浩海州湾02:16—04:41战备巡逻；开源/雷达1艘",
+      "events": [
+        "2025.6.9-SHIP-287E8E861699DC"
+      ],
+      "issues": {
+        "2025.6.9-SHIP-287E8E861699DC": []
+      }
+    },
+    {
+      "id": "G39",
+      "category": "留出异常",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": false,
+      "actual_include": false,
+      "ok": true,
+      "field_errors": [],
+      "basis": "中国093A舟山17:02—19:27远海训练；雷达南海/舟山两套不相容区域",
+      "events": [
+        "2025.6.9-SHIP-14EBF18869F04F"
+      ],
+      "issues": {
+        "2025.6.9-SHIP-14EBF18869F04F": [
+          "雷达区域明确冲突：['南海', '舟山外海']",
+          "关键区域冲突：[{'source': '雷达', 'region': '南海'}]"
+        ]
+      }
+    },
+    {
+      "id": "G40",
+      "category": "留出数量冲突",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": false,
+      "actual_include": false,
+      "ok": true,
+      "field_errors": [],
+      "basis": "意大利P-72A温州05:01—07:26；开源2架，舆论及雷达1架",
+      "events": [
+        "2025.6.29-AIR-DA502CEB047CB0"
+      ],
+      "issues": {
+        "2025.6.29-AIR-DA502CEB047CB0": [
+          "关键字段quantity明确冲突：{'雷达': 1, '开源军情': 2, '网上舆论': 1}"
+        ]
+      }
+    },
+    {
+      "id": "G41",
+      "category": "留出观测点",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": true,
+      "actual_include": true,
+      "ok": true,
+      "field_errors": [],
+      "basis": "印度MH-60R长江口；开源18:33为时点不当成起飞/完整活动起始；舆论和雷达17:29—19:54反潜，1架",
+      "events": [
+        "2025.6.29-AIR-48DC01049C8B5E"
+      ],
+      "issues": {
+        "2025.6.29-AIR-48DC01049C8B5E": []
+      }
+    },
+    {
+      "id": "G42",
+      "category": "留出正常",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": true,
+      "actual_include": true,
+      "ok": true,
+      "field_errors": [],
+      "basis": "韩国独岛长江口08:52—10:17编队警戒；开源/雷达1艘",
+      "events": [
+        "2025.6.29-SHIP-9FECD5E6A9B96A"
+      ],
+      "issues": {
+        "2025.6.29-SHIP-9FECD5E6A9B96A": []
+      }
+    },
+    {
+      "id": "G43",
+      "category": "留出正常",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": true,
+      "actual_include": true,
+      "ok": true,
+      "field_errors": [],
+      "basis": "中国903A西沙02:38—04:03海上补给训练；舆论/雷达1艘",
+      "events": [
+        "2025.7.9-SHIP-07BC21EE7E20DD"
+      ],
+      "issues": {
+        "2025.7.9-SHIP-07BC21EE7E20DD": []
+      }
+    },
+    {
+      "id": "G44",
+      "category": "留出单源字段",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": false,
+      "actual_include": false,
+      "ok": true,
+      "field_errors": [],
+      "basis": "山东号东海中部14:28—16:53三源关联，但两文本均未报艘数，不从单舰名称默认数量",
+      "events": [
+        "2025.7.9-SHIP-AF41F705A929BC"
+      ],
+      "issues": {
+        "2025.7.9-SHIP-AF41F705A929BC": [
+          "关键字段quantity不足两类来源支持"
+        ]
+      }
+    },
+    {
+      "id": "G45",
+      "category": "留出正常",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": true,
+      "actual_include": true,
+      "ok": true,
+      "field_errors": [],
+      "basis": "中国052C钓鱼岛20:20—22:45防空反导；开源/雷达1艘",
+      "events": [
+        "2025.7.9-SHIP-04B85D89354CC0"
+      ],
+      "issues": {
+        "2025.7.9-SHIP-04B85D89354CC0": []
+      }
+    },
+    {
+      "id": "G46",
+      "category": "留出主体错配",
+      "expected_association": true,
+      "actual_association": true,
+      "expected_include": false,
+      "actual_include": false,
+      "ok": true,
+      "field_errors": [],
+      "basis": "台风北黄海20:47—22:12；开源德国，舆论俄罗斯",
+      "events": [
+        "2025.7.9-AIR-709F52DB8C9C84"
+      ],
+      "issues": {
+        "2025.7.9-AIR-709F52DB8C9C84": [
+          "关键字段country明确冲突：{'雷达': '德国', '开源军情': '德国', '网上舆论': '俄罗斯'}"
+        ]
+      }
+    }
+  ],
+  "truth_provenance": "人工从原始文本正文和Excel行判读；生成程序不读取gold_cases；抽样非全量真值"
+}

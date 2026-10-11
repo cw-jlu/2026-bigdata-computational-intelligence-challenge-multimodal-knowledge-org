@@ -1,0 +1,116 @@
+[
+  {
+    "model": "GPT",
+    "archive": "GPT_初赛答案.zip",
+    "sha256": "34d9378397f247af1c71b6eaf33baee1db8d6f0e189db86eda54cfbae731cf55",
+    "bytes": 6227834,
+    "nodes": [
+      {
+        "node": "2025.5.10",
+        "air_rows": 20,
+        "ship_rows": 10,
+        "explicit_chart_refs": false
+      },
+      {
+        "node": "2025.5.18",
+        "air_rows": 19,
+        "ship_rows": 19,
+        "explicit_chart_refs": false
+      },
+      {
+        "node": "2025.5.30",
+        "air_rows": 19,
+        "ship_rows": 15,
+        "explicit_chart_refs": false
+      },
+      {
+        "node": "2025.6.9",
+        "air_rows": 19,
+        "ship_rows": 17,
+        "explicit_chart_refs": false
+      },
+      {
+        "node": "2025.6.17",
+        "air_rows": 18,
+        "ship_rows": 15,
+        "explicit_chart_refs": false
+      },
+      {
+        "node": "2025.6.29",
+        "air_rows": 17,
+        "ship_rows": 15,
+        "explicit_chart_refs": false
+      },
+      {
+        "node": "2025.7.9",
+        "air_rows": 16,
+        "ship_rows": 15,
+        "explicit_chart_refs": false
+      },
+      {
+        "node": "2025.7.17",
+        "air_rows": 19,
+        "ship_rows": 16,
+        "explicit_chart_refs": false
+      }
+    ],
+    "files": 48
+  },
+  {
+    "model": "Claude",
+    "archive": "Claude_初赛答案.zip",
+    "sha256": "7fb42003e406a622bb268e96466857398b657eba65683c994cf9d9bfad4fc034",
+    "bytes": 14295679,
+    "nodes": [
+      {
+        "node": "2025.5.10",
+        "air_rows": 23,
+        "ship_rows": 16,
+        "explicit_chart_refs": true
+      },
+      {
+        "node": "2025.5.18",
+        "air_rows": 19,
+        "ship_rows": 22,
+        "explicit_chart_refs": true
+      },
+      {
+        "node": "2025.5.30",
+        "air_rows": 22,
+        "ship_rows": 17,
+        "explicit_chart_refs": true
+      },
+      {
+        "node": "2025.6.9",
+        "air_rows": 20,
+        "ship_rows": 20,
+        "explicit_chart_refs": true
+      },
+      {
+        "node": "2025.6.17",
+        "air_rows": 21,
+        "ship_rows": 23,
+        "explicit_chart_refs": true
+      },
+      {
+        "node": "2025.6.29",
+        "air_rows": 20,
+        "ship_rows": 20,
+        "explicit_chart_refs": true
+      },
+      {
+        "node": "2025.7.9",
+        "air_rows": 21,
+        "ship_rows": 18,
+        "explicit_chart_refs": true
+      },
+      {
+        "node": "2025.7.17",
+        "air_rows": 20,
+        "ship_rows": 21,
+        "explicit_chart_refs": true
+      }
+    ],
+    "files": 48
+  }
+]

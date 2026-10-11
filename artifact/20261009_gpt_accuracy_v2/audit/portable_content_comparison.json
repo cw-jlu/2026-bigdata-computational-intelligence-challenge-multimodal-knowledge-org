@@ -1,0 +1,86 @@
+{
+  "ok": true,
+  "checks": [
+    {
+      "mode": "portable_reproduction",
+      "date": "2025.5.10",
+      "cell_values_equal": true
+    },
+    {
+      "mode": "portable_reproduction",
+      "date": "2025.5.18",
+      "cell_values_equal": true
+    },
+    {
+      "mode": "portable_reproduction",
+      "date": "2025.5.30",
+      "cell_values_equal": true
+    },
+    {
+      "mode": "portable_reproduction",
+      "date": "2025.6.9",
+      "cell_values_equal": true
+    },
+    {
+      "mode": "portable_reproduction",
+      "date": "2025.6.17",
+      "cell_values_equal": true
+    },
+    {
+      "mode": "portable_reproduction",
+      "date": "2025.6.29",
+      "cell_values_equal": true
+    },
+    {
+      "mode": "portable_reproduction",
+      "date": "2025.7.9",
+      "cell_values_equal": true
+    },
+    {
+      "mode": "portable_reproduction",
+      "date": "2025.7.17",
+      "cell_values_equal": true
+    },
+    {
+      "mode": "clean_reproduction",
+      "date": "2025.5.10",
+      "cell_values_equal": true
+    },
+    {
+      "mode": "clean_reproduction",
+      "date": "2025.5.18",
+      "cell_values_equal": true
+    },
+    {
+      "mode": "clean_reproduction",
+      "date": "2025.5.30",
+      "cell_values_equal": true
+    },
+    {
+      "mode": "clean_reproduction",
+      "date": "2025.6.9",
+      "cell_values_equal": true
+    },
+    {
+      "mode": "clean_reproduction",
+      "date": "2025.6.17",
+      "cell_values_equal": true
+    },
+    {
+      "mode": "clean_reproduction",
+      "date": "2025.6.29",
+      "cell_values_equal": true
+    },
+    {
+      "mode": "clean_reproduction",
+      "date": "2025.7.9",
+      "cell_values_equal": true
+    },
+    {
+      "mode": "clean_reproduction",
+      "date": "2025.7.17",
+      "cell_values_equal": true
+    }
+  ],
+  "note": "Compare all two-sheet cell values and dates, not byte identity or font metrics."
+}

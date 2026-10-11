@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-10-09T04:05:15.402984+00:00",
+  "official_re_evaluation": null,
+  "structural_validation": true,
+  "raw_case_development": [
+    28,
+    28
+  ],
+  "raw_case_cross_node_regression": [
+    14,
+    14
+  ],
+  "invariance_checks": 16,
+  "visual_pages": 71,
+  "workbook_native_previews": 16,
+  "visual_human_review": "All 8 reports reviewed via page contact images; all 16 native sheet previews reviewed. Focus: Chinese glyphs, headings, indexes, 4 chart references, plot labels, table breaks. Preview sheets show first 4 data rows; full workbook cell checks cover all rows.",
+  "renderer_fallback": "Skill render_docx.py failed because LibreOffice executable unavailable; used installed Microsoft Word read-only hidden native PDF export. QA PDFs excluded from submission.",
+  "artifact_renderer_limit": "Artifact-tool preview prints Excel date serials despite saved yyyy.mm.dd format. Native Excel display and openpyxl date type verified separately.",
+  "portable_content_equal": true,
+  "clean_venv_all_eight_from_original": true,
+  "clean_raw_snapshot_and_events_sha_equal": true,
+  "submission_zip_sha256": "728086a59f3259463737abdc3786e926fc2f4b5f7c4b8663db74a2e67fa8f6a4"
+}

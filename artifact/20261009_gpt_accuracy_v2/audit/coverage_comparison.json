@@ -1,0 +1,201 @@
+{
+  "comparison": [
+    {
+      "date": "2025.5.10",
+      "old": 30,
+      "new": 25,
+      "common_batches": 21,
+      "added_batches": [
+        "SHIP-15B9B4C8E8B877",
+        "SHIP-2C32CD0ACCDDF9",
+        "SHIP-73A935AD1853F9",
+        "SHIP-82FA3EBD366A15"
+      ],
+      "removed_batches": [
+        "AIR-4A3B2D7C0D9623",
+        "AIR-6A5EB9A4E1BBA4",
+        "AIR-74BB12F6148F7E",
+        "AIR-B6C9E77C360E6A",
+        "SHIP-1BEADE90A1114F",
+        "SHIP-49592BAB51B8FF",
+        "SHIP-5800315760D819",
+        "SHIP-C8D66FB15B8C0B",
+        "SHIP-F4B78A88D06154"
+      ],
+      "old_shared_open_claim_extra_uses": 4,
+      "note": "Batch IDs used solely to compare coverage in the same original radar input. TXT numbering never establishes an association. Shared articles with explicit different platform claims can be legitimate."
+    },
+    {
+      "date": "2025.5.18",
+      "old": 38,
+      "new": 27,
+      "common_batches": 25,
+      "added_batches": [
+        "SHIP-83DAA2F986F46C",
+        "SHIP-8D9B5F7E41B14D"
+      ],
+      "removed_batches": [
+        "AIR-0BB84A330134BA",
+        "AIR-29EF65C15DBE99",
+        "AIR-9125036AEE9867",
+        "AIR-BE3780862F2DCA",
+        "AIR-F65410B0AC4C76",
+        "SHIP-2CB42F45109B02",
+        "SHIP-335325F70F9A35",
+        "SHIP-4A19EA6EBB6E9E",
+        "SHIP-5F1EE3F233B19C",
+        "SHIP-884B9FDF8B5293",
+        "SHIP-975AD9119397C2",
+        "SHIP-C03A621330B4A9",
+        "SHIP-ECABEF995CFE86"
+      ],
+      "old_shared_open_claim_extra_uses": 8,
+      "note": "Batch IDs used solely to compare coverage in the same original radar input. TXT numbering never establishes an association. Shared articles with explicit different platform claims can be legitimate."
+    },
+    {
+      "date": "2025.5.30",
+      "old": 34,
+      "new": 28,
+      "common_batches": 27,
+      "added_batches": [
+        "SHIP-27AE7EADC24E03"
+      ],
+      "removed_batches": [
+        "AIR-27506392432473",
+        "AIR-431A72D43B6954",
+        "AIR-C79BCBFCEFACE4",
+        "SHIP-18322D2B75D3A3",
+        "SHIP-50DEAE54E8E30A",
+        "SHIP-87176024CF1FDE",
+        "SHIP-E27DEB93400F28"
+      ],
+      "old_shared_open_claim_extra_uses": 2,
+      "note": "Batch IDs used solely to compare coverage in the same original radar input. TXT numbering never establishes an association. Shared articles with explicit different platform claims can be legitimate."
+    },
+    {
+      "date": "2025.6.9",
+      "old": 36,
+      "new": 27,
+      "common_batches": 26,
+      "added_batches": [
+        "SHIP-F2257ED1CF6CA7"
+      ],
+      "removed_batches": [
+        "AIR-94CC329D509E69",
+        "AIR-A51447E2C5AE1A",
+        "AIR-A9244545E6DD8D",
+        "SHIP-14EBF18869F04F",
+        "SHIP-6D593116A218CB",
+        "SHIP-76034BECD2919C",
+        "SHIP-8A5D13EC1839D7",
+        "SHIP-E33E3658B144DE",
+        "SHIP-F8F3BB43223514",
+        "SHIP-FBC8E7D237E840"
+      ],
+      "old_shared_open_claim_extra_uses": 5,
+      "note": "Batch IDs used solely to compare coverage in the same original radar input. TXT numbering never establishes an association. Shared articles with explicit different platform claims can be legitimate."
+    },
+    {
+      "date": "2025.6.17",
+      "old": 33,
+      "new": 26,
+      "common_batches": 23,
+      "added_batches": [
+        "SHIP-37F0DC0E1C2114",
+        "SHIP-932B6CB6E2A973",
+        "SHIP-E59D72A33681DD"
+      ],
+      "removed_batches": [
+        "AIR-17B15F5CA30ADA",
+        "AIR-22F9D447BC6296",
+        "AIR-BA57F7CF76AF25",
+        "AIR-DB9F5F5EF69DB6",
+        "AIR-EE80F16DB64B1B",
+        "SHIP-3205CA1909117F",
+        "SHIP-4DE07DDA3387B2",
+        "SHIP-661BC167C793B1",
+        "SHIP-92F6D3EBF6B8B2",
+        "SHIP-BD5FB1BA46D6A0"
+      ],
+      "old_shared_open_claim_extra_uses": 5,
+      "note": "Batch IDs used solely to compare coverage in the same original radar input. TXT numbering never establishes an association. Shared articles with explicit different platform claims can be legitimate."
+    },
+    {
+      "date": "2025.6.29",
+      "old": 32,
+      "new": 25,
+      "common_batches": 22,
+      "added_batches": [
+        "SHIP-34431C793FE395",
+        "SHIP-47A3B67005F4C1",
+        "SHIP-F074EEF8CFC29A"
+      ],
+      "removed_batches": [
+        "AIR-462A403DF8FE9B",
+        "AIR-DA502CEB047CB0",
+        "AIR-EA34EFEF9C07D8",
+        "SHIP-33B00ABB1CE0AB",
+        "SHIP-6351219F599C74",
+        "SHIP-823655A092A8CA",
+        "SHIP-AFE87B3F4B6179",
+        "SHIP-B8766A82FF9DDD",
+        "SHIP-D733D22CC56C31",
+        "SHIP-EB154FC54B0909"
+      ],
+      "old_shared_open_claim_extra_uses": 4,
+      "note": "Batch IDs used solely to compare coverage in the same original radar input. TXT numbering never establishes an association. Shared articles with explicit different platform claims can be legitimate."
+    },
+    {
+      "date": "2025.7.9",
+      "old": 31,
+      "new": 26,
+      "common_batches": 22,
+      "added_batches": [
+        "AIR-70BEFDDCEA7515",
+        "AIR-790C13D3E12D8D",
+        "SHIP-720A50A3E075BD",
+        "SHIP-CBF728BABB4814"
+      ],
+      "removed_batches": [
+        "AIR-14DB49CF1F0211",
+        "AIR-5A676A5A746D09",
+        "AIR-7737E779E0E243",
+        "AIR-F6221CE6071BEC",
+        "SHIP-0390E289E30A05",
+        "SHIP-3E467C17557B6A",
+        "SHIP-665E4DD858ADEA",
+        "SHIP-8C1D76C3522DFD",
+        "SHIP-BEA32617933D00"
+      ],
+      "old_shared_open_claim_extra_uses": 2,
+      "note": "Batch IDs used solely to compare coverage in the same original radar input. TXT numbering never establishes an association. Shared articles with explicit different platform claims can be legitimate."
+    },
+    {
+      "date": "2025.7.17",
+      "old": 35,
+      "new": 28,
+      "common_batches": 27,
+      "added_batches": [
+        "SHIP-E2BA747DD74622"
+      ],
+      "removed_batches": [
+        "AIR-03D99EFF28BDEC",
+        "AIR-58202E0AB4129F",
+        "AIR-69504F0974036C",
+        "AIR-815848C0A1257F",
+        "SHIP-07F6F604E29A9D",
+        "SHIP-3CF1D57062A07E",
+        "SHIP-4EA159FB703185",
+        "SHIP-C2CB581231F8BD"
+      ],
+      "old_shared_open_claim_extra_uses": 4,
+      "note": "Batch IDs used solely to compare coverage in the same original radar input. TXT numbering never establishes an association. Shared articles with explicit different platform claims can be legitimate."
+    }
+  ],
+  "total_old": 269,
+  "total_new": 212,
+  "newly_added": 19,
+  "removed": 76,
+  "same_time_same_area_additional_conflict_flags": [],
+  "limits": "Exact-window scan of extracted claims can miss unparsed text, broad-place ambiguity and partial-window contradictions; the manual raw cases remain separate. This is not an accuracy estimate."
+}

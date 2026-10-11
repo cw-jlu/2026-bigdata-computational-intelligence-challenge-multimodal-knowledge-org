@@ -1,0 +1,7 @@
+{"ok": false, "errors": [{"date": "2025.5.10", "errors": ["列顺序错误:飞机"]}], "zip_errors": ["节点校验失败，未创建提交ZIP"]}
+{"ok": false, "errors": [{"date": "2025.5.10", "errors": ["日期不是原生日期/非当日:飞机", "明细字段与核验事实包不一致:飞机"]}], "zip_errors": ["节点校验失败，未创建提交ZIP"]}
+{"ok": false, "errors": [{"date": "2025.5.10", "errors": ["侦巡曲线数量不符"]}], "zip_errors": ["节点校验失败，未创建提交ZIP"]}
+{"ok": false, "errors": [{"date": "2025.5.10", "errors": ["活动图字段与事件不符"]}], "zip_errors": ["节点校验失败，未创建提交ZIP"]}
+{"ok": false, "errors": [{"date": "2025.5.10", "errors": ["主线使用未来信息"]}], "zip_errors": ["节点校验失败，未创建提交ZIP"]}
+{"ok": false, "errors": [{"date": "2025.5.10", "errors": ["正文未引用附图4"]}], "zip_errors": ["节点校验失败，未创建提交ZIP"]}
+probes complete

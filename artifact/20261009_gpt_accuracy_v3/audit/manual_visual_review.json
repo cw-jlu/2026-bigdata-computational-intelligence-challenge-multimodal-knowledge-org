@@ -1,0 +1,374 @@
+{
+  "reviewer": "Codex，使用view_image人工视觉检查；不是OCR结果替代人工检查",
+  "scope": {
+    "docx_files": 8,
+    "docx_pages": 69,
+    "docx_review": "全部页联系图逐页检查，另查看所列4页完整放大图；不声称逐字校对69页每个像素",
+    "xlsx_files": 8,
+    "xlsx_used_ranges": 16,
+    "xlsx_pdf_pages": 22,
+    "xlsx_data_rows": 213,
+    "xlsx_review": "全部16个完整范围联系图（含分页尾行）检查，另查看所列4页完整放大图；读取所有单元格另由独立结构校验执行",
+    "png_files": 32,
+    "png_review": "32张独立原图逐张查看日期、文字、图例、数量与空组说明"
+  },
+  "reviewed_contacts": [
+    {
+      "file": "audit/docx_visual_release/2025.5.10/report_contact_1.png",
+      "sha256": "a9bf5173b5bd514e74749f6fda99063e33c274c63f102031ad5f8b5f01ef7e75"
+    },
+    {
+      "file": "audit/docx_visual_release/2025.5.10/report_contact_2.png",
+      "sha256": "6c2c33a2cf6ac7b93e6d30a038a81c7a2ee4e01758bb8fdb26754e07dbdd8f5d"
+    },
+    {
+      "file": "audit/docx_visual_release/2025.5.10/report_contact_3.png",
+      "sha256": "93a034afd771c731a6b8c164230dd051c11aa5543e129f8a7806c560c8c6732a"
+    },
+    {
+      "file": "audit/docx_visual_release/2025.5.18/report_contact_1.png",
+      "sha256": "00c4db1638e7e7b2a89d29aaaf8b310aeae3f1a541ef5e98b78a66d092f930c0"
+    },
+    {
+      "file": "audit/docx_visual_release/2025.5.18/report_contact_2.png",
+      "sha256": "b8a475df9f833248f47d203a50a7a8d4cbf0266e93d4beaca151118c4a2efdf5"
+    },
+    {
+      "file": "audit/docx_visual_release/2025.5.18/report_contact_3.png",
+      "sha256": "07b0a7ad30278b6fb1b20dc84cc34cff02bf092c19d108de5b90d693fca0fb01"
+    },
+    {
+      "file": "audit/docx_visual_release/2025.5.30/report_contact_1.png",
+      "sha256": "9f1145b82664e085ff39dab8514005b6fd6c96f972ad0881a51816bca2329656"
+    },
+    {
+      "file": "audit/docx_visual_release/2025.5.30/report_contact_2.png",
+      "sha256": "a58325a54a57d8cac131e529850fdd22a871b3d552c5d9dbcbe28206a4dfcb63"
+    },
+    {
+      "file": "audit/docx_visual_release/2025.5.30/report_contact_3.png",
+      "sha256": "059dab4ec4e97ec5d55a64bb2755efd4e27766a80ab930066a3e38266dc4256a"
+    },
+    {
+      "file": "audit/docx_visual_release/2025.6.17/report_contact_1.png",
+      "sha256": "f2294ae6946203eac3297a6a965394909942abdaec77d62fb446aa3073261735"
+    },
+    {
+      "file": "audit/docx_visual_release/2025.6.17/report_contact_2.png",
+      "sha256": "6abdaa91ebc2685f6249f52bb7d868716e973c0f8118a547c57fdac39da478bc"
+    },
+    {
+      "file": "audit/docx_visual_release/2025.6.17/report_contact_3.png",
+      "sha256": "c67d69d083c228a1c69c542db11cf90f794ca207854c9846c0a64ca7367d7871"
+    },
+    {
+      "file": "audit/docx_visual_release/2025.6.29/report_contact_1.png",
+      "sha256": "64c312c75e5dc07ba68cdf6f05f40ef6a59a8b0decf0d5b87c1a3c226375fc2d"
+    },
+    {
+      "file": "audit/docx_visual_release/2025.6.29/report_contact_2.png",
+      "sha256": "ea167786489ae90dea7c9dd42263e4c9965f23c8a19f09b0c89ac81318053f4b"
+    },
+    {
+      "file": "audit/docx_visual_release/2025.6.9/report_contact_1.png",
+      "sha256": "2c02a0656ca6569ecb2a6b61fa407d6215d199b22e9e8e65540a0b1370d43c49"
+    },
+    {
+      "file": "audit/docx_visual_release/2025.6.9/report_contact_2.png",
+      "sha256": "c5f2188dc446d329f25473941481d0b0a7c06f01f2a53806a6e585a5a0a96b88"
+    },
+    {
+      "file": "audit/docx_visual_release/2025.7.17/report_contact_1.png",
+      "sha256": "d558abc25325d11ed69e2908d3d07eb14ad3aaf0c4d18d41f07f86f66cf460ce"
+    },
+    {
+      "file": "audit/docx_visual_release/2025.7.17/report_contact_2.png",
+      "sha256": "48ce98ea95bf46265f269dda8272a829b53acffd36fff52af81b200e8e9bc0eb"
+    },
+    {
+      "file": "audit/docx_visual_release/2025.7.17/report_contact_3.png",
+      "sha256": "1ae649abaa88fdf34f88c2f734a867a2fd13ccc2fadbb30f005d7d8155305af4"
+    },
+    {
+      "file": "audit/docx_visual_release/2025.7.9/report_contact_1.png",
+      "sha256": "995fae27df5954735efbe994e2956e1228d1c97574589805c4827954d5bff99f"
+    },
+    {
+      "file": "audit/docx_visual_release/2025.7.9/report_contact_2.png",
+      "sha256": "b083f1c3033e6c6e4d006d2253c0270bccfef75ff346a22d59eecbbada33fab8"
+    },
+    {
+      "file": "audit/xlsx_native/2025.5.10_舰艇_contact_1.png",
+      "sha256": "e2232227d2e15e892daa7e619982c9becf97483fa15f3156e14711bc93b73d48"
+    },
+    {
+      "file": "audit/xlsx_native/2025.5.10_飞机_contact_1.png",
+      "sha256": "295a3cc4c6ad9a33248e7f26d3dcf653775f0093fe6ef30a1ca6ba57f067beeb"
+    },
+    {
+      "file": "audit/xlsx_native/2025.5.18_舰艇_contact_1.png",
+      "sha256": "4fffcd0b3efdd119291cf47c939db339407e534d8775cbcad9b2820b616c856d"
+    },
+    {
+      "file": "audit/xlsx_native/2025.5.18_飞机_contact_1.png",
+      "sha256": "351b03f5125a1eced6dfeb31807637bbf59e2c67fc8ba54e5e18cc5480f68b76"
+    },
+    {
+      "file": "audit/xlsx_native/2025.5.30_舰艇_contact_1.png",
+      "sha256": "2f74c6bd1205a18f6cba09e8c90bc21d5fa47c792d49aa1f5597e4fab8be14f8"
+    },
+    {
+      "file": "audit/xlsx_native/2025.5.30_飞机_contact_1.png",
+      "sha256": "07ccd3d1bf4ec6c7925f223b58d0ec2d917aa7778bed6ea1d65cf4614b42738d"
+    },
+    {
+      "file": "audit/xlsx_native/2025.6.17_舰艇_contact_1.png",
+      "sha256": "3033ce36176f04475ac14f035b144c9e8e9e7f0160c0adadfa517da75d44ddbe"
+    },
+    {
+      "file": "audit/xlsx_native/2025.6.17_飞机_contact_1.png",
+      "sha256": "ad8bc107f95a11703692603645ef00993a77c3a58d980efb93f442387e057014"
+    },
+    {
+      "file": "audit/xlsx_native/2025.6.29_舰艇_contact_1.png",
+      "sha256": "47e4658f7e7181e5ec779366563369d6057cb788f2d89d850b83409ed47310d1"
+    },
+    {
+      "file": "audit/xlsx_native/2025.6.29_飞机_contact_1.png",
+      "sha256": "0b261119224e9cadafd5b18e93089591699cb030c4cba4ed6def3ad0bd67cf6a"
+    },
+    {
+      "file": "audit/xlsx_native/2025.6.9_舰艇_contact_1.png",
+      "sha256": "f47eb942aa8ccad5bd0624eada81b3ec68464be0bb9ed5ec25a4872e940a7eb2"
+    },
+    {
+      "file": "audit/xlsx_native/2025.6.9_飞机_contact_1.png",
+      "sha256": "7ec821a29548cbcc4f8818262889455b07a352e92c955db43cdb575046ce64b4"
+    },
+    {
+      "file": "audit/xlsx_native/2025.7.17_舰艇_contact_1.png",
+      "sha256": "c25e5630fb640b0de501a3fcc3d7b4a4041e20380b2a7af1000c2ec999428899"
+    },
+    {
+      "file": "audit/xlsx_native/2025.7.17_飞机_contact_1.png",
+      "sha256": "8d37222f07071949d06a6d8d2fe41746d09d90bcbf0b280fb994c7ddf35df64c"
+    },
+    {
+      "file": "audit/xlsx_native/2025.7.9_舰艇_contact_1.png",
+      "sha256": "b18ee6cbb5e91b09b8477ca59163190d88c591020b9f5830408113eb3a2939b4"
+    },
+    {
+      "file": "audit/xlsx_native/2025.7.9_飞机_contact_1.png",
+      "sha256": "803fbba7c50e7d555b5590ca0dae5899b0b2d2f381f7e85274e63f7246236e67"
+    }
+  ],
+  "reviewed_original_figures": [
+    {
+      "file": "output/日报/2025.5.10/附件图表/01_舰机侦巡数量曲线图.png",
+      "sha256": "7de05f78eb517595e677af736875eb338eb8b6aa117722d06f6fd08f69e16ed1"
+    },
+    {
+      "file": "output/日报/2025.5.10/附件图表/02_中国主要机舰活动示意图.png",
+      "sha256": "2814bafb7e897c7459f1b77a1fb694b8dda4608e3b053dad33a349292cdaf11b"
+    },
+    {
+      "file": "output/日报/2025.5.10/附件图表/03_美国主要机舰活动示意图.png",
+      "sha256": "61110c07e8119326b460bacac88f9b2f93905af91903d4957044cf133d49250f"
+    },
+    {
+      "file": "output/日报/2025.5.10/附件图表/04_其他国家主要机舰活动示意图.png",
+      "sha256": "ebfcd8d6678eca52c35191ba80bcb47b54b13c3bd3fafcca79943b73c9b935b5"
+    },
+    {
+      "file": "output/日报/2025.5.18/附件图表/01_舰机侦巡数量曲线图.png",
+      "sha256": "337e8dba3e4920403236caf1f36672151413a3488da3ed09dc2abc80efdda08c"
+    },
+    {
+      "file": "output/日报/2025.5.18/附件图表/02_中国主要机舰活动示意图.png",
+      "sha256": "8c302e3989950136a04fb3707c84d509e3d96f2af6e69ca97a616faf2a6b600e"
+    },
+    {
+      "file": "output/日报/2025.5.18/附件图表/03_美国主要机舰活动示意图.png",
+      "sha256": "0e2ca75161a55e89a0b0891789bb42dcf2ceb95519755d0b2402e833ae579140"
+    },
+    {
+      "file": "output/日报/2025.5.18/附件图表/04_其他国家主要机舰活动示意图.png",
+      "sha256": "1912f8b8a2b011d825f7a15cb87e191474670426d0a40ba07f9a8866b95d6a71"
+    },
+    {
+      "file": "output/日报/2025.5.30/附件图表/01_舰机侦巡数量曲线图.png",
+      "sha256": "2036de7839fe94b4dab746d81945776ab5a754d6e158de082b2e44645194edff"
+    },
+    {
+      "file": "output/日报/2025.5.30/附件图表/02_中国主要机舰活动示意图.png",
+      "sha256": "60b4bbdff71996cf0ac41d57457a965375c6e4fa6090bc546fd21621206cfa4b"
+    },
+    {
+      "file": "output/日报/2025.5.30/附件图表/03_美国主要机舰活动示意图.png",
+      "sha256": "64b68fa62165308f542b517d3b13b25ba6a1d68383a2bc4383d250cab83ba307"
+    },
+    {
+      "file": "output/日报/2025.5.30/附件图表/04_其他国家主要机舰活动示意图.png",
+      "sha256": "1534cdb492ae1de9d4f42cbef4c58270140fb4bd20968275306c40749415a0e3"
+    },
+    {
+      "file": "output/日报/2025.6.17/附件图表/01_舰机侦巡数量曲线图.png",
+      "sha256": "0dfc7c45b35df9a2d1f16f9b1fe4c1ca931c0f766d2852d937e371d3168a32d6"
+    },
+    {
+      "file": "output/日报/2025.6.17/附件图表/02_中国主要机舰活动示意图.png",
+      "sha256": "c7b77e3decbca2e4dd2fd9b3a153e4b9a10b5d7fe37b9b0cb9b6dec753f13964"
+    },
+    {
+      "file": "output/日报/2025.6.17/附件图表/03_美国主要机舰活动示意图.png",
+      "sha256": "57af97f6df7d8601dfa09468c76895480a4f85f1724e09b53685bbd4c6b98dfa"
+    },
+    {
+      "file": "output/日报/2025.6.17/附件图表/04_其他国家主要机舰活动示意图.png",
+      "sha256": "02f9fde1f22b3465f8e161a3bf2060948a201f142b1cdd45b249ea7f87671ebb"
+    },
+    {
+      "file": "output/日报/2025.6.29/附件图表/01_舰机侦巡数量曲线图.png",
+      "sha256": "54be8be47aedd428615a774bb9fd67cdbffe4fb17d59d26943099b2cff21aa3b"
+    },
+    {
+      "file": "output/日报/2025.6.29/附件图表/02_中国主要机舰活动示意图.png",
+      "sha256": "e6d353a24a14a0e3bfdcac53bd6c3cf37c68dee92f8605a122209742e3cb95c9"
+    },
+    {
+      "file": "output/日报/2025.6.29/附件图表/03_美国主要机舰活动示意图.png",
+      "sha256": "eed281e21ebd06225f6d92dea32a7a9e2ff6aa9906b14a5f5511a8a534f1996e"
+    },
+    {
+      "file": "output/日报/2025.6.29/附件图表/04_其他国家主要机舰活动示意图.png",
+      "sha256": "e02b06af5c8050c8abbe78cf072af04effc281af51610bb1092b15bae92ea88e"
+    },
+    {
+      "file": "output/日报/2025.6.9/附件图表/01_舰机侦巡数量曲线图.png",
+      "sha256": "cff0cefd87b7e89f89263e530cfdd0ceed9199245c200f019625095cdd37cb4b"
+    },
+    {
+      "file": "output/日报/2025.6.9/附件图表/02_中国主要机舰活动示意图.png",
+      "sha256": "f93b818ec8e7eaf9fa7b2fb2f741273a02dad3817f0d14db37533c97a673089e"
+    },
+    {
+      "file": "output/日报/2025.6.9/附件图表/03_美国主要机舰活动示意图.png",
+      "sha256": "2c976a8676ef59d3f72f6a529aba8875911cdf25c385929c48a26c19b57a146d"
+    },
+    {
+      "file": "output/日报/2025.6.9/附件图表/04_其他国家主要机舰活动示意图.png",
+      "sha256": "b60b148f5e7b4be9c512223b45a8ff446997883346b5ec09867f14de9df83797"
+    },
+    {
+      "file": "output/日报/2025.7.17/附件图表/01_舰机侦巡数量曲线图.png",
+      "sha256": "5f8b5c5c86dff0c56f679440710d3244ba54e0761d378fb5c540eee01178bb4d"
+    },
+    {
+      "file": "output/日报/2025.7.17/附件图表/02_中国主要机舰活动示意图.png",
+      "sha256": "3157ce44f212b28a3520aed2309d5127c28cc9473638cb2191ee6fb3ac4aeddb"
+    },
+    {
+      "file": "output/日报/2025.7.17/附件图表/03_美国主要机舰活动示意图.png",
+      "sha256": "561760df409cf13cb241c87c5c91b7d974e8f1a3b677c8afdb9a1127c1c12ac5"
+    },
+    {
+      "file": "output/日报/2025.7.17/附件图表/04_其他国家主要机舰活动示意图.png",
+      "sha256": "80b2d95deaf9d3d7f60462da9763725db26a93394c4bd5f5df8c6440c5968ca5"
+    },
+    {
+      "file": "output/日报/2025.7.9/附件图表/01_舰机侦巡数量曲线图.png",
+      "sha256": "13f0e73d08bcc3776e1d86a70624e962076ad21d45119d05b94fe9e5d3a35b80"
+    },
+    {
+      "file": "output/日报/2025.7.9/附件图表/02_中国主要机舰活动示意图.png",
+      "sha256": "23c8223c3ac4e0edd8aa2454625cb0698f3e1b7823d394d94d728811f1c49eb3"
+    },
+    {
+      "file": "output/日报/2025.7.9/附件图表/03_美国主要机舰活动示意图.png",
+      "sha256": "d4d16d25396f0b54ae2cc42e2556a74fd8484be554c7ee37208fe5f7ed770751"
+    },
+    {
+      "file": "output/日报/2025.7.9/附件图表/04_其他国家主要机舰活动示意图.png",
+      "sha256": "6b7efd5249358d3d340c35183a6166a56467cdb3eea6ceb8e12a573b48479a9d"
+    }
+  ],
+  "reviewed_full_pages": [
+    {
+      "file": "audit/docx_visual_release/2025.6.17/report_page_02.png",
+      "sha256": "1e703703d506b1a30bc00884f45f7285ab17b0c1ade15987d5e36db746acda81"
+    },
+    {
+      "file": "audit/docx_visual_release/2025.5.30/report_page_09.png",
+      "sha256": "20b62a2bfaeb133bcf43ec51228ac158ca6c8032b60dfe9532bee942d424977c"
+    },
+    {
+      "file": "audit/docx_visual_release/2025.5.10/report_page_05.png",
+      "sha256": "b45c0a9d348fbf0428b02a75827456d9dd275ddd5a9995f86622ec88b1c06fc1"
+    },
+    {
+      "file": "audit/docx_visual_release/2025.7.17/report_page_02.png",
+      "sha256": "51f5ce77b68d68b1ad1719a06b5b511ed14df90a5ced566f06dcbce4f3510263"
+    },
+    {
+      "file": "audit/xlsx_native/2025.5.10_飞机_page_01.png",
+      "sha256": "d9f6690d4809daaaf27a1fc880ba4c9a12ecd82a6e32e4a9c7adbff75ed036b2"
+    },
+    {
+      "file": "audit/xlsx_native/2025.6.17_飞机_page_01.png",
+      "sha256": "8d8bb92eb00959b46adb44936d7e87aa03e92f244fce6af37d9caf1f59096aa3"
+    },
+    {
+      "file": "audit/xlsx_native/2025.5.18_舰艇_page_01.png",
+      "sha256": "42b7d1abc89f498759eb6941858ef3e935ccbb4b7a54f71ed7853c9f312c7575"
+    },
+    {
+      "file": "audit/xlsx_native/2025.7.17_舰艇_page_01.png",
+      "sha256": "a130db0ea54d0b4dee90072f25a3c4fba73f6d5e3fc952047196fa706f1c102d"
+    }
+  ],
+  "findings_and_fixes": [
+    {
+      "issue": "候选主线比较表可能未展示实际被选中的候选",
+      "fix": "实际选中候选固定置首，随后展示4个竞争候选；阶段表仍保留全部历史记录",
+      "status": "已修复"
+    },
+    {
+      "issue": "初版图例/区域/平台标签偏小，密集图易读性不足",
+      "fix": "图宽8.4英寸，增大标签和图例字号，按记录数增加高度；密集其他国家图独占一页，独立PNG保持1512像素宽",
+      "status": "已修复；19条记录的DOCX嵌图文字仍较紧凑，可打开附图原PNG"
+    },
+    {
+      "issue": "跨日矩阵与证据索引在页尾出现少量孤行，强制分页试验又导致上页段落孤立",
+      "fix": "段落不拆分，小矩阵与完整当日索引保持整块，取消强制索引分页，调整段后距与行距；保存各轮PDF/PNG供对照",
+      "status": "已修复；最终69页"
+    },
+    {
+      "issue": "Word默认表格宽度、彩色标题与重复表头不适合提交报告",
+      "fix": "A4黑色标题、明确列宽、淡表格线、跨页重复表头及行不拆分",
+      "status": "已修复"
+    },
+    {
+      "issue": "Excel长备注可能被固定行高截断",
+      "fix": "实际Excel只读导出全部保存范围，并以AutoFit测量后恢复原高不保存；213行最大所需45pt，小于交付82.1pt",
+      "status": "未发现截断"
+    },
+    {
+      "issue": "部分Excel打印导出第二页只有尾行",
+      "fix": "QA文件保留并检查所有尾页，未裁掉任何数据；XLSX本身完整213行",
+      "status": "完整性通过；打印分页留白仍存在"
+    },
+    {
+      "issue": "长Excel行号列表在Word窄列自动折行，少数数字跨行",
+      "fix": "未删除定位数字；原始完整列表与单行JSON另存中间证据",
+      "status": "无截断；折行是剩余可读性限制"
+    }
+  ],
+  "final_result": "最终联系图和所列放大页未见文字出页、图例遮挡、正文附图漏引或末行丢失。布局自动检查只支持上述检查，不替代事实正确性。",
+  "rendered_files_match_delivery": true,
+  "automated_raster": {
+    "word_outside_page": 0,
+    "excel_outside_page": 0,
+    "blank_pages": 0,
+    "xlsx_rows_may_clip": 0
+  }
+}

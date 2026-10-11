@@ -1,7 +1,7 @@
 {
   "start": "2025-05-01",
   "node": "2025-05-10",
-  "root": "D:\\CW\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\赛题2-初赛\\数据",
+  "root": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\赛题2-初赛\\数据",
   "files": [
     {
       "path": "2025.5.1/开源军情/001_开源军情-韩国AW-159反潜直升机在阿拉伯海执行反潜巡逻任务.txt",

@@ -1,0 +1,24 @@
+{
+  "all_passed": true,
+  "checks": {
+    "eight_nodes_valid": true,
+    "standard_zip_48": true,
+    "rendered_docx_exactly_delivered": true,
+    "rendered_xlsx_exactly_delivered": true,
+    "frozen_new_cases_unchanged": true,
+    "old_497_allowed_files_unchanged": true,
+    "clean_reproduction_58_equal": true,
+    "new_development_pass": true,
+    "new_reserved_pass": true,
+    "old_development_42_pass": true,
+    "supplemental_development_relations_pass": true,
+    "validator_six_probes_rejected": true,
+    "input_invariance_pass": true
+  },
+  "submission_zip": {
+    "file": "output/日报_gpt_accuracy_v3.zip",
+    "sha256": "39bb0e2b28026d6a3d4b36a9fc0c7c080b9b330b74b87cda0d68716880e4d005"
+  },
+  "official_new_score": null,
+  "warning": "工程与抽样检查不能外推全量准确率或官方分数。"
+}

@@ -1,0 +1,44 @@
+{
+  "model_calls_by_role": {
+    "analysis": 4577
+  },
+  "tokens_by_role": {
+    "analysis": {
+      "input_tokens": 439489081,
+      "output_tokens": 2412692,
+      "cache_hit_tokens": 409602816,
+      "cache_creation_tokens": 0
+    }
+  },
+  "tool_calls": {
+    "read_record": 2369,
+    "get_track": 308,
+    "list_records": 159,
+    "search_records": 989,
+    "list_events": 426,
+    "lookup_knowledge": 489,
+    "submit_event": 355,
+    "finish_seed": 2634,
+    "compare_radar": 4
+  },
+  "tool_errors": {
+    "submit_event": 167,
+    "finish_seed": 2421,
+    "get_track": 24,
+    "list_events": 3,
+    "list_records": 9,
+    "read_record": 1,
+    "search_records": 1
+  },
+  "failed_tasks": {
+    "BudgetExceeded": 63,
+    "OSError": 1,
+    "ProviderError": 2888
+  },
+  "http_retries": 1,
+  "mean_model_latency_seconds": {
+    "analysis": 11.589953146034597
+  },
+  "usage_limits": "包含已返回 usage 的截断响应；超时且未返回 usage 的请求用量未知",
+  "pricing": "未填价格，仅记录用量，不估算费用"
+}

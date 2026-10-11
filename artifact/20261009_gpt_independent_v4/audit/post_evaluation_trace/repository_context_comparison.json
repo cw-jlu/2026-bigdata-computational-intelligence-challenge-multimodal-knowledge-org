@@ -1,0 +1,26 @@
+{
+  "readme_trace_markers": {
+    "v2": {
+      "read_call_line": 22,
+      "output": [
+        {
+          "line": 26,
+          "timestamp": "2026-10-09T03:08:51.622Z",
+          "has_v2_score_69_0354": false
+        }
+      ]
+    },
+    "v4": {
+      "read_call_line": 22,
+      "output": [
+        {
+          "line": 25,
+          "timestamp": "2026-10-09T09:00:55.710Z",
+          "has_v2_score_69_0354": true
+        }
+      ]
+    }
+  },
+  "finding": "v4首次读取README的工具返回含v2成绩69.0354；v2首次读取没有该成绩。因此用户提示相同，但仓库上下文不是冻结快照。不能从此标记推断它具体造成了多少分差。",
+  "not_inferred": "模型后端具体快照、temperature、sampling seed、官方评测是否随机均未从这些记录取得。"
+}

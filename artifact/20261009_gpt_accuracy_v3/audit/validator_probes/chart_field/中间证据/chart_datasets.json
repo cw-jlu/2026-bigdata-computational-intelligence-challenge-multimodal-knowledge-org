@@ -1,0 +1,3863 @@
+[
+  {
+    "filename": "01_舰机侦巡数量曲线图.png",
+    "date": "2025.5.10",
+    "event_ids": [
+      "E7f7576e50aee",
+      "E7ea0025b1ecd",
+      "E4d284bbfd212",
+      "E38a684a770db",
+      "E11d4e4c1460e",
+      "Eadfe74301bc9",
+      "E303a26fb7530",
+      "Eee1581ee3737",
+      "E07d716dc9b8b",
+      "E9d11c9cae746",
+      "E30677e28aeb0",
+      "E12ce6c275d9a",
+      "E374058b83d95",
+      "Eab0ef061b67a"
+    ],
+    "hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "air": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      2,
+      0,
+      0,
+      2,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "ships": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "quantity_unit": "架次/艘次",
+    "recon_tasks": [
+      "反潜巡逻",
+      "情报监视侦察",
+      "战备巡逻",
+      "战备警巡",
+      "海上侦察巡逻",
+      "海上巡逻",
+      "海上监视侦察",
+      "电子侦察",
+      "联合巡航",
+      "联合巡逻"
+    ]
+  },
+  {
+    "filename": "02_中国主要机舰活动示意图.png",
+    "date": "2025.5.10",
+    "event_ids": [
+      "Eee1581ee3737",
+      "E38a684a770db",
+      "Eab0ef061b67a",
+      "E30677e28aeb0",
+      "E303a26fb7530",
+      "E11d4e4c1460e",
+      "E884a5e9249a6",
+      "Eded0c365bb4f"
+    ],
+    "group": "中国",
+    "records": [
+      {
+        "event_id": "Eee1581ee3737",
+        "date": "2025.5.10",
+        "interval": [
+          521,
+          606
+        ],
+        "region": "东海",
+        "quantity": 2,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E38a684a770db",
+        "date": "2025.5.10",
+        "interval": [
+          1055,
+          1140
+        ],
+        "region": "东海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Eab0ef061b67a",
+        "date": "2025.5.10",
+        "interval": [
+          158,
+          243
+        ],
+        "region": "纳土纳群岛北部海域",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E30677e28aeb0",
+        "date": "2025.5.10",
+        "interval": [
+          323,
+          468
+        ],
+        "region": "南康暗沙海域",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E303a26fb7530",
+        "date": "2025.5.10",
+        "interval": [
+          483,
+          628
+        ],
+        "region": "海南岛东南海域",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E11d4e4c1460e",
+        "date": "2025.5.10",
+        "interval": [
+          719,
+          804
+        ],
+        "region": "南海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E884a5e9249a6",
+        "date": "2025.5.10",
+        "interval": [
+          868,
+          1013
+        ],
+        "region": "北康暗沙海域",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Eded0c365bb4f",
+        "date": "2025.5.10",
+        "interval": [
+          857,
+          1002
+        ],
+        "region": "黄海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      }
+    ]
+  },
+  {
+    "filename": "03_美国主要机舰活动示意图.png",
+    "date": "2025.5.10",
+    "event_ids": [
+      "E0e99c0480cbd"
+    ],
+    "group": "美国",
+    "records": [
+      {
+        "event_id": "E0e99c0480cbd",
+        "date": "2025.5.10",
+        "interval": [
+          494,
+          639
+        ],
+        "region": "东海",
+        "quantity": 2,
+        "country": "美国",
+        "kind": "飞机"
+      }
+    ]
+  },
+  {
+    "filename": "04_其他国家主要机舰活动示意图.png",
+    "date": "2025.5.10",
+    "event_ids": [
+      "E7b7a9663ce42",
+      "Edea178b293f7",
+      "E374058b83d95",
+      "E4d284bbfd212",
+      "E9edc452de104",
+      "E7f7576e50aee",
+      "E873eadbfa99d",
+      "E1396dc96e791",
+      "Ed654acba6ef0",
+      "E9d11c9cae746",
+      "E7ea0025b1ecd",
+      "Eeacb5376ebb9",
+      "E12ce6c275d9a",
+      "E7896ecf7dc3f",
+      "E07d716dc9b8b",
+      "Eadfe74301bc9"
+    ],
+    "group": "其他国家",
+    "records": [
+      {
+        "event_id": "E7b7a9663ce42",
+        "date": "2025.5.10",
+        "interval": [
+          846,
+          991
+        ],
+        "region": "东海北部",
+        "quantity": 1,
+        "country": "加拿大",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Edea178b293f7",
+        "date": "2025.5.10",
+        "interval": [
+          356,
+          441
+        ],
+        "region": "东海南部",
+        "quantity": 1,
+        "country": "印度",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E374058b83d95",
+        "date": "2025.5.10",
+        "interval": [
+          670,
+          815
+        ],
+        "region": "赤尾屿海域",
+        "quantity": 1,
+        "country": "印度",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E4d284bbfd212",
+        "date": "2025.5.10",
+        "interval": [
+          681,
+          826
+        ],
+        "region": "东海",
+        "quantity": 1,
+        "country": "台湾",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E9edc452de104",
+        "date": "2025.5.10",
+        "interval": [
+          147,
+          292
+        ],
+        "region": "钓鱼岛海域",
+        "quantity": 1,
+        "country": "德国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E7f7576e50aee",
+        "date": "2025.5.10",
+        "interval": [
+          307,
+          452
+        ],
+        "region": "东海",
+        "quantity": 1,
+        "country": "日本",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E873eadbfa99d",
+        "date": "2025.5.10",
+        "interval": [
+          136,
+          281
+        ],
+        "region": "上海外海",
+        "quantity": 1,
+        "country": "澳大利亚",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E1396dc96e791",
+        "date": "2025.5.10",
+        "interval": [
+          895,
+          980
+        ],
+        "region": "东海",
+        "quantity": 1,
+        "country": "马来西亚",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Ed654acba6ef0",
+        "date": "2025.5.10",
+        "interval": [
+          334,
+          479
+        ],
+        "region": "南海南部",
+        "quantity": 1,
+        "country": "新西兰",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E9d11c9cae746",
+        "date": "2025.5.10",
+        "interval": [
+          1033,
+          1178
+        ],
+        "region": "南海",
+        "quantity": 1,
+        "country": "新西兰",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E7ea0025b1ecd",
+        "date": "2025.5.10",
+        "interval": [
+          1209,
+          1354
+        ],
+        "region": "南海",
+        "quantity": 1,
+        "country": "英国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Eeacb5376ebb9",
+        "date": "2025.5.10",
+        "interval": [
+          345,
+          430
+        ],
+        "region": "南海",
+        "quantity": 1,
+        "country": "菲律宾",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E12ce6c275d9a",
+        "date": "2025.5.10",
+        "interval": [
+          1044,
+          1189
+        ],
+        "region": "南康暗沙海域",
+        "quantity": 1,
+        "country": "越南",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E7896ecf7dc3f",
+        "date": "2025.5.10",
+        "interval": [
+          532,
+          617
+        ],
+        "region": "北康暗沙海域",
+        "quantity": 1,
+        "country": "韩国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E07d716dc9b8b",
+        "date": "2025.5.10",
+        "interval": [
+          169,
+          254
+        ],
+        "region": "黄海",
+        "quantity": 1,
+        "country": "意大利",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Eadfe74301bc9",
+        "date": "2025.5.10",
+        "interval": [
+          1231,
+          1376
+        ],
+        "region": "黄海",
+        "quantity": 1,
+        "country": "法国",
+        "kind": "飞机"
+      }
+    ]
+  },
+  {
+    "filename": "01_舰机侦巡数量曲线图.png",
+    "date": "2025.5.18",
+    "event_ids": [
+      "Ef822ba029b86",
+      "E92522de92dc7",
+      "E4d98940e3a11",
+      "E7d081bb51baa",
+      "E9f0d8f48114a",
+      "Ec409d460eb98",
+      "E9da2b3ea2ce2",
+      "Ec11b75f149a1",
+      "Efef645a4a7ac",
+      "E65f37d04fce7",
+      "E833ee30606f6",
+      "E52deb21b6c03"
+    ],
+    "hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "air": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      4,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "ships": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "quantity_unit": "架次/艘次",
+    "recon_tasks": [
+      "反潜巡逻",
+      "情报监视侦察",
+      "战备巡逻",
+      "战备警巡",
+      "海上侦察巡逻",
+      "海上巡逻",
+      "海上监视侦察",
+      "电子侦察",
+      "联合巡航",
+      "联合巡逻"
+    ]
+  },
+  {
+    "filename": "02_中国主要机舰活动示意图.png",
+    "date": "2025.5.18",
+    "event_ids": [
+      "E92522de92dc7",
+      "E52deb21b6c03",
+      "E52c919f70128",
+      "E7d081bb51baa",
+      "Ed928e1761ba7",
+      "E7e1d11c4de02",
+      "E9f0d8f48114a",
+      "E7b1cc00ce70f",
+      "E4d98940e3a11"
+    ],
+    "group": "中国",
+    "records": [
+      {
+        "event_id": "E92522de92dc7",
+        "date": "2025.5.18",
+        "interval": [
+          521,
+          606
+        ],
+        "region": "东海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E52deb21b6c03",
+        "date": "2025.5.18",
+        "interval": [
+          1220,
+          1365
+        ],
+        "region": "东海油气田海域",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E52c919f70128",
+        "date": "2025.5.18",
+        "interval": [
+          158,
+          243
+        ],
+        "region": "纳土纳群岛北部海域",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E7d081bb51baa",
+        "date": "2025.5.18",
+        "interval": [
+          857,
+          1002
+        ],
+        "region": "南海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Ed928e1761ba7",
+        "date": "2025.5.18",
+        "interval": [
+          356,
+          441
+        ],
+        "region": "成山头外海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E7e1d11c4de02",
+        "date": "2025.5.18",
+        "interval": [
+          681,
+          826
+        ],
+        "region": "黄海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E9f0d8f48114a",
+        "date": "2025.5.18",
+        "interval": [
+          719,
+          804
+        ],
+        "region": "北黄海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E7b1cc00ce70f",
+        "date": "2025.5.18",
+        "interval": [
+          1022,
+          1167
+        ],
+        "region": "青岛外海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E4d98940e3a11",
+        "date": "2025.5.18",
+        "interval": [
+          1055,
+          1140
+        ],
+        "region": "黄海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      }
+    ]
+  },
+  {
+    "filename": "03_美国主要机舰活动示意图.png",
+    "date": "2025.5.18",
+    "event_ids": [
+      "Ef822ba029b86",
+      "E0201935d0c13",
+      "Ec409d460eb98"
+    ],
+    "group": "美国",
+    "records": [
+      {
+        "event_id": "Ef822ba029b86",
+        "date": "2025.5.18",
+        "interval": [
+          169,
+          254
+        ],
+        "region": "南海",
+        "quantity": 1,
+        "country": "美国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E0201935d0c13",
+        "date": "2025.5.18",
+        "interval": [
+          307,
+          452
+        ],
+        "region": "南海",
+        "quantity": 1,
+        "country": "美国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Ec409d460eb98",
+        "date": "2025.5.18",
+        "interval": [
+          483,
+          628
+        ],
+        "region": "南海中部",
+        "quantity": 1,
+        "country": "美国",
+        "kind": "飞机"
+      }
+    ]
+  },
+  {
+    "filename": "04_其他国家主要机舰活动示意图.png",
+    "date": "2025.5.18",
+    "event_ids": [
+      "E094289f76923",
+      "E9da2b3ea2ce2",
+      "Eb017f4195a07",
+      "E9a47bac1429a",
+      "E65f37d04fce7",
+      "Ec11b75f149a1",
+      "Ecf26d688ce37",
+      "Eb768e5e6c68e",
+      "Efef645a4a7ac",
+      "E833ee30606f6",
+      "E1ce1d79add8a",
+      "E672a54dd5e9f",
+      "Ea3ed036b8da2",
+      "Eb480686f9089",
+      "E1ae28c9e5c27"
+    ],
+    "group": "其他国家",
+    "records": [
+      {
+        "event_id": "E094289f76923",
+        "date": "2025.5.18",
+        "interval": [
+          147,
+          292
+        ],
+        "region": "温州外海",
+        "quantity": 1,
+        "country": "俄罗斯",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E9da2b3ea2ce2",
+        "date": "2025.5.18",
+        "interval": [
+          494,
+          639
+        ],
+        "region": "东海",
+        "quantity": 2,
+        "country": "台湾",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Eb017f4195a07",
+        "date": "2025.5.18",
+        "interval": [
+          323,
+          468
+        ],
+        "region": "东海",
+        "quantity": 1,
+        "country": "新加坡",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E9a47bac1429a",
+        "date": "2025.5.18",
+        "interval": [
+          1209,
+          1354
+        ],
+        "region": "赤尾屿海域",
+        "quantity": 1,
+        "country": "新加坡",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E65f37d04fce7",
+        "date": "2025.5.18",
+        "interval": [
+          708,
+          793
+        ],
+        "region": "钓鱼岛海域",
+        "quantity": 1,
+        "country": "法国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Ec11b75f149a1",
+        "date": "2025.5.18",
+        "interval": [
+          345,
+          430
+        ],
+        "region": "南海",
+        "quantity": 1,
+        "country": "加拿大",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Ecf26d688ce37",
+        "date": "2025.5.18",
+        "interval": [
+          334,
+          479
+        ],
+        "region": "南海南部",
+        "quantity": 1,
+        "country": "台湾",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Eb768e5e6c68e",
+        "date": "2025.5.18",
+        "interval": [
+          846,
+          991
+        ],
+        "region": "纳土纳群岛北部海域",
+        "quantity": 1,
+        "country": "德国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Efef645a4a7ac",
+        "date": "2025.5.18",
+        "interval": [
+          1231,
+          1376
+        ],
+        "region": "琼州海峡",
+        "quantity": 1,
+        "country": "新加坡",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E833ee30606f6",
+        "date": "2025.5.18",
+        "interval": [
+          670,
+          815
+        ],
+        "region": "美济礁附近海域",
+        "quantity": 1,
+        "country": "法国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E1ce1d79add8a",
+        "date": "2025.5.18",
+        "interval": [
+          1242,
+          1327
+        ],
+        "region": "中沙群岛海域",
+        "quantity": 1,
+        "country": "法国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E672a54dd5e9f",
+        "date": "2025.5.18",
+        "interval": [
+          895,
+          980
+        ],
+        "region": "南海",
+        "quantity": 1,
+        "country": "韩国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Ea3ed036b8da2",
+        "date": "2025.5.18",
+        "interval": [
+          868,
+          1013
+        ],
+        "region": "成山头外海",
+        "quantity": 1,
+        "country": "加拿大",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Eb480686f9089",
+        "date": "2025.5.18",
+        "interval": [
+          532,
+          617
+        ],
+        "region": "青岛外海",
+        "quantity": 1,
+        "country": "德国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E1ae28c9e5c27",
+        "date": "2025.5.18",
+        "interval": [
+          1044,
+          1189
+        ],
+        "region": "青岛外海",
+        "quantity": 1,
+        "country": "新西兰",
+        "kind": "舰船"
+      }
+    ]
+  },
+  {
+    "filename": "01_舰机侦巡数量曲线图.png",
+    "date": "2025.5.30",
+    "event_ids": [
+      "Ebd289c558aa4",
+      "E8a120c9d5fbb",
+      "Efc51b749d692",
+      "E819b71b5272e",
+      "E86e04440daf9",
+      "Efa86be092115",
+      "E50dc33cee773",
+      "E7253d2c55cbd",
+      "E15b7252c6db2",
+      "Ed62afd3eb97d",
+      "E0903091a0a66",
+      "Ec2647945272a",
+      "E3540d271706c",
+      "E019e3e4422a2",
+      "E0503b873cbd1",
+      "Ef7f21b7a6acb"
+    ],
+    "hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "air": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      2,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      3,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "ships": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "quantity_unit": "架次/艘次",
+    "recon_tasks": [
+      "反潜巡逻",
+      "情报监视侦察",
+      "战备巡逻",
+      "战备警巡",
+      "海上侦察巡逻",
+      "海上巡逻",
+      "海上监视侦察",
+      "电子侦察",
+      "联合巡航",
+      "联合巡逻"
+    ]
+  },
+  {
+    "filename": "02_中国主要机舰活动示意图.png",
+    "date": "2025.5.30",
+    "event_ids": [
+      "Eeead0a81c001",
+      "Efa86be092115",
+      "E7253d2c55cbd",
+      "E019e3e4422a2",
+      "Ebd289c558aa4",
+      "E31f061a7b681",
+      "E15b7252c6db2",
+      "E171f7be17692",
+      "E1f750ddda103"
+    ],
+    "group": "中国",
+    "records": [
+      {
+        "event_id": "Eeead0a81c001",
+        "date": "2025.5.30",
+        "interval": [
+          158,
+          243
+        ],
+        "region": "东海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Efa86be092115",
+        "date": "2025.5.30",
+        "interval": [
+          323,
+          468
+        ],
+        "region": "赤尾屿海域",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E7253d2c55cbd",
+        "date": "2025.5.30",
+        "interval": [
+          483,
+          628
+        ],
+        "region": "东海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E019e3e4422a2",
+        "date": "2025.5.30",
+        "interval": [
+          868,
+          1013
+        ],
+        "region": "东海中部",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Ebd289c558aa4",
+        "date": "2025.5.30",
+        "interval": [
+          521,
+          606
+        ],
+        "region": "南海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E31f061a7b681",
+        "date": "2025.5.30",
+        "interval": [
+          719,
+          804
+        ],
+        "region": "南海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E15b7252c6db2",
+        "date": "2025.5.30",
+        "interval": [
+          1055,
+          1140
+        ],
+        "region": "南海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E171f7be17692",
+        "date": "2025.5.30",
+        "interval": [
+          1220,
+          1365
+        ],
+        "region": "海南岛东南海域",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E1f750ddda103",
+        "date": "2025.5.30",
+        "interval": [
+          857,
+          1002
+        ],
+        "region": "黄海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      }
+    ]
+  },
+  {
+    "filename": "03_美国主要机舰活动示意图.png",
+    "date": "2025.5.30",
+    "event_ids": [],
+    "group": "美国",
+    "records": []
+  },
+  {
+    "filename": "04_其他国家主要机舰活动示意图.png",
+    "date": "2025.5.30",
+    "event_ids": [
+      "E3540d271706c",
+      "Ec2647945272a",
+      "Ead37b69372a5",
+      "E3b84c07566fd",
+      "E50dc33cee773",
+      "E86e04440daf9",
+      "E45cad2f19969",
+      "Ef7f21b7a6acb",
+      "E0503b873cbd1",
+      "Efc51b749d692",
+      "Ecd85af64664a",
+      "E838c4c78be44",
+      "E8a120c9d5fbb",
+      "Ee4b13c0ef8c8",
+      "Edf0c2073d7db",
+      "E0903091a0a66",
+      "E6e0cac130a3d",
+      "Ed62afd3eb97d",
+      "E819b71b5272e"
+    ],
+    "group": "其他国家",
+    "records": [
+      {
+        "event_id": "E3540d271706c",
+        "date": "2025.5.30",
+        "interval": [
+          356,
+          441
+        ],
+        "region": "东海南部",
+        "quantity": 1,
+        "country": "印度",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Ec2647945272a",
+        "date": "2025.5.30",
+        "interval": [
+          670,
+          815
+        ],
+        "region": "赤尾屿海域",
+        "quantity": 1,
+        "country": "印度",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Ead37b69372a5",
+        "date": "2025.5.30",
+        "interval": [
+          334,
+          479
+        ],
+        "region": "东海",
+        "quantity": 1,
+        "country": "德国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E3b84c07566fd",
+        "date": "2025.5.30",
+        "interval": [
+          708,
+          793
+        ],
+        "region": "苏岩礁附近海域",
+        "quantity": 1,
+        "country": "意大利",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E50dc33cee773",
+        "date": "2025.5.30",
+        "interval": [
+          1049,
+          1194
+        ],
+        "region": "东海",
+        "quantity": 1,
+        "country": "澳大利亚",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E86e04440daf9",
+        "date": "2025.5.30",
+        "interval": [
+          169,
+          254
+        ],
+        "region": "温州外海",
+        "quantity": 1,
+        "country": "马来西亚",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E45cad2f19969",
+        "date": "2025.5.30",
+        "interval": [
+          532,
+          617
+        ],
+        "region": "东海油气田海域",
+        "quantity": 1,
+        "country": "马来西亚",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Ef7f21b7a6acb",
+        "date": "2025.5.30",
+        "interval": [
+          136,
+          281
+        ],
+        "region": "南康暗沙海域",
+        "quantity": 1,
+        "country": "俄罗斯",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E0503b873cbd1",
+        "date": "2025.5.30",
+        "interval": [
+          846,
+          991
+        ],
+        "region": "美济礁附近海域",
+        "quantity": 1,
+        "country": "俄罗斯",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Efc51b749d692",
+        "date": "2025.5.30",
+        "interval": [
+          895,
+          980
+        ],
+        "region": "南海",
+        "quantity": 1,
+        "country": "意大利",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Ecd85af64664a",
+        "date": "2025.5.30",
+        "interval": [
+          345,
+          430
+        ],
+        "region": "曾母暗沙海域",
+        "quantity": 1,
+        "country": "日本",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E838c4c78be44",
+        "date": "2025.5.30",
+        "interval": [
+          681,
+          826
+        ],
+        "region": "南海",
+        "quantity": 1,
+        "country": "法国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E8a120c9d5fbb",
+        "date": "2025.5.30",
+        "interval": [
+          1231,
+          1376
+        ],
+        "region": "南海",
+        "quantity": 1,
+        "country": "澳大利亚",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Ee4b13c0ef8c8",
+        "date": "2025.5.30",
+        "interval": [
+          147,
+          292
+        ],
+        "region": "南海",
+        "quantity": 1,
+        "country": "菲律宾",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Edf0c2073d7db",
+        "date": "2025.5.30",
+        "interval": [
+          1209,
+          1354
+        ],
+        "region": "北康暗沙海域",
+        "quantity": 1,
+        "country": "韩国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E0903091a0a66",
+        "date": "2025.5.30",
+        "interval": [
+          1033,
+          1178
+        ],
+        "region": "济州岛西部海域",
+        "quantity": 1,
+        "country": "新西兰",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E6e0cac130a3d",
+        "date": "2025.5.30",
+        "interval": [
+          1044,
+          1189
+        ],
+        "region": "黄海中部",
+        "quantity": 1,
+        "country": "澳大利亚",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Ed62afd3eb97d",
+        "date": "2025.5.30",
+        "interval": [
+          307,
+          452
+        ],
+        "region": "黄海",
+        "quantity": 1,
+        "country": "韩国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E819b71b5272e",
+        "date": "2025.5.30",
+        "interval": [
+          494,
+          639
+        ],
+        "region": "黄海",
+        "quantity": 2,
+        "country": "韩国",
+        "kind": "飞机"
+      }
+    ]
+  },
+  {
+    "filename": "01_舰机侦巡数量曲线图.png",
+    "date": "2025.6.17",
+    "event_ids": [
+      "E1252ca3506d0",
+      "E1463314817f0",
+      "Ea2a623e178fb",
+      "E1bc5c54a90a3",
+      "E83b2204ef95c",
+      "E0af5f3035ee1",
+      "E4a5339a65c4d",
+      "Ed58e4718c43e",
+      "E059b04a0a0cb",
+      "E02736a664a97"
+    ],
+    "hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "air": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      2,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "ships": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "quantity_unit": "架次/艘次",
+    "recon_tasks": [
+      "反潜巡逻",
+      "情报监视侦察",
+      "战备巡逻",
+      "战备警巡",
+      "海上侦察巡逻",
+      "海上巡逻",
+      "海上监视侦察",
+      "电子侦察",
+      "联合巡航",
+      "联合巡逻"
+    ]
+  },
+  {
+    "filename": "02_中国主要机舰活动示意图.png",
+    "date": "2025.6.17",
+    "event_ids": [
+      "E5789c0924f2f",
+      "E491a84cb3ca6",
+      "E265fb8ee67bc",
+      "E02736a664a97",
+      "E4a5339a65c4d",
+      "Eb8409a0fedd8",
+      "Eb0d4984eadce",
+      "E059b04a0a0cb",
+      "E87a7cec49a20"
+    ],
+    "group": "中国",
+    "records": [
+      {
+        "event_id": "E5789c0924f2f",
+        "date": "2025.6.17",
+        "interval": [
+          719,
+          804
+        ],
+        "region": "东海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E491a84cb3ca6",
+        "date": "2025.6.17",
+        "interval": [
+          1044,
+          1189
+        ],
+        "region": "宁波外海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E265fb8ee67bc",
+        "date": "2025.6.17",
+        "interval": [
+          1055,
+          1140
+        ],
+        "region": "东海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E02736a664a97",
+        "date": "2025.6.17",
+        "interval": [
+          158,
+          243
+        ],
+        "region": "南黄海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E4a5339a65c4d",
+        "date": "2025.6.17",
+        "interval": [
+          356,
+          441
+        ],
+        "region": "连云港外海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Eb8409a0fedd8",
+        "date": "2025.6.17",
+        "interval": [
+          521,
+          606
+        ],
+        "region": "黄海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Eb0d4984eadce",
+        "date": "2025.6.17",
+        "interval": [
+          1022,
+          1167
+        ],
+        "region": "北黄海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E059b04a0a0cb",
+        "date": "2025.6.17",
+        "interval": [
+          1220,
+          1365
+        ],
+        "region": "黄海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E87a7cec49a20",
+        "date": "2025.6.17",
+        "interval": [
+          1242,
+          1327
+        ],
+        "region": "黄海中部",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "舰船"
+      }
+    ]
+  },
+  {
+    "filename": "03_美国主要机舰活动示意图.png",
+    "date": "2025.6.17",
+    "event_ids": [
+      "E431de2913b31",
+      "E54198fc4deb1"
+    ],
+    "group": "美国",
+    "records": [
+      {
+        "event_id": "E431de2913b31",
+        "date": "2025.6.17",
+        "interval": [
+          670,
+          815
+        ],
+        "region": "东海油气田海域",
+        "quantity": 1,
+        "country": "美国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E54198fc4deb1",
+        "date": "2025.6.17",
+        "interval": [
+          681,
+          826
+        ],
+        "region": "南海",
+        "quantity": 1,
+        "country": "美国",
+        "kind": "舰船"
+      }
+    ]
+  },
+  {
+    "filename": "04_其他国家主要机舰活动示意图.png",
+    "date": "2025.6.17",
+    "event_ids": [
+      "E38249882b5b9",
+      "E1463314817f0",
+      "E2d5b669a0767",
+      "E826410ac5d2c",
+      "Edf1a54d044b9",
+      "E1bc5c54a90a3",
+      "Eb3b17ebe859d",
+      "E83b2204ef95c",
+      "E1252ca3506d0",
+      "Efbb08eac3ea1",
+      "Ed58e4718c43e",
+      "E8fbb0fdf6742",
+      "E0af5f3035ee1",
+      "Ea2a623e178fb",
+      "Ef262f370f089",
+      "E0d6cdba194b7"
+    ],
+    "group": "其他国家",
+    "records": [
+      {
+        "event_id": "E38249882b5b9",
+        "date": "2025.6.17",
+        "interval": [
+          345,
+          430
+        ],
+        "region": "东海",
+        "quantity": 1,
+        "country": "俄罗斯",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E1463314817f0",
+        "date": "2025.6.17",
+        "interval": [
+          483,
+          628
+        ],
+        "region": "东海",
+        "quantity": 1,
+        "country": "加拿大",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E2d5b669a0767",
+        "date": "2025.6.17",
+        "interval": [
+          857,
+          1002
+        ],
+        "region": "钓鱼岛海域",
+        "quantity": 1,
+        "country": "加拿大",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E826410ac5d2c",
+        "date": "2025.6.17",
+        "interval": [
+          136,
+          281
+        ],
+        "region": "上海外海",
+        "quantity": 1,
+        "country": "德国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Edf1a54d044b9",
+        "date": "2025.6.17",
+        "interval": [
+          846,
+          991
+        ],
+        "region": "钓鱼岛海域",
+        "quantity": 1,
+        "country": "德国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E1bc5c54a90a3",
+        "date": "2025.6.17",
+        "interval": [
+          323,
+          468
+        ],
+        "region": "东海油气田海域",
+        "quantity": 1,
+        "country": "日本",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Eb3b17ebe859d",
+        "date": "2025.6.17",
+        "interval": [
+          1209,
+          1354
+        ],
+        "region": "长江口外海",
+        "quantity": 1,
+        "country": "菲律宾",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E83b2204ef95c",
+        "date": "2025.6.17",
+        "interval": [
+          1231,
+          1376
+        ],
+        "region": "宁波外海",
+        "quantity": 1,
+        "country": "菲律宾",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E1252ca3506d0",
+        "date": "2025.6.17",
+        "interval": [
+          307,
+          452
+        ],
+        "region": "南海",
+        "quantity": 1,
+        "country": "澳大利亚",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Efbb08eac3ea1",
+        "date": "2025.6.17",
+        "interval": [
+          334,
+          479
+        ],
+        "region": "连云港外海",
+        "quantity": 1,
+        "country": "加拿大",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Ed58e4718c43e",
+        "date": "2025.6.17",
+        "interval": [
+          708,
+          793
+        ],
+        "region": "青岛外海",
+        "quantity": 1,
+        "country": "台湾",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E8fbb0fdf6742",
+        "date": "2025.6.17",
+        "interval": [
+          147,
+          292
+        ],
+        "region": "黄海",
+        "quantity": 1,
+        "country": "德国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E0af5f3035ee1",
+        "date": "2025.6.17",
+        "interval": [
+          169,
+          254
+        ],
+        "region": "黄海中部",
+        "quantity": 1,
+        "country": "新加坡",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Ea2a623e178fb",
+        "date": "2025.6.17",
+        "interval": [
+          1033,
+          1178
+        ],
+        "region": "黄海",
+        "quantity": 1,
+        "country": "澳大利亚",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Ef262f370f089",
+        "date": "2025.6.17",
+        "interval": [
+          868,
+          1013
+        ],
+        "region": "黄海",
+        "quantity": 1,
+        "country": "韩国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E0d6cdba194b7",
+        "date": "2025.6.17",
+        "interval": [
+          895,
+          980
+        ],
+        "region": "济州岛西部海域",
+        "quantity": 1,
+        "country": "韩国",
+        "kind": "飞机"
+      }
+    ]
+  },
+  {
+    "filename": "01_舰机侦巡数量曲线图.png",
+    "date": "2025.6.29",
+    "event_ids": [
+      "Ea39e04b0ab97",
+      "Ef1639bb0eec3",
+      "Ed6445330be7c",
+      "E5221fd67309a",
+      "E55e426cedb0f",
+      "Eaf317a642a9b",
+      "E49eaea3c8127",
+      "E0a8cc50cba96",
+      "Ebf9358d6488b",
+      "Ea7269550cf64",
+      "E453cab670797"
+    ],
+    "hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "air": [
+      0,
+      0,
+      2,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      2,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "ships": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "quantity_unit": "架次/艘次",
+    "recon_tasks": [
+      "反潜巡逻",
+      "情报监视侦察",
+      "战备巡逻",
+      "战备警巡",
+      "海上侦察巡逻",
+      "海上巡逻",
+      "海上监视侦察",
+      "电子侦察",
+      "联合巡航",
+      "联合巡逻"
+    ]
+  },
+  {
+    "filename": "02_中国主要机舰活动示意图.png",
+    "date": "2025.6.29",
+    "event_ids": [
+      "Ea8016f2eedd9",
+      "Ef1639bb0eec3",
+      "E0a8cc50cba96",
+      "Ed20287a9bc1e",
+      "Eff98fd3501e5",
+      "Ea39e04b0ab97",
+      "E2860093cfd82",
+      "Eed9df1875204",
+      "E434c0cb8c050"
+    ],
+    "group": "中国",
+    "records": [
+      {
+        "event_id": "Ea8016f2eedd9",
+        "date": "2025.6.29",
+        "interval": [
+          158,
+          243
+        ],
+        "region": "冲绳海槽",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Ef1639bb0eec3",
+        "date": "2025.6.29",
+        "interval": [
+          719,
+          804
+        ],
+        "region": "温州外海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E0a8cc50cba96",
+        "date": "2025.6.29",
+        "interval": [
+          857,
+          1002
+        ],
+        "region": "宁波外海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Ed20287a9bc1e",
+        "date": "2025.6.29",
+        "interval": [
+          136,
+          281
+        ],
+        "region": "南沙群岛海域",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Eff98fd3501e5",
+        "date": "2025.6.29",
+        "interval": [
+          494,
+          639
+        ],
+        "region": "北康暗沙海域",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Ea39e04b0ab97",
+        "date": "2025.6.29",
+        "interval": [
+          521,
+          606
+        ],
+        "region": "北部湾",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E2860093cfd82",
+        "date": "2025.6.29",
+        "interval": [
+          1055,
+          1140
+        ],
+        "region": "南海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Eed9df1875204",
+        "date": "2025.6.29",
+        "interval": [
+          483,
+          628
+        ],
+        "region": "海州湾外海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E434c0cb8c050",
+        "date": "2025.6.29",
+        "interval": [
+          1220,
+          1365
+        ],
+        "region": "黄海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "舰船"
+      }
+    ]
+  },
+  {
+    "filename": "03_美国主要机舰活动示意图.png",
+    "date": "2025.6.29",
+    "event_ids": [
+      "E55e426cedb0f"
+    ],
+    "group": "美国",
+    "records": [
+      {
+        "event_id": "E55e426cedb0f",
+        "date": "2025.6.29",
+        "interval": [
+          1231,
+          1376
+        ],
+        "region": "南海",
+        "quantity": 1,
+        "country": "美国",
+        "kind": "飞机"
+      }
+    ]
+  },
+  {
+    "filename": "04_其他国家主要机舰活动示意图.png",
+    "date": "2025.6.29",
+    "event_ids": [
+      "E920051653b10",
+      "Eaf317a642a9b",
+      "Ed6445330be7c",
+      "Ed8295c5b2d16",
+      "Ee1fafb50bfad",
+      "E453cab670797",
+      "E85d3cfcf403c",
+      "E049866320219",
+      "Ea7269550cf64",
+      "Eb41af42aeae4",
+      "E5221fd67309a",
+      "E43a0874a6f4e",
+      "Ebf9358d6488b",
+      "E49eaea3c8127",
+      "E212230a20c8b"
+    ],
+    "group": "其他国家",
+    "records": [
+      {
+        "event_id": "E920051653b10",
+        "date": "2025.6.29",
+        "interval": [
+          1044,
+          1189
+        ],
+        "region": "舟山外海",
+        "quantity": 1,
+        "country": "印度",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Eaf317a642a9b",
+        "date": "2025.6.29",
+        "interval": [
+          1049,
+          1194
+        ],
+        "region": "东海",
+        "quantity": 1,
+        "country": "印度",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Ed6445330be7c",
+        "date": "2025.6.29",
+        "interval": [
+          345,
+          430
+        ],
+        "region": "舟山外海",
+        "quantity": 1,
+        "country": "英国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Ed8295c5b2d16",
+        "date": "2025.6.29",
+        "interval": [
+          532,
+          617
+        ],
+        "region": "长江口外海",
+        "quantity": 1,
+        "country": "韩国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Ee1fafb50bfad",
+        "date": "2025.6.29",
+        "interval": [
+          356,
+          441
+        ],
+        "region": "南海",
+        "quantity": 1,
+        "country": "俄罗斯",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E453cab670797",
+        "date": "2025.6.29",
+        "interval": [
+          1242,
+          1327
+        ],
+        "region": "渚碧礁附近海域",
+        "quantity": 1,
+        "country": "俄罗斯",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E85d3cfcf403c",
+        "date": "2025.6.29",
+        "interval": [
+          846,
+          991
+        ],
+        "region": "南海北部",
+        "quantity": 1,
+        "country": "印度",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E049866320219",
+        "date": "2025.6.29",
+        "interval": [
+          670,
+          815
+        ],
+        "region": "南海中部",
+        "quantity": 1,
+        "country": "澳大利亚",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Ea7269550cf64",
+        "date": "2025.6.29",
+        "interval": [
+          1209,
+          1354
+        ],
+        "region": "南海",
+        "quantity": 1,
+        "country": "韩国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Eb41af42aeae4",
+        "date": "2025.6.29",
+        "interval": [
+          307,
+          452
+        ],
+        "region": "黄海",
+        "quantity": 1,
+        "country": "加拿大",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E5221fd67309a",
+        "date": "2025.6.29",
+        "interval": [
+          147,
+          292
+        ],
+        "region": "成山头外海",
+        "quantity": 1,
+        "country": "新加坡",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E43a0874a6f4e",
+        "date": "2025.6.29",
+        "interval": [
+          895,
+          980
+        ],
+        "region": "黄海",
+        "quantity": 1,
+        "country": "澳大利亚",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Ebf9358d6488b",
+        "date": "2025.6.29",
+        "interval": [
+          1033,
+          1178
+        ],
+        "region": "黄海",
+        "quantity": 1,
+        "country": "英国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E49eaea3c8127",
+        "date": "2025.6.29",
+        "interval": [
+          169,
+          254
+        ],
+        "region": "黄海",
+        "quantity": 1,
+        "country": "菲律宾",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E212230a20c8b",
+        "date": "2025.6.29",
+        "interval": [
+          681,
+          826
+        ],
+        "region": "黄海中部",
+        "quantity": 1,
+        "country": "马来西亚",
+        "kind": "飞机"
+      }
+    ]
+  },
+  {
+    "filename": "01_舰机侦巡数量曲线图.png",
+    "date": "2025.6.9",
+    "event_ids": [
+      "E94a013c02827",
+      "Edee14f738d05",
+      "E2ca441e6f4c4",
+      "E39856cde0b09",
+      "E42d60071c8f1",
+      "E18288a7da0f2",
+      "E9fe432e3eb2d",
+      "E2dd56fed405f",
+      "Ea18697265efc",
+      "Eb942bdcd1b3c",
+      "Ebe4cdbc6ea80",
+      "E55f8972567e1",
+      "E427ac70a23e1",
+      "E924e6ca71d9a",
+      "Edcc3359951ea",
+      "Ea970990b1eca",
+      "E046ecc474444"
+    ],
+    "hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "air": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      2,
+      0,
+      0,
+      2,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "ships": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "quantity_unit": "架次/艘次",
+    "recon_tasks": [
+      "反潜巡逻",
+      "情报监视侦察",
+      "战备巡逻",
+      "战备警巡",
+      "海上侦察巡逻",
+      "海上巡逻",
+      "海上监视侦察",
+      "电子侦察",
+      "联合巡航",
+      "联合巡逻"
+    ]
+  },
+  {
+    "filename": "02_中国主要机舰活动示意图.png",
+    "date": "2025.6.9",
+    "event_ids": [
+      "Ebe4cdbc6ea80",
+      "Eacd658c7a037",
+      "E427ac70a23e1",
+      "Edc68db70b05e",
+      "E7db334a8ea40",
+      "E4544520ca29d",
+      "E1404e50ddbe9",
+      "E9154aa0febfc",
+      "E39856cde0b09",
+      "E94a013c02827"
+    ],
+    "group": "中国",
+    "records": [
+      {
+        "event_id": "Ebe4cdbc6ea80",
+        "date": "2025.6.9",
+        "interval": [
+          675,
+          820
+        ],
+        "region": "东海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Eacd658c7a037",
+        "date": "2025.6.9",
+        "interval": [
+          1055,
+          1140
+        ],
+        "region": "东海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E427ac70a23e1",
+        "date": "2025.6.9",
+        "interval": [
+          1220,
+          1365
+        ],
+        "region": "东海南部",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Edc68db70b05e",
+        "date": "2025.6.9",
+        "interval": [
+          323,
+          468
+        ],
+        "region": "海南岛东南海域",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E7db334a8ea40",
+        "date": "2025.6.9",
+        "interval": [
+          483,
+          628
+        ],
+        "region": "南海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E4544520ca29d",
+        "date": "2025.6.9",
+        "interval": [
+          868,
+          1013
+        ],
+        "region": "仁爱礁附近海域",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E1404e50ddbe9",
+        "date": "2025.6.9",
+        "interval": [
+          158,
+          243
+        ],
+        "region": "连云港外海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E9154aa0febfc",
+        "date": "2025.6.9",
+        "interval": [
+          521,
+          606
+        ],
+        "region": "黄海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E39856cde0b09",
+        "date": "2025.6.9",
+        "interval": [
+          719,
+          804
+        ],
+        "region": "黄海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E94a013c02827",
+        "date": "2025.6.9",
+        "interval": [
+          857,
+          1002
+        ],
+        "region": "黄海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      }
+    ]
+  },
+  {
+    "filename": "03_美国主要机舰活动示意图.png",
+    "date": "2025.6.9",
+    "event_ids": [],
+    "group": "美国",
+    "records": []
+  },
+  {
+    "filename": "04_其他国家主要机舰活动示意图.png",
+    "date": "2025.6.9",
+    "event_ids": [
+      "Eb942bdcd1b3c",
+      "Edee14f738d05",
+      "E18288a7da0f2",
+      "E6c2c3c9aa1f2",
+      "Edcc3359951ea",
+      "Ebda5c3185558",
+      "E9fe432e3eb2d",
+      "Ea18697265efc",
+      "E42d60071c8f1",
+      "E6e7acd5f8c61",
+      "E2dd56fed405f",
+      "Ecd4fbf169d1e",
+      "E55f8972567e1",
+      "E924e6ca71d9a",
+      "Ea970990b1eca",
+      "E2ca441e6f4c4",
+      "E046ecc474444"
+    ],
+    "group": "其他国家",
+    "records": [
+      {
+        "event_id": "Eb942bdcd1b3c",
+        "date": "2025.6.9",
+        "interval": [
+          1049,
+          1194
+        ],
+        "region": "东海",
+        "quantity": 1,
+        "country": "加拿大",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Edee14f738d05",
+        "date": "2025.6.9",
+        "interval": [
+          681,
+          826
+        ],
+        "region": "东海",
+        "quantity": 1,
+        "country": "英国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E18288a7da0f2",
+        "date": "2025.6.9",
+        "interval": [
+          895,
+          980
+        ],
+        "region": "东海",
+        "quantity": 1,
+        "country": "英国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E6c2c3c9aa1f2",
+        "date": "2025.6.9",
+        "interval": [
+          846,
+          991
+        ],
+        "region": "北部湾",
+        "quantity": 1,
+        "country": "俄罗斯",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Edcc3359951ea",
+        "date": "2025.6.9",
+        "interval": [
+          532,
+          617
+        ],
+        "region": "北部湾",
+        "quantity": 1,
+        "country": "德国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Ebda5c3185558",
+        "date": "2025.6.9",
+        "interval": [
+          169,
+          254
+        ],
+        "region": "礼乐滩海域",
+        "quantity": 1,
+        "country": "意大利",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E9fe432e3eb2d",
+        "date": "2025.6.9",
+        "interval": [
+          345,
+          430
+        ],
+        "region": "南海",
+        "quantity": 1,
+        "country": "意大利",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Ea18697265efc",
+        "date": "2025.6.9",
+        "interval": [
+          1033,
+          1178
+        ],
+        "region": "南海",
+        "quantity": 1,
+        "country": "意大利",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E42d60071c8f1",
+        "date": "2025.6.9",
+        "interval": [
+          147,
+          292
+        ],
+        "region": "万安滩海域",
+        "quantity": 1,
+        "country": "新加坡",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E6e7acd5f8c61",
+        "date": "2025.6.9",
+        "interval": [
+          494,
+          639
+        ],
+        "region": "南海",
+        "quantity": 1,
+        "country": "法国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E2dd56fed405f",
+        "date": "2025.6.9",
+        "interval": [
+          1231,
+          1376
+        ],
+        "region": "南海",
+        "quantity": 1,
+        "country": "越南",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Ecd4fbf169d1e",
+        "date": "2025.6.9",
+        "interval": [
+          334,
+          479
+        ],
+        "region": "黄岩岛海域",
+        "quantity": 1,
+        "country": "马来西亚",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E55f8972567e1",
+        "date": "2025.6.9",
+        "interval": [
+          356,
+          441
+        ],
+        "region": "黄海中部",
+        "quantity": 1,
+        "country": "印度",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E924e6ca71d9a",
+        "date": "2025.6.9",
+        "interval": [
+          670,
+          815
+        ],
+        "region": "成山头外海",
+        "quantity": 1,
+        "country": "印度",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Ea970990b1eca",
+        "date": "2025.6.9",
+        "interval": [
+          708,
+          793
+        ],
+        "region": "北黄海",
+        "quantity": 1,
+        "country": "印度",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E2ca441e6f4c4",
+        "date": "2025.6.9",
+        "interval": [
+          1209,
+          1354
+        ],
+        "region": "黄海",
+        "quantity": 1,
+        "country": "法国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E046ecc474444",
+        "date": "2025.6.9",
+        "interval": [
+          136,
+          281
+        ],
+        "region": "海州湾外海",
+        "quantity": 1,
+        "country": "韩国",
+        "kind": "舰船"
+      }
+    ]
+  },
+  {
+    "filename": "01_舰机侦巡数量曲线图.png",
+    "date": "2025.7.17",
+    "event_ids": [
+      "E90c3a92449c0",
+      "Eb74ef91626fb",
+      "Ec2c048f22b96",
+      "E6fd54b34ddca",
+      "E47585891ea7d",
+      "Efcfdf62fea29",
+      "E84e0cd0518f7",
+      "Eb467af1ad48b",
+      "Ec2fc15847dca",
+      "Ede00d54b457e",
+      "E18a7be4d3577",
+      "E1cff2a3aa628"
+    ],
+    "hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "air": [
+      0,
+      0,
+      2,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      2,
+      0,
+      0,
+      1,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ships": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "quantity_unit": "架次/艘次",
+    "recon_tasks": [
+      "反潜巡逻",
+      "情报监视侦察",
+      "战备巡逻",
+      "战备警巡",
+      "海上侦察巡逻",
+      "海上巡逻",
+      "海上监视侦察",
+      "电子侦察",
+      "联合巡航",
+      "联合巡逻"
+    ]
+  },
+  {
+    "filename": "02_中国主要机舰活动示意图.png",
+    "date": "2025.7.17",
+    "event_ids": [
+      "E84e0cd0518f7",
+      "Efcfdf62fea29",
+      "E6fd54b34ddca",
+      "Ed87771b1a183",
+      "Eb74ef91626fb",
+      "E47585891ea7d",
+      "E09b0f6823bef",
+      "Ed3e37e164072",
+      "E18a7be4d3577"
+    ],
+    "group": "中国",
+    "records": [
+      {
+        "event_id": "E84e0cd0518f7",
+        "date": "2025.7.17",
+        "interval": [
+          521,
+          606
+        ],
+        "region": "东海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Efcfdf62fea29",
+        "date": "2025.7.17",
+        "interval": [
+          681,
+          826
+        ],
+        "region": "东海油气田海域",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E6fd54b34ddca",
+        "date": "2025.7.17",
+        "interval": [
+          1055,
+          1140
+        ],
+        "region": "东海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Ed87771b1a183",
+        "date": "2025.7.17",
+        "interval": [
+          158,
+          243
+        ],
+        "region": "南海北部",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Eb74ef91626fb",
+        "date": "2025.7.17",
+        "interval": [
+          719,
+          804
+        ],
+        "region": "中沙群岛海域",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E47585891ea7d",
+        "date": "2025.7.17",
+        "interval": [
+          857,
+          1002
+        ],
+        "region": "南海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E09b0f6823bef",
+        "date": "2025.7.17",
+        "interval": [
+          356,
+          441
+        ],
+        "region": "黄海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Ed3e37e164072",
+        "date": "2025.7.17",
+        "interval": [
+          1022,
+          1167
+        ],
+        "region": "海州湾外海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E18a7be4d3577",
+        "date": "2025.7.17",
+        "interval": [
+          1220,
+          1365
+        ],
+        "region": "济州岛西部海域",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "舰船"
+      }
+    ]
+  },
+  {
+    "filename": "03_美国主要机舰活动示意图.png",
+    "date": "2025.7.17",
+    "event_ids": [
+      "E41285ff2fdf4"
+    ],
+    "group": "美国",
+    "records": [
+      {
+        "event_id": "E41285ff2fdf4",
+        "date": "2025.7.17",
+        "interval": [
+          494,
+          639
+        ],
+        "region": "东海",
+        "quantity": 2,
+        "country": "美国",
+        "kind": "飞机"
+      }
+    ]
+  },
+  {
+    "filename": "04_其他国家主要机舰活动示意图.png",
+    "date": "2025.7.17",
+    "event_ids": [
+      "Ede00d54b457e",
+      "E13b76a8b1293",
+      "Ec2fc15847dca",
+      "E35d073ef1ca9",
+      "E90c3a92449c0",
+      "E1aaa4b98a26f",
+      "E516b3616f6ac",
+      "Eee99196443cf",
+      "Ee772075fa027",
+      "E341edc1dfa15",
+      "Ec2c048f22b96",
+      "Eb217868d3aff",
+      "Ee58ffcb68948",
+      "Ece685cae9a2c",
+      "E1cff2a3aa628",
+      "E8cf370c97ff4",
+      "Eea50ebfa7bba",
+      "Eb467af1ad48b"
+    ],
+    "group": "其他国家",
+    "records": [
+      {
+        "event_id": "Ede00d54b457e",
+        "date": "2025.7.17",
+        "interval": [
+          708,
+          793
+        ],
+        "region": "宁波外海",
+        "quantity": 1,
+        "country": "加拿大",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E13b76a8b1293",
+        "date": "2025.7.17",
+        "interval": [
+          532,
+          617
+        ],
+        "region": "东海中部",
+        "quantity": 1,
+        "country": "印度",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Ec2fc15847dca",
+        "date": "2025.7.17",
+        "interval": [
+          1033,
+          1178
+        ],
+        "region": "东海油气田海域",
+        "quantity": 1,
+        "country": "澳大利亚",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E35d073ef1ca9",
+        "date": "2025.7.17",
+        "interval": [
+          846,
+          991
+        ],
+        "region": "东海",
+        "quantity": 1,
+        "country": "马来西亚",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E90c3a92449c0",
+        "date": "2025.7.17",
+        "interval": [
+          345,
+          430
+        ],
+        "region": "南海南部",
+        "quantity": 1,
+        "country": "印度",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E1aaa4b98a26f",
+        "date": "2025.7.17",
+        "interval": [
+          323,
+          468
+        ],
+        "region": "南海",
+        "quantity": 1,
+        "country": "日本",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E516b3616f6ac",
+        "date": "2025.7.17",
+        "interval": [
+          1209,
+          1354
+        ],
+        "region": "南海",
+        "quantity": 1,
+        "country": "日本",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Eee99196443cf",
+        "date": "2025.7.17",
+        "interval": [
+          307,
+          452
+        ],
+        "region": "南海",
+        "quantity": 1,
+        "country": "法国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Ee772075fa027",
+        "date": "2025.7.17",
+        "interval": [
+          868,
+          1013
+        ],
+        "region": "万安滩海域",
+        "quantity": 1,
+        "country": "越南",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E341edc1dfa15",
+        "date": "2025.7.17",
+        "interval": [
+          1231,
+          1376
+        ],
+        "region": "南康暗沙海域",
+        "quantity": 1,
+        "country": "韩国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Ec2c048f22b96",
+        "date": "2025.7.17",
+        "interval": [
+          169,
+          254
+        ],
+        "region": "南海",
+        "quantity": 1,
+        "country": "马来西亚",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Eb217868d3aff",
+        "date": "2025.7.17",
+        "interval": [
+          483,
+          628
+        ],
+        "region": "南海中部",
+        "quantity": 1,
+        "country": "马来西亚",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Ee58ffcb68948",
+        "date": "2025.7.17",
+        "interval": [
+          1044,
+          1189
+        ],
+        "region": "南黄海",
+        "quantity": 1,
+        "country": "俄罗斯",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Ece685cae9a2c",
+        "date": "2025.7.17",
+        "interval": [
+          1242,
+          1327
+        ],
+        "region": "北黄海",
+        "quantity": 1,
+        "country": "俄罗斯",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E1cff2a3aa628",
+        "date": "2025.7.17",
+        "interval": [
+          334,
+          479
+        ],
+        "region": "黄海中部",
+        "quantity": 1,
+        "country": "印度",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E8cf370c97ff4",
+        "date": "2025.7.17",
+        "interval": [
+          895,
+          980
+        ],
+        "region": "黄海",
+        "quantity": 1,
+        "country": "台湾",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Eea50ebfa7bba",
+        "date": "2025.7.17",
+        "interval": [
+          670,
+          815
+        ],
+        "region": "海州湾外海",
+        "quantity": 1,
+        "country": "澳大利亚",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Eb467af1ad48b",
+        "date": "2025.7.17",
+        "interval": [
+          147,
+          292
+        ],
+        "region": "黄海",
+        "quantity": 1,
+        "country": "越南",
+        "kind": "飞机"
+      }
+    ]
+  },
+  {
+    "filename": "01_舰机侦巡数量曲线图.png",
+    "date": "2025.7.9",
+    "event_ids": [
+      "Ec4affdf4ce5d",
+      "E3244d965bdd9",
+      "Ee80a690bd796",
+      "E42464d4d03bc",
+      "Eaed0c9d05796",
+      "E3bd2310cd027",
+      "E89a30fc44a70",
+      "E99f18bd27292",
+      "Eb25c72274055",
+      "E8c65013452c8",
+      "E5f88a84980d9",
+      "E559a19560ef8",
+      "Ec8de214668c6",
+      "E1fb092e6188d"
+    ],
+    "hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "air": [
+      0,
+      0,
+      2,
+      0,
+      0,
+      3,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "ships": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "quantity_unit": "架次/艘次",
+    "recon_tasks": [
+      "反潜巡逻",
+      "情报监视侦察",
+      "战备巡逻",
+      "战备警巡",
+      "海上侦察巡逻",
+      "海上巡逻",
+      "海上监视侦察",
+      "电子侦察",
+      "联合巡航",
+      "联合巡逻"
+    ]
+  },
+  {
+    "filename": "02_中国主要机舰活动示意图.png",
+    "date": "2025.7.9",
+    "event_ids": [
+      "Eb25c72274055",
+      "E4a5a1d8557ff",
+      "E32144d583a14",
+      "E8e5874a4c6ea",
+      "E762f322d7e67",
+      "E2128327fec96",
+      "E3244d965bdd9",
+      "Ebee5579230bb",
+      "Ec3c14ce42325"
+    ],
+    "group": "中国",
+    "records": [
+      {
+        "event_id": "Eb25c72274055",
+        "date": "2025.7.9",
+        "interval": [
+          521,
+          606
+        ],
+        "region": "长江口外海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E4a5a1d8557ff",
+        "date": "2025.7.9",
+        "interval": [
+          868,
+          1013
+        ],
+        "region": "东海中部",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E32144d583a14",
+        "date": "2025.7.9",
+        "interval": [
+          1055,
+          1140
+        ],
+        "region": "苏岩礁附近海域",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E8e5874a4c6ea",
+        "date": "2025.7.9",
+        "interval": [
+          1220,
+          1365
+        ],
+        "region": "钓鱼岛海域",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E762f322d7e67",
+        "date": "2025.7.9",
+        "interval": [
+          158,
+          243
+        ],
+        "region": "西沙群岛海域",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E2128327fec96",
+        "date": "2025.7.9",
+        "interval": [
+          719,
+          804
+        ],
+        "region": "东沙群岛海域",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E3244d965bdd9",
+        "date": "2025.7.9",
+        "interval": [
+          323,
+          468
+        ],
+        "region": "黄海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Ebee5579230bb",
+        "date": "2025.7.9",
+        "interval": [
+          483,
+          628
+        ],
+        "region": "黄海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Ec3c14ce42325",
+        "date": "2025.7.9",
+        "interval": [
+          857,
+          1002
+        ],
+        "region": "黄海",
+        "quantity": 1,
+        "country": "中国",
+        "kind": "飞机"
+      }
+    ]
+  },
+  {
+    "filename": "03_美国主要机舰活动示意图.png",
+    "date": "2025.7.9",
+    "event_ids": [],
+    "group": "美国",
+    "records": []
+  },
+  {
+    "filename": "04_其他国家主要机舰活动示意图.png",
+    "date": "2025.7.9",
+    "event_ids": [
+      "E9030710d6df7",
+      "E559a19560ef8",
+      "E5f88a84980d9",
+      "E160416732733",
+      "E1fb092e6188d",
+      "Ee80a690bd796",
+      "Eaed0c9d05796",
+      "E42464d4d03bc",
+      "E89a30fc44a70",
+      "E8c65013452c8",
+      "Ec4affdf4ce5d",
+      "E888dc8b1606f",
+      "Ed90c687ce6ea",
+      "E99f18bd27292",
+      "Ec8de214668c6",
+      "E3bd2310cd027",
+      "Ea92378007cac"
+    ],
+    "group": "其他国家",
+    "records": [
+      {
+        "event_id": "E9030710d6df7",
+        "date": "2025.7.9",
+        "interval": [
+          846,
+          991
+        ],
+        "region": "冲绳海槽",
+        "quantity": 1,
+        "country": "加拿大",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E559a19560ef8",
+        "date": "2025.7.9",
+        "interval": [
+          356,
+          441
+        ],
+        "region": "东海",
+        "quantity": 1,
+        "country": "印度",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E5f88a84980d9",
+        "date": "2025.7.9",
+        "interval": [
+          670,
+          815
+        ],
+        "region": "赤尾屿海域",
+        "quantity": 1,
+        "country": "印度",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E160416732733",
+        "date": "2025.7.9",
+        "interval": [
+          532,
+          617
+        ],
+        "region": "东海中部",
+        "quantity": 1,
+        "country": "台湾",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E1fb092e6188d",
+        "date": "2025.7.9",
+        "interval": [
+          708,
+          793
+        ],
+        "region": "东海",
+        "quantity": 1,
+        "country": "德国",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Ee80a690bd796",
+        "date": "2025.7.9",
+        "interval": [
+          147,
+          292
+        ],
+        "region": "东海",
+        "quantity": 1,
+        "country": "意大利",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Eaed0c9d05796",
+        "date": "2025.7.9",
+        "interval": [
+          494,
+          639
+        ],
+        "region": "东海",
+        "quantity": 2,
+        "country": "日本",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E42464d4d03bc",
+        "date": "2025.7.9",
+        "interval": [
+          307,
+          452
+        ],
+        "region": "东海",
+        "quantity": 1,
+        "country": "英国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E89a30fc44a70",
+        "date": "2025.7.9",
+        "interval": [
+          169,
+          254
+        ],
+        "region": "东海",
+        "quantity": 1,
+        "country": "菲律宾",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E8c65013452c8",
+        "date": "2025.7.9",
+        "interval": [
+          1044,
+          1189
+        ],
+        "region": "南康暗沙海域",
+        "quantity": 1,
+        "country": "加拿大",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "Ec4affdf4ce5d",
+        "date": "2025.7.9",
+        "interval": [
+          345,
+          430
+        ],
+        "region": "曾母暗沙海域",
+        "quantity": 1,
+        "country": "日本",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "E888dc8b1606f",
+        "date": "2025.7.9",
+        "interval": [
+          895,
+          980
+        ],
+        "region": "黄海",
+        "quantity": 1,
+        "country": "俄罗斯",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Ed90c687ce6ea",
+        "date": "2025.7.9",
+        "interval": [
+          681,
+          826
+        ],
+        "region": "黄海",
+        "quantity": 1,
+        "country": "加拿大",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E99f18bd27292",
+        "date": "2025.7.9",
+        "interval": [
+          1209,
+          1354
+        ],
+        "region": "黄海中部",
+        "quantity": 1,
+        "country": "新西兰",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Ec8de214668c6",
+        "date": "2025.7.9",
+        "interval": [
+          334,
+          479
+        ],
+        "region": "黄海中部",
+        "quantity": 1,
+        "country": "澳大利亚",
+        "kind": "舰船"
+      },
+      {
+        "event_id": "E3bd2310cd027",
+        "date": "2025.7.9",
+        "interval": [
+          1033,
+          1178
+        ],
+        "region": "黄海",
+        "quantity": 1,
+        "country": "英国",
+        "kind": "飞机"
+      },
+      {
+        "event_id": "Ea92378007cac",
+        "date": "2025.7.9",
+        "interval": [
+          136,
+          281
+        ],
+        "region": "南黄海",
+        "quantity": 1,
+        "country": "韩国",
+        "kind": "舰船"
+      }
+    ]
+  }
+]

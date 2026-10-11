@@ -1,0 +1,165 @@
+{
+  "denominator": 10,
+  "passed": 4,
+  "positive": 5,
+  "negative": 5,
+  "distinct_existing_development_cases": 4,
+  "label_sha256": "3f16310dd01f393caeb9c0c3a9a06501f9e7decf33925dcbf3125e21ff86bf1f",
+  "limitation": "从已保存的四个开发案例完整原始正文和雷达人工补写10个关系/字段断言；不是新增独立样本，不能与26或24累加。先保存期望再执行checker。",
+  "results": [
+    {
+      "id": "R01",
+      "ok": false,
+      "errors": [
+        "关联判定不同于人工预期"
+      ],
+      "expected_relation": true,
+      "actual_relation": false,
+      "actual_quantities": [
+        1
+      ],
+      "claims": [
+        "53c4362be6d4"
+      ],
+      "links": []
+    },
+    {
+      "id": "R02",
+      "ok": true,
+      "errors": [],
+      "expected_relation": false,
+      "actual_relation": false,
+      "actual_quantities": [
+        2
+      ],
+      "claims": [
+        "0b610fd348d6"
+      ],
+      "links": []
+    },
+    {
+      "id": "R03",
+      "ok": false,
+      "errors": [
+        "关联判定不同于人工预期"
+      ],
+      "expected_relation": true,
+      "actual_relation": false,
+      "actual_quantities": [
+        2
+      ],
+      "claims": [
+        "2b4bb1365257"
+      ],
+      "links": []
+    },
+    {
+      "id": "R04",
+      "ok": true,
+      "errors": [],
+      "expected_relation": false,
+      "actual_relation": false,
+      "actual_quantities": [
+        1
+      ],
+      "claims": [
+        "25b4af4e5a51"
+      ],
+      "links": []
+    },
+    {
+      "id": "R05",
+      "ok": false,
+      "errors": [
+        "数量解析错误",
+        "关联判定不同于人工预期"
+      ],
+      "expected_relation": true,
+      "actual_relation": false,
+      "actual_quantities": [
+        null
+      ],
+      "claims": [
+        "c54cc4d3a41b"
+      ],
+      "links": []
+    },
+    {
+      "id": "R06",
+      "ok": false,
+      "errors": [
+        "数量解析错误"
+      ],
+      "expected_relation": false,
+      "actual_relation": false,
+      "actual_quantities": [
+        null
+      ],
+      "claims": [
+        "61f97cce088b"
+      ],
+      "links": []
+    },
+    {
+      "id": "R07",
+      "ok": false,
+      "errors": [
+        "数量解析错误",
+        "关联判定不同于人工预期"
+      ],
+      "expected_relation": true,
+      "actual_relation": false,
+      "actual_quantities": [
+        null
+      ],
+      "claims": [
+        "9f612f7c6bc9"
+      ],
+      "links": []
+    },
+    {
+      "id": "R08",
+      "ok": true,
+      "errors": [],
+      "expected_relation": false,
+      "actual_relation": false,
+      "actual_quantities": [
+        1
+      ],
+      "claims": [
+        "13f52e50dc5b"
+      ],
+      "links": []
+    },
+    {
+      "id": "R09",
+      "ok": false,
+      "errors": [
+        "关联判定不同于人工预期"
+      ],
+      "expected_relation": true,
+      "actual_relation": false,
+      "actual_quantities": [
+        1
+      ],
+      "claims": [
+        "6b425bd988b6"
+      ],
+      "links": []
+    },
+    {
+      "id": "R10",
+      "ok": true,
+      "errors": [],
+      "expected_relation": false,
+      "actual_relation": false,
+      "actual_quantities": [
+        2
+      ],
+      "claims": [
+        "16d021a88f4f"
+      ],
+      "links": []
+    }
+  ]
+}

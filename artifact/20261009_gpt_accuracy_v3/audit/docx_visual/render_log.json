@@ -1,0 +1,74 @@
+[
+  {
+    "pdf": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\audit\\docx_visual\\2025.5.10\\report.pdf",
+    "docx_sha256": "ef6896977519ace56d098d9ff11c15b52fc490201bc893f749312eaf4703ea4f",
+    "engine": "Microsoft Word native ExportAsFixedFormat",
+    "docx": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\output\\日报\\2025.5.10\\2025.5.10日报.docx",
+    "pages": 9,
+    "read_only": true,
+    "date": "2025.5.10"
+  },
+  {
+    "pdf": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\audit\\docx_visual\\2025.5.18\\report.pdf",
+    "docx_sha256": "df370296245f7ca0fe4e8a2caede218adc942a9647e7ff4f137755eeeeb2eb7f",
+    "engine": "Microsoft Word native ExportAsFixedFormat",
+    "docx": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\output\\日报\\2025.5.18\\2025.5.18日报.docx",
+    "pages": 9,
+    "read_only": true,
+    "date": "2025.5.18"
+  },
+  {
+    "pdf": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\audit\\docx_visual\\2025.5.30\\report.pdf",
+    "docx_sha256": "40e8868c76a47aa5b54abc519baae640fcb797fddfdb8f864e3296401d970297",
+    "engine": "Microsoft Word native ExportAsFixedFormat",
+    "docx": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\output\\日报\\2025.5.30\\2025.5.30日报.docx",
+    "pages": 9,
+    "read_only": true,
+    "date": "2025.5.30"
+  },
+  {
+    "pdf": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\audit\\docx_visual\\2025.6.17\\report.pdf",
+    "docx_sha256": "196998183f4eccd8b63696de5b3cabe075a10466c39af62d2ab11c7c726ed772",
+    "engine": "Microsoft Word native ExportAsFixedFormat",
+    "docx": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\output\\日报\\2025.6.17\\2025.6.17日报.docx",
+    "pages": 9,
+    "read_only": true,
+    "date": "2025.6.17"
+  },
+  {
+    "pdf": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\audit\\docx_visual\\2025.6.29\\report.pdf",
+    "docx_sha256": "a1f55b66e4f21a5a0edbe2d255d63a350edf82dfd301e4797f775053be01e7a5",
+    "engine": "Microsoft Word native ExportAsFixedFormat",
+    "docx": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\output\\日报\\2025.6.29\\2025.6.29日报.docx",
+    "pages": 8,
+    "read_only": true,
+    "date": "2025.6.29"
+  },
+  {
+    "pdf": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\audit\\docx_visual\\2025.6.9\\report.pdf",
+    "docx_sha256": "e165468a0a5b9f1ace8741aaea643e28925d6d9296c66b214bb35daaa7748e3f",
+    "engine": "Microsoft Word native ExportAsFixedFormat",
+    "docx": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\output\\日报\\2025.6.9\\2025.6.9日报.docx",
+    "pages": 9,
+    "read_only": true,
+    "date": "2025.6.9"
+  },
+  {
+    "pdf": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\audit\\docx_visual\\2025.7.17\\report.pdf",
+    "docx_sha256": "f4226cf301a0ace2e2d84c8e6bb2d237c927ed7d77bf20be2fde13a4527f3094",
+    "engine": "Microsoft Word native ExportAsFixedFormat",
+    "docx": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\output\\日报\\2025.7.17\\2025.7.17日报.docx",
+    "pages": 9,
+    "read_only": true,
+    "date": "2025.7.17"
+  },
+  {
+    "pdf": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\audit\\docx_visual\\2025.7.9\\report.pdf",
+    "docx_sha256": "e91e20cf9a0d0778c18b88a42732a8e03c311937b5cd1c59fce034ffc660b88d",
+    "engine": "Microsoft Word native ExportAsFixedFormat",
+    "docx": "D:\\code\\python\\2026-bdci-multimodal-knowledge\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261009_gpt_accuracy_v3\\output\\日报\\2025.7.9\\2025.7.9日报.docx",
+    "pages": 9,
+    "read_only": true,
+    "date": "2025.7.9"
+  }
+]
