@@ -1,0 +1,154 @@
+{
+  "claude": {
+    "metrics": [
+      "96.7004",
+      "19.8215",
+      "80.2587",
+      "44.1250"
+    ],
+    "source": "docs/05-评测标准与复现清单.md",
+    "locator": "| Claude Opus 5.5 | 8 | 96.7004 | 19.8215 | 80.2587 | 44.1250 | 52.9675 |",
+    "nodes": 8,
+    "total_exact": "52.967505",
+    "total_4dp": "52.9675",
+    "v8_minus_this_metrics": [
+      "-10.5684",
+      "45.4051",
+      "16.2643",
+      "1.1250"
+    ],
+    "v8_minus_this_weighted": [
+      "-2.642100",
+      "18.162040",
+      "2.439645",
+      "0.225000"
+    ],
+    "v8_minus_this_total_exact": "18.184585"
+  },
+  "gpt_initial": {
+    "metrics": [
+      "83.2458",
+      "17.8993",
+      "73.3715",
+      "25.3750"
+    ],
+    "source": "docs/05-评测标准与复现清单.md",
+    "locator": "| GPT-5.6 | 8 | 83.2458 | 17.8993 | 73.3715 | 25.3750 | 44.0519 |",
+    "nodes": 8,
+    "total_exact": "44.051895",
+    "total_4dp": "44.0519",
+    "v8_minus_this_metrics": [
+      "2.8862",
+      "47.3273",
+      "23.1515",
+      "19.8750"
+    ],
+    "v8_minus_this_weighted": [
+      "0.721550",
+      "18.930920",
+      "3.472725",
+      "3.975000"
+    ],
+    "v8_minus_this_total_exact": "27.100195"
+  },
+  "v2": {
+    "metrics": [
+      "84.4760",
+      "64.8389",
+      "76.5391",
+      "52.5000"
+    ],
+    "source": "artifact/20261009_gpt_accuracy_v2/audit/evaluation_initial_20261009.json",
+    "nodes": 8,
+    "total_exact": "69.035425",
+    "total_4dp": "69.0354",
+    "v8_minus_this_metrics": [
+      "1.6560",
+      "0.3877",
+      "19.9839",
+      "-7.2500"
+    ],
+    "v8_minus_this_weighted": [
+      "0.414000",
+      "0.155080",
+      "2.997585",
+      "-1.450000"
+    ],
+    "v8_minus_this_total_exact": "2.116665"
+  },
+  "v3": {
+    "metrics": [
+      "84.6855",
+      "64.4434",
+      "76.6218",
+      "43.7500"
+    ],
+    "source": "artifact/20261009_gpt_accuracy_v3/audit/post_evaluation/evaluation_and_diagnosis.json",
+    "nodes": 8,
+    "total_exact": "67.192005",
+    "total_4dp": "67.1920",
+    "v8_minus_this_metrics": [
+      "1.4465",
+      "0.7832",
+      "19.9012",
+      "1.5000"
+    ],
+    "v8_minus_this_weighted": [
+      "0.361625",
+      "0.313280",
+      "2.985180",
+      "0.300000"
+    ],
+    "v8_minus_this_total_exact": "3.960085"
+  },
+  "v4": {
+    "metrics": [
+      "74.8767",
+      "85.5277",
+      "76.4282",
+      "55.7500"
+    ],
+    "source": "artifact/20261009_gpt_independent_v4/audit/post_evaluation_trace/evaluation_comparison.json",
+    "nodes": 8,
+    "total_exact": "75.544485",
+    "total_4dp": "75.5445",
+    "v8_minus_this_metrics": [
+      "11.2553",
+      "-20.3011",
+      "20.0948",
+      "-10.5000"
+    ],
+    "v8_minus_this_weighted": [
+      "2.813825",
+      "-8.120440",
+      "3.014220",
+      "-2.100000"
+    ],
+    "v8_minus_this_total_exact": "-4.392395"
+  },
+  "v8": {
+    "metrics": [
+      "86.1320",
+      "65.2266",
+      "96.5230",
+      "45.2500"
+    ],
+    "source": "artifact/20261012_initial_eight_nodes_v8/evaluation/evaluation_initial_20261012.json",
+    "nodes": 8,
+    "total_exact": "71.152090",
+    "total_4dp": "71.1521",
+    "v8_minus_this_metrics": [
+      "0.0000",
+      "0.0000",
+      "0.0000",
+      "0.0000"
+    ],
+    "v8_minus_this_weighted": [
+      "0.000000",
+      "0.000000",
+      "0.000000",
+      "0.000000"
+    ],
+    "v8_minus_this_total_exact": "0.000000"
+  }
+}

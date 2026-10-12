@@ -1,0 +1,18 @@
+--- 20261011_20250510_rebuild_v6/code/events.py
+
++++ 20261012_initial_eight_nodes_v8/code/events.py
+
+@@ -428,9 +428,9 @@
+
+     facts['start']=fmt(facts['start']);facts['end']=fmt(facts['end'])
+     return facts,audit,list(dict.fromkeys(issues))
+ 
+-def process_day(daydir,root):
+-    if date(daydir.name)>date('2025.5.10'):
+-        raise ValueError('Node-after data prohibited in this 2025-05-10 verifier')
++def process_day(daydir,root,as_of):
++    if date(daydir.name)>date(as_of):
++        raise ValueError('Node-after data prohibited in this cutoff verifier')
+     lex,regions,tasks=vocabulary(daydir);atoms=[];documents=[]
+     for source in ['开源军情','网上舆论']:
+         for p in sorted((daydir/source).glob('*.txt')):

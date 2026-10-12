@@ -1,0 +1,728 @@
+[
+  {
+    "path": "docs/05-评测标准与复现清单.md",
+    "bytes": 5881,
+    "sha256": "66a1aae99c58db7008195cb73dc64e5babff1bd375167f0f7a9fe7c9e8f59c9f",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_accuracy_v2/audit/evaluation_initial_20261009.json",
+    "bytes": 2457,
+    "sha256": "172701f7350b87c19434c007c5d5a57a74feb08b3a2b94a9bbbc38424ac72bc2",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_accuracy_v3/audit/post_evaluation/evaluation_and_diagnosis.json",
+    "bytes": 46317,
+    "sha256": "a139597d6ae85d7fc03adb49354798dc70b6cd9530cbd804e6f0a981e1a5360f",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_independent_v4/audit/post_evaluation_trace/evaluation_comparison.json",
+    "bytes": 668,
+    "sha256": "a793ed6ae9b8ded631f3dd7d783a5f8ae9d2c5bbc64cefa3aa2c884be7d7d612",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261012_initial_eight_nodes_v8/evaluation/evaluation_initial_20261012.json",
+    "bytes": 6585,
+    "sha256": "4cd4fb3bfb087a08ed2a68dbdfaeb0921ba2d95aa6fe70def4b674fbc089f779",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.5.10日报/2025.5.10日报.docx",
+    "bytes": 395087,
+    "sha256": "f3710ed390d2b215541b10f5f2e0de89a5175e36646d780f48f1be60b9009709",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.5.18日报/2025.5.18日报.docx",
+    "bytes": 424010,
+    "sha256": "8fb53874799ca4e1c7018891bb806cfaa8c2193ee9cfaf98f821d1af198f5d66",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.5.30日报/2025.5.30日报.docx",
+    "bytes": 391662,
+    "sha256": "0065b024fcbba71bb75597707274c19c8a0defc88d7dcde72d17b5ba1f548c84",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.6.17日报/2025.6.17日报.docx",
+    "bytes": 388017,
+    "sha256": "161fa11285cc4fc22d4f25e49c88e968b7afc7e8878ff775b88ef176371b028e",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.6.29日报/2025.6.29日报.docx",
+    "bytes": 409962,
+    "sha256": "c6a3df58860c2b3fce74c0e90a2cbbdd50f0d1cc920c05cd634f0728fdb2ab20",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.6.9日报/2025.6.9日报.docx",
+    "bytes": 421755,
+    "sha256": "b9f6b27ca3880973f300381c13036258b7bafa45c4663dafdb522595fc480df7",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.7.17日报/2025.7.17日报.docx",
+    "bytes": 413667,
+    "sha256": "99c42effef059f097f2abde0ad4be7993bee06c02fb3536178a4e8c69093126c",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_001028_gpt-5.6solhigh/output/2025.7.9日报/2025.7.9日报.docx",
+    "bytes": 391263,
+    "sha256": "855288ecd92a7efc4977e524e3fd0936c41f7853fe92bcf55525eaab54778b3d",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_001929_claude-opus-5.5high/output/2025.5.10/日报/2025.5.10日报.docx",
+    "bytes": 897640,
+    "sha256": "162e9e62b340b5c21a0b0b554ad43ecf0de04e901dfd71880a038325385d9972",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_001929_claude-opus-5.5high/output/2025.5.18/日报/2025.5.18日报.docx",
+    "bytes": 914257,
+    "sha256": "68c94e8dad7d53713c6a4ba2ed621d408b02eecdc082dc6479ce0efbe008df7a",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_001929_claude-opus-5.5high/output/2025.5.30/日报/2025.5.30日报.docx",
+    "bytes": 888431,
+    "sha256": "a3960960ac11c2dce5fcb1378ef5e3dd8d586011378a54a1a12f959561229a53",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_001929_claude-opus-5.5high/output/2025.6.17/日报/2025.6.17日报.docx",
+    "bytes": 940843,
+    "sha256": "e134a960e7027317584ff2033f8f7a5c4fa49acf789af2a5aa755c7d7f16dbf8",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_001929_claude-opus-5.5high/output/2025.6.29/日报/2025.6.29日报.docx",
+    "bytes": 908007,
+    "sha256": "67b0aacc2a850180881d757299013fad6495453d2fa1ecfc70561d61300aa78a",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_001929_claude-opus-5.5high/output/2025.6.9/日报/2025.6.9日报.docx",
+    "bytes": 909913,
+    "sha256": "4447190491e0fbfc9453fb2c39d03ba53e5085d211c1ff14b224d20ed3e5ad7e",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_001929_claude-opus-5.5high/output/2025.7.17/日报/2025.7.17日报.docx",
+    "bytes": 917338,
+    "sha256": "473548c30f2318986b6b761a5323a524853ab166b93ff22664ecc946ca282322",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_001929_claude-opus-5.5high/output/2025.7.9/日报/2025.7.9日报.docx",
+    "bytes": 899431,
+    "sha256": "6aea84d43023c5b1bb9966ece21c556667565e75bcfd004fe91c7c7d82edbac9",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.5.10/2025.5.10日报.docx",
+    "bytes": 660895,
+    "sha256": "a13f6f3985249356ca89da7a06f2974518b4a90f6e2cfe969b4472cb39cbd78b",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.5.18/2025.5.18日报.docx",
+    "bytes": 679875,
+    "sha256": "68b56249f3e211ee0c265822d0815c99febe83f9764aae2530e201599ec64502",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.5.30/2025.5.30日报.docx",
+    "bytes": 714685,
+    "sha256": "e593778a85166accb41daa3fcd1128d7f9e38a964ff538fa22130987b852f249",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.6.17/2025.6.17日报.docx",
+    "bytes": 657047,
+    "sha256": "b5e7340363ede67200c587be8dfd1c492212dab6c38b788bb6cb475494025a53",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.6.29/2025.6.29日报.docx",
+    "bytes": 657339,
+    "sha256": "c34563a7a0b5e5fe43bef09be15de41ee4c70608ea2a9803c2ffdaf9c0cadf7c",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.6.9/2025.6.9日报.docx",
+    "bytes": 690970,
+    "sha256": "3a1d4106020197834e124d7d82810aabe96746334e926bab10d282363c99d104",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.7.17/2025.7.17日报.docx",
+    "bytes": 691035,
+    "sha256": "9f73e9695f42c85878ee893bdcff02970234b482801dd3729afff3533f30f7d7",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_accuracy_v2/output/日报/2025.7.9/2025.7.9日报.docx",
+    "bytes": 685950,
+    "sha256": "4acb93f6a358023d8cd84daa001e729afd9dda50afa85dee79952ee2af384bbb",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_accuracy_v2/output/中间证据/reconstruction_summary.json",
+    "bytes": 7517,
+    "sha256": "7f0f1bb386a971e99a75ecfa9cdf6260731f0946b00a57afa3629d5aaaec3276",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_accuracy_v3/output/日报/2025.5.10/2025.5.10日报.docx",
+    "bytes": 622090,
+    "sha256": "6f0b67bdf63e9f6a86ac3a9b5cbd8130f2a7e7d1e8cb1faa5bf66ae55efba289",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_accuracy_v3/output/日报/2025.5.18/2025.5.18日报.docx",
+    "bytes": 645140,
+    "sha256": "14cf0c69b7b6c562fa44d2ad9139b4dc7c866f869e52aeef69f301b680f7eeaf",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_accuracy_v3/output/日报/2025.5.30/2025.5.30日报.docx",
+    "bytes": 671794,
+    "sha256": "cd47111fe57e94426f031f7298860aff3ba79aa144f87b7c3906a3e4baa0ac08",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_accuracy_v3/output/日报/2025.6.17/2025.6.17日报.docx",
+    "bytes": 636121,
+    "sha256": "1bfcc023fbd8376e90c9ef5579b1f8d0a855b9b242d2c1c5b5615d1bad84df2a",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_accuracy_v3/output/日报/2025.6.29/2025.6.29日报.docx",
+    "bytes": 621476,
+    "sha256": "a4aafeae13bc9d62634a20c70787bf846314547fd598700e1b9291f87a7cbd81",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_accuracy_v3/output/日报/2025.6.9/2025.6.9日报.docx",
+    "bytes": 644999,
+    "sha256": "094052263a9ca84eefdc764cdbf4691f7944f9d27577e153479638b950498f0a",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_accuracy_v3/output/日报/2025.7.17/2025.7.17日报.docx",
+    "bytes": 650478,
+    "sha256": "dc9259b0f9617f32a22248d55a7e747a607eea1f032aa938847a2187a0db8053",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_accuracy_v3/output/日报/2025.7.9/2025.7.9日报.docx",
+    "bytes": 642629,
+    "sha256": "6e8591911807fce35397f78d45b89cdbd8d5fed26c2646ae1198add2721cbd30",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_accuracy_v3/output/中间证据/reconstruction_summary.json",
+    "bytes": 7520,
+    "sha256": "a0e51e1bb2c9883430bab016b82cf318b4cf663798330d9302d8034692c72c0b",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_independent_v4/output/日报/2025.5.10/2025.5.10日报.docx",
+    "bytes": 672949,
+    "sha256": "bedeed49762f5a804605f60ed40d889b8af5194e6999f3943bc35af8a0a9b83f",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_independent_v4/output/日报/2025.5.18/2025.5.18日报.docx",
+    "bytes": 590544,
+    "sha256": "6a6c31b77388aab5b5b9e85f195f752f393883e8d01a96e63a44689808c70eb8",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_independent_v4/output/日报/2025.5.30/2025.5.30日报.docx",
+    "bytes": 655171,
+    "sha256": "f3d3479b673accdb48a0b4ee2b573af33e4c79293810fcf3c1ff5fa51783d03b",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_independent_v4/output/日报/2025.6.17/2025.6.17日报.docx",
+    "bytes": 571567,
+    "sha256": "470ff9f7b01f4a785e3835d77698be93ca333cfc8821a9eae0e7c7e0240b2326",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_independent_v4/output/日报/2025.6.29/2025.6.29日报.docx",
+    "bytes": 631545,
+    "sha256": "09a6b961d2381db45b60dac798911499419d8ff490e776f879b878c8391b7f51",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_independent_v4/output/日报/2025.6.9/2025.6.9日报.docx",
+    "bytes": 663369,
+    "sha256": "5259fc072442f44159d9ecb49a101177f85b3e36908de6cd83ba758cf97e0795",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_independent_v4/output/日报/2025.7.17/2025.7.17日报.docx",
+    "bytes": 637591,
+    "sha256": "c8203ee72f73124e9b7e5dfd54ac1e50ba5abfa5e4648a6577ae33820c812e5e",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_independent_v4/output/日报/2025.7.9/2025.7.9日报.docx",
+    "bytes": 666112,
+    "sha256": "7665a42cad24489385fd9b4a7146f40447591260d0f0f3255c684b66d9c256c4",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_independent_v4/output/payloads/2025.5.10.json",
+    "bytes": 579575,
+    "sha256": "dd994f26ec58432a953a9dbbe42287aa99ddf77b432365f9ab588ee6b165ed32",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_independent_v4/output/payloads/2025.5.18.json",
+    "bytes": 515250,
+    "sha256": "c8ab0f77fd6c17a1e1e5f8e0d3c329b9b5d099d0762672b42d9ffe6f8e064d37",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_independent_v4/output/payloads/2025.5.30.json",
+    "bytes": 820918,
+    "sha256": "5fa08383a6b4840d26a449a566d37f6fa719dd5b06655fe60fe1c9f488a67477",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_independent_v4/output/payloads/2025.6.9.json",
+    "bytes": 708362,
+    "sha256": "5be8a3f57aa53cd5f1c4871c41665d222d7cd7c6be7fe55ad851e4bf0a9b863f",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_independent_v4/output/payloads/2025.6.17.json",
+    "bytes": 622594,
+    "sha256": "ab5fc4107d4b2fa9c92fe8712d1c67b24b345257038896c71cd4ea01bde147d3",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_independent_v4/output/payloads/2025.6.29.json",
+    "bytes": 603539,
+    "sha256": "d475fa09b3e3653fdd78ee62fd1b40b2fa3a3327853885a060cdb0045b6187f5",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_independent_v4/output/payloads/2025.7.9.json",
+    "bytes": 696313,
+    "sha256": "462011730e7133320e84f818308a0934463c4bab2624638b763877af50779592",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_independent_v4/output/payloads/2025.7.17.json",
+    "bytes": 517606,
+    "sha256": "533a24018575d5d0a0ce19142bbf7c41b9e19ccf1ae2583f04436b0e512590d8",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261011_20250510_rebuild_v6/2025.5.10/2025.5.10日报.docx",
+    "bytes": 1157658,
+    "sha256": "574e1eb316dd7b3554c91f93a3f87c46179aaea1425abbc5cf6f24d82441da96",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261012_initial_eight_nodes_v8/official/2025.5.10/2025.5.10日报.docx",
+    "bytes": 1927271,
+    "sha256": "c841b77366f70f512dfface310d5fa3f168b63e63a7ab6a413be1b9cc64e53fd",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261012_initial_eight_nodes_v8/official/2025.5.18/2025.5.18日报.docx",
+    "bytes": 1904000,
+    "sha256": "9bd4673055299196d37922457c05fd8e66a96370bf042283883dc937357f1214",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261012_initial_eight_nodes_v8/official/2025.5.30/2025.5.30日报.docx",
+    "bytes": 1955017,
+    "sha256": "21536d5745c4564303fc1b06bda1563ca42cfbebad69bfaf0a4235005591be1e",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261012_initial_eight_nodes_v8/official/2025.6.17/2025.6.17日报.docx",
+    "bytes": 1856320,
+    "sha256": "d94c7c4ab0c21bcf67511df3996a999ac4902b6b4e5b8a9e8afffb5752182436",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261012_initial_eight_nodes_v8/official/2025.6.29/2025.6.29日报.docx",
+    "bytes": 1885687,
+    "sha256": "bb63a5062b2467e8c5f42ec74f02e49b51ebf922784cf0bcc3faf36aa96f04be",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261012_initial_eight_nodes_v8/official/2025.6.9/2025.6.9日报.docx",
+    "bytes": 1936834,
+    "sha256": "2b4de0b34cb3035af72ae6f588eb7696bcd451c50701ac180e1bb2dd6fd04d40",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261012_initial_eight_nodes_v8/official/2025.7.17/2025.7.17日报.docx",
+    "bytes": 1833065,
+    "sha256": "efc7eafcb73aa07a7a9de28d0e49090c58f60f0082961329f5becf2d711a126b",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261012_initial_eight_nodes_v8/official/2025.7.9/2025.7.9日报.docx",
+    "bytes": 1954108,
+    "sha256": "e156f2df8e3434b566574874c6f9ab040b92955a1a39492511f9a7b71654a055",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261012_initial_eight_nodes_v8/audits/2025.5.10/frozen_ledger.json",
+    "bytes": 4881672,
+    "sha256": "83769d4ca767dab43d08de01e623e9ce2594e0ccd626123eb9d367326decee61",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261012_initial_eight_nodes_v8/audits/2025.5.18/frozen_ledger.json",
+    "bytes": 8200481,
+    "sha256": "dd868c9d09a5cfc24c28e7ee3a0d2e6fecb2c8f3a0d62164990b998191a63f3f",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261012_initial_eight_nodes_v8/audits/2025.5.30/frozen_ledger.json",
+    "bytes": 13478742,
+    "sha256": "d70fd4c5b228ce8b72e44fbab40497796fb6b1edb2c86d3aab8b3dd7af374d02",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261012_initial_eight_nodes_v8/audits/2025.6.9/frozen_ledger.json",
+    "bytes": 17868850,
+    "sha256": "018e7f10a10ba67f53bbc15c7785a7a437c40fcea31cdae2980a508026b06353",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261012_initial_eight_nodes_v8/audits/2025.6.17/frozen_ledger.json",
+    "bytes": 21097809,
+    "sha256": "8194f254a8d3c5c7168ff811a523e5a520cd98ecf2b90794de0ac44f44907eff",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261012_initial_eight_nodes_v8/audits/2025.6.29/frozen_ledger.json",
+    "bytes": 26351580,
+    "sha256": "bd48ea4ba84f45523b86cfb43049489e0d6fe5444fd37aa42c30da5edc12f85d",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261012_initial_eight_nodes_v8/audits/2025.7.9/frozen_ledger.json",
+    "bytes": 30863006,
+    "sha256": "9797b67dde15a5ea0efaa5d69b0864a00cfd4b66ecde0a0c1dab8aea86e637fc",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261012_initial_eight_nodes_v8/audits/2025.7.17/frozen_ledger.json",
+    "bytes": 34216326,
+    "sha256": "676d1269d5b595cab12e6fda8f13843487d8456e60dafd451ab45978118ecaa7",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "a49ec55237c73dbf27b6c947da72780604f6db4e:artifact/赛题2_初赛_八节点_格式对齐版/2025.5.10/2025.5.10日报.docx",
+    "bytes": 681028,
+    "sha256": "298f5656b7f1f5520344687240f823b65dc9881c5e138f320bfb00d0da4e108c",
+    "state": "fully_read_by_docx_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "a49ec55237c73dbf27b6c947da72780604f6db4e:artifact/赛题2_初赛_八节点_格式对齐版/2025.5.18/2025.5.18日报.docx",
+    "bytes": 602468,
+    "sha256": "d92c481a71db5c16a61a9569bf097119ecad3ee85c3fa74d216b46404f410fd7",
+    "state": "fully_read_by_docx_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "a49ec55237c73dbf27b6c947da72780604f6db4e:artifact/赛题2_初赛_八节点_格式对齐版/2025.5.30/2025.5.30日报.docx",
+    "bytes": 668136,
+    "sha256": "0d2cfd3a439fb27f8d9cc5548d4d5a2736f73cef7ce851108d2e6a3ff8b030d3",
+    "state": "fully_read_by_docx_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "a49ec55237c73dbf27b6c947da72780604f6db4e:artifact/赛题2_初赛_八节点_格式对齐版/2025.6.17/2025.6.17日报.docx",
+    "bytes": 600635,
+    "sha256": "dea2b4192cb497e5f0ab14402d0c56b0f05e9a2a7f5bf537984aeb0c79d35d0e",
+    "state": "fully_read_by_docx_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "a49ec55237c73dbf27b6c947da72780604f6db4e:artifact/赛题2_初赛_八节点_格式对齐版/2025.6.29/2025.6.29日报.docx",
+    "bytes": 647909,
+    "sha256": "c4c820799578d0809617c0ca6e35f1d3929b6bb810d45504aea9a0dcf348b005",
+    "state": "fully_read_by_docx_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "a49ec55237c73dbf27b6c947da72780604f6db4e:artifact/赛题2_初赛_八节点_格式对齐版/2025.6.9/2025.6.9日报.docx",
+    "bytes": 668527,
+    "sha256": "cdc23edf6051a6ce47c7c8d78a562ba7e9010131bbb97a2dd8723b41cf909f77",
+    "state": "fully_read_by_docx_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "a49ec55237c73dbf27b6c947da72780604f6db4e:artifact/赛题2_初赛_八节点_格式对齐版/2025.7.17/2025.7.17日报.docx",
+    "bytes": 658261,
+    "sha256": "a049eb16d52ca44e6badc54fda7b23b05478549c5532b4b2290f70a3d2a70f22",
+    "state": "fully_read_by_docx_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "a49ec55237c73dbf27b6c947da72780604f6db4e:artifact/赛题2_初赛_八节点_格式对齐版/2025.7.9/2025.7.9日报.docx",
+    "bytes": 674879,
+    "sha256": "d74223a4090715ca911f1bd0331b92c0ba25f8af027a899d2e4f08a0e69b1067",
+    "state": "fully_read_by_docx_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_independent_v4/output/evidence/2025.5.10.events.jsonl",
+    "bytes": 572093,
+    "sha256": "ec00c3e5600a9279a38c949f9e92b9238fef7ef7dc789ee8c7a4e3dac71b0f2e",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_independent_v4/output/evidence/2025.5.18.events.jsonl",
+    "bytes": 582566,
+    "sha256": "15872a093b9913e3266eb7358f6c8760b047d1903ec28cb601bdd1ee0b0c148d",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_independent_v4/output/evidence/2025.5.30.events.jsonl",
+    "bytes": 565617,
+    "sha256": "c6c63898d3d89f8617ce868cf503294c3bb55d1ff4e3fb9bc0472cdc715fd470",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_independent_v4/output/evidence/2025.6.9.events.jsonl",
+    "bytes": 568305,
+    "sha256": "a64ccc88de9e08c5aadc02d7d561242ee98331f9e9efc9af23cb4540b42f6325",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_independent_v4/output/evidence/2025.6.17.events.jsonl",
+    "bytes": 578602,
+    "sha256": "5d638a60185ba5116be908c43a3c8d9e68b426e6ca3b0ee4e0b3ffe2e0bfbbef",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_independent_v4/output/evidence/2025.6.29.events.jsonl",
+    "bytes": 573266,
+    "sha256": "24c2b39566009b4bd533b022ec94538b391831c2209c05ced81455f507185065",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_independent_v4/output/evidence/2025.7.9.events.jsonl",
+    "bytes": 568096,
+    "sha256": "ada824195a200a5a0a4c767081960cf68343e6a7d0de9d9179358469e55f2f70",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_independent_v4/output/evidence/2025.7.17.events.jsonl",
+    "bytes": 574491,
+    "sha256": "06fcf582cba4736b47015a963e57b3005d8b29eb9881ec8cd79b70c7b0862844",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_204137_976_workflow-agent-v1.1_deepseek-v4-pro_risk/summary.json",
+    "bytes": 217234,
+    "sha256": "27eb37891bc89a11ef75a9ec5f82e9ae3edc9222c5011a886c940f9d92255025",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_204853_747_workflow-agent-v1.2_deepseek-v4-pro_risk/summary.json",
+    "bytes": 176191,
+    "sha256": "fc3dfcad2930f566f3356f7f492fced1d824167b8aab6ca42a7540caf1f6bb3c",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_001929_claude-opus-5.5high/output/summary.json",
+    "bytes": 1357,
+    "sha256": "2fcb69d102a4d5827a2f3b4fd9b2fe17e354bcf1526adf0e6f9df91b163db554",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_001028_gpt-5.6solhigh/output/中间结果/evidence.jsonl",
+    "bytes": 3875422,
+    "sha256": "9eb27b24b0db658f430db80d7d0f1474dd406e9fc6ebaa8fc671357591eb8a24",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_workflow_agent_v1/README.md",
+    "bytes": 12076,
+    "sha256": "e14645dc0febc2870099f06163fe026be19340383369c3777051566257ca3c04",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_001028_gpt-5.6solhigh/solution.py",
+    "bytes": 20967,
+    "sha256": "e0b91ca00d6f24209f667c518508b59525f26c52ac528e7f5fdf29cdea123021",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_001929_claude-opus-5.5high/bdci/fusion.py",
+    "bytes": 20780,
+    "sha256": "4af025fd45577050f3be72a0080ab9cab598334f02d52f4bead9978a39c49a6c",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_001929_claude-opus-5.5high/bdci/tracking.py",
+    "bytes": 5608,
+    "sha256": "e0bcc378aa6fd16a875998d5f687985d0233d33bbd5d7f513605aae4bdbda6c0",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_accuracy_v2/code/fusion.py",
+    "bytes": 32756,
+    "sha256": "0f585f4f749cbc7578e5db12e21ea2d5ab01fc5e09cb6bb9570f9c2c4d56c371",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_accuracy_v3/code/fusion_event_stage.py",
+    "bytes": 39251,
+    "sha256": "cb53b116c34238fdd072618981f5d42395039c27460b3e30237cf96a31a9d15a",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_accuracy_v3/code/trend_v3.py",
+    "bytes": 6410,
+    "sha256": "60c18a7408d7894e9720b74ddd952b18710fcc69622204beaa1decc044f1a2a8",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_independent_v4/code/events.py",
+    "bytes": 29497,
+    "sha256": "47c13e9530be3e4fa758a5593f5b27ed9aaff69636dd257862a683981177ebdf",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261009_gpt_independent_v4/code/report.py",
+    "bytes": 11022,
+    "sha256": "b128bd24fa9ea561b43dd99edc0057f77789696c28303d1d290abe41262b1f6b",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261011_20250510_rebuild_v5/code/events_base.py",
+    "bytes": 29497,
+    "sha256": "47c13e9530be3e4fa758a5593f5b27ed9aaff69636dd257862a683981177ebdf",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261011_20250510_rebuild_v6/code/events.py",
+    "bytes": 36633,
+    "sha256": "c5785a276bc59e8781bf6745d493de43c644704453e823b2c63ff5d3a274ab9f",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261011_20250510_rebuild_v6/code/build.py",
+    "bytes": 20793,
+    "sha256": "e69541acbbe8532071cbc888774fa242dcdc12f34f150e8f887fb0c96817ab4d",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261012_initial_eight_nodes_v8/code/events.py",
+    "bytes": 36629,
+    "sha256": "bdff8a35373af89770d71372f95c89b66834bf9d5e118f2c758ef1a7fef227a9",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261012_initial_eight_nodes_v8/code/select_lines.py",
+    "bytes": 2327,
+    "sha256": "e8a3f6f5cc30e2ad4d59763acb6be649a702ddcbe7fe1dd11ea38b2cd5070cee",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261012_initial_eight_nodes_v8/code/build.py",
+    "bytes": 22380,
+    "sha256": "ea006e19a353503d3c1ac805f1412c5bd0183d91ab1e1687f1447212894cc4d4",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261011_initial_eight_nodes_v8/code/prepare.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261011_initial_eight_nodes_v8/code/common.py",
+    "bytes": 570,
+    "sha256": "fd48e6e4955a2eb945ec34f6126c31e98177be529bacccb53517ac630e0604a9",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_workflow_agent_v1/workflow_agent/engine.py",
+    "bytes": 4020,
+    "sha256": "fb68ada4c0abc5df7e107934aa2dfbb8bf52e4d4a5b81524bac7e0714872422f",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_workflow_agent_v1/workflow_agent/analysis.py",
+    "bytes": 8460,
+    "sha256": "cb86c7267b29eb063ce2bc999602f6db56a03d3bd51d0abbc1c636022676e2a9",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_workflow_agent_v1/workflow_agent/trust.py",
+    "bytes": 8700,
+    "sha256": "ab52379668b9295a1f458baabfea3ee0eda46a6b8925e5cf29e77a273db61134",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_workflow_agent_v1/workflow_agent/report.py",
+    "bytes": 18827,
+    "sha256": "ee24f50990e8fde94f49ddc0ad9bf1ce1f240e9f8dfd384e851303c153dc238e",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_204137_976_workflow-agent-v1.1_deepseek-v4-pro_risk/code/workflow_agent/engine.py",
+    "bytes": 3894,
+    "sha256": "93ca27e0e0d86b773965b4614172b71d48555a0948f82457e45348effaa74a9a",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_204137_976_workflow-agent-v1.1_deepseek-v4-pro_risk/code/workflow_agent/analysis.py",
+    "bytes": 8246,
+    "sha256": "3abc6fade489fbe51b478b7752c00bee78e0ee2f9559d472db94964eb96b7714",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_204137_976_workflow-agent-v1.1_deepseek-v4-pro_risk/code/workflow_agent/trust.py",
+    "bytes": 8700,
+    "sha256": "ab52379668b9295a1f458baabfea3ee0eda46a6b8925e5cf29e77a273db61134",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_204137_976_workflow-agent-v1.1_deepseek-v4-pro_risk/code/workflow_agent/report.py",
+    "bytes": 18827,
+    "sha256": "ee24f50990e8fde94f49ddc0ad9bf1ce1f240e9f8dfd384e851303c153dc238e",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_204853_747_workflow-agent-v1.2_deepseek-v4-pro_risk/code/workflow_agent/engine.py",
+    "bytes": 3894,
+    "sha256": "93ca27e0e0d86b773965b4614172b71d48555a0948f82457e45348effaa74a9a",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_204853_747_workflow-agent-v1.2_deepseek-v4-pro_risk/code/workflow_agent/analysis.py",
+    "bytes": 8313,
+    "sha256": "e4f13fb5dcddde71038fb5b19f84854cf8b4fe0d746cdda4f7883ede37aecfbc",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_204853_747_workflow-agent-v1.2_deepseek-v4-pro_risk/code/workflow_agent/trust.py",
+    "bytes": 8700,
+    "sha256": "ab52379668b9295a1f458baabfea3ee0eda46a6b8925e5cf29e77a273db61134",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  },
+  {
+    "path": "artifact/20261008_204853_747_workflow-agent-v1.2_deepseek-v4-pro_risk/code/workflow_agent/report.py",
+    "bytes": 18827,
+    "sha256": "ee24f50990e8fde94f49ddc0ad9bf1ce1f240e9f8dfd384e851303c153dc238e",
+    "state": "fully_read_by_comparison_parser; selected_semantic_output_reviewed"
+  }
+]

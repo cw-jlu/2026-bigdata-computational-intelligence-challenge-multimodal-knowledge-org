@@ -1,0 +1,266 @@
+{
+  "gpt_initial": {
+    "folder": "artifact/20261008_001028_gpt-5.6solhigh",
+    "actual_official_files": {
+      "docx": 8,
+      "xlsx": 8,
+      "png": 32
+    },
+    "score_available": true,
+    "formal_nodes": [
+      "2025.5.10",
+      "2025.5.18",
+      "2025.5.30",
+      "2025.6.17",
+      "2025.6.29",
+      "2025.6.9",
+      "2025.7.17",
+      "2025.7.9"
+    ],
+    "code_present": true
+  },
+  "claude": {
+    "folder": "artifact/20261008_001929_claude-opus-5.5high",
+    "actual_official_files": {
+      "docx": 8,
+      "xlsx": 8,
+      "png": 32
+    },
+    "score_available": true,
+    "formal_nodes": [
+      "2025.5.10",
+      "2025.5.18",
+      "2025.5.30",
+      "2025.6.17",
+      "2025.6.29",
+      "2025.6.9",
+      "2025.7.17",
+      "2025.7.9"
+    ],
+    "code_present": true
+  },
+  "v2": {
+    "folder": "artifact/20261009_gpt_accuracy_v2",
+    "actual_official_files": {
+      "docx": 8,
+      "xlsx": 8,
+      "png": 32
+    },
+    "score_available": true,
+    "formal_nodes": [
+      "2025.5.10",
+      "2025.5.18",
+      "2025.5.30",
+      "2025.6.17",
+      "2025.6.29",
+      "2025.6.9",
+      "2025.7.17",
+      "2025.7.9"
+    ],
+    "code_present": true,
+    "node_event_counts": {
+      "2025.5.10": 25,
+      "2025.5.18": 27,
+      "2025.5.30": 28,
+      "2025.6.9": 27,
+      "2025.6.17": 26,
+      "2025.6.29": 25,
+      "2025.7.9": 26,
+      "2025.7.17": 28
+    }
+  },
+  "v3": {
+    "folder": "artifact/20261009_gpt_accuracy_v3",
+    "actual_official_files": {
+      "docx": 8,
+      "xlsx": 8,
+      "png": 32
+    },
+    "score_available": true,
+    "formal_nodes": [
+      "2025.5.10",
+      "2025.5.18",
+      "2025.5.30",
+      "2025.6.17",
+      "2025.6.29",
+      "2025.6.9",
+      "2025.7.17",
+      "2025.7.9"
+    ],
+    "code_present": true,
+    "node_event_counts": {
+      "2025.5.10": 25,
+      "2025.5.18": 27,
+      "2025.5.30": 28,
+      "2025.6.9": 27,
+      "2025.6.17": 27,
+      "2025.6.29": 25,
+      "2025.7.9": 26,
+      "2025.7.17": 28
+    }
+  },
+  "v4": {
+    "folder": "artifact/20261009_gpt_independent_v4",
+    "actual_official_files": {
+      "docx": 8,
+      "xlsx": 8,
+      "png": 32
+    },
+    "score_available": true,
+    "formal_nodes": [
+      "2025.5.10",
+      "2025.5.18",
+      "2025.5.30",
+      "2025.6.17",
+      "2025.6.29",
+      "2025.6.9",
+      "2025.7.17",
+      "2025.7.9"
+    ],
+    "code_present": true
+  },
+  "v5": {
+    "folder": "artifact/20261011_20250510_rebuild_v5",
+    "actual_official_files": {
+      "docx": 0,
+      "xlsx": 0,
+      "png": 0
+    },
+    "score_available": false,
+    "formal_nodes": [],
+    "code_present": true
+  },
+  "v6": {
+    "folder": "artifact/20261011_20250510_rebuild_v6",
+    "actual_official_files": {
+      "docx": 1,
+      "xlsx": 1,
+      "png": 4
+    },
+    "score_available": false,
+    "formal_nodes": [
+      "2025.5.10"
+    ],
+    "code_present": true
+  },
+  "v7_unfinished": {
+    "folder": "artifact/20261011_initial_eight_nodes_v7",
+    "actual_official_files": {
+      "docx": 0,
+      "xlsx": 0,
+      "png": 0
+    },
+    "score_available": false,
+    "formal_nodes": [],
+    "code_present": false
+  },
+  "v8_unfinished": {
+    "folder": "artifact/20261011_initial_eight_nodes_v8",
+    "actual_official_files": {
+      "docx": 0,
+      "xlsx": 0,
+      "png": 0
+    },
+    "score_available": false,
+    "formal_nodes": [],
+    "code_present": true
+  },
+  "v8": {
+    "folder": "artifact/20261012_initial_eight_nodes_v8",
+    "actual_official_files": {
+      "docx": 8,
+      "xlsx": 8,
+      "png": 32
+    },
+    "score_available": true,
+    "formal_nodes": [
+      "2025.5.10",
+      "2025.5.18",
+      "2025.5.30",
+      "2025.6.17",
+      "2025.6.29",
+      "2025.6.9",
+      "2025.7.17",
+      "2025.7.9"
+    ],
+    "code_present": true
+  },
+  "formatted": {
+    "folder": "artifact/赛题2_初赛_八节点_格式对齐版/",
+    "git_ref": "a49ec55237c73dbf27b6c947da72780604f6db4e",
+    "actual_official_files": {
+      ".docx": 8,
+      ".xlsx": 8,
+      ".png": 32
+    },
+    "member_count": 48,
+    "score_available": false,
+    "formal_nodes": [
+      "2025.5.10",
+      "2025.5.18",
+      "2025.5.30",
+      "2025.6.9",
+      "2025.6.17",
+      "2025.6.29",
+      "2025.7.9",
+      "2025.7.17"
+    ]
+  },
+  "workflow_v1_1": {
+    "folder": "artifact/20261008_204137_976_workflow-agent-v1.1_deepseek-v4-pro_risk",
+    "actual_official_files": {
+      "docx": 0,
+      "xlsx": 0,
+      "png": 0
+    },
+    "score_available": false,
+    "formal_nodes": [],
+    "run_summary": {
+      "stage": "analyze",
+      "node": "2025-05-10",
+      "records": 7000,
+      "events": {
+        "trusted": 0,
+        "pending": 1,
+        "excluded": 0
+      },
+      "uncovered_records": 7000,
+      "quality_issues": 0,
+      "report_generated": false
+    }
+  },
+  "workflow_v1_2": {
+    "folder": "artifact/20261008_204853_747_workflow-agent-v1.2_deepseek-v4-pro_risk",
+    "actual_official_files": {
+      "docx": 0,
+      "xlsx": 0,
+      "png": 0
+    },
+    "score_available": false,
+    "formal_nodes": [],
+    "run_summary": {
+      "stage": "report",
+      "node": "2025-05-10",
+      "records": 7000,
+      "events": {
+        "trusted": 0,
+        "pending": 140,
+        "excluded": 0
+      },
+      "uncovered_records": 5676,
+      "quality_issues": 0,
+      "report_generated": false
+    }
+  },
+  "workflow_v1": {
+    "folder": "artifact/20261008_workflow_agent_v1",
+    "actual_official_files": {
+      "docx": 0,
+      "xlsx": 0,
+      "png": 0
+    },
+    "score_available": false,
+    "formal_nodes": [],
+    "scope": "framework and synthetic tests, no competition deliverable"
+  }
+}

@@ -1,0 +1,263 @@
+--- 20261009_gpt_independent_v4/code/events.py
+
++++ 20261012_initial_eight_nodes_v8/code/events.py
+
+@@ -1,4 +1,4 @@
+
+-"""Independent event reconstruction with atomic text claims and field-level gates.
++"""Event reconstruction adapted from v4, with reviewed field-level corrections.
+ 
+ Association is a hypothesis. No association score is used as a truth criterion.
+ No imports from earlier GPT implementations; no model calls; no filename features.
+@@ -10,7 +10,30 @@
+
+ from pathlib import Path
+ from statistics import median
+ import numpy as np
+-from scipy.optimize import linear_sum_assignment
++def linear_sum_assignment(cost):
++    """Rectangular Hungarian algorithm, deterministic; no scipy dependency.
++    Association optimization is not a truth decision. Rows <= columns.
++    """
++    n,m=cost.shape;u=[0.0]*(n+1);v=[0.0]*(m+1);p=[0]*(m+1);way=[0]*(m+1)
++    for i in range(1,n+1):
++        p[0]=i;j0=0;mins=[float('inf')]*(m+1);used=[False]*(m+1)
++        while True:
++            used[j0]=True;i0=p[j0];delta=float('inf');j1=0
++            for j in range(1,m+1):
++                if not used[j]:
++                    cur=float(cost[i0-1,j-1])-u[i0]-v[j]
++                    if cur<mins[j]:mins[j]=cur;way[j]=j0
++                    if mins[j]<delta:delta=mins[j];j1=j
++            for j in range(m+1):
++                if used[j]:u[p[j]]+=delta;v[j]-=delta
++                else:mins[j]-=delta
++            j0=j1
++            if p[j0]==0:break
++        while True:
++            j1=way[j0];p[j0]=p[j1];j0=j1
++            if j0==0:break
++    result=sorted((p[j]-1,j-1) for j in range(1,m+1) if p[j])
++    return [a for a,b in result],[b for a,b in result]
+ from openpyxl import load_workbook
+ 
+ NODES=['2025.5.10','2025.5.18','2025.5.30','2025.6.9','2025.6.17','2025.6.29','2025.7.9','2025.7.17']
+@@ -108,21 +131,36 @@
+
+         if key=='056a':p['aliases'].add('056a型护卫舰')
+     return platforms,regions,tasks
+ 
+-def text_atoms(path,source,day,lex,regions,tasks,root):
++def text_atoms(path,source,day,lex,regions,tasks,root,_body=None,_segment=0):
+     text=path.read_text(encoding='utf-8-sig');m=re.search(r'正文[：:]([\s\S]*?)(?:\n\s*主题词[：:]|$)',text)
+-    body=m.group(1).strip() if m else ''
++    body=_body if _body is not None else (m.group(1).strip() if m else '')
+     title=re.search(r'标题[：:]([^\n]+)',text);title=title.group(1).strip() if title else ''
+     # Keep reportage facts before commentary; platform/mission capability words in
+     # opinions about intent are not observations. Broadcast agency is not the actor.
+     fact=re.split(r'有分析认为|分析认为|媒体评论认为|观察人士指出|有关讨论|围绕.*?的讨论|从公开可观察特征切入|媒体关注|外界分析|外界认为|从任务连续性角度|相关动向被|相关行动被|这一动向|这一部署|此次行动被|此次部署可能|有关分析|有观点认为|有助于外界|可能体现|被认为|引发外界',body,maxsplit=1)[0]
+     # Strip news agency country mentions before the reported event.
+     fact=re.sub(r'^据[^，。]*报道[，、]?', '',fact)
++    if _body is None:
++        chunks=[];current=''
++        for part in re.findall(r'[^。；]+[。；]?',fact):
++            npart=norm(part)
++            explicit=any(alias in npart for p in lex.values() for alias in p['aliases'])
++            located=any(norm(reg) in npart for reg in regions)
++            if current and explicit and located and re.search(r'执行|活动|进入|离开|开展|展开',part):
++                chunks.append(current);current=part
++            else:current+=part
++        if current:chunks.append(current)
++        if len(chunks)>1:
++            aa=[]
++            for i,chunk in enumerate(chunks):
++                cc,_=text_atoms(path,source,day,lex,regions,tasks,root,chunk,i);aa.extend(cc)
++            return aa,{'path':path.relative_to(root).as_posix(),'source':source,'body':body,'fact':fact,'atoms':[a['id'] for a in aa],'segments':chunks,'sha256':hashlib.sha256(path.read_bytes()).hexdigest()}
+     n=norm(fact)
+     country_hits=[(n.find(norm(c)),c) for c in COUNTRIES if norm(c) in n]
+     country=min(country_hits)[1] if country_hits else ('美国' if '美军' in n else '台湾' if '台军' in n else None)
+     modelhits=[]
+     for key,p in lex.items():
+-        for alias in p['aliases']:
++        for alias in sorted(p['aliases']):
+             pos=n.find(alias)
+             if pos>=0:modelhits.append((pos,pos+len(alias),key))
+     # Longest overlapping alias wins. E.g. 歼-16D cannot also become 歼-16.
+@@ -130,10 +168,10 @@
+
+     for h in modelhits:
+         if not any(h[0]<g[1] and g[0]<h[1] for g in chosen):chosen.append(h)
+     chosen.sort();chosen=list({h[2]:h for h in chosen}.values())
+-    regionhits=[(n.find(norm(r)),r) for r in regions if re.search(re.escape(norm(r))+r'(?!军)',n)]
++    regionhits=[(n.find(norm(r)),r) for r in regions if re.search(re.escape(norm(r))+r'(?!军|上自卫队)',n)]
+     regionhits.sort(key=lambda x:(-len(x[1]),x[0],x[1]));region=regionhits[0][1] if regionhits else None
+     allregions=[r for _,r in regionhits if not any(r!=q and r in q for _,q in regionhits)]
+-    taskhits=[t for t in tasks if re.search(re.escape(t)+r'(?!机|船|飞机)',fact)]
++    taskhits=[t for t in sorted(tasks) if re.search(re.escape(t)+r'(?!机|船|飞机)',fact)]
+     taskhits=[t for t in taskhits if not any(t!=q and t in q for q in taskhits)]
+     # Unknown task is missing, not "routine deployment" inferred from prose.
+     task=taskhits[0] if len(taskhits)==1 else None
+@@ -151,19 +189,38 @@
+
+     atoms=[]
+     cn={'一':1,'两':2,'二':2,'三':3,'四':4,'五':5,'六':6,'七':7,'八':8,'九':9,'十':10}
+     for pos,_,key in chosen:
+-        p=lex[key];prefix=n[max(0,pos-20):pos]
++        p=lex[key];prefix=n[max(0,pos-20):pos];q=None
++        subject_hits=[(n[:pos].rfind(norm(c)),c) for c in COUNTRIES if norm(c) in n[:pos]]
++        atom_country=max(subject_hits)[1] if subject_hits else country
+         qtyhit=re.search(r'([0-9]+|[一两二三四五六七八九十])(?:架|艘)(?:[“”"\s])?$',prefix)
+         qty=(int(qtyhit[1]) if qtyhit[1].isdigit() else cn[qtyhit[1]]) if qtyhit else None
+         # "一艘中国093A" places the country between number and model.
+         if qty is None:
+             q=re.search(r'([0-9]+|[一两二三四五六七八九十])(?:架|艘)(?:中国|美国|台湾|日本|英国|法国|德国|印度)?$',prefix)
+             if q:qty=int(q[1]) if q[1].isdigit() else cn[q[1]]
++        quantity_basis='正文显式数量' if qty is not None else None
++        quantity_unit=('艘' if '艘' in (qtyhit.group() if qtyhit else q.group() if q else '') else '架') if qty is not None else None
++        # A shared proper name is not enough: "台风导弹巡洋舰" cannot
++        # corroborate a Typhoon aircraft. Preserve explicit class/unit conflicts.
++        local=n[pos:pos+len(key)+28]
++        rolehits=[]
++        for pattern,reported in [(r'直升机母舰|电子侦察船|船坞登陆舰|坦克登陆舰|导弹巡洋舰|导弹驱逐舰|导弹护卫舰|航空母舰|常规潜艇|核潜艇|综合补给舰|两栖攻击舰|护卫舰|母舰|巡逻艇','舰艇'),(r'战斗机|预警机|侦察机|运输机|无人机|直升机|巡逻机|电子战飞机|轰炸机|战机','飞机')]:
++            mm=re.search(pattern,local)
++            if mm:rolehits.append((mm.start(),-len(mm.group()),reported,mm.group()))
++        reported_kind=min(rolehits)[2] if rolehits else None
++        role_quote=min(rolehits)[3] if rolehits else None
++        if qty is None and p['kind']=='舰艇' and '号' in p['name'] and key+'号' in n:
++            # A singular named vessel is one named participant, not a default
++            # count for a ship class. Class-only mentions stay unknown.
++            qty=1;quantity_basis='正文单一具名舰艇专名；仅计该具名参加者'
+         relpath=path.relative_to(root).as_posix()
+-        atom={'id':hashlib.sha256((relpath+'|'+key).encode()).hexdigest()[:16],
+-              'path':relpath,'source':source,'date':factday,'country':country,'platform':p['name'],'key':key,'kind':p['kind'],
++        atom={'id':hashlib.sha256((relpath+'|'+key+'|'+str(_segment)).encode()).hexdigest()[:16],
++              'path':relpath,'source':source,'date':factday,'country':atom_country,'platform':p['name'],'key':key,'kind':p['kind'],
+               'region':region,'regions':allregions,'task':task,'task_candidates':taskhits,'quantity':qty,
++              'quantity_basis':quantity_basis,
++              'quantity_unit':quantity_unit,'reported_kind':reported_kind,'role_quote':role_quote,
+               'start':start,'end':end,'observed':observed,'relations':relations,'snippet':fact,'title':title,
+-              'locator':'正文','sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'multi_platform':len(chosen)>1}
++              'locator':{'section':'正文','line':next((i for i,line in enumerate(text.splitlines(),1) if line.startswith('正文')),None),'atomic_platform':key,'subevent_index':_segment},'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'multi_platform':len(chosen)>1,'date_basis':'explicit_body_date' if dm else 'same_day_input_directory'}
+         atoms.append(atom)
+     return atoms,{'path':path.relative_to(root).as_posix(),'source':source,'body':body,'fact':fact,'atoms':[a['id'] for a in atoms], 'sha256':hashlib.sha256(path.read_bytes()).hexdigest()}
+ 
+@@ -225,13 +282,16 @@
+
+     else:conflicts.append('日期');score-=50
+     if atom['country']==r['country']:supports.append('主体');score+=5
+     elif atom['country'] and r['country']:conflicts.append('主体');score-=5
+-    regs=atom['regions'] or [atom['region']]
++    # Nested sea labels in a sentence cannot override its specific locality.
++    regs=[atom['region']] if atom['region'] else []
+     if r['kind']=='飞机':
+         # A split/noisy track can still be a same-event hypothesis. The full
+         # trajectory conflict remains a separate veto in audit_fields.
+         loc=[position_support(a,[point]) for a in regs if a for point in r['coords']]
+     else:loc=[compatible_region(a,b) for a in regs for b in r['regions'] if a]
+-    if True in loc:supports.append('区域');score+=10
++    if True in loc:
++        supports.append('区域');score+=10
++        if r['kind']=='舰艇' and atom['region']==r['region'] and atom['region'] not in GENERIC:score+=12
+     elif False in loc:conflicts.append('区域');score-=7
+     time_delta=None
+     if atom['start'] is not None and r['start'] is not None:
+@@ -308,6 +368,11 @@
+
+     """No majority vote. A stated conflict vetoes the event until explained."""
+     issues=list(r['radar_conflicts']);facts={};audit={}
+     sources={'雷达':r,**claims}
++    for s,a in claims.items():
++        if a.get('reported_kind') and a['reported_kind']!=r['kind']:
++            issues.append(f'关键平台类别明确冲突：{s}正文为{a["role_quote"]}，雷达为{r["kind"]}')
++        if a.get('quantity_unit') and a['quantity_unit']!=('架' if r['kind']=='飞机' else '艘'):
++            issues.append(f'关键数量单位明确冲突：{s}为{a["quantity_unit"]}，雷达类别{r["kind"]}')
+     for f in ['country','key','quantity','task','start','end']:
+         vv={s:x.get(f) for s,x in sources.items() if x.get(f) is not None}
+         if f in ['start','end']:
+@@ -318,12 +383,22 @@
+
+         if agree and len(vv)>=2:facts[f]=next(iter(vv.values()))
+         else:
+             facts[f]=None
+-            if agree:issues.append(f'关键字段{f}不足两类来源支持')
++            # Known assertions require >=2 source types. Unstated optional
++            # time/task/count fields stay unknown, never copied from radar.
++            # Subject and platform identity remain mandatory.
++            if agree and f in ['country','key','quantity']:issues.append(f'关键字段{f}不足两类来源支持')
+         audit[f]={'values':vv,'support_types':list(vv) if agree else [],'conflicts':{} if agree else vv,'accepted':facts[f]}
+     # Resolve region to the most specific text claim, checking all explicit regions
+     # and the real radar trajectory. Wide region does not license a different locality.
+     textregs=[(s,a['region']) for s,a in claims.items() if a['region']]
+     region=max([v for _,v in textregs],key=len) if textregs else r['region']
++    specific_candidate=region;precision_limit=None
++    if r['kind']=='飞机' and len(textregs)==2 and compatible_region(textregs[0][1],textregs[1][1]):
++        if any(reg in GENERIC for _,reg in textregs) and not all(reg==region for _,reg in textregs):
++            # A broad sea mention cannot corroborate a finer place name. Radar
++            # coordinates below only check plausibility, not exact polygons.
++            region=next(reg for _,reg in textregs if reg in GENERIC)
++            precision_limit='具体地名仅一类正文明确支持；雷达坐标不作为细地名第二票，输出共同支持的海域层级'
+     regsupport=[];regconflicts=[]
+     for s,a in claims.items():
+         for reg in a['regions']:
+@@ -331,7 +406,7 @@
+
+                 if s not in regsupport:regsupport.append(s)
+             else:regconflicts.append({'source':s,'region':reg})
+     if r['kind']=='飞机':
+-        p=position_support(region or '',r['coords'])
++        p=position_support(specific_candidate or '',r['coords'])
+         if p is True:regsupport.append('雷达')
+         elif p is False:regconflicts.append({'source':'雷达','reason':'轨迹与文本具体区域不相容'})
+     else:
+@@ -343,7 +418,7 @@
+
+     if len(regsupport)<2:issues.append('关键区域不足两类来源支持')
+     if not region:issues.append('具体区域缺失')
+     facts['region']=region;facts['direction']=direction(region or '')
+-    audit['region']={'accepted':region,'support_types':regsupport,'conflicts':regconflicts,'radar_regions':r['regions']}
++    audit['region']={'accepted':region,'specific_location_candidate':specific_candidate,'precision_limit':precision_limit,'support_types':regsupport,'conflicts':regconflicts,'radar_regions':r['regions']}
+     for s,a in claims.items():
+         if a['task_candidates'] and len(a['task_candidates'])>1:issues.append(f'{s}同一事实段出现多任务候选：{a["task_candidates"]}')
+         if a['date']!=r['date']:issues.append(f'{s}日期不一致')
+@@ -353,7 +428,9 @@
+
+     facts['start']=fmt(facts['start']);facts['end']=fmt(facts['end'])
+     return facts,audit,list(dict.fromkeys(issues))
+ 
+-def process_day(daydir,root):
++def process_day(daydir,root,as_of):
++    if date(daydir.name)>date(as_of):
++        raise ValueError('Node-after data prohibited in this cutoff verifier')
+     lex,regions,tasks=vocabulary(daydir);atoms=[];documents=[]
+     for source in ['开源军情','网上舆论']:
+         for p in sorted((daydir/source).glob('*.txt')):
+@@ -361,8 +438,27 @@
+
+     radars=radar_events(daydir,root);selected,candidates,ambiguities=assign(atoms,radars);out=[]
+     for r in radars:
+         claims=selected.get(r['id'],{});facts,fields,issues=audit_fields(r,claims)
++        competitors=[]
++        # Do not discard an unselected article merely because another article
++        # received a higher association score. Test uniquely anchored rivals.
++        for a in atoms:
++            if a['id'] in {b['id'] for ss in selected.values() for b in ss.values()}:continue
++            if a['key']!=r['key'] or a['date']!=r['date']:continue
++            targets=[]
++            for other in radars:
++                if other['key']!=a['key']:continue
++                for b in selected.get(other['id'],{}).values():
++                    specific=a['region']==b['region'] and a['region'] not in GENERIC and a['region'] is not None
++                    interval=a['start'] is not None and b['start'] is not None and abs(a['start']-b['start'])+abs(a['end']-b['end'])<=4
++                    if specific or interval:targets.append(other['id'])
++            if set(targets)=={r['id']}:
++                alternate={**claims,a['source']:a};_,_,altissues=audit_fields(r,alternate)
++                explicit=[i for i in altissues if '冲突' in i or '日期不一致' in i or '多任务' in i]
++                competitors.append({'atom':a,'alternative_issues':altissues,'explicit_conflicts':explicit})
++                issues.extend('未选正文竞争证据：'+i for i in explicit)
++        issues=list(dict.fromkeys(issues))
+         valid=not issues;decision='纳入' if valid and facts['direction']!='其他' else '域外' if valid else '排除'
+-        out.append({**r,'claims':claims,'facts':facts,'field_audit':fields,'issues':issues,'decision':decision,
++        out.append({**r,'claims':claims,'competing_evidence':competitors,'facts':facts,'field_audit':fields,'issues':issues,'decision':decision,
+                     'reason':'三源完成事件关联且各关键字段获得至少两类来源支持，无未消解冲突' if valid else '；'.join(issues)})
+     used={a['id'] for aa in selected.values() for a in aa.values()}
+     unmatched=[{**a,'reason':'没有独立且唯一的雷达事件对应，或候选发生资源竞争'} for a in atoms if a['id'] not in used]
