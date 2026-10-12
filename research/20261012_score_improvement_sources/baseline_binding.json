@@ -1,0 +1,70 @@
+{
+  "version": "v12",
+  "purpose": "用于选择检索问题；不是重核事实",
+  "analyses": [
+    {
+      "node": "2025-05-10",
+      "v12_analysis_path": "artifact/20261012_163714_initial_eight_nodes_v12/audits/2025.5.10/analysis.md",
+      "sha256": "1786ba06e0a911818f7f215952956a0afbe2509a508c0f0bfa97f4ffa5bf8ccf",
+      "existing_question": "分析问题：德国台风的跨海域记载，能否说明任务从训练转向持续警戒？",
+      "question_selection_redone": false,
+      "facts_reverified_this_turn": false
+    },
+    {
+      "node": "2025-05-18",
+      "v12_analysis_path": "artifact/20261012_163714_initial_eight_nodes_v12/audits/2025.5.18/analysis.md",
+      "sha256": "4f4a4f96e5791366f3293f678b976df7f92acef8597b0593c930f82d52ea0369",
+      "existing_question": "分析问题：巴登-符腾堡号从东海警戒到南海训练，改变了什么，连续性还缺什么？",
+      "question_selection_redone": false,
+      "facts_reverified_this_turn": false
+    },
+    {
+      "node": "2025-05-30",
+      "v12_analysis_path": "artifact/20261012_163714_initial_eight_nodes_v12/audits/2025.5.30/analysis.md",
+      "sha256": "f2ca49eed42d46a02094e03ce1b928a4d27662d819bdc843c5aa1896f61de831",
+      "existing_question": "分析问题：韩国P-8A黄海反潜记录体现任务集中，还是活动规模增长？",
+      "question_selection_redone": false,
+      "facts_reverified_this_turn": false
+    },
+    {
+      "node": "2025-06-09",
+      "v12_analysis_path": "artifact/20261012_163714_initial_eight_nodes_v12/audits/2025.6.9/analysis.md",
+      "sha256": "5d328edb8aeb5b0a4a2144030603572f998b2407d4cfb041e9d341458ba7bce9",
+      "existing_question": "分析问题：英国RC-135W在东海两类任务标签重现，是否意味着新增任务或活动增强？",
+      "question_selection_redone": false,
+      "facts_reverified_this_turn": false
+    },
+    {
+      "node": "2025-06-17",
+      "v12_analysis_path": "artifact/20261012_163714_initial_eight_nodes_v12/audits/2025.6.17/analysis.md",
+      "sha256": "b84c71e399dff8cd01c5027ba5a5f9843a1814a6fbac06be0700b391c46469e4",
+      "existing_question": "分析问题：澳大利亚P-8A全赛段活动是否集中在南海，节点黄海记录改变了什么？",
+      "question_selection_redone": false,
+      "facts_reverified_this_turn": false
+    },
+    {
+      "node": "2025-06-29",
+      "v12_analysis_path": "artifact/20261012_163714_initial_eight_nodes_v12/audits/2025.6.29/analysis.md",
+      "sha256": "c5d1908d56d1eaba998b92083969cb154aef3d9d36edfee62e29f9ae5028c8c7",
+      "existing_question": "分析问题：新加坡G550的变化主要是地域转换，还是任务性质改变？",
+      "question_selection_redone": false,
+      "facts_reverified_this_turn": false
+    },
+    {
+      "node": "2025-07-09",
+      "v12_analysis_path": "artifact/20261012_163714_initial_eight_nodes_v12/audits/2025.7.9/analysis.md",
+      "sha256": "d50085ff54d8e6b93fa08962bc82e5cf66c33c66a395615094f30610f999ab45",
+      "existing_question": "分析问题：哈利法克斯级全赛段多海域活动，能否解释为同一艘舰往返？",
+      "question_selection_redone": false,
+      "facts_reverified_this_turn": false
+    },
+    {
+      "node": "2025-07-17",
+      "v12_analysis_path": "artifact/20261012_163714_initial_eight_nodes_v12/audits/2025.7.17/analysis.md",
+      "sha256": "6f4dca90abe8c6766b0a0046267b24c2d0a89e74a72ab1b48fa6caba4ab88539",
+      "existing_question": "分析问题：戴高乐号南海警戒是新的部署转向，还是早期任务模式再现？",
+      "question_selection_redone": false,
+      "facts_reverified_this_turn": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "scope": "bytes, expected PDF pages, metadata consistency and node date/role guards only",
+  "sources": 9,
+  "downloaded_originals": 6,
+  "pdfs": 4,
+  "html_originals": 2,
+  "archived_files_checked": 48,
+  "historical_web_content_unverified": [
+    "R04",
+    "R05",
+    "R09"
+  ],
+  "full_download_unavailable": [
+    "R03"
+  ],
+  "event_facts_reverified": false,
+  "analysis_rewrite_completed": false,
+  "platform_score_gain_verified": false
+}

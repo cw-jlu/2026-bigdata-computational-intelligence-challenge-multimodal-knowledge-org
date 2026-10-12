@@ -1,0 +1,25 @@
+{
+  "purpose": "建议的人工复核记录结构；未对任何事件自动裁决",
+  "required_fields": {
+    "node_cutoff": "YYYY-MM-DD",
+    "candidate_id": "本地候选编号，不采用输入文件序号作事件身份",
+    "entity_identity_level": "class/model/named_platform/unique_vehicle",
+    "event_link_candidates": "包含未选竞争配对",
+    "source_links": "每类来源各自文件与段落/行号及同事件理由",
+    "atomic_fact": "一次只记录数量/时间/任务/区域等一个事实",
+    "per_source_values": "各源独立原文值、单位、否定/引用范围；missing与conflict分别标记",
+    "supporting_source_types": "不得由来源篇数代替来源类型",
+    "third_source_counterevidence": "明确反证与未能消解原因",
+    "decision": "纳入/排除/待决；外部资料不得充当第三源",
+    "delta_from_version": "新增/移除/字段修正/仅表述调整",
+    "review_status": "未复核/已读原文/复核存在分歧"
+  },
+  "prohibited_shortcuts": [
+    "把v4高分当真值",
+    "按版本多数投票",
+    "单源值复制为第二源支持",
+    "未知数量默认1",
+    "不同窗口架次直接同比",
+    "只抽查已纳入项就声称无漏项"
+  ]
+}

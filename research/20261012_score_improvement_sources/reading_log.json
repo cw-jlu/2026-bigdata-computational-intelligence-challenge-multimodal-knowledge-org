@@ -1,0 +1,59 @@
+{
+  "read_on": "2026-10-12",
+  "pdf_visual_pages": {
+    "R01": [
+      1,
+      3,
+      4
+    ],
+    "R02": [
+      1,
+      11,
+      14,
+      18,
+      19
+    ],
+    "R06": [
+      1
+    ],
+    "R07": [
+      1
+    ]
+  },
+  "rendered_but_not_claimed_read": [
+    "R02-p20.png"
+  ],
+  "pdf_page_numbering": "1-based physical PDF pages; R02 printed page = PDF page - 4 in inspected sections",
+  "web_only_read": {
+    "R03": [
+      "PDF 7",
+      "PDF 24-25"
+    ],
+    "R08": [
+      "one-page PDF text"
+    ],
+    "R09": [
+      "dated article relevant body"
+    ]
+  },
+  "html_sections_read": {
+    "R04": [
+      "2.1-2.5",
+      "3.1-3.3",
+      "5"
+    ],
+    "R05": [
+      "2",
+      "4.1-4.2",
+      "5.2-5.4",
+      "selected appendix error definitions"
+    ]
+  },
+  "originals_are_untrusted_reference_material": true,
+  "limitations": [
+    "R01 official and mirror selected clauses compared; no byte equivalence claimed",
+    "GAO PDF locally unavailable",
+    "HTML extraction is not a complete offline rendering of images or interactive content",
+    "No independent blind review of event facts"
+  ]
+}

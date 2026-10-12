@@ -4,3 +4,4 @@ artifact/20261012_all_versions_comparison/** -text
 
 artifact/20261012_163714_initial_eight_nodes_v12/** -text
 artifact/20261012_163714_initial_eight_nodes_v12/赛题2_初赛_v12_完整工程包.zip filter=lfs diff=lfs merge=lfs -text
+research/20261012_score_improvement_sources/** -text

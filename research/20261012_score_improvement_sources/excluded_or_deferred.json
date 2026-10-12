@@ -1,0 +1,27 @@
+{
+  "items": [
+    {
+      "url": "https://www.navair.navy.mil/product/P-8A-Poseidon",
+      "decision": "deferred",
+      "reason": "当前产品页未核实节点前具体版本；用固定版R07作有限历史参照，不拿当前规格补赛内事实"
+    },
+    {
+      "url": "https://www.defence.gov.au/news-events/releases/2026-05-27/fourteenth-p-8a-poseidon-aircraft-arrives-complete-australias-maritime-patrol-fleet",
+      "decision": "excluded",
+      "reason": "搜索结果发布日期2026-05-27晚于全部2025节点；未采用正文或数量"
+    },
+    {
+      "url": "https://media.defense.gov/2024/Dec/12/2003610855/-1/-1/0/KOREA_18-34.PDF",
+      "decision": "not_used",
+      "reason": "PDF工具访问403；采购批准也不能作为2025节点出动数"
+    },
+    {
+      "prior_source_ids": [
+        "D01",
+        "D02"
+      ],
+      "decision": "not_added",
+      "reason": "现有SIPRI军费/军贸背景对当前八条具体主线缺乏直接区分作用，不为增加引用而重复下载"
+    }
+  ]
+}

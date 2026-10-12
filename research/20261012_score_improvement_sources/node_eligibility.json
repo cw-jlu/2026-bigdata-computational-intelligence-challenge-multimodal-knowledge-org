@@ -1,0 +1,173 @@
+{
+  "note": "资格与贡献分开；方法不是外部实证，未认证网页只供工程研究。",
+  "nodes": [
+    {
+      "node": "2025-05-10",
+      "fixed_version_method_sources": [
+        "R01",
+        "R02",
+        "R03"
+      ],
+      "date_eligible_background_sources": [
+        "R06",
+        "R07",
+        "R08"
+      ],
+      "provisional_method_only": [
+        "R04",
+        "R05"
+      ],
+      "excluded_from_formal_citation_pending_history": [
+        "R09"
+      ],
+      "event_validation_sources": []
+    },
+    {
+      "node": "2025-05-18",
+      "fixed_version_method_sources": [
+        "R01",
+        "R02",
+        "R03"
+      ],
+      "date_eligible_background_sources": [
+        "R06",
+        "R07",
+        "R08"
+      ],
+      "provisional_method_only": [
+        "R04",
+        "R05"
+      ],
+      "excluded_from_formal_citation_pending_history": [
+        "R09"
+      ],
+      "event_validation_sources": []
+    },
+    {
+      "node": "2025-05-30",
+      "fixed_version_method_sources": [
+        "R01",
+        "R02",
+        "R03"
+      ],
+      "date_eligible_background_sources": [
+        "R06",
+        "R07",
+        "R08"
+      ],
+      "provisional_method_only": [
+        "R04",
+        "R05"
+      ],
+      "excluded_from_formal_citation_pending_history": [
+        "R09"
+      ],
+      "event_validation_sources": []
+    },
+    {
+      "node": "2025-06-09",
+      "fixed_version_method_sources": [
+        "R01",
+        "R02",
+        "R03"
+      ],
+      "date_eligible_background_sources": [
+        "R06",
+        "R07",
+        "R08"
+      ],
+      "provisional_method_only": [
+        "R04",
+        "R05"
+      ],
+      "excluded_from_formal_citation_pending_history": [
+        "R09"
+      ],
+      "event_validation_sources": []
+    },
+    {
+      "node": "2025-06-17",
+      "fixed_version_method_sources": [
+        "R01",
+        "R02",
+        "R03"
+      ],
+      "date_eligible_background_sources": [
+        "R06",
+        "R07",
+        "R08"
+      ],
+      "provisional_method_only": [
+        "R04",
+        "R05"
+      ],
+      "excluded_from_formal_citation_pending_history": [
+        "R09"
+      ],
+      "event_validation_sources": []
+    },
+    {
+      "node": "2025-06-29",
+      "fixed_version_method_sources": [
+        "R01",
+        "R02",
+        "R03"
+      ],
+      "date_eligible_background_sources": [
+        "R06",
+        "R07",
+        "R08"
+      ],
+      "provisional_method_only": [
+        "R04",
+        "R05"
+      ],
+      "excluded_from_formal_citation_pending_history": [
+        "R09"
+      ],
+      "event_validation_sources": []
+    },
+    {
+      "node": "2025-07-09",
+      "fixed_version_method_sources": [
+        "R01",
+        "R02",
+        "R03"
+      ],
+      "date_eligible_background_sources": [
+        "R06",
+        "R07",
+        "R08"
+      ],
+      "provisional_method_only": [
+        "R04",
+        "R05"
+      ],
+      "excluded_from_formal_citation_pending_history": [
+        "R09"
+      ],
+      "event_validation_sources": []
+    },
+    {
+      "node": "2025-07-17",
+      "fixed_version_method_sources": [
+        "R01",
+        "R02",
+        "R03"
+      ],
+      "date_eligible_background_sources": [
+        "R06",
+        "R07",
+        "R08"
+      ],
+      "provisional_method_only": [
+        "R04",
+        "R05"
+      ],
+      "excluded_from_formal_citation_pending_history": [
+        "R09"
+      ],
+      "event_validation_sources": []
+    }
+  ]
+}
