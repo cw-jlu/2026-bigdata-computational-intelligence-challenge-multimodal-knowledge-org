@@ -1,0 +1,104 @@
+{
+  "facts": "daily event decisions and values unchanged; entry/exit source-object audit added, unsupported relations not asserted",
+  "analysis": {
+    "node": "2025.5.30",
+    "today_events": 27,
+    "daily_facts_changed": false,
+    "full_related_verified_events": 9,
+    "restored_history": [],
+    "missing_related_verified_events": [],
+    "stages": [
+      {
+        "dates": [
+          "2025.5.5"
+        ],
+        "events": [
+          "2025.5.5-AIR-006C60EFADB317"
+        ],
+        "boundary_basis": "南海侦察单日参照"
+      },
+      {
+        "dates": [
+          "2025.5.12"
+        ],
+        "events": [
+          "2025.5.12-AIR-A7F7AA84B2BC84"
+        ],
+        "boundary_basis": "黄海联合巡逻，不能跳过不同任务"
+      },
+      {
+        "dates": [
+          "2025.5.21",
+          "2025.5.25",
+          "2025.5.26",
+          "2025.5.27",
+          "2025.5.28",
+          "2025.5.30"
+        ],
+        "events": [
+          "2025.5.21-AIR-1C5CB539CDF7F7",
+          "2025.5.25-AIR-F6A24C7F81E848",
+          "2025.5.26-AIR-BEB66F230F996B",
+          "2025.5.27-AIR-026631CC30D138",
+          "2025.5.28-AIR-7BD2E1024A2A22",
+          "2025.5.30-AIR-4EDAD658D2D3AC",
+          "2025.5.30-AIR-FF26392625DADF"
+        ],
+        "boundary_basis": "5月21日起黄海反潜重复"
+      }
+    ],
+    "observational_gaps": [
+      {
+        "from": "2025-05-05",
+        "to": "2025-05-12",
+        "days": 7
+      },
+      {
+        "from": "2025-05-12",
+        "to": "2025-05-21",
+        "days": 9
+      },
+      {
+        "from": "2025-05-21",
+        "to": "2025-05-25",
+        "days": 4
+      },
+      {
+        "from": "2025-05-28",
+        "to": "2025-05-30",
+        "days": 2
+      }
+    ],
+    "related_unverified_candidates": [
+      {
+        "event_id": "2025.5.12-AIR-19F5EB90095AAD",
+        "decision": "排除",
+        "issues": [
+          "关键区域冲突：[{'source': '网上舆论', 'region': '宁波外海'}, {'source': '网上舆论', 'region': '东海'}]",
+          "区域精度重审：无两类明确地名或共同核心海域支持"
+        ]
+      },
+      {
+        "event_id": "2025.5.16-AIR-F0DB0134C79493",
+        "decision": "排除",
+        "issues": [
+          "关键字段task不足两类来源支持",
+          "三类来源未全部关联，保留两源或单源候选",
+          "区域精度重审：无两类明确地名或共同核心海域支持"
+        ]
+      },
+      {
+        "event_id": "2025.5.30-AIR-27506392432473",
+        "decision": "排除",
+        "issues": [
+          "关键字段country明确冲突：{'雷达': '韩国', '开源军情': '韩国', '网上舆论': '俄罗斯'}"
+        ]
+      }
+    ],
+    "corridor_documents_in_scope": 0,
+    "accepted_entry_exit_claims": 0,
+    "second_section_history_scope": "full stage",
+    "history_outside_second_section": false
+  },
+  "format": "Historical/external index moved inside section II; section V rewritten using current-day facts only; template, workbook schema and four PNG definitions retained"
+}

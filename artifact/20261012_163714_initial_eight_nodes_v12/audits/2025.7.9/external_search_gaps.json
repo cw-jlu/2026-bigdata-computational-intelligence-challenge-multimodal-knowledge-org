@@ -1,0 +1,32 @@
+[
+  {
+    "id": "DAPA_P8A",
+    "url": "https://www.dapa.go.kr/dapa/doc/selectDoc.do?bbsSeq=326&docSeq=19316&menuSeq=3069",
+    "status": "v9轮search返回正文，open超时；无节点前固定附件或网页版本",
+    "reason": "当前页面旧署名日期不足以证明具体历史版本；不引用部署计划"
+  },
+  {
+    "id": "RAF_RAMSTEIN",
+    "url": "https://www.raf.mod.uk/news/articles/exercise-ramstein-flag-2024-thats-a-wrap/",
+    "status": "v9轮实际读取当前正文；署名2024-10-10，网页当前2026",
+    "reason": "未确认节点前具体文字版本"
+  },
+  {
+    "id": "RAF_NEWS_PDF",
+    "url": "https://www.rafnews.co.uk/uploads/RAF%20News%2018%20Oct%202024%20issuu.pdf",
+    "status": "搜索命中，web404/直连403",
+    "reason": "未取得固定PDF正文，不冒充全文读取"
+  },
+  {
+    "id": "NAS_G550",
+    "url": "https://www.nas.gov.sg/archivesonline/data/pdfdoc/MINDEF_20070423001.pdf",
+    "status": "v9轮实际读3页固定稿；附件_2和_3获取失败",
+    "reason": "主稿仅防空体系演示，G550事实表正文缺失；不能以附件标题证明内容"
+  },
+  {
+    "id": "MINDEF_G550_CURRENT",
+    "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/2012apr13-news-releases-00184/",
+    "status": "检索当前页面及2026海上监视机资料",
+    "reason": "迁移后历史版本不明；2026资料晚于节点且用途不同"
+  }
+]

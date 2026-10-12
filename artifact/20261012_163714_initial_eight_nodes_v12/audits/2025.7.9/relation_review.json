@@ -1,0 +1,532 @@
+{
+  "node": "2025.7.9",
+  "raw_text_files_in_scope": 7000,
+  "corridor_terms": [
+    "台湾海峡",
+    "巴士海峡",
+    "巴林塘海峡",
+    "宫古水道",
+    "对马海峡"
+  ],
+  "corridor_documents": [],
+  "events": [
+    {
+      "event_id": "2025.7.9-AIR-00E4A11648FD8A",
+      "activity": {
+        "object": "黄海",
+        "support_types": [
+          "开源军情",
+          "网上舆论"
+        ],
+        "conflicts": []
+      },
+      "entry_exit_claims": [],
+      "accepted_entry_exit": [],
+      "formal_policy": "Only verified activity is reported; single-source or unresolved entry/exit is not promoted. Start/end observations are not boundary-crossing times. Entry and later exit are not inherently contradictory."
+    },
+    {
+      "event_id": "2025.7.9-AIR-C07E718BA45003",
+      "activity": {
+        "object": "黄海",
+        "support_types": [
+          "开源军情",
+          "网上舆论"
+        ],
+        "conflicts": []
+      },
+      "entry_exit_claims": [],
+      "accepted_entry_exit": [],
+      "formal_policy": "Only verified activity is reported; single-source or unresolved entry/exit is not promoted. Start/end observations are not boundary-crossing times. Entry and later exit are not inherently contradictory."
+    },
+    {
+      "event_id": "2025.7.9-AIR-58871648E6771F",
+      "activity": {
+        "object": "长江口外海",
+        "support_types": [
+          "开源军情",
+          "网上舆论"
+        ],
+        "conflicts": []
+      },
+      "entry_exit_claims": [],
+      "accepted_entry_exit": [],
+      "formal_policy": "Only verified activity is reported; single-source or unresolved entry/exit is not promoted. Start/end observations are not boundary-crossing times. Entry and later exit are not inherently contradictory."
+    },
+    {
+      "event_id": "2025.7.9-AIR-6987CB8DEA50B8",
+      "activity": {
+        "object": "东沙群岛海域",
+        "support_types": [
+          "开源军情",
+          "网上舆论"
+        ],
+        "conflicts": []
+      },
+      "entry_exit_claims": [],
+      "accepted_entry_exit": [],
+      "formal_policy": "Only verified activity is reported; single-source or unresolved entry/exit is not promoted. Start/end observations are not boundary-crossing times. Entry and later exit are not inherently contradictory."
+    },
+    {
+      "event_id": "2025.7.9-AIR-837E22A3A82271",
+      "activity": {
+        "object": "黄海",
+        "support_types": [
+          "开源军情",
+          "网上舆论"
+        ],
+        "conflicts": []
+      },
+      "entry_exit_claims": [],
+      "accepted_entry_exit": [],
+      "formal_policy": "Only verified activity is reported; single-source or unresolved entry/exit is not promoted. Start/end observations are not boundary-crossing times. Entry and later exit are not inherently contradictory."
+    },
+    {
+      "event_id": "2025.7.9-AIR-DF3BA9104FBBDD",
+      "activity": {
+        "object": "苏岩礁附近海域",
+        "support_types": [
+          "开源军情",
+          "网上舆论"
+        ],
+        "conflicts": []
+      },
+      "entry_exit_claims": [
+        {
+          "source": "开源军情",
+          "relation": "离开",
+          "object": "苏岩礁附近海域",
+          "object_basis": "single-region anaphora",
+          "negated": false,
+          "quote": "2025年7月9日17时35分至19时00分，中国1架歼-35舰载隐身战斗机在苏岩礁附近海域围绕任务区域保持机动，随后沿既定航线离开任务海域。",
+          "file": "赛题2-初赛/数据/2025.7.9/开源军情/041_开源军情-中国歼-35舰载隐身战斗机在苏岩礁附近海域完成机动后离开.txt",
+          "locator": {
+            "section": "正文",
+            "line": 5,
+            "atomic_platform": "歼35",
+            "subevent_index": 0
+          },
+          "sha256": "b214a020c2ee73fb49dc6c926e45eefd0853a03294b39b2e709c6843cc1dcfce"
+        }
+      ],
+      "accepted_entry_exit": [],
+      "formal_policy": "Only verified activity is reported; single-source or unresolved entry/exit is not promoted. Start/end observations are not boundary-crossing times. Entry and later exit are not inherently contradictory."
+    },
+    {
+      "event_id": "2025.7.9-AIR-790C13D3E12D8D",
+      "activity": {
+        "object": "黄海",
+        "support_types": [
+          "开源军情",
+          "网上舆论"
+        ],
+        "conflicts": []
+      },
+      "entry_exit_claims": [
+        {
+          "source": "开源军情",
+          "relation": "离开",
+          "object": "海州湾外海",
+          "object_basis": "single-region anaphora",
+          "negated": false,
+          "quote": "2025年7月9日，俄罗斯1架苏-30SM多用途战斗机在海州湾外海活动后，沿既定航线离开任务海域。行动期间，该机围绕任务区域保持机动，行动范围保持在指定任务海域。",
+          "file": "赛题2-初赛/数据/2025.7.9/开源军情/026_开源军情-俄罗斯苏-30SM多用途战斗机沿既定航线离开海州湾外海.txt",
+          "locator": {
+            "section": "正文",
+            "line": 5,
+            "atomic_platform": "苏30sm",
+            "subevent_index": 0
+          },
+          "sha256": "131ff3ad328ebb94de7121afa8b843a49654087769cdeffc516e47353ba3ec68"
+        }
+      ],
+      "accepted_entry_exit": [],
+      "formal_policy": "Only verified activity is reported; single-source or unresolved entry/exit is not promoted. Start/end observations are not boundary-crossing times. Entry and later exit are not inherently contradictory."
+    },
+    {
+      "event_id": "2025.7.9-AIR-5F5CFC5CE15BB7",
+      "activity": {
+        "object": "东海",
+        "support_types": [
+          "开源军情",
+          "网上舆论"
+        ],
+        "conflicts": []
+      },
+      "entry_exit_claims": [],
+      "accepted_entry_exit": [],
+      "formal_policy": "Only verified activity is reported; single-source or unresolved entry/exit is not promoted. Start/end observations are not boundary-crossing times. Entry and later exit are not inherently contradictory."
+    },
+    {
+      "event_id": "2025.7.9-AIR-E5D19CCDC0A2D9",
+      "activity": {
+        "object": "黄海中部",
+        "support_types": [
+          "开源军情",
+          "网上舆论"
+        ],
+        "conflicts": []
+      },
+      "entry_exit_claims": [],
+      "accepted_entry_exit": [],
+      "formal_policy": "Only verified activity is reported; single-source or unresolved entry/exit is not promoted. Start/end observations are not boundary-crossing times. Entry and later exit are not inherently contradictory."
+    },
+    {
+      "event_id": "2025.7.9-AIR-E6002140F96CB5",
+      "activity": {
+        "object": "曾母暗沙海域",
+        "support_types": [
+          "开源军情",
+          "网上舆论"
+        ],
+        "conflicts": []
+      },
+      "entry_exit_claims": [],
+      "accepted_entry_exit": [],
+      "formal_policy": "Only verified activity is reported; single-source or unresolved entry/exit is not promoted. Start/end observations are not boundary-crossing times. Entry and later exit are not inherently contradictory."
+    },
+    {
+      "event_id": "2025.7.9-AIR-CDC6B23809CAC2",
+      "activity": {
+        "object": "东海",
+        "support_types": [
+          "开源军情",
+          "网上舆论"
+        ],
+        "conflicts": []
+      },
+      "entry_exit_claims": [
+        {
+          "source": "开源军情",
+          "relation": "离开",
+          "object": "东海",
+          "object_basis": "single-region anaphora",
+          "negated": false,
+          "quote": "2025年7月9日，日本2架P-1反潜巡逻机在东海活动后，沿既定航线离开任务海域。行动期间，该编队围绕任务区域保持机动，行动范围保持在指定任务海域。",
+          "file": "赛题2-初赛/数据/2025.7.9/开源军情/031_开源军情-日本P-1反潜巡逻机沿既定航线离开东海行动.txt",
+          "locator": {
+            "section": "正文",
+            "line": 5,
+            "atomic_platform": "p1",
+            "subevent_index": 0
+          },
+          "sha256": "f6923938adbaf55d9376d61a5bfe2531e05459cf1aea94436fdf497dd28b460c"
+        }
+      ],
+      "accepted_entry_exit": [],
+      "formal_policy": "Only verified activity is reported; single-source or unresolved entry/exit is not promoted. Start/end observations are not boundary-crossing times. Entry and later exit are not inherently contradictory."
+    },
+    {
+      "event_id": "2025.7.9-AIR-70BEFDDCEA7515",
+      "activity": {
+        "object": "东海",
+        "support_types": [
+          "开源军情",
+          "网上舆论"
+        ],
+        "conflicts": []
+      },
+      "entry_exit_claims": [
+        {
+          "source": "开源军情",
+          "relation": "离开",
+          "object": "东海",
+          "object_basis": "single-region anaphora",
+          "negated": false,
+          "quote": "2025年7月9日，英国空军1架RC-135W电子侦察机与2架F-35B短距起降战斗机在东海围绕任务区域保持机动后，沿既定航线离开任务海域，行动范围保持在指定任务海域。",
+          "file": "赛题2-初赛/数据/2025.7.9/开源军情/032_开源军情-RC-135W电子侦察机英国空军RC-135W与F-35B编队结束任务离开东海.txt",
+          "locator": {
+            "section": "正文",
+            "line": 5,
+            "atomic_platform": "rc135w",
+            "subevent_index": 0
+          },
+          "sha256": "4a45d1360b1db02d4312e53995c177f570c40afa3bae096f3572f1a77fec53fd"
+        }
+      ],
+      "accepted_entry_exit": [],
+      "formal_policy": "Only verified activity is reported; single-source or unresolved entry/exit is not promoted. Start/end observations are not boundary-crossing times. Entry and later exit are not inherently contradictory."
+    },
+    {
+      "event_id": "2025.7.9-AIR-4D3C301D3FD2BC",
+      "activity": {
+        "object": "黄海",
+        "support_types": [
+          "开源军情",
+          "网上舆论"
+        ],
+        "conflicts": []
+      },
+      "entry_exit_claims": [],
+      "accepted_entry_exit": [],
+      "formal_policy": "Only verified activity is reported; single-source or unresolved entry/exit is not promoted. Start/end observations are not boundary-crossing times. Entry and later exit are not inherently contradictory."
+    },
+    {
+      "event_id": "2025.7.9-AIR-C4528DADD3034E",
+      "activity": {
+        "object": "东海",
+        "support_types": [
+          "开源军情",
+          "网上舆论"
+        ],
+        "conflicts": []
+      },
+      "entry_exit_claims": [],
+      "accepted_entry_exit": [],
+      "formal_policy": "Only verified activity is reported; single-source or unresolved entry/exit is not promoted. Start/end observations are not boundary-crossing times. Entry and later exit are not inherently contradictory."
+    },
+    {
+      "event_id": "2025.7.9-AIR-5A676A5A746D09",
+      "activity": {
+        "object": "海南岛东南海域",
+        "support_types": [
+          "开源军情",
+          "网上舆论"
+        ],
+        "conflicts": []
+      },
+      "entry_exit_claims": [
+        {
+          "source": "网上舆论",
+          "relation": "进入",
+          "object": null,
+          "object_basis": "unresolved",
+          "negated": false,
+          "quote": "2025年7月9日，菲律宾一架AW-159“野猫”反潜直升机在南海海南岛东南海域持续活动。该机行动范围保持在指定任务海域，由外围航线进入后围绕任务区域保持机动。观察人士认为，",
+          "file": "赛题2-初赛/数据/2025.7.9/网上舆论/009_(网上舆情)-菲律宾一架反潜直升机在海南岛东南海域持续活动.txt",
+          "locator": {
+            "section": "正文",
+            "line": 5,
+            "atomic_platform": "aw159",
+            "subevent_index": 0
+          },
+          "sha256": "b88041a6587ed9b747bdf0b382f0ac73c3218c1c368619ae291760d300c2955e"
+        }
+      ],
+      "accepted_entry_exit": [],
+      "formal_policy": "Only verified activity is reported; single-source or unresolved entry/exit is not promoted. Start/end observations are not boundary-crossing times. Entry and later exit are not inherently contradictory."
+    },
+    {
+      "event_id": "2025.7.9-SHIP-07BC21EE7E20DD",
+      "activity": {
+        "object": "西沙群岛海域",
+        "support_types": [
+          "开源军情",
+          "雷达"
+        ],
+        "conflicts": []
+      },
+      "entry_exit_claims": [],
+      "accepted_entry_exit": [],
+      "formal_policy": "Only verified activity is reported; single-source or unresolved entry/exit is not promoted. Start/end observations are not boundary-crossing times. Entry and later exit are not inherently contradictory."
+    },
+    {
+      "event_id": "2025.7.9-SHIP-AF41F705A929BC",
+      "activity": {
+        "object": "东海中部",
+        "support_types": [
+          "开源军情",
+          "网上舆论",
+          "雷达"
+        ],
+        "conflicts": []
+      },
+      "entry_exit_claims": [
+        {
+          "source": "开源军情",
+          "relation": "进入",
+          "object": "东海中部",
+          "object_basis": "explicit",
+          "negated": false,
+          "quote": "2025年7月9日14时28分至16时53分，中国山东号航空母舰由外围航线进入东海中部任务海域，围绕任务区域保持机动并持续执行例行部署。围绕任务海域组织例行部署。",
+          "file": "赛题2-初赛/数据/2025.7.9/开源军情/002_开源军情-中国山东号航空母舰由外围航线进入东海中部执行例行部署.txt",
+          "locator": {
+            "section": "正文",
+            "line": 5,
+            "atomic_platform": "山东",
+            "subevent_index": 0
+          },
+          "sha256": "3b41b3509c554693eb86ef63947511b7ea3c570dc869ce786c41438dcfffb15a"
+        }
+      ],
+      "accepted_entry_exit": [],
+      "formal_policy": "Only verified activity is reported; single-source or unresolved entry/exit is not promoted. Start/end observations are not boundary-crossing times. Entry and later exit are not inherently contradictory."
+    },
+    {
+      "event_id": "2025.7.9-SHIP-04B85D89354CC0",
+      "activity": {
+        "object": "钓鱼岛海域",
+        "support_types": [
+          "开源军情",
+          "雷达"
+        ],
+        "conflicts": []
+      },
+      "entry_exit_claims": [],
+      "accepted_entry_exit": [],
+      "formal_policy": "Only verified activity is reported; single-source or unresolved entry/exit is not promoted. Start/end observations are not boundary-crossing times. Entry and later exit are not inherently contradictory."
+    },
+    {
+      "event_id": "2025.7.9-SHIP-84C74B4313BF87",
+      "activity": {
+        "object": "黄海",
+        "support_types": [
+          "开源军情",
+          "网上舆论",
+          "雷达"
+        ],
+        "conflicts": []
+      },
+      "entry_exit_claims": [],
+      "accepted_entry_exit": [],
+      "formal_policy": "Only verified activity is reported; single-source or unresolved entry/exit is not promoted. Start/end observations are not boundary-crossing times. Entry and later exit are not inherently contradictory."
+    },
+    {
+      "event_id": "2025.7.9-SHIP-29E8BE84A312DA",
+      "activity": {
+        "object": "冲绳海槽",
+        "support_types": [
+          "开源军情",
+          "雷达"
+        ],
+        "conflicts": []
+      },
+      "entry_exit_claims": [],
+      "accepted_entry_exit": [],
+      "formal_policy": "Only verified activity is reported; single-source or unresolved entry/exit is not promoted. Start/end observations are not boundary-crossing times. Entry and later exit are not inherently contradictory."
+    },
+    {
+      "event_id": "2025.7.9-SHIP-CBF728BABB4814",
+      "activity": {
+        "object": "南康暗沙海域",
+        "support_types": [
+          "开源军情",
+          "雷达"
+        ],
+        "conflicts": []
+      },
+      "entry_exit_claims": [],
+      "accepted_entry_exit": [],
+      "formal_policy": "Only verified activity is reported; single-source or unresolved entry/exit is not promoted. Start/end observations are not boundary-crossing times. Entry and later exit are not inherently contradictory."
+    },
+    {
+      "event_id": "2025.7.9-SHIP-9377CB451A86FB",
+      "activity": {
+        "object": "东海",
+        "support_types": [
+          "开源军情",
+          "网上舆论",
+          "雷达"
+        ],
+        "conflicts": []
+      },
+      "entry_exit_claims": [],
+      "accepted_entry_exit": [],
+      "formal_policy": "Only verified activity is reported; single-source or unresolved entry/exit is not promoted. Start/end observations are not boundary-crossing times. Entry and later exit are not inherently contradictory."
+    },
+    {
+      "event_id": "2025.7.9-SHIP-720A50A3E075BD",
+      "activity": {
+        "object": "赤尾屿海域",
+        "support_types": [
+          "开源军情",
+          "雷达"
+        ],
+        "conflicts": []
+      },
+      "entry_exit_claims": [],
+      "accepted_entry_exit": [],
+      "formal_policy": "Only verified activity is reported; single-source or unresolved entry/exit is not promoted. Start/end observations are not boundary-crossing times. Entry and later exit are not inherently contradictory."
+    },
+    {
+      "event_id": "2025.7.9-SHIP-5F87B4FBC42C1F",
+      "activity": {
+        "object": "东海中部",
+        "support_types": [
+          "开源军情",
+          "雷达"
+        ],
+        "conflicts": []
+      },
+      "entry_exit_claims": [],
+      "accepted_entry_exit": [],
+      "formal_policy": "Only verified activity is reported; single-source or unresolved entry/exit is not promoted. Start/end observations are not boundary-crossing times. Entry and later exit are not inherently contradictory."
+    },
+    {
+      "event_id": "2025.7.9-SHIP-FE6EC8A8A5AAB8",
+      "activity": {
+        "object": "东海",
+        "support_types": [
+          "开源军情",
+          "网上舆论",
+          "雷达"
+        ],
+        "conflicts": []
+      },
+      "entry_exit_claims": [
+        {
+          "source": "网上舆论",
+          "relation": "进入",
+          "object": "东海",
+          "object_basis": "explicit",
+          "negated": false,
+          "quote": "德国海军“巴登-符腾堡号”导弹护卫舰于2025年7月9日进入东海，由外围航线进入任务海域，随后围绕任务区域保持机动，行动范围保持在指定任务海域。",
+          "file": "赛题2-初赛/数据/2025.7.9/网上舆论/014_(网上舆情)-德国“巴登-符腾堡号”导弹护卫舰进入东海活动.txt",
+          "locator": {
+            "section": "正文",
+            "line": 5,
+            "atomic_platform": "巴登符腾堡",
+            "subevent_index": 0
+          },
+          "sha256": "858331b5d1d0369de8d4b0715745bbae5a5ec3cedc00312834628438430d4f14"
+        },
+        {
+          "source": "网上舆论",
+          "relation": "进入",
+          "object": "东海",
+          "object_basis": "single-region anaphora",
+          "negated": false,
+          "quote": "德国海军“巴登-符腾堡号”导弹护卫舰于2025年7月9日进入东海，由外围航线进入任务海域，随后围绕任务区域保持机动，行动范围保持在指定任务海域。",
+          "file": "赛题2-初赛/数据/2025.7.9/网上舆论/014_(网上舆情)-德国“巴登-符腾堡号”导弹护卫舰进入东海活动.txt",
+          "locator": {
+            "section": "正文",
+            "line": 5,
+            "atomic_platform": "巴登符腾堡",
+            "subevent_index": 0
+          },
+          "sha256": "858331b5d1d0369de8d4b0715745bbae5a5ec3cedc00312834628438430d4f14"
+        }
+      ],
+      "accepted_entry_exit": [],
+      "formal_policy": "Only verified activity is reported; single-source or unresolved entry/exit is not promoted. Start/end observations are not boundary-crossing times. Entry and later exit are not inherently contradictory."
+    },
+    {
+      "event_id": "2025.7.9-SHIP-44A175A3DA2C79",
+      "activity": {
+        "object": "黄海中部",
+        "support_types": [
+          "开源军情",
+          "雷达"
+        ],
+        "conflicts": []
+      },
+      "entry_exit_claims": [],
+      "accepted_entry_exit": [],
+      "formal_policy": "Only verified activity is reported; single-source or unresolved entry/exit is not promoted. Start/end observations are not boundary-crossing times. Entry and later exit are not inherently contradictory."
+    },
+    {
+      "event_id": "2025.7.9-SHIP-1C36982FD1B00D",
+      "activity": {
+        "object": "南黄海",
+        "support_types": [
+          "开源军情",
+          "雷达"
+        ],
+        "conflicts": []
+      },
+      "entry_exit_claims": [],
+      "accepted_entry_exit": [],
+      "formal_policy": "Only verified activity is reported; single-source or unresolved entry/exit is not promoted. Start/end observations are not boundary-crossing times. Entry and later exit are not inherently contradictory."
+    }
+  ],
+  "scope_limit": "Phrase/object audit of associated source segments; not a complete route reconstruction model. Corridor admission needs explicit supported core-sea entry/exit, never geographic adjacency."
+}

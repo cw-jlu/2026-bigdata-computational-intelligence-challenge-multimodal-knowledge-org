@@ -1,0 +1,193 @@
+{
+  "module_differences": [
+    {
+      "old": "v4",
+      "new": "v8",
+      "same_function_text": [
+        "assign",
+        "choose_chain",
+        "compatible_region",
+        "date",
+        "direction",
+        "fmt",
+        "km",
+        "minute",
+        "norm",
+        "position_support",
+        "radar_events",
+        "root_platform",
+        "stamp",
+        "vocabulary"
+      ],
+      "changed_functions": [
+        "audit_fields",
+        "compare",
+        "process_day",
+        "text_atoms"
+      ],
+      "added_functions": [
+        "linear_sum_assignment"
+      ]
+    },
+    {
+      "old": "v6",
+      "new": "v8",
+      "same_function_text": [
+        "assign",
+        "audit_fields",
+        "choose_chain",
+        "compare",
+        "compatible_region",
+        "date",
+        "direction",
+        "fmt",
+        "km",
+        "linear_sum_assignment",
+        "minute",
+        "norm",
+        "position_support",
+        "radar_events",
+        "root_platform",
+        "stamp",
+        "text_atoms",
+        "vocabulary"
+      ],
+      "changed_functions": [
+        "process_day"
+      ],
+      "added_functions": []
+    }
+  ],
+  "workflow_profiles": [
+    {
+      "folder": "20261008_workflow_agent_v1",
+      "modules": {
+        "engine.py": {
+          "function_names": [
+            "BudgetExceeded",
+            "tool",
+            "run_agent",
+            "_run"
+          ],
+          "lines": 80
+        },
+        "analysis.py": {
+          "function_names": [
+            "read_tools",
+            "analyze_seed"
+          ],
+          "lines": 110
+        },
+        "trust.py": {
+          "function_names": [
+            "candidate",
+            "assess",
+            "review_event",
+            "rank_events"
+          ],
+          "lines": 130
+        },
+        "report.py": {
+          "function_names": [
+            "val",
+            "report_packet",
+            "validate_mainline",
+            "create_narrative",
+            "write_xlsx",
+            "write_figures",
+            "write_docx",
+            "deliver"
+          ],
+          "lines": 291
+        }
+      }
+    },
+    {
+      "folder": "20261008_204137_976_workflow-agent-v1.1_deepseek-v4-pro_risk",
+      "modules": {
+        "engine.py": {
+          "function_names": [
+            "BudgetExceeded",
+            "tool",
+            "run_agent",
+            "_run"
+          ],
+          "lines": 78
+        },
+        "analysis.py": {
+          "function_names": [
+            "read_tools",
+            "analyze_seed"
+          ],
+          "lines": 109
+        },
+        "trust.py": {
+          "function_names": [
+            "candidate",
+            "assess",
+            "review_event",
+            "rank_events"
+          ],
+          "lines": 130
+        },
+        "report.py": {
+          "function_names": [
+            "val",
+            "report_packet",
+            "validate_mainline",
+            "create_narrative",
+            "write_xlsx",
+            "write_figures",
+            "write_docx",
+            "deliver"
+          ],
+          "lines": 291
+        }
+      }
+    },
+    {
+      "folder": "20261008_204853_747_workflow-agent-v1.2_deepseek-v4-pro_risk",
+      "modules": {
+        "engine.py": {
+          "function_names": [
+            "BudgetExceeded",
+            "tool",
+            "run_agent",
+            "_run"
+          ],
+          "lines": 78
+        },
+        "analysis.py": {
+          "function_names": [
+            "read_tools",
+            "analyze_seed"
+          ],
+          "lines": 110
+        },
+        "trust.py": {
+          "function_names": [
+            "candidate",
+            "assess",
+            "review_event",
+            "rank_events"
+          ],
+          "lines": 130
+        },
+        "report.py": {
+          "function_names": [
+            "val",
+            "report_packet",
+            "validate_mainline",
+            "create_narrative",
+            "write_xlsx",
+            "write_figures",
+            "write_docx",
+            "deliver"
+          ],
+          "lines": 291
+        }
+      }
+    }
+  ],
+  "missing_code_inputs": []
+}

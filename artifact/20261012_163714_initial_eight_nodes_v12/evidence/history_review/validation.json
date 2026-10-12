@@ -1,0 +1,15 @@
+{
+  "status": "PASS_local_diagnosis_consistency_only",
+  "actual_xlsx_files": 56,
+  "actual_formal_rows": 1602,
+  "raw_target_day_txt_files": 800,
+  "raw_target_day_radar_workbooks": 8,
+  "all_target_radar_candidate_cards": 427,
+  "common_175_ship_time_values_equal_after_encoding_normalization": true,
+  "risk_partition_sums_to_148": true,
+  "local_readme_links_exist": true,
+  "platform_evaluation": "not_run",
+  "formal_outputs_modified": false,
+  "score_improvement_claim": false,
+  "newly_confirmed_added_events": 0
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "archive": "赛题2_初赛_v12_完整工程包.zip",
+  "sha256": "3162f4eaaca1351f2e7b6084c95ac0656c632c52ed17128f96772abcb70a4e90",
+  "bytes": 135964138,
+  "members": 8926,
+  "member_hashes_verified": true,
+  "runtime": "dependency manifest and tested run-all.ps1 supplied; Codex runtime, Office and fonts not redistributed",
+  "uploaded": false
+}

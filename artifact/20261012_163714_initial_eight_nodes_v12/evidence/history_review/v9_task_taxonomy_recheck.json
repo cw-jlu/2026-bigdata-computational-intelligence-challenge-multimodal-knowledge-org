@@ -1,0 +1,1384 @@
+[
+  {
+    "id": "2025.5.1-AIR-E0C394489245A4",
+    "before": "排除",
+    "after": "域外",
+    "issues": [],
+    "claims": {
+      "开源军情": {
+        "id": "7cc5c018eba32d72",
+        "path": "赛题2-初赛/数据/2025.5.1/开源军情/043_开源军情-中国歼-16D电子战飞机在塔斯曼海开展电子对抗训练.txt",
+        "source": "开源军情",
+        "date": "2025.5.1",
+        "country": "中国",
+        "platform": "歼-16D电子战飞机",
+        "key": "歼16d",
+        "kind": "飞机",
+        "region": "塔斯曼海",
+        "regions": [
+          "塔斯曼海"
+        ],
+        "task": "电子对抗训练",
+        "task_candidates": [
+          "电子对抗训练"
+        ],
+        "quantity": null,
+        "quantity_basis": null,
+        "quantity_unit": null,
+        "reported_kind": "飞机",
+        "role_quote": "电子战飞机",
+        "start": 125,
+        "end": 270,
+        "observed": null,
+        "relations": [],
+        "snippet": "2025年5月1日2时05分至4时30分，中国歼-16D电子战飞机在塔斯曼海围绕任务海域组织电子对抗训练，按计划保持机动并持续执行电子对抗训练，围绕既定科目组织训练并完成相关平台之间的行动衔接。",
+        "title": "中国歼-16D电子战飞机在塔斯曼海开展电子对抗训练",
+        "locator": {
+          "section": "正文",
+          "line": 5,
+          "atomic_platform": "歼16d",
+          "subevent_index": 0
+        },
+        "sha256": "086306dc902cbb8e2ca73da9632ec2e88654adf5aeb3100d25c4076038cd0bca",
+        "multi_platform": false,
+        "date_basis": "explicit_body_date"
+      },
+      "网上舆论": {
+        "id": "4e8588b46d5d4870",
+        "path": "赛题2-初赛/数据/2025.5.1/网上舆论/001_(网上舆情)-中国两架歼-16D电子战机在塔斯曼海组织训练.txt",
+        "source": "网上舆论",
+        "date": "2025.5.1",
+        "country": "中国",
+        "platform": "歼-16D电子战飞机",
+        "key": "歼16d",
+        "kind": "飞机",
+        "region": "塔斯曼海",
+        "regions": [
+          "塔斯曼海"
+        ],
+        "task": "电子对抗训练",
+        "task_candidates": [
+          "电子对抗训练"
+        ],
+        "quantity": 2,
+        "quantity_basis": "正文显式数量",
+        "quantity_unit": "架",
+        "reported_kind": "飞机",
+        "role_quote": "电子战飞机",
+        "start": null,
+        "end": null,
+        "observed": null,
+        "relations": [],
+        "snippet": "2025年5月1日，中国两架歼-16D电子战飞机在塔斯曼海围绕既定科目组织电子对抗训练，并按计划完成相关平台之间的行动衔接。相关动态",
+        "title": "中国两架歼-16D电子战机在塔斯曼海组织训练",
+        "locator": {
+          "section": "正文",
+          "line": 5,
+          "atomic_platform": "歼16d",
+          "subevent_index": 0
+        },
+        "sha256": "aa871fcf2b61e6b36136ae038cca1c894fde4cd99f4587da0add0805ab3e3506",
+        "multi_platform": false,
+        "date_basis": "explicit_body_date"
+      }
+    }
+  },
+  {
+    "id": "2025.5.14-AIR-4EA9E0C1CFE3F7",
+    "before": "纳入",
+    "after": "排除",
+    "issues": [
+      "关键字段task明确冲突：{'雷达': '联合巡逻', '开源军情': '联合巡逻', '网上舆论': '海上侦察巡逻'}"
+    ],
+    "claims": {
+      "开源军情": {
+        "id": "0d43df212e8e69a4",
+        "path": "赛题2-初赛/数据/2025.5.14/开源军情/018_开源军情-台湾P-3C反潜巡逻机在东海中部执行联合巡逻任务.txt",
+        "source": "开源军情",
+        "date": "2025.5.14",
+        "country": "台湾",
+        "platform": "P-3C反潜巡逻机",
+        "key": "p3c",
+        "kind": "飞机",
+        "region": "东海中部",
+        "regions": [
+          "东海中部"
+        ],
+        "task": "联合巡逻",
+        "task_candidates": [
+          "联合巡逻"
+        ],
+        "quantity": null,
+        "quantity_basis": null,
+        "quantity_unit": null,
+        "reported_kind": "飞机",
+        "role_quote": "巡逻机",
+        "start": 512,
+        "end": 602,
+        "observed": null,
+        "relations": [],
+        "snippet": "2025年5月14日，台湾军方P-3C反潜巡逻机于8时32分至10时02分在东海中部海域活动，期间围绕任务海域组织联合巡逻，按计划保持机动并持续执行联合巡逻。",
+        "title": "台湾P-3C反潜巡逻机在东海中部执行联合巡逻任务",
+        "locator": {
+          "section": "正文",
+          "line": 5,
+          "atomic_platform": "p3c",
+          "subevent_index": 0
+        },
+        "sha256": "e08192c5c7576d2a53ee852da38803ebc6d4f042851fe072f0725fa2ebb647f9",
+        "multi_platform": false,
+        "date_basis": "explicit_body_date"
+      },
+      "网上舆论": {
+        "id": "d5209697d74470d9",
+        "path": "赛题2-初赛/数据/2025.5.14/网上舆论/007_(网上舆情)-台军P-3C反潜机东海中部活动，区域侦巡引关注.txt",
+        "source": "网上舆论",
+        "date": "2025.5.14",
+        "country": "台湾",
+        "platform": "P-3C反潜巡逻机",
+        "key": "p3c",
+        "kind": "飞机",
+        "region": "东海中部",
+        "regions": [
+          "东海中部"
+        ],
+        "task": "海上侦察巡逻",
+        "task_candidates": [
+          "海上侦察巡逻"
+        ],
+        "quantity": 1,
+        "quantity_basis": "正文显式数量",
+        "quantity_unit": "架",
+        "reported_kind": "飞机",
+        "role_quote": "巡逻机",
+        "start": 512,
+        "end": 602,
+        "observed": null,
+        "relations": [
+          "持续活动"
+        ],
+        "snippet": "2025年5月14日8时32分至10时02分，台湾军方一架P-3C反潜巡逻机在东海中部执行海上侦察巡逻任务，围绕任务海域持续活动。",
+        "title": "台军P-3C反潜机东海中部活动，区域侦巡引关注",
+        "locator": {
+          "section": "正文",
+          "line": 5,
+          "atomic_platform": "p3c",
+          "subevent_index": 0
+        },
+        "sha256": "ac26d46bc6459e2cc102989302733897f07e34d244551db17a82168f4abc172a",
+        "multi_platform": false,
+        "date_basis": "explicit_body_date"
+      }
+    }
+  },
+  {
+    "id": "2025.5.15-SHIP-D66CDFC600E894",
+    "before": "域外",
+    "after": "排除",
+    "issues": [
+      "关键字段task明确冲突：{'雷达': '联合搜救训练', '开源军情': '联合搜救训练', '网上舆论': '自由航行'}"
+    ],
+    "claims": {
+      "开源军情": {
+        "id": "fd53144f458246ca",
+        "path": "赛题2-初赛/数据/2025.5.15/开源军情/029_开源军情-俄海军瓦良格号巡洋舰在巴伦支海展开联合搜救训练.txt",
+        "source": "开源军情",
+        "date": "2025.5.15",
+        "country": "俄罗斯",
+        "platform": "瓦良格号导弹巡洋舰",
+        "key": "瓦良格",
+        "kind": "舰艇",
+        "region": "巴伦支海",
+        "regions": [
+          "巴伦支海"
+        ],
+        "task": "联合搜救训练",
+        "task_candidates": [
+          "联合搜救训练"
+        ],
+        "quantity": 1,
+        "quantity_basis": "正文单一具名舰艇专名；仅计该具名参加者",
+        "quantity_unit": null,
+        "reported_kind": "舰艇",
+        "role_quote": "导弹巡洋舰",
+        "start": 517,
+        "end": 607,
+        "observed": null,
+        "relations": [],
+        "snippet": "2025年5月15日，俄罗斯海军瓦良格号导弹巡洋舰在巴伦支海组织联合搜救训练。自8时37分起，该舰围绕任务海域保持协同行动，按计划完成平台间的联络与行动衔接，并于10时07分结束训练。",
+        "title": "俄海军瓦良格号巡洋舰在巴伦支海展开联合搜救训练",
+        "locator": {
+          "section": "正文",
+          "line": 5,
+          "atomic_platform": "瓦良格",
+          "subevent_index": 0
+        },
+        "sha256": "63881070e03860506a9f8eb5c8f44511d9228b649e40118c942c9318ce37a02b",
+        "multi_platform": false,
+        "date_basis": "explicit_body_date"
+      },
+      "网上舆论": {
+        "id": "69cd07b400af0274",
+        "path": "赛题2-初赛/数据/2025.5.15/网上舆论/030_(网上舆情)-俄“瓦良格号”巡洋舰在巴伦支海执行自由航行.txt",
+        "source": "网上舆论",
+        "date": "2025.5.15",
+        "country": "俄罗斯",
+        "platform": "瓦良格号导弹巡洋舰",
+        "key": "瓦良格",
+        "kind": "舰艇",
+        "region": "巴伦支海",
+        "regions": [
+          "巴伦支海"
+        ],
+        "task": "自由航行",
+        "task_candidates": [
+          "自由航行"
+        ],
+        "quantity": 1,
+        "quantity_basis": "正文单一具名舰艇专名；仅计该具名参加者",
+        "quantity_unit": null,
+        "reported_kind": "舰艇",
+        "role_quote": "导弹巡洋舰",
+        "start": 517,
+        "end": 607,
+        "observed": null,
+        "relations": [],
+        "snippet": "2025年5月15日8时37分至10时07分，俄罗斯海军“瓦良格号”导弹巡洋舰在巴伦支海围绕任务海域组织自由航行。该舰在此期间按计划保持机动并持续执行自由航行，沿既定方向维持部署。",
+        "title": "俄“瓦良格号”巡洋舰在巴伦支海执行自由航行",
+        "locator": {
+          "section": "正文",
+          "line": 5,
+          "atomic_platform": "瓦良格",
+          "subevent_index": 0
+        },
+        "sha256": "3d4f2e4784ac165d5c86379ce0e2af421d86657c61b81cc6eb3454ffb1ed312a",
+        "multi_platform": false,
+        "date_basis": "explicit_body_date"
+      }
+    }
+  },
+  {
+    "id": "2025.5.19-AIR-6C024FE1E1C855",
+    "before": "纳入",
+    "after": "排除",
+    "issues": [
+      "关键字段task明确冲突：{'雷达': '联合巡逻', '开源军情': '联合巡逻', '网上舆论': '海上侦察巡逻'}"
+    ],
+    "claims": {
+      "开源军情": {
+        "id": "563522c033f90c2d",
+        "path": "赛题2-初赛/数据/2025.5.19/开源军情/034_开源军情-澳大利亚空军P-8A反潜巡逻机在东沙群岛海域联合巡逻.txt",
+        "source": "开源军情",
+        "date": "2025.5.19",
+        "country": "澳大利亚",
+        "platform": "P-8A“海神”反潜巡逻机",
+        "key": "p8a",
+        "kind": "飞机",
+        "region": "东沙群岛海域",
+        "regions": [
+          "东沙群岛海域"
+        ],
+        "task": "联合巡逻",
+        "task_candidates": [
+          "联合巡逻"
+        ],
+        "quantity": 2,
+        "quantity_basis": "正文显式数量",
+        "quantity_unit": "架",
+        "reported_kind": "飞机",
+        "role_quote": "巡逻机",
+        "start": 512,
+        "end": 602,
+        "observed": null,
+        "relations": [
+          "持续活动"
+        ],
+        "snippet": "2025年5月19日，澳大利亚空军2架P-8A“海神”反潜巡逻机在东沙群岛海域持续活动，于8时32分至10时02分围绕任务海域组织联合巡逻，期间按计划保持机动并持续执行联合巡逻任务。",
+        "title": "澳大利亚空军P-8A反潜巡逻机在东沙群岛海域联合巡逻",
+        "locator": {
+          "section": "正文",
+          "line": 5,
+          "atomic_platform": "p8a",
+          "subevent_index": 0
+        },
+        "sha256": "328ec4c1aec38b8f24d518018a86838d13c7921455743b17cc5268116e316a75",
+        "multi_platform": false,
+        "date_basis": "explicit_body_date"
+      },
+      "网上舆论": {
+        "id": "a3bb3f2d3221574f",
+        "path": "赛题2-初赛/数据/2025.5.19/网上舆论/001_(网上舆情)-澳大利亚P-8A巡逻机在南海东沙群岛海域执行侦察巡逻.txt",
+        "source": "网上舆论",
+        "date": "2025.5.19",
+        "country": "澳大利亚",
+        "platform": "P-8A“海神”反潜巡逻机",
+        "key": "p8a",
+        "kind": "飞机",
+        "region": "东沙群岛海域",
+        "regions": [
+          "东沙群岛海域",
+          "南海"
+        ],
+        "task": "海上侦察巡逻",
+        "task_candidates": [
+          "海上侦察巡逻"
+        ],
+        "quantity": null,
+        "quantity_basis": null,
+        "quantity_unit": null,
+        "reported_kind": "飞机",
+        "role_quote": "巡逻机",
+        "start": 512,
+        "end": 602,
+        "observed": null,
+        "relations": [],
+        "snippet": "2025年5月19日，澳大利亚P-8A“海神”反潜巡逻机在南海方向、东沙群岛海域执行海上侦察巡逻任务，活动时段为8时32分至10时2分。该机围绕指定海域保持巡逻或监视，结合既定航线持续收集公开可观察信息。",
+        "title": "澳大利亚P-8A巡逻机在南海东沙群岛海域执行侦察巡逻",
+        "locator": {
+          "section": "正文",
+          "line": 5,
+          "atomic_platform": "p8a",
+          "subevent_index": 0
+        },
+        "sha256": "3295343dc604f4662eb83b4173b0f2dd751875b5050ce34b59a3e64d7bd81836",
+        "multi_platform": false,
+        "date_basis": "explicit_body_date"
+      }
+    }
+  },
+  {
+    "id": "2025.5.30-SHIP-27831BF9D9F95C",
+    "before": "域外",
+    "after": "排除",
+    "issues": [
+      "关键字段task明确冲突：{'雷达': '自由航行', '开源军情': '自由航行', '网上舆论': '联合搜救训练'}"
+    ],
+    "claims": {
+      "开源军情": {
+        "id": "21ce9981763ebb94",
+        "path": "赛题2-初赛/数据/2025.5.30/开源军情/018_开源军情-俄罗斯守护级导弹护卫舰在巴伦支海实施自由航行.txt",
+        "source": "开源军情",
+        "date": "2025.5.30",
+        "country": "俄罗斯",
+        "platform": "守护级导弹护卫舰",
+        "key": "守护",
+        "kind": "舰艇",
+        "region": "巴伦支海",
+        "regions": [
+          "巴伦支海"
+        ],
+        "task": "自由航行",
+        "task_candidates": [
+          "自由航行"
+        ],
+        "quantity": 1,
+        "quantity_basis": "正文显式数量",
+        "quantity_unit": "艘",
+        "reported_kind": "舰艇",
+        "role_quote": "导弹护卫舰",
+        "start": 517,
+        "end": 607,
+        "observed": null,
+        "relations": [],
+        "snippet": "2025年5月30日8时37分至10时07分，俄罗斯1艘守护级导弹护卫舰在巴伦支海围绕任务海域组织自由航行，沿既定方向保持机动并维持部署警戒。",
+        "title": "俄罗斯守护级导弹护卫舰在巴伦支海实施自由航行",
+        "locator": {
+          "section": "正文",
+          "line": 5,
+          "atomic_platform": "守护",
+          "subevent_index": 0
+        },
+        "sha256": "6590a7889d3ae3b1f02e3fda987f5bba50d66ccd0f09d745c7dc60430434f254",
+        "multi_platform": false,
+        "date_basis": "explicit_body_date"
+      },
+      "网上舆论": {
+        "id": "328c5f7201b095ef",
+        "path": "赛题2-初赛/数据/2025.5.30/网上舆论/037_(网上舆情)-俄海军“守护级”护卫舰在巴伦支海进行联合搜救训练.txt",
+        "source": "网上舆论",
+        "date": "2025.5.30",
+        "country": "俄罗斯",
+        "platform": "守护级导弹护卫舰",
+        "key": "守护",
+        "kind": "舰艇",
+        "region": "巴伦支海",
+        "regions": [
+          "巴伦支海"
+        ],
+        "task": "联合搜救训练",
+        "task_candidates": [
+          "联合搜救训练"
+        ],
+        "quantity": null,
+        "quantity_basis": null,
+        "quantity_unit": null,
+        "reported_kind": "舰艇",
+        "role_quote": "导弹护卫舰",
+        "start": 517,
+        "end": 607,
+        "observed": null,
+        "relations": [],
+        "snippet": "2025年5月30日8时37分至10时07分，俄罗斯海军“守护级”导弹护卫舰在巴伦支海开展联合搜救训练。该舰围绕任务海域组织联合搜救训练，按计划保持机动并持续执行联合搜救训练。",
+        "title": "俄海军“守护级”护卫舰在巴伦支海进行联合搜救训练",
+        "locator": {
+          "section": "正文",
+          "line": 5,
+          "atomic_platform": "守护",
+          "subevent_index": 0
+        },
+        "sha256": "46e1baec34e5d7eaed1f3198840cbc9258a7ef6abe7ffd7c7ba4b6918400f4d6",
+        "multi_platform": false,
+        "date_basis": "explicit_body_date"
+      }
+    }
+  },
+  {
+    "id": "2025.5.5-SHIP-E69B2E1E94C4B6",
+    "before": "域外",
+    "after": "排除",
+    "issues": [
+      "关键字段task明确冲突：{'雷达': '自由航行', '开源军情': '自由航行', '网上舆论': '联合搜救训练'}"
+    ],
+    "claims": {
+      "开源军情": {
+        "id": "6d1a3e545d69c817",
+        "path": "赛题2-初赛/数据/2025.5.5/开源军情/021_开源军情-印度卡莫尔塔级护卫舰在安达曼海执行自由航行任务.txt",
+        "source": "开源军情",
+        "date": "2025.5.5",
+        "country": "印度",
+        "platform": "卡莫尔塔级反潜护卫舰",
+        "key": "卡莫尔塔",
+        "kind": "舰艇",
+        "region": "安达曼海",
+        "regions": [
+          "安达曼海"
+        ],
+        "task": "自由航行",
+        "task_candidates": [
+          "自由航行"
+        ],
+        "quantity": null,
+        "quantity_basis": null,
+        "quantity_unit": null,
+        "reported_kind": "舰艇",
+        "role_quote": "护卫舰",
+        "start": 517,
+        "end": 607,
+        "observed": null,
+        "relations": [],
+        "snippet": "2025年5月5日，印度卡莫尔塔级反潜护卫舰在安达曼海执行自由航行任务，于8时37分至10时07分围绕任务海域组织自由航行，沿既定方向保持机动并维持部署警戒。",
+        "title": "印度卡莫尔塔级护卫舰在安达曼海执行自由航行任务",
+        "locator": {
+          "section": "正文",
+          "line": 5,
+          "atomic_platform": "卡莫尔塔",
+          "subevent_index": 0
+        },
+        "sha256": "a14afaa72065687b647f302556ebed47b85b2ed53dc1e363c6d5a567d4dac25d",
+        "multi_platform": false,
+        "date_basis": "explicit_body_date"
+      },
+      "网上舆论": {
+        "id": "2c734a13e57ca2e5",
+        "path": "赛题2-初赛/数据/2025.5.5/网上舆论/049_(网上舆情)-印度海军护卫舰在安达曼海开展联合搜救训练引发关注.txt",
+        "source": "网上舆论",
+        "date": "2025.5.5",
+        "country": "印度",
+        "platform": "卡莫尔塔级反潜护卫舰",
+        "key": "卡莫尔塔",
+        "kind": "舰艇",
+        "region": "安达曼海",
+        "regions": [
+          "安达曼海"
+        ],
+        "task": "联合搜救训练",
+        "task_candidates": [
+          "联合搜救训练"
+        ],
+        "quantity": 1,
+        "quantity_basis": "正文显式数量",
+        "quantity_unit": "艘",
+        "reported_kind": "舰艇",
+        "role_quote": "护卫舰",
+        "start": 517,
+        "end": 607,
+        "observed": null,
+        "relations": [],
+        "snippet": "2025年5月5日8时37分至10时07分，印度海军一艘“卡莫尔塔级”反潜护卫舰在安达曼海围绕任务海域组织联合搜救训练。",
+        "title": "印度海军护卫舰在安达曼海开展联合搜救训练引发关注",
+        "locator": {
+          "section": "正文",
+          "line": 5,
+          "atomic_platform": "卡莫尔塔",
+          "subevent_index": 0
+        },
+        "sha256": "31488c4373ae21e50f872a0abe37e66485cf7b8334617eae9975cb652a818fc8",
+        "multi_platform": false,
+        "date_basis": "explicit_body_date"
+      }
+    }
+  },
+  {
+    "id": "2025.5.8-AIR-7A19E242B6A3F9",
+    "before": "排除",
+    "after": "纳入",
+    "issues": [],
+    "claims": {
+      "开源军情": {
+        "id": "4e4d1f00ebe52f34",
+        "path": "赛题2-初赛/数据/2025.5.8/开源军情/040_开源军情-日本P-1与F-15J在东海组织反潜巡逻行动.txt",
+        "source": "开源军情",
+        "date": "2025.5.8",
+        "country": "日本",
+        "platform": "P-1反潜巡逻机",
+        "key": "p1",
+        "kind": "飞机",
+        "region": "东海",
+        "regions": [
+          "东海"
+        ],
+        "task": "反潜巡逻",
+        "task_candidates": [
+          "反潜巡逻"
+        ],
+        "quantity": null,
+        "quantity_basis": null,
+        "quantity_unit": null,
+        "reported_kind": "飞机",
+        "role_quote": "巡逻机",
+        "start": 307,
+        "end": 452,
+        "observed": null,
+        "relations": [],
+        "snippet": "2025年5月8日5时07分至7时32分，日本P-1反潜巡逻机和F-15J战斗机在东海围绕任务海域组织反潜巡逻，期间按计划保持机动并持续执行反潜巡逻，围绕指定海域保持巡逻或监视并结合既定航线持续收集相关信息。",
+        "title": "日本P-1与F-15J在东海组织反潜巡逻行动",
+        "locator": {
+          "section": "正文",
+          "line": 5,
+          "atomic_platform": "p1",
+          "subevent_index": 0
+        },
+        "sha256": "9e221825e9e86c73cf4b266212d89593419f32abc1777b07285244ec26dae413",
+        "multi_platform": true,
+        "date_basis": "explicit_body_date"
+      },
+      "网上舆论": {
+        "id": "70d02d90b7b4ebe7",
+        "path": "赛题2-初赛/数据/2025.5.8/网上舆论/040_(网上舆情)-日本一架P-1反潜巡逻机进入东海活动引发关注.txt",
+        "source": "网上舆论",
+        "date": "2025.5.8",
+        "country": "日本",
+        "platform": "P-1反潜巡逻机",
+        "key": "p1",
+        "kind": "飞机",
+        "region": "东海",
+        "regions": [
+          "东海"
+        ],
+        "task": null,
+        "task_candidates": [],
+        "quantity": 1,
+        "quantity_basis": "正文显式数量",
+        "quantity_unit": "架",
+        "reported_kind": "飞机",
+        "role_quote": "巡逻机",
+        "start": null,
+        "end": null,
+        "observed": null,
+        "relations": [
+          "进入"
+        ],
+        "snippet": "2025年5月8日，日本一架P-1反潜巡逻机由外围航线进入东海任务海域，围绕任务区域保持机动，行动范围保持在指定任务海域。该机在东海的出现",
+        "title": "日本一架P-1反潜巡逻机进入东海活动引发关注",
+        "locator": {
+          "section": "正文",
+          "line": 5,
+          "atomic_platform": "p1",
+          "subevent_index": 0
+        },
+        "sha256": "5838d7ac6de311700d258e3f1c0cd1a520228a3c8b96765eeb39cd1770e260f7",
+        "multi_platform": false,
+        "date_basis": "explicit_body_date"
+      }
+    }
+  },
+  {
+    "id": "2025.6.16-AIR-0D1F4C4503C153",
+    "before": "纳入",
+    "after": "排除",
+    "issues": [
+      "关键字段task明确冲突：{'雷达': '远程兵力投送', '开源军情': '空中加油支援', '网上舆论': '远程兵力投送'}"
+    ],
+    "claims": {
+      "开源军情": {
+        "id": "39732f84e202c62c",
+        "path": "赛题2-初赛/数据/2025.6.16/开源军情/049_开源军情-新加坡A330多用途加油运输机在舟山外海执行空中加油支援.txt",
+        "source": "开源军情",
+        "date": "2025.6.16",
+        "country": "新加坡",
+        "platform": "A330多用途加油运输机",
+        "key": "a330",
+        "kind": "飞机",
+        "region": "舟山外海",
+        "regions": [
+          "舟山外海"
+        ],
+        "task": "空中加油支援",
+        "task_candidates": [
+          "空中加油支援"
+        ],
+        "quantity": 2,
+        "quantity_basis": "正文显式数量",
+        "quantity_unit": "架",
+        "reported_kind": "飞机",
+        "role_quote": "运输机",
+        "start": null,
+        "end": null,
+        "observed": null,
+        "relations": [],
+        "snippet": "2025年6月16日，新加坡2架A330多用途加油运输机在舟山外海活动，围绕任务编组实施保障行动，按计划完成相关保障环节衔接，持续组织空中加油支援。",
+        "title": "新加坡A330多用途加油运输机在舟山外海执行空中加油支援",
+        "locator": {
+          "section": "正文",
+          "line": 5,
+          "atomic_platform": "a330",
+          "subevent_index": 0
+        },
+        "sha256": "95f66171c096fdf1b32e9b9fd27f6e5f0e32e37de5840d3ecf70ecbea053632b",
+        "multi_platform": false,
+        "date_basis": "explicit_body_date"
+      },
+      "网上舆论": {
+        "id": "8c675de9ed444ef4",
+        "path": "赛题2-初赛/数据/2025.6.16/网上舆论/016_(网上舆情)-新加坡A330加油机东海远程投送引发媒体关注.txt",
+        "source": "网上舆论",
+        "date": "2025.6.16",
+        "country": "新加坡",
+        "platform": "A330多用途加油运输机",
+        "key": "a330",
+        "kind": "飞机",
+        "region": "东海",
+        "regions": [
+          "东海"
+        ],
+        "task": "远程兵力投送",
+        "task_candidates": [
+          "远程兵力投送"
+        ],
+        "quantity": null,
+        "quantity_basis": null,
+        "quantity_unit": null,
+        "reported_kind": "飞机",
+        "role_quote": "运输机",
+        "start": 301,
+        "end": 446,
+        "observed": null,
+        "relations": [],
+        "snippet": "2025年6月16日，新加坡空军A330多用途加油运输机在东海方向执行远程兵力投送任务，活动时段为5时01分至7时26分。此次投送",
+        "title": "新加坡A330加油机东海远程投送引发媒体关注",
+        "locator": {
+          "section": "正文",
+          "line": 5,
+          "atomic_platform": "a330",
+          "subevent_index": 0
+        },
+        "sha256": "6eb6df915acab73ab4d9b27b5d9c1207b51bd9d9ca0f49b5ce2651cdc9fdbd8d",
+        "multi_platform": false,
+        "date_basis": "explicit_body_date"
+      }
+    }
+  },
+  {
+    "id": "2025.6.18-AIR-2684612D751C42",
+    "before": "纳入",
+    "after": "排除",
+    "issues": [
+      "关键字段task明确冲突：{'雷达': '联合巡逻', '开源军情': '联合巡逻', '网上舆论': '海上侦察巡逻'}"
+    ],
+    "claims": {
+      "开源军情": {
+        "id": "cbead5df8e1e4328",
+        "path": "赛题2-初赛/数据/2025.6.18/开源军情/007_开源军情-韩国P-8A反潜巡逻机在南黄海执行联合巡逻任务.txt",
+        "source": "开源军情",
+        "date": "2025.6.18",
+        "country": "韩国",
+        "platform": "P-8A“海神”反潜巡逻机",
+        "key": "p8a",
+        "kind": "飞机",
+        "region": "南黄海",
+        "regions": [
+          "南黄海"
+        ],
+        "task": "联合巡逻",
+        "task_candidates": [
+          "联合巡逻"
+        ],
+        "quantity": null,
+        "quantity_basis": null,
+        "quantity_unit": null,
+        "reported_kind": "飞机",
+        "role_quote": "巡逻机",
+        "start": 512,
+        "end": 602,
+        "observed": null,
+        "relations": [],
+        "snippet": "2025年6月18日，韩国P-8A“海神”反潜巡逻机在南黄海活动，从8时32分至10时02分围绕任务海域组织联合巡逻，按计划保持机动并持续执行联合巡逻。",
+        "title": "韩国P-8A反潜巡逻机在南黄海执行联合巡逻任务",
+        "locator": {
+          "section": "正文",
+          "line": 5,
+          "atomic_platform": "p8a",
+          "subevent_index": 0
+        },
+        "sha256": "881eb008d769750449c370d8f8247e47de233cbdd20863cce889e4f140d7444f",
+        "multi_platform": false,
+        "date_basis": "explicit_body_date"
+      },
+      "网上舆论": {
+        "id": "6a44cb8d7e379127",
+        "path": "赛题2-初赛/数据/2025.6.18/网上舆论/046_(网上舆情)-韩国P-8A巡逻机在南黄海执行侦察任务引发区域关注.txt",
+        "source": "网上舆论",
+        "date": "2025.6.18",
+        "country": "韩国",
+        "platform": "P-8A“海神”反潜巡逻机",
+        "key": "p8a",
+        "kind": "飞机",
+        "region": "南黄海",
+        "regions": [
+          "南黄海"
+        ],
+        "task": "海上侦察巡逻",
+        "task_candidates": [
+          "海上侦察巡逻"
+        ],
+        "quantity": 2,
+        "quantity_basis": "正文显式数量",
+        "quantity_unit": "架",
+        "reported_kind": "飞机",
+        "role_quote": "巡逻机",
+        "start": 512,
+        "end": 602,
+        "observed": null,
+        "relations": [],
+        "snippet": "韩国两架P-8A“海神”反潜巡逻机于2025年6月18日8时32分至10时02分在南黄海海域执行海上侦察巡逻任务。",
+        "title": "韩国P-8A巡逻机在南黄海执行侦察任务引发区域关注",
+        "locator": {
+          "section": "正文",
+          "line": 5,
+          "atomic_platform": "p8a",
+          "subevent_index": 0
+        },
+        "sha256": "ca2e9421c181de88c3768198c3bd13407483e7d7596b07a599a11cc8649b891c",
+        "multi_platform": false,
+        "date_basis": "explicit_body_date"
+      }
+    }
+  },
+  {
+    "id": "2025.6.2-SHIP-3DCB8EEA1A9672",
+    "before": "纳入",
+    "after": "排除",
+    "issues": [
+      "关键字段task明确冲突：{'雷达': '两栖作战训练', '开源军情': '实弹射击训练', '网上舆论': '两栖作战训练'}"
+    ],
+    "claims": {
+      "开源军情": {
+        "id": "44265072b7bd5ed9",
+        "path": "赛题2-初赛/数据/2025.6.2/开源军情/031_开源军情-中国071型船坞登陆舰在青岛外海开展实弹射击训练.txt",
+        "source": "开源军情",
+        "date": "2025.6.2",
+        "country": "中国",
+        "platform": "071型船坞登陆舰",
+        "key": "071",
+        "kind": "舰艇",
+        "region": "青岛外海",
+        "regions": [
+          "青岛外海"
+        ],
+        "task": "实弹射击训练",
+        "task_candidates": [
+          "实弹射击训练"
+        ],
+        "quantity": 1,
+        "quantity_basis": "正文显式数量",
+        "quantity_unit": "艘",
+        "reported_kind": "舰艇",
+        "role_quote": "船坞登陆舰",
+        "start": null,
+        "end": null,
+        "observed": null,
+        "relations": [],
+        "snippet": "2025年6月2日，中国1艘071型船坞登陆舰在青岛外海活动，围绕任务海域组织实弹射击训练，按计划完成相关平台之间的行动衔接。",
+        "title": "中国071型船坞登陆舰在青岛外海开展实弹射击训练",
+        "locator": {
+          "section": "正文",
+          "line": 5,
+          "atomic_platform": "071",
+          "subevent_index": 0
+        },
+        "sha256": "89ad8a03764b1ae489d43cd8050834c8633249fc4672065eea905f73ae12b31c",
+        "multi_platform": false,
+        "date_basis": "explicit_body_date"
+      },
+      "网上舆论": {
+        "id": "2e34902eee007076",
+        "path": "赛题2-初赛/数据/2025.6.2/网上舆论/032_(网上舆情)-中国071型登陆舰在黄海进行两栖作战训练.txt",
+        "source": "网上舆论",
+        "date": "2025.6.2",
+        "country": "中国",
+        "platform": "071型船坞登陆舰",
+        "key": "071",
+        "kind": "舰艇",
+        "region": "黄海",
+        "regions": [
+          "黄海"
+        ],
+        "task": "两栖作战训练",
+        "task_candidates": [
+          "两栖作战训练"
+        ],
+        "quantity": null,
+        "quantity_basis": null,
+        "quantity_unit": null,
+        "reported_kind": "舰艇",
+        "role_quote": "船坞登陆舰",
+        "start": 174,
+        "end": 259,
+        "observed": null,
+        "relations": [],
+        "snippet": "2025年6月2日2时54分至4时19分，中国071型船坞登陆舰在黄海方向开展两栖作战训练。此次训练围绕任务海域组织兵力投送和平台协同，按计划完成了相关投送环节。",
+        "title": "中国071型登陆舰在黄海进行两栖作战训练",
+        "locator": {
+          "section": "正文",
+          "line": 5,
+          "atomic_platform": "071",
+          "subevent_index": 0
+        },
+        "sha256": "5907d2d975f803ee8a5b251af2e8a93a0b5d732b67de3e2a723a471b586220f3",
+        "multi_platform": false,
+        "date_basis": "explicit_body_date"
+      }
+    }
+  },
+  {
+    "id": "2025.6.24-SHIP-0D2726175ED047",
+    "before": "域外",
+    "after": "排除",
+    "issues": [
+      "关键字段task明确冲突：{'雷达': '自由航行', '开源军情': '自由航行', '网上舆论': '联合搜救训练'}"
+    ],
+    "claims": {
+      "开源军情": {
+        "id": "cd3e96e78b07fcdd",
+        "path": "赛题2-初赛/数据/2025.6.24/开源军情/050_开源军情-菲律宾米格尔·马尔瓦尔号导弹护卫舰在安达曼海自由航行.txt",
+        "source": "开源军情",
+        "date": "2025.6.24",
+        "country": "菲律宾",
+        "platform": "米格尔·马尔瓦尔号导弹护卫舰",
+        "key": "米格尔马尔瓦尔",
+        "kind": "舰艇",
+        "region": "安达曼海",
+        "regions": [
+          "安达曼海"
+        ],
+        "task": "自由航行",
+        "task_candidates": [
+          "自由航行"
+        ],
+        "quantity": 1,
+        "quantity_basis": "正文单一具名舰艇专名；仅计该具名参加者",
+        "quantity_unit": null,
+        "reported_kind": "舰艇",
+        "role_quote": "导弹护卫舰",
+        "start": 517,
+        "end": 607,
+        "observed": null,
+        "relations": [],
+        "snippet": "2025年6月24日8时37分至10时07分，菲律宾海军米格尔·马尔瓦尔号导弹护卫舰在安达曼海沿既定方向保持机动，执行自由航行任务。",
+        "title": "菲律宾米格尔·马尔瓦尔号导弹护卫舰在安达曼海自由航行",
+        "locator": {
+          "section": "正文",
+          "line": 5,
+          "atomic_platform": "米格尔马尔瓦尔",
+          "subevent_index": 0
+        },
+        "sha256": "df135a4a78a9ef33201801d2be21d5f3c9f0cb7a6d73d0325ba980e49332837b",
+        "multi_platform": false,
+        "date_basis": "explicit_body_date"
+      },
+      "网上舆论": {
+        "id": "8dfc75cc8acce0ef",
+        "path": "赛题2-初赛/数据/2025.6.24/网上舆论/006_(网上舆情)-菲律宾导弹护卫舰在安达曼海开展联合搜救训练.txt",
+        "source": "网上舆论",
+        "date": "2025.6.24",
+        "country": "菲律宾",
+        "platform": "米格尔·马尔瓦尔号导弹护卫舰",
+        "key": "米格尔马尔瓦尔",
+        "kind": "舰艇",
+        "region": "安达曼海",
+        "regions": [
+          "安达曼海"
+        ],
+        "task": "联合搜救训练",
+        "task_candidates": [
+          "联合搜救训练"
+        ],
+        "quantity": 1,
+        "quantity_basis": "正文单一具名舰艇专名；仅计该具名参加者",
+        "quantity_unit": null,
+        "reported_kind": "舰艇",
+        "role_quote": "导弹护卫舰",
+        "start": 517,
+        "end": 607,
+        "observed": null,
+        "relations": [],
+        "snippet": "2025年6月24日8时37分至10时07分，菲律宾海军“米格尔·马尔瓦尔号”导弹护卫舰在安达曼海围绕任务海域组织联合搜救训练。",
+        "title": "菲律宾导弹护卫舰在安达曼海开展联合搜救训练",
+        "locator": {
+          "section": "正文",
+          "line": 5,
+          "atomic_platform": "米格尔马尔瓦尔",
+          "subevent_index": 0
+        },
+        "sha256": "cfc44b0ac60583fd4dd9870e615562ffba16c7530efb6e3b22c2e968bdd9215d",
+        "multi_platform": false,
+        "date_basis": "explicit_body_date"
+      }
+    }
+  },
+  {
+    "id": "2025.6.29-SHIP-DDF8FCCAE297EA",
+    "before": "域外",
+    "after": "排除",
+    "issues": [
+      "关键字段task明确冲突：{'雷达': '联合搜救训练', '开源军情': '联合搜救训练', '网上舆论': '自由航行'}"
+    ],
+    "claims": {
+      "开源军情": {
+        "id": "9465546e5bf7b6c3",
+        "path": "赛题2-初赛/数据/2025.6.29/开源军情/018_开源军情-新加坡可畏级导弹护卫舰在巴伦支海进行联合搜救训练.txt",
+        "source": "开源军情",
+        "date": "2025.6.29",
+        "country": "新加坡",
+        "platform": "可畏级导弹护卫舰",
+        "key": "可畏",
+        "kind": "舰艇",
+        "region": "巴伦支海",
+        "regions": [
+          "巴伦支海"
+        ],
+        "task": "联合搜救训练",
+        "task_candidates": [
+          "联合搜救训练"
+        ],
+        "quantity": 1,
+        "quantity_basis": "正文显式数量",
+        "quantity_unit": "艘",
+        "reported_kind": "舰艇",
+        "role_quote": "导弹护卫舰",
+        "start": 517,
+        "end": 607,
+        "observed": null,
+        "relations": [],
+        "snippet": "2025年6月29日8时37分至10时7分，新加坡1艘可畏级导弹护卫舰在巴伦支海围绕任务海域组织联合搜救训练，期间围绕共同任务保持协同行动并按计划完成平台间的联络与行动衔接。",
+        "title": "新加坡可畏级导弹护卫舰在巴伦支海进行联合搜救训练",
+        "locator": {
+          "section": "正文",
+          "line": 5,
+          "atomic_platform": "可畏",
+          "subevent_index": 0
+        },
+        "sha256": "39ef1ab7b87d15aaaa2c3e6dae6fd605eb217a7c92b3ff624bc12310af399b27",
+        "multi_platform": false,
+        "date_basis": "explicit_body_date"
+      },
+      "网上舆论": {
+        "id": "f5fb4356210eeff6",
+        "path": "赛题2-初赛/数据/2025.6.29/网上舆论/031_(网上舆情)-新加坡可畏级护卫舰在巴伦支海完成自由航行.txt",
+        "source": "网上舆论",
+        "date": "2025.6.29",
+        "country": "新加坡",
+        "platform": "可畏级导弹护卫舰",
+        "key": "可畏",
+        "kind": "舰艇",
+        "region": "巴伦支海",
+        "regions": [
+          "巴伦支海"
+        ],
+        "task": "自由航行",
+        "task_candidates": [
+          "自由航行"
+        ],
+        "quantity": null,
+        "quantity_basis": null,
+        "quantity_unit": null,
+        "reported_kind": "舰艇",
+        "role_quote": "导弹护卫舰",
+        "start": 517,
+        "end": 607,
+        "observed": null,
+        "relations": [],
+        "snippet": "2025年6月29日，新加坡海军可畏级导弹护卫舰在巴伦支海执行自由航行任务，从8时37分至10时07分按计划保持机动。相关动向",
+        "title": "新加坡可畏级护卫舰在巴伦支海完成自由航行",
+        "locator": {
+          "section": "正文",
+          "line": 5,
+          "atomic_platform": "可畏",
+          "subevent_index": 0
+        },
+        "sha256": "8841f415cb75946c3e67e4b61c1c3bebfb7ea56b38e4fcef1f60d956f578d57d",
+        "multi_platform": false,
+        "date_basis": "explicit_body_date"
+      }
+    }
+  },
+  {
+    "id": "2025.6.6-SHIP-DCF7E78AF231FC",
+    "before": "域外",
+    "after": "排除",
+    "issues": [
+      "关键字段task明确冲突：{'雷达': '编队警戒部署', '开源军情': '编队警戒部署', '网上舆论': '联合巡航'}"
+    ],
+    "claims": {
+      "开源军情": {
+        "id": "3d28d05acd289f41",
+        "path": "赛题2-初赛/数据/2025.6.6/开源军情/026_开源军情-菲律宾米格尔·马尔瓦尔号护卫舰在夏威夷附近执行编队警戒部署.txt",
+        "source": "开源军情",
+        "date": "2025.6.6",
+        "country": "菲律宾",
+        "platform": "米格尔·马尔瓦尔号导弹护卫舰",
+        "key": "米格尔马尔瓦尔",
+        "kind": "舰艇",
+        "region": "夏威夷附近海空域",
+        "regions": [
+          "夏威夷附近海空域"
+        ],
+        "task": "编队警戒部署",
+        "task_candidates": [
+          "编队警戒部署"
+        ],
+        "quantity": 1,
+        "quantity_basis": "正文单一具名舰艇专名；仅计该具名参加者",
+        "quantity_unit": null,
+        "reported_kind": "舰艇",
+        "role_quote": "导弹护卫舰",
+        "start": 517,
+        "end": 607,
+        "observed": null,
+        "relations": [],
+        "snippet": "2025年6月6日8时37分至10时07分，菲律宾米格尔·马尔瓦尔号导弹护卫舰在夏威夷附近海空域活动，围绕任务海域组织编队警戒部署并维持警戒。",
+        "title": "菲律宾米格尔·马尔瓦尔号护卫舰在夏威夷附近执行编队警戒部署",
+        "locator": {
+          "section": "正文",
+          "line": 5,
+          "atomic_platform": "米格尔马尔瓦尔",
+          "subevent_index": 0
+        },
+        "sha256": "abd74f87f82f93846ae13f06caf5704a5f6e765a20204795bcd444f2173ee69c",
+        "multi_platform": false,
+        "date_basis": "explicit_body_date"
+      },
+      "网上舆论": {
+        "id": "07bd6edea2e11f51",
+        "path": "赛题2-初赛/数据/2025.6.6/网上舆论/016_(网上舆情)-菲律宾导弹护卫舰在夏威夷附近参与联合巡航.txt",
+        "source": "网上舆论",
+        "date": "2025.6.6",
+        "country": "菲律宾",
+        "platform": "米格尔·马尔瓦尔号导弹护卫舰",
+        "key": "米格尔马尔瓦尔",
+        "kind": "舰艇",
+        "region": "夏威夷附近海空域",
+        "regions": [
+          "夏威夷附近海空域"
+        ],
+        "task": "联合巡航",
+        "task_candidates": [
+          "联合巡航"
+        ],
+        "quantity": 1,
+        "quantity_basis": "正文单一具名舰艇专名；仅计该具名参加者",
+        "quantity_unit": null,
+        "reported_kind": "舰艇",
+        "role_quote": "导弹护卫舰",
+        "start": 517,
+        "end": 607,
+        "observed": null,
+        "relations": [],
+        "snippet": "2025年6月6日8时37分至10时07分，菲律宾海军“米格尔·马尔瓦尔号”导弹护卫舰在夏威夷附近海空域参与联合巡航。该舰围绕任务海域组织联合巡航，按计划保持机动并持续执行联合巡航，围绕共同任务保持协同行动，按计划完成平台间的联络和行动衔接。",
+        "title": "菲律宾导弹护卫舰在夏威夷附近参与联合巡航",
+        "locator": {
+          "section": "正文",
+          "line": 5,
+          "atomic_platform": "米格尔马尔瓦尔",
+          "subevent_index": 0
+        },
+        "sha256": "c2d9dd34068f5c54c38f0ec3e64b5774a380c0dcea9ea2c14a5427bead107f99",
+        "multi_platform": false,
+        "date_basis": "explicit_body_date"
+      }
+    }
+  },
+  {
+    "id": "2025.7.11-AIR-4B6A3E4788295C",
+    "before": "纳入",
+    "after": "排除",
+    "issues": [
+      "关键字段task明确冲突：{'雷达': '反潜巡逻', '开源军情': '反潜巡逻', '网上舆论': '实弹射击训练'}"
+    ],
+    "claims": {
+      "开源军情": {
+        "id": "2f3d6a630d6c7e75",
+        "path": "赛题2-初赛/数据/2025.7.11/开源军情/045_开源军情-英军“梅林”HM2反潜直升机在北康暗沙海域执行反潜巡逻.txt",
+        "source": "开源军情",
+        "date": "2025.7.11",
+        "country": "英国",
+        "platform": "“梅林”HM2反潜直升机",
+        "key": "梅林hm2",
+        "kind": "飞机",
+        "region": "北康暗沙海域",
+        "regions": [
+          "北康暗沙海域"
+        ],
+        "task": "反潜巡逻",
+        "task_candidates": [
+          "反潜巡逻"
+        ],
+        "quantity": null,
+        "quantity_basis": null,
+        "quantity_unit": null,
+        "reported_kind": "飞机",
+        "role_quote": "直升机",
+        "start": 301,
+        "end": 446,
+        "observed": null,
+        "relations": [],
+        "snippet": "2025年7月11日5时01分至7时26分，英国“梅林”HM2反潜直升机在北康暗沙海域围绕任务海域组织反潜巡逻，期间按计划保持机动并持续执行反潜巡逻任务。",
+        "title": "英军“梅林”HM2反潜直升机在北康暗沙海域执行反潜巡逻",
+        "locator": {
+          "section": "正文",
+          "line": 5,
+          "atomic_platform": "梅林hm2",
+          "subevent_index": 0
+        },
+        "sha256": "15d250a381fe8a3e8e2c97ff6b5b3666609823a1eb19a34d9ba0e788dfc2d479",
+        "multi_platform": false,
+        "date_basis": "explicit_body_date"
+      },
+      "网上舆论": {
+        "id": "142ca62f9111b41f",
+        "path": "赛题2-初赛/数据/2025.7.11/网上舆论/047_(网上舆情)-英军“梅林”反潜直升机南海实弹射击训练引关注.txt",
+        "source": "网上舆论",
+        "date": "2025.7.11",
+        "country": "英国",
+        "platform": "“梅林”HM2反潜直升机",
+        "key": "梅林hm2",
+        "kind": "飞机",
+        "region": "北康暗沙海域",
+        "regions": [
+          "北康暗沙海域"
+        ],
+        "task": "实弹射击训练",
+        "task_candidates": [
+          "实弹射击训练"
+        ],
+        "quantity": 1,
+        "quantity_basis": "正文显式数量",
+        "quantity_unit": "架",
+        "reported_kind": "飞机",
+        "role_quote": "直升机",
+        "start": null,
+        "end": null,
+        "observed": null,
+        "relations": [
+          "持续活动"
+        ],
+        "snippet": "2025年7月11日，英国一架“梅林”HM2反潜直升机在北康暗沙海域进行实弹射击训练。从公开信息看，该型机围绕既定科目组织训练，在任务海域持续活动，",
+        "title": "英军“梅林”反潜直升机南海实弹射击训练引关注",
+        "locator": {
+          "section": "正文",
+          "line": 5,
+          "atomic_platform": "梅林hm2",
+          "subevent_index": 0
+        },
+        "sha256": "b367fe3185ef729bf0ae44bcdbb2bb78946bc8edf4006ede980295c688bfdd82",
+        "multi_platform": false,
+        "date_basis": "explicit_body_date"
+      }
+    }
+  },
+  {
+    "id": "2025.7.2-SHIP-33BB57CA3DB27C",
+    "before": "纳入",
+    "after": "排除",
+    "issues": [
+      "关键字段task明确冲突：{'雷达': '两栖作战训练', '开源军情': '实弹射击训练', '网上舆论': '两栖作战训练'}"
+    ],
+    "claims": {
+      "开源军情": {
+        "id": "dc9eb484c5275d2b",
+        "path": "赛题2-初赛/数据/2025.7.2/开源军情/049_开源军情-中国075型两栖攻击舰在连云港外海组织实弹射击训练.txt",
+        "source": "开源军情",
+        "date": "2025.7.2",
+        "country": "中国",
+        "platform": "075型两栖攻击舰",
+        "key": "075",
+        "kind": "舰艇",
+        "region": "连云港外海",
+        "regions": [
+          "连云港外海"
+        ],
+        "task": "实弹射击训练",
+        "task_candidates": [
+          "实弹射击训练"
+        ],
+        "quantity": null,
+        "quantity_basis": null,
+        "quantity_unit": null,
+        "reported_kind": "舰艇",
+        "role_quote": "两栖攻击舰",
+        "start": 174,
+        "end": 259,
+        "observed": null,
+        "relations": [],
+        "snippet": "2025年7月2日2时54分至4时19分，中国075型两栖攻击舰在连云港外海围绕任务海域组织实弹射击训练，围绕既定科目展开训练并完成相关平台间的行动衔接。",
+        "title": "中国075型两栖攻击舰在连云港外海组织实弹射击训练",
+        "locator": {
+          "section": "正文",
+          "line": 5,
+          "atomic_platform": "075",
+          "subevent_index": 0
+        },
+        "sha256": "fb358fb3e86b158934948c4a9a5e68b6e1adfa0211cef6427ca0e3c6c7a33699",
+        "multi_platform": false,
+        "date_basis": "explicit_body_date"
+      },
+      "网上舆论": {
+        "id": "83b366f67bd5d987",
+        "path": "赛题2-初赛/数据/2025.7.2/网上舆论/008_(网上舆情)-中国075型两栖攻击舰在连云港外海开展训练.txt",
+        "source": "网上舆论",
+        "date": "2025.7.2",
+        "country": "中国",
+        "platform": "075型两栖攻击舰",
+        "key": "075",
+        "kind": "舰艇",
+        "region": "连云港外海",
+        "regions": [
+          "连云港外海",
+          "黄海"
+        ],
+        "task": "两栖作战训练",
+        "task_candidates": [
+          "两栖作战训练"
+        ],
+        "quantity": 1,
+        "quantity_basis": "正文显式数量",
+        "quantity_unit": "艘",
+        "reported_kind": "舰艇",
+        "role_quote": "两栖攻击舰",
+        "start": null,
+        "end": null,
+        "observed": null,
+        "relations": [
+          "持续活动"
+        ],
+        "snippet": "7月2日，中国一艘075型两栖攻击舰在黄海连云港外海持续活动，围绕任务海域组织两栖作战训练。",
+        "title": "中国075型两栖攻击舰在连云港外海开展训练",
+        "locator": {
+          "section": "正文",
+          "line": 5,
+          "atomic_platform": "075",
+          "subevent_index": 0
+        },
+        "sha256": "f053b85caa2c8f814f1a6d7a6fcb18cf0330fcbe8a51728346f19c65b40679a1",
+        "multi_platform": false,
+        "date_basis": "same_day_input_directory"
+      }
+    }
+  },
+  {
+    "id": "2025.7.6-SHIP-1E0C4C1590157B",
+    "before": "域外",
+    "after": "排除",
+    "issues": [
+      "关键字段task明确冲突：{'雷达': '远海训练', '开源军情': '远海训练', '网上舆论': '海上补给训练'}"
+    ],
+    "claims": {
+      "开源军情": {
+        "id": "6d4cbd89cd31fde5",
+        "path": "赛题2-初赛/数据/2025.7.6/开源军情/017_开源军情-中国海军903A型综合补给舰在夏威夷附近海空域开展远海训练.txt",
+        "source": "开源军情",
+        "date": "2025.7.6",
+        "country": "中国",
+        "platform": "903A型综合补给舰",
+        "key": "903a",
+        "kind": "舰艇",
+        "region": "夏威夷附近海空域",
+        "regions": [
+          "夏威夷附近海空域"
+        ],
+        "task": "远海训练",
+        "task_candidates": [
+          "远海训练"
+        ],
+        "quantity": 1,
+        "quantity_basis": "正文显式数量",
+        "quantity_unit": "艘",
+        "reported_kind": "舰艇",
+        "role_quote": "综合补给舰",
+        "start": 1029,
+        "end": 1119,
+        "observed": null,
+        "relations": [],
+        "snippet": "2025年7月6日17时9分至18时39分，中国海军1艘903A型综合补给舰在夏威夷附近海空域执行远海训练，围绕既定科目组织训练，按计划完成相关平台之间的行动衔接。",
+        "title": "中国海军903A型综合补给舰在夏威夷附近海空域开展远海训练",
+        "locator": {
+          "section": "正文",
+          "line": 5,
+          "atomic_platform": "903a",
+          "subevent_index": 0
+        },
+        "sha256": "037045c1ed75faed2b3a63461748b2bfa2d2bd1432f586438c561c46e858e8a4",
+        "multi_platform": false,
+        "date_basis": "explicit_body_date"
+      },
+      "网上舆论": {
+        "id": "0139f6d95b2d85ff",
+        "path": "赛题2-初赛/数据/2025.7.6/网上舆论/024_(网上舆情)-中国海军903A型综合补给舰在夏威夷附近进行海上补给训练.txt",
+        "source": "网上舆论",
+        "date": "2025.7.6",
+        "country": "中国",
+        "platform": "903A型综合补给舰",
+        "key": "903a",
+        "kind": "舰艇",
+        "region": "夏威夷附近海空域",
+        "regions": [
+          "夏威夷附近海空域"
+        ],
+        "task": "海上补给训练",
+        "task_candidates": [
+          "海上补给训练"
+        ],
+        "quantity": null,
+        "quantity_basis": null,
+        "quantity_unit": null,
+        "reported_kind": "舰艇",
+        "role_quote": "综合补给舰",
+        "start": 1029,
+        "end": 1119,
+        "observed": null,
+        "relations": [],
+        "snippet": "2025年7月6日，中国海军903A型综合补给舰在夏威夷附近海空域按计划组织海上补给训练，训练自17时9分持续至18时39分。",
+        "title": "中国海军903A型综合补给舰在夏威夷附近进行海上补给训练",
+        "locator": {
+          "section": "正文",
+          "line": 5,
+          "atomic_platform": "903a",
+          "subevent_index": 0
+        },
+        "sha256": "a677d1bbb0e3dcdd473c84c6e01474374e72741a7a4b94b5c4f29d33a4a5a6b2",
+        "multi_platform": false,
+        "date_basis": "explicit_body_date"
+      }
+    }
+  }
+]

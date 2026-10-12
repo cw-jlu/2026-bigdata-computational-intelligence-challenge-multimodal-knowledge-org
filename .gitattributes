@@ -1,3 +1,6 @@
 artifact/20261009_gpt_accuracy_v2/复现材料_gpt_accuracy_v2.zip filter=lfs diff=lfs merge=lfs -text
 artifact/20261012_initial_eight_nodes_v8/** -text
 artifact/20261012_all_versions_comparison/** -text
+
+artifact/20261012_163714_initial_eight_nodes_v12/** -text
+artifact/20261012_163714_initial_eight_nodes_v12/赛题2_初赛_v12_完整工程包.zip filter=lfs diff=lfs merge=lfs -text

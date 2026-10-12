@@ -1,0 +1,105 @@
+{
+  "baseline": "20261012_160950_initial_eight_nodes_v11",
+  "scope": "v12仅图表视觉修订；DOCX图片尺寸随纵横比适配",
+  "nodes": [
+    {
+      "node": "2025.5.10",
+      "daily_events": 26,
+      "frozen_facts_unchanged": true,
+      "analysis_unchanged": true,
+      "docx_text_unchanged": true,
+      "docx_body_except_image_dimensions_unchanged": true,
+      "docx_fonts_styles_settings_unchanged": true,
+      "xlsx_byte_identical": true,
+      "chart_values_and_membership_identical": true,
+      "four_pngs_restyled_and_embedded": true
+    },
+    {
+      "node": "2025.5.18",
+      "daily_events": 24,
+      "frozen_facts_unchanged": true,
+      "analysis_unchanged": true,
+      "docx_text_unchanged": true,
+      "docx_body_except_image_dimensions_unchanged": true,
+      "docx_fonts_styles_settings_unchanged": true,
+      "xlsx_byte_identical": true,
+      "chart_values_and_membership_identical": true,
+      "four_pngs_restyled_and_embedded": true
+    },
+    {
+      "node": "2025.5.30",
+      "daily_events": 27,
+      "frozen_facts_unchanged": true,
+      "analysis_unchanged": true,
+      "docx_text_unchanged": true,
+      "docx_body_except_image_dimensions_unchanged": true,
+      "docx_fonts_styles_settings_unchanged": true,
+      "xlsx_byte_identical": true,
+      "chart_values_and_membership_identical": true,
+      "four_pngs_restyled_and_embedded": true
+    },
+    {
+      "node": "2025.6.9",
+      "daily_events": 27,
+      "frozen_facts_unchanged": true,
+      "analysis_unchanged": true,
+      "docx_text_unchanged": true,
+      "docx_body_except_image_dimensions_unchanged": true,
+      "docx_fonts_styles_settings_unchanged": true,
+      "xlsx_byte_identical": true,
+      "chart_values_and_membership_identical": true,
+      "four_pngs_restyled_and_embedded": true
+    },
+    {
+      "node": "2025.6.17",
+      "daily_events": 25,
+      "frozen_facts_unchanged": true,
+      "analysis_unchanged": true,
+      "docx_text_unchanged": true,
+      "docx_body_except_image_dimensions_unchanged": true,
+      "docx_fonts_styles_settings_unchanged": true,
+      "xlsx_byte_identical": true,
+      "chart_values_and_membership_identical": true,
+      "four_pngs_restyled_and_embedded": true
+    },
+    {
+      "node": "2025.6.29",
+      "daily_events": 25,
+      "frozen_facts_unchanged": true,
+      "analysis_unchanged": true,
+      "docx_text_unchanged": true,
+      "docx_body_except_image_dimensions_unchanged": true,
+      "docx_fonts_styles_settings_unchanged": true,
+      "xlsx_byte_identical": true,
+      "chart_values_and_membership_identical": true,
+      "four_pngs_restyled_and_embedded": true
+    },
+    {
+      "node": "2025.7.9",
+      "daily_events": 27,
+      "frozen_facts_unchanged": true,
+      "analysis_unchanged": true,
+      "docx_text_unchanged": true,
+      "docx_body_except_image_dimensions_unchanged": true,
+      "docx_fonts_styles_settings_unchanged": true,
+      "xlsx_byte_identical": true,
+      "chart_values_and_membership_identical": true,
+      "four_pngs_restyled_and_embedded": true
+    },
+    {
+      "node": "2025.7.17",
+      "daily_events": 24,
+      "frozen_facts_unchanged": true,
+      "analysis_unchanged": true,
+      "docx_text_unchanged": true,
+      "docx_body_except_image_dimensions_unchanged": true,
+      "docx_fonts_styles_settings_unchanged": true,
+      "xlsx_byte_identical": true,
+      "chart_values_and_membership_identical": true,
+      "four_pngs_restyled_and_embedded": true
+    }
+  ],
+  "daily_events": 205,
+  "status": "PASS",
+  "platform_evaluation": null
+}

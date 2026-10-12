@@ -1,0 +1,120 @@
+{
+  "recorded_on": "2026-10-12",
+  "version": "v9",
+  "artifact_directory": "artifact/20261012_134432_initial_eight_nodes_v9",
+  "stage": "initial",
+  "node_count": 8,
+  "nodes": [
+    "2025-05-10",
+    "2025-05-18",
+    "2025-05-30",
+    "2025-06-09",
+    "2025-06-17",
+    "2025-06-29",
+    "2025-07-09",
+    "2025-07-17"
+  ],
+  "source": "user_reported_platform_feedback_in_this_chat",
+  "raw_feedback": "赛程=initial；节点数=8；完整性=86.2631；准确性=67.3760；格式=96.5612；分析=55.8750；总分=各节点(完整性×25%+准确性×40%+格式×15%+分析×20%)的平均分数出来了，记录一下然后push上去",
+  "metrics": {
+    "completeness": "86.2631",
+    "accuracy": "67.3760",
+    "format": "96.5612",
+    "analysis": "55.8750"
+  },
+  "weights": {
+    "completeness": "0.25",
+    "accuracy": "0.40",
+    "format": "0.15",
+    "analysis": "0.20"
+  },
+  "weighted_total_exact_from_displayed_means": "74.175355",
+  "weighted_total_4dp": "74.1754",
+  "comparisons": {
+    "v8": {
+      "metrics": {
+        "completeness": "86.1320",
+        "accuracy": "65.2266",
+        "format": "96.5230",
+        "analysis": "45.2500"
+      },
+      "weighted_total_exact": "71.152090",
+      "metric_delta": {
+        "completeness": "0.1311",
+        "accuracy": "2.1494",
+        "format": "0.0382",
+        "analysis": "10.6250"
+      },
+      "weighted_delta": {
+        "completeness": "0.032775",
+        "accuracy": "0.859760",
+        "format": "0.005730",
+        "analysis": "2.125000"
+      },
+      "total_delta_exact": "3.023265",
+      "total_delta_4dp": "3.0233"
+    },
+    "v4": {
+      "metrics": {
+        "completeness": "74.8767",
+        "accuracy": "85.5277",
+        "format": "76.4282",
+        "analysis": "55.7500"
+      },
+      "weighted_total_exact": "75.544485",
+      "metric_delta": {
+        "completeness": "11.3864",
+        "accuracy": "-18.1517",
+        "format": "20.1330",
+        "analysis": "0.1250"
+      },
+      "weighted_delta": {
+        "completeness": "2.846600",
+        "accuracy": "-7.260680",
+        "format": "3.019950",
+        "analysis": "0.025000"
+      },
+      "total_delta_exact": "-1.369130",
+      "total_delta_4dp": "-1.3691"
+    }
+  },
+  "artifact_binding": {
+    "basis": "chat context identifies this v9; platform receipt not independently checked",
+    "pre_evaluation_archives": [
+      {
+        "path": "artifact/20261012_134432_initial_eight_nodes_v9/赛题2_初赛_八节点_完整候选提交包.zip",
+        "bytes": 23541081,
+        "sha256": "3e0027002e610e5cf1cb4ef3bdc6c2317ffddd5faf851ea2be5a69f9be84de82"
+      },
+      {
+        "path": "artifact/20261012_134432_initial_eight_nodes_v9/赛题2_初赛_v9_完整工程包.zip",
+        "bytes": 255060493,
+        "sha256": "0c0f64f69f3622a31c5a7411cf49861cd072694c023a9ee92c21e843c1b1cd96"
+      }
+    ],
+    "archives_modified": false
+  },
+  "platform_submission_id": null,
+  "platform_receipt": null,
+  "official_unrounded_total": null,
+  "per_node_scores": null,
+  "deduction_details": null,
+  "limits": [
+    "Displayed means may already be rounded; calculated total is not an independently supplied official total.",
+    "Completeness is not recall and accuracy is not event correctness rate.",
+    "Score changes cannot be attributed to one code or evidence change without controlled comparison.",
+    "Pre-evaluation audit files and archives remain unchanged historical snapshots."
+  ],
+  "corrections": [
+    {
+      "context": "previous assistant reply comparing v9 with v8/v4",
+      "error": "65.2266 and 85.5277 were called analysis scores",
+      "correct": "They are v8 and v4 accuracy scores; analysis scores are 45.2500 and 55.7500."
+    },
+    {
+      "context": "first progress update in this recording turn",
+      "error": "Mental arithmetic reported 74.1778, +3.0257, -1.3667",
+      "correct": "Exact Decimal arithmetic gives 74.175355, +3.023265, -1.369130 (4dp: 74.1754, +3.0233, -1.3691)."
+    }
+  ]
+}

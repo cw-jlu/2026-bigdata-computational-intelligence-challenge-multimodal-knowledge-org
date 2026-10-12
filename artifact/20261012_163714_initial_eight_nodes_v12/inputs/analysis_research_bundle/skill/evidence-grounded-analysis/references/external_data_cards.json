@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "description": "本包整理的少量公开汇总数值摘录；不是完整底层原始数据集，不是比赛事件真值。",
+  "cards": [
+    {"id":"C01","source_id":"D01","metric":"2024年全球军事支出","value":2718,"unit":"billion current US dollars","period":"2024","locator":"PDF第1页正文及Key Facts","published_by":"2025-04-28","use":"宏观投入背景","prohibited_inference":"不能据此断言节点当日活动增强"},
+    {"id":"C02","source_id":"D01","metric":"2024年全球军事支出实际同比增速","value":9.4,"unit":"percent, real terms","period":"2024 compared with 2023","locator":"PDF第1页正文及Key Facts","published_by":"2025-04-28","use":"宏观年度变化","prohibited_inference":"不和名义美元增速混用，不外推具体行动因果"},
+    {"id":"C03","source_id":"D02","metric":"全球主要武器转移量两个五年期之间的变化","value":-0.6,"unit":"percent, volume measured using SIPRI TIV","period":"2020-2024 compared with 2015-2019","locator":"PDF第1页正文及Key Facts","published_by":"2025-03-10","use":"长期结构比较","prohibited_inference":"TIV不能解释为美元金额或当日装备部署"},
+    {"id":"C04","source_id":"E01","metric":"报告口径下2024年进入南海的航母打击群数量","value":3,"unit":"carrier strike groups, distinct groups in the report","period":"2024","locator":"网页：一、战略平台活动继续强化／（一）航母打击群","published_by":"2025-03-24","use":"历史汇总口径示例","prohibited_inference":"不能验证比赛样例中具体编队活动"},
+    {"id":"C05","source_id":"E01","metric":"报告口径下上述编队全年累计进入次数","value":8,"unit":"reported entry events","period":"2024","locator":"网页：一、战略平台活动继续强化／（一）航母打击群","published_by":"2025-03-24","use":"说明主体数量和事件次数是不同指标","prohibited_inference":"不能同节点报道条数直接同比或推断后续部署"}
+  ]
+}

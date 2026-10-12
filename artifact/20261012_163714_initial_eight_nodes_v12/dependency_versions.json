@@ -1,0 +1,32 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "python_packages": {
+    "python-docx": "1.2.0",
+    "openpyxl": "3.1.5",
+    "Pillow": "12.3.0",
+    "numpy": "2.3.5",
+    "pypdf": "6.10.0",
+    "pypdfium2": "5.14.0"
+  },
+  "node_artifact_tool": {
+    "name": "@oai/artifact-tool",
+    "version": "2.8.93"
+  },
+  "fonts": [
+    "仿宋_GB2312",
+    "黑体",
+    "宋体",
+    "Microsoft YaHei / msyh.ttc"
+  ],
+  "native_renderers": {
+    "Word.Application.COM": [
+      "12.0"
+    ],
+    "Excel.Application.COM": [
+      "12.0"
+    ],
+    "actual_provider": "WPS Office (COM self-reports Microsoft Word/Excel 12.0; executable path under Kingsoft)"
+  },
+  "runtime_binaries_vendored": false,
+  "reproduction_platform": "Windows with installed fonts; Codex bundled artifact-tool runtime"
+}

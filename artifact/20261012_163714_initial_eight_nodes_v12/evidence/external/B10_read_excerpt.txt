@@ -1,0 +1,4 @@
+2026-10-12本轮通过web工具读取官方固定PDF全文一页；直连下载403，保存短摘与释义，不冒充完整PDF。
+URL: https://www.mod.go.jp/msdf/en/release/202502/20250206-1en.pdf
+原文短摘（20词）：French Navy: FS CHARLES DE GAULLE. Tactical Exercise (Anti-Air Warfare, Anti-Submarine Warfare, LINKEX, Cross Deck etc.)
+页首日期2025年2月6日。第2项计划2月10—18日，第3项菲律宾以东海空域，第4项列拟参加平台，第5项为拟演习科目。该Announcement是未来式安排，未证明全部实施。

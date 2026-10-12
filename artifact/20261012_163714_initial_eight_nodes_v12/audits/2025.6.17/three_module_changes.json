@@ -1,0 +1,178 @@
+{
+  "facts": "daily event decisions and values unchanged; entry/exit source-object audit added, unsupported relations not asserted",
+  "analysis": {
+    "node": "2025.6.17",
+    "today_events": 25,
+    "daily_facts_changed": false,
+    "full_related_verified_events": 14,
+    "restored_history": [
+      {
+        "id": "2025.5.4-AIR-DF4C1627223A01",
+        "date": "2025.5.4",
+        "facts": {
+          "country": "澳大利亚",
+          "key": "p8a",
+          "quantity": 1,
+          "task": "反潜巡逻",
+          "start": "14:55",
+          "end": "16:20",
+          "region": "东海",
+          "direction": "东海",
+          "platform": "P-8A“海神”反潜巡逻机"
+        }
+      }
+    ],
+    "missing_related_verified_events": [],
+    "stages": [
+      {
+        "dates": [
+          "2025.5.4",
+          "2025.5.19",
+          "2025.5.24",
+          "2025.5.28"
+        ],
+        "events": [
+          "2025.5.4-AIR-DF4C1627223A01",
+          "2025.5.19-AIR-E45A1B9FE13CCA",
+          "2025.5.24-AIR-725E4A4366F2A5",
+          "2025.5.28-AIR-DF15518DFFCBCD"
+        ],
+        "boundary_basis": "5月东海单点与南海反潜重复，15日间隔保留"
+      },
+      {
+        "dates": [
+          "2025.5.29",
+          "2025.5.30"
+        ],
+        "events": [
+          "2025.5.29-AIR-47EB22B1C68E9F",
+          "2025.5.30-AIR-7AE85FE8199419"
+        ],
+        "boundary_basis": "5月底黄海联合巡逻和东海反潜"
+      },
+      {
+        "dates": [
+          "2025.6.2",
+          "2025.6.6",
+          "2025.6.8",
+          "2025.6.11",
+          "2025.6.14",
+          "2025.6.16",
+          "2025.6.17"
+        ],
+        "events": [
+          "2025.6.2-AIR-32054E31D4D608",
+          "2025.6.6-AIR-DD08A2D35D60C2",
+          "2025.6.8-AIR-A94318B8325C02",
+          "2025.6.11-AIR-156F137CD2150D",
+          "2025.6.14-AIR-AD664125907E23",
+          "2025.6.16-AIR-0FD53F2DB10A14",
+          "2025.6.17-AIR-15297A9B050E29",
+          "2025.6.17-AIR-F087E2B39C41DB"
+        ],
+        "boundary_basis": "6月南海反潜重复与其他任务并存，节点另有黄海活动"
+      }
+    ],
+    "observational_gaps": [
+      {
+        "from": "2025-05-04",
+        "to": "2025-05-19",
+        "days": 15
+      },
+      {
+        "from": "2025-05-19",
+        "to": "2025-05-24",
+        "days": 5
+      },
+      {
+        "from": "2025-05-24",
+        "to": "2025-05-28",
+        "days": 4
+      },
+      {
+        "from": "2025-05-30",
+        "to": "2025-06-02",
+        "days": 3
+      },
+      {
+        "from": "2025-06-02",
+        "to": "2025-06-06",
+        "days": 4
+      },
+      {
+        "from": "2025-06-06",
+        "to": "2025-06-08",
+        "days": 2
+      },
+      {
+        "from": "2025-06-08",
+        "to": "2025-06-11",
+        "days": 3
+      },
+      {
+        "from": "2025-06-11",
+        "to": "2025-06-14",
+        "days": 3
+      },
+      {
+        "from": "2025-06-14",
+        "to": "2025-06-16",
+        "days": 2
+      }
+    ],
+    "related_unverified_candidates": [
+      {
+        "event_id": "2025.5.19-AIR-6C024FE1E1C855",
+        "decision": "排除",
+        "issues": [
+          "关键字段task明确冲突：{'雷达': '联合巡逻', '开源军情': '联合巡逻', '网上舆论': '海上侦察巡逻'}"
+        ]
+      },
+      {
+        "event_id": "2025.5.29-AIR-4779DAB591FCB9",
+        "decision": "排除",
+        "issues": [
+          "关键字段start明确冲突：{'雷达': 314, '开源军情': 314, '网上舆论': 383}"
+        ]
+      },
+      {
+        "event_id": "2025.5.31-AIR-2F8826A1ACD084",
+        "decision": "排除",
+        "issues": [
+          "雷达轨迹存在并行异地观测或不合理跳变，未能定位可独立删除的噪声行",
+          "完整轨迹跨越粗海域相容窗，不能用中位点消除异常：黄海"
+        ]
+      },
+      {
+        "event_id": "2025.6.14-AIR-341ED15AE57AAD",
+        "decision": "排除",
+        "issues": [
+          "关键字段country明确冲突：{'雷达': '澳大利亚', '开源军情': '澳大利亚', '网上舆论': '俄罗斯'}"
+        ]
+      },
+      {
+        "event_id": "2025.6.8-AIR-48A5399F9F98DB",
+        "decision": "排除",
+        "issues": [
+          "关键区域冲突：[{'source': '开源军情', 'region': '北部湾'}, {'source': '雷达', 'reason': '轨迹与文本具体区域不相容'}]",
+          "关键区域不足两类来源支持",
+          "区域精度重审：无两类明确地名或共同核心海域支持"
+        ]
+      },
+      {
+        "event_id": "2025.6.8-AIR-4DF62148FE3C5A",
+        "decision": "排除",
+        "issues": [
+          "关键字段quantity不足两类来源支持",
+          "三类来源未全部关联，保留两源或单源候选",
+          "区域精度重审：无两类明确地名或共同核心海域支持"
+        ]
+      }
+    ],
+    "corridor_documents_in_scope": 0,
+    "accepted_entry_exit_claims": 0,
+    "second_section_history_scope": "full stage",
+    "history_outside_second_section": false
+  },
+  "format": "Historical/external index moved inside section II; section V rewritten using current-day facts only; template, workbook schema and four PNG definitions retained"
+}

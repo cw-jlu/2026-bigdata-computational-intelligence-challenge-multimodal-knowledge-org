@@ -1,0 +1,96 @@
+{
+  "facts": "daily event decisions and values unchanged; entry/exit source-object audit added, unsupported relations not asserted",
+  "analysis": {
+    "node": "2025.5.10",
+    "today_events": 26,
+    "daily_facts_changed": false,
+    "full_related_verified_events": 5,
+    "restored_history": [],
+    "missing_related_verified_events": [],
+    "stages": [
+      {
+        "dates": [
+          "2025.5.1",
+          "2025.5.2"
+        ],
+        "events": [
+          "2025.5.1-AIR-8638D8B9232003",
+          "2025.5.2-AIR-20329C42A9F1EB",
+          "2025.5.2-AIR-FF06AD0A13E2FD"
+        ],
+        "boundary_basis": "东海与黄海训练、巡逻的前段"
+      },
+      {
+        "dates": [
+          "2025.5.6"
+        ],
+        "events": [
+          "2025.5.6-AIR-CE53A4E05076BB"
+        ],
+        "boundary_basis": "5月6日南海联合巡逻，单日变化"
+      },
+      {
+        "dates": [
+          "2025.5.10"
+        ],
+        "events": [
+          "2025.5.10-AIR-965A1A0C03084F"
+        ],
+        "boundary_basis": "节点日东海空中警戒，不能连接同机航线"
+      }
+    ],
+    "observational_gaps": [
+      {
+        "from": "2025-05-02",
+        "to": "2025-05-06",
+        "days": 4
+      },
+      {
+        "from": "2025-05-06",
+        "to": "2025-05-10",
+        "days": 4
+      }
+    ],
+    "related_unverified_candidates": [
+      {
+        "event_id": "2025.5.1-AIR-69195164BFB455",
+        "decision": "域外",
+        "issues": []
+      },
+      {
+        "event_id": "2025.5.10-AIR-4A3B2D7C0D9623",
+        "decision": "排除",
+        "issues": [
+          "关键字段start明确冲突：{'雷达': 1049, '开源军情': 1084}"
+        ]
+      },
+      {
+        "event_id": "2025.5.5-AIR-10C0D922F39F2D",
+        "decision": "排除",
+        "issues": [
+          "关键平台类别明确冲突：开源军情正文为导弹巡洋舰，雷达为飞机",
+          "关键数量单位明确冲突：开源军情为艘，雷达类别飞机"
+        ]
+      },
+      {
+        "event_id": "2025.5.6-AIR-FDB75E7CFF6832",
+        "decision": "排除",
+        "issues": [
+          "关键字段quantity明确冲突：{'雷达': 1, '开源军情': 1, '网上舆论': 2}"
+        ]
+      },
+      {
+        "event_id": "2025.5.9-AIR-21B461A6C05E02",
+        "decision": "排除",
+        "issues": [
+          "关键字段task明确冲突：{'雷达': '对海突击训练', '开源军情': '例行部署', '网上舆论': '对海突击训练'}"
+        ]
+      }
+    ],
+    "corridor_documents_in_scope": 0,
+    "accepted_entry_exit_claims": 0,
+    "second_section_history_scope": "full stage",
+    "history_outside_second_section": false
+  },
+  "format": "Historical/external index moved inside section II; section V rewritten using current-day facts only; template, workbook schema and four PNG definitions retained"
+}

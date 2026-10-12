@@ -1,0 +1,104 @@
+{
+  "days_recomputed": 78,
+  "candidate_changes_all_days": [],
+  "quantity_evidence_changes_all_days": [
+    {
+      "date": "2025.6.29",
+      "atom_id": "ddcbaeb01b407593",
+      "path": "赛题2-初赛/数据/2025.6.29/网上舆论/036_(网上舆情)-中国“辽宁号”航母编队南海联合巡航，协同行动受关注.txt",
+      "source": "网上舆论",
+      "snippet": "中国海军“辽宁号”航空母舰于2025年6月29日在中沙群岛海域执行联合巡航任务，行动时段为12时52分至13时09分，期间有一艘航母参与。该编队围绕共同任务保持协同行动，并按计划完成了平台间的联络与行动衔接。",
+      "locator": {
+        "section": "正文",
+        "line": 5,
+        "atomic_platform": "辽宁",
+        "subevent_index": 0
+      },
+      "sha256": "08bf8067aac22e137f72b048e89e755e4befed8adbd57c484cbf34d62195a616",
+      "old_quantity": 1,
+      "new_quantity": 1,
+      "old_basis": "正文单一具名舰艇专名；仅计该具名参加者",
+      "new_basis": "正文显式后置参与数量；单一平台且航母角色相符",
+      "quotes": [
+        "期间有一艘航母参与"
+      ],
+      "conflict": null
+    },
+    {
+      "date": "2025.6.29",
+      "atom_id": "954bce533dda62f1",
+      "path": "赛题2-初赛/数据/2025.6.29/网上舆论/048_(网上舆情)-中国“辽宁号”航母进入北康暗沙海域执行例行部署.txt",
+      "source": "网上舆论",
+      "snippet": "中国海军“辽宁号”航空母舰于2025年6月29日由外围航线进入南海的北康暗沙海域执行例行部署，行动时段为8时14分至10时39分，期间有一艘航母参与。该舰围绕任务区域维持部署与警戒，沿既定方向保持机动。从公开信息看，此次进入任务海域的行动，展现了其前沿存在和部署持续性。",
+      "locator": {
+        "section": "正文",
+        "line": 5,
+        "atomic_platform": "辽宁",
+        "subevent_index": 0
+      },
+      "sha256": "70d9c67e9923f6b2f250e5589e2af14c4741ae302f38e1c4003bdc4632f5041b",
+      "old_quantity": 1,
+      "new_quantity": 1,
+      "old_basis": "正文单一具名舰艇专名；仅计该具名参加者",
+      "new_basis": "正文显式后置参与数量；单一平台且航母角色相符",
+      "quotes": [
+        "期间有一艘航母参与"
+      ],
+      "conflict": null
+    }
+  ],
+  "nodes": [
+    {
+      "node": "2025.5.10",
+      "events": 26,
+      "qualified_locality_notes": 10,
+      "analysis_blocks_rewritten": 1
+    },
+    {
+      "node": "2025.5.18",
+      "events": 24,
+      "qualified_locality_notes": 5,
+      "analysis_blocks_rewritten": 1
+    },
+    {
+      "node": "2025.5.30",
+      "events": 27,
+      "qualified_locality_notes": 9,
+      "analysis_blocks_rewritten": 1
+    },
+    {
+      "node": "2025.6.9",
+      "events": 27,
+      "qualified_locality_notes": 11,
+      "analysis_blocks_rewritten": 1
+    },
+    {
+      "node": "2025.6.17",
+      "events": 25,
+      "qualified_locality_notes": 4,
+      "analysis_blocks_rewritten": 1
+    },
+    {
+      "node": "2025.6.29",
+      "events": 25,
+      "qualified_locality_notes": 6,
+      "analysis_blocks_rewritten": 1
+    },
+    {
+      "node": "2025.7.9",
+      "events": 27,
+      "qualified_locality_notes": 7,
+      "analysis_blocks_rewritten": 1
+    },
+    {
+      "node": "2025.7.17",
+      "events": 24,
+      "qualified_locality_notes": 3,
+      "analysis_blocks_rewritten": 1
+    }
+  ],
+  "target_radar_candidates": 427,
+  "new_platform_evaluation": null,
+  "historical_comparison": "v4 accuracy 85.5277; Claude completeness 96.7004; user-reported aggregate feedback does not label individual events",
+  "review_scope": "all 78 days programmatically re-extracted; changed evidence and eight mainline arguments reviewed by current agent; inherited prior-round semantic review is separately retained, not a fresh blind review"
+}

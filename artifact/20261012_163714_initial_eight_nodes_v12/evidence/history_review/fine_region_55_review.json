@@ -1,0 +1,7917 @@
+[
+  {
+    "id": "2025.5.10-AIR-026EC345AA8CFC",
+    "before_after": {
+      "v4": "钓鱼岛海域",
+      "v9": "东海"
+    },
+    "explicit_region_values": {
+      "开源军情": "钓鱼岛海域",
+      "网上舆论": "东海"
+    },
+    "radar_check": [
+      {
+        "region": "东海",
+        "per_row": [
+          {
+            "row": 23,
+            "time": "2025-05-10T17:35:00",
+            "plausible": true
+          },
+          {
+            "row": 76,
+            "time": "2025-05-10T17:43:30",
+            "plausible": true
+          },
+          {
+            "row": 69,
+            "time": "2025-05-10T17:52:00",
+            "plausible": true
+          },
+          {
+            "row": 13,
+            "time": "2025-05-10T18:00:30",
+            "plausible": true
+          },
+          {
+            "row": 234,
+            "time": "2025-05-10T18:09:00",
+            "plausible": true
+          },
+          {
+            "row": 67,
+            "time": "2025-05-10T18:17:30",
+            "plausible": true
+          },
+          {
+            "row": 273,
+            "time": "2025-05-10T18:26:00",
+            "plausible": true
+          },
+          {
+            "row": 199,
+            "time": "2025-05-10T18:34:30",
+            "plausible": true
+          },
+          {
+            "row": 132,
+            "time": "2025-05-10T18:43:00",
+            "plausible": true
+          },
+          {
+            "row": 266,
+            "time": "2025-05-10T18:51:30",
+            "plausible": true
+          },
+          {
+            "row": 123,
+            "time": "2025-05-10T19:00:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "钓鱼岛海域",
+        "per_row": [
+          {
+            "row": 23,
+            "time": "2025-05-10T17:35:00",
+            "plausible": true
+          },
+          {
+            "row": 76,
+            "time": "2025-05-10T17:43:30",
+            "plausible": true
+          },
+          {
+            "row": 69,
+            "time": "2025-05-10T17:52:00",
+            "plausible": true
+          },
+          {
+            "row": 13,
+            "time": "2025-05-10T18:00:30",
+            "plausible": true
+          },
+          {
+            "row": 234,
+            "time": "2025-05-10T18:09:00",
+            "plausible": true
+          },
+          {
+            "row": 67,
+            "time": "2025-05-10T18:17:30",
+            "plausible": true
+          },
+          {
+            "row": 273,
+            "time": "2025-05-10T18:26:00",
+            "plausible": true
+          },
+          {
+            "row": 199,
+            "time": "2025-05-10T18:34:30",
+            "plausible": true
+          },
+          {
+            "row": 132,
+            "time": "2025-05-10T18:43:00",
+            "plausible": true
+          },
+          {
+            "row": 266,
+            "time": "2025-05-10T18:51:30",
+            "plausible": true
+          },
+          {
+            "row": 123,
+            "time": "2025-05-10T19:00:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.5.10-AIR-026EC345AA8CFC"
+  },
+  {
+    "id": "2025.5.10-AIR-25805D3B0D1796",
+    "before_after": {
+      "v4": "西沙群岛海域",
+      "v9": "南海"
+    },
+    "explicit_region_values": {
+      "开源军情": "西沙群岛海域",
+      "网上舆论": "南海"
+    },
+    "radar_check": [
+      {
+        "region": "南海",
+        "per_row": [
+          {
+            "row": 15,
+            "time": "2025-05-10T05:45:00",
+            "plausible": true
+          },
+          {
+            "row": 102,
+            "time": "2025-05-10T05:54:26",
+            "plausible": true
+          },
+          {
+            "row": 270,
+            "time": "2025-05-10T06:03:53",
+            "plausible": true
+          },
+          {
+            "row": 125,
+            "time": "2025-05-10T06:13:20",
+            "plausible": true
+          },
+          {
+            "row": 261,
+            "time": "2025-05-10T06:22:46",
+            "plausible": true
+          },
+          {
+            "row": 282,
+            "time": "2025-05-10T06:32:13",
+            "plausible": true
+          },
+          {
+            "row": 40,
+            "time": "2025-05-10T06:41:40",
+            "plausible": true
+          },
+          {
+            "row": 290,
+            "time": "2025-05-10T06:51:06",
+            "plausible": true
+          },
+          {
+            "row": 119,
+            "time": "2025-05-10T07:00:33",
+            "plausible": true
+          },
+          {
+            "row": 170,
+            "time": "2025-05-10T07:10:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "西沙群岛海域",
+        "per_row": [
+          {
+            "row": 15,
+            "time": "2025-05-10T05:45:00",
+            "plausible": true
+          },
+          {
+            "row": 102,
+            "time": "2025-05-10T05:54:26",
+            "plausible": true
+          },
+          {
+            "row": 270,
+            "time": "2025-05-10T06:03:53",
+            "plausible": true
+          },
+          {
+            "row": 125,
+            "time": "2025-05-10T06:13:20",
+            "plausible": true
+          },
+          {
+            "row": 261,
+            "time": "2025-05-10T06:22:46",
+            "plausible": true
+          },
+          {
+            "row": 282,
+            "time": "2025-05-10T06:32:13",
+            "plausible": true
+          },
+          {
+            "row": 40,
+            "time": "2025-05-10T06:41:40",
+            "plausible": true
+          },
+          {
+            "row": 290,
+            "time": "2025-05-10T06:51:06",
+            "plausible": true
+          },
+          {
+            "row": 119,
+            "time": "2025-05-10T07:00:33",
+            "plausible": true
+          },
+          {
+            "row": 170,
+            "time": "2025-05-10T07:10:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.5.10-AIR-25805D3B0D1796"
+  },
+  {
+    "id": "2025.5.10-AIR-3B564DE1F3DD6D",
+    "before_after": {
+      "v4": "海南岛东南海域",
+      "v9": "南海"
+    },
+    "explicit_region_values": {
+      "开源军情": "海南岛东南海域",
+      "网上舆论": "南海"
+    },
+    "radar_check": [
+      {
+        "region": "南海",
+        "per_row": [
+          {
+            "row": 52,
+            "time": "2025-05-10T20:09:00",
+            "plausible": true
+          },
+          {
+            "row": 215,
+            "time": "2025-05-10T20:25:06",
+            "plausible": true
+          },
+          {
+            "row": 3,
+            "time": "2025-05-10T20:41:13",
+            "plausible": true
+          },
+          {
+            "row": 71,
+            "time": "2025-05-10T20:57:20",
+            "plausible": true
+          },
+          {
+            "row": 37,
+            "time": "2025-05-10T21:13:26",
+            "plausible": true
+          },
+          {
+            "row": 269,
+            "time": "2025-05-10T21:29:33",
+            "plausible": true
+          },
+          {
+            "row": 228,
+            "time": "2025-05-10T21:45:40",
+            "plausible": true
+          },
+          {
+            "row": 68,
+            "time": "2025-05-10T22:01:46",
+            "plausible": true
+          },
+          {
+            "row": 167,
+            "time": "2025-05-10T22:17:53",
+            "plausible": true
+          },
+          {
+            "row": 207,
+            "time": "2025-05-10T22:34:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "海南岛东南海域",
+        "per_row": [
+          {
+            "row": 52,
+            "time": "2025-05-10T20:09:00",
+            "plausible": true
+          },
+          {
+            "row": 215,
+            "time": "2025-05-10T20:25:06",
+            "plausible": true
+          },
+          {
+            "row": 3,
+            "time": "2025-05-10T20:41:13",
+            "plausible": true
+          },
+          {
+            "row": 71,
+            "time": "2025-05-10T20:57:20",
+            "plausible": true
+          },
+          {
+            "row": 37,
+            "time": "2025-05-10T21:13:26",
+            "plausible": true
+          },
+          {
+            "row": 269,
+            "time": "2025-05-10T21:29:33",
+            "plausible": true
+          },
+          {
+            "row": 228,
+            "time": "2025-05-10T21:45:40",
+            "plausible": true
+          },
+          {
+            "row": 68,
+            "time": "2025-05-10T22:01:46",
+            "plausible": true
+          },
+          {
+            "row": 167,
+            "time": "2025-05-10T22:17:53",
+            "plausible": true
+          },
+          {
+            "row": 207,
+            "time": "2025-05-10T22:34:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.5.10-AIR-3B564DE1F3DD6D"
+  },
+  {
+    "id": "2025.5.10-AIR-94408DEB623424",
+    "before_after": {
+      "v4": "苏岩礁附近海域",
+      "v9": "东海"
+    },
+    "explicit_region_values": {
+      "开源军情": "苏岩礁附近海域",
+      "网上舆论": "东海"
+    },
+    "radar_check": [
+      {
+        "region": "东海",
+        "per_row": [
+          {
+            "row": 169,
+            "time": "2025-05-10T08:41:00",
+            "plausible": true
+          },
+          {
+            "row": 175,
+            "time": "2025-05-10T08:50:26",
+            "plausible": true
+          },
+          {
+            "row": 181,
+            "time": "2025-05-10T08:59:53",
+            "plausible": true
+          },
+          {
+            "row": 229,
+            "time": "2025-05-10T09:09:20",
+            "plausible": true
+          },
+          {
+            "row": 61,
+            "time": "2025-05-10T09:18:46",
+            "plausible": true
+          },
+          {
+            "row": 59,
+            "time": "2025-05-10T09:28:13",
+            "plausible": true
+          },
+          {
+            "row": 50,
+            "time": "2025-05-10T09:37:40",
+            "plausible": true
+          },
+          {
+            "row": 124,
+            "time": "2025-05-10T09:47:06",
+            "plausible": true
+          },
+          {
+            "row": 142,
+            "time": "2025-05-10T09:56:33",
+            "plausible": true
+          },
+          {
+            "row": 225,
+            "time": "2025-05-10T10:06:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "苏岩礁附近海域",
+        "per_row": [
+          {
+            "row": 169,
+            "time": "2025-05-10T08:41:00",
+            "plausible": true
+          },
+          {
+            "row": 175,
+            "time": "2025-05-10T08:50:26",
+            "plausible": true
+          },
+          {
+            "row": 181,
+            "time": "2025-05-10T08:59:53",
+            "plausible": true
+          },
+          {
+            "row": 229,
+            "time": "2025-05-10T09:09:20",
+            "plausible": true
+          },
+          {
+            "row": 61,
+            "time": "2025-05-10T09:18:46",
+            "plausible": true
+          },
+          {
+            "row": 59,
+            "time": "2025-05-10T09:28:13",
+            "plausible": true
+          },
+          {
+            "row": 50,
+            "time": "2025-05-10T09:37:40",
+            "plausible": true
+          },
+          {
+            "row": 124,
+            "time": "2025-05-10T09:47:06",
+            "plausible": true
+          },
+          {
+            "row": 142,
+            "time": "2025-05-10T09:56:33",
+            "plausible": true
+          },
+          {
+            "row": 225,
+            "time": "2025-05-10T10:06:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.5.10-AIR-94408DEB623424"
+  },
+  {
+    "id": "2025.5.10-AIR-9740CBEDE14968",
+    "before_after": {
+      "v4": "黄海中部",
+      "v9": "黄海"
+    },
+    "explicit_region_values": {
+      "开源军情": "黄海中部",
+      "网上舆论": "黄海"
+    },
+    "radar_check": [
+      {
+        "region": "黄海",
+        "per_row": [
+          {
+            "row": 130,
+            "time": "2025-05-10T02:49:00",
+            "plausible": true
+          },
+          {
+            "row": 116,
+            "time": "2025-05-10T02:57:30",
+            "plausible": true
+          },
+          {
+            "row": 274,
+            "time": "2025-05-10T03:06:00",
+            "plausible": true
+          },
+          {
+            "row": 201,
+            "time": "2025-05-10T03:14:30",
+            "plausible": true
+          },
+          {
+            "row": 54,
+            "time": "2025-05-10T03:23:00",
+            "plausible": true
+          },
+          {
+            "row": 65,
+            "time": "2025-05-10T03:31:30",
+            "plausible": true
+          },
+          {
+            "row": 271,
+            "time": "2025-05-10T03:40:00",
+            "plausible": true
+          },
+          {
+            "row": 220,
+            "time": "2025-05-10T03:48:30",
+            "plausible": true
+          },
+          {
+            "row": 217,
+            "time": "2025-05-10T03:57:00",
+            "plausible": true
+          },
+          {
+            "row": 85,
+            "time": "2025-05-10T04:05:30",
+            "plausible": true
+          },
+          {
+            "row": 84,
+            "time": "2025-05-10T04:14:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "黄海中部",
+        "per_row": [
+          {
+            "row": 130,
+            "time": "2025-05-10T02:49:00",
+            "plausible": true
+          },
+          {
+            "row": 116,
+            "time": "2025-05-10T02:57:30",
+            "plausible": true
+          },
+          {
+            "row": 274,
+            "time": "2025-05-10T03:06:00",
+            "plausible": true
+          },
+          {
+            "row": 201,
+            "time": "2025-05-10T03:14:30",
+            "plausible": true
+          },
+          {
+            "row": 54,
+            "time": "2025-05-10T03:23:00",
+            "plausible": true
+          },
+          {
+            "row": 65,
+            "time": "2025-05-10T03:31:30",
+            "plausible": true
+          },
+          {
+            "row": 271,
+            "time": "2025-05-10T03:40:00",
+            "plausible": true
+          },
+          {
+            "row": 220,
+            "time": "2025-05-10T03:48:30",
+            "plausible": true
+          },
+          {
+            "row": 217,
+            "time": "2025-05-10T03:57:00",
+            "plausible": true
+          },
+          {
+            "row": 85,
+            "time": "2025-05-10T04:05:30",
+            "plausible": true
+          },
+          {
+            "row": 84,
+            "time": "2025-05-10T04:14:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.5.10-AIR-9740CBEDE14968"
+  },
+  {
+    "id": "2025.5.10-AIR-9AF0FB7969EFE7",
+    "before_after": {
+      "v4": "南黄海",
+      "v9": "黄海"
+    },
+    "explicit_region_values": {
+      "开源军情": "南黄海",
+      "网上舆论": "黄海"
+    },
+    "radar_check": [
+      {
+        "region": "南黄海",
+        "per_row": [
+          {
+            "row": 147,
+            "time": "2025-05-10T20:31:00",
+            "plausible": true
+          },
+          {
+            "row": 60,
+            "time": "2025-05-10T20:45:30",
+            "plausible": true
+          },
+          {
+            "row": 198,
+            "time": "2025-05-10T21:00:00",
+            "plausible": true
+          },
+          {
+            "row": 28,
+            "time": "2025-05-10T21:14:30",
+            "plausible": true
+          },
+          {
+            "row": 281,
+            "time": "2025-05-10T21:29:00",
+            "plausible": true
+          },
+          {
+            "row": 278,
+            "time": "2025-05-10T21:43:30",
+            "plausible": true
+          },
+          {
+            "row": 55,
+            "time": "2025-05-10T21:58:00",
+            "plausible": true
+          },
+          {
+            "row": 118,
+            "time": "2025-05-10T22:12:30",
+            "plausible": true
+          },
+          {
+            "row": 206,
+            "time": "2025-05-10T22:27:00",
+            "plausible": true
+          },
+          {
+            "row": 174,
+            "time": "2025-05-10T22:41:30",
+            "plausible": true
+          },
+          {
+            "row": 180,
+            "time": "2025-05-10T22:56:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "黄海",
+        "per_row": [
+          {
+            "row": 147,
+            "time": "2025-05-10T20:31:00",
+            "plausible": true
+          },
+          {
+            "row": 60,
+            "time": "2025-05-10T20:45:30",
+            "plausible": true
+          },
+          {
+            "row": 198,
+            "time": "2025-05-10T21:00:00",
+            "plausible": true
+          },
+          {
+            "row": 28,
+            "time": "2025-05-10T21:14:30",
+            "plausible": true
+          },
+          {
+            "row": 281,
+            "time": "2025-05-10T21:29:00",
+            "plausible": true
+          },
+          {
+            "row": 278,
+            "time": "2025-05-10T21:43:30",
+            "plausible": true
+          },
+          {
+            "row": 55,
+            "time": "2025-05-10T21:58:00",
+            "plausible": true
+          },
+          {
+            "row": 118,
+            "time": "2025-05-10T22:12:30",
+            "plausible": true
+          },
+          {
+            "row": 206,
+            "time": "2025-05-10T22:27:00",
+            "plausible": true
+          },
+          {
+            "row": 174,
+            "time": "2025-05-10T22:41:30",
+            "plausible": true
+          },
+          {
+            "row": 180,
+            "time": "2025-05-10T22:56:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.5.10-AIR-9AF0FB7969EFE7"
+  },
+  {
+    "id": "2025.5.10-AIR-A19EDC5BFA2976",
+    "before_after": {
+      "v4": "钓鱼岛海域",
+      "v9": "东海"
+    },
+    "explicit_region_values": {
+      "开源军情": "钓鱼岛海域",
+      "网上舆论": "东海"
+    },
+    "radar_check": [
+      {
+        "region": "东海",
+        "per_row": [
+          {
+            "row": 114,
+            "time": "2025-05-10T14:55:00",
+            "plausible": true
+          },
+          {
+            "row": 204,
+            "time": "2025-05-10T15:04:26",
+            "plausible": true
+          },
+          {
+            "row": 245,
+            "time": "2025-05-10T15:13:53",
+            "plausible": true
+          },
+          {
+            "row": 238,
+            "time": "2025-05-10T15:23:20",
+            "plausible": true
+          },
+          {
+            "row": 43,
+            "time": "2025-05-10T15:32:46",
+            "plausible": true
+          },
+          {
+            "row": 239,
+            "time": "2025-05-10T15:42:13",
+            "plausible": true
+          },
+          {
+            "row": 49,
+            "time": "2025-05-10T15:51:40",
+            "plausible": true
+          },
+          {
+            "row": 12,
+            "time": "2025-05-10T16:01:06",
+            "plausible": true
+          },
+          {
+            "row": 36,
+            "time": "2025-05-10T16:10:33",
+            "plausible": true
+          },
+          {
+            "row": 200,
+            "time": "2025-05-10T16:20:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "钓鱼岛海域",
+        "per_row": [
+          {
+            "row": 114,
+            "time": "2025-05-10T14:55:00",
+            "plausible": true
+          },
+          {
+            "row": 204,
+            "time": "2025-05-10T15:04:26",
+            "plausible": true
+          },
+          {
+            "row": 245,
+            "time": "2025-05-10T15:13:53",
+            "plausible": true
+          },
+          {
+            "row": 238,
+            "time": "2025-05-10T15:23:20",
+            "plausible": true
+          },
+          {
+            "row": 43,
+            "time": "2025-05-10T15:32:46",
+            "plausible": true
+          },
+          {
+            "row": 239,
+            "time": "2025-05-10T15:42:13",
+            "plausible": true
+          },
+          {
+            "row": 49,
+            "time": "2025-05-10T15:51:40",
+            "plausible": true
+          },
+          {
+            "row": 12,
+            "time": "2025-05-10T16:01:06",
+            "plausible": true
+          },
+          {
+            "row": 36,
+            "time": "2025-05-10T16:10:33",
+            "plausible": true
+          },
+          {
+            "row": 200,
+            "time": "2025-05-10T16:20:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.5.10-AIR-A19EDC5BFA2976"
+  },
+  {
+    "id": "2025.5.10-AIR-AABED5A2690625",
+    "before_after": {
+      "v4": "北黄海",
+      "v9": "黄海"
+    },
+    "explicit_region_values": {
+      "开源军情": "北黄海",
+      "网上舆论": "黄海"
+    },
+    "radar_check": [
+      {
+        "region": "北黄海",
+        "per_row": [
+          {
+            "row": 72,
+            "time": "2025-05-10T14:17:00",
+            "plausible": true
+          },
+          {
+            "row": 31,
+            "time": "2025-05-10T14:31:30",
+            "plausible": true
+          },
+          {
+            "row": 242,
+            "time": "2025-05-10T14:46:00",
+            "plausible": true
+          },
+          {
+            "row": 196,
+            "time": "2025-05-10T15:00:30",
+            "plausible": true
+          },
+          {
+            "row": 4,
+            "time": "2025-05-10T15:15:00",
+            "plausible": true
+          },
+          {
+            "row": 98,
+            "time": "2025-05-10T15:29:30",
+            "plausible": true
+          },
+          {
+            "row": 137,
+            "time": "2025-05-10T15:44:00",
+            "plausible": true
+          },
+          {
+            "row": 272,
+            "time": "2025-05-10T15:58:30",
+            "plausible": true
+          },
+          {
+            "row": 95,
+            "time": "2025-05-10T16:13:00",
+            "plausible": true
+          },
+          {
+            "row": 146,
+            "time": "2025-05-10T16:27:30",
+            "plausible": true
+          },
+          {
+            "row": 8,
+            "time": "2025-05-10T16:42:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "黄海",
+        "per_row": [
+          {
+            "row": 72,
+            "time": "2025-05-10T14:17:00",
+            "plausible": true
+          },
+          {
+            "row": 31,
+            "time": "2025-05-10T14:31:30",
+            "plausible": true
+          },
+          {
+            "row": 242,
+            "time": "2025-05-10T14:46:00",
+            "plausible": true
+          },
+          {
+            "row": 196,
+            "time": "2025-05-10T15:00:30",
+            "plausible": true
+          },
+          {
+            "row": 4,
+            "time": "2025-05-10T15:15:00",
+            "plausible": true
+          },
+          {
+            "row": 98,
+            "time": "2025-05-10T15:29:30",
+            "plausible": true
+          },
+          {
+            "row": 137,
+            "time": "2025-05-10T15:44:00",
+            "plausible": true
+          },
+          {
+            "row": 272,
+            "time": "2025-05-10T15:58:30",
+            "plausible": true
+          },
+          {
+            "row": 95,
+            "time": "2025-05-10T16:13:00",
+            "plausible": true
+          },
+          {
+            "row": 146,
+            "time": "2025-05-10T16:27:30",
+            "plausible": true
+          },
+          {
+            "row": 8,
+            "time": "2025-05-10T16:42:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.5.10-AIR-AABED5A2690625"
+  },
+  {
+    "id": "2025.5.10-AIR-D4015A33B5ADEF",
+    "before_after": {
+      "v4": "仁爱礁附近海域",
+      "v9": "南海"
+    },
+    "explicit_region_values": {
+      "开源军情": "仁爱礁附近海域",
+      "网上舆论": "南海"
+    },
+    "radar_check": [
+      {
+        "region": "仁爱礁附近海域",
+        "per_row": [
+          {
+            "row": 152,
+            "time": "2025-05-10T11:59:00",
+            "plausible": true
+          },
+          {
+            "row": 138,
+            "time": "2025-05-10T12:08:26",
+            "plausible": true
+          },
+          {
+            "row": 25,
+            "time": "2025-05-10T12:17:53",
+            "plausible": true
+          },
+          {
+            "row": 263,
+            "time": "2025-05-10T12:27:20",
+            "plausible": true
+          },
+          {
+            "row": 216,
+            "time": "2025-05-10T12:36:46",
+            "plausible": true
+          },
+          {
+            "row": 83,
+            "time": "2025-05-10T12:46:13",
+            "plausible": true
+          },
+          {
+            "row": 73,
+            "time": "2025-05-10T12:55:40",
+            "plausible": true
+          },
+          {
+            "row": 88,
+            "time": "2025-05-10T13:05:06",
+            "plausible": true
+          },
+          {
+            "row": 182,
+            "time": "2025-05-10T13:14:33",
+            "plausible": true
+          },
+          {
+            "row": 288,
+            "time": "2025-05-10T13:24:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "南海",
+        "per_row": [
+          {
+            "row": 152,
+            "time": "2025-05-10T11:59:00",
+            "plausible": true
+          },
+          {
+            "row": 138,
+            "time": "2025-05-10T12:08:26",
+            "plausible": true
+          },
+          {
+            "row": 25,
+            "time": "2025-05-10T12:17:53",
+            "plausible": true
+          },
+          {
+            "row": 263,
+            "time": "2025-05-10T12:27:20",
+            "plausible": true
+          },
+          {
+            "row": 216,
+            "time": "2025-05-10T12:36:46",
+            "plausible": true
+          },
+          {
+            "row": 83,
+            "time": "2025-05-10T12:46:13",
+            "plausible": true
+          },
+          {
+            "row": 73,
+            "time": "2025-05-10T12:55:40",
+            "plausible": true
+          },
+          {
+            "row": 88,
+            "time": "2025-05-10T13:05:06",
+            "plausible": true
+          },
+          {
+            "row": 182,
+            "time": "2025-05-10T13:14:33",
+            "plausible": true
+          },
+          {
+            "row": 288,
+            "time": "2025-05-10T13:24:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.5.10-AIR-D4015A33B5ADEF"
+  },
+  {
+    "id": "2025.5.10-AIR-F0865298F17A1F",
+    "before_after": {
+      "v4": "仁爱礁附近海域",
+      "v9": "南海"
+    },
+    "explicit_region_values": {
+      "开源军情": "仁爱礁附近海域",
+      "网上舆论": "南海"
+    },
+    "radar_check": [
+      {
+        "region": "仁爱礁附近海域",
+        "per_row": [
+          {
+            "row": 252,
+            "time": "2025-05-10T17:13:00",
+            "plausible": true
+          },
+          {
+            "row": 117,
+            "time": "2025-05-10T17:29:06",
+            "plausible": true
+          },
+          {
+            "row": 62,
+            "time": "2025-05-10T17:45:13",
+            "plausible": true
+          },
+          {
+            "row": 165,
+            "time": "2025-05-10T18:01:20",
+            "plausible": true
+          },
+          {
+            "row": 283,
+            "time": "2025-05-10T18:17:26",
+            "plausible": true
+          },
+          {
+            "row": 89,
+            "time": "2025-05-10T18:33:33",
+            "plausible": true
+          },
+          {
+            "row": 94,
+            "time": "2025-05-10T18:49:40",
+            "plausible": true
+          },
+          {
+            "row": 192,
+            "time": "2025-05-10T19:05:46",
+            "plausible": true
+          },
+          {
+            "row": 160,
+            "time": "2025-05-10T19:21:53",
+            "plausible": true
+          },
+          {
+            "row": 188,
+            "time": "2025-05-10T19:38:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "南海",
+        "per_row": [
+          {
+            "row": 252,
+            "time": "2025-05-10T17:13:00",
+            "plausible": true
+          },
+          {
+            "row": 117,
+            "time": "2025-05-10T17:29:06",
+            "plausible": true
+          },
+          {
+            "row": 62,
+            "time": "2025-05-10T17:45:13",
+            "plausible": true
+          },
+          {
+            "row": 165,
+            "time": "2025-05-10T18:01:20",
+            "plausible": true
+          },
+          {
+            "row": 283,
+            "time": "2025-05-10T18:17:26",
+            "plausible": true
+          },
+          {
+            "row": 89,
+            "time": "2025-05-10T18:33:33",
+            "plausible": true
+          },
+          {
+            "row": 94,
+            "time": "2025-05-10T18:49:40",
+            "plausible": true
+          },
+          {
+            "row": 192,
+            "time": "2025-05-10T19:05:46",
+            "plausible": true
+          },
+          {
+            "row": 160,
+            "time": "2025-05-10T19:21:53",
+            "plausible": true
+          },
+          {
+            "row": 188,
+            "time": "2025-05-10T19:38:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.5.10-AIR-F0865298F17A1F"
+  },
+  {
+    "id": "2025.5.18-AIR-21D56C7A7D64EE",
+    "before_after": {
+      "v4": "纳土纳群岛北部海域",
+      "v9": "南海"
+    },
+    "explicit_region_values": {
+      "开源军情": "纳土纳群岛北部海域",
+      "网上舆论": "南海"
+    },
+    "radar_check": [
+      {
+        "region": "南海",
+        "per_row": [
+          {
+            "row": 3,
+            "time": "2025-05-18T02:49:00",
+            "plausible": true
+          },
+          {
+            "row": 28,
+            "time": "2025-05-18T02:56:05",
+            "plausible": true
+          },
+          {
+            "row": 187,
+            "time": "2025-05-18T03:03:10",
+            "plausible": true
+          },
+          {
+            "row": 136,
+            "time": "2025-05-18T03:10:15",
+            "plausible": true
+          },
+          {
+            "row": 285,
+            "time": "2025-05-18T03:17:20",
+            "plausible": true
+          },
+          {
+            "row": 208,
+            "time": "2025-05-18T03:24:25",
+            "plausible": true
+          },
+          {
+            "row": 252,
+            "time": "2025-05-18T03:31:30",
+            "plausible": true
+          },
+          {
+            "row": 65,
+            "time": "2025-05-18T03:38:35",
+            "plausible": true
+          },
+          {
+            "row": 170,
+            "time": "2025-05-18T03:45:40",
+            "plausible": true
+          },
+          {
+            "row": 276,
+            "time": "2025-05-18T03:52:45",
+            "plausible": true
+          },
+          {
+            "row": 97,
+            "time": "2025-05-18T03:59:50",
+            "plausible": true
+          },
+          {
+            "row": 72,
+            "time": "2025-05-18T04:06:55",
+            "plausible": true
+          },
+          {
+            "row": 176,
+            "time": "2025-05-18T04:14:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "纳土纳群岛北部海域",
+        "per_row": [
+          {
+            "row": 3,
+            "time": "2025-05-18T02:49:00",
+            "plausible": true
+          },
+          {
+            "row": 28,
+            "time": "2025-05-18T02:56:05",
+            "plausible": true
+          },
+          {
+            "row": 187,
+            "time": "2025-05-18T03:03:10",
+            "plausible": true
+          },
+          {
+            "row": 136,
+            "time": "2025-05-18T03:10:15",
+            "plausible": true
+          },
+          {
+            "row": 285,
+            "time": "2025-05-18T03:17:20",
+            "plausible": true
+          },
+          {
+            "row": 208,
+            "time": "2025-05-18T03:24:25",
+            "plausible": true
+          },
+          {
+            "row": 252,
+            "time": "2025-05-18T03:31:30",
+            "plausible": true
+          },
+          {
+            "row": 65,
+            "time": "2025-05-18T03:38:35",
+            "plausible": true
+          },
+          {
+            "row": 170,
+            "time": "2025-05-18T03:45:40",
+            "plausible": true
+          },
+          {
+            "row": 276,
+            "time": "2025-05-18T03:52:45",
+            "plausible": true
+          },
+          {
+            "row": 97,
+            "time": "2025-05-18T03:59:50",
+            "plausible": true
+          },
+          {
+            "row": 72,
+            "time": "2025-05-18T04:06:55",
+            "plausible": true
+          },
+          {
+            "row": 176,
+            "time": "2025-05-18T04:14:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.5.18-AIR-21D56C7A7D64EE"
+  },
+  {
+    "id": "2025.5.18-AIR-324E901611E0D4",
+    "before_after": {
+      "v4": "青岛外海",
+      "v9": "黄海"
+    },
+    "explicit_region_values": {
+      "开源军情": "青岛外海",
+      "网上舆论": "黄海"
+    },
+    "radar_check": [
+      {
+        "region": "青岛外海",
+        "per_row": [
+          {
+            "row": 217,
+            "time": "2025-05-18T11:21:00",
+            "plausible": true
+          },
+          {
+            "row": 77,
+            "time": "2025-05-18T11:33:05",
+            "plausible": true
+          },
+          {
+            "row": 60,
+            "time": "2025-05-18T11:45:10",
+            "plausible": true
+          },
+          {
+            "row": 206,
+            "time": "2025-05-18T11:57:15",
+            "plausible": true
+          },
+          {
+            "row": 300,
+            "time": "2025-05-18T12:09:20",
+            "plausible": true
+          },
+          {
+            "row": 111,
+            "time": "2025-05-18T12:21:25",
+            "plausible": true
+          },
+          {
+            "row": 138,
+            "time": "2025-05-18T12:33:30",
+            "plausible": true
+          },
+          {
+            "row": 6,
+            "time": "2025-05-18T12:45:35",
+            "plausible": true
+          },
+          {
+            "row": 243,
+            "time": "2025-05-18T12:57:40",
+            "plausible": true
+          },
+          {
+            "row": 129,
+            "time": "2025-05-18T13:09:45",
+            "plausible": true
+          },
+          {
+            "row": 120,
+            "time": "2025-05-18T13:21:50",
+            "plausible": true
+          },
+          {
+            "row": 212,
+            "time": "2025-05-18T13:33:55",
+            "plausible": true
+          },
+          {
+            "row": 7,
+            "time": "2025-05-18T13:46:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "黄海",
+        "per_row": [
+          {
+            "row": 217,
+            "time": "2025-05-18T11:21:00",
+            "plausible": true
+          },
+          {
+            "row": 77,
+            "time": "2025-05-18T11:33:05",
+            "plausible": true
+          },
+          {
+            "row": 60,
+            "time": "2025-05-18T11:45:10",
+            "plausible": true
+          },
+          {
+            "row": 206,
+            "time": "2025-05-18T11:57:15",
+            "plausible": true
+          },
+          {
+            "row": 300,
+            "time": "2025-05-18T12:09:20",
+            "plausible": true
+          },
+          {
+            "row": 111,
+            "time": "2025-05-18T12:21:25",
+            "plausible": true
+          },
+          {
+            "row": 138,
+            "time": "2025-05-18T12:33:30",
+            "plausible": true
+          },
+          {
+            "row": 6,
+            "time": "2025-05-18T12:45:35",
+            "plausible": true
+          },
+          {
+            "row": 243,
+            "time": "2025-05-18T12:57:40",
+            "plausible": true
+          },
+          {
+            "row": 129,
+            "time": "2025-05-18T13:09:45",
+            "plausible": true
+          },
+          {
+            "row": 120,
+            "time": "2025-05-18T13:21:50",
+            "plausible": true
+          },
+          {
+            "row": 212,
+            "time": "2025-05-18T13:33:55",
+            "plausible": true
+          },
+          {
+            "row": 7,
+            "time": "2025-05-18T13:46:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.5.18-AIR-324E901611E0D4"
+  },
+  {
+    "id": "2025.5.18-AIR-3DE81ECF33F3CD",
+    "before_after": {
+      "v4": "温州外海",
+      "v9": "东海"
+    },
+    "explicit_region_values": {
+      "开源军情": "温州外海",
+      "网上舆论": "东海"
+    },
+    "radar_check": [
+      {
+        "region": "东海",
+        "per_row": [
+          {
+            "row": 160,
+            "time": "2025-05-18T08:41:00",
+            "plausible": true
+          },
+          {
+            "row": 66,
+            "time": "2025-05-18T08:48:43",
+            "plausible": true
+          },
+          {
+            "row": 152,
+            "time": "2025-05-18T08:56:27",
+            "plausible": true
+          },
+          {
+            "row": 11,
+            "time": "2025-05-18T09:04:10",
+            "plausible": true
+          },
+          {
+            "row": 8,
+            "time": "2025-05-18T09:11:54",
+            "plausible": true
+          },
+          {
+            "row": 131,
+            "time": "2025-05-18T09:19:38",
+            "plausible": true
+          },
+          {
+            "row": 250,
+            "time": "2025-05-18T09:27:21",
+            "plausible": true
+          },
+          {
+            "row": 225,
+            "time": "2025-05-18T09:35:05",
+            "plausible": true
+          },
+          {
+            "row": 32,
+            "time": "2025-05-18T09:42:49",
+            "plausible": true
+          },
+          {
+            "row": 253,
+            "time": "2025-05-18T09:50:32",
+            "plausible": true
+          },
+          {
+            "row": 4,
+            "time": "2025-05-18T09:58:16",
+            "plausible": true
+          },
+          {
+            "row": 19,
+            "time": "2025-05-18T10:06:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "温州外海",
+        "per_row": [
+          {
+            "row": 160,
+            "time": "2025-05-18T08:41:00",
+            "plausible": true
+          },
+          {
+            "row": 66,
+            "time": "2025-05-18T08:48:43",
+            "plausible": true
+          },
+          {
+            "row": 152,
+            "time": "2025-05-18T08:56:27",
+            "plausible": true
+          },
+          {
+            "row": 11,
+            "time": "2025-05-18T09:04:10",
+            "plausible": true
+          },
+          {
+            "row": 8,
+            "time": "2025-05-18T09:11:54",
+            "plausible": true
+          },
+          {
+            "row": 131,
+            "time": "2025-05-18T09:19:38",
+            "plausible": true
+          },
+          {
+            "row": 250,
+            "time": "2025-05-18T09:27:21",
+            "plausible": true
+          },
+          {
+            "row": 225,
+            "time": "2025-05-18T09:35:05",
+            "plausible": true
+          },
+          {
+            "row": 32,
+            "time": "2025-05-18T09:42:49",
+            "plausible": true
+          },
+          {
+            "row": 253,
+            "time": "2025-05-18T09:50:32",
+            "plausible": true
+          },
+          {
+            "row": 4,
+            "time": "2025-05-18T09:58:16",
+            "plausible": true
+          },
+          {
+            "row": 19,
+            "time": "2025-05-18T10:06:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.5.18-AIR-3DE81ECF33F3CD"
+  },
+  {
+    "id": "2025.5.18-AIR-B452BCCC01C39D",
+    "before_after": {
+      "v4": "万安滩海域",
+      "v9": "南海"
+    },
+    "explicit_region_values": {
+      "开源军情": "万安滩海域",
+      "网上舆论": "南海"
+    },
+    "radar_check": [
+      {
+        "region": "万安滩海域",
+        "per_row": [
+          {
+            "row": 192,
+            "time": "2025-05-18T14:17:00",
+            "plausible": true
+          },
+          {
+            "row": 101,
+            "time": "2025-05-18T14:29:05",
+            "plausible": true
+          },
+          {
+            "row": 10,
+            "time": "2025-05-18T14:41:10",
+            "plausible": true
+          },
+          {
+            "row": 292,
+            "time": "2025-05-18T14:53:15",
+            "plausible": true
+          },
+          {
+            "row": 235,
+            "time": "2025-05-18T15:05:20",
+            "plausible": true
+          },
+          {
+            "row": 258,
+            "time": "2025-05-18T15:17:25",
+            "plausible": true
+          },
+          {
+            "row": 23,
+            "time": "2025-05-18T15:29:30",
+            "plausible": true
+          },
+          {
+            "row": 256,
+            "time": "2025-05-18T15:41:35",
+            "plausible": true
+          },
+          {
+            "row": 190,
+            "time": "2025-05-18T15:53:40",
+            "plausible": true
+          },
+          {
+            "row": 81,
+            "time": "2025-05-18T16:05:45",
+            "plausible": true
+          },
+          {
+            "row": 124,
+            "time": "2025-05-18T16:17:50",
+            "plausible": true
+          },
+          {
+            "row": 61,
+            "time": "2025-05-18T16:29:55",
+            "plausible": true
+          },
+          {
+            "row": 194,
+            "time": "2025-05-18T16:42:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "南海",
+        "per_row": [
+          {
+            "row": 192,
+            "time": "2025-05-18T14:17:00",
+            "plausible": true
+          },
+          {
+            "row": 101,
+            "time": "2025-05-18T14:29:05",
+            "plausible": true
+          },
+          {
+            "row": 10,
+            "time": "2025-05-18T14:41:10",
+            "plausible": true
+          },
+          {
+            "row": 292,
+            "time": "2025-05-18T14:53:15",
+            "plausible": true
+          },
+          {
+            "row": 235,
+            "time": "2025-05-18T15:05:20",
+            "plausible": true
+          },
+          {
+            "row": 258,
+            "time": "2025-05-18T15:17:25",
+            "plausible": true
+          },
+          {
+            "row": 23,
+            "time": "2025-05-18T15:29:30",
+            "plausible": true
+          },
+          {
+            "row": 256,
+            "time": "2025-05-18T15:41:35",
+            "plausible": true
+          },
+          {
+            "row": 190,
+            "time": "2025-05-18T15:53:40",
+            "plausible": true
+          },
+          {
+            "row": 81,
+            "time": "2025-05-18T16:05:45",
+            "plausible": true
+          },
+          {
+            "row": 124,
+            "time": "2025-05-18T16:17:50",
+            "plausible": true
+          },
+          {
+            "row": 61,
+            "time": "2025-05-18T16:29:55",
+            "plausible": true
+          },
+          {
+            "row": 194,
+            "time": "2025-05-18T16:42:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.5.18-AIR-B452BCCC01C39D"
+  },
+  {
+    "id": "2025.5.18-AIR-D7C62364E3C9F0",
+    "before_after": {
+      "v4": "东海北部",
+      "v9": "东海"
+    },
+    "explicit_region_values": {
+      "开源军情": "东海北部",
+      "网上舆论": "东海"
+    },
+    "radar_check": [
+      {
+        "region": "东海",
+        "per_row": [
+          {
+            "row": 159,
+            "time": "2025-05-18T05:23:00",
+            "plausible": true
+          },
+          {
+            "row": 37,
+            "time": "2025-05-18T05:36:10",
+            "plausible": true
+          },
+          {
+            "row": 29,
+            "time": "2025-05-18T05:49:21",
+            "plausible": true
+          },
+          {
+            "row": 183,
+            "time": "2025-05-18T06:02:32",
+            "plausible": true
+          },
+          {
+            "row": 229,
+            "time": "2025-05-18T06:15:43",
+            "plausible": true
+          },
+          {
+            "row": 207,
+            "time": "2025-05-18T06:28:54",
+            "plausible": true
+          },
+          {
+            "row": 299,
+            "time": "2025-05-18T06:42:05",
+            "plausible": true
+          },
+          {
+            "row": 80,
+            "time": "2025-05-18T06:55:16",
+            "plausible": true
+          },
+          {
+            "row": 228,
+            "time": "2025-05-18T07:08:27",
+            "plausible": true
+          },
+          {
+            "row": 67,
+            "time": "2025-05-18T07:21:38",
+            "plausible": true
+          },
+          {
+            "row": 119,
+            "time": "2025-05-18T07:34:49",
+            "plausible": true
+          },
+          {
+            "row": 164,
+            "time": "2025-05-18T07:48:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "东海北部",
+        "per_row": [
+          {
+            "row": 159,
+            "time": "2025-05-18T05:23:00",
+            "plausible": true
+          },
+          {
+            "row": 37,
+            "time": "2025-05-18T05:36:10",
+            "plausible": true
+          },
+          {
+            "row": 29,
+            "time": "2025-05-18T05:49:21",
+            "plausible": true
+          },
+          {
+            "row": 183,
+            "time": "2025-05-18T06:02:32",
+            "plausible": true
+          },
+          {
+            "row": 229,
+            "time": "2025-05-18T06:15:43",
+            "plausible": true
+          },
+          {
+            "row": 207,
+            "time": "2025-05-18T06:28:54",
+            "plausible": true
+          },
+          {
+            "row": 299,
+            "time": "2025-05-18T06:42:05",
+            "plausible": true
+          },
+          {
+            "row": 80,
+            "time": "2025-05-18T06:55:16",
+            "plausible": true
+          },
+          {
+            "row": 228,
+            "time": "2025-05-18T07:08:27",
+            "plausible": true
+          },
+          {
+            "row": 67,
+            "time": "2025-05-18T07:21:38",
+            "plausible": true
+          },
+          {
+            "row": 119,
+            "time": "2025-05-18T07:34:49",
+            "plausible": true
+          },
+          {
+            "row": 164,
+            "time": "2025-05-18T07:48:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.5.18-AIR-D7C62364E3C9F0"
+  },
+  {
+    "id": "2025.5.30-AIR-0D82D6A790D88F",
+    "before_after": {
+      "v4": "北部湾",
+      "v9": "南海"
+    },
+    "explicit_region_values": {
+      "开源军情": "北部湾",
+      "网上舆论": "南海"
+    },
+    "radar_check": [
+      {
+        "region": "北部湾",
+        "per_row": [
+          {
+            "row": 262,
+            "time": "2025-05-30T17:35:00",
+            "plausible": true
+          },
+          {
+            "row": 259,
+            "time": "2025-05-30T17:43:30",
+            "plausible": true
+          },
+          {
+            "row": 165,
+            "time": "2025-05-30T17:52:00",
+            "plausible": true
+          },
+          {
+            "row": 159,
+            "time": "2025-05-30T18:00:30",
+            "plausible": true
+          },
+          {
+            "row": 82,
+            "time": "2025-05-30T18:09:00",
+            "plausible": true
+          },
+          {
+            "row": 89,
+            "time": "2025-05-30T18:17:30",
+            "plausible": true
+          },
+          {
+            "row": 145,
+            "time": "2025-05-30T18:26:00",
+            "plausible": true
+          },
+          {
+            "row": 124,
+            "time": "2025-05-30T18:34:30",
+            "plausible": true
+          },
+          {
+            "row": 219,
+            "time": "2025-05-30T18:43:00",
+            "plausible": true
+          },
+          {
+            "row": 64,
+            "time": "2025-05-30T18:51:30",
+            "plausible": true
+          },
+          {
+            "row": 153,
+            "time": "2025-05-30T19:00:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "南海",
+        "per_row": [
+          {
+            "row": 262,
+            "time": "2025-05-30T17:35:00",
+            "plausible": true
+          },
+          {
+            "row": 259,
+            "time": "2025-05-30T17:43:30",
+            "plausible": true
+          },
+          {
+            "row": 165,
+            "time": "2025-05-30T17:52:00",
+            "plausible": true
+          },
+          {
+            "row": 159,
+            "time": "2025-05-30T18:00:30",
+            "plausible": true
+          },
+          {
+            "row": 82,
+            "time": "2025-05-30T18:09:00",
+            "plausible": true
+          },
+          {
+            "row": 89,
+            "time": "2025-05-30T18:17:30",
+            "plausible": true
+          },
+          {
+            "row": 145,
+            "time": "2025-05-30T18:26:00",
+            "plausible": true
+          },
+          {
+            "row": 124,
+            "time": "2025-05-30T18:34:30",
+            "plausible": true
+          },
+          {
+            "row": 219,
+            "time": "2025-05-30T18:43:00",
+            "plausible": true
+          },
+          {
+            "row": 64,
+            "time": "2025-05-30T18:51:30",
+            "plausible": true
+          },
+          {
+            "row": 153,
+            "time": "2025-05-30T19:00:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.5.30-AIR-0D82D6A790D88F"
+  },
+  {
+    "id": "2025.5.30-AIR-2CED63D9B93476",
+    "before_after": {
+      "v4": "仁爱礁附近海域",
+      "v9": "南海"
+    },
+    "explicit_region_values": {
+      "开源军情": "仁爱礁附近海域",
+      "网上舆论": "南海"
+    },
+    "radar_check": [
+      {
+        "region": "仁爱礁附近海域",
+        "per_row": [
+          {
+            "row": 185,
+            "time": "2025-05-30T08:41:00",
+            "plausible": true
+          },
+          {
+            "row": 3,
+            "time": "2025-05-30T08:49:30",
+            "plausible": true
+          },
+          {
+            "row": 289,
+            "time": "2025-05-30T08:58:00",
+            "plausible": true
+          },
+          {
+            "row": 294,
+            "time": "2025-05-30T09:06:30",
+            "plausible": true
+          },
+          {
+            "row": 33,
+            "time": "2025-05-30T09:15:00",
+            "plausible": true
+          },
+          {
+            "row": 120,
+            "time": "2025-05-30T09:23:30",
+            "plausible": true
+          },
+          {
+            "row": 233,
+            "time": "2025-05-30T09:32:00",
+            "plausible": true
+          },
+          {
+            "row": 182,
+            "time": "2025-05-30T09:40:30",
+            "plausible": true
+          },
+          {
+            "row": 101,
+            "time": "2025-05-30T09:49:00",
+            "plausible": true
+          },
+          {
+            "row": 149,
+            "time": "2025-05-30T09:57:30",
+            "plausible": true
+          },
+          {
+            "row": 18,
+            "time": "2025-05-30T10:06:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "南海",
+        "per_row": [
+          {
+            "row": 185,
+            "time": "2025-05-30T08:41:00",
+            "plausible": true
+          },
+          {
+            "row": 3,
+            "time": "2025-05-30T08:49:30",
+            "plausible": true
+          },
+          {
+            "row": 289,
+            "time": "2025-05-30T08:58:00",
+            "plausible": true
+          },
+          {
+            "row": 294,
+            "time": "2025-05-30T09:06:30",
+            "plausible": true
+          },
+          {
+            "row": 33,
+            "time": "2025-05-30T09:15:00",
+            "plausible": true
+          },
+          {
+            "row": 120,
+            "time": "2025-05-30T09:23:30",
+            "plausible": true
+          },
+          {
+            "row": 233,
+            "time": "2025-05-30T09:32:00",
+            "plausible": true
+          },
+          {
+            "row": 182,
+            "time": "2025-05-30T09:40:30",
+            "plausible": true
+          },
+          {
+            "row": 101,
+            "time": "2025-05-30T09:49:00",
+            "plausible": true
+          },
+          {
+            "row": 149,
+            "time": "2025-05-30T09:57:30",
+            "plausible": true
+          },
+          {
+            "row": 18,
+            "time": "2025-05-30T10:06:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.5.30-AIR-2CED63D9B93476"
+  },
+  {
+    "id": "2025.5.30-AIR-3D14BA8654A71E",
+    "before_after": {
+      "v4": "南海中部",
+      "v9": "南海"
+    },
+    "explicit_region_values": {
+      "开源军情": "南海中部",
+      "网上舆论": "南海"
+    },
+    "radar_check": [
+      {
+        "region": "南海",
+        "per_row": [
+          {
+            "row": 23,
+            "time": "2025-05-30T14:55:00",
+            "plausible": true
+          },
+          {
+            "row": 194,
+            "time": "2025-05-30T15:03:30",
+            "plausible": true
+          },
+          {
+            "row": 222,
+            "time": "2025-05-30T15:12:00",
+            "plausible": true
+          },
+          {
+            "row": 196,
+            "time": "2025-05-30T15:20:30",
+            "plausible": true
+          },
+          {
+            "row": 250,
+            "time": "2025-05-30T15:29:00",
+            "plausible": true
+          },
+          {
+            "row": 19,
+            "time": "2025-05-30T15:37:30",
+            "plausible": true
+          },
+          {
+            "row": 30,
+            "time": "2025-05-30T15:46:00",
+            "plausible": true
+          },
+          {
+            "row": 174,
+            "time": "2025-05-30T15:54:30",
+            "plausible": true
+          },
+          {
+            "row": 6,
+            "time": "2025-05-30T16:03:00",
+            "plausible": true
+          },
+          {
+            "row": 60,
+            "time": "2025-05-30T16:11:30",
+            "plausible": true
+          },
+          {
+            "row": 13,
+            "time": "2025-05-30T16:20:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "南海中部",
+        "per_row": [
+          {
+            "row": 23,
+            "time": "2025-05-30T14:55:00",
+            "plausible": true
+          },
+          {
+            "row": 194,
+            "time": "2025-05-30T15:03:30",
+            "plausible": true
+          },
+          {
+            "row": 222,
+            "time": "2025-05-30T15:12:00",
+            "plausible": true
+          },
+          {
+            "row": 196,
+            "time": "2025-05-30T15:20:30",
+            "plausible": true
+          },
+          {
+            "row": 250,
+            "time": "2025-05-30T15:29:00",
+            "plausible": true
+          },
+          {
+            "row": 19,
+            "time": "2025-05-30T15:37:30",
+            "plausible": true
+          },
+          {
+            "row": 30,
+            "time": "2025-05-30T15:46:00",
+            "plausible": true
+          },
+          {
+            "row": 174,
+            "time": "2025-05-30T15:54:30",
+            "plausible": true
+          },
+          {
+            "row": 6,
+            "time": "2025-05-30T16:03:00",
+            "plausible": true
+          },
+          {
+            "row": 60,
+            "time": "2025-05-30T16:11:30",
+            "plausible": true
+          },
+          {
+            "row": 13,
+            "time": "2025-05-30T16:20:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.5.30-AIR-3D14BA8654A71E"
+  },
+  {
+    "id": "2025.5.30-AIR-41C020E9D4659E",
+    "before_after": {
+      "v4": "北部湾",
+      "v9": "南海"
+    },
+    "explicit_region_values": {
+      "开源军情": "北部湾",
+      "网上舆论": "南海"
+    },
+    "radar_check": [
+      {
+        "region": "北部湾",
+        "per_row": [
+          {
+            "row": 56,
+            "time": "2025-05-30T11:59:00",
+            "plausible": true
+          },
+          {
+            "row": 29,
+            "time": "2025-05-30T12:07:30",
+            "plausible": true
+          },
+          {
+            "row": 225,
+            "time": "2025-05-30T12:16:00",
+            "plausible": true
+          },
+          {
+            "row": 78,
+            "time": "2025-05-30T12:24:30",
+            "plausible": true
+          },
+          {
+            "row": 117,
+            "time": "2025-05-30T12:33:00",
+            "plausible": true
+          },
+          {
+            "row": 288,
+            "time": "2025-05-30T12:41:30",
+            "plausible": true
+          },
+          {
+            "row": 130,
+            "time": "2025-05-30T12:50:00",
+            "plausible": true
+          },
+          {
+            "row": 45,
+            "time": "2025-05-30T12:58:30",
+            "plausible": true
+          },
+          {
+            "row": 87,
+            "time": "2025-05-30T13:07:00",
+            "plausible": true
+          },
+          {
+            "row": 15,
+            "time": "2025-05-30T13:15:30",
+            "plausible": true
+          },
+          {
+            "row": 221,
+            "time": "2025-05-30T13:24:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "南海",
+        "per_row": [
+          {
+            "row": 56,
+            "time": "2025-05-30T11:59:00",
+            "plausible": true
+          },
+          {
+            "row": 29,
+            "time": "2025-05-30T12:07:30",
+            "plausible": true
+          },
+          {
+            "row": 225,
+            "time": "2025-05-30T12:16:00",
+            "plausible": true
+          },
+          {
+            "row": 78,
+            "time": "2025-05-30T12:24:30",
+            "plausible": true
+          },
+          {
+            "row": 117,
+            "time": "2025-05-30T12:33:00",
+            "plausible": true
+          },
+          {
+            "row": 288,
+            "time": "2025-05-30T12:41:30",
+            "plausible": true
+          },
+          {
+            "row": 130,
+            "time": "2025-05-30T12:50:00",
+            "plausible": true
+          },
+          {
+            "row": 45,
+            "time": "2025-05-30T12:58:30",
+            "plausible": true
+          },
+          {
+            "row": 87,
+            "time": "2025-05-30T13:07:00",
+            "plausible": true
+          },
+          {
+            "row": 15,
+            "time": "2025-05-30T13:15:30",
+            "plausible": true
+          },
+          {
+            "row": 221,
+            "time": "2025-05-30T13:24:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.5.30-AIR-41C020E9D4659E"
+  },
+  {
+    "id": "2025.5.30-AIR-6D87BDE4F5F959",
+    "before_after": {
+      "v4": "纳土纳群岛北部海域",
+      "v9": "南海"
+    },
+    "explicit_region_values": {
+      "开源军情": "纳土纳群岛北部海域",
+      "网上舆论": "南海"
+    },
+    "radar_check": [
+      {
+        "region": "南海",
+        "per_row": [
+          {
+            "row": 297,
+            "time": "2025-05-30T20:31:00",
+            "plausible": true
+          },
+          {
+            "row": 121,
+            "time": "2025-05-30T20:45:30",
+            "plausible": true
+          },
+          {
+            "row": 144,
+            "time": "2025-05-30T21:00:00",
+            "plausible": true
+          },
+          {
+            "row": 170,
+            "time": "2025-05-30T21:14:30",
+            "plausible": true
+          },
+          {
+            "row": 47,
+            "time": "2025-05-30T21:29:00",
+            "plausible": true
+          },
+          {
+            "row": 244,
+            "time": "2025-05-30T21:43:30",
+            "plausible": true
+          },
+          {
+            "row": 158,
+            "time": "2025-05-30T21:58:00",
+            "plausible": true
+          },
+          {
+            "row": 5,
+            "time": "2025-05-30T22:12:30",
+            "plausible": true
+          },
+          {
+            "row": 298,
+            "time": "2025-05-30T22:27:00",
+            "plausible": true
+          },
+          {
+            "row": 281,
+            "time": "2025-05-30T22:41:30",
+            "plausible": true
+          },
+          {
+            "row": 232,
+            "time": "2025-05-30T22:56:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "纳土纳群岛北部海域",
+        "per_row": [
+          {
+            "row": 297,
+            "time": "2025-05-30T20:31:00",
+            "plausible": true
+          },
+          {
+            "row": 121,
+            "time": "2025-05-30T20:45:30",
+            "plausible": true
+          },
+          {
+            "row": 144,
+            "time": "2025-05-30T21:00:00",
+            "plausible": true
+          },
+          {
+            "row": 170,
+            "time": "2025-05-30T21:14:30",
+            "plausible": true
+          },
+          {
+            "row": 47,
+            "time": "2025-05-30T21:29:00",
+            "plausible": true
+          },
+          {
+            "row": 244,
+            "time": "2025-05-30T21:43:30",
+            "plausible": true
+          },
+          {
+            "row": 158,
+            "time": "2025-05-30T21:58:00",
+            "plausible": true
+          },
+          {
+            "row": 5,
+            "time": "2025-05-30T22:12:30",
+            "plausible": true
+          },
+          {
+            "row": 298,
+            "time": "2025-05-30T22:27:00",
+            "plausible": true
+          },
+          {
+            "row": 281,
+            "time": "2025-05-30T22:41:30",
+            "plausible": true
+          },
+          {
+            "row": 232,
+            "time": "2025-05-30T22:56:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.5.30-AIR-6D87BDE4F5F959"
+  },
+  {
+    "id": "2025.5.30-AIR-7AE85FE8199419",
+    "before_after": {
+      "v4": "东海中部",
+      "v9": "东海"
+    },
+    "explicit_region_values": {
+      "开源军情": "东海中部",
+      "网上舆论": "东海"
+    },
+    "radar_check": [
+      {
+        "region": "东海",
+        "per_row": [
+          {
+            "row": 43,
+            "time": "2025-05-30T17:29:00",
+            "plausible": true
+          },
+          {
+            "row": 112,
+            "time": "2025-05-30T17:45:06",
+            "plausible": true
+          },
+          {
+            "row": 50,
+            "time": "2025-05-30T18:01:13",
+            "plausible": true
+          },
+          {
+            "row": 80,
+            "time": "2025-05-30T18:17:20",
+            "plausible": true
+          },
+          {
+            "row": 133,
+            "time": "2025-05-30T18:33:26",
+            "plausible": true
+          },
+          {
+            "row": 220,
+            "time": "2025-05-30T18:49:33",
+            "plausible": true
+          },
+          {
+            "row": 207,
+            "time": "2025-05-30T19:05:40",
+            "plausible": true
+          },
+          {
+            "row": 206,
+            "time": "2025-05-30T19:21:46",
+            "plausible": true
+          },
+          {
+            "row": 110,
+            "time": "2025-05-30T19:37:53",
+            "plausible": true
+          },
+          {
+            "row": 84,
+            "time": "2025-05-30T19:54:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "东海中部",
+        "per_row": [
+          {
+            "row": 43,
+            "time": "2025-05-30T17:29:00",
+            "plausible": true
+          },
+          {
+            "row": 112,
+            "time": "2025-05-30T17:45:06",
+            "plausible": true
+          },
+          {
+            "row": 50,
+            "time": "2025-05-30T18:01:13",
+            "plausible": true
+          },
+          {
+            "row": 80,
+            "time": "2025-05-30T18:17:20",
+            "plausible": true
+          },
+          {
+            "row": 133,
+            "time": "2025-05-30T18:33:26",
+            "plausible": true
+          },
+          {
+            "row": 220,
+            "time": "2025-05-30T18:49:33",
+            "plausible": true
+          },
+          {
+            "row": 207,
+            "time": "2025-05-30T19:05:40",
+            "plausible": true
+          },
+          {
+            "row": 206,
+            "time": "2025-05-30T19:21:46",
+            "plausible": true
+          },
+          {
+            "row": 110,
+            "time": "2025-05-30T19:37:53",
+            "plausible": true
+          },
+          {
+            "row": 84,
+            "time": "2025-05-30T19:54:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.5.30-AIR-7AE85FE8199419"
+  },
+  {
+    "id": "2025.5.30-AIR-8FC28F0D307A5A",
+    "before_after": {
+      "v4": "赤尾屿海域",
+      "v9": "东海"
+    },
+    "explicit_region_values": {
+      "开源军情": "赤尾屿海域",
+      "网上舆论": "东海"
+    },
+    "radar_check": [
+      {
+        "region": "东海",
+        "per_row": [
+          {
+            "row": 92,
+            "time": "2025-05-30T08:03:00",
+            "plausible": true
+          },
+          {
+            "row": 237,
+            "time": "2025-05-30T08:17:30",
+            "plausible": true
+          },
+          {
+            "row": 171,
+            "time": "2025-05-30T08:32:00",
+            "plausible": true
+          },
+          {
+            "row": 193,
+            "time": "2025-05-30T08:46:30",
+            "plausible": true
+          },
+          {
+            "row": 234,
+            "time": "2025-05-30T09:01:00",
+            "plausible": true
+          },
+          {
+            "row": 62,
+            "time": "2025-05-30T09:15:30",
+            "plausible": true
+          },
+          {
+            "row": 108,
+            "time": "2025-05-30T09:30:00",
+            "plausible": true
+          },
+          {
+            "row": 125,
+            "time": "2025-05-30T09:44:30",
+            "plausible": true
+          },
+          {
+            "row": 229,
+            "time": "2025-05-30T09:59:00",
+            "plausible": true
+          },
+          {
+            "row": 46,
+            "time": "2025-05-30T10:13:30",
+            "plausible": true
+          },
+          {
+            "row": 273,
+            "time": "2025-05-30T10:28:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "赤尾屿海域",
+        "per_row": [
+          {
+            "row": 92,
+            "time": "2025-05-30T08:03:00",
+            "plausible": true
+          },
+          {
+            "row": 237,
+            "time": "2025-05-30T08:17:30",
+            "plausible": true
+          },
+          {
+            "row": 171,
+            "time": "2025-05-30T08:32:00",
+            "plausible": true
+          },
+          {
+            "row": 193,
+            "time": "2025-05-30T08:46:30",
+            "plausible": true
+          },
+          {
+            "row": 234,
+            "time": "2025-05-30T09:01:00",
+            "plausible": true
+          },
+          {
+            "row": 62,
+            "time": "2025-05-30T09:15:30",
+            "plausible": true
+          },
+          {
+            "row": 108,
+            "time": "2025-05-30T09:30:00",
+            "plausible": true
+          },
+          {
+            "row": 125,
+            "time": "2025-05-30T09:44:30",
+            "plausible": true
+          },
+          {
+            "row": 229,
+            "time": "2025-05-30T09:59:00",
+            "plausible": true
+          },
+          {
+            "row": 46,
+            "time": "2025-05-30T10:13:30",
+            "plausible": true
+          },
+          {
+            "row": 273,
+            "time": "2025-05-30T10:28:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.5.30-AIR-8FC28F0D307A5A"
+  },
+  {
+    "id": "2025.5.30-AIR-94393E1FDB1293",
+    "before_after": {
+      "v4": "永暑礁附近海域",
+      "v9": "南海"
+    },
+    "explicit_region_values": {
+      "开源军情": "永暑礁附近海域",
+      "网上舆论": "南海"
+    },
+    "radar_check": [
+      {
+        "region": "南海",
+        "per_row": [
+          {
+            "row": 71,
+            "time": "2025-05-30T02:27:00",
+            "plausible": true
+          },
+          {
+            "row": 7,
+            "time": "2025-05-30T02:41:30",
+            "plausible": true
+          },
+          {
+            "row": 235,
+            "time": "2025-05-30T02:56:00",
+            "plausible": true
+          },
+          {
+            "row": 248,
+            "time": "2025-05-30T03:10:30",
+            "plausible": true
+          },
+          {
+            "row": 253,
+            "time": "2025-05-30T03:25:00",
+            "plausible": true
+          },
+          {
+            "row": 106,
+            "time": "2025-05-30T03:39:30",
+            "plausible": true
+          },
+          {
+            "row": 266,
+            "time": "2025-05-30T03:54:00",
+            "plausible": true
+          },
+          {
+            "row": 223,
+            "time": "2025-05-30T04:08:30",
+            "plausible": true
+          },
+          {
+            "row": 236,
+            "time": "2025-05-30T04:23:00",
+            "plausible": true
+          },
+          {
+            "row": 113,
+            "time": "2025-05-30T04:37:30",
+            "plausible": true
+          },
+          {
+            "row": 55,
+            "time": "2025-05-30T04:52:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "永暑礁附近海域",
+        "per_row": [
+          {
+            "row": 71,
+            "time": "2025-05-30T02:27:00",
+            "plausible": true
+          },
+          {
+            "row": 7,
+            "time": "2025-05-30T02:41:30",
+            "plausible": true
+          },
+          {
+            "row": 235,
+            "time": "2025-05-30T02:56:00",
+            "plausible": true
+          },
+          {
+            "row": 248,
+            "time": "2025-05-30T03:10:30",
+            "plausible": true
+          },
+          {
+            "row": 253,
+            "time": "2025-05-30T03:25:00",
+            "plausible": true
+          },
+          {
+            "row": 106,
+            "time": "2025-05-30T03:39:30",
+            "plausible": true
+          },
+          {
+            "row": 266,
+            "time": "2025-05-30T03:54:00",
+            "plausible": true
+          },
+          {
+            "row": 223,
+            "time": "2025-05-30T04:08:30",
+            "plausible": true
+          },
+          {
+            "row": 236,
+            "time": "2025-05-30T04:23:00",
+            "plausible": true
+          },
+          {
+            "row": 113,
+            "time": "2025-05-30T04:37:30",
+            "plausible": true
+          },
+          {
+            "row": 55,
+            "time": "2025-05-30T04:52:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.5.30-AIR-94393E1FDB1293"
+  },
+  {
+    "id": "2025.5.30-AIR-9811D007D417FC",
+    "before_after": {
+      "v4": "青岛外海",
+      "v9": "黄海"
+    },
+    "explicit_region_values": {
+      "开源军情": "青岛外海",
+      "网上舆论": "黄海"
+    },
+    "radar_check": [
+      {
+        "region": "青岛外海",
+        "per_row": [
+          {
+            "row": 209,
+            "time": "2025-05-30T14:17:00",
+            "plausible": true
+          },
+          {
+            "row": 131,
+            "time": "2025-05-30T14:31:30",
+            "plausible": true
+          },
+          {
+            "row": 119,
+            "time": "2025-05-30T14:46:00",
+            "plausible": true
+          },
+          {
+            "row": 76,
+            "time": "2025-05-30T15:00:30",
+            "plausible": true
+          },
+          {
+            "row": 57,
+            "time": "2025-05-30T15:15:00",
+            "plausible": true
+          },
+          {
+            "row": 21,
+            "time": "2025-05-30T15:29:30",
+            "plausible": true
+          },
+          {
+            "row": 138,
+            "time": "2025-05-30T15:44:00",
+            "plausible": true
+          },
+          {
+            "row": 156,
+            "time": "2025-05-30T15:58:30",
+            "plausible": true
+          },
+          {
+            "row": 200,
+            "time": "2025-05-30T16:13:00",
+            "plausible": true
+          },
+          {
+            "row": 187,
+            "time": "2025-05-30T16:27:30",
+            "plausible": true
+          },
+          {
+            "row": 224,
+            "time": "2025-05-30T16:42:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "黄海",
+        "per_row": [
+          {
+            "row": 209,
+            "time": "2025-05-30T14:17:00",
+            "plausible": true
+          },
+          {
+            "row": 131,
+            "time": "2025-05-30T14:31:30",
+            "plausible": true
+          },
+          {
+            "row": 119,
+            "time": "2025-05-30T14:46:00",
+            "plausible": true
+          },
+          {
+            "row": 76,
+            "time": "2025-05-30T15:00:30",
+            "plausible": true
+          },
+          {
+            "row": 57,
+            "time": "2025-05-30T15:15:00",
+            "plausible": true
+          },
+          {
+            "row": 21,
+            "time": "2025-05-30T15:29:30",
+            "plausible": true
+          },
+          {
+            "row": 138,
+            "time": "2025-05-30T15:44:00",
+            "plausible": true
+          },
+          {
+            "row": 156,
+            "time": "2025-05-30T15:58:30",
+            "plausible": true
+          },
+          {
+            "row": 200,
+            "time": "2025-05-30T16:13:00",
+            "plausible": true
+          },
+          {
+            "row": 187,
+            "time": "2025-05-30T16:27:30",
+            "plausible": true
+          },
+          {
+            "row": 224,
+            "time": "2025-05-30T16:42:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.5.30-AIR-9811D007D417FC"
+  },
+  {
+    "id": "2025.6.17-AIR-22C53D4D4E31FD",
+    "before_after": {
+      "v4": "连云港外海",
+      "v9": "黄海"
+    },
+    "explicit_region_values": {
+      "开源军情": "连云港外海",
+      "网上舆论": "黄海"
+    },
+    "radar_check": [
+      {
+        "region": "连云港外海",
+        "per_row": [
+          {
+            "row": 261,
+            "time": "2025-06-17T02:27:00",
+            "plausible": true
+          },
+          {
+            "row": 167,
+            "time": "2025-06-17T02:40:10",
+            "plausible": true
+          },
+          {
+            "row": 31,
+            "time": "2025-06-17T02:53:21",
+            "plausible": true
+          },
+          {
+            "row": 25,
+            "time": "2025-06-17T03:06:32",
+            "plausible": true
+          },
+          {
+            "row": 7,
+            "time": "2025-06-17T03:19:43",
+            "plausible": true
+          },
+          {
+            "row": 242,
+            "time": "2025-06-17T03:32:54",
+            "plausible": true
+          },
+          {
+            "row": 170,
+            "time": "2025-06-17T03:46:05",
+            "plausible": true
+          },
+          {
+            "row": 122,
+            "time": "2025-06-17T03:59:16",
+            "plausible": true
+          },
+          {
+            "row": 294,
+            "time": "2025-06-17T04:12:27",
+            "plausible": true
+          },
+          {
+            "row": 24,
+            "time": "2025-06-17T04:25:38",
+            "plausible": true
+          },
+          {
+            "row": 116,
+            "time": "2025-06-17T04:38:49",
+            "plausible": true
+          },
+          {
+            "row": 147,
+            "time": "2025-06-17T04:52:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "黄海",
+        "per_row": [
+          {
+            "row": 261,
+            "time": "2025-06-17T02:27:00",
+            "plausible": true
+          },
+          {
+            "row": 167,
+            "time": "2025-06-17T02:40:10",
+            "plausible": true
+          },
+          {
+            "row": 31,
+            "time": "2025-06-17T02:53:21",
+            "plausible": true
+          },
+          {
+            "row": 25,
+            "time": "2025-06-17T03:06:32",
+            "plausible": true
+          },
+          {
+            "row": 7,
+            "time": "2025-06-17T03:19:43",
+            "plausible": true
+          },
+          {
+            "row": 242,
+            "time": "2025-06-17T03:32:54",
+            "plausible": true
+          },
+          {
+            "row": 170,
+            "time": "2025-06-17T03:46:05",
+            "plausible": true
+          },
+          {
+            "row": 122,
+            "time": "2025-06-17T03:59:16",
+            "plausible": true
+          },
+          {
+            "row": 294,
+            "time": "2025-06-17T04:12:27",
+            "plausible": true
+          },
+          {
+            "row": 24,
+            "time": "2025-06-17T04:25:38",
+            "plausible": true
+          },
+          {
+            "row": 116,
+            "time": "2025-06-17T04:38:49",
+            "plausible": true
+          },
+          {
+            "row": 147,
+            "time": "2025-06-17T04:52:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.6.17-AIR-22C53D4D4E31FD"
+  },
+  {
+    "id": "2025.6.17-AIR-765AC31F0E1C13",
+    "before_after": {
+      "v4": "南黄海",
+      "v9": "黄海"
+    },
+    "explicit_region_values": {
+      "开源军情": "南黄海",
+      "网上舆论": "黄海"
+    },
+    "radar_check": [
+      {
+        "region": "南黄海",
+        "per_row": [
+          {
+            "row": 62,
+            "time": "2025-06-17T08:41:00",
+            "plausible": true
+          },
+          {
+            "row": 23,
+            "time": "2025-06-17T08:48:43",
+            "plausible": true
+          },
+          {
+            "row": 206,
+            "time": "2025-06-17T08:56:27",
+            "plausible": true
+          },
+          {
+            "row": 146,
+            "time": "2025-06-17T09:04:10",
+            "plausible": true
+          },
+          {
+            "row": 186,
+            "time": "2025-06-17T09:11:54",
+            "plausible": true
+          },
+          {
+            "row": 227,
+            "time": "2025-06-17T09:19:38",
+            "plausible": true
+          },
+          {
+            "row": 208,
+            "time": "2025-06-17T09:27:21",
+            "plausible": true
+          },
+          {
+            "row": 4,
+            "time": "2025-06-17T09:35:05",
+            "plausible": true
+          },
+          {
+            "row": 203,
+            "time": "2025-06-17T09:42:49",
+            "plausible": true
+          },
+          {
+            "row": 48,
+            "time": "2025-06-17T09:50:32",
+            "plausible": true
+          },
+          {
+            "row": 98,
+            "time": "2025-06-17T09:58:16",
+            "plausible": true
+          },
+          {
+            "row": 138,
+            "time": "2025-06-17T10:06:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "黄海",
+        "per_row": [
+          {
+            "row": 62,
+            "time": "2025-06-17T08:41:00",
+            "plausible": true
+          },
+          {
+            "row": 23,
+            "time": "2025-06-17T08:48:43",
+            "plausible": true
+          },
+          {
+            "row": 206,
+            "time": "2025-06-17T08:56:27",
+            "plausible": true
+          },
+          {
+            "row": 146,
+            "time": "2025-06-17T09:04:10",
+            "plausible": true
+          },
+          {
+            "row": 186,
+            "time": "2025-06-17T09:11:54",
+            "plausible": true
+          },
+          {
+            "row": 227,
+            "time": "2025-06-17T09:19:38",
+            "plausible": true
+          },
+          {
+            "row": 208,
+            "time": "2025-06-17T09:27:21",
+            "plausible": true
+          },
+          {
+            "row": 4,
+            "time": "2025-06-17T09:35:05",
+            "plausible": true
+          },
+          {
+            "row": 203,
+            "time": "2025-06-17T09:42:49",
+            "plausible": true
+          },
+          {
+            "row": 48,
+            "time": "2025-06-17T09:50:32",
+            "plausible": true
+          },
+          {
+            "row": 98,
+            "time": "2025-06-17T09:58:16",
+            "plausible": true
+          },
+          {
+            "row": 138,
+            "time": "2025-06-17T10:06:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.6.17-AIR-765AC31F0E1C13"
+  },
+  {
+    "id": "2025.6.17-AIR-CBD85B4286B7D6",
+    "before_after": {
+      "v4": "舟山外海",
+      "v9": "东海"
+    },
+    "explicit_region_values": {
+      "开源军情": "舟山外海",
+      "网上舆论": "东海"
+    },
+    "radar_check": [
+      {
+        "region": "东海",
+        "per_row": [
+          {
+            "row": 187,
+            "time": "2025-06-17T11:59:00",
+            "plausible": true
+          },
+          {
+            "row": 131,
+            "time": "2025-06-17T12:06:05",
+            "plausible": true
+          },
+          {
+            "row": 80,
+            "time": "2025-06-17T12:13:10",
+            "plausible": true
+          },
+          {
+            "row": 169,
+            "time": "2025-06-17T12:20:15",
+            "plausible": true
+          },
+          {
+            "row": 10,
+            "time": "2025-06-17T12:27:20",
+            "plausible": true
+          },
+          {
+            "row": 301,
+            "time": "2025-06-17T12:34:25",
+            "plausible": true
+          },
+          {
+            "row": 126,
+            "time": "2025-06-17T12:41:30",
+            "plausible": true
+          },
+          {
+            "row": 49,
+            "time": "2025-06-17T12:48:35",
+            "plausible": true
+          },
+          {
+            "row": 274,
+            "time": "2025-06-17T12:55:40",
+            "plausible": true
+          },
+          {
+            "row": 243,
+            "time": "2025-06-17T13:02:45",
+            "plausible": true
+          },
+          {
+            "row": 201,
+            "time": "2025-06-17T13:09:50",
+            "plausible": true
+          },
+          {
+            "row": 148,
+            "time": "2025-06-17T13:16:55",
+            "plausible": true
+          },
+          {
+            "row": 213,
+            "time": "2025-06-17T13:24:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "舟山外海",
+        "per_row": [
+          {
+            "row": 187,
+            "time": "2025-06-17T11:59:00",
+            "plausible": true
+          },
+          {
+            "row": 131,
+            "time": "2025-06-17T12:06:05",
+            "plausible": true
+          },
+          {
+            "row": 80,
+            "time": "2025-06-17T12:13:10",
+            "plausible": true
+          },
+          {
+            "row": 169,
+            "time": "2025-06-17T12:20:15",
+            "plausible": true
+          },
+          {
+            "row": 10,
+            "time": "2025-06-17T12:27:20",
+            "plausible": true
+          },
+          {
+            "row": 301,
+            "time": "2025-06-17T12:34:25",
+            "plausible": true
+          },
+          {
+            "row": 126,
+            "time": "2025-06-17T12:41:30",
+            "plausible": true
+          },
+          {
+            "row": 49,
+            "time": "2025-06-17T12:48:35",
+            "plausible": true
+          },
+          {
+            "row": 274,
+            "time": "2025-06-17T12:55:40",
+            "plausible": true
+          },
+          {
+            "row": 243,
+            "time": "2025-06-17T13:02:45",
+            "plausible": true
+          },
+          {
+            "row": 201,
+            "time": "2025-06-17T13:09:50",
+            "plausible": true
+          },
+          {
+            "row": 148,
+            "time": "2025-06-17T13:16:55",
+            "plausible": true
+          },
+          {
+            "row": 213,
+            "time": "2025-06-17T13:24:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.6.17-AIR-CBD85B4286B7D6"
+  },
+  {
+    "id": "2025.6.17-AIR-CCACDBA428EB48",
+    "before_after": {
+      "v4": "东海中部",
+      "v9": "东海"
+    },
+    "explicit_region_values": {
+      "开源军情": "东海中部",
+      "网上舆论": "东海"
+    },
+    "radar_check": [
+      {
+        "region": "东海",
+        "per_row": [
+          {
+            "row": 110,
+            "time": "2025-06-17T05:45:00",
+            "plausible": true
+          },
+          {
+            "row": 207,
+            "time": "2025-06-17T05:52:05",
+            "plausible": true
+          },
+          {
+            "row": 139,
+            "time": "2025-06-17T05:59:10",
+            "plausible": true
+          },
+          {
+            "row": 66,
+            "time": "2025-06-17T06:06:15",
+            "plausible": true
+          },
+          {
+            "row": 164,
+            "time": "2025-06-17T06:13:20",
+            "plausible": true
+          },
+          {
+            "row": 283,
+            "time": "2025-06-17T06:20:25",
+            "plausible": true
+          },
+          {
+            "row": 133,
+            "time": "2025-06-17T06:27:30",
+            "plausible": true
+          },
+          {
+            "row": 205,
+            "time": "2025-06-17T06:34:35",
+            "plausible": true
+          },
+          {
+            "row": 270,
+            "time": "2025-06-17T06:41:40",
+            "plausible": true
+          },
+          {
+            "row": 279,
+            "time": "2025-06-17T06:48:45",
+            "plausible": true
+          },
+          {
+            "row": 105,
+            "time": "2025-06-17T06:55:50",
+            "plausible": true
+          },
+          {
+            "row": 249,
+            "time": "2025-06-17T07:02:55",
+            "plausible": true
+          },
+          {
+            "row": 67,
+            "time": "2025-06-17T07:10:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "东海中部",
+        "per_row": [
+          {
+            "row": 110,
+            "time": "2025-06-17T05:45:00",
+            "plausible": true
+          },
+          {
+            "row": 207,
+            "time": "2025-06-17T05:52:05",
+            "plausible": true
+          },
+          {
+            "row": 139,
+            "time": "2025-06-17T05:59:10",
+            "plausible": true
+          },
+          {
+            "row": 66,
+            "time": "2025-06-17T06:06:15",
+            "plausible": true
+          },
+          {
+            "row": 164,
+            "time": "2025-06-17T06:13:20",
+            "plausible": true
+          },
+          {
+            "row": 283,
+            "time": "2025-06-17T06:20:25",
+            "plausible": true
+          },
+          {
+            "row": 133,
+            "time": "2025-06-17T06:27:30",
+            "plausible": true
+          },
+          {
+            "row": 205,
+            "time": "2025-06-17T06:34:35",
+            "plausible": true
+          },
+          {
+            "row": 270,
+            "time": "2025-06-17T06:41:40",
+            "plausible": true
+          },
+          {
+            "row": 279,
+            "time": "2025-06-17T06:48:45",
+            "plausible": true
+          },
+          {
+            "row": 105,
+            "time": "2025-06-17T06:55:50",
+            "plausible": true
+          },
+          {
+            "row": 249,
+            "time": "2025-06-17T07:02:55",
+            "plausible": true
+          },
+          {
+            "row": 67,
+            "time": "2025-06-17T07:10:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.6.17-AIR-CCACDBA428EB48"
+  },
+  {
+    "id": "2025.6.29-AIR-03CBBB1FB1405D",
+    "before_after": {
+      "v4": "南海中部",
+      "v9": "南海"
+    },
+    "explicit_region_values": {
+      "开源军情": "南海中部",
+      "网上舆论": "南海"
+    },
+    "radar_check": [
+      {
+        "region": "南海",
+        "per_row": [
+          {
+            "row": 217,
+            "time": "2025-06-29T17:35:00",
+            "plausible": true
+          },
+          {
+            "row": 91,
+            "time": "2025-06-29T17:42:43",
+            "plausible": true
+          },
+          {
+            "row": 279,
+            "time": "2025-06-29T17:50:27",
+            "plausible": true
+          },
+          {
+            "row": 87,
+            "time": "2025-06-29T17:58:10",
+            "plausible": true
+          },
+          {
+            "row": 249,
+            "time": "2025-06-29T18:05:54",
+            "plausible": true
+          },
+          {
+            "row": 118,
+            "time": "2025-06-29T18:13:38",
+            "plausible": true
+          },
+          {
+            "row": 14,
+            "time": "2025-06-29T18:21:21",
+            "plausible": true
+          },
+          {
+            "row": 140,
+            "time": "2025-06-29T18:29:05",
+            "plausible": true
+          },
+          {
+            "row": 137,
+            "time": "2025-06-29T18:36:49",
+            "plausible": true
+          },
+          {
+            "row": 43,
+            "time": "2025-06-29T18:44:32",
+            "plausible": true
+          },
+          {
+            "row": 158,
+            "time": "2025-06-29T18:52:16",
+            "plausible": true
+          },
+          {
+            "row": 148,
+            "time": "2025-06-29T19:00:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "南海中部",
+        "per_row": [
+          {
+            "row": 217,
+            "time": "2025-06-29T17:35:00",
+            "plausible": true
+          },
+          {
+            "row": 91,
+            "time": "2025-06-29T17:42:43",
+            "plausible": true
+          },
+          {
+            "row": 279,
+            "time": "2025-06-29T17:50:27",
+            "plausible": true
+          },
+          {
+            "row": 87,
+            "time": "2025-06-29T17:58:10",
+            "plausible": true
+          },
+          {
+            "row": 249,
+            "time": "2025-06-29T18:05:54",
+            "plausible": true
+          },
+          {
+            "row": 118,
+            "time": "2025-06-29T18:13:38",
+            "plausible": true
+          },
+          {
+            "row": 14,
+            "time": "2025-06-29T18:21:21",
+            "plausible": true
+          },
+          {
+            "row": 140,
+            "time": "2025-06-29T18:29:05",
+            "plausible": true
+          },
+          {
+            "row": 137,
+            "time": "2025-06-29T18:36:49",
+            "plausible": true
+          },
+          {
+            "row": 43,
+            "time": "2025-06-29T18:44:32",
+            "plausible": true
+          },
+          {
+            "row": 158,
+            "time": "2025-06-29T18:52:16",
+            "plausible": true
+          },
+          {
+            "row": 148,
+            "time": "2025-06-29T19:00:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.6.29-AIR-03CBBB1FB1405D"
+  },
+  {
+    "id": "2025.6.29-AIR-48DC01049C8B5E",
+    "before_after": {
+      "v4": "长江口外海",
+      "v9": "东海"
+    },
+    "explicit_region_values": {
+      "开源军情": "长江口外海",
+      "网上舆论": "东海"
+    },
+    "radar_check": [
+      {
+        "region": "东海",
+        "per_row": [
+          {
+            "row": 28,
+            "time": "2025-06-29T17:29:00",
+            "plausible": true
+          },
+          {
+            "row": 47,
+            "time": "2025-06-29T17:45:06",
+            "plausible": true
+          },
+          {
+            "row": 60,
+            "time": "2025-06-29T18:01:13",
+            "plausible": true
+          },
+          {
+            "row": 126,
+            "time": "2025-06-29T18:17:20",
+            "plausible": true
+          },
+          {
+            "row": 196,
+            "time": "2025-06-29T18:33:26",
+            "plausible": true
+          },
+          {
+            "row": 131,
+            "time": "2025-06-29T18:49:33",
+            "plausible": true
+          },
+          {
+            "row": 297,
+            "time": "2025-06-29T19:05:40",
+            "plausible": true
+          },
+          {
+            "row": 123,
+            "time": "2025-06-29T19:21:46",
+            "plausible": true
+          },
+          {
+            "row": 76,
+            "time": "2025-06-29T19:37:53",
+            "plausible": true
+          },
+          {
+            "row": 277,
+            "time": "2025-06-29T19:54:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "长江口外海",
+        "per_row": [
+          {
+            "row": 28,
+            "time": "2025-06-29T17:29:00",
+            "plausible": true
+          },
+          {
+            "row": 47,
+            "time": "2025-06-29T17:45:06",
+            "plausible": true
+          },
+          {
+            "row": 60,
+            "time": "2025-06-29T18:01:13",
+            "plausible": true
+          },
+          {
+            "row": 126,
+            "time": "2025-06-29T18:17:20",
+            "plausible": true
+          },
+          {
+            "row": 196,
+            "time": "2025-06-29T18:33:26",
+            "plausible": true
+          },
+          {
+            "row": 131,
+            "time": "2025-06-29T18:49:33",
+            "plausible": true
+          },
+          {
+            "row": 297,
+            "time": "2025-06-29T19:05:40",
+            "plausible": true
+          },
+          {
+            "row": 123,
+            "time": "2025-06-29T19:21:46",
+            "plausible": true
+          },
+          {
+            "row": 76,
+            "time": "2025-06-29T19:37:53",
+            "plausible": true
+          },
+          {
+            "row": 277,
+            "time": "2025-06-29T19:54:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.6.29-AIR-48DC01049C8B5E"
+  },
+  {
+    "id": "2025.6.29-AIR-C1C0F00190903E",
+    "before_after": {
+      "v4": "东沙群岛海域",
+      "v9": "南海"
+    },
+    "explicit_region_values": {
+      "开源军情": "东沙群岛海域",
+      "网上舆论": "南海"
+    },
+    "radar_check": [
+      {
+        "region": "东沙群岛海域",
+        "per_row": [
+          {
+            "row": 280,
+            "time": "2025-06-29T20:09:00",
+            "plausible": true
+          },
+          {
+            "row": 168,
+            "time": "2025-06-29T20:22:10",
+            "plausible": true
+          },
+          {
+            "row": 210,
+            "time": "2025-06-29T20:35:21",
+            "plausible": true
+          },
+          {
+            "row": 224,
+            "time": "2025-06-29T20:48:32",
+            "plausible": true
+          },
+          {
+            "row": 120,
+            "time": "2025-06-29T21:01:43",
+            "plausible": true
+          },
+          {
+            "row": 77,
+            "time": "2025-06-29T21:14:54",
+            "plausible": true
+          },
+          {
+            "row": 104,
+            "time": "2025-06-29T21:28:05",
+            "plausible": true
+          },
+          {
+            "row": 229,
+            "time": "2025-06-29T21:41:16",
+            "plausible": true
+          },
+          {
+            "row": 99,
+            "time": "2025-06-29T21:54:27",
+            "plausible": true
+          },
+          {
+            "row": 100,
+            "time": "2025-06-29T22:07:38",
+            "plausible": true
+          },
+          {
+            "row": 82,
+            "time": "2025-06-29T22:20:49",
+            "plausible": true
+          },
+          {
+            "row": 221,
+            "time": "2025-06-29T22:34:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "南海",
+        "per_row": [
+          {
+            "row": 280,
+            "time": "2025-06-29T20:09:00",
+            "plausible": true
+          },
+          {
+            "row": 168,
+            "time": "2025-06-29T20:22:10",
+            "plausible": true
+          },
+          {
+            "row": 210,
+            "time": "2025-06-29T20:35:21",
+            "plausible": true
+          },
+          {
+            "row": 224,
+            "time": "2025-06-29T20:48:32",
+            "plausible": true
+          },
+          {
+            "row": 120,
+            "time": "2025-06-29T21:01:43",
+            "plausible": true
+          },
+          {
+            "row": 77,
+            "time": "2025-06-29T21:14:54",
+            "plausible": true
+          },
+          {
+            "row": 104,
+            "time": "2025-06-29T21:28:05",
+            "plausible": true
+          },
+          {
+            "row": 229,
+            "time": "2025-06-29T21:41:16",
+            "plausible": true
+          },
+          {
+            "row": 99,
+            "time": "2025-06-29T21:54:27",
+            "plausible": true
+          },
+          {
+            "row": 100,
+            "time": "2025-06-29T22:07:38",
+            "plausible": true
+          },
+          {
+            "row": 82,
+            "time": "2025-06-29T22:20:49",
+            "plausible": true
+          },
+          {
+            "row": 221,
+            "time": "2025-06-29T22:34:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.6.29-AIR-C1C0F00190903E"
+  },
+  {
+    "id": "2025.6.29-AIR-E13BD57A156414",
+    "before_after": {
+      "v4": "南黄海",
+      "v9": "黄海"
+    },
+    "explicit_region_values": {
+      "开源军情": "南黄海",
+      "网上舆论": "黄海"
+    },
+    "radar_check": [
+      {
+        "region": "南黄海",
+        "per_row": [
+          {
+            "row": 111,
+            "time": "2025-06-29T14:55:00",
+            "plausible": true
+          },
+          {
+            "row": 11,
+            "time": "2025-06-29T15:02:43",
+            "plausible": true
+          },
+          {
+            "row": 127,
+            "time": "2025-06-29T15:10:27",
+            "plausible": true
+          },
+          {
+            "row": 18,
+            "time": "2025-06-29T15:18:10",
+            "plausible": true
+          },
+          {
+            "row": 4,
+            "time": "2025-06-29T15:25:54",
+            "plausible": true
+          },
+          {
+            "row": 301,
+            "time": "2025-06-29T15:33:38",
+            "plausible": true
+          },
+          {
+            "row": 144,
+            "time": "2025-06-29T15:41:21",
+            "plausible": true
+          },
+          {
+            "row": 185,
+            "time": "2025-06-29T15:49:05",
+            "plausible": true
+          },
+          {
+            "row": 7,
+            "time": "2025-06-29T15:56:49",
+            "plausible": true
+          },
+          {
+            "row": 173,
+            "time": "2025-06-29T16:04:32",
+            "plausible": true
+          },
+          {
+            "row": 178,
+            "time": "2025-06-29T16:12:16",
+            "plausible": true
+          },
+          {
+            "row": 253,
+            "time": "2025-06-29T16:20:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "黄海",
+        "per_row": [
+          {
+            "row": 111,
+            "time": "2025-06-29T14:55:00",
+            "plausible": true
+          },
+          {
+            "row": 11,
+            "time": "2025-06-29T15:02:43",
+            "plausible": true
+          },
+          {
+            "row": 127,
+            "time": "2025-06-29T15:10:27",
+            "plausible": true
+          },
+          {
+            "row": 18,
+            "time": "2025-06-29T15:18:10",
+            "plausible": true
+          },
+          {
+            "row": 4,
+            "time": "2025-06-29T15:25:54",
+            "plausible": true
+          },
+          {
+            "row": 301,
+            "time": "2025-06-29T15:33:38",
+            "plausible": true
+          },
+          {
+            "row": 144,
+            "time": "2025-06-29T15:41:21",
+            "plausible": true
+          },
+          {
+            "row": 185,
+            "time": "2025-06-29T15:49:05",
+            "plausible": true
+          },
+          {
+            "row": 7,
+            "time": "2025-06-29T15:56:49",
+            "plausible": true
+          },
+          {
+            "row": 173,
+            "time": "2025-06-29T16:04:32",
+            "plausible": true
+          },
+          {
+            "row": 178,
+            "time": "2025-06-29T16:12:16",
+            "plausible": true
+          },
+          {
+            "row": 253,
+            "time": "2025-06-29T16:20:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.6.29-AIR-E13BD57A156414"
+  },
+  {
+    "id": "2025.6.29-AIR-FA066C92DA7C4F",
+    "before_after": {
+      "v4": "连云港外海",
+      "v9": "黄海"
+    },
+    "explicit_region_values": {
+      "开源军情": "连云港外海",
+      "网上舆论": "黄海"
+    },
+    "radar_check": [
+      {
+        "region": "连云港外海",
+        "per_row": [
+          {
+            "row": 286,
+            "time": "2025-06-29T02:49:00",
+            "plausible": true
+          },
+          {
+            "row": 274,
+            "time": "2025-06-29T02:56:43",
+            "plausible": true
+          },
+          {
+            "row": 70,
+            "time": "2025-06-29T03:04:27",
+            "plausible": true
+          },
+          {
+            "row": 49,
+            "time": "2025-06-29T03:12:10",
+            "plausible": true
+          },
+          {
+            "row": 172,
+            "time": "2025-06-29T03:19:54",
+            "plausible": true
+          },
+          {
+            "row": 225,
+            "time": "2025-06-29T03:27:38",
+            "plausible": true
+          },
+          {
+            "row": 272,
+            "time": "2025-06-29T03:35:21",
+            "plausible": true
+          },
+          {
+            "row": 227,
+            "time": "2025-06-29T03:43:05",
+            "plausible": true
+          },
+          {
+            "row": 292,
+            "time": "2025-06-29T03:50:49",
+            "plausible": true
+          },
+          {
+            "row": 219,
+            "time": "2025-06-29T03:58:32",
+            "plausible": true
+          },
+          {
+            "row": 228,
+            "time": "2025-06-29T04:06:16",
+            "plausible": true
+          },
+          {
+            "row": 45,
+            "time": "2025-06-29T04:14:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "黄海",
+        "per_row": [
+          {
+            "row": 286,
+            "time": "2025-06-29T02:49:00",
+            "plausible": true
+          },
+          {
+            "row": 274,
+            "time": "2025-06-29T02:56:43",
+            "plausible": true
+          },
+          {
+            "row": 70,
+            "time": "2025-06-29T03:04:27",
+            "plausible": true
+          },
+          {
+            "row": 49,
+            "time": "2025-06-29T03:12:10",
+            "plausible": true
+          },
+          {
+            "row": 172,
+            "time": "2025-06-29T03:19:54",
+            "plausible": true
+          },
+          {
+            "row": 225,
+            "time": "2025-06-29T03:27:38",
+            "plausible": true
+          },
+          {
+            "row": 272,
+            "time": "2025-06-29T03:35:21",
+            "plausible": true
+          },
+          {
+            "row": 227,
+            "time": "2025-06-29T03:43:05",
+            "plausible": true
+          },
+          {
+            "row": 292,
+            "time": "2025-06-29T03:50:49",
+            "plausible": true
+          },
+          {
+            "row": 219,
+            "time": "2025-06-29T03:58:32",
+            "plausible": true
+          },
+          {
+            "row": 228,
+            "time": "2025-06-29T04:06:16",
+            "plausible": true
+          },
+          {
+            "row": 45,
+            "time": "2025-06-29T04:14:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.6.29-AIR-FA066C92DA7C4F"
+  },
+  {
+    "id": "2025.6.29-AIR-FEF816C632183C",
+    "before_after": {
+      "v4": "黄海中部",
+      "v9": "黄海"
+    },
+    "explicit_region_values": {
+      "开源军情": "黄海中部",
+      "网上舆论": "黄海"
+    },
+    "radar_check": [
+      {
+        "region": "黄海",
+        "per_row": [
+          {
+            "row": 65,
+            "time": "2025-06-29T17:13:00",
+            "plausible": true
+          },
+          {
+            "row": 205,
+            "time": "2025-06-29T17:26:10",
+            "plausible": true
+          },
+          {
+            "row": 128,
+            "time": "2025-06-29T17:39:21",
+            "plausible": true
+          },
+          {
+            "row": 262,
+            "time": "2025-06-29T17:52:32",
+            "plausible": true
+          },
+          {
+            "row": 69,
+            "time": "2025-06-29T18:05:43",
+            "plausible": true
+          },
+          {
+            "row": 80,
+            "time": "2025-06-29T18:18:54",
+            "plausible": true
+          },
+          {
+            "row": 295,
+            "time": "2025-06-29T18:32:05",
+            "plausible": true
+          },
+          {
+            "row": 270,
+            "time": "2025-06-29T18:45:16",
+            "plausible": true
+          },
+          {
+            "row": 159,
+            "time": "2025-06-29T18:58:27",
+            "plausible": true
+          },
+          {
+            "row": 125,
+            "time": "2025-06-29T19:11:38",
+            "plausible": true
+          },
+          {
+            "row": 283,
+            "time": "2025-06-29T19:24:49",
+            "plausible": true
+          },
+          {
+            "row": 206,
+            "time": "2025-06-29T19:38:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "黄海中部",
+        "per_row": [
+          {
+            "row": 65,
+            "time": "2025-06-29T17:13:00",
+            "plausible": true
+          },
+          {
+            "row": 205,
+            "time": "2025-06-29T17:26:10",
+            "plausible": true
+          },
+          {
+            "row": 128,
+            "time": "2025-06-29T17:39:21",
+            "plausible": true
+          },
+          {
+            "row": 262,
+            "time": "2025-06-29T17:52:32",
+            "plausible": true
+          },
+          {
+            "row": 69,
+            "time": "2025-06-29T18:05:43",
+            "plausible": true
+          },
+          {
+            "row": 80,
+            "time": "2025-06-29T18:18:54",
+            "plausible": true
+          },
+          {
+            "row": 295,
+            "time": "2025-06-29T18:32:05",
+            "plausible": true
+          },
+          {
+            "row": 270,
+            "time": "2025-06-29T18:45:16",
+            "plausible": true
+          },
+          {
+            "row": 159,
+            "time": "2025-06-29T18:58:27",
+            "plausible": true
+          },
+          {
+            "row": 125,
+            "time": "2025-06-29T19:11:38",
+            "plausible": true
+          },
+          {
+            "row": 283,
+            "time": "2025-06-29T19:24:49",
+            "plausible": true
+          },
+          {
+            "row": 206,
+            "time": "2025-06-29T19:38:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.6.29-AIR-FEF816C632183C"
+  },
+  {
+    "id": "2025.6.9-AIR-066899117BEDAE",
+    "before_after": {
+      "v4": "长江口外海",
+      "v9": "东海"
+    },
+    "explicit_region_values": {
+      "开源军情": "长江口外海",
+      "网上舆论": "东海"
+    },
+    "radar_check": [
+      {
+        "region": "东海",
+        "per_row": [
+          {
+            "row": 190,
+            "time": "2025-06-09T14:55:00",
+            "plausible": true
+          },
+          {
+            "row": 50,
+            "time": "2025-06-09T15:02:43",
+            "plausible": true
+          },
+          {
+            "row": 224,
+            "time": "2025-06-09T15:10:27",
+            "plausible": true
+          },
+          {
+            "row": 88,
+            "time": "2025-06-09T15:18:10",
+            "plausible": true
+          },
+          {
+            "row": 206,
+            "time": "2025-06-09T15:25:54",
+            "plausible": true
+          },
+          {
+            "row": 195,
+            "time": "2025-06-09T15:33:38",
+            "plausible": true
+          },
+          {
+            "row": 234,
+            "time": "2025-06-09T15:41:21",
+            "plausible": true
+          },
+          {
+            "row": 24,
+            "time": "2025-06-09T15:49:05",
+            "plausible": true
+          },
+          {
+            "row": 175,
+            "time": "2025-06-09T15:56:49",
+            "plausible": true
+          },
+          {
+            "row": 30,
+            "time": "2025-06-09T16:04:32",
+            "plausible": true
+          },
+          {
+            "row": 219,
+            "time": "2025-06-09T16:12:16",
+            "plausible": true
+          },
+          {
+            "row": 49,
+            "time": "2025-06-09T16:20:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "长江口外海",
+        "per_row": [
+          {
+            "row": 190,
+            "time": "2025-06-09T14:55:00",
+            "plausible": true
+          },
+          {
+            "row": 50,
+            "time": "2025-06-09T15:02:43",
+            "plausible": true
+          },
+          {
+            "row": 224,
+            "time": "2025-06-09T15:10:27",
+            "plausible": true
+          },
+          {
+            "row": 88,
+            "time": "2025-06-09T15:18:10",
+            "plausible": true
+          },
+          {
+            "row": 206,
+            "time": "2025-06-09T15:25:54",
+            "plausible": true
+          },
+          {
+            "row": 195,
+            "time": "2025-06-09T15:33:38",
+            "plausible": true
+          },
+          {
+            "row": 234,
+            "time": "2025-06-09T15:41:21",
+            "plausible": true
+          },
+          {
+            "row": 24,
+            "time": "2025-06-09T15:49:05",
+            "plausible": true
+          },
+          {
+            "row": 175,
+            "time": "2025-06-09T15:56:49",
+            "plausible": true
+          },
+          {
+            "row": 30,
+            "time": "2025-06-09T16:04:32",
+            "plausible": true
+          },
+          {
+            "row": 219,
+            "time": "2025-06-09T16:12:16",
+            "plausible": true
+          },
+          {
+            "row": 49,
+            "time": "2025-06-09T16:20:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.6.9-AIR-066899117BEDAE"
+  },
+  {
+    "id": "2025.6.9-AIR-296F85D0C21B4E",
+    "before_after": {
+      "v4": "黄海中部",
+      "v9": "黄海"
+    },
+    "explicit_region_values": {
+      "开源军情": "黄海中部",
+      "网上舆论": "黄海"
+    },
+    "radar_check": [
+      {
+        "region": "黄海",
+        "per_row": [
+          {
+            "row": 161,
+            "time": "2025-06-09T20:09:00",
+            "plausible": true
+          },
+          {
+            "row": 12,
+            "time": "2025-06-09T20:22:10",
+            "plausible": true
+          },
+          {
+            "row": 291,
+            "time": "2025-06-09T20:35:21",
+            "plausible": true
+          },
+          {
+            "row": 4,
+            "time": "2025-06-09T20:48:32",
+            "plausible": true
+          },
+          {
+            "row": 209,
+            "time": "2025-06-09T21:01:43",
+            "plausible": true
+          },
+          {
+            "row": 180,
+            "time": "2025-06-09T21:14:54",
+            "plausible": true
+          },
+          {
+            "row": 263,
+            "time": "2025-06-09T21:28:05",
+            "plausible": true
+          },
+          {
+            "row": 72,
+            "time": "2025-06-09T21:41:16",
+            "plausible": true
+          },
+          {
+            "row": 98,
+            "time": "2025-06-09T21:54:27",
+            "plausible": true
+          },
+          {
+            "row": 47,
+            "time": "2025-06-09T22:07:38",
+            "plausible": true
+          },
+          {
+            "row": 199,
+            "time": "2025-06-09T22:20:49",
+            "plausible": true
+          },
+          {
+            "row": 115,
+            "time": "2025-06-09T22:34:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "黄海中部",
+        "per_row": [
+          {
+            "row": 161,
+            "time": "2025-06-09T20:09:00",
+            "plausible": true
+          },
+          {
+            "row": 12,
+            "time": "2025-06-09T20:22:10",
+            "plausible": true
+          },
+          {
+            "row": 291,
+            "time": "2025-06-09T20:35:21",
+            "plausible": true
+          },
+          {
+            "row": 4,
+            "time": "2025-06-09T20:48:32",
+            "plausible": true
+          },
+          {
+            "row": 209,
+            "time": "2025-06-09T21:01:43",
+            "plausible": true
+          },
+          {
+            "row": 180,
+            "time": "2025-06-09T21:14:54",
+            "plausible": true
+          },
+          {
+            "row": 263,
+            "time": "2025-06-09T21:28:05",
+            "plausible": true
+          },
+          {
+            "row": 72,
+            "time": "2025-06-09T21:41:16",
+            "plausible": true
+          },
+          {
+            "row": 98,
+            "time": "2025-06-09T21:54:27",
+            "plausible": true
+          },
+          {
+            "row": 47,
+            "time": "2025-06-09T22:07:38",
+            "plausible": true
+          },
+          {
+            "row": 199,
+            "time": "2025-06-09T22:20:49",
+            "plausible": true
+          },
+          {
+            "row": 115,
+            "time": "2025-06-09T22:34:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.6.9-AIR-296F85D0C21B4E"
+  },
+  {
+    "id": "2025.6.9-AIR-44C7C32D37FDB5",
+    "before_after": {
+      "v4": "北康暗沙海域",
+      "v9": "南海"
+    },
+    "explicit_region_values": {
+      "开源军情": "北康暗沙海域",
+      "网上舆论": "南海"
+    },
+    "radar_check": [
+      {
+        "region": "北康暗沙海域",
+        "per_row": [
+          {
+            "row": 63,
+            "time": "2025-06-09T05:45:00",
+            "plausible": true
+          },
+          {
+            "row": 73,
+            "time": "2025-06-09T05:52:43",
+            "plausible": true
+          },
+          {
+            "row": 188,
+            "time": "2025-06-09T06:00:27",
+            "plausible": true
+          },
+          {
+            "row": 186,
+            "time": "2025-06-09T06:08:10",
+            "plausible": true
+          },
+          {
+            "row": 274,
+            "time": "2025-06-09T06:15:54",
+            "plausible": true
+          },
+          {
+            "row": 67,
+            "time": "2025-06-09T06:23:38",
+            "plausible": true
+          },
+          {
+            "row": 107,
+            "time": "2025-06-09T06:31:21",
+            "plausible": true
+          },
+          {
+            "row": 76,
+            "time": "2025-06-09T06:39:05",
+            "plausible": true
+          },
+          {
+            "row": 25,
+            "time": "2025-06-09T06:46:49",
+            "plausible": true
+          },
+          {
+            "row": 198,
+            "time": "2025-06-09T06:54:32",
+            "plausible": true
+          },
+          {
+            "row": 248,
+            "time": "2025-06-09T07:02:16",
+            "plausible": true
+          },
+          {
+            "row": 137,
+            "time": "2025-06-09T07:10:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "南海",
+        "per_row": [
+          {
+            "row": 63,
+            "time": "2025-06-09T05:45:00",
+            "plausible": true
+          },
+          {
+            "row": 73,
+            "time": "2025-06-09T05:52:43",
+            "plausible": true
+          },
+          {
+            "row": 188,
+            "time": "2025-06-09T06:00:27",
+            "plausible": true
+          },
+          {
+            "row": 186,
+            "time": "2025-06-09T06:08:10",
+            "plausible": true
+          },
+          {
+            "row": 274,
+            "time": "2025-06-09T06:15:54",
+            "plausible": true
+          },
+          {
+            "row": 67,
+            "time": "2025-06-09T06:23:38",
+            "plausible": true
+          },
+          {
+            "row": 107,
+            "time": "2025-06-09T06:31:21",
+            "plausible": true
+          },
+          {
+            "row": 76,
+            "time": "2025-06-09T06:39:05",
+            "plausible": true
+          },
+          {
+            "row": 25,
+            "time": "2025-06-09T06:46:49",
+            "plausible": true
+          },
+          {
+            "row": 198,
+            "time": "2025-06-09T06:54:32",
+            "plausible": true
+          },
+          {
+            "row": 248,
+            "time": "2025-06-09T07:02:16",
+            "plausible": true
+          },
+          {
+            "row": 137,
+            "time": "2025-06-09T07:10:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.6.9-AIR-44C7C32D37FDB5"
+  },
+  {
+    "id": "2025.6.9-AIR-546ED9656E40CA",
+    "before_after": {
+      "v4": "南海南部",
+      "v9": "南海"
+    },
+    "explicit_region_values": {
+      "开源军情": "南海南部",
+      "网上舆论": "南海"
+    },
+    "radar_check": [
+      {
+        "region": "南海",
+        "per_row": [
+          {
+            "row": 119,
+            "time": "2025-06-09T20:31:00",
+            "plausible": true
+          },
+          {
+            "row": 164,
+            "time": "2025-06-09T20:44:10",
+            "plausible": true
+          },
+          {
+            "row": 34,
+            "time": "2025-06-09T20:57:21",
+            "plausible": true
+          },
+          {
+            "row": 125,
+            "time": "2025-06-09T21:10:32",
+            "plausible": true
+          },
+          {
+            "row": 221,
+            "time": "2025-06-09T21:23:43",
+            "plausible": true
+          },
+          {
+            "row": 80,
+            "time": "2025-06-09T21:36:54",
+            "plausible": true
+          },
+          {
+            "row": 266,
+            "time": "2025-06-09T21:50:05",
+            "plausible": true
+          },
+          {
+            "row": 177,
+            "time": "2025-06-09T22:03:16",
+            "plausible": true
+          },
+          {
+            "row": 145,
+            "time": "2025-06-09T22:16:27",
+            "plausible": true
+          },
+          {
+            "row": 240,
+            "time": "2025-06-09T22:29:38",
+            "plausible": true
+          },
+          {
+            "row": 127,
+            "time": "2025-06-09T22:42:49",
+            "plausible": true
+          },
+          {
+            "row": 126,
+            "time": "2025-06-09T22:56:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "南海南部",
+        "per_row": [
+          {
+            "row": 119,
+            "time": "2025-06-09T20:31:00",
+            "plausible": true
+          },
+          {
+            "row": 164,
+            "time": "2025-06-09T20:44:10",
+            "plausible": true
+          },
+          {
+            "row": 34,
+            "time": "2025-06-09T20:57:21",
+            "plausible": true
+          },
+          {
+            "row": 125,
+            "time": "2025-06-09T21:10:32",
+            "plausible": true
+          },
+          {
+            "row": 221,
+            "time": "2025-06-09T21:23:43",
+            "plausible": true
+          },
+          {
+            "row": 80,
+            "time": "2025-06-09T21:36:54",
+            "plausible": true
+          },
+          {
+            "row": 266,
+            "time": "2025-06-09T21:50:05",
+            "plausible": true
+          },
+          {
+            "row": 177,
+            "time": "2025-06-09T22:03:16",
+            "plausible": true
+          },
+          {
+            "row": 145,
+            "time": "2025-06-09T22:16:27",
+            "plausible": true
+          },
+          {
+            "row": 240,
+            "time": "2025-06-09T22:29:38",
+            "plausible": true
+          },
+          {
+            "row": 127,
+            "time": "2025-06-09T22:42:49",
+            "plausible": true
+          },
+          {
+            "row": 126,
+            "time": "2025-06-09T22:56:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.6.9-AIR-546ED9656E40CA"
+  },
+  {
+    "id": "2025.6.9-AIR-69D2C9DC4DC401",
+    "before_after": {
+      "v4": "温州外海",
+      "v9": "东海"
+    },
+    "explicit_region_values": {
+      "开源军情": "温州外海",
+      "网上舆论": "东海"
+    },
+    "radar_check": [
+      {
+        "region": "东海",
+        "per_row": [
+          {
+            "row": 216,
+            "time": "2025-06-09T17:29:00",
+            "plausible": true
+          },
+          {
+            "row": 83,
+            "time": "2025-06-09T17:45:06",
+            "plausible": true
+          },
+          {
+            "row": 55,
+            "time": "2025-06-09T18:01:13",
+            "plausible": true
+          },
+          {
+            "row": 265,
+            "time": "2025-06-09T18:17:20",
+            "plausible": true
+          },
+          {
+            "row": 48,
+            "time": "2025-06-09T18:33:26",
+            "plausible": true
+          },
+          {
+            "row": 299,
+            "time": "2025-06-09T18:49:33",
+            "plausible": true
+          },
+          {
+            "row": 90,
+            "time": "2025-06-09T19:05:40",
+            "plausible": true
+          },
+          {
+            "row": 197,
+            "time": "2025-06-09T19:21:46",
+            "plausible": true
+          },
+          {
+            "row": 94,
+            "time": "2025-06-09T19:37:53",
+            "plausible": true
+          },
+          {
+            "row": 79,
+            "time": "2025-06-09T19:54:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "温州外海",
+        "per_row": [
+          {
+            "row": 216,
+            "time": "2025-06-09T17:29:00",
+            "plausible": true
+          },
+          {
+            "row": 83,
+            "time": "2025-06-09T17:45:06",
+            "plausible": true
+          },
+          {
+            "row": 55,
+            "time": "2025-06-09T18:01:13",
+            "plausible": true
+          },
+          {
+            "row": 265,
+            "time": "2025-06-09T18:17:20",
+            "plausible": true
+          },
+          {
+            "row": 48,
+            "time": "2025-06-09T18:33:26",
+            "plausible": true
+          },
+          {
+            "row": 299,
+            "time": "2025-06-09T18:49:33",
+            "plausible": true
+          },
+          {
+            "row": 90,
+            "time": "2025-06-09T19:05:40",
+            "plausible": true
+          },
+          {
+            "row": 197,
+            "time": "2025-06-09T19:21:46",
+            "plausible": true
+          },
+          {
+            "row": 94,
+            "time": "2025-06-09T19:37:53",
+            "plausible": true
+          },
+          {
+            "row": 79,
+            "time": "2025-06-09T19:54:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.6.9-AIR-69D2C9DC4DC401"
+  },
+  {
+    "id": "2025.6.9-AIR-6E755AB58C6BC6",
+    "before_after": {
+      "v4": "北部湾",
+      "v9": "南海"
+    },
+    "explicit_region_values": {
+      "开源军情": "北部湾",
+      "网上舆论": "南海"
+    },
+    "radar_check": [
+      {
+        "region": "北部湾",
+        "per_row": [
+          {
+            "row": 235,
+            "time": "2025-06-09T17:13:00",
+            "plausible": true
+          },
+          {
+            "row": 110,
+            "time": "2025-06-09T17:26:10",
+            "plausible": true
+          },
+          {
+            "row": 185,
+            "time": "2025-06-09T17:39:21",
+            "plausible": true
+          },
+          {
+            "row": 120,
+            "time": "2025-06-09T17:52:32",
+            "plausible": true
+          },
+          {
+            "row": 300,
+            "time": "2025-06-09T18:05:43",
+            "plausible": true
+          },
+          {
+            "row": 43,
+            "time": "2025-06-09T18:18:54",
+            "plausible": true
+          },
+          {
+            "row": 37,
+            "time": "2025-06-09T18:32:05",
+            "plausible": true
+          },
+          {
+            "row": 231,
+            "time": "2025-06-09T18:45:16",
+            "plausible": true
+          },
+          {
+            "row": 44,
+            "time": "2025-06-09T18:58:27",
+            "plausible": true
+          },
+          {
+            "row": 214,
+            "time": "2025-06-09T19:11:38",
+            "plausible": true
+          },
+          {
+            "row": 69,
+            "time": "2025-06-09T19:24:49",
+            "plausible": true
+          },
+          {
+            "row": 156,
+            "time": "2025-06-09T19:38:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "南海",
+        "per_row": [
+          {
+            "row": 235,
+            "time": "2025-06-09T17:13:00",
+            "plausible": true
+          },
+          {
+            "row": 110,
+            "time": "2025-06-09T17:26:10",
+            "plausible": true
+          },
+          {
+            "row": 185,
+            "time": "2025-06-09T17:39:21",
+            "plausible": true
+          },
+          {
+            "row": 120,
+            "time": "2025-06-09T17:52:32",
+            "plausible": true
+          },
+          {
+            "row": 300,
+            "time": "2025-06-09T18:05:43",
+            "plausible": true
+          },
+          {
+            "row": 43,
+            "time": "2025-06-09T18:18:54",
+            "plausible": true
+          },
+          {
+            "row": 37,
+            "time": "2025-06-09T18:32:05",
+            "plausible": true
+          },
+          {
+            "row": 231,
+            "time": "2025-06-09T18:45:16",
+            "plausible": true
+          },
+          {
+            "row": 44,
+            "time": "2025-06-09T18:58:27",
+            "plausible": true
+          },
+          {
+            "row": 214,
+            "time": "2025-06-09T19:11:38",
+            "plausible": true
+          },
+          {
+            "row": 69,
+            "time": "2025-06-09T19:24:49",
+            "plausible": true
+          },
+          {
+            "row": 156,
+            "time": "2025-06-09T19:38:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.6.9-AIR-6E755AB58C6BC6"
+  },
+  {
+    "id": "2025.6.9-AIR-74C830734B7E44",
+    "before_after": {
+      "v4": "连云港外海",
+      "v9": "黄海"
+    },
+    "explicit_region_values": {
+      "开源军情": "连云港外海",
+      "网上舆论": "黄海"
+    },
+    "radar_check": [
+      {
+        "region": "连云港外海",
+        "per_row": [
+          {
+            "row": 210,
+            "time": "2025-06-09T14:17:00",
+            "plausible": true
+          },
+          {
+            "row": 60,
+            "time": "2025-06-09T14:30:10",
+            "plausible": true
+          },
+          {
+            "row": 284,
+            "time": "2025-06-09T14:43:21",
+            "plausible": true
+          },
+          {
+            "row": 91,
+            "time": "2025-06-09T14:56:32",
+            "plausible": true
+          },
+          {
+            "row": 96,
+            "time": "2025-06-09T15:09:43",
+            "plausible": true
+          },
+          {
+            "row": 33,
+            "time": "2025-06-09T15:22:54",
+            "plausible": true
+          },
+          {
+            "row": 293,
+            "time": "2025-06-09T15:36:05",
+            "plausible": true
+          },
+          {
+            "row": 187,
+            "time": "2025-06-09T15:49:16",
+            "plausible": true
+          },
+          {
+            "row": 2,
+            "time": "2025-06-09T16:02:27",
+            "plausible": true
+          },
+          {
+            "row": 114,
+            "time": "2025-06-09T16:15:38",
+            "plausible": true
+          },
+          {
+            "row": 256,
+            "time": "2025-06-09T16:28:49",
+            "plausible": true
+          },
+          {
+            "row": 160,
+            "time": "2025-06-09T16:42:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "黄海",
+        "per_row": [
+          {
+            "row": 210,
+            "time": "2025-06-09T14:17:00",
+            "plausible": true
+          },
+          {
+            "row": 60,
+            "time": "2025-06-09T14:30:10",
+            "plausible": true
+          },
+          {
+            "row": 284,
+            "time": "2025-06-09T14:43:21",
+            "plausible": true
+          },
+          {
+            "row": 91,
+            "time": "2025-06-09T14:56:32",
+            "plausible": true
+          },
+          {
+            "row": 96,
+            "time": "2025-06-09T15:09:43",
+            "plausible": true
+          },
+          {
+            "row": 33,
+            "time": "2025-06-09T15:22:54",
+            "plausible": true
+          },
+          {
+            "row": 293,
+            "time": "2025-06-09T15:36:05",
+            "plausible": true
+          },
+          {
+            "row": 187,
+            "time": "2025-06-09T15:49:16",
+            "plausible": true
+          },
+          {
+            "row": 2,
+            "time": "2025-06-09T16:02:27",
+            "plausible": true
+          },
+          {
+            "row": 114,
+            "time": "2025-06-09T16:15:38",
+            "plausible": true
+          },
+          {
+            "row": 256,
+            "time": "2025-06-09T16:28:49",
+            "plausible": true
+          },
+          {
+            "row": 160,
+            "time": "2025-06-09T16:42:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.6.9-AIR-74C830734B7E44"
+  },
+  {
+    "id": "2025.6.9-AIR-7A59BD98A4C16F",
+    "before_after": {
+      "v4": "黄海中部",
+      "v9": "黄海"
+    },
+    "explicit_region_values": {
+      "开源军情": "黄海中部",
+      "网上舆论": "黄海"
+    },
+    "radar_check": [
+      {
+        "region": "黄海",
+        "per_row": [
+          {
+            "row": 215,
+            "time": "2025-06-09T08:41:00",
+            "plausible": true
+          },
+          {
+            "row": 260,
+            "time": "2025-06-09T08:48:43",
+            "plausible": true
+          },
+          {
+            "row": 225,
+            "time": "2025-06-09T08:56:27",
+            "plausible": true
+          },
+          {
+            "row": 212,
+            "time": "2025-06-09T09:04:10",
+            "plausible": true
+          },
+          {
+            "row": 277,
+            "time": "2025-06-09T09:11:54",
+            "plausible": true
+          },
+          {
+            "row": 103,
+            "time": "2025-06-09T09:19:38",
+            "plausible": true
+          },
+          {
+            "row": 133,
+            "time": "2025-06-09T09:27:21",
+            "plausible": true
+          },
+          {
+            "row": 104,
+            "time": "2025-06-09T09:35:05",
+            "plausible": true
+          },
+          {
+            "row": 41,
+            "time": "2025-06-09T09:42:49",
+            "plausible": true
+          },
+          {
+            "row": 84,
+            "time": "2025-06-09T09:50:32",
+            "plausible": true
+          },
+          {
+            "row": 280,
+            "time": "2025-06-09T09:58:16",
+            "plausible": true
+          },
+          {
+            "row": 89,
+            "time": "2025-06-09T10:06:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "黄海中部",
+        "per_row": [
+          {
+            "row": 215,
+            "time": "2025-06-09T08:41:00",
+            "plausible": true
+          },
+          {
+            "row": 260,
+            "time": "2025-06-09T08:48:43",
+            "plausible": true
+          },
+          {
+            "row": 225,
+            "time": "2025-06-09T08:56:27",
+            "plausible": true
+          },
+          {
+            "row": 212,
+            "time": "2025-06-09T09:04:10",
+            "plausible": true
+          },
+          {
+            "row": 277,
+            "time": "2025-06-09T09:11:54",
+            "plausible": true
+          },
+          {
+            "row": 103,
+            "time": "2025-06-09T09:19:38",
+            "plausible": true
+          },
+          {
+            "row": 133,
+            "time": "2025-06-09T09:27:21",
+            "plausible": true
+          },
+          {
+            "row": 104,
+            "time": "2025-06-09T09:35:05",
+            "plausible": true
+          },
+          {
+            "row": 41,
+            "time": "2025-06-09T09:42:49",
+            "plausible": true
+          },
+          {
+            "row": 84,
+            "time": "2025-06-09T09:50:32",
+            "plausible": true
+          },
+          {
+            "row": 280,
+            "time": "2025-06-09T09:58:16",
+            "plausible": true
+          },
+          {
+            "row": 89,
+            "time": "2025-06-09T10:06:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.6.9-AIR-7A59BD98A4C16F"
+  },
+  {
+    "id": "2025.6.9-AIR-B0B5F28180FE03",
+    "before_after": {
+      "v4": "黄海中部",
+      "v9": "黄海"
+    },
+    "explicit_region_values": {
+      "开源军情": "黄海中部",
+      "网上舆论": "黄海"
+    },
+    "radar_check": [
+      {
+        "region": "黄海",
+        "per_row": [
+          {
+            "row": 92,
+            "time": "2025-06-09T11:59:00",
+            "plausible": true
+          },
+          {
+            "row": 6,
+            "time": "2025-06-09T12:06:43",
+            "plausible": true
+          },
+          {
+            "row": 179,
+            "time": "2025-06-09T12:14:27",
+            "plausible": true
+          },
+          {
+            "row": 153,
+            "time": "2025-06-09T12:22:10",
+            "plausible": true
+          },
+          {
+            "row": 59,
+            "time": "2025-06-09T12:29:54",
+            "plausible": true
+          },
+          {
+            "row": 253,
+            "time": "2025-06-09T12:37:38",
+            "plausible": true
+          },
+          {
+            "row": 283,
+            "time": "2025-06-09T12:45:21",
+            "plausible": true
+          },
+          {
+            "row": 163,
+            "time": "2025-06-09T12:53:05",
+            "plausible": true
+          },
+          {
+            "row": 108,
+            "time": "2025-06-09T13:00:49",
+            "plausible": true
+          },
+          {
+            "row": 218,
+            "time": "2025-06-09T13:08:32",
+            "plausible": true
+          },
+          {
+            "row": 191,
+            "time": "2025-06-09T13:16:16",
+            "plausible": true
+          },
+          {
+            "row": 86,
+            "time": "2025-06-09T13:24:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "黄海中部",
+        "per_row": [
+          {
+            "row": 92,
+            "time": "2025-06-09T11:59:00",
+            "plausible": true
+          },
+          {
+            "row": 6,
+            "time": "2025-06-09T12:06:43",
+            "plausible": true
+          },
+          {
+            "row": 179,
+            "time": "2025-06-09T12:14:27",
+            "plausible": true
+          },
+          {
+            "row": 153,
+            "time": "2025-06-09T12:22:10",
+            "plausible": true
+          },
+          {
+            "row": 59,
+            "time": "2025-06-09T12:29:54",
+            "plausible": true
+          },
+          {
+            "row": 253,
+            "time": "2025-06-09T12:37:38",
+            "plausible": true
+          },
+          {
+            "row": 283,
+            "time": "2025-06-09T12:45:21",
+            "plausible": true
+          },
+          {
+            "row": 163,
+            "time": "2025-06-09T12:53:05",
+            "plausible": true
+          },
+          {
+            "row": 108,
+            "time": "2025-06-09T13:00:49",
+            "plausible": true
+          },
+          {
+            "row": 218,
+            "time": "2025-06-09T13:08:32",
+            "plausible": true
+          },
+          {
+            "row": 191,
+            "time": "2025-06-09T13:16:16",
+            "plausible": true
+          },
+          {
+            "row": 86,
+            "time": "2025-06-09T13:24:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.6.9-AIR-B0B5F28180FE03"
+  },
+  {
+    "id": "2025.6.9-AIR-D0EAB644175642",
+    "before_after": {
+      "v4": "长江口外海",
+      "v9": "东海"
+    },
+    "explicit_region_values": {
+      "开源军情": "长江口外海",
+      "网上舆论": "东海"
+    },
+    "radar_check": [
+      {
+        "region": "东海",
+        "per_row": [
+          {
+            "row": 267,
+            "time": "2025-06-09T17:35:00",
+            "plausible": true
+          },
+          {
+            "row": 174,
+            "time": "2025-06-09T17:42:43",
+            "plausible": true
+          },
+          {
+            "row": 272,
+            "time": "2025-06-09T17:50:27",
+            "plausible": true
+          },
+          {
+            "row": 139,
+            "time": "2025-06-09T17:58:10",
+            "plausible": true
+          },
+          {
+            "row": 136,
+            "time": "2025-06-09T18:05:54",
+            "plausible": true
+          },
+          {
+            "row": 128,
+            "time": "2025-06-09T18:13:38",
+            "plausible": true
+          },
+          {
+            "row": 53,
+            "time": "2025-06-09T18:21:21",
+            "plausible": true
+          },
+          {
+            "row": 100,
+            "time": "2025-06-09T18:29:05",
+            "plausible": true
+          },
+          {
+            "row": 192,
+            "time": "2025-06-09T18:36:49",
+            "plausible": true
+          },
+          {
+            "row": 74,
+            "time": "2025-06-09T18:44:32",
+            "plausible": true
+          },
+          {
+            "row": 282,
+            "time": "2025-06-09T18:52:16",
+            "plausible": true
+          },
+          {
+            "row": 29,
+            "time": "2025-06-09T19:00:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "长江口外海",
+        "per_row": [
+          {
+            "row": 267,
+            "time": "2025-06-09T17:35:00",
+            "plausible": true
+          },
+          {
+            "row": 174,
+            "time": "2025-06-09T17:42:43",
+            "plausible": true
+          },
+          {
+            "row": 272,
+            "time": "2025-06-09T17:50:27",
+            "plausible": true
+          },
+          {
+            "row": 139,
+            "time": "2025-06-09T17:58:10",
+            "plausible": true
+          },
+          {
+            "row": 136,
+            "time": "2025-06-09T18:05:54",
+            "plausible": true
+          },
+          {
+            "row": 128,
+            "time": "2025-06-09T18:13:38",
+            "plausible": true
+          },
+          {
+            "row": 53,
+            "time": "2025-06-09T18:21:21",
+            "plausible": true
+          },
+          {
+            "row": 100,
+            "time": "2025-06-09T18:29:05",
+            "plausible": true
+          },
+          {
+            "row": 192,
+            "time": "2025-06-09T18:36:49",
+            "plausible": true
+          },
+          {
+            "row": 74,
+            "time": "2025-06-09T18:44:32",
+            "plausible": true
+          },
+          {
+            "row": 282,
+            "time": "2025-06-09T18:52:16",
+            "plausible": true
+          },
+          {
+            "row": 29,
+            "time": "2025-06-09T19:00:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.6.9-AIR-D0EAB644175642"
+  },
+  {
+    "id": "2025.6.9-AIR-E36A81BF0E2BBE",
+    "before_after": {
+      "v4": "渚碧礁附近海域",
+      "v9": "南海"
+    },
+    "explicit_region_values": {
+      "开源军情": "渚碧礁附近海域",
+      "网上舆论": "南海"
+    },
+    "radar_check": [
+      {
+        "region": "南海",
+        "per_row": [
+          {
+            "row": 296,
+            "time": "2025-06-09T08:03:00",
+            "plausible": true
+          },
+          {
+            "row": 85,
+            "time": "2025-06-09T08:16:10",
+            "plausible": true
+          },
+          {
+            "row": 226,
+            "time": "2025-06-09T08:29:21",
+            "plausible": true
+          },
+          {
+            "row": 7,
+            "time": "2025-06-09T08:42:32",
+            "plausible": true
+          },
+          {
+            "row": 46,
+            "time": "2025-06-09T08:55:43",
+            "plausible": true
+          },
+          {
+            "row": 22,
+            "time": "2025-06-09T09:08:54",
+            "plausible": true
+          },
+          {
+            "row": 271,
+            "time": "2025-06-09T09:22:05",
+            "plausible": true
+          },
+          {
+            "row": 16,
+            "time": "2025-06-09T09:35:16",
+            "plausible": true
+          },
+          {
+            "row": 20,
+            "time": "2025-06-09T09:48:27",
+            "plausible": true
+          },
+          {
+            "row": 171,
+            "time": "2025-06-09T10:01:38",
+            "plausible": true
+          },
+          {
+            "row": 54,
+            "time": "2025-06-09T10:14:49",
+            "plausible": true
+          },
+          {
+            "row": 238,
+            "time": "2025-06-09T10:28:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "渚碧礁附近海域",
+        "per_row": [
+          {
+            "row": 296,
+            "time": "2025-06-09T08:03:00",
+            "plausible": true
+          },
+          {
+            "row": 85,
+            "time": "2025-06-09T08:16:10",
+            "plausible": true
+          },
+          {
+            "row": 226,
+            "time": "2025-06-09T08:29:21",
+            "plausible": true
+          },
+          {
+            "row": 7,
+            "time": "2025-06-09T08:42:32",
+            "plausible": true
+          },
+          {
+            "row": 46,
+            "time": "2025-06-09T08:55:43",
+            "plausible": true
+          },
+          {
+            "row": 22,
+            "time": "2025-06-09T09:08:54",
+            "plausible": true
+          },
+          {
+            "row": 271,
+            "time": "2025-06-09T09:22:05",
+            "plausible": true
+          },
+          {
+            "row": 16,
+            "time": "2025-06-09T09:35:16",
+            "plausible": true
+          },
+          {
+            "row": 20,
+            "time": "2025-06-09T09:48:27",
+            "plausible": true
+          },
+          {
+            "row": 171,
+            "time": "2025-06-09T10:01:38",
+            "plausible": true
+          },
+          {
+            "row": 54,
+            "time": "2025-06-09T10:14:49",
+            "plausible": true
+          },
+          {
+            "row": 238,
+            "time": "2025-06-09T10:28:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.6.9-AIR-E36A81BF0E2BBE"
+  },
+  {
+    "id": "2025.7.17-AIR-2155E43FD0342D",
+    "before_after": {
+      "v4": "万安滩海域",
+      "v9": "南海"
+    },
+    "explicit_region_values": {
+      "开源军情": "万安滩海域",
+      "网上舆论": "南海"
+    },
+    "radar_check": [
+      {
+        "region": "万安滩海域",
+        "per_row": [
+          {
+            "row": 125,
+            "time": "2025-07-17T20:09:00",
+            "plausible": true
+          },
+          {
+            "row": 235,
+            "time": "2025-07-17T20:22:10",
+            "plausible": true
+          },
+          {
+            "row": 242,
+            "time": "2025-07-17T20:35:21",
+            "plausible": true
+          },
+          {
+            "row": 111,
+            "time": "2025-07-17T20:48:32",
+            "plausible": true
+          },
+          {
+            "row": 206,
+            "time": "2025-07-17T21:01:43",
+            "plausible": true
+          },
+          {
+            "row": 255,
+            "time": "2025-07-17T21:14:54",
+            "plausible": true
+          },
+          {
+            "row": 211,
+            "time": "2025-07-17T21:28:05",
+            "plausible": true
+          },
+          {
+            "row": 37,
+            "time": "2025-07-17T21:41:16",
+            "plausible": true
+          },
+          {
+            "row": 247,
+            "time": "2025-07-17T21:54:27",
+            "plausible": true
+          },
+          {
+            "row": 104,
+            "time": "2025-07-17T22:07:38",
+            "plausible": true
+          },
+          {
+            "row": 77,
+            "time": "2025-07-17T22:20:49",
+            "plausible": true
+          },
+          {
+            "row": 246,
+            "time": "2025-07-17T22:34:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "南海",
+        "per_row": [
+          {
+            "row": 125,
+            "time": "2025-07-17T20:09:00",
+            "plausible": true
+          },
+          {
+            "row": 235,
+            "time": "2025-07-17T20:22:10",
+            "plausible": true
+          },
+          {
+            "row": 242,
+            "time": "2025-07-17T20:35:21",
+            "plausible": true
+          },
+          {
+            "row": 111,
+            "time": "2025-07-17T20:48:32",
+            "plausible": true
+          },
+          {
+            "row": 206,
+            "time": "2025-07-17T21:01:43",
+            "plausible": true
+          },
+          {
+            "row": 255,
+            "time": "2025-07-17T21:14:54",
+            "plausible": true
+          },
+          {
+            "row": 211,
+            "time": "2025-07-17T21:28:05",
+            "plausible": true
+          },
+          {
+            "row": 37,
+            "time": "2025-07-17T21:41:16",
+            "plausible": true
+          },
+          {
+            "row": 247,
+            "time": "2025-07-17T21:54:27",
+            "plausible": true
+          },
+          {
+            "row": 104,
+            "time": "2025-07-17T22:07:38",
+            "plausible": true
+          },
+          {
+            "row": 77,
+            "time": "2025-07-17T22:20:49",
+            "plausible": true
+          },
+          {
+            "row": 246,
+            "time": "2025-07-17T22:34:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.7.17-AIR-2155E43FD0342D"
+  },
+  {
+    "id": "2025.7.17-AIR-C7099FAEFEF22C",
+    "before_after": {
+      "v4": "海州湾外海",
+      "v9": "黄海"
+    },
+    "explicit_region_values": {
+      "开源军情": "海州湾外海",
+      "网上舆论": "黄海"
+    },
+    "radar_check": [
+      {
+        "region": "海州湾外海",
+        "per_row": [
+          {
+            "row": 188,
+            "time": "2025-07-17T02:27:00",
+            "plausible": true
+          },
+          {
+            "row": 237,
+            "time": "2025-07-17T02:40:10",
+            "plausible": true
+          },
+          {
+            "row": 35,
+            "time": "2025-07-17T02:53:21",
+            "plausible": true
+          },
+          {
+            "row": 173,
+            "time": "2025-07-17T03:06:32",
+            "plausible": true
+          },
+          {
+            "row": 162,
+            "time": "2025-07-17T03:19:43",
+            "plausible": true
+          },
+          {
+            "row": 94,
+            "time": "2025-07-17T03:32:54",
+            "plausible": true
+          },
+          {
+            "row": 71,
+            "time": "2025-07-17T03:46:05",
+            "plausible": true
+          },
+          {
+            "row": 177,
+            "time": "2025-07-17T03:59:16",
+            "plausible": true
+          },
+          {
+            "row": 130,
+            "time": "2025-07-17T04:12:27",
+            "plausible": true
+          },
+          {
+            "row": 50,
+            "time": "2025-07-17T04:25:38",
+            "plausible": true
+          },
+          {
+            "row": 218,
+            "time": "2025-07-17T04:38:49",
+            "plausible": true
+          },
+          {
+            "row": 102,
+            "time": "2025-07-17T04:52:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "黄海",
+        "per_row": [
+          {
+            "row": 188,
+            "time": "2025-07-17T02:27:00",
+            "plausible": true
+          },
+          {
+            "row": 237,
+            "time": "2025-07-17T02:40:10",
+            "plausible": true
+          },
+          {
+            "row": 35,
+            "time": "2025-07-17T02:53:21",
+            "plausible": true
+          },
+          {
+            "row": 173,
+            "time": "2025-07-17T03:06:32",
+            "plausible": true
+          },
+          {
+            "row": 162,
+            "time": "2025-07-17T03:19:43",
+            "plausible": true
+          },
+          {
+            "row": 94,
+            "time": "2025-07-17T03:32:54",
+            "plausible": true
+          },
+          {
+            "row": 71,
+            "time": "2025-07-17T03:46:05",
+            "plausible": true
+          },
+          {
+            "row": 177,
+            "time": "2025-07-17T03:59:16",
+            "plausible": true
+          },
+          {
+            "row": 130,
+            "time": "2025-07-17T04:12:27",
+            "plausible": true
+          },
+          {
+            "row": 50,
+            "time": "2025-07-17T04:25:38",
+            "plausible": true
+          },
+          {
+            "row": 218,
+            "time": "2025-07-17T04:38:49",
+            "plausible": true
+          },
+          {
+            "row": 102,
+            "time": "2025-07-17T04:52:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.7.17-AIR-C7099FAEFEF22C"
+  },
+  {
+    "id": "2025.7.17-AIR-F9B6C40CD6D539",
+    "before_after": {
+      "v4": "南海北部",
+      "v9": "南海"
+    },
+    "explicit_region_values": {
+      "开源军情": "南海北部",
+      "网上舆论": "南海"
+    },
+    "radar_check": [
+      {
+        "region": "南海",
+        "per_row": [
+          {
+            "row": 200,
+            "time": "2025-07-17T02:49:00",
+            "plausible": true
+          },
+          {
+            "row": 29,
+            "time": "2025-07-17T02:56:05",
+            "plausible": true
+          },
+          {
+            "row": 60,
+            "time": "2025-07-17T03:03:10",
+            "plausible": true
+          },
+          {
+            "row": 279,
+            "time": "2025-07-17T03:10:15",
+            "plausible": true
+          },
+          {
+            "row": 149,
+            "time": "2025-07-17T03:17:20",
+            "plausible": true
+          },
+          {
+            "row": 138,
+            "time": "2025-07-17T03:24:25",
+            "plausible": true
+          },
+          {
+            "row": 10,
+            "time": "2025-07-17T03:31:30",
+            "plausible": true
+          },
+          {
+            "row": 176,
+            "time": "2025-07-17T03:38:35",
+            "plausible": true
+          },
+          {
+            "row": 268,
+            "time": "2025-07-17T03:45:40",
+            "plausible": true
+          },
+          {
+            "row": 291,
+            "time": "2025-07-17T03:52:45",
+            "plausible": true
+          },
+          {
+            "row": 148,
+            "time": "2025-07-17T03:59:50",
+            "plausible": true
+          },
+          {
+            "row": 120,
+            "time": "2025-07-17T04:06:55",
+            "plausible": true
+          },
+          {
+            "row": 12,
+            "time": "2025-07-17T04:14:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "南海北部",
+        "per_row": [
+          {
+            "row": 200,
+            "time": "2025-07-17T02:49:00",
+            "plausible": true
+          },
+          {
+            "row": 29,
+            "time": "2025-07-17T02:56:05",
+            "plausible": true
+          },
+          {
+            "row": 60,
+            "time": "2025-07-17T03:03:10",
+            "plausible": true
+          },
+          {
+            "row": 279,
+            "time": "2025-07-17T03:10:15",
+            "plausible": true
+          },
+          {
+            "row": 149,
+            "time": "2025-07-17T03:17:20",
+            "plausible": true
+          },
+          {
+            "row": 138,
+            "time": "2025-07-17T03:24:25",
+            "plausible": true
+          },
+          {
+            "row": 10,
+            "time": "2025-07-17T03:31:30",
+            "plausible": true
+          },
+          {
+            "row": 176,
+            "time": "2025-07-17T03:38:35",
+            "plausible": true
+          },
+          {
+            "row": 268,
+            "time": "2025-07-17T03:45:40",
+            "plausible": true
+          },
+          {
+            "row": 291,
+            "time": "2025-07-17T03:52:45",
+            "plausible": true
+          },
+          {
+            "row": 148,
+            "time": "2025-07-17T03:59:50",
+            "plausible": true
+          },
+          {
+            "row": 120,
+            "time": "2025-07-17T04:06:55",
+            "plausible": true
+          },
+          {
+            "row": 12,
+            "time": "2025-07-17T04:14:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.7.17-AIR-F9B6C40CD6D539"
+  },
+  {
+    "id": "2025.7.9-AIR-00E4A11648FD8A",
+    "before_after": {
+      "v4": "青岛外海",
+      "v9": "黄海"
+    },
+    "explicit_region_values": {
+      "开源军情": "青岛外海",
+      "网上舆论": "黄海"
+    },
+    "radar_check": [
+      {
+        "region": "青岛外海",
+        "per_row": [
+          {
+            "row": 226,
+            "time": "2025-07-09T05:23:00",
+            "plausible": true
+          },
+          {
+            "row": 235,
+            "time": "2025-07-09T05:37:30",
+            "plausible": true
+          },
+          {
+            "row": 154,
+            "time": "2025-07-09T05:52:00",
+            "plausible": true
+          },
+          {
+            "row": 246,
+            "time": "2025-07-09T06:06:30",
+            "plausible": true
+          },
+          {
+            "row": 273,
+            "time": "2025-07-09T06:21:00",
+            "plausible": true
+          },
+          {
+            "row": 217,
+            "time": "2025-07-09T06:35:30",
+            "plausible": true
+          },
+          {
+            "row": 6,
+            "time": "2025-07-09T06:50:00",
+            "plausible": true
+          },
+          {
+            "row": 80,
+            "time": "2025-07-09T07:04:30",
+            "plausible": true
+          },
+          {
+            "row": 81,
+            "time": "2025-07-09T07:19:00",
+            "plausible": true
+          },
+          {
+            "row": 159,
+            "time": "2025-07-09T07:33:30",
+            "plausible": true
+          },
+          {
+            "row": 140,
+            "time": "2025-07-09T07:48:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "黄海",
+        "per_row": [
+          {
+            "row": 226,
+            "time": "2025-07-09T05:23:00",
+            "plausible": true
+          },
+          {
+            "row": 235,
+            "time": "2025-07-09T05:37:30",
+            "plausible": true
+          },
+          {
+            "row": 154,
+            "time": "2025-07-09T05:52:00",
+            "plausible": true
+          },
+          {
+            "row": 246,
+            "time": "2025-07-09T06:06:30",
+            "plausible": true
+          },
+          {
+            "row": 273,
+            "time": "2025-07-09T06:21:00",
+            "plausible": true
+          },
+          {
+            "row": 217,
+            "time": "2025-07-09T06:35:30",
+            "plausible": true
+          },
+          {
+            "row": 6,
+            "time": "2025-07-09T06:50:00",
+            "plausible": true
+          },
+          {
+            "row": 80,
+            "time": "2025-07-09T07:04:30",
+            "plausible": true
+          },
+          {
+            "row": 81,
+            "time": "2025-07-09T07:19:00",
+            "plausible": true
+          },
+          {
+            "row": 159,
+            "time": "2025-07-09T07:33:30",
+            "plausible": true
+          },
+          {
+            "row": 140,
+            "time": "2025-07-09T07:48:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.7.9-AIR-00E4A11648FD8A"
+  },
+  {
+    "id": "2025.7.9-AIR-4D3C301D3FD2BC",
+    "before_after": {
+      "v4": "南黄海",
+      "v9": "黄海"
+    },
+    "explicit_region_values": {
+      "开源军情": "南黄海",
+      "网上舆论": "黄海"
+    },
+    "radar_check": [
+      {
+        "region": "南黄海",
+        "per_row": [
+          {
+            "row": 265,
+            "time": "2025-07-09T17:13:00",
+            "plausible": true
+          },
+          {
+            "row": 165,
+            "time": "2025-07-09T17:27:30",
+            "plausible": true
+          },
+          {
+            "row": 281,
+            "time": "2025-07-09T17:42:00",
+            "plausible": true
+          },
+          {
+            "row": 209,
+            "time": "2025-07-09T17:56:30",
+            "plausible": true
+          },
+          {
+            "row": 250,
+            "time": "2025-07-09T18:11:00",
+            "plausible": true
+          },
+          {
+            "row": 193,
+            "time": "2025-07-09T18:25:30",
+            "plausible": true
+          },
+          {
+            "row": 63,
+            "time": "2025-07-09T18:40:00",
+            "plausible": true
+          },
+          {
+            "row": 279,
+            "time": "2025-07-09T18:54:30",
+            "plausible": true
+          },
+          {
+            "row": 234,
+            "time": "2025-07-09T19:09:00",
+            "plausible": true
+          },
+          {
+            "row": 277,
+            "time": "2025-07-09T19:23:30",
+            "plausible": true
+          },
+          {
+            "row": 28,
+            "time": "2025-07-09T19:38:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "黄海",
+        "per_row": [
+          {
+            "row": 265,
+            "time": "2025-07-09T17:13:00",
+            "plausible": true
+          },
+          {
+            "row": 165,
+            "time": "2025-07-09T17:27:30",
+            "plausible": true
+          },
+          {
+            "row": 281,
+            "time": "2025-07-09T17:42:00",
+            "plausible": true
+          },
+          {
+            "row": 209,
+            "time": "2025-07-09T17:56:30",
+            "plausible": true
+          },
+          {
+            "row": 250,
+            "time": "2025-07-09T18:11:00",
+            "plausible": true
+          },
+          {
+            "row": 193,
+            "time": "2025-07-09T18:25:30",
+            "plausible": true
+          },
+          {
+            "row": 63,
+            "time": "2025-07-09T18:40:00",
+            "plausible": true
+          },
+          {
+            "row": 279,
+            "time": "2025-07-09T18:54:30",
+            "plausible": true
+          },
+          {
+            "row": 234,
+            "time": "2025-07-09T19:09:00",
+            "plausible": true
+          },
+          {
+            "row": 277,
+            "time": "2025-07-09T19:23:30",
+            "plausible": true
+          },
+          {
+            "row": 28,
+            "time": "2025-07-09T19:38:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.7.9-AIR-4D3C301D3FD2BC"
+  },
+  {
+    "id": "2025.7.9-AIR-5F5CFC5CE15BB7",
+    "before_after": {
+      "v4": "上海外海",
+      "v9": "东海"
+    },
+    "explicit_region_values": {
+      "开源军情": "上海外海",
+      "网上舆论": "东海"
+    },
+    "radar_check": [
+      {
+        "region": "上海外海",
+        "per_row": [
+          {
+            "row": 41,
+            "time": "2025-07-09T02:27:00",
+            "plausible": true
+          },
+          {
+            "row": 267,
+            "time": "2025-07-09T02:41:30",
+            "plausible": true
+          },
+          {
+            "row": 244,
+            "time": "2025-07-09T02:56:00",
+            "plausible": true
+          },
+          {
+            "row": 238,
+            "time": "2025-07-09T03:10:30",
+            "plausible": true
+          },
+          {
+            "row": 19,
+            "time": "2025-07-09T03:25:00",
+            "plausible": true
+          },
+          {
+            "row": 162,
+            "time": "2025-07-09T03:39:30",
+            "plausible": true
+          },
+          {
+            "row": 261,
+            "time": "2025-07-09T03:54:00",
+            "plausible": true
+          },
+          {
+            "row": 145,
+            "time": "2025-07-09T04:08:30",
+            "plausible": true
+          },
+          {
+            "row": 293,
+            "time": "2025-07-09T04:23:00",
+            "plausible": true
+          },
+          {
+            "row": 67,
+            "time": "2025-07-09T04:37:30",
+            "plausible": true
+          },
+          {
+            "row": 168,
+            "time": "2025-07-09T04:52:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "东海",
+        "per_row": [
+          {
+            "row": 41,
+            "time": "2025-07-09T02:27:00",
+            "plausible": true
+          },
+          {
+            "row": 267,
+            "time": "2025-07-09T02:41:30",
+            "plausible": true
+          },
+          {
+            "row": 244,
+            "time": "2025-07-09T02:56:00",
+            "plausible": true
+          },
+          {
+            "row": 238,
+            "time": "2025-07-09T03:10:30",
+            "plausible": true
+          },
+          {
+            "row": 19,
+            "time": "2025-07-09T03:25:00",
+            "plausible": true
+          },
+          {
+            "row": 162,
+            "time": "2025-07-09T03:39:30",
+            "plausible": true
+          },
+          {
+            "row": 261,
+            "time": "2025-07-09T03:54:00",
+            "plausible": true
+          },
+          {
+            "row": 145,
+            "time": "2025-07-09T04:08:30",
+            "plausible": true
+          },
+          {
+            "row": 293,
+            "time": "2025-07-09T04:23:00",
+            "plausible": true
+          },
+          {
+            "row": 67,
+            "time": "2025-07-09T04:37:30",
+            "plausible": true
+          },
+          {
+            "row": 168,
+            "time": "2025-07-09T04:52:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.7.9-AIR-5F5CFC5CE15BB7"
+  },
+  {
+    "id": "2025.7.9-AIR-790C13D3E12D8D",
+    "before_after": {
+      "v4": "海州湾外海",
+      "v9": "黄海"
+    },
+    "explicit_region_values": {
+      "开源军情": "海州湾外海",
+      "网上舆论": "黄海"
+    },
+    "radar_check": [
+      {
+        "region": "海州湾外海",
+        "per_row": [
+          {
+            "row": 134,
+            "time": "2025-07-09T14:55:00",
+            "plausible": true
+          },
+          {
+            "row": 146,
+            "time": "2025-07-09T15:03:30",
+            "plausible": true
+          },
+          {
+            "row": 202,
+            "time": "2025-07-09T15:12:00",
+            "plausible": true
+          },
+          {
+            "row": 260,
+            "time": "2025-07-09T15:20:30",
+            "plausible": true
+          },
+          {
+            "row": 280,
+            "time": "2025-07-09T15:29:00",
+            "plausible": true
+          },
+          {
+            "row": 7,
+            "time": "2025-07-09T15:37:30",
+            "plausible": true
+          },
+          {
+            "row": 26,
+            "time": "2025-07-09T15:46:00",
+            "plausible": true
+          },
+          {
+            "row": 275,
+            "time": "2025-07-09T15:54:30",
+            "plausible": true
+          },
+          {
+            "row": 169,
+            "time": "2025-07-09T16:03:00",
+            "plausible": true
+          },
+          {
+            "row": 242,
+            "time": "2025-07-09T16:11:30",
+            "plausible": true
+          },
+          {
+            "row": 295,
+            "time": "2025-07-09T16:20:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "黄海",
+        "per_row": [
+          {
+            "row": 134,
+            "time": "2025-07-09T14:55:00",
+            "plausible": true
+          },
+          {
+            "row": 146,
+            "time": "2025-07-09T15:03:30",
+            "plausible": true
+          },
+          {
+            "row": 202,
+            "time": "2025-07-09T15:12:00",
+            "plausible": true
+          },
+          {
+            "row": 260,
+            "time": "2025-07-09T15:20:30",
+            "plausible": true
+          },
+          {
+            "row": 280,
+            "time": "2025-07-09T15:29:00",
+            "plausible": true
+          },
+          {
+            "row": 7,
+            "time": "2025-07-09T15:37:30",
+            "plausible": true
+          },
+          {
+            "row": 26,
+            "time": "2025-07-09T15:46:00",
+            "plausible": true
+          },
+          {
+            "row": 275,
+            "time": "2025-07-09T15:54:30",
+            "plausible": true
+          },
+          {
+            "row": 169,
+            "time": "2025-07-09T16:03:00",
+            "plausible": true
+          },
+          {
+            "row": 242,
+            "time": "2025-07-09T16:11:30",
+            "plausible": true
+          },
+          {
+            "row": 295,
+            "time": "2025-07-09T16:20:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.7.9-AIR-790C13D3E12D8D"
+  },
+  {
+    "id": "2025.7.9-AIR-837E22A3A82271",
+    "before_after": {
+      "v4": "北黄海",
+      "v9": "黄海"
+    },
+    "explicit_region_values": {
+      "开源军情": "北黄海",
+      "网上舆论": "黄海"
+    },
+    "radar_check": [
+      {
+        "region": "北黄海",
+        "per_row": [
+          {
+            "row": 52,
+            "time": "2025-07-09T14:17:00",
+            "plausible": true
+          },
+          {
+            "row": 59,
+            "time": "2025-07-09T14:30:10",
+            "plausible": true
+          },
+          {
+            "row": 4,
+            "time": "2025-07-09T14:43:21",
+            "plausible": true
+          },
+          {
+            "row": 172,
+            "time": "2025-07-09T14:56:32",
+            "plausible": true
+          },
+          {
+            "row": 137,
+            "time": "2025-07-09T15:09:43",
+            "plausible": true
+          },
+          {
+            "row": 104,
+            "time": "2025-07-09T15:22:54",
+            "plausible": true
+          },
+          {
+            "row": 119,
+            "time": "2025-07-09T15:36:05",
+            "plausible": true
+          },
+          {
+            "row": 90,
+            "time": "2025-07-09T15:49:16",
+            "plausible": true
+          },
+          {
+            "row": 229,
+            "time": "2025-07-09T16:02:27",
+            "plausible": true
+          },
+          {
+            "row": 100,
+            "time": "2025-07-09T16:15:38",
+            "plausible": true
+          },
+          {
+            "row": 64,
+            "time": "2025-07-09T16:28:49",
+            "plausible": true
+          },
+          {
+            "row": 45,
+            "time": "2025-07-09T16:42:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "黄海",
+        "per_row": [
+          {
+            "row": 52,
+            "time": "2025-07-09T14:17:00",
+            "plausible": true
+          },
+          {
+            "row": 59,
+            "time": "2025-07-09T14:30:10",
+            "plausible": true
+          },
+          {
+            "row": 4,
+            "time": "2025-07-09T14:43:21",
+            "plausible": true
+          },
+          {
+            "row": 172,
+            "time": "2025-07-09T14:56:32",
+            "plausible": true
+          },
+          {
+            "row": 137,
+            "time": "2025-07-09T15:09:43",
+            "plausible": true
+          },
+          {
+            "row": 104,
+            "time": "2025-07-09T15:22:54",
+            "plausible": true
+          },
+          {
+            "row": 119,
+            "time": "2025-07-09T15:36:05",
+            "plausible": true
+          },
+          {
+            "row": 90,
+            "time": "2025-07-09T15:49:16",
+            "plausible": true
+          },
+          {
+            "row": 229,
+            "time": "2025-07-09T16:02:27",
+            "plausible": true
+          },
+          {
+            "row": 100,
+            "time": "2025-07-09T16:15:38",
+            "plausible": true
+          },
+          {
+            "row": 64,
+            "time": "2025-07-09T16:28:49",
+            "plausible": true
+          },
+          {
+            "row": 45,
+            "time": "2025-07-09T16:42:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.7.9-AIR-837E22A3A82271"
+  },
+  {
+    "id": "2025.7.9-AIR-C07E718BA45003",
+    "before_after": {
+      "v4": "青岛外海",
+      "v9": "黄海"
+    },
+    "explicit_region_values": {
+      "开源军情": "青岛外海",
+      "网上舆论": "黄海"
+    },
+    "radar_check": [
+      {
+        "region": "青岛外海",
+        "per_row": [
+          {
+            "row": 286,
+            "time": "2025-07-09T08:03:00",
+            "plausible": true
+          },
+          {
+            "row": 296,
+            "time": "2025-07-09T08:16:10",
+            "plausible": true
+          },
+          {
+            "row": 287,
+            "time": "2025-07-09T08:29:21",
+            "plausible": true
+          },
+          {
+            "row": 142,
+            "time": "2025-07-09T08:42:32",
+            "plausible": true
+          },
+          {
+            "row": 34,
+            "time": "2025-07-09T08:55:43",
+            "plausible": true
+          },
+          {
+            "row": 196,
+            "time": "2025-07-09T09:08:54",
+            "plausible": true
+          },
+          {
+            "row": 177,
+            "time": "2025-07-09T09:22:05",
+            "plausible": true
+          },
+          {
+            "row": 5,
+            "time": "2025-07-09T09:35:16",
+            "plausible": true
+          },
+          {
+            "row": 269,
+            "time": "2025-07-09T09:48:27",
+            "plausible": true
+          },
+          {
+            "row": 175,
+            "time": "2025-07-09T10:01:38",
+            "plausible": true
+          },
+          {
+            "row": 245,
+            "time": "2025-07-09T10:14:49",
+            "plausible": true
+          },
+          {
+            "row": 266,
+            "time": "2025-07-09T10:28:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "黄海",
+        "per_row": [
+          {
+            "row": 286,
+            "time": "2025-07-09T08:03:00",
+            "plausible": true
+          },
+          {
+            "row": 296,
+            "time": "2025-07-09T08:16:10",
+            "plausible": true
+          },
+          {
+            "row": 287,
+            "time": "2025-07-09T08:29:21",
+            "plausible": true
+          },
+          {
+            "row": 142,
+            "time": "2025-07-09T08:42:32",
+            "plausible": true
+          },
+          {
+            "row": 34,
+            "time": "2025-07-09T08:55:43",
+            "plausible": true
+          },
+          {
+            "row": 196,
+            "time": "2025-07-09T09:08:54",
+            "plausible": true
+          },
+          {
+            "row": 177,
+            "time": "2025-07-09T09:22:05",
+            "plausible": true
+          },
+          {
+            "row": 5,
+            "time": "2025-07-09T09:35:16",
+            "plausible": true
+          },
+          {
+            "row": 269,
+            "time": "2025-07-09T09:48:27",
+            "plausible": true
+          },
+          {
+            "row": 175,
+            "time": "2025-07-09T10:01:38",
+            "plausible": true
+          },
+          {
+            "row": 245,
+            "time": "2025-07-09T10:14:49",
+            "plausible": true
+          },
+          {
+            "row": 266,
+            "time": "2025-07-09T10:28:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.7.9-AIR-C07E718BA45003"
+  },
+  {
+    "id": "2025.7.9-AIR-C4528DADD3034E",
+    "before_after": {
+      "v4": "冲绳海槽",
+      "v9": "东海"
+    },
+    "explicit_region_values": {
+      "开源军情": "冲绳海槽",
+      "网上舆论": "东海"
+    },
+    "radar_check": [
+      {
+        "region": "东海",
+        "per_row": [
+          {
+            "row": 256,
+            "time": "2025-07-09T02:49:00",
+            "plausible": true
+          },
+          {
+            "row": 289,
+            "time": "2025-07-09T02:56:43",
+            "plausible": true
+          },
+          {
+            "row": 87,
+            "time": "2025-07-09T03:04:27",
+            "plausible": true
+          },
+          {
+            "row": 264,
+            "time": "2025-07-09T03:12:10",
+            "plausible": true
+          },
+          {
+            "row": 272,
+            "time": "2025-07-09T03:19:54",
+            "plausible": true
+          },
+          {
+            "row": 79,
+            "time": "2025-07-09T03:27:38",
+            "plausible": true
+          },
+          {
+            "row": 262,
+            "time": "2025-07-09T03:35:21",
+            "plausible": true
+          },
+          {
+            "row": 141,
+            "time": "2025-07-09T03:43:05",
+            "plausible": true
+          },
+          {
+            "row": 71,
+            "time": "2025-07-09T03:50:49",
+            "plausible": true
+          },
+          {
+            "row": 58,
+            "time": "2025-07-09T03:58:32",
+            "plausible": true
+          },
+          {
+            "row": 206,
+            "time": "2025-07-09T04:06:16",
+            "plausible": true
+          },
+          {
+            "row": 69,
+            "time": "2025-07-09T04:14:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      },
+      {
+        "region": "冲绳海槽",
+        "per_row": [
+          {
+            "row": 256,
+            "time": "2025-07-09T02:49:00",
+            "plausible": true
+          },
+          {
+            "row": 289,
+            "time": "2025-07-09T02:56:43",
+            "plausible": true
+          },
+          {
+            "row": 87,
+            "time": "2025-07-09T03:04:27",
+            "plausible": true
+          },
+          {
+            "row": 264,
+            "time": "2025-07-09T03:12:10",
+            "plausible": true
+          },
+          {
+            "row": 272,
+            "time": "2025-07-09T03:19:54",
+            "plausible": true
+          },
+          {
+            "row": 79,
+            "time": "2025-07-09T03:27:38",
+            "plausible": true
+          },
+          {
+            "row": 262,
+            "time": "2025-07-09T03:35:21",
+            "plausible": true
+          },
+          {
+            "row": 141,
+            "time": "2025-07-09T03:43:05",
+            "plausible": true
+          },
+          {
+            "row": 71,
+            "time": "2025-07-09T03:50:49",
+            "plausible": true
+          },
+          {
+            "row": 58,
+            "time": "2025-07-09T03:58:32",
+            "plausible": true
+          },
+          {
+            "row": 206,
+            "time": "2025-07-09T04:06:16",
+            "plausible": true
+          },
+          {
+            "row": 69,
+            "time": "2025-07-09T04:14:00",
+            "plausible": true
+          }
+        ],
+        "all_rows_plausible": true,
+        "purpose": "工程相容检查，非权威海域边界"
+      }
+    ],
+    "action": "复核原文和地域精度；无两类充分支持时不得直接恢复v4细地名；可保留明确归属的一源线索",
+    "evidence_card": "all_427_candidate_cards.json#2025.7.9-AIR-C4528DADD3034E"
+  }
+]

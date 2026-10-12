@@ -1,0 +1,110 @@
+{
+  "recorded_on": "2026-10-12",
+  "version": "v12",
+  "artifact_directory": "artifact/20261012_163714_initial_eight_nodes_v12",
+  "stage": "initial",
+  "node_count": 8,
+  "nodes": [
+    "2025-05-10",
+    "2025-05-18",
+    "2025-05-30",
+    "2025-06-09",
+    "2025-06-17",
+    "2025-06-29",
+    "2025-07-09",
+    "2025-07-17"
+  ],
+  "source": "user_reported_platform_feedback_in_this_chat",
+  "raw_feedback": "赛程=initial；节点数=8；完整性=86.2631；准确性=67.3760；格式=96.8050；分析=53.6250；总分=各节点(完整性×25%+准确性×40%+格式×15%+分析×20%)的平均值还是不行啊，这个分怎么搞不上去，记录一下然后push本轮结果",
+  "metrics": {
+    "completeness": "86.2631",
+    "accuracy": "67.3760",
+    "format": "96.8050",
+    "analysis": "53.6250"
+  },
+  "weights": {
+    "completeness": "0.25",
+    "accuracy": "0.40",
+    "format": "0.15",
+    "analysis": "0.20"
+  },
+  "weighted_total_exact_from_displayed_means": "73.761925",
+  "weighted_total_4dp": "73.7619",
+  "comparisons": {
+    "v9": {
+      "metrics": {
+        "completeness": "86.2631",
+        "accuracy": "67.3760",
+        "format": "96.5612",
+        "analysis": "55.8750"
+      },
+      "weighted_total_exact": "74.175355",
+      "metric_delta": {
+        "completeness": "0.0000",
+        "accuracy": "0.0000",
+        "format": "0.2438",
+        "analysis": "-2.2500"
+      },
+      "weighted_delta": {
+        "completeness": "0.000000",
+        "accuracy": "0.000000",
+        "format": "0.036570",
+        "analysis": "-0.450000"
+      },
+      "total_delta_exact": "-0.413430",
+      "total_delta_4dp": "-0.4134"
+    },
+    "v4": {
+      "metrics": {
+        "completeness": "74.8767",
+        "accuracy": "85.5277",
+        "format": "76.4282",
+        "analysis": "55.7500"
+      },
+      "weighted_total_exact": "75.544485",
+      "metric_delta": {
+        "completeness": "11.3864",
+        "accuracy": "-18.1517",
+        "format": "20.3768",
+        "analysis": "-2.1250"
+      },
+      "weighted_delta": {
+        "completeness": "2.846600",
+        "accuracy": "-7.260680",
+        "format": "3.056520",
+        "analysis": "-0.425000"
+      },
+      "total_delta_exact": "-1.782560",
+      "total_delta_4dp": "-1.7826"
+    }
+  },
+  "format_to_100_max_total_gain": "0.479250",
+  "artifact_binding": {
+    "basis": "Current chat follows v12 delivery; no independent platform receipt verification.",
+    "pre_evaluation_archives": [
+      {
+        "path": "artifact/20261012_163714_initial_eight_nodes_v12/赛题2_初赛_v12_完整工程包.zip",
+        "bytes": 135964138,
+        "sha256": "3162f4eaaca1351f2e7b6084c95ac0656c632c52ed17128f96772abcb70a4e90"
+      },
+      {
+        "path": "artifact/20261012_163714_initial_eight_nodes_v12/赛题2_初赛_八节点_完整候选提交包.zip",
+        "bytes": 21171292,
+        "sha256": "cd6820d3a93c3b345e008287c79022ca7b5a4a7a23bb4edf549aa0234d1df244"
+      }
+    ],
+    "archives_modified": false
+  },
+  "platform_submission_id": null,
+  "platform_receipt": null,
+  "official_unrounded_total": null,
+  "per_node_scores": null,
+  "deduction_details": null,
+  "comparison_limits": [
+    "Last measured baseline is v9, not v11. No separate v10/v11 scores were supplied.",
+    "v12 visual-only invariance checks compare v11; they do not establish a controlled v9-to-v12 evaluation experiment.",
+    "Do not attribute the analysis decline to chart styling, evaluator randomness or particular events without evidence.",
+    "Accuracy is a rubric score, not a measured event correctness rate; completeness is not recall.",
+    "Pre-evaluation audit statements and archives remain unchanged historical snapshots."
+  ]
+}

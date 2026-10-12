@@ -1,0 +1,3 @@
+interface:
+  display_name: "证据型历史资料分析"
+  short_description: "结合节点前公开资料写分析，并检查引用、日期和论证边界"

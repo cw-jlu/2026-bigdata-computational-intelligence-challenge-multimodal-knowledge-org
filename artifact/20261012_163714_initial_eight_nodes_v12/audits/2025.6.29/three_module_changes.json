@@ -1,0 +1,133 @@
+{
+  "facts": "daily event decisions and values unchanged; entry/exit source-object audit added, unsupported relations not asserted",
+  "analysis": {
+    "node": "2025.6.29",
+    "today_events": 25,
+    "daily_facts_changed": false,
+    "full_related_verified_events": 6,
+    "restored_history": [],
+    "missing_related_verified_events": [],
+    "stages": [
+      {
+        "dates": [
+          "2025.6.2",
+          "2025.6.4",
+          "2025.6.6"
+        ],
+        "events": [
+          "2025.6.2-AIR-26DF9134786963",
+          "2025.6.4-AIR-FB406AA37C561E",
+          "2025.6.6-AIR-C04BC8955CA537"
+        ],
+        "boundary_basis": "东海情报监视侦察三日重复"
+      },
+      {
+        "dates": [
+          "2025.6.16"
+        ],
+        "events": [
+          "2025.6.16-AIR-74B5EB9BFAB738"
+        ],
+        "boundary_basis": "十日缺证间隔后东海空中警戒"
+      },
+      {
+        "dates": [
+          "2025.6.22",
+          "2025.6.29"
+        ],
+        "events": [
+          "2025.6.22-AIR-44CF55E75E5AAB",
+          "2025.6.29-AIR-4549C067D0FC8D"
+        ],
+        "boundary_basis": "黄海两个日期恢复侦察标签"
+      }
+    ],
+    "observational_gaps": [
+      {
+        "from": "2025-06-02",
+        "to": "2025-06-04",
+        "days": 2
+      },
+      {
+        "from": "2025-06-04",
+        "to": "2025-06-06",
+        "days": 2
+      },
+      {
+        "from": "2025-06-06",
+        "to": "2025-06-16",
+        "days": 10
+      },
+      {
+        "from": "2025-06-16",
+        "to": "2025-06-22",
+        "days": 6
+      },
+      {
+        "from": "2025-06-22",
+        "to": "2025-06-29",
+        "days": 7
+      }
+    ],
+    "related_unverified_candidates": [
+      {
+        "event_id": "2025.5.13-AIR-7F9C892472B45E",
+        "decision": "排除",
+        "issues": [
+          "关键字段task不足两类来源支持",
+          "三类来源未全部关联，保留两源或单源候选",
+          "区域精度重审：无两类明确地名或共同核心海域支持"
+        ]
+      },
+      {
+        "event_id": "2025.5.23-AIR-A9A7CE0C255C3A",
+        "decision": "排除",
+        "issues": [
+          "关键字段quantity不足两类来源支持",
+          "三类来源未全部关联，保留两源或单源候选",
+          "区域精度重审：无两类明确地名或共同核心海域支持"
+        ]
+      },
+      {
+        "event_id": "2025.5.25-AIR-3F23462907BB5D",
+        "decision": "域外",
+        "issues": []
+      },
+      {
+        "event_id": "2025.6.14-AIR-8738A5D90F5AA4",
+        "decision": "域外",
+        "issues": []
+      },
+      {
+        "event_id": "2025.6.14-AIR-F89BFE50267957",
+        "decision": "排除",
+        "issues": [
+          "关键区域冲突：[{'source': '网上舆论', 'region': '孟加拉湾'}]",
+          "关键区域不足两类来源支持"
+        ]
+      },
+      {
+        "event_id": "2025.6.22-AIR-713724A226412A",
+        "decision": "排除",
+        "issues": [
+          "关键字段quantity不足两类来源支持",
+          "三类来源未全部关联，保留两源或单源候选",
+          "区域精度重审：无两类明确地名或共同核心海域支持"
+        ]
+      },
+      {
+        "event_id": "2025.6.22-AIR-B5B8945D2CF27D",
+        "decision": "排除",
+        "issues": [
+          "关键字段quantity明确冲突：{'雷达': 2, '开源军情': 2, '网上舆论': 3}",
+          "关键字段task不足两类来源支持"
+        ]
+      }
+    ],
+    "corridor_documents_in_scope": 0,
+    "accepted_entry_exit_claims": 0,
+    "second_section_history_scope": "full stage",
+    "history_outside_second_section": false
+  },
+  "format": "Historical/external index moved inside section II; section V rewritten using current-day facts only; template, workbook schema and four PNG definitions retained"
+}

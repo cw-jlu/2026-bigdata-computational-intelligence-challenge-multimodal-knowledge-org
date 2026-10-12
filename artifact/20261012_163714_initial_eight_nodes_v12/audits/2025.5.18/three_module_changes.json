@@ -1,0 +1,79 @@
+{
+  "facts": "daily event decisions and values unchanged; entry/exit source-object audit added, unsupported relations not asserted",
+  "analysis": {
+    "node": "2025.5.18",
+    "today_events": 24,
+    "daily_facts_changed": false,
+    "full_related_verified_events": 4,
+    "restored_history": [],
+    "missing_related_verified_events": [],
+    "stages": [
+      {
+        "dates": [
+          "2025.5.3",
+          "2025.5.5",
+          "2025.5.7"
+        ],
+        "events": [
+          "2025.5.3-SHIP-8E6CDE150B3CFE",
+          "2025.5.5-SHIP-ECF33B2236B96B",
+          "2025.5.7-SHIP-D42AE8F97E71F9"
+        ],
+        "boundary_basis": "东海编队警戒三个证据日形成比较基线"
+      },
+      {
+        "dates": [
+          "2025.5.18"
+        ],
+        "events": [
+          "2025.5.18-SHIP-8D9B5F7E41B14D"
+        ],
+        "boundary_basis": "间隔11日后南海防空反导训练"
+      }
+    ],
+    "observational_gaps": [
+      {
+        "from": "2025-05-03",
+        "to": "2025-05-05",
+        "days": 2
+      },
+      {
+        "from": "2025-05-05",
+        "to": "2025-05-07",
+        "days": 2
+      },
+      {
+        "from": "2025-05-07",
+        "to": "2025-05-18",
+        "days": 11
+      }
+    ],
+    "related_unverified_candidates": [
+      {
+        "event_id": "2025.5.16-SHIP-86876676616E91",
+        "decision": "排除",
+        "issues": [
+          "雷达区域明确冲突：['东海', '黄海']",
+          "关键区域冲突：[{'source': '雷达', 'region': '东海'}]"
+        ]
+      },
+      {
+        "event_id": "2025.5.4-SHIP-A76E130E8BFBD1",
+        "decision": "域外",
+        "issues": []
+      },
+      {
+        "event_id": "2025.5.8-SHIP-140D87E074C220",
+        "decision": "排除",
+        "issues": [
+          "关键字段quantity明确冲突：{'雷达': 1, '开源军情': 2, '网上舆论': 1}"
+        ]
+      }
+    ],
+    "corridor_documents_in_scope": 0,
+    "accepted_entry_exit_claims": 0,
+    "second_section_history_scope": "full stage",
+    "history_outside_second_section": false
+  },
+  "format": "Historical/external index moved inside section II; section V rewritten using current-day facts only; template, workbook schema and four PNG definitions retained"
+}

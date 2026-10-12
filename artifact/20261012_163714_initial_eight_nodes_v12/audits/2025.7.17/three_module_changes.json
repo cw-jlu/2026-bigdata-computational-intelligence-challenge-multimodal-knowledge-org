@@ -1,0 +1,309 @@
+{
+  "facts": "daily event decisions and values unchanged; entry/exit source-object audit added, unsupported relations not asserted",
+  "analysis": {
+    "node": "2025.7.17",
+    "today_events": 24,
+    "daily_facts_changed": false,
+    "full_related_verified_events": 13,
+    "restored_history": [
+      {
+        "id": "2025.5.25-SHIP-9F8A91A35F4F50",
+        "date": "2025.5.25",
+        "facts": {
+          "country": "法国",
+          "key": "戴高乐",
+          "quantity": 1,
+          "task": "编队警戒部署",
+          "start": "14:28",
+          "end": "16:53",
+          "region": "南海",
+          "direction": "南海",
+          "platform": "戴高乐号航空母舰"
+        }
+      },
+      {
+        "id": "2025.5.27-SHIP-7DB0506A58938C",
+        "date": "2025.5.27",
+        "facts": {
+          "country": "法国",
+          "key": "戴高乐",
+          "quantity": 1,
+          "task": "编队警戒部署",
+          "start": "14:28",
+          "end": "16:53",
+          "region": "南海",
+          "direction": "南海",
+          "platform": "戴高乐号航空母舰"
+        }
+      },
+      {
+        "id": "2025.5.30-SHIP-33BD433A9FD3C4",
+        "date": "2025.5.30",
+        "facts": {
+          "country": "法国",
+          "key": "戴高乐",
+          "quantity": 1,
+          "task": "编队警戒部署",
+          "start": "11:21",
+          "end": "13:46",
+          "region": "南海",
+          "direction": "南海",
+          "platform": "戴高乐号航空母舰"
+        }
+      },
+      {
+        "id": "2025.6.2-SHIP-F371BD47F5CA5E",
+        "date": "2025.6.2",
+        "facts": {
+          "country": "法国",
+          "key": "戴高乐",
+          "quantity": 1,
+          "task": "编队警戒部署",
+          "start": "11:21",
+          "end": "13:46",
+          "region": "南海",
+          "direction": "南海",
+          "platform": "戴高乐号航空母舰"
+        }
+      },
+      {
+        "id": "2025.6.4-SHIP-F00CFC36C71F6E",
+        "date": "2025.6.4",
+        "facts": {
+          "country": "法国",
+          "key": "戴高乐",
+          "quantity": 1,
+          "task": "编队警戒部署",
+          "start": "14:28",
+          "end": "16:53",
+          "region": "南海",
+          "direction": "南海",
+          "platform": "戴高乐号航空母舰"
+        }
+      },
+      {
+        "id": "2025.6.6-SHIP-104B90FA7B2A96",
+        "date": "2025.6.6",
+        "facts": {
+          "country": "法国",
+          "key": "戴高乐",
+          "quantity": 1,
+          "task": "编队警戒部署",
+          "start": "17:35",
+          "end": "19:00",
+          "region": "南海",
+          "direction": "南海",
+          "platform": "戴高乐号航空母舰"
+        }
+      },
+      {
+        "id": "2025.6.9-SHIP-DAC6E72221D22D",
+        "date": "2025.6.9",
+        "facts": {
+          "country": "法国",
+          "key": "戴高乐",
+          "quantity": 1,
+          "task": "编队警戒部署",
+          "start": "08:14",
+          "end": "10:39",
+          "region": "南海",
+          "direction": "南海",
+          "platform": "戴高乐号航空母舰"
+        }
+      },
+      {
+        "id": "2025.6.13-SHIP-C05E03256CD00D",
+        "date": "2025.6.13",
+        "facts": {
+          "country": "法国",
+          "key": "戴高乐",
+          "quantity": 1,
+          "task": "战备巡逻",
+          "start": "08:52",
+          "end": "10:17",
+          "region": "青岛外海",
+          "direction": "黄海",
+          "platform": "戴高乐号航空母舰"
+        }
+      },
+      {
+        "id": "2025.6.23-SHIP-8A0AD05CC1CB0E",
+        "date": "2025.6.23",
+        "facts": {
+          "country": "法国",
+          "key": "戴高乐",
+          "quantity": 1,
+          "task": "编队警戒部署",
+          "start": "08:52",
+          "end": "10:17",
+          "region": "南海中部",
+          "direction": "南海",
+          "platform": "戴高乐号航空母舰"
+        }
+      }
+    ],
+    "missing_related_verified_events": [],
+    "stages": [
+      {
+        "dates": [
+          "2025.5.25",
+          "2025.5.27",
+          "2025.5.30",
+          "2025.6.2",
+          "2025.6.4",
+          "2025.6.6",
+          "2025.6.9"
+        ],
+        "events": [
+          "2025.5.25-SHIP-9F8A91A35F4F50",
+          "2025.5.27-SHIP-7DB0506A58938C",
+          "2025.5.30-SHIP-33BD433A9FD3C4",
+          "2025.6.2-SHIP-F371BD47F5CA5E",
+          "2025.6.4-SHIP-F00CFC36C71F6E",
+          "2025.6.6-SHIP-104B90FA7B2A96",
+          "2025.6.9-SHIP-DAC6E72221D22D"
+        ],
+        "boundary_basis": "5月25日至6月9日南海警戒七日重复"
+      },
+      {
+        "dates": [
+          "2025.6.13",
+          "2025.6.23",
+          "2025.7.11"
+        ],
+        "events": [
+          "2025.6.13-SHIP-C05E03256CD00D",
+          "2025.6.23-SHIP-8A0AD05CC1CB0E",
+          "2025.7.11-SHIP-1916604631BDF8"
+        ],
+        "boundary_basis": "黄海巡逻、南海警戒、黄海巡逻的间歇记录，含18日缺证间隔"
+      },
+      {
+        "dates": [
+          "2025.7.14",
+          "2025.7.16",
+          "2025.7.17"
+        ],
+        "events": [
+          "2025.7.14-SHIP-C77364A7FFC51A",
+          "2025.7.16-SHIP-037A584E5B3D33",
+          "2025.7.17-SHIP-EA12395FF3F79A"
+        ],
+        "boundary_basis": "7月14日起南海警戒三日再现"
+      }
+    ],
+    "observational_gaps": [
+      {
+        "from": "2025-05-25",
+        "to": "2025-05-27",
+        "days": 2
+      },
+      {
+        "from": "2025-05-27",
+        "to": "2025-05-30",
+        "days": 3
+      },
+      {
+        "from": "2025-05-30",
+        "to": "2025-06-02",
+        "days": 3
+      },
+      {
+        "from": "2025-06-02",
+        "to": "2025-06-04",
+        "days": 2
+      },
+      {
+        "from": "2025-06-04",
+        "to": "2025-06-06",
+        "days": 2
+      },
+      {
+        "from": "2025-06-06",
+        "to": "2025-06-09",
+        "days": 3
+      },
+      {
+        "from": "2025-06-09",
+        "to": "2025-06-13",
+        "days": 4
+      },
+      {
+        "from": "2025-06-13",
+        "to": "2025-06-23",
+        "days": 10
+      },
+      {
+        "from": "2025-06-23",
+        "to": "2025-07-11",
+        "days": 18
+      },
+      {
+        "from": "2025-07-11",
+        "to": "2025-07-14",
+        "days": 3
+      },
+      {
+        "from": "2025-07-14",
+        "to": "2025-07-16",
+        "days": 2
+      }
+    ],
+    "related_unverified_candidates": [
+      {
+        "event_id": "2025.5.15-SHIP-19276BF2A18F5D",
+        "decision": "域外",
+        "issues": []
+      },
+      {
+        "event_id": "2025.5.7-SHIP-2C39E03B0C197F",
+        "decision": "域外",
+        "issues": []
+      },
+      {
+        "event_id": "2025.6.21-SHIP-66ADD38C21B53B",
+        "decision": "排除",
+        "issues": [
+          "关键字段country明确冲突：{'雷达': '法国', '开源军情': '法国', '网上舆论': '台湾'}"
+        ]
+      },
+      {
+        "event_id": "2025.6.26-SHIP-7DD6AD2772901C",
+        "decision": "域外",
+        "issues": []
+      },
+      {
+        "event_id": "2025.6.28-SHIP-694931EA2C5E1D",
+        "decision": "排除",
+        "issues": [
+          "雷达区域明确冲突：['东海', '连云港外海']",
+          "关键区域冲突：[{'source': '雷达', 'region': '东海'}]"
+        ]
+      },
+      {
+        "event_id": "2025.6.4-SHIP-63295296E5C53F",
+        "decision": "排除",
+        "issues": [
+          "关键字段start明确冲突：{'雷达': 1073, '开源军情': 1073, '网上舆论': 1110}"
+        ]
+      },
+      {
+        "event_id": "2025.6.9-SHIP-76034BECD2919C",
+        "decision": "排除",
+        "issues": [
+          "关键字段start明确冲突：{'雷达': 699, '开源军情': 699, '网上舆论': 764}"
+        ]
+      },
+      {
+        "event_id": "2025.7.17-SHIP-BE6DFCBF2FFD00",
+        "decision": "域外",
+        "issues": []
+      }
+    ],
+    "corridor_documents_in_scope": 0,
+    "accepted_entry_exit_claims": 0,
+    "second_section_history_scope": "full stage",
+    "history_outside_second_section": false
+  },
+  "format": "Historical/external index moved inside section II; section V rewritten using current-day facts only; template, workbook schema and four PNG definitions retained"
+}

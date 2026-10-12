@@ -1,0 +1,10141 @@
+[
+  {
+    "event_id": "E-2025.6.17-001",
+    "day": "2025.6.17",
+    "kind": "舰船",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 12.0,
+      "P": 9.0
+    },
+    "fields": {
+      "platform": {
+        "value": "巴登-符腾堡号导弹护卫舰",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "德国",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "上海外海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "东海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "海上护航",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "02:16",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "04:41",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "F222",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "舰船",
+      "batch": "SHIP-F956579D5151A3",
+      "country": "德国",
+      "platform": "巴登-符腾堡号导弹护卫舰",
+      "task": "海上护航",
+      "count": 1,
+      "start": "02:16",
+      "end": "04:41",
+      "region": "上海外海",
+      "lonlat": null,
+      "excel_rows": [
+        27,
+        35,
+        36,
+        58,
+        83,
+        100,
+        108,
+        222,
+        223,
+        286
+      ],
+      "alternatives": [
+        {
+          "region": "上海外海",
+          "rows": [
+            27,
+            35,
+            36,
+            58,
+            83,
+            100,
+            108,
+            222,
+            223,
+            286
+          ]
+        }
+      ],
+      "base": "德国威廉港海军基地",
+      "hull": "F222"
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:033",
+      "mention_id": "O:2025.6.17:033#1",
+      "title": "德国海军巴登-符腾堡号护卫舰在上海外海实施海上护航",
+      "country": "德国",
+      "platform": "巴登-符腾堡号导弹护卫舰",
+      "count": null,
+      "region": "上海外海",
+      "start": "02:16",
+      "end": "04:41",
+      "task": "海上护航",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:008",
+      "mention_id": "P:2025.6.17:008#1",
+      "title": "德国海军巴登-符腾堡号护卫舰在东海上海外海活动",
+      "country": "德国",
+      "platform": "巴登-符腾堡号导弹护卫舰",
+      "count": null,
+      "region": "上海外海",
+      "start": "",
+      "end": "",
+      "task": "",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-002",
+    "day": "2025.6.17",
+    "kind": "舰船",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 8.8,
+      "P": 11.0
+    },
+    "fields": {
+      "platform": {
+        "value": "054A型导弹护卫舰",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "中国",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "南黄海",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "黄海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "反潜巡逻",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "02:38",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "04:03",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "TYPE-054A",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "舰船",
+      "batch": "SHIP-BB2D8BB81D6BFC",
+      "country": "中国",
+      "platform": "054A型导弹护卫舰",
+      "task": "反潜巡逻",
+      "count": 1,
+      "start": "02:38",
+      "end": "04:03",
+      "region": "南黄海",
+      "lonlat": null,
+      "excel_rows": [
+        42,
+        64,
+        106,
+        142,
+        146,
+        186,
+        224,
+        239,
+        264,
+        275
+      ],
+      "alternatives": [
+        {
+          "region": "南黄海",
+          "rows": [
+            42,
+            64,
+            106,
+            142,
+            146,
+            186,
+            224,
+            239,
+            264,
+            275
+          ]
+        }
+      ],
+      "base": "常驻母港",
+      "hull": "TYPE-054A"
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:009",
+      "mention_id": "O:2025.6.17:009#1",
+      "title": "中国海军054A型护卫舰在南黄海持续活动",
+      "country": "中国",
+      "platform": "054A型导弹护卫舰",
+      "count": 1,
+      "region": "南黄海",
+      "start": "",
+      "end": "",
+      "task": "",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:024",
+      "mention_id": "P:2025.6.17:024#1",
+      "title": "中国054A型护卫舰在黄海执行反潜巡逻任务",
+      "country": "中国",
+      "platform": "054A型导弹护卫舰",
+      "count": null,
+      "region": "黄海",
+      "start": "02:38",
+      "end": "04:03",
+      "task": "反潜巡逻",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-003",
+    "day": "2025.6.17",
+    "kind": "舰船",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 10.5,
+      "P": 7.2
+    },
+    "fields": {
+      "platform": {
+        "value": "福建号航空母舰",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "中国",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "黄海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "黄海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "例行部署",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {
+          "P": "反潜巡逻"
+        },
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "02:54",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "04:19",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "18",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [
+      "任务冲突（P=反潜巡逻），采用R/O一致值“例行部署”"
+    ],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "舰船",
+      "batch": "SHIP-4DE07DDA3387B2",
+      "country": "中国",
+      "platform": "福建号航空母舰",
+      "task": "例行部署",
+      "count": 1,
+      "start": "02:54",
+      "end": "04:19",
+      "region": "黄海",
+      "lonlat": null,
+      "excel_rows": [
+        60,
+        61,
+        102,
+        123,
+        156,
+        175,
+        227,
+        240,
+        258,
+        267
+      ],
+      "alternatives": [
+        {
+          "region": "黄海",
+          "rows": [
+            60,
+            61,
+            102,
+            123,
+            156,
+            175,
+            227,
+            240,
+            258,
+            267
+          ]
+        }
+      ],
+      "base": "常驻母港",
+      "hull": "18"
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:004",
+      "mention_id": "O:2025.6.17:004#1",
+      "title": "中国福建号航空母舰在黄海进行例行部署行动",
+      "country": "中国",
+      "platform": "福建号航空母舰",
+      "count": null,
+      "region": "黄海",
+      "start": "02:54",
+      "end": "04:19",
+      "task": "例行部署",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:014",
+      "mention_id": "P:2025.6.17:014#1",
+      "title": "中国海军“福建号”航空母舰在黄海执行反潜巡逻任务",
+      "country": "中国",
+      "platform": "福建号航空母舰",
+      "count": null,
+      "region": "黄海",
+      "start": "",
+      "end": "",
+      "task": "反潜巡逻",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-004",
+    "day": "2025.6.17",
+    "kind": "舰船",
+    "status": "可信",
+    "in_core": false,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 7.3,
+      "P": 11.0
+    },
+    "fields": {
+      "platform": {
+        "value": "机敏级攻击核潜艇",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "英国",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "红海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "其他",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "战备巡逻",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "05:12",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "07:37",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "ASTUTE-SSN",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "舰船",
+      "batch": "SHIP-4F02529FF5C5AE",
+      "country": "英国",
+      "platform": "机敏级攻击核潜艇",
+      "task": "战备巡逻",
+      "count": 1,
+      "start": "05:12",
+      "end": "07:37",
+      "region": "红海",
+      "lonlat": null,
+      "excel_rows": [
+        19,
+        26,
+        98,
+        145,
+        160,
+        190,
+        199,
+        214,
+        241,
+        249
+      ],
+      "alternatives": [
+        {
+          "region": "红海",
+          "rows": [
+            19,
+            26,
+            98,
+            145,
+            160,
+            190,
+            199,
+            214,
+            241,
+            249
+          ]
+        }
+      ],
+      "base": "英国朴次茅斯海军基地",
+      "hull": "ASTUTE-SSN"
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:014",
+      "mention_id": "O:2025.6.17:014#1",
+      "title": "英国机敏级攻击核潜艇在红海持续开展相关行动",
+      "country": "英国",
+      "platform": "机敏级攻击核潜艇",
+      "count": 1,
+      "region": "红海",
+      "start": "",
+      "end": "",
+      "task": "",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:003",
+      "mention_id": "P:2025.6.17:003#1",
+      "title": "英国机敏级攻击核潜艇在红海执行战备巡逻任务",
+      "country": "英国",
+      "platform": "机敏级攻击核潜艇",
+      "count": null,
+      "region": "红海",
+      "start": "05:12",
+      "end": "07:37",
+      "task": "战备巡逻",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-005",
+    "day": "2025.6.17",
+    "kind": "舰船",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 12.0,
+      "P": 8.8
+    },
+    "fields": {
+      "platform": {
+        "value": "哈里·德沃尔夫级近海巡逻舰",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "加拿大",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "连云港外海",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "黄海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "实弹射击训练",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "05:34",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "07:59",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "AOPS-430",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "舰船",
+      "batch": "SHIP-932B6CB6E2A973",
+      "country": "加拿大",
+      "platform": "哈里·德沃尔夫级近海巡逻舰",
+      "task": "实弹射击训练",
+      "count": 1,
+      "start": "05:34",
+      "end": "07:59",
+      "region": "连云港外海",
+      "lonlat": null,
+      "excel_rows": [
+        14,
+        45,
+        52,
+        127,
+        149,
+        171,
+        184,
+        213,
+        243,
+        257
+      ],
+      "alternatives": [
+        {
+          "region": "连云港外海",
+          "rows": [
+            14,
+            45,
+            52,
+            127,
+            149,
+            171,
+            184,
+            213,
+            243,
+            257
+          ]
+        }
+      ],
+      "base": "加拿大埃斯奎莫尔特海军基地",
+      "hull": "AOPS-430"
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:036",
+      "mention_id": "O:2025.6.17:036#1",
+      "title": "加拿大海军巡逻舰在连云港外海组织实弹射击训练",
+      "country": "加拿大",
+      "platform": "哈里·德沃尔夫级近海巡逻舰",
+      "count": null,
+      "region": "连云港外海",
+      "start": "05:34",
+      "end": "07:59",
+      "task": "实弹射击训练",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:002",
+      "mention_id": "P:2025.6.17:002#1",
+      "title": "加拿大巡逻舰在黄海进行实弹射击训练引发关注",
+      "country": "加拿大",
+      "platform": "哈里·德沃尔夫级近海巡逻舰",
+      "count": 1,
+      "region": "黄海",
+      "start": "",
+      "end": "",
+      "task": "实弹射击训练",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-006",
+    "day": "2025.6.17",
+    "kind": "舰船",
+    "status": "可信",
+    "in_core": false,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 10.5,
+      "P": 8.8
+    },
+    "fields": {
+      "platform": {
+        "value": "23型导弹护卫舰",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "英国",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "西北太平洋",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "其他",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "编队警戒部署",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {
+          "O": 2
+        },
+        "note": ""
+      },
+      "start": {
+        "value": "05:50",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "07:15",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "TYPE-23",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [
+      "数量冲突（O=2），采用R/P一致值“1”"
+    ],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "舰船",
+      "batch": "SHIP-A81D18DA8EFB63",
+      "country": "英国",
+      "platform": "23型导弹护卫舰",
+      "task": "编队警戒部署",
+      "count": 1,
+      "start": "05:50",
+      "end": "07:15",
+      "region": "西北太平洋",
+      "lonlat": null,
+      "excel_rows": [
+        11,
+        37,
+        44,
+        51,
+        62,
+        67,
+        135,
+        179,
+        191,
+        274
+      ],
+      "alternatives": [
+        {
+          "region": "西北太平洋",
+          "rows": [
+            11,
+            37,
+            44,
+            51,
+            62,
+            67,
+            135,
+            179,
+            191,
+            274
+          ]
+        }
+      ],
+      "base": "英国朴次茅斯海军基地",
+      "hull": "TYPE-23"
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:029",
+      "mention_id": "O:2025.6.17:029#1",
+      "title": "英国海军23型导弹护卫舰在西北太平洋执行编队警戒部署",
+      "country": "英国",
+      "platform": "23型导弹护卫舰",
+      "count": 2,
+      "region": "西北太平洋",
+      "start": "05:50",
+      "end": "07:15",
+      "task": "编队警戒部署",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:005",
+      "mention_id": "P:2025.6.17:005#1",
+      "title": "英国一艘23型护卫舰在西北太平洋执行编队警戒部署",
+      "country": "英国",
+      "platform": "23型导弹护卫舰",
+      "count": 1,
+      "region": "西北太平洋",
+      "start": "",
+      "end": "",
+      "task": "编队警戒部署",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-007",
+    "day": "2025.6.17",
+    "kind": "舰船",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 12.0,
+      "P": 9.3
+    },
+    "fields": {
+      "platform": {
+        "value": "075型两栖攻击舰",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "中国",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "连云港外海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "黄海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "联合巡航",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "05:56",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "07:21",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "TYPE-075",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "舰船",
+      "batch": "SHIP-37F0DC0E1C2114",
+      "country": "中国",
+      "platform": "075型两栖攻击舰",
+      "task": "联合巡航",
+      "count": 1,
+      "start": "05:56",
+      "end": "07:21",
+      "region": "连云港外海",
+      "lonlat": null,
+      "excel_rows": [
+        2,
+        31,
+        92,
+        97,
+        174,
+        195,
+        196,
+        276,
+        284,
+        289
+      ],
+      "alternatives": [
+        {
+          "region": "连云港外海",
+          "rows": [
+            2,
+            31,
+            92,
+            97,
+            174,
+            195,
+            196,
+            276,
+            284,
+            289
+          ]
+        }
+      ],
+      "base": "常驻母港",
+      "hull": "TYPE-075"
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:041",
+      "mention_id": "O:2025.6.17:041#1",
+      "title": "中国075型两栖攻击舰与901型综合补给舰在连云港外海联合巡航",
+      "country": "中国",
+      "platform": "075型两栖攻击舰",
+      "count": null,
+      "region": "连云港外海",
+      "start": "05:56",
+      "end": "07:21",
+      "task": "联合巡航",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:001",
+      "mention_id": "P:2025.6.17:001#1",
+      "title": "中国075型两栖攻击舰在黄海连云港外海持续活动",
+      "country": "中国",
+      "platform": "075型两栖攻击舰",
+      "count": 1,
+      "region": "连云港外海",
+      "start": "",
+      "end": "",
+      "task": "",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-008",
+    "day": "2025.6.17",
+    "kind": "舰船",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O"
+    ],
+    "link_scores": {
+      "R-O": 12.0
+    },
+    "fields": {
+      "platform": {
+        "value": "901型综合补给舰",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "中国",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "连云港外海",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "黄海",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "联合巡航",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "05:56",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "07:21",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "TYPE-901",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "舰船",
+      "batch": "SHIP-6730D1DD73162A",
+      "country": "中国",
+      "platform": "901型综合补给舰",
+      "task": "联合巡航",
+      "count": 1,
+      "start": "05:56",
+      "end": "07:21",
+      "region": "连云港外海",
+      "lonlat": null,
+      "excel_rows": [
+        4,
+        57,
+        80,
+        118,
+        128,
+        182,
+        193,
+        237,
+        263,
+        266
+      ],
+      "alternatives": [
+        {
+          "region": "连云港外海",
+          "rows": [
+            4,
+            57,
+            80,
+            118,
+            128,
+            182,
+            193,
+            237,
+            263,
+            266
+          ]
+        }
+      ],
+      "base": "常驻母港",
+      "hull": "TYPE-901"
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:041",
+      "mention_id": "O:2025.6.17:041#2",
+      "title": "中国075型两栖攻击舰与901型综合补给舰在连云港外海联合巡航",
+      "country": "中国",
+      "platform": "901型综合补给舰",
+      "count": null,
+      "region": "连云港外海",
+      "start": "05:56",
+      "end": "07:21",
+      "task": "联合巡航",
+      "action": "活动"
+    },
+    "public_opinion": null
+  },
+  {
+    "event_id": "E-2025.6.17-009",
+    "day": "2025.6.17",
+    "kind": "舰船",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 10.5,
+      "P": 8.8
+    },
+    "fields": {
+      "platform": {
+        "value": "村雨号导弹护卫舰",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "日本",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "东海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "东海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "编队警戒部署",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "08:14",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "10:39",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "DD-101",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "舰船",
+      "batch": "SHIP-3205CA1909117F",
+      "country": "日本",
+      "platform": "村雨号导弹护卫舰",
+      "task": "编队警戒部署",
+      "count": 1,
+      "start": "08:14",
+      "end": "10:39",
+      "region": "东海",
+      "lonlat": null,
+      "excel_rows": [
+        13,
+        82,
+        87,
+        116,
+        124,
+        130,
+        165,
+        250,
+        253,
+        279
+      ],
+      "alternatives": [
+        {
+          "region": "东海",
+          "rows": [
+            13,
+            82,
+            87,
+            116,
+            124,
+            130,
+            165,
+            250,
+            253,
+            279
+          ]
+        }
+      ],
+      "base": "日本佐世保海军基地",
+      "hull": "DD-101"
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:010",
+      "mention_id": "O:2025.6.17:010#1",
+      "title": "日本村雨号导弹护卫舰在东海实施编队警戒部署",
+      "country": "日本",
+      "platform": "村雨号导弹护卫舰",
+      "count": null,
+      "region": "东海",
+      "start": "08:14",
+      "end": "10:39",
+      "task": "编队警戒部署",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:012",
+      "mention_id": "P:2025.6.17:012#1",
+      "title": "日本村雨号护卫舰在东海执行编队警戒部署",
+      "country": "日本",
+      "platform": "村雨号导弹护卫舰",
+      "count": 1,
+      "region": "东海",
+      "start": "",
+      "end": "",
+      "task": "编队警戒部署",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-010",
+    "day": "2025.6.17",
+    "kind": "舰船",
+    "status": "可信",
+    "in_core": false,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 10.5,
+      "P": 7.8
+    },
+    "fields": {
+      "platform": {
+        "value": "055型导弹驱逐舰",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "中国",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "菲律宾海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "其他",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "例行部署",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "08:30",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "10:55",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "TYPE-055",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "舰船",
+      "batch": "SHIP-F75F5E70450A4E",
+      "country": "中国",
+      "platform": "055型导弹驱逐舰",
+      "task": "例行部署",
+      "count": 1,
+      "start": "08:30",
+      "end": "10:55",
+      "region": "菲律宾海",
+      "lonlat": null,
+      "excel_rows": [
+        50,
+        75,
+        86,
+        131,
+        164,
+        198,
+        226,
+        252,
+        272,
+        297
+      ],
+      "alternatives": [
+        {
+          "region": "菲律宾海",
+          "rows": [
+            50,
+            75,
+            86,
+            131,
+            164,
+            198,
+            226,
+            252,
+            272,
+            297
+          ]
+        }
+      ],
+      "base": "常驻母港",
+      "hull": "TYPE-055"
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:002",
+      "mention_id": "O:2025.6.17:002#1",
+      "title": "中国055型导弹驱逐舰在菲律宾海执行例行部署",
+      "country": "中国",
+      "platform": "055型导弹驱逐舰",
+      "count": null,
+      "region": "菲律宾海",
+      "start": "08:30",
+      "end": "10:55",
+      "task": "例行部署",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:013",
+      "mention_id": "P:2025.6.17:013#1",
+      "title": "中国055型导弹驱逐舰在菲律宾海活动展现远洋机动",
+      "country": "中国",
+      "platform": "055型导弹驱逐舰",
+      "count": 1,
+      "region": "菲律宾海",
+      "start": "",
+      "end": "",
+      "task": "",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-011",
+    "day": "2025.6.17",
+    "kind": "舰船",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 12.0,
+      "P": 8.5
+    },
+    "fields": {
+      "platform": {
+        "value": "迭戈·西朗号导弹护卫舰",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "菲律宾",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "曾母暗沙海域",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "南海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "战备巡逻",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "08:52",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "10:17",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "FFG-07",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "舰船",
+      "batch": "SHIP-7049DFAB8E081E",
+      "country": "菲律宾",
+      "platform": "迭戈·西朗号导弹护卫舰",
+      "task": "战备巡逻",
+      "count": 1,
+      "start": "08:52",
+      "end": "10:17",
+      "region": "曾母暗沙海域",
+      "lonlat": null,
+      "excel_rows": [
+        21,
+        29,
+        34,
+        72,
+        76,
+        96,
+        172,
+        220,
+        221,
+        294
+      ],
+      "alternatives": [
+        {
+          "region": "曾母暗沙海域",
+          "rows": [
+            21,
+            29,
+            34,
+            72,
+            76,
+            96,
+            172,
+            220,
+            221,
+            294
+          ]
+        }
+      ],
+      "base": "菲律宾苏比克海军作战基地",
+      "hull": "FFG-07"
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:007",
+      "mention_id": "O:2025.6.17:007#1",
+      "title": "菲律宾迭戈·西朗号导弹护卫舰在曾母暗沙海域执行战备巡逻",
+      "country": "菲律宾",
+      "platform": "迭戈·西朗号导弹护卫舰",
+      "count": null,
+      "region": "曾母暗沙海域",
+      "start": "08:52",
+      "end": "10:17",
+      "task": "战备巡逻",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:047",
+      "mention_id": "P:2025.6.17:047#1",
+      "title": "菲律宾海军“迭戈·西朗号”护卫舰在南海执行战备巡逻",
+      "country": "菲律宾",
+      "platform": "迭戈·西朗号导弹护卫舰",
+      "count": null,
+      "region": "南海",
+      "start": "",
+      "end": "",
+      "task": "战备巡逻",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-012",
+    "day": "2025.6.17",
+    "kind": "舰船",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 12.0,
+      "P": 12.8
+    },
+    "fields": {
+      "platform": {
+        "value": "刘易斯与克拉克级综合补给舰",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "美国",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "东海油气田海域",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "东海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "海上补给训练",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "11:10",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "13:35",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "T-AKE",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "舰船",
+      "batch": "SHIP-866E01095BA8CF",
+      "country": "美国",
+      "platform": "刘易斯与克拉克级综合补给舰",
+      "task": "海上补给训练",
+      "count": 1,
+      "start": "11:10",
+      "end": "13:35",
+      "region": "东海油气田海域",
+      "lonlat": null,
+      "excel_rows": [
+        24,
+        32,
+        63,
+        69,
+        99,
+        111,
+        117,
+        169,
+        244,
+        287
+      ],
+      "alternatives": [
+        {
+          "region": "东海油气田海域",
+          "rows": [
+            24,
+            32,
+            63,
+            69,
+            99,
+            111,
+            117,
+            169,
+            244,
+            287
+          ]
+        }
+      ],
+      "base": "关岛海军基地",
+      "hull": "T-AKE"
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:027",
+      "mention_id": "O:2025.6.17:027#1",
+      "title": "美军刘易斯与克拉克级综合补给舰在东海油气田海域开展海上补给训练",
+      "country": "美国",
+      "platform": "刘易斯与克拉克级综合补给舰",
+      "count": null,
+      "region": "东海油气田海域",
+      "start": "11:10",
+      "end": "13:35",
+      "task": "海上补给训练",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:048",
+      "mention_id": "P:2025.6.17:048#1",
+      "title": "美补给舰现身东海油气田海域，持续活动引发保障协同关注",
+      "country": "美国",
+      "platform": "刘易斯与克拉克级综合补给舰",
+      "count": 1,
+      "region": "东海油气田海域",
+      "start": "11:10",
+      "end": "13:35",
+      "task": "海上补给训练",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-013",
+    "day": "2025.6.17",
+    "kind": "舰船",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 7.0,
+      "P": 11.0
+    },
+    "fields": {
+      "platform": {
+        "value": "西奥多·罗斯福号航空母舰",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "美国",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "南海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "南海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "编队警戒部署",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "11:21",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "13:46",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "CVN-71",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "舰船",
+      "batch": "SHIP-4CFC17E1ACE676",
+      "country": "美国",
+      "platform": "西奥多·罗斯福号航空母舰",
+      "task": "编队警戒部署",
+      "count": 1,
+      "start": "11:21",
+      "end": "13:46",
+      "region": "南海",
+      "lonlat": null,
+      "excel_rows": [
+        6,
+        112,
+        170,
+        176,
+        203,
+        216,
+        235,
+        292,
+        298,
+        301
+      ],
+      "alternatives": [
+        {
+          "region": "南海",
+          "rows": [
+            6,
+            112,
+            170,
+            176,
+            203,
+            216,
+            235,
+            292,
+            298,
+            301
+          ]
+        }
+      ],
+      "base": "关岛海军基地",
+      "hull": "CVN-71"
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:011",
+      "mention_id": "O:2025.6.17:011#1",
+      "title": "美国西奥多·罗斯福号航空母舰在南海持续开展相关行动",
+      "country": "美国",
+      "platform": "西奥多·罗斯福号航空母舰",
+      "count": null,
+      "region": "南海",
+      "start": "",
+      "end": "",
+      "task": "",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:033",
+      "mention_id": "P:2025.6.17:033#1",
+      "title": "美国西奥多·罗斯福号航母在南海进行编队警戒部署",
+      "country": "美国",
+      "platform": "西奥多·罗斯福号航空母舰",
+      "count": null,
+      "region": "南海",
+      "start": "11:21",
+      "end": "13:46",
+      "task": "编队警戒部署",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-014",
+    "day": "2025.6.17",
+    "kind": "舰船",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O"
+    ],
+    "link_scores": {
+      "R-O": 7.0
+    },
+    "fields": {
+      "platform": {
+        "value": "提康德罗加级导弹巡洋舰",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "美国",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "南海",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "南海",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "编队警戒部署",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "11:21",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "13:46",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "CG-47",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "舰船",
+      "batch": "SHIP-661BC167C793B1",
+      "country": "美国",
+      "platform": "提康德罗加级导弹巡洋舰",
+      "task": "编队警戒部署",
+      "count": 1,
+      "start": "11:21",
+      "end": "13:46",
+      "region": "南海",
+      "lonlat": null,
+      "excel_rows": [
+        16,
+        53,
+        154,
+        177,
+        187,
+        189,
+        238,
+        282,
+        285,
+        299
+      ],
+      "alternatives": [
+        {
+          "region": "南海",
+          "rows": [
+            16,
+            53,
+            154,
+            177,
+            187,
+            189,
+            238,
+            282,
+            285,
+            299
+          ]
+        }
+      ],
+      "base": "关岛海军基地",
+      "hull": "CG-47"
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:011",
+      "mention_id": "O:2025.6.17:011#2",
+      "title": "美国西奥多·罗斯福号航空母舰在南海持续开展相关行动",
+      "country": "美国",
+      "platform": "提康德罗加级导弹巡洋舰",
+      "count": null,
+      "region": "南海",
+      "start": "",
+      "end": "",
+      "task": "",
+      "action": "活动"
+    },
+    "public_opinion": null
+  },
+  {
+    "event_id": "E-2025.6.17-015",
+    "day": "2025.6.17",
+    "kind": "舰船",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O"
+    ],
+    "link_scores": {
+      "R-O": 7.0
+    },
+    "fields": {
+      "platform": {
+        "value": "刘易斯与克拉克级综合补给舰",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "美国",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "南海",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "南海",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "编队警戒部署",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "11:21",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "13:46",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "T-AKE",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "舰船",
+      "batch": "SHIP-86F95523D6111B",
+      "country": "美国",
+      "platform": "刘易斯与克拉克级综合补给舰",
+      "task": "编队警戒部署",
+      "count": 1,
+      "start": "11:21",
+      "end": "13:46",
+      "region": "南海",
+      "lonlat": null,
+      "excel_rows": [
+        15,
+        54,
+        59,
+        74,
+        129,
+        133,
+        159,
+        168,
+        206,
+        245
+      ],
+      "alternatives": [
+        {
+          "region": "南海",
+          "rows": [
+            15,
+            54,
+            59,
+            74,
+            129,
+            133,
+            159,
+            168,
+            206,
+            245
+          ]
+        }
+      ],
+      "base": "关岛海军基地",
+      "hull": "T-AKE"
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:011",
+      "mention_id": "O:2025.6.17:011#4",
+      "title": "美国西奥多·罗斯福号航空母舰在南海持续开展相关行动",
+      "country": "美国",
+      "platform": "刘易斯与克拉克级综合补给舰",
+      "count": null,
+      "region": "南海",
+      "start": "",
+      "end": "",
+      "task": "",
+      "action": "活动"
+    },
+    "public_opinion": null
+  },
+  {
+    "event_id": "E-2025.6.17-016",
+    "day": "2025.6.17",
+    "kind": "舰船",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O"
+    ],
+    "link_scores": {
+      "R-O": 7.0
+    },
+    "fields": {
+      "platform": {
+        "value": "阿利·伯克级导弹驱逐舰",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "美国",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "南海",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "南海",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "编队警戒部署",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "11:21",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "13:46",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "DDG-51",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "舰船",
+      "batch": "SHIP-92F6D3EBF6B8B2",
+      "country": "美国",
+      "platform": "阿利·伯克级导弹驱逐舰",
+      "task": "编队警戒部署",
+      "count": 1,
+      "start": "11:21",
+      "end": "13:46",
+      "region": "南海",
+      "lonlat": null,
+      "excel_rows": [
+        28,
+        41,
+        47,
+        48,
+        178,
+        200,
+        201,
+        204,
+        219,
+        261
+      ],
+      "alternatives": [
+        {
+          "region": "南海",
+          "rows": [
+            28,
+            41,
+            47,
+            48,
+            178,
+            200,
+            201,
+            204,
+            219,
+            261
+          ]
+        }
+      ],
+      "base": "关岛海军基地",
+      "hull": "DDG-51"
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:011",
+      "mention_id": "O:2025.6.17:011#3",
+      "title": "美国西奥多·罗斯福号航空母舰在南海持续开展相关行动",
+      "country": "美国",
+      "platform": "阿利·伯克级导弹驱逐舰",
+      "count": null,
+      "region": "南海",
+      "start": "",
+      "end": "",
+      "task": "",
+      "action": "活动"
+    },
+    "public_opinion": null
+  },
+  {
+    "event_id": "E-2025.6.17-017",
+    "day": "2025.6.17",
+    "kind": "舰船",
+    "status": "可信",
+    "in_core": false,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 10.5,
+      "P": 7.8
+    },
+    "fields": {
+      "platform": {
+        "value": "052D型导弹驱逐舰",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "中国",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "泰国湾",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "其他",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "编队警戒部署",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "11:26",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "13:51",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "TYPE-052D",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "舰船",
+      "batch": "SHIP-3F7C99CCED4996",
+      "country": "中国",
+      "platform": "052D型导弹驱逐舰",
+      "task": "编队警戒部署",
+      "count": 1,
+      "start": "11:26",
+      "end": "13:51",
+      "region": "泰国湾",
+      "lonlat": null,
+      "excel_rows": [
+        9,
+        17,
+        70,
+        139,
+        141,
+        183,
+        207,
+        254,
+        269,
+        290
+      ],
+      "alternatives": [
+        {
+          "region": "泰国湾",
+          "rows": [
+            9,
+            17,
+            70,
+            139,
+            141,
+            183,
+            207,
+            254,
+            269,
+            290
+          ]
+        }
+      ],
+      "base": "常驻母港",
+      "hull": "TYPE-052D"
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:023",
+      "mention_id": "O:2025.6.17:023#1",
+      "title": "中国052D型导弹驱逐舰在泰国湾执行编队警戒部署",
+      "country": "中国",
+      "platform": "052D型导弹驱逐舰",
+      "count": null,
+      "region": "泰国湾",
+      "start": "11:26",
+      "end": "13:51",
+      "task": "编队警戒部署",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:038",
+      "mention_id": "P:2025.6.17:038#1",
+      "title": "中国海军052D型驱逐舰在泰国湾持续活动",
+      "country": "中国",
+      "platform": "052D型导弹驱逐舰",
+      "count": 1,
+      "region": "泰国湾",
+      "start": "",
+      "end": "",
+      "task": "",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-018",
+    "day": "2025.6.17",
+    "kind": "舰船",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 12.0,
+      "P": 9.3
+    },
+    "fields": {
+      "platform": {
+        "value": "康定级导弹护卫舰",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "台湾",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "青岛外海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "黄海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "反潜巡逻",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "11:48",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "13:13",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "PFG-1202",
+        "support": [
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "舰船",
+      "batch": "SHIP-FBF2A35D9790DF",
+      "country": "台湾",
+      "platform": "康定级导弹护卫舰",
+      "task": "反潜巡逻",
+      "count": 1,
+      "start": "11:48",
+      "end": "13:13",
+      "region": "青岛外海",
+      "lonlat": null,
+      "excel_rows": [
+        3,
+        39,
+        43,
+        68,
+        73,
+        119,
+        136,
+        218,
+        233,
+        283
+      ],
+      "alternatives": [
+        {
+          "region": "青岛外海",
+          "rows": [
+            3,
+            39,
+            43,
+            68,
+            73,
+            119,
+            136,
+            218,
+            233,
+            283
+          ]
+        }
+      ],
+      "base": "台湾苏澳港",
+      "hull": "PFG-1202"
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:043",
+      "mention_id": "O:2025.6.17:043#1",
+      "title": "台湾海军康定级导弹护卫舰在青岛外海执行反潜巡逻",
+      "country": "台湾",
+      "platform": "康定级导弹护卫舰",
+      "count": null,
+      "region": "青岛外海",
+      "start": "11:48",
+      "end": "13:13",
+      "task": "反潜巡逻",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:042",
+      "mention_id": "P:2025.6.17:042#1",
+      "title": "台军康定级舰持续在青岛外海活动引发区域关注",
+      "country": "台湾",
+      "platform": "康定级导弹护卫舰",
+      "count": 1,
+      "region": "青岛外海",
+      "start": "",
+      "end": "",
+      "task": "",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-019",
+    "day": "2025.6.17",
+    "kind": "舰船",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 8.5,
+      "P": 11.0
+    },
+    "fields": {
+      "platform": {
+        "value": "法兰克福号综合补给舰",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "德国",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "钓鱼岛海域",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "东海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "海上护航",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "14:06",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "16:31",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "A1412",
+        "support": [
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "舰船",
+      "batch": "SHIP-8E1D478FF73B99",
+      "country": "德国",
+      "platform": "法兰克福号综合补给舰",
+      "task": "海上护航",
+      "count": 1,
+      "start": "14:06",
+      "end": "16:31",
+      "region": "钓鱼岛海域",
+      "lonlat": null,
+      "excel_rows": [
+        33,
+        77,
+        78,
+        89,
+        91,
+        113,
+        185,
+        230,
+        259,
+        296
+      ],
+      "alternatives": [
+        {
+          "region": "钓鱼岛海域",
+          "rows": [
+            33,
+            77,
+            78,
+            89,
+            91,
+            113,
+            185,
+            230,
+            259,
+            296
+          ]
+        }
+      ],
+      "base": "德国威廉港海军基地",
+      "hull": "A1412"
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:021",
+      "mention_id": "O:2025.6.17:021#1",
+      "title": "德国海军法兰克福号综合补给舰在钓鱼岛海域持续活动",
+      "country": "德国",
+      "platform": "法兰克福号综合补给舰",
+      "count": null,
+      "region": "钓鱼岛海域",
+      "start": "",
+      "end": "",
+      "task": "",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:010",
+      "mention_id": "P:2025.6.17:010#1",
+      "title": "德国补给舰现身东海执行护航任务引发持续保障关注",
+      "country": "德国",
+      "platform": "法兰克福号综合补给舰",
+      "count": null,
+      "region": "东海",
+      "start": "14:06",
+      "end": "16:31",
+      "task": "海上护航",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-020",
+    "day": "2025.6.17",
+    "kind": "舰船",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 10.5,
+      "P": 7.8
+    },
+    "fields": {
+      "platform": {
+        "value": "世宗大王级导弹驱逐舰",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "韩国",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "黄海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "黄海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "编队警戒部署",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "14:28",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "16:53",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "KDX-III",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "舰船",
+      "batch": "SHIP-CDA853A8E39947",
+      "country": "韩国",
+      "platform": "世宗大王级导弹驱逐舰",
+      "task": "编队警戒部署",
+      "count": 1,
+      "start": "14:28",
+      "end": "16:53",
+      "region": "黄海",
+      "lonlat": null,
+      "excel_rows": [
+        25,
+        40,
+        46,
+        49,
+        104,
+        110,
+        144,
+        147,
+        225,
+        268
+      ],
+      "alternatives": [
+        {
+          "region": "黄海",
+          "rows": [
+            25,
+            40,
+            46,
+            49,
+            104,
+            110,
+            144,
+            147,
+            225,
+            268
+          ]
+        }
+      ],
+      "base": "韩国釜山海军基地",
+      "hull": "KDX-III"
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:022",
+      "mention_id": "O:2025.6.17:022#1",
+      "title": "韩国海军驱逐舰在黄海执行编队警戒部署任务",
+      "country": "韩国",
+      "platform": "世宗大王级导弹驱逐舰",
+      "count": null,
+      "region": "黄海",
+      "start": "14:28",
+      "end": "16:53",
+      "task": "编队警戒部署",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:031",
+      "mention_id": "P:2025.6.17:031#1",
+      "title": "韩国海军世宗大王级驱逐舰近日在黄海持续活动引关注",
+      "country": "韩国",
+      "platform": "世宗大王级导弹驱逐舰",
+      "count": 1,
+      "region": "黄海",
+      "start": "",
+      "end": "",
+      "task": "",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-021",
+    "day": "2025.6.17",
+    "kind": "舰船",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 12.3,
+      "P": 7.5
+    },
+    "fields": {
+      "platform": {
+        "value": "刘易斯与克拉克级综合补给舰",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "美国",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "宁波外海",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {
+          "P": "南康暗沙海域"
+        },
+        "note": ""
+      },
+      "direction": {
+        "value": "东海",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {
+          "P": "南康暗沙海域"
+        },
+        "note": ""
+      },
+      "task": {
+        "value": "例行部署",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "14:35",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "16:05",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "进入",
+        "support": [
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "T-AKE",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [
+      "活动方向冲突（P=南康暗沙海域），采用R/O一致值“东海”",
+      "活动区域冲突（P=南康暗沙海域），采用R/O一致值“宁波外海”"
+    ],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "舰船",
+      "batch": "SHIP-A393A26F6A90D8",
+      "country": "美国",
+      "platform": "刘易斯与克拉克级综合补给舰",
+      "task": "例行部署",
+      "count": 1,
+      "start": "14:35",
+      "end": "16:05",
+      "region": "宁波外海",
+      "lonlat": null,
+      "excel_rows": [
+        20,
+        30,
+        65,
+        85,
+        122,
+        151,
+        157,
+        197,
+        228,
+        256
+      ],
+      "alternatives": [
+        {
+          "region": "宁波外海",
+          "rows": [
+            20,
+            30,
+            65,
+            85,
+            122,
+            151,
+            157,
+            197,
+            228,
+            256
+          ]
+        }
+      ],
+      "base": "关岛海军基地",
+      "hull": "T-AKE"
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:003",
+      "mention_id": "O:2025.6.17:003#1",
+      "title": "美军刘易斯与克拉克级补给舰在宁波外海活动",
+      "country": "美国",
+      "platform": "刘易斯与克拉克级综合补给舰",
+      "count": 1,
+      "region": "宁波外海",
+      "start": "14:35",
+      "end": "16:05",
+      "task": "例行部署",
+      "action": "进入"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:041",
+      "mention_id": "P:2025.6.17:041#1",
+      "title": "美补给舰在南康暗沙海域活动，媒体关注其前沿部署持续性",
+      "country": "美国",
+      "platform": "刘易斯与克拉克级综合补给舰",
+      "count": null,
+      "region": "南康暗沙海域",
+      "start": "14:35",
+      "end": "16:05",
+      "task": "例行部署",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-022",
+    "day": "2025.6.17",
+    "kind": "舰船",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 8.8,
+      "P": 12.5
+    },
+    "fields": {
+      "platform": {
+        "value": "901型综合补给舰",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "中国",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "金兰湾",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "南海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "海上补给训练",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "14:44",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "16:09",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "TYPE-901",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "舰船",
+      "batch": "SHIP-596A53787F9E9E",
+      "country": "中国",
+      "platform": "901型综合补给舰",
+      "task": "海上补给训练",
+      "count": 1,
+      "start": "14:44",
+      "end": "16:09",
+      "region": "金兰湾",
+      "lonlat": null,
+      "excel_rows": [
+        38,
+        95,
+        107,
+        125,
+        158,
+        163,
+        173,
+        194,
+        236,
+        295
+      ],
+      "alternatives": [
+        {
+          "region": "金兰湾",
+          "rows": [
+            38,
+            95,
+            107,
+            125,
+            158,
+            163,
+            173,
+            194,
+            236,
+            295
+          ]
+        }
+      ],
+      "base": "常驻母港",
+      "hull": "TYPE-901"
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:020",
+      "mention_id": "O:2025.6.17:020#1",
+      "title": "中国901型综合补给舰在金兰湾海域机动并持续活动",
+      "country": "中国",
+      "platform": "901型综合补给舰",
+      "count": 1,
+      "region": "金兰湾",
+      "start": "",
+      "end": "",
+      "task": "",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:045",
+      "mention_id": "P:2025.6.17:045#1",
+      "title": "中国901型综合补给舰在金兰湾进行海上补给训练",
+      "country": "中国",
+      "platform": "901型综合补给舰",
+      "count": null,
+      "region": "金兰湾",
+      "start": "14:44",
+      "end": "16:09",
+      "task": "海上补给训练",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-023",
+    "day": "2025.6.17",
+    "kind": "舰船",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 8.8,
+      "P": 11.0
+    },
+    "fields": {
+      "platform": {
+        "value": "901型综合补给舰",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "中国",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "北黄海",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "黄海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "海上补给训练",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "17:02",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "19:27",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "离开",
+        "support": [
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "TYPE-901",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "舰船",
+      "batch": "SHIP-255BC38B0552CD",
+      "country": "中国",
+      "platform": "901型综合补给舰",
+      "task": "海上补给训练",
+      "count": 1,
+      "start": "17:02",
+      "end": "19:27",
+      "region": "北黄海",
+      "lonlat": null,
+      "excel_rows": [
+        7,
+        23,
+        71,
+        84,
+        115,
+        188,
+        211,
+        232,
+        251,
+        300
+      ],
+      "alternatives": [
+        {
+          "region": "北黄海",
+          "rows": [
+            7,
+            23,
+            71,
+            84,
+            115,
+            188,
+            211,
+            232,
+            251,
+            300
+          ]
+        }
+      ],
+      "base": "常驻母港",
+      "hull": "TYPE-901"
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:005",
+      "mention_id": "O:2025.6.17:005#1",
+      "title": "中国海军901型综合补给舰离开北黄海任务海域",
+      "country": "中国",
+      "platform": "901型综合补给舰",
+      "count": 1,
+      "region": "北黄海",
+      "start": "",
+      "end": "",
+      "task": "",
+      "action": "离开"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:018",
+      "mention_id": "P:2025.6.17:018#1",
+      "title": "中国901型补给舰在黄海进行海上补给训练",
+      "country": "中国",
+      "platform": "901型综合补给舰",
+      "count": null,
+      "region": "黄海",
+      "start": "17:02",
+      "end": "19:27",
+      "task": "海上补给训练",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-024",
+    "day": "2025.6.17",
+    "kind": "舰船",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 8.8,
+      "P": 11.0
+    },
+    "fields": {
+      "platform": {
+        "value": "山东号航空母舰",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "中国",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "宁波外海",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "东海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "编队警戒部署",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "17:24",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "19:49",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "17",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "舰船",
+      "batch": "SHIP-E59D72A33681DD",
+      "country": "中国",
+      "platform": "山东号航空母舰",
+      "task": "编队警戒部署",
+      "count": 1,
+      "start": "17:24",
+      "end": "19:49",
+      "region": "宁波外海",
+      "lonlat": null,
+      "excel_rows": [
+        18,
+        90,
+        103,
+        126,
+        137,
+        162,
+        210,
+        270,
+        273,
+        293
+      ],
+      "alternatives": [
+        {
+          "region": "宁波外海",
+          "rows": [
+            18,
+            90,
+            103,
+            126,
+            137,
+            162,
+            210,
+            270,
+            273,
+            293
+          ]
+        }
+      ],
+      "base": "常驻母港",
+      "hull": "17"
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:039",
+      "mention_id": "O:2025.6.17:039#1",
+      "title": "中国海军山东号航母在宁波外海持续开展活动",
+      "country": "中国",
+      "platform": "山东号航空母舰",
+      "count": 1,
+      "region": "宁波外海",
+      "start": "",
+      "end": "",
+      "task": "",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:035",
+      "mention_id": "P:2025.6.17:035#1",
+      "title": "中国海军“山东号”航空母舰在东海展开编队警戒部署",
+      "country": "中国",
+      "platform": "山东号航空母舰",
+      "count": null,
+      "region": "东海",
+      "start": "17:24",
+      "end": "19:49",
+      "task": "编队警戒部署",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-025",
+    "day": "2025.6.17",
+    "kind": "舰船",
+    "status": "可信",
+    "in_core": false,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 12.0,
+      "P": 9.3
+    },
+    "fields": {
+      "platform": {
+        "value": "23型导弹护卫舰",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "英国",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "夏威夷附近海空域",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "其他",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "远海训练",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "17:40",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "19:05",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "TYPE-23",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "舰船",
+      "batch": "SHIP-4140E8EEA544F9",
+      "country": "英国",
+      "platform": "23型导弹护卫舰",
+      "task": "远海训练",
+      "count": 1,
+      "start": "17:40",
+      "end": "19:05",
+      "region": "夏威夷附近海空域",
+      "lonlat": null,
+      "excel_rows": [
+        56,
+        79,
+        94,
+        105,
+        132,
+        202,
+        217,
+        246,
+        278,
+        281
+      ],
+      "alternatives": [
+        {
+          "region": "夏威夷附近海空域",
+          "rows": [
+            56,
+            79,
+            94,
+            105,
+            132,
+            202,
+            217,
+            246,
+            278,
+            281
+          ]
+        }
+      ],
+      "base": "英国朴次茅斯海军基地",
+      "hull": "TYPE-23"
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:008",
+      "mention_id": "O:2025.6.17:008#1",
+      "title": "英国23型导弹护卫舰在夏威夷附近海空域开展远海训练",
+      "country": "英国",
+      "platform": "23型导弹护卫舰",
+      "count": null,
+      "region": "夏威夷附近海空域",
+      "start": "17:40",
+      "end": "19:05",
+      "task": "远海训练",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:026",
+      "mention_id": "P:2025.6.17:026#1",
+      "title": "英国23型导弹护卫舰在夏威夷附近海空域持续活动",
+      "country": "英国",
+      "platform": "23型导弹护卫舰",
+      "count": 1,
+      "region": "夏威夷附近海空域",
+      "start": "",
+      "end": "",
+      "task": "",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-026",
+    "day": "2025.6.17",
+    "kind": "舰船",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 12.0,
+      "P": 11.3
+    },
+    "fields": {
+      "platform": {
+        "value": "辽宁号航空母舰",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "中国",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "海州湾外海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "黄海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "例行部署",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "18:12",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {
+          "P": "18:44"
+        },
+        "note": ""
+      },
+      "end": {
+        "value": "19:42",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "16",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [
+      "开始时间冲突（P=18:44），采用R/O一致值“18:12”"
+    ],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "舰船",
+      "batch": "SHIP-BD5FB1BA46D6A0",
+      "country": "中国",
+      "platform": "辽宁号航空母舰",
+      "task": "例行部署",
+      "count": 1,
+      "start": "18:12",
+      "end": "19:42",
+      "region": "海州湾外海",
+      "lonlat": null,
+      "excel_rows": [
+        5,
+        22,
+        55,
+        101,
+        192,
+        231,
+        242,
+        255,
+        260,
+        265
+      ],
+      "alternatives": [
+        {
+          "region": "海州湾外海",
+          "rows": [
+            5,
+            22,
+            55,
+            101,
+            192,
+            231,
+            242,
+            255,
+            260,
+            265
+          ]
+        }
+      ],
+      "base": "常驻母港",
+      "hull": "16"
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:038",
+      "mention_id": "O:2025.6.17:038#1",
+      "title": "中国辽宁号航空母舰在海州湾外海执行例行部署",
+      "country": "中国",
+      "platform": "辽宁号航空母舰",
+      "count": null,
+      "region": "海州湾外海",
+      "start": "18:12",
+      "end": "19:42",
+      "task": "例行部署",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:009",
+      "mention_id": "P:2025.6.17:009#1",
+      "title": "中国航母辽宁舰在黄海海州湾外海执行例行部署",
+      "country": "中国",
+      "platform": "辽宁号航空母舰",
+      "count": null,
+      "region": "海州湾外海",
+      "start": "18:44",
+      "end": "19:42",
+      "task": "例行部署",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-027",
+    "day": "2025.6.17",
+    "kind": "舰船",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 10.5,
+      "P": 8.8
+    },
+    "fields": {
+      "platform": {
+        "value": "075型两栖攻击舰",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "中国",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "黄海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "黄海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "联合巡航",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "20:20",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "22:45",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "TYPE-075",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "舰船",
+      "batch": "SHIP-3F9735D8F76BDB",
+      "country": "中国",
+      "platform": "075型两栖攻击舰",
+      "task": "联合巡航",
+      "count": 1,
+      "start": "20:20",
+      "end": "22:45",
+      "region": "黄海",
+      "lonlat": null,
+      "excel_rows": [
+        10,
+        120,
+        161,
+        166,
+        180,
+        209,
+        215,
+        229,
+        280,
+        288
+      ],
+      "alternatives": [
+        {
+          "region": "黄海",
+          "rows": [
+            10,
+            120,
+            161,
+            166,
+            180,
+            209,
+            215,
+            229,
+            280,
+            288
+          ]
+        }
+      ],
+      "base": "常驻母港",
+      "hull": "TYPE-075"
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:035",
+      "mention_id": "O:2025.6.17:035#1",
+      "title": "中国075型两栖攻击舰在黄海持续执行联合巡航任务行动",
+      "country": "中国",
+      "platform": "075型两栖攻击舰",
+      "count": null,
+      "region": "黄海",
+      "start": "20:20",
+      "end": "22:45",
+      "task": "联合巡航",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:004",
+      "mention_id": "P:2025.6.17:004#1",
+      "title": "中国075型两栖攻击舰在黄海执行联合巡航",
+      "country": "中国",
+      "platform": "075型两栖攻击舰",
+      "count": 1,
+      "region": "黄海",
+      "start": "",
+      "end": "",
+      "task": "联合巡航",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-028",
+    "day": "2025.6.17",
+    "kind": "舰船",
+    "status": "可信",
+    "in_core": false,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 9.0,
+      "P": 8.5
+    },
+    "fields": {
+      "platform": {
+        "value": "054A型导弹护卫舰",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "中国",
+        "support": [
+          "O",
+          "P"
+        ],
+        "conflicts": {
+          "R": "日本"
+        },
+        "note": ""
+      },
+      "region": {
+        "value": "塔斯曼海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "其他",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "反潜巡逻",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "20:36",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "22:01",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "TYPE-054A",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [
+      "国家/地区冲突（R=日本），采用O/P一致值“中国”"
+    ],
+    "radar_anomalies": [
+      "主体—平台错配：日本/054A型导弹护卫舰"
+    ],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "舰船",
+      "batch": "SHIP-BFEEB9459288FE",
+      "country": "日本",
+      "platform": "054A型导弹护卫舰",
+      "task": "反潜巡逻",
+      "count": 1,
+      "start": "20:36",
+      "end": "22:01",
+      "region": "塔斯曼海",
+      "lonlat": null,
+      "excel_rows": [
+        12,
+        81,
+        138,
+        143,
+        167,
+        234,
+        247,
+        248,
+        262,
+        291
+      ],
+      "alternatives": [
+        {
+          "region": "塔斯曼海",
+          "rows": [
+            12,
+            81,
+            138,
+            143,
+            167,
+            234,
+            247,
+            248,
+            262,
+            291
+          ]
+        }
+      ],
+      "base": "常驻母港",
+      "hull": "TYPE-054A"
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:016",
+      "mention_id": "O:2025.6.17:016#1",
+      "title": "中国054A型导弹护卫舰在塔斯曼海执行反潜巡逻",
+      "country": "中国",
+      "platform": "054A型导弹护卫舰",
+      "count": null,
+      "region": "塔斯曼海",
+      "start": "20:36",
+      "end": "22:01",
+      "task": "反潜巡逻",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:007",
+      "mention_id": "P:2025.6.17:007#1",
+      "title": "中国海军054A型护卫舰在塔斯曼海执行反潜巡逻任务",
+      "country": "中国",
+      "platform": "054A型导弹护卫舰",
+      "count": 1,
+      "region": "塔斯曼海",
+      "start": "",
+      "end": "",
+      "task": "反潜巡逻",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-029",
+    "day": "2025.6.17",
+    "kind": "舰船",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 12.0,
+      "P": 12.5
+    },
+    "fields": {
+      "platform": {
+        "value": "辽宁号航空母舰",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "中国",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "黄海中部",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "黄海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "远海训练",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "20:42",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "22:07",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "离开",
+        "support": [
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "16",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "舰船",
+      "batch": "SHIP-3785DF49FAF73C",
+      "country": "中国",
+      "platform": "辽宁号航空母舰",
+      "task": "远海训练",
+      "count": 1,
+      "start": "20:42",
+      "end": "22:07",
+      "region": "黄海中部",
+      "lonlat": null,
+      "excel_rows": [
+        8,
+        66,
+        93,
+        109,
+        114,
+        140,
+        148,
+        153,
+        208,
+        212
+      ],
+      "alternatives": [
+        {
+          "region": "黄海中部",
+          "rows": [
+            8,
+            66,
+            93,
+            109,
+            114,
+            140,
+            148,
+            153,
+            208,
+            212
+          ]
+        }
+      ],
+      "base": "常驻母港",
+      "hull": "16"
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:040",
+      "mention_id": "O:2025.6.17:040#1",
+      "title": "中国海军辽宁号航空母舰在黄海中部完成远海训练后离开",
+      "country": "中国",
+      "platform": "辽宁号航空母舰",
+      "count": null,
+      "region": "黄海中部",
+      "start": "20:42",
+      "end": "22:07",
+      "task": "远海训练",
+      "action": "离开"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:019",
+      "mention_id": "P:2025.6.17:019#1",
+      "title": "中国航母“辽宁舰”在黄海中部执行远海训练任务",
+      "country": "中国",
+      "platform": "辽宁号航空母舰",
+      "count": null,
+      "region": "黄海中部",
+      "start": "20:42",
+      "end": "22:07",
+      "task": "远海训练",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-030",
+    "day": "2025.6.17",
+    "kind": "舰船",
+    "status": "可信",
+    "in_core": false,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 10.5,
+      "P": 8.8
+    },
+    "fields": {
+      "platform": {
+        "value": "安扎克级导弹护卫舰",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "澳大利亚",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "珊瑚海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "其他",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "例行部署",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "20:58",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "22:23",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "FFH-150",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "舰船",
+      "batch": "SHIP-12363AC1525E30",
+      "country": "澳大利亚",
+      "platform": "安扎克级导弹护卫舰",
+      "task": "例行部署",
+      "count": 1,
+      "start": "20:58",
+      "end": "22:23",
+      "region": "珊瑚海",
+      "lonlat": null,
+      "excel_rows": [
+        88,
+        121,
+        134,
+        150,
+        152,
+        155,
+        181,
+        205,
+        271,
+        277
+      ],
+      "alternatives": [
+        {
+          "region": "珊瑚海",
+          "rows": [
+            88,
+            121,
+            134,
+            150,
+            152,
+            155,
+            181,
+            205,
+            271,
+            277
+          ]
+        }
+      ],
+      "base": "澳大利亚悉尼海军基地",
+      "hull": "FFH-150"
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:026",
+      "mention_id": "O:2025.6.17:026#1",
+      "title": "澳大利亚海军护卫舰在珊瑚海执行例行部署行动",
+      "country": "澳大利亚",
+      "platform": "安扎克级导弹护卫舰",
+      "count": null,
+      "region": "珊瑚海",
+      "start": "20:58",
+      "end": "22:23",
+      "task": "例行部署",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:023",
+      "mention_id": "P:2025.6.17:023#1",
+      "title": "澳大利亚安扎克级护卫舰在珊瑚海执行例行部署",
+      "country": "澳大利亚",
+      "platform": "安扎克级导弹护卫舰",
+      "count": 1,
+      "region": "珊瑚海",
+      "start": "",
+      "end": "",
+      "task": "例行部署",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-031",
+    "day": "2025.6.17",
+    "kind": "飞机",
+    "status": "可信",
+    "in_core": false,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 10.5,
+      "P": 7.8
+    },
+    "fields": {
+      "platform": {
+        "value": "歼-15舰载战斗机",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "中国",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "波罗的海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "其他",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "对海突击训练",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "02:05",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "04:30",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "飞机",
+      "batch": "AIR-BA57F7CF76AF25",
+      "country": "中国",
+      "platform": "歼-15舰载战斗机",
+      "task": "对海突击训练",
+      "count": 1,
+      "start": "02:05",
+      "end": "04:30",
+      "region": "波罗的海",
+      "lonlat": [
+        19.0395,
+        56.9673
+      ],
+      "excel_rows": [
+        95,
+        172,
+        22,
+        211,
+        50,
+        174,
+        74,
+        11,
+        248,
+        61,
+        229,
+        300
+      ],
+      "alternatives": [
+        {
+          "region": "波罗的海",
+          "rows": [
+            95,
+            172,
+            22,
+            211,
+            50,
+            174,
+            74,
+            11,
+            248,
+            61,
+            229,
+            300
+          ]
+        }
+      ],
+      "base": "前沿基地",
+      "hull": ""
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:044",
+      "mention_id": "O:2025.6.17:044#1",
+      "title": "中国歼-15舰载机在波罗的海展开对海突击训练",
+      "country": "中国",
+      "platform": "歼-15舰载战斗机",
+      "count": null,
+      "region": "波罗的海",
+      "start": "02:05",
+      "end": "04:30",
+      "task": "对海突击训练",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:049",
+      "mention_id": "P:2025.6.17:049#1",
+      "title": "中国歼-15舰载战斗机在波罗的海海域持续活动引发关注",
+      "country": "中国",
+      "platform": "歼-15舰载战斗机",
+      "count": 1,
+      "region": "波罗的海",
+      "start": "",
+      "end": "",
+      "task": "",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-032",
+    "day": "2025.6.17",
+    "kind": "飞机",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 8.8,
+      "P": 11.0
+    },
+    "fields": {
+      "platform": {
+        "value": "“台风”多用途战斗机",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "德国",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "连云港外海",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "黄海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "对海突击训练",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "02:27",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "04:52",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "进入",
+        "support": [
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "飞机",
+      "batch": "AIR-22C53D4D4E31FD",
+      "country": "德国",
+      "platform": "“台风”多用途战斗机",
+      "task": "对海突击训练",
+      "count": 1,
+      "start": "02:27",
+      "end": "04:52",
+      "region": "连云港外海",
+      "lonlat": [
+        120.9856,
+        34.6305
+      ],
+      "excel_rows": [
+        261,
+        167,
+        31,
+        25,
+        7,
+        242,
+        170,
+        122,
+        294,
+        24,
+        116,
+        147
+      ],
+      "alternatives": [
+        {
+          "region": "连云港外海",
+          "rows": [
+            261,
+            167,
+            31,
+            25,
+            7,
+            242,
+            170,
+            122,
+            294,
+            24,
+            116,
+            147
+          ]
+        }
+      ],
+      "base": "德国诺德霍尔茨海军航空基地",
+      "hull": ""
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:037",
+      "mention_id": "O:2025.6.17:037#1",
+      "title": "德国空军台风战斗机在连云港外海持续开展活动",
+      "country": "德国",
+      "platform": "“台风”多用途战斗机",
+      "count": 1,
+      "region": "连云港外海",
+      "start": "",
+      "end": "",
+      "task": "",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:022",
+      "mention_id": "P:2025.6.17:022#1",
+      "title": "德国空军“台风”战机黄海训练引发区域关注",
+      "country": "德国",
+      "platform": "“台风”多用途战斗机",
+      "count": null,
+      "region": "黄海",
+      "start": "02:27",
+      "end": "04:52",
+      "task": "对海突击训练",
+      "action": "进入"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-033",
+    "day": "2025.6.17",
+    "kind": "飞机",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 10.8,
+      "P": 11.8
+    },
+    "fields": {
+      "platform": {
+        "value": "RQ-4“全球鹰”无人机",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "美国",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "金兰湾",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "南海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "海上侦察巡逻",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "02:43",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {
+          "O": "03:50"
+        },
+        "note": ""
+      },
+      "end": {
+        "value": "04:08",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [
+      "开始时间冲突（O=03:50），采用R/P一致值“02:43”"
+    ],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "飞机",
+      "batch": "AIR-F82D815FEC34A9",
+      "country": "美国",
+      "platform": "RQ-4“全球鹰”无人机",
+      "task": "海上侦察巡逻",
+      "count": 1,
+      "start": "02:43",
+      "end": "04:08",
+      "region": "金兰湾",
+      "lonlat": [
+        109.1069,
+        11.8412
+      ],
+      "excel_rows": [
+        93,
+        153,
+        193,
+        43,
+        182,
+        281,
+        78,
+        256,
+        158,
+        120
+      ],
+      "alternatives": [
+        {
+          "region": "金兰湾",
+          "rows": [
+            93,
+            153,
+            193,
+            43,
+            182,
+            281,
+            78,
+            256,
+            158,
+            120
+          ]
+        }
+      ],
+      "base": "关岛安德森空军基地",
+      "hull": ""
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:047",
+      "mention_id": "O:2025.6.17:047#1",
+      "title": "美军RQ-4无人机在越南金兰湾附近执行海上侦察巡逻",
+      "country": "美国",
+      "platform": "RQ-4“全球鹰”无人机",
+      "count": null,
+      "region": "金兰湾",
+      "start": "03:50",
+      "end": "04:08",
+      "task": "海上侦察巡逻",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:016",
+      "mention_id": "P:2025.6.17:016#1",
+      "title": "美军RQ-4“全球鹰”无人机在金兰湾附近执行海上侦察巡逻",
+      "country": "美国",
+      "platform": "RQ-4“全球鹰”无人机",
+      "count": 1,
+      "region": "金兰湾",
+      "start": "02:43",
+      "end": "",
+      "task": "海上侦察巡逻",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-034",
+    "day": "2025.6.17",
+    "kind": "飞机",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 10.1,
+      "P": 11.5
+    },
+    "fields": {
+      "platform": {
+        "value": "福克50海上巡逻机",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "新加坡",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "黄海中部",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "黄海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "海上侦察巡逻",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "02:49",
+        "support": [
+          "O",
+          "P"
+        ],
+        "conflicts": {
+          "R": "03:03"
+        },
+        "note": ""
+      },
+      "end": {
+        "value": "04:14",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [
+      "开始时间冲突（R=03:03），采用O/P一致值“02:49”"
+    ],
+    "radar_anomalies": [
+      "位置漂移/轨迹跳变：同一批号点迹在两处交替出现",
+      "已采用与文本一致的点迹/区域“黄海中部”，剔除其余异常点迹"
+    ],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "飞机",
+      "batch": "AIR-B5CFAF1A2DAAC0",
+      "country": "新加坡",
+      "platform": "福克50海上巡逻机",
+      "task": "海上侦察巡逻",
+      "count": 1,
+      "start": "03:03",
+      "end": "04:14",
+      "region": "黄海中部",
+      "lonlat": [
+        124.2511,
+        35.9672
+      ],
+      "excel_rows": [
+        28,
+        293,
+        54,
+        245,
+        134,
+        60
+      ],
+      "alternatives": [
+        {
+          "region": "东海中部",
+          "rows": [
+            258,
+            202,
+            142,
+            102,
+            246,
+            259,
+            262
+          ]
+        },
+        {
+          "region": "黄海中部",
+          "rows": [
+            28,
+            293,
+            54,
+            245,
+            134,
+            60
+          ]
+        }
+      ],
+      "base": "新加坡樟宜空军基地（东）",
+      "hull": ""
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:024",
+      "mention_id": "O:2025.6.17:024#1",
+      "title": "新加坡福克50巡逻机在黄海中部持续开展活动",
+      "country": "新加坡",
+      "platform": "福克50海上巡逻机",
+      "count": 1,
+      "region": "黄海中部",
+      "start": "02:49",
+      "end": "04:14",
+      "task": "",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:034",
+      "mention_id": "P:2025.6.17:034#1",
+      "title": "新加坡巡逻机被曝在黄海中部执行长时间侦察任务",
+      "country": "新加坡",
+      "platform": "福克50海上巡逻机",
+      "count": null,
+      "region": "黄海中部",
+      "start": "02:49",
+      "end": "04:14",
+      "task": "海上侦察巡逻",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-035",
+    "day": "2025.6.17",
+    "kind": "飞机",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 10.5,
+      "P": 7.8
+    },
+    "fields": {
+      "platform": {
+        "value": "P-8A“海神”反潜巡逻机",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "澳大利亚",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "南海",
+        "support": [
+          "O",
+          "P"
+        ],
+        "conflicts": {
+          "R": "南海中部"
+        },
+        "note": ""
+      },
+      "direction": {
+        "value": "南海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "反潜巡逻",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "05:07",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "07:32",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "进入",
+        "support": [
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [
+      "活动区域冲突（R=南海中部），采用O/P一致值“南海”"
+    ],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "飞机",
+      "batch": "AIR-15297A9B050E29",
+      "country": "澳大利亚",
+      "platform": "P-8A“海神”反潜巡逻机",
+      "task": "反潜巡逻",
+      "count": 1,
+      "start": "05:07",
+      "end": "07:32",
+      "region": "南海中部",
+      "lonlat": [
+        114.7018,
+        14.9917
+      ],
+      "excel_rows": [
+        18,
+        101,
+        89,
+        42,
+        271,
+        2,
+        79,
+        254,
+        298,
+        68,
+        38,
+        209,
+        251
+      ],
+      "alternatives": [
+        {
+          "region": "南海中部",
+          "rows": [
+            18,
+            101,
+            89,
+            42,
+            271,
+            2,
+            79,
+            254,
+            298,
+            68,
+            38,
+            209,
+            251
+          ]
+        }
+      ],
+      "base": "澳大利亚达尔文空军基地",
+      "hull": ""
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:012",
+      "mention_id": "O:2025.6.17:012#1",
+      "title": "澳大利亚P-8A与F-35A在南海执行反潜巡逻",
+      "country": "澳大利亚",
+      "platform": "P-8A“海神”反潜巡逻机",
+      "count": null,
+      "region": "南海",
+      "start": "05:07",
+      "end": "07:32",
+      "task": "反潜巡逻",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:036",
+      "mention_id": "P:2025.6.17:036#1",
+      "title": "澳大利亚P-8A反潜巡逻机进入南海活动引关注",
+      "country": "澳大利亚",
+      "platform": "P-8A“海神”反潜巡逻机",
+      "count": 1,
+      "region": "南海",
+      "start": "",
+      "end": "",
+      "task": "",
+      "action": "进入"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-036",
+    "day": "2025.6.17",
+    "kind": "飞机",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O"
+    ],
+    "link_scores": {
+      "R-O": 10.5
+    },
+    "fields": {
+      "platform": {
+        "value": "F-35A隐身战斗机",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "澳大利亚",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "南海中部",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": "具体区域单源给出，活动方向多源一致"
+      },
+      "direction": {
+        "value": "南海",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "反潜巡逻",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 2,
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "05:07",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "07:32",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "飞机",
+      "batch": "AIR-5F1C61F3A16A51",
+      "country": "澳大利亚",
+      "platform": "F-35A隐身战斗机",
+      "task": "反潜巡逻",
+      "count": 2,
+      "start": "05:07",
+      "end": "07:32",
+      "region": "南海中部",
+      "lonlat": [
+        114.4691,
+        15.0813
+      ],
+      "excel_rows": [
+        238,
+        290,
+        108,
+        165,
+        71,
+        94,
+        225,
+        96,
+        288,
+        199,
+        135,
+        188,
+        255
+      ],
+      "alternatives": [
+        {
+          "region": "南海中部",
+          "rows": [
+            238,
+            290,
+            108,
+            165,
+            71,
+            94,
+            225,
+            96,
+            288,
+            199,
+            135,
+            188,
+            255
+          ]
+        }
+      ],
+      "base": "澳大利亚达尔文空军基地",
+      "hull": ""
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:012",
+      "mention_id": "O:2025.6.17:012#2",
+      "title": "澳大利亚P-8A与F-35A在南海执行反潜巡逻",
+      "country": "澳大利亚",
+      "platform": "F-35A隐身战斗机",
+      "count": null,
+      "region": "南海",
+      "start": "05:07",
+      "end": "07:32",
+      "task": "反潜巡逻",
+      "action": "活动"
+    },
+    "public_opinion": null
+  },
+  {
+    "event_id": "E-2025.6.17-037",
+    "day": "2025.6.17",
+    "kind": "飞机",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 11.3,
+      "P": 10.0
+    },
+    "fields": {
+      "platform": {
+        "value": "福克50海上巡逻机",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "新加坡",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {
+          "P": "印度"
+        },
+        "note": ""
+      },
+      "region": {
+        "value": "济州岛西部海域",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "黄海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "反潜巡逻",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "05:14",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "06:44",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [
+      "国家/地区冲突（P=印度），采用R/O一致值“新加坡”"
+    ],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "飞机",
+      "batch": "AIR-1F7A5A767AA173",
+      "country": "新加坡",
+      "platform": "福克50海上巡逻机",
+      "task": "反潜巡逻",
+      "count": 1,
+      "start": "05:14",
+      "end": "06:44",
+      "region": "济州岛西部海域",
+      "lonlat": [
+        125.719,
+        33.351
+      ],
+      "excel_rows": [
+        81,
+        132,
+        20,
+        266,
+        119,
+        175,
+        29,
+        234,
+        286,
+        289
+      ],
+      "alternatives": [
+        {
+          "region": "济州岛西部海域",
+          "rows": [
+            81,
+            132,
+            20,
+            266,
+            119,
+            175,
+            29,
+            234,
+            286,
+            289
+          ]
+        }
+      ],
+      "base": "新加坡巴耶利峇空军基地",
+      "hull": ""
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:028",
+      "mention_id": "O:2025.6.17:028#1",
+      "title": "新加坡福克50海上巡逻机在济州岛西部海域持续活动",
+      "country": "新加坡",
+      "platform": "福克50海上巡逻机",
+      "count": 1,
+      "region": "济州岛西部海域",
+      "start": "05:14",
+      "end": "06:44",
+      "task": "",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:028",
+      "mention_id": "P:2025.6.17:028#1",
+      "title": "印度海上巡逻机在济州岛西部海域执行反潜巡逻引发关注",
+      "country": "印度",
+      "platform": "福克50海上巡逻机",
+      "count": null,
+      "region": "济州岛西部海域",
+      "start": "05:14",
+      "end": "06:44",
+      "task": "反潜巡逻",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-038",
+    "day": "2025.6.17",
+    "kind": "飞机",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 12.0,
+      "P": 9.3
+    },
+    "fields": {
+      "platform": {
+        "value": "F-2A多用途战斗机",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "日本",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "东海油气田海域",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "东海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "战备警巡",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "05:23",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "07:48",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "飞机",
+      "batch": "AIR-504BB362E5DDF8",
+      "country": "日本",
+      "platform": "F-2A多用途战斗机",
+      "task": "战备警巡",
+      "count": 1,
+      "start": "05:23",
+      "end": "07:48",
+      "region": "东海油气田海域",
+      "lonlat": [
+        125.6102,
+        28.532
+      ],
+      "excel_rows": [
+        210,
+        194,
+        295,
+        52,
+        34,
+        16,
+        100,
+        285,
+        267,
+        275,
+        184,
+        9
+      ],
+      "alternatives": [
+        {
+          "region": "东海油气田海域",
+          "rows": [
+            210,
+            194,
+            295,
+            52,
+            34,
+            16,
+            100,
+            285,
+            267,
+            275,
+            184,
+            9
+          ]
+        }
+      ],
+      "base": "日本鹿屋航空基地",
+      "hull": ""
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:046",
+      "mention_id": "O:2025.6.17:046#1",
+      "title": "日本F-2A多用途战斗机在东海油气田海域执行战备警巡行动",
+      "country": "日本",
+      "platform": "F-2A多用途战斗机",
+      "count": null,
+      "region": "东海油气田海域",
+      "start": "05:23",
+      "end": "07:48",
+      "task": "战备警巡",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:027",
+      "mention_id": "P:2025.6.17:027#1",
+      "title": "日本一架F-2A战斗机在东海油气田海域持续活动",
+      "country": "日本",
+      "platform": "F-2A多用途战斗机",
+      "count": 1,
+      "region": "东海油气田海域",
+      "start": "",
+      "end": "",
+      "task": "",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-039",
+    "day": "2025.6.17",
+    "kind": "飞机",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 12.0,
+      "P": 8.8
+    },
+    "fields": {
+      "platform": {
+        "value": "图-95MS战略轰炸机",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "俄罗斯",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "东海中部",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "东海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "对海突击训练",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "05:45",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "07:10",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "飞机",
+      "batch": "AIR-CCACDBA428EB48",
+      "country": "俄罗斯",
+      "platform": "图-95MS战略轰炸机",
+      "task": "对海突击训练",
+      "count": 1,
+      "start": "05:45",
+      "end": "07:10",
+      "region": "东海中部",
+      "lonlat": [
+        125.0956,
+        28.3173
+      ],
+      "excel_rows": [
+        110,
+        207,
+        139,
+        66,
+        164,
+        283,
+        133,
+        205,
+        270,
+        279,
+        105,
+        249,
+        67
+      ],
+      "alternatives": [
+        {
+          "region": "东海中部",
+          "rows": [
+            110,
+            207,
+            139,
+            66,
+            164,
+            283,
+            133,
+            205,
+            270,
+            279,
+            105,
+            249,
+            67
+          ]
+        }
+      ],
+      "base": "前沿基地",
+      "hull": ""
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:018",
+      "mention_id": "O:2025.6.17:018#1",
+      "title": "俄军图-95MS战略轰炸机在东海中部开展对海突击训练",
+      "country": "俄罗斯",
+      "platform": "图-95MS战略轰炸机",
+      "count": null,
+      "region": "东海中部",
+      "start": "05:45",
+      "end": "07:10",
+      "task": "对海突击训练",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:032",
+      "mention_id": "P:2025.6.17:032#1",
+      "title": "俄军图-95MS轰炸机在东海进行对海突击训练",
+      "country": "俄罗斯",
+      "platform": "图-95MS战略轰炸机",
+      "count": 1,
+      "region": "东海",
+      "start": "",
+      "end": "",
+      "task": "对海突击训练",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-040",
+    "day": "2025.6.17",
+    "kind": "飞机",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 12.0,
+      "P": 8.8
+    },
+    "fields": {
+      "platform": {
+        "value": "CF-188多用途战斗机",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "加拿大",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "温州外海",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "东海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "联合巡逻",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "08:03",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "10:28",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "飞机",
+      "batch": "AIR-EE80F16DB64B1B",
+      "country": "加拿大",
+      "platform": "CF-188多用途战斗机",
+      "task": "联合巡逻",
+      "count": 1,
+      "start": "08:03",
+      "end": "10:28",
+      "region": "温州外海",
+      "lonlat": [
+        122.3786,
+        27.7588
+      ],
+      "excel_rows": [
+        91,
+        189,
+        21,
+        263,
+        137,
+        244,
+        181,
+        13,
+        136,
+        90,
+        118,
+        112,
+        3
+      ],
+      "alternatives": [
+        {
+          "region": "温州外海",
+          "rows": [
+            91,
+            189,
+            21,
+            263,
+            137,
+            244,
+            181,
+            13,
+            136,
+            90,
+            118,
+            112,
+            3
+          ]
+        }
+      ],
+      "base": "前沿基地",
+      "hull": ""
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:001",
+      "mention_id": "O:2025.6.17:001#1",
+      "title": "加拿大CF-188多用途战斗机在温州外海执行联合巡逻",
+      "country": "加拿大",
+      "platform": "CF-188多用途战斗机",
+      "count": null,
+      "region": "温州外海",
+      "start": "08:03",
+      "end": "10:28",
+      "task": "联合巡逻",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:030",
+      "mention_id": "P:2025.6.17:030#1",
+      "title": "加拿大CF-188战斗机在东海执行联合巡逻任务",
+      "country": "加拿大",
+      "platform": "CF-188多用途战斗机",
+      "count": 1,
+      "region": "东海",
+      "start": "",
+      "end": "",
+      "task": "联合巡逻",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-041",
+    "day": "2025.6.17",
+    "kind": "飞机",
+    "status": "可信",
+    "in_core": false,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 8.8,
+      "P": 12.5
+    },
+    "fields": {
+      "platform": {
+        "value": "苏-30MKM多用途战斗机",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "马来西亚",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "渤海海峡",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "其他",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "空中警戒",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "08:19",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "10:44",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "飞机",
+      "batch": "AIR-D6EAFA9FF32D99",
+      "country": "马来西亚",
+      "platform": "苏-30MKM多用途战斗机",
+      "task": "空中警戒",
+      "count": 1,
+      "start": "08:19",
+      "end": "10:44",
+      "region": "渤海海峡",
+      "lonlat": [
+        120.9353,
+        38.1377
+      ],
+      "excel_rows": [
+        260,
+        36,
+        192,
+        129,
+        115,
+        107,
+        161,
+        292,
+        177,
+        191,
+        214,
+        269
+      ],
+      "alternatives": [
+        {
+          "region": "渤海海峡",
+          "rows": [
+            260,
+            36,
+            192,
+            129,
+            115,
+            107,
+            161,
+            292,
+            177,
+            191,
+            214,
+            269
+          ]
+        }
+      ],
+      "base": "马来西亚纳闽空军基地",
+      "hull": ""
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:006",
+      "mention_id": "O:2025.6.17:006#1",
+      "title": "马来西亚空军苏-30MKM多用途战斗机在渤海海峡活动",
+      "country": "马来西亚",
+      "platform": "苏-30MKM多用途战斗机",
+      "count": 1,
+      "region": "渤海海峡",
+      "start": "",
+      "end": "",
+      "task": "",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:037",
+      "mention_id": "P:2025.6.17:037#1",
+      "title": "马来西亚苏-30MKM战机在渤海海峡执行空中警戒",
+      "country": "马来西亚",
+      "platform": "苏-30MKM多用途战斗机",
+      "count": null,
+      "region": "渤海海峡",
+      "start": "08:19",
+      "end": "10:44",
+      "task": "空中警戒",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-042",
+    "day": "2025.6.17",
+    "kind": "飞机",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 12.0,
+      "P": 8.8
+    },
+    "fields": {
+      "platform": {
+        "value": "轰-6K轰炸机",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "中国",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "南黄海",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "黄海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "对海突击训练",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "08:41",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "10:06",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "飞机",
+      "batch": "AIR-765AC31F0E1C13",
+      "country": "中国",
+      "platform": "轰-6K轰炸机",
+      "task": "对海突击训练",
+      "count": 1,
+      "start": "08:41",
+      "end": "10:06",
+      "region": "南黄海",
+      "lonlat": [
+        123.1129,
+        33.8363
+      ],
+      "excel_rows": [
+        62,
+        23,
+        206,
+        146,
+        186,
+        227,
+        208,
+        4,
+        203,
+        48,
+        98,
+        138
+      ],
+      "alternatives": [
+        {
+          "region": "南黄海",
+          "rows": [
+            62,
+            23,
+            206,
+            146,
+            186,
+            227,
+            208,
+            4,
+            203,
+            48,
+            98,
+            138
+          ]
+        }
+      ],
+      "base": "前沿基地",
+      "hull": ""
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:034",
+      "mention_id": "O:2025.6.17:034#1",
+      "title": "中国轰-6K轰炸机在南黄海组织对海突击训练",
+      "country": "中国",
+      "platform": "轰-6K轰炸机",
+      "count": null,
+      "region": "南黄海",
+      "start": "08:41",
+      "end": "10:06",
+      "task": "对海突击训练",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:043",
+      "mention_id": "P:2025.6.17:043#1",
+      "title": "中国轰-6K轰炸机在黄海开展对海突击训练",
+      "country": "中国",
+      "platform": "轰-6K轰炸机",
+      "count": 1,
+      "region": "黄海",
+      "start": "",
+      "end": "",
+      "task": "对海突击训练",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-043",
+    "day": "2025.6.17",
+    "kind": "飞机",
+    "status": "可信",
+    "in_core": false,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 10.5,
+      "P": 7.8
+    },
+    "fields": {
+      "platform": {
+        "value": "P-72A海上巡逻机",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "意大利",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "中太平洋",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "其他",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "反潜巡逻",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "11:37",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "13:02",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "飞机",
+      "batch": "AIR-55A6881E2BADD1",
+      "country": "意大利",
+      "platform": "P-72A海上巡逻机",
+      "task": "反潜巡逻",
+      "count": 1,
+      "start": "11:37",
+      "end": "13:02",
+      "region": "中太平洋",
+      "lonlat": [
+        -164.971,
+        9.9458
+      ],
+      "excel_rows": [
+        55,
+        150,
+        145,
+        32,
+        70,
+        159,
+        163,
+        230,
+        168,
+        84,
+        127,
+        252
+      ],
+      "alternatives": [
+        {
+          "region": "中太平洋",
+          "rows": [
+            55,
+            150,
+            145,
+            32,
+            70,
+            159,
+            163,
+            230,
+            168,
+            84,
+            127,
+            252
+          ]
+        }
+      ],
+      "base": "意大利西戈内拉空军基地",
+      "hull": ""
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:032",
+      "mention_id": "O:2025.6.17:032#1",
+      "title": "意大利P-72A海上巡逻机在中太平洋执行反潜巡逻",
+      "country": "意大利",
+      "platform": "P-72A海上巡逻机",
+      "count": null,
+      "region": "中太平洋",
+      "start": "11:37",
+      "end": "13:02",
+      "task": "反潜巡逻",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:029",
+      "mention_id": "P:2025.6.17:029#1",
+      "title": "意大利P-72A海上巡逻机现身中太平洋引发媒体解读",
+      "country": "意大利",
+      "platform": "P-72A海上巡逻机",
+      "count": 1,
+      "region": "中太平洋",
+      "start": "",
+      "end": "",
+      "task": "",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-044",
+    "day": "2025.6.17",
+    "kind": "飞机",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 8.8,
+      "P": 11.0
+    },
+    "fields": {
+      "platform": {
+        "value": "歼-15舰载战斗机",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "中国",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "舟山外海",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "东海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "舰载机起降训练",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "11:59",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "13:24",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "飞机",
+      "batch": "AIR-CBD85B4286B7D6",
+      "country": "中国",
+      "platform": "歼-15舰载战斗机",
+      "task": "舰载机起降训练",
+      "count": 1,
+      "start": "11:59",
+      "end": "13:24",
+      "region": "舟山外海",
+      "lonlat": [
+        122.8907,
+        29.9144
+      ],
+      "excel_rows": [
+        187,
+        131,
+        80,
+        169,
+        10,
+        301,
+        126,
+        49,
+        274,
+        243,
+        201,
+        148,
+        213
+      ],
+      "alternatives": [
+        {
+          "region": "舟山外海",
+          "rows": [
+            187,
+            131,
+            80,
+            169,
+            10,
+            301,
+            126,
+            49,
+            274,
+            243,
+            201,
+            148,
+            213
+          ]
+        }
+      ],
+      "base": "前沿基地",
+      "hull": ""
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:048",
+      "mention_id": "O:2025.6.17:048#1",
+      "title": "中国歼-15舰载战斗机在舟山外海持续活动",
+      "country": "中国",
+      "platform": "歼-15舰载战斗机",
+      "count": 1,
+      "region": "舟山外海",
+      "start": "",
+      "end": "",
+      "task": "",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:011",
+      "mention_id": "P:2025.6.17:011#1",
+      "title": "歼-15在东海完成昼间舰载起降训练引发关注",
+      "country": "中国",
+      "platform": "歼-15舰载战斗机",
+      "count": null,
+      "region": "东海",
+      "start": "11:59",
+      "end": "13:24",
+      "task": "舰载机起降训练",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-045",
+    "day": "2025.6.17",
+    "kind": "飞机",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 12.0,
+      "P": 11.8
+    },
+    "fields": {
+      "platform": {
+        "value": "CF-188多用途战斗机",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "加拿大",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "钓鱼岛海域",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "东海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "空中警戒",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "14:17",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "16:42",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "飞机",
+      "batch": "AIR-A98AFB35434361",
+      "country": "加拿大",
+      "platform": "CF-188多用途战斗机",
+      "task": "空中警戒",
+      "count": 1,
+      "start": "14:17",
+      "end": "16:42",
+      "region": "钓鱼岛海域",
+      "lonlat": [
+        123.4442,
+        25.5686
+      ],
+      "excel_rows": [
+        63,
+        212,
+        128,
+        15,
+        156,
+        220,
+        143,
+        140,
+        77,
+        222,
+        106,
+        190,
+        224
+      ],
+      "alternatives": [
+        {
+          "region": "钓鱼岛海域",
+          "rows": [
+            63,
+            212,
+            128,
+            15,
+            156,
+            220,
+            143,
+            140,
+            77,
+            222,
+            106,
+            190,
+            224
+          ]
+        }
+      ],
+      "base": "前沿基地",
+      "hull": ""
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:049",
+      "mention_id": "O:2025.6.17:049#1",
+      "title": "加拿大CF-188多用途战斗机在钓鱼岛海域执行空中警戒",
+      "country": "加拿大",
+      "platform": "CF-188多用途战斗机",
+      "count": null,
+      "region": "钓鱼岛海域",
+      "start": "14:17",
+      "end": "16:42",
+      "task": "空中警戒",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:017",
+      "mention_id": "P:2025.6.17:017#1",
+      "title": "加拿大CF-188战斗机在钓鱼岛海域持续活动近两个半小时",
+      "country": "加拿大",
+      "platform": "CF-188多用途战斗机",
+      "count": 1,
+      "region": "钓鱼岛海域",
+      "start": "14:17",
+      "end": "16:42",
+      "task": "",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-046",
+    "day": "2025.6.17",
+    "kind": "飞机",
+    "status": "可信",
+    "in_core": false,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 12.0,
+      "P": 10.3
+    },
+    "fields": {
+      "platform": {
+        "value": "E-7A“楔尾”预警与控制机",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "澳大利亚",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "渤海海峡",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "其他",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "空中警戒",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "14:33",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "16:58",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "飞机",
+      "batch": "AIR-591C57DD3FC849",
+      "country": "澳大利亚",
+      "platform": "E-7A“楔尾”预警与控制机",
+      "task": "空中警戒",
+      "count": 1,
+      "start": "14:33",
+      "end": "16:58",
+      "region": "渤海海峡",
+      "lonlat": [
+        121.089,
+        37.8524
+      ],
+      "excel_rows": [
+        297,
+        85,
+        117,
+        160,
+        232,
+        216,
+        195,
+        73,
+        99,
+        35,
+        51,
+        33
+      ],
+      "alternatives": [
+        {
+          "region": "渤海海峡",
+          "rows": [
+            297,
+            85,
+            117,
+            160,
+            232,
+            216,
+            195,
+            73,
+            99,
+            35,
+            51,
+            33
+          ]
+        }
+      ],
+      "base": "澳大利亚达尔文空军基地",
+      "hull": ""
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:045",
+      "mention_id": "O:2025.6.17:045#1",
+      "title": "澳大利亚E-7A预警与控制机在渤海海峡执行空中警戒任务",
+      "country": "澳大利亚",
+      "platform": "E-7A“楔尾”预警与控制机",
+      "count": null,
+      "region": "渤海海峡",
+      "start": "14:33",
+      "end": "16:58",
+      "task": "空中警戒",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:039",
+      "mention_id": "P:2025.6.17:039#1",
+      "title": "澳大利亚E-7A预警机在渤海海峡执行空中警戒",
+      "country": "澳大利亚",
+      "platform": "E-7A“楔尾”预警与控制机",
+      "count": 1,
+      "region": "渤海海峡",
+      "start": "",
+      "end": "",
+      "task": "空中警戒",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-047",
+    "day": "2025.6.17",
+    "kind": "飞机",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 12.0,
+      "P": 9.3
+    },
+    "fields": {
+      "platform": {
+        "value": "F-15K多用途战斗机",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "韩国",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "济州岛西部海域",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "黄海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "空中警戒",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "14:55",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "16:20",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "进入",
+        "support": [
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "飞机",
+      "batch": "AIR-EEF8C42F9A5EED",
+      "country": "韩国",
+      "platform": "F-15K多用途战斗机",
+      "task": "空中警戒",
+      "count": 1,
+      "start": "14:55",
+      "end": "16:20",
+      "region": "济州岛西部海域",
+      "lonlat": [
+        125.5737,
+        33.4889
+      ],
+      "excel_rows": [
+        239,
+        97,
+        219,
+        58,
+        27,
+        173,
+        183,
+        178,
+        59,
+        223,
+        291,
+        233
+      ],
+      "alternatives": [
+        {
+          "region": "济州岛西部海域",
+          "rows": [
+            239,
+            97,
+            219,
+            58,
+            27,
+            173,
+            183,
+            178,
+            59,
+            223,
+            291,
+            233
+          ]
+        }
+      ],
+      "base": "韩国海军航空基地",
+      "hull": ""
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:042",
+      "mention_id": "O:2025.6.17:042#1",
+      "title": "韩国空军F-15K多用途战斗机在济州岛西部海域执行空中警戒",
+      "country": "韩国",
+      "platform": "F-15K多用途战斗机",
+      "count": null,
+      "region": "济州岛西部海域",
+      "start": "14:55",
+      "end": "16:20",
+      "task": "空中警戒",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:025",
+      "mention_id": "P:2025.6.17:025#1",
+      "title": "韩国空军F-15K战斗机进入济州岛西部海域",
+      "country": "韩国",
+      "platform": "F-15K多用途战斗机",
+      "count": 1,
+      "region": "济州岛西部海域",
+      "start": "",
+      "end": "",
+      "task": "",
+      "action": "进入"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-048",
+    "day": "2025.6.17",
+    "kind": "飞机",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 7.3,
+      "P": 11.0
+    },
+    "fields": {
+      "platform": {
+        "value": "P-8A“海神”反潜巡逻机",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "澳大利亚",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "黄海",
+        "support": [
+          "O",
+          "P"
+        ],
+        "conflicts": {
+          "R": "黄海中部"
+        },
+        "note": ""
+      },
+      "direction": {
+        "value": "黄海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "海上侦察巡逻",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "17:13",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "19:38",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [
+      "活动区域冲突（R=黄海中部），采用O/P一致值“黄海”"
+    ],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "飞机",
+      "batch": "AIR-F087E2B39C41DB",
+      "country": "澳大利亚",
+      "platform": "P-8A“海神”反潜巡逻机",
+      "task": "海上侦察巡逻",
+      "count": 1,
+      "start": "17:13",
+      "end": "19:38",
+      "region": "黄海中部",
+      "lonlat": [
+        123.0043,
+        35.6984
+      ],
+      "excel_rows": [
+        200,
+        64,
+        257,
+        5,
+        76,
+        277,
+        40,
+        123,
+        69,
+        152,
+        299,
+        287,
+        241
+      ],
+      "alternatives": [
+        {
+          "region": "黄海中部",
+          "rows": [
+            200,
+            64,
+            257,
+            5,
+            76,
+            277,
+            40,
+            123,
+            69,
+            152,
+            299,
+            287,
+            241
+          ]
+        }
+      ],
+      "base": "澳大利亚达尔文空军基地",
+      "hull": ""
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:050",
+      "mention_id": "O:2025.6.17:050#1",
+      "title": "澳大利亚P-8A反潜巡逻机在黄海持续活动",
+      "country": "澳大利亚",
+      "platform": "P-8A“海神”反潜巡逻机",
+      "count": 1,
+      "region": "黄海",
+      "start": "",
+      "end": "",
+      "task": "",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:021",
+      "mention_id": "P:2025.6.17:021#1",
+      "title": "澳大利亚P-8A“海神”反潜巡逻机在黄海执行海上侦察巡逻",
+      "country": "澳大利亚",
+      "platform": "P-8A“海神”反潜巡逻机",
+      "count": null,
+      "region": "黄海",
+      "start": "17:13",
+      "end": "19:38",
+      "task": "海上侦察巡逻",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-049",
+    "day": "2025.6.17",
+    "kind": "飞机",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 8.5,
+      "P": 11.0
+    },
+    "fields": {
+      "platform": {
+        "value": "F-15J战斗机",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "日本",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "温州外海",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "东海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "对海突击训练",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {
+          "O": "空中警戒"
+        },
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "17:29",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "19:54",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [
+      "任务冲突（O=空中警戒），采用R/P一致值“对海突击训练”"
+    ],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "飞机",
+      "batch": "AIR-22F9D447BC6296",
+      "country": "日本",
+      "platform": "F-15J战斗机",
+      "task": "对海突击训练",
+      "count": 1,
+      "start": "17:29",
+      "end": "19:54",
+      "region": "温州外海",
+      "lonlat": [
+        122.2575,
+        27.643
+      ],
+      "excel_rows": [
+        6,
+        125,
+        141,
+        30,
+        217,
+        273,
+        44,
+        282,
+        155,
+        264
+      ],
+      "alternatives": [
+        {
+          "region": "温州外海",
+          "rows": [
+            6,
+            125,
+            141,
+            30,
+            217,
+            273,
+            44,
+            282,
+            155,
+            264
+          ]
+        }
+      ],
+      "base": "日本鹿屋航空基地",
+      "hull": ""
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:017",
+      "mention_id": "O:2025.6.17:017#1",
+      "title": "日本F-15J战斗机在温州外海执行空中警戒",
+      "country": "日本",
+      "platform": "F-15J战斗机",
+      "count": 1,
+      "region": "温州外海",
+      "start": "",
+      "end": "",
+      "task": "空中警戒",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:006",
+      "mention_id": "P:2025.6.17:006#1",
+      "title": "日本F-15J战斗机在东海实施对海突击训练引关注",
+      "country": "日本",
+      "platform": "F-15J战斗机",
+      "count": null,
+      "region": "东海",
+      "start": "17:29",
+      "end": "19:54",
+      "task": "对海突击训练",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-050",
+    "day": "2025.6.17",
+    "kind": "飞机",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 10.5,
+      "P": 8.8
+    },
+    "fields": {
+      "platform": {
+        "value": "歼-35舰载隐身战斗机",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "中国",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "东海",
+        "support": [
+          "O",
+          "P"
+        ],
+        "conflicts": {
+          "R": "东海中部"
+        },
+        "note": ""
+      },
+      "direction": {
+        "value": "东海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "空中警戒",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "17:35",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "19:00",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "进入",
+        "support": [
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [
+      "活动区域冲突（R=东海中部），采用O/P一致值“东海”"
+    ],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "飞机",
+      "batch": "AIR-F6EB6BEC42B89B",
+      "country": "中国",
+      "platform": "歼-35舰载隐身战斗机",
+      "task": "空中警戒",
+      "count": 1,
+      "start": "17:35",
+      "end": "19:00",
+      "region": "东海中部",
+      "lonlat": [
+        123.8121,
+        28.6438
+      ],
+      "excel_rows": [
+        45,
+        268,
+        111,
+        12,
+        179,
+        237,
+        180,
+        204,
+        276,
+        47,
+        218,
+        215,
+        221
+      ],
+      "alternatives": [
+        {
+          "region": "东海中部",
+          "rows": [
+            45,
+            268,
+            111,
+            12,
+            179,
+            237,
+            180,
+            204,
+            276,
+            47,
+            218,
+            215,
+            221
+          ]
+        }
+      ],
+      "base": "前沿基地",
+      "hull": ""
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:030",
+      "mention_id": "O:2025.6.17:030#1",
+      "title": "中国歼-35隐身舰载机进入东海执行空中警戒任务",
+      "country": "中国",
+      "platform": "歼-35舰载隐身战斗机",
+      "count": null,
+      "region": "东海",
+      "start": "17:35",
+      "end": "19:00",
+      "task": "空中警戒",
+      "action": "进入"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:044",
+      "mention_id": "P:2025.6.17:044#1",
+      "title": "中国歼-35舰载隐身战斗机在东海上空执行空中警戒任务",
+      "country": "中国",
+      "platform": "歼-35舰载隐身战斗机",
+      "count": 1,
+      "region": "东海",
+      "start": "",
+      "end": "",
+      "task": "空中警戒",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-051",
+    "day": "2025.6.17",
+    "kind": "飞机",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 12.3,
+      "P": 12.5
+    },
+    "fields": {
+      "platform": {
+        "value": "CF-188多用途战斗机",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "加拿大",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "东海油气田海域",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "东海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "联合巡逻",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {
+          "P": 2
+        },
+        "note": ""
+      },
+      "start": {
+        "value": "17:42",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "19:12",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [
+      "数量冲突（P=2），采用R/O一致值“1”"
+    ],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "飞机",
+      "batch": "AIR-17B15F5CA30ADA",
+      "country": "加拿大",
+      "platform": "CF-188多用途战斗机",
+      "task": "联合巡逻",
+      "count": 1,
+      "start": "17:42",
+      "end": "19:12",
+      "region": "东海油气田海域",
+      "lonlat": [
+        125.5613,
+        28.581
+      ],
+      "excel_rows": [
+        197,
+        149,
+        46,
+        41,
+        86,
+        19,
+        176,
+        37,
+        278,
+        83
+      ],
+      "alternatives": [
+        {
+          "region": "东海油气田海域",
+          "rows": [
+            197,
+            149,
+            46,
+            41,
+            86,
+            19,
+            176,
+            37,
+            278,
+            83
+          ]
+        }
+      ],
+      "base": "前沿基地",
+      "hull": ""
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:015",
+      "mention_id": "O:2025.6.17:015#1",
+      "title": "加拿大CF-188多用途战机在东海油气田海域联合巡逻",
+      "country": "加拿大",
+      "platform": "CF-188多用途战斗机",
+      "count": 1,
+      "region": "东海油气田海域",
+      "start": "17:42",
+      "end": "19:12",
+      "task": "联合巡逻",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:046",
+      "mention_id": "P:2025.6.17:046#1",
+      "title": "加拿大CF-188多用途战斗机在东海油气田海域执行联合巡逻",
+      "country": "加拿大",
+      "platform": "CF-188多用途战斗机",
+      "count": 2,
+      "region": "东海油气田海域",
+      "start": "17:42",
+      "end": "19:12",
+      "task": "联合巡逻",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-052",
+    "day": "2025.6.17",
+    "kind": "飞机",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 8.8,
+      "P": 12.5
+    },
+    "fields": {
+      "platform": {
+        "value": "E-7A“楔尾”预警与控制机",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "澳大利亚",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "金兰湾",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "南海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "预警指挥",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "17:51",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "19:16",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "飞机",
+      "batch": "AIR-39E92E81958178",
+      "country": "澳大利亚",
+      "platform": "E-7A“楔尾”预警与控制机",
+      "task": "预警指挥",
+      "count": 1,
+      "start": "17:51",
+      "end": "19:16",
+      "region": "金兰湾",
+      "lonlat": [
+        109.0824,
+        12.0229
+      ],
+      "excel_rows": [
+        198,
+        53,
+        124,
+        39,
+        82,
+        226,
+        121,
+        166,
+        228,
+        151,
+        196,
+        104
+      ],
+      "alternatives": [
+        {
+          "region": "金兰湾",
+          "rows": [
+            198,
+            53,
+            124,
+            39,
+            82,
+            226,
+            121,
+            166,
+            228,
+            151,
+            196,
+            104
+          ]
+        }
+      ],
+      "base": "澳大利亚爱丁堡空军基地",
+      "hull": ""
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:019",
+      "mention_id": "O:2025.6.17:019#1",
+      "title": "澳大利亚E-7A预警与控制机在金兰湾持续活动",
+      "country": "澳大利亚",
+      "platform": "E-7A“楔尾”预警与控制机",
+      "count": 1,
+      "region": "金兰湾",
+      "start": "",
+      "end": "",
+      "task": "",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:040",
+      "mention_id": "P:2025.6.17:040#1",
+      "title": "澳大利亚E-7A“楔尾”预警与控制机在金兰湾执行预警指挥",
+      "country": "澳大利亚",
+      "platform": "E-7A“楔尾”预警与控制机",
+      "count": null,
+      "region": "金兰湾",
+      "start": "17:51",
+      "end": "19:16",
+      "task": "预警指挥",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-053",
+    "day": "2025.6.17",
+    "kind": "飞机",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 12.0,
+      "P": 9.3
+    },
+    "fields": {
+      "platform": {
+        "value": "AW-159“野猫”反潜直升机",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "菲律宾",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "长江口外海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "东海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "联合巡逻",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "20:09",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "22:34",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "进入",
+        "support": [
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [
+      "位置漂移/轨迹跳变：同一批号点迹在两处交替出现",
+      "已采用与文本一致的点迹/区域“长江口外海”，剔除其余异常点迹"
+    ],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "飞机",
+      "batch": "AIR-DF120E6AF82F7E",
+      "country": "菲律宾",
+      "platform": "AW-159“野猫”反潜直升机",
+      "task": "联合巡逻",
+      "count": 1,
+      "start": "20:09",
+      "end": "22:34",
+      "region": "长江口外海",
+      "lonlat": [
+        122.3356,
+        31.1983
+      ],
+      "excel_rows": [
+        162,
+        109,
+        144,
+        26,
+        280,
+        114
+      ],
+      "alternatives": [
+        {
+          "region": "长江口外海",
+          "rows": [
+            162,
+            109,
+            144,
+            26,
+            280,
+            114
+          ]
+        },
+        {
+          "region": "南海中部",
+          "rows": [
+            247,
+            87,
+            8,
+            235,
+            284,
+            57
+          ]
+        }
+      ],
+      "base": "菲律宾安东尼奥·包蒂斯塔空军基地",
+      "hull": ""
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:013",
+      "mention_id": "O:2025.6.17:013#1",
+      "title": "菲律宾AW-159“野猫”反潜直升机在长江口外海执行联合巡逻",
+      "country": "菲律宾",
+      "platform": "AW-159“野猫”反潜直升机",
+      "count": null,
+      "region": "长江口外海",
+      "start": "20:09",
+      "end": "22:34",
+      "task": "联合巡逻",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:020",
+      "mention_id": "P:2025.6.17:020#1",
+      "title": "菲律宾AW-159直升机在长江口外海活动引协同分析",
+      "country": "菲律宾",
+      "platform": "AW-159“野猫”反潜直升机",
+      "count": 1,
+      "region": "长江口外海",
+      "start": "",
+      "end": "",
+      "task": "",
+      "action": "进入"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-054",
+    "day": "2025.6.17",
+    "kind": "飞机",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "O",
+      "P"
+    ],
+    "link_scores": {
+      "R-O": 12.0,
+      "P": 9.3
+    },
+    "fields": {
+      "platform": {
+        "value": "FA-50PH轻型战斗机",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "菲律宾",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "宁波外海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "东海",
+        "support": [
+          "R",
+          "O",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "战备警巡",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "20:31",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "22:56",
+        "support": [
+          "R",
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "飞机",
+      "batch": "AIR-E6CF84C8AC8337",
+      "country": "菲律宾",
+      "platform": "FA-50PH轻型战斗机",
+      "task": "战备警巡",
+      "count": 1,
+      "start": "20:31",
+      "end": "22:56",
+      "region": "宁波外海",
+      "lonlat": [
+        122.6037,
+        29.4312
+      ],
+      "excel_rows": [
+        253,
+        14,
+        272,
+        75,
+        157,
+        103,
+        72,
+        56,
+        240,
+        154,
+        92,
+        171,
+        65
+      ],
+      "alternatives": [
+        {
+          "region": "宁波外海",
+          "rows": [
+            253,
+            14,
+            272,
+            75,
+            157,
+            103,
+            72,
+            56,
+            240,
+            154,
+            92,
+            171,
+            65
+          ]
+        }
+      ],
+      "base": "菲律宾巴萨空军基地",
+      "hull": ""
+    },
+    "open_source": {
+      "doc_id": "O:2025.6.17:031",
+      "mention_id": "O:2025.6.17:031#1",
+      "title": "菲律宾FA-50PH轻型战斗机在宁波外海执行战备警巡行动",
+      "country": "菲律宾",
+      "platform": "FA-50PH轻型战斗机",
+      "count": null,
+      "region": "宁波外海",
+      "start": "20:31",
+      "end": "22:56",
+      "task": "战备警巡",
+      "action": "活动"
+    },
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:015",
+      "mention_id": "P:2025.6.17:015#1",
+      "title": "菲律宾FA-50PH战斗机在宁波外海持续活动",
+      "country": "菲律宾",
+      "platform": "FA-50PH轻型战斗机",
+      "count": 1,
+      "region": "宁波外海",
+      "start": "",
+      "end": "",
+      "task": "",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-055",
+    "day": "2025.6.17",
+    "kind": "飞机",
+    "status": "可信",
+    "in_core": true,
+    "sources": [
+      "R",
+      "P"
+    ],
+    "link_scores": {
+      "P": 12.0
+    },
+    "fields": {
+      "platform": {
+        "value": "CH-148“旋风”海上作战直升机",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "加拿大",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "北康暗沙海域",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "南海",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "联合巡逻",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "20:47",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "22:12",
+        "support": [
+          "R",
+          "P"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "",
+        "support": [
+          "R"
+        ],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [],
+    "radar": {
+      "sheet": "飞机",
+      "batch": "AIR-DB9F5F5EF69DB6",
+      "country": "加拿大",
+      "platform": "CH-148“旋风”海上作战直升机",
+      "task": "联合巡逻",
+      "count": 1,
+      "start": "20:47",
+      "end": "22:12",
+      "region": "北康暗沙海域",
+      "lonlat": [
+        112.487,
+        5.8373
+      ],
+      "excel_rows": [
+        265,
+        296,
+        88,
+        17,
+        130,
+        185,
+        231,
+        236,
+        113,
+        250
+      ],
+      "alternatives": [
+        {
+          "region": "北康暗沙海域",
+          "rows": [
+            265,
+            296,
+            88,
+            17,
+            130,
+            185,
+            231,
+            236,
+            113,
+            250
+          ]
+        }
+      ],
+      "base": "前沿基地",
+      "hull": ""
+    },
+    "open_source": null,
+    "public_opinion": {
+      "doc_id": "P:2025.6.17:050",
+      "mention_id": "P:2025.6.17:050#1",
+      "title": "加拿大直升机南海北康暗沙海域协同巡逻引发区域节奏讨论",
+      "country": "加拿大",
+      "platform": "CH-148“旋风”海上作战直升机",
+      "count": null,
+      "region": "北康暗沙海域",
+      "start": "20:47",
+      "end": "22:12",
+      "task": "联合巡逻",
+      "action": "活动"
+    }
+  },
+  {
+    "event_id": "E-2025.6.17-056",
+    "day": "2025.6.17",
+    "kind": "飞机",
+    "status": "排除",
+    "in_core": false,
+    "sources": [
+      "O"
+    ],
+    "link_scores": {},
+    "fields": {
+      "platform": {
+        "value": "CH-148“旋风”海上作战直升机",
+        "support": [
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "country": {
+        "value": "加拿大",
+        "support": [
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "region": {
+        "value": "东海",
+        "support": [
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "direction": {
+        "value": "东海",
+        "support": [
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "task": {
+        "value": "",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "count": {
+        "value": 1,
+        "support": [
+          "O"
+        ],
+        "conflicts": {},
+        "note": ""
+      },
+      "start": {
+        "value": "",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "end": {
+        "value": "",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "action": {
+        "value": "活动",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      },
+      "callsign": {
+        "value": "",
+        "support": [],
+        "conflicts": {},
+        "note": ""
+      }
+    },
+    "conflict_handling": [],
+    "radar_anomalies": [],
+    "exclude_reasons": [
+      "仅O单一来源，无法交叉核验",
+      "平台“CH-148“旋风”海上作战直升机”仅1类来源支持",
+      "国家/地区“加拿大”仅1类来源支持",
+      "活动方向“东海”仅1类来源支持"
+    ],
+    "radar": null,
+    "open_source": {
+      "doc_id": "O:2025.6.17:025",
+      "mention_id": "O:2025.6.17:025#1",
+      "title": "加拿大CH-148“旋风”直升机在东海持续活动",
+      "country": "加拿大",
+      "platform": "CH-148“旋风”海上作战直升机",
+      "count": 1,
+      "region": "东海",
+      "start": "",
+      "end": "",
+      "task": "",
+      "action": "活动"
+    },
+    "public_opinion": null
+  }
+]

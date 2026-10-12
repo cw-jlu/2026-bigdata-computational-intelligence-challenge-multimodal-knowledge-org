@@ -1,0 +1,214 @@
+{
+  "facts": "daily event decisions and values unchanged; entry/exit source-object audit added, unsupported relations not asserted",
+  "analysis": {
+    "node": "2025.7.9",
+    "today_events": 27,
+    "daily_facts_changed": false,
+    "full_related_verified_events": 11,
+    "restored_history": [
+      {
+        "id": "2025.5.10-SHIP-69B3604EFC701D",
+        "date": "2025.5.10",
+        "facts": {
+          "country": "加拿大",
+          "key": "哈利法克斯",
+          "quantity": 1,
+          "task": "联合搜救训练",
+          "start": "14:06",
+          "end": "16:31",
+          "region": "东海北部",
+          "direction": "东海",
+          "platform": "哈利法克斯级导弹护卫舰"
+        }
+      },
+      {
+        "id": "2025.5.12-SHIP-74367CC218A73A",
+        "date": "2025.5.12",
+        "facts": {
+          "country": "加拿大",
+          "key": "哈利法克斯",
+          "quantity": 1,
+          "task": "海上护航",
+          "start": "11:10",
+          "end": "13:35",
+          "region": "上海外海",
+          "direction": "东海",
+          "platform": "哈利法克斯级导弹护卫舰"
+        }
+      },
+      {
+        "id": "2025.5.21-SHIP-73632EECE64425",
+        "date": "2025.5.21",
+        "facts": {
+          "country": "加拿大",
+          "key": "哈利法克斯",
+          "quantity": 1,
+          "task": "海上巡逻",
+          "start": "17:24",
+          "end": "19:49",
+          "region": "北黄海",
+          "direction": "黄海",
+          "platform": "哈利法克斯级导弹护卫舰"
+        }
+      },
+      {
+        "id": "2025.5.26-SHIP-F94751BB9D5FD2",
+        "date": "2025.5.26",
+        "facts": {
+          "country": "加拿大",
+          "key": "哈利法克斯",
+          "quantity": 1,
+          "task": "例行部署",
+          "start": "14:28",
+          "end": "16:53",
+          "region": "纳土纳群岛北部海域",
+          "direction": "南海",
+          "platform": "哈利法克斯级导弹护卫舰"
+        }
+      }
+    ],
+    "missing_related_verified_events": [],
+    "stages": [
+      {
+        "dates": [
+          "2025.5.10",
+          "2025.5.12",
+          "2025.5.21",
+          "2025.5.26"
+        ],
+        "events": [
+          "2025.5.10-SHIP-69B3604EFC701D",
+          "2025.5.12-SHIP-74367CC218A73A",
+          "2025.5.21-SHIP-73632EECE64425",
+          "2025.5.26-SHIP-F94751BB9D5FD2"
+        ],
+        "boundary_basis": "5月多方向多任务四次记录"
+      },
+      {
+        "dates": [
+          "2025.6.24",
+          "2025.6.26",
+          "2025.6.27",
+          "2025.6.29",
+          "2025.7.6"
+        ],
+        "events": [
+          "2025.6.24-SHIP-958C85D24DE265",
+          "2025.6.26-SHIP-D62A2C89AD3B6B",
+          "2025.6.27-SHIP-47F7F219FCF56D",
+          "2025.6.29-SHIP-E6F763B7F99D68",
+          "2025.7.6-SHIP-F907B76B7455DA"
+        ],
+        "boundary_basis": "29日缺证间隔后黄海警戒五日重复"
+      },
+      {
+        "dates": [
+          "2025.7.8",
+          "2025.7.9"
+        ],
+        "events": [
+          "2025.7.8-SHIP-3CC73A6800D0AD",
+          "2025.7.9-SHIP-84C74B4313BF87"
+        ],
+        "boundary_basis": "相邻两日南海巡逻与黄海警戒，身份仍仅到舰级"
+      }
+    ],
+    "observational_gaps": [
+      {
+        "from": "2025-05-10",
+        "to": "2025-05-12",
+        "days": 2
+      },
+      {
+        "from": "2025-05-12",
+        "to": "2025-05-21",
+        "days": 9
+      },
+      {
+        "from": "2025-05-21",
+        "to": "2025-05-26",
+        "days": 5
+      },
+      {
+        "from": "2025-05-26",
+        "to": "2025-06-24",
+        "days": 29
+      },
+      {
+        "from": "2025-06-24",
+        "to": "2025-06-26",
+        "days": 2
+      },
+      {
+        "from": "2025-06-27",
+        "to": "2025-06-29",
+        "days": 2
+      },
+      {
+        "from": "2025-06-29",
+        "to": "2025-07-06",
+        "days": 7
+      },
+      {
+        "from": "2025-07-06",
+        "to": "2025-07-08",
+        "days": 2
+      }
+    ],
+    "related_unverified_candidates": [
+      {
+        "event_id": "2025.5.14-SHIP-F34F54993AA64E",
+        "decision": "域外",
+        "issues": []
+      },
+      {
+        "event_id": "2025.5.26-SHIP-EE5A9860435C36",
+        "decision": "排除",
+        "issues": [
+          "关键字段quantity不足两类来源支持",
+          "三类来源未全部关联，保留两源或单源候选"
+        ]
+      },
+      {
+        "event_id": "2025.6.19-SHIP-B43C9BDDBB749E",
+        "decision": "排除",
+        "issues": [
+          "关键字段country明确冲突：{'雷达': '加拿大', '开源军情': '新加坡', '网上舆论': '加拿大'}"
+        ]
+      },
+      {
+        "event_id": "2025.6.20-SHIP-E0BC9911EE2F08",
+        "decision": "域外",
+        "issues": []
+      },
+      {
+        "event_id": "2025.6.23-SHIP-6A389CE2EA0283",
+        "decision": "排除",
+        "issues": [
+          "雷达区域明确冲突：['东海', '北黄海']",
+          "关键区域冲突：[{'source': '雷达', 'region': '东海'}]"
+        ]
+      },
+      {
+        "event_id": "2025.6.23-SHIP-8A209D7902703B",
+        "decision": "排除",
+        "issues": [
+          "关键字段country明确冲突：{'雷达': '加拿大', '开源军情': '加拿大', '网上舆论': '印度'}"
+        ]
+      },
+      {
+        "event_id": "2025.7.8-SHIP-FB6609AA02AD09",
+        "decision": "排除",
+        "issues": [
+          "雷达区域明确冲突：['南海', '舟山外海']",
+          "关键区域冲突：[{'source': '雷达', 'region': '南海'}]"
+        ]
+      }
+    ],
+    "corridor_documents_in_scope": 0,
+    "accepted_entry_exit_claims": 0,
+    "second_section_history_scope": "full stage",
+    "history_outside_second_section": false
+  },
+  "format": "Historical/external index moved inside section II; section V rewritten using current-day facts only; template, workbook schema and four PNG definitions retained"
+}

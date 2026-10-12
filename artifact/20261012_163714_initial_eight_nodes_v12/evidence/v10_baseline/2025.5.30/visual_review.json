@@ -1,0 +1,26 @@
+{
+  "reviewer": "current agent",
+  "blind": false,
+  "docx_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "docx_sha256": "b34608b11007e25c303b499c10d7e145474884d9314f8be48940db40e32be651",
+  "xlsx_sha256": "073591406e7b7f43dfad34e75fb3e5081a32e4907f21b3337334ce4a0390b0f5",
+  "scope": "WPS full DOCX pages and XLSX all populated cells in four column bands, 4 standalone PNGs; contact sheets and enlarged checks",
+  "fixes": [
+    "single-source locality notes have sufficient row height",
+    "version/web reading provenance removed from formal source index",
+    "compact F/H reference note removes isolated explanatory page"
+  ],
+  "remaining_observed_defects": []
+}

@@ -1,0 +1,29 @@
+{
+  "status": "reviewed_current_agent",
+  "renderer": "WPS Office through Word.Application COM",
+  "docx_sha256": "579a0fd0960a4a0bfaa4a9c14bdde5b0ba3cf680ff13391df1ecc57e5f581925",
+  "page_count": 11,
+  "reviewed_contacts": [
+    "qa/docx/2025.5.10/contact-1.png",
+    "qa/docx/2025.5.10/contact-2.png",
+    "qa/docx/2025.5.10/contact-3.png",
+    "qa/charts/2025.5.10/contact-1.png"
+  ],
+  "body_pages_pixel_identical_to_v11": [
+    "qa/docx/2025.5.10/page-01.png",
+    "qa/docx/2025.5.10/page-02.png",
+    "qa/docx/2025.5.10/page-03.png",
+    "qa/docx/2025.5.10/page-04.png",
+    "qa/docx/2025.5.10/page-05.png",
+    "qa/docx/2025.5.10/page-06.png",
+    "qa/docx/2025.5.10/page-07.png"
+  ],
+  "updated_figure_pages": [
+    "qa/docx/2025.5.10/page-08.png",
+    "qa/docx/2025.5.10/page-09.png",
+    "qa/docx/2025.5.10/page-10.png",
+    "qa/docx/2025.5.10/page-11.png"
+  ],
+  "findings": "未发现缺字、标签越界、重叠、图例遮挡或文档裁图。长平台名按主体与平台两行排，避免括号孤行。",
+  "xlsx_review": "与v11字节完全一致，沿用v11已完成的原生渲染检查；本轮未再次渲染XLSX。"
+}

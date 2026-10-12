@@ -1,0 +1,43 @@
+{
+  "status": "diagnostic_complete",
+  "boundary_checks": 5,
+  "original_atom_matches": [
+    {
+      "node": "2025.6.29",
+      "path": "赛题2-初赛/数据/2025.6.29/网上舆论/036_(网上舆情)-中国“辽宁号”航母编队南海联合巡航，协同行动受关注.txt",
+      "atom_id": "ddcbaeb01b407593",
+      "old_quantity": 1,
+      "old_basis": "正文单一具名舰艇专名；仅计该具名参加者",
+      "new_evidence": {
+        "status": "explicit_postposed_quantity",
+        "value": 1,
+        "unit": "艘",
+        "quotes": [
+          "期间有一艘航母参与"
+        ]
+      },
+      "value_changed": false,
+      "action": "upgrade evidence provenance only"
+    },
+    {
+      "node": "2025.6.29",
+      "path": "赛题2-初赛/数据/2025.6.29/网上舆论/048_(网上舆情)-中国“辽宁号”航母进入北康暗沙海域执行例行部署.txt",
+      "atom_id": "954bce533dda62f1",
+      "old_quantity": 1,
+      "old_basis": "正文单一具名舰艇专名；仅计该具名参加者",
+      "new_evidence": {
+        "status": "explicit_postposed_quantity",
+        "value": 1,
+        "unit": "艘",
+        "quotes": [
+          "期间有一艘航母参与"
+        ]
+      },
+      "value_changed": false,
+      "action": "upgrade evidence provenance only"
+    }
+  ],
+  "new_events_accepted": 0,
+  "formal_output_modified": false,
+  "limitation": "narrow pattern; not a general coreference resolver; synthetic boundary checks are not independent blind evaluation"
+}

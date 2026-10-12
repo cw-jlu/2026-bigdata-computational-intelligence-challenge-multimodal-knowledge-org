@@ -1,0 +1,61 @@
+{
+  "synthetic_boundary_checks": [
+    {
+      "case": "explicit_postposed",
+      "status": "PASS",
+      "quantity": 1,
+      "conflict_preserved": false,
+      "postposed_used_or_flagged": true
+    },
+    {
+      "case": "prefix_agrees",
+      "status": "PASS",
+      "quantity": 1,
+      "conflict_preserved": false,
+      "postposed_used_or_flagged": true
+    },
+    {
+      "case": "role_total_ambiguous",
+      "status": "PASS",
+      "quantity": 1,
+      "conflict_preserved": true,
+      "postposed_used_or_flagged": true
+    },
+    {
+      "case": "prefix_disagrees",
+      "status": "PASS",
+      "quantity": 2,
+      "conflict_preserved": true,
+      "postposed_used_or_flagged": true
+    },
+    {
+      "case": "internal_disagrees",
+      "status": "PASS",
+      "quantity": 1,
+      "conflict_preserved": true,
+      "postposed_used_or_flagged": true
+    },
+    {
+      "case": "multiple_participants",
+      "status": "PASS",
+      "quantity": 1,
+      "conflict_preserved": false,
+      "postposed_used_or_flagged": false
+    },
+    {
+      "case": "wrong_role",
+      "status": "PASS",
+      "quantity": null,
+      "conflict_preserved": false,
+      "postposed_used_or_flagged": false
+    },
+    {
+      "case": "commentary_not_fact",
+      "status": "PASS",
+      "quantity": 1,
+      "conflict_preserved": false,
+      "postposed_used_or_flagged": false
+    }
+  ],
+  "not_independent_truth_evaluation": true
+}

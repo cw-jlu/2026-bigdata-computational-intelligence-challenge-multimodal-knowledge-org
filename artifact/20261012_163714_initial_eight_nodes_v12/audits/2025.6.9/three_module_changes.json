@@ -1,0 +1,149 @@
+{
+  "facts": "daily event decisions and values unchanged; entry/exit source-object audit added, unsupported relations not asserted",
+  "analysis": {
+    "node": "2025.6.9",
+    "today_events": 27,
+    "daily_facts_changed": false,
+    "full_related_verified_events": 7,
+    "restored_history": [],
+    "missing_related_verified_events": [],
+    "stages": [
+      {
+        "dates": [
+          "2025.5.27",
+          "2025.5.28"
+        ],
+        "events": [
+          "2025.5.27-AIR-879FFA4D79B17E",
+          "2025.5.28-AIR-AC5C2BC3CC3CA3",
+          "2025.5.28-AIR-BC628197D4A6D6"
+        ],
+        "boundary_basis": "5月27至28日东海两类任务并见"
+      },
+      {
+        "dates": [
+          "2025.6.3",
+          "2025.6.6"
+        ],
+        "events": [
+          "2025.6.3-AIR-B8C016CC73A05F",
+          "2025.6.6-AIR-3A9B1AB94D2A9B"
+        ],
+        "boundary_basis": "6月3日与6日仅核实电子侦察"
+      },
+      {
+        "dates": [
+          "2025.6.9"
+        ],
+        "events": [
+          "2025.6.9-AIR-066899117BEDAE",
+          "2025.6.9-AIR-900D3E39F755EC"
+        ],
+        "boundary_basis": "6月9日两类标签重现"
+      }
+    ],
+    "observational_gaps": [
+      {
+        "from": "2025-05-28",
+        "to": "2025-06-03",
+        "days": 6
+      },
+      {
+        "from": "2025-06-03",
+        "to": "2025-06-06",
+        "days": 3
+      },
+      {
+        "from": "2025-06-06",
+        "to": "2025-06-09",
+        "days": 3
+      }
+    ],
+    "related_unverified_candidates": [
+      {
+        "event_id": "2025.5.10-AIR-093CB109918635",
+        "decision": "排除",
+        "issues": [
+          "关键字段task不足两类来源支持",
+          "三类来源未全部关联，保留两源或单源候选",
+          "区域精度重审：无两类明确地名或共同核心海域支持"
+        ]
+      },
+      {
+        "event_id": "2025.5.14-AIR-E59171DA58DB2A",
+        "decision": "排除",
+        "issues": [
+          "关键字段country明确冲突：{'雷达': '英国', '开源军情': '新加坡', '网上舆论': '英国'}"
+        ]
+      },
+      {
+        "event_id": "2025.5.15-AIR-B491F9D488986E",
+        "decision": "域外",
+        "issues": []
+      },
+      {
+        "event_id": "2025.5.26-AIR-519028DBB4D8B2",
+        "decision": "排除",
+        "issues": [
+          "关键字段quantity不足两类来源支持",
+          "三类来源未全部关联，保留两源或单源候选",
+          "区域精度重审：无两类明确地名或共同核心海域支持"
+        ]
+      },
+      {
+        "event_id": "2025.5.27-AIR-7491F4F1F09C1F",
+        "decision": "排除",
+        "issues": [
+          "关键字段quantity不足两类来源支持",
+          "三类来源未全部关联，保留两源或单源候选",
+          "区域精度重审：无两类明确地名或共同核心海域支持"
+        ]
+      },
+      {
+        "event_id": "2025.5.27-AIR-E83F4B6C4ED3C3",
+        "decision": "排除",
+        "issues": [
+          "关键字段quantity明确冲突：{'雷达': 2, '开源军情': 3, '网上舆论': 2}"
+        ]
+      },
+      {
+        "event_id": "2025.5.27-AIR-FBF2B96B232C04",
+        "decision": "排除",
+        "issues": [
+          "关键字段start明确冲突：{'雷达': 1062, '开源军情': 1062, '网上舆论': 1098}"
+        ]
+      },
+      {
+        "event_id": "2025.5.30-AIR-7B89127FFA67DC",
+        "decision": "域外",
+        "issues": []
+      },
+      {
+        "event_id": "2025.5.6-AIR-D53EED074CFFB2",
+        "decision": "域外",
+        "issues": []
+      },
+      {
+        "event_id": "2025.6.3-AIR-6DA1B67FBE4F5D",
+        "decision": "排除",
+        "issues": [
+          "关键字段task明确冲突：{'雷达': '情报监视侦察', '开源军情': '情报监视侦察', '网上舆论': '电子侦察'}"
+        ]
+      },
+      {
+        "event_id": "2025.6.5-AIR-C0BDCCBD51D2C4",
+        "decision": "排除",
+        "issues": [
+          "关键字段quantity不足两类来源支持",
+          "三类来源未全部关联，保留两源或单源候选",
+          "区域精度重审：无两类明确地名或共同核心海域支持"
+        ]
+      }
+    ],
+    "corridor_documents_in_scope": 0,
+    "accepted_entry_exit_claims": 0,
+    "second_section_history_scope": "full stage",
+    "history_outside_second_section": false
+  },
+  "format": "Historical/external index moved inside section II; section V rewritten using current-day facts only; template, workbook schema and four PNG definitions retained"
+}

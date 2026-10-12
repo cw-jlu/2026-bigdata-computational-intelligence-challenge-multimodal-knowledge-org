@@ -1,0 +1,287 @@
+[
+  {
+    "date": "2025.5.10",
+    "as_of": "2025-05-10",
+    "formal_files": 6,
+    "included_events": 26,
+    "air_batches": 15,
+    "air_sorties": 15,
+    "ship_sorties": 11,
+    "frozen_sha256": "68f60095e4b0e09cbec99a69475105263f7ae7b0f0e1cbd4477b8bf6597c8278",
+    "structure": "PASS",
+    "source_metadata": "PASS_metadata_only",
+    "visual_review": "complete",
+    "independent_review": "not_performed",
+    "raw_reproduction": "PASS",
+    "used_source_ids": [
+      "B04"
+    ],
+    "mainline": {
+      "country": "德国",
+      "platform": "“台风”多用途战斗机",
+      "dates": [
+        "2025.5.1",
+        "2025.5.2",
+        "2025.5.6",
+        "2025.5.10"
+      ]
+    },
+    "missing_evidence": [
+      "辅助基地、呼号、起降与母港不足两源支持；留空",
+      "缺少间隔日期完整观察及实体标识，不能证明持续驻留"
+    ]
+  },
+  {
+    "date": "2025.5.18",
+    "as_of": "2025-05-18",
+    "formal_files": 6,
+    "included_events": 24,
+    "air_batches": 11,
+    "air_sorties": 12,
+    "ship_sorties": 13,
+    "frozen_sha256": "c1a3a9d978457275d4d12918bfe1894d99f5f6b2a8b83ed6c21cbb9eacc151ad",
+    "structure": "PASS",
+    "source_metadata": "PASS_metadata_only",
+    "visual_review": "complete",
+    "independent_review": "not_performed",
+    "raw_reproduction": "PASS",
+    "used_source_ids": [
+      "B04"
+    ],
+    "mainline": {
+      "country": "德国",
+      "platform": "巴登-符腾堡号导弹护卫舰",
+      "dates": [
+        "2025.5.3",
+        "2025.5.5",
+        "2025.5.7",
+        "2025.5.18"
+      ]
+    },
+    "missing_evidence": [
+      "辅助基地、呼号、起降与母港不足两源支持；留空",
+      "缺少间隔日期完整观察及实体标识，不能证明持续驻留"
+    ]
+  },
+  {
+    "date": "2025.5.30",
+    "as_of": "2025-05-30",
+    "formal_files": 6,
+    "included_events": 27,
+    "air_batches": 16,
+    "air_sorties": 17,
+    "ship_sorties": 11,
+    "frozen_sha256": "e06db0a76c4bb37f5bab2cf0e0e320a8eb772ffbb3087ec0ff86df049a445b6c",
+    "structure": "PASS",
+    "source_metadata": "PASS_metadata_only",
+    "visual_review": "complete",
+    "independent_review": "not_performed",
+    "raw_reproduction": "PASS",
+    "used_source_ids": [],
+    "mainline": {
+      "country": "韩国",
+      "platform": "P-8A“海神”反潜巡逻机",
+      "dates": [
+        "2025.5.5",
+        "2025.5.12",
+        "2025.5.21",
+        "2025.5.25",
+        "2025.5.26",
+        "2025.5.27",
+        "2025.5.28",
+        "2025.5.30"
+      ]
+    },
+    "missing_evidence": [
+      "未取得直接相关且历史版本已确认的新增外部实证资料",
+      "辅助基地、呼号、起降与母港不足两源支持；留空",
+      "缺少间隔日期完整观察及实体标识，不能证明持续驻留"
+    ]
+  },
+  {
+    "date": "2025.6.9",
+    "as_of": "2025-06-09",
+    "formal_files": 6,
+    "included_events": 27,
+    "air_batches": 15,
+    "air_sorties": 15,
+    "ship_sorties": 12,
+    "frozen_sha256": "f1921729c703c8658bdafbc7d989119627dd22082645bda5d1c615c7b223b6ff",
+    "structure": "PASS",
+    "source_metadata": "PASS_metadata_only",
+    "visual_review": "complete",
+    "independent_review": "not_performed",
+    "raw_reproduction": "PASS",
+    "used_source_ids": [],
+    "mainline": {
+      "country": "英国",
+      "platform": "RC-135W电子侦察机",
+      "dates": [
+        "2025.5.27",
+        "2025.5.28",
+        "2025.6.3",
+        "2025.6.6",
+        "2025.6.9"
+      ]
+    },
+    "missing_evidence": [
+      "未取得直接相关且历史版本已确认的新增外部实证资料",
+      "辅助基地、呼号、起降与母港不足两源支持；留空",
+      "缺少间隔日期完整观察及实体标识，不能证明持续驻留"
+    ]
+  },
+  {
+    "date": "2025.6.17",
+    "as_of": "2025-06-17",
+    "formal_files": 6,
+    "included_events": 25,
+    "air_batches": 11,
+    "air_sorties": 11,
+    "ship_sorties": 14,
+    "frozen_sha256": "fb0a6aa7cb7220e7c8c3d963f30a0dd37fdafcce888f88b9300dc4c20116b745",
+    "structure": "PASS",
+    "source_metadata": "PASS_metadata_only",
+    "visual_review": "complete",
+    "independent_review": "not_performed",
+    "raw_reproduction": "PASS",
+    "used_source_ids": [
+      "B01"
+    ],
+    "mainline": {
+      "country": "澳大利亚",
+      "platform": "P-8A“海神”反潜巡逻机",
+      "dates": [
+        "2025.5.4",
+        "2025.5.19",
+        "2025.5.24",
+        "2025.5.28",
+        "2025.5.29",
+        "2025.5.30",
+        "2025.6.2",
+        "2025.6.6",
+        "2025.6.8",
+        "2025.6.11",
+        "2025.6.14",
+        "2025.6.16",
+        "2025.6.17"
+      ]
+    },
+    "missing_evidence": [
+      "辅助基地、呼号、起降与母港不足两源支持；留空",
+      "缺少间隔日期完整观察及实体标识，不能证明持续驻留"
+    ]
+  },
+  {
+    "date": "2025.6.29",
+    "as_of": "2025-06-29",
+    "formal_files": 6,
+    "included_events": 25,
+    "air_batches": 14,
+    "air_sorties": 14,
+    "ship_sorties": 11,
+    "frozen_sha256": "8a0773ba017f0c1f4527b3b849eaa30e661a0b67c11a1523f8d35485e63537af",
+    "structure": "PASS",
+    "source_metadata": "PASS_metadata_only",
+    "visual_review": "complete",
+    "independent_review": "not_performed",
+    "raw_reproduction": "PASS",
+    "used_source_ids": [],
+    "mainline": {
+      "country": "新加坡",
+      "platform": "G550空中预警机",
+      "dates": [
+        "2025.6.2",
+        "2025.6.4",
+        "2025.6.6",
+        "2025.6.16",
+        "2025.6.22",
+        "2025.6.29"
+      ]
+    },
+    "missing_evidence": [
+      "未取得直接相关且历史版本已确认的新增外部实证资料",
+      "辅助基地、呼号、起降与母港不足两源支持；留空",
+      "缺少间隔日期完整观察及实体标识，不能证明持续驻留"
+    ]
+  },
+  {
+    "date": "2025.7.9",
+    "as_of": "2025-07-09",
+    "formal_files": 6,
+    "included_events": 27,
+    "air_batches": 15,
+    "air_sorties": 16,
+    "ship_sorties": 12,
+    "frozen_sha256": "4df1329be05e3c4d8308f86ad262c6561aafa450cefc8c37a9169a2625aeddeb",
+    "structure": "PASS",
+    "source_metadata": "PASS_metadata_only",
+    "visual_review": "complete",
+    "independent_review": "not_performed",
+    "raw_reproduction": "PASS",
+    "used_source_ids": [
+      "B12"
+    ],
+    "mainline": {
+      "country": "加拿大",
+      "platform": "哈利法克斯级导弹护卫舰",
+      "dates": [
+        "2025.5.10",
+        "2025.5.12",
+        "2025.5.21",
+        "2025.5.26",
+        "2025.6.24",
+        "2025.6.26",
+        "2025.6.27",
+        "2025.6.29",
+        "2025.7.6",
+        "2025.7.8",
+        "2025.7.9"
+      ]
+    },
+    "missing_evidence": [
+      "辅助基地、呼号、起降与母港不足两源支持；留空",
+      "缺少间隔日期完整观察及实体标识，不能证明持续驻留"
+    ]
+  },
+  {
+    "date": "2025.7.17",
+    "as_of": "2025-07-17",
+    "formal_files": 6,
+    "included_events": 24,
+    "air_batches": 10,
+    "air_sorties": 11,
+    "ship_sorties": 14,
+    "frozen_sha256": "82de4f7cabf28fa16c560b8d4a0a834deaf9649a5b6eebaff5be0bb54437dea0",
+    "structure": "PASS",
+    "source_metadata": "PASS_metadata_only",
+    "visual_review": "complete",
+    "independent_review": "not_performed",
+    "raw_reproduction": "PASS",
+    "used_source_ids": [
+      "B10"
+    ],
+    "mainline": {
+      "country": "法国",
+      "platform": "戴高乐号航空母舰",
+      "dates": [
+        "2025.5.25",
+        "2025.5.27",
+        "2025.5.30",
+        "2025.6.2",
+        "2025.6.4",
+        "2025.6.6",
+        "2025.6.9",
+        "2025.6.13",
+        "2025.6.23",
+        "2025.7.11",
+        "2025.7.14",
+        "2025.7.16",
+        "2025.7.17"
+      ]
+    },
+    "missing_evidence": [
+      "辅助基地、呼号、起降与母港不足两源支持；留空",
+      "缺少间隔日期完整观察及实体标识，不能证明持续驻留"
+    ]
+  }
+]

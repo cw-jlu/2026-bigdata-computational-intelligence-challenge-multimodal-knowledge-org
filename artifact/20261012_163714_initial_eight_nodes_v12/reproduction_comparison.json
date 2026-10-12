@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "output": "D:\\CW\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261012_163714_initial_eight_nodes_v12\\one_click_reproduction",
+  "nodes": [
+    {
+      "date": "2025.5.10",
+      "raw_facts_recomputed": true,
+      "frozen_sha256_equal": true,
+      "analysis_equal": true,
+      "docx_body_xml_equal": true,
+      "xlsx_values_and_types_equal": true,
+      "png_sha256_equal": true,
+      "formal_package_members_verified": true
+    },
+    {
+      "date": "2025.5.18",
+      "raw_facts_recomputed": true,
+      "frozen_sha256_equal": true,
+      "analysis_equal": true,
+      "docx_body_xml_equal": true,
+      "xlsx_values_and_types_equal": true,
+      "png_sha256_equal": true,
+      "formal_package_members_verified": true
+    },
+    {
+      "date": "2025.5.30",
+      "raw_facts_recomputed": true,
+      "frozen_sha256_equal": true,
+      "analysis_equal": true,
+      "docx_body_xml_equal": true,
+      "xlsx_values_and_types_equal": true,
+      "png_sha256_equal": true,
+      "formal_package_members_verified": true
+    },
+    {
+      "date": "2025.6.9",
+      "raw_facts_recomputed": true,
+      "frozen_sha256_equal": true,
+      "analysis_equal": true,
+      "docx_body_xml_equal": true,
+      "xlsx_values_and_types_equal": true,
+      "png_sha256_equal": true,
+      "formal_package_members_verified": true
+    },
+    {
+      "date": "2025.6.17",
+      "raw_facts_recomputed": true,
+      "frozen_sha256_equal": true,
+      "analysis_equal": true,
+      "docx_body_xml_equal": true,
+      "xlsx_values_and_types_equal": true,
+      "png_sha256_equal": true,
+      "formal_package_members_verified": true
+    },
+    {
+      "date": "2025.6.29",
+      "raw_facts_recomputed": true,
+      "frozen_sha256_equal": true,
+      "analysis_equal": true,
+      "docx_body_xml_equal": true,
+      "xlsx_values_and_types_equal": true,
+      "png_sha256_equal": true,
+      "formal_package_members_verified": true
+    },
+    {
+      "date": "2025.7.9",
+      "raw_facts_recomputed": true,
+      "frozen_sha256_equal": true,
+      "analysis_equal": true,
+      "docx_body_xml_equal": true,
+      "xlsx_values_and_types_equal": true,
+      "png_sha256_equal": true,
+      "formal_package_members_verified": true
+    },
+    {
+      "date": "2025.7.17",
+      "raw_facts_recomputed": true,
+      "frozen_sha256_equal": true,
+      "analysis_equal": true,
+      "docx_body_xml_equal": true,
+      "xlsx_values_and_types_equal": true,
+      "png_sha256_equal": true,
+      "formal_package_members_verified": true
+    }
+  ],
+  "container_difference_policy": "DOCX/XLSX ZIP member timestamps and core created/modified timestamps may differ; content, schema and PNGs must match"
+}

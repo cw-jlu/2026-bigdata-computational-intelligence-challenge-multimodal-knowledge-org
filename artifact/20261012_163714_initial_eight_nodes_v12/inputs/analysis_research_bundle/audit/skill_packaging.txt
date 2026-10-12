@@ -1,0 +1,20 @@
+📦 Packaging skill: /mnt/data/analysis_deliverables/evidence-grounded-analysis
+   Output directory: /mnt/data
+
+🔍 Validating skill...
+✅ Skill is valid!
+
+  Added: evidence-grounded-analysis/SKILL.md
+  Added: evidence-grounded-analysis/references/writing_template.md
+  Added: evidence-grounded-analysis/references/external_data_cards.json
+  Added: evidence-grounded-analysis/references/source_catalog.md
+  Added: evidence-grounded-analysis/references/source_catalog.json
+  Added: evidence-grounded-analysis/references/input_output_contract.md
+  Added: evidence-grounded-analysis/references/generation_prompt.md
+  Added: evidence-grounded-analysis/references/competition_rules.md
+  Added: evidence-grounded-analysis/scripts/test_audit_sources.py
+  Added: evidence-grounded-analysis/scripts/audit_sources.py
+  Added: evidence-grounded-analysis/agents/openai.yaml
+
+📏 Archive size: 23,476 bytes
+✅ Successfully packaged skill to: /mnt/data/skill.zip

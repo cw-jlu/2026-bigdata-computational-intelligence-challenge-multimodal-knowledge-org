@@ -1,0 +1,1239 @@
+{
+  "nodes": [
+    {
+      "node": "2025.5.10",
+      "today_events": 26,
+      "daily_facts_changed": false,
+      "full_related_verified_events": 5,
+      "restored_history": [],
+      "missing_related_verified_events": [],
+      "stages": [
+        {
+          "dates": [
+            "2025.5.1",
+            "2025.5.2"
+          ],
+          "events": [
+            "2025.5.1-AIR-8638D8B9232003",
+            "2025.5.2-AIR-20329C42A9F1EB",
+            "2025.5.2-AIR-FF06AD0A13E2FD"
+          ],
+          "boundary_basis": "东海与黄海训练、巡逻的前段"
+        },
+        {
+          "dates": [
+            "2025.5.6"
+          ],
+          "events": [
+            "2025.5.6-AIR-CE53A4E05076BB"
+          ],
+          "boundary_basis": "5月6日南海联合巡逻，单日变化"
+        },
+        {
+          "dates": [
+            "2025.5.10"
+          ],
+          "events": [
+            "2025.5.10-AIR-965A1A0C03084F"
+          ],
+          "boundary_basis": "节点日东海空中警戒，不能连接同机航线"
+        }
+      ],
+      "observational_gaps": [
+        {
+          "from": "2025-05-02",
+          "to": "2025-05-06",
+          "days": 4
+        },
+        {
+          "from": "2025-05-06",
+          "to": "2025-05-10",
+          "days": 4
+        }
+      ],
+      "related_unverified_candidates": [
+        {
+          "event_id": "2025.5.1-AIR-69195164BFB455",
+          "decision": "域外",
+          "issues": []
+        },
+        {
+          "event_id": "2025.5.10-AIR-4A3B2D7C0D9623",
+          "decision": "排除",
+          "issues": [
+            "关键字段start明确冲突：{'雷达': 1049, '开源军情': 1084}"
+          ]
+        },
+        {
+          "event_id": "2025.5.5-AIR-10C0D922F39F2D",
+          "decision": "排除",
+          "issues": [
+            "关键平台类别明确冲突：开源军情正文为导弹巡洋舰，雷达为飞机",
+            "关键数量单位明确冲突：开源军情为艘，雷达类别飞机"
+          ]
+        },
+        {
+          "event_id": "2025.5.6-AIR-FDB75E7CFF6832",
+          "decision": "排除",
+          "issues": [
+            "关键字段quantity明确冲突：{'雷达': 1, '开源军情': 1, '网上舆论': 2}"
+          ]
+        },
+        {
+          "event_id": "2025.5.9-AIR-21B461A6C05E02",
+          "decision": "排除",
+          "issues": [
+            "关键字段task明确冲突：{'雷达': '对海突击训练', '开源军情': '例行部署', '网上舆论': '对海突击训练'}"
+          ]
+        }
+      ],
+      "corridor_documents_in_scope": 0,
+      "accepted_entry_exit_claims": 0,
+      "second_section_history_scope": "full stage",
+      "history_outside_second_section": false
+    },
+    {
+      "node": "2025.5.18",
+      "today_events": 24,
+      "daily_facts_changed": false,
+      "full_related_verified_events": 4,
+      "restored_history": [],
+      "missing_related_verified_events": [],
+      "stages": [
+        {
+          "dates": [
+            "2025.5.3",
+            "2025.5.5",
+            "2025.5.7"
+          ],
+          "events": [
+            "2025.5.3-SHIP-8E6CDE150B3CFE",
+            "2025.5.5-SHIP-ECF33B2236B96B",
+            "2025.5.7-SHIP-D42AE8F97E71F9"
+          ],
+          "boundary_basis": "东海编队警戒三个证据日形成比较基线"
+        },
+        {
+          "dates": [
+            "2025.5.18"
+          ],
+          "events": [
+            "2025.5.18-SHIP-8D9B5F7E41B14D"
+          ],
+          "boundary_basis": "间隔11日后南海防空反导训练"
+        }
+      ],
+      "observational_gaps": [
+        {
+          "from": "2025-05-03",
+          "to": "2025-05-05",
+          "days": 2
+        },
+        {
+          "from": "2025-05-05",
+          "to": "2025-05-07",
+          "days": 2
+        },
+        {
+          "from": "2025-05-07",
+          "to": "2025-05-18",
+          "days": 11
+        }
+      ],
+      "related_unverified_candidates": [
+        {
+          "event_id": "2025.5.16-SHIP-86876676616E91",
+          "decision": "排除",
+          "issues": [
+            "雷达区域明确冲突：['东海', '黄海']",
+            "关键区域冲突：[{'source': '雷达', 'region': '东海'}]"
+          ]
+        },
+        {
+          "event_id": "2025.5.4-SHIP-A76E130E8BFBD1",
+          "decision": "域外",
+          "issues": []
+        },
+        {
+          "event_id": "2025.5.8-SHIP-140D87E074C220",
+          "decision": "排除",
+          "issues": [
+            "关键字段quantity明确冲突：{'雷达': 1, '开源军情': 2, '网上舆论': 1}"
+          ]
+        }
+      ],
+      "corridor_documents_in_scope": 0,
+      "accepted_entry_exit_claims": 0,
+      "second_section_history_scope": "full stage",
+      "history_outside_second_section": false
+    },
+    {
+      "node": "2025.5.30",
+      "today_events": 27,
+      "daily_facts_changed": false,
+      "full_related_verified_events": 9,
+      "restored_history": [],
+      "missing_related_verified_events": [],
+      "stages": [
+        {
+          "dates": [
+            "2025.5.5"
+          ],
+          "events": [
+            "2025.5.5-AIR-006C60EFADB317"
+          ],
+          "boundary_basis": "南海侦察单日参照"
+        },
+        {
+          "dates": [
+            "2025.5.12"
+          ],
+          "events": [
+            "2025.5.12-AIR-A7F7AA84B2BC84"
+          ],
+          "boundary_basis": "黄海联合巡逻，不能跳过不同任务"
+        },
+        {
+          "dates": [
+            "2025.5.21",
+            "2025.5.25",
+            "2025.5.26",
+            "2025.5.27",
+            "2025.5.28",
+            "2025.5.30"
+          ],
+          "events": [
+            "2025.5.21-AIR-1C5CB539CDF7F7",
+            "2025.5.25-AIR-F6A24C7F81E848",
+            "2025.5.26-AIR-BEB66F230F996B",
+            "2025.5.27-AIR-026631CC30D138",
+            "2025.5.28-AIR-7BD2E1024A2A22",
+            "2025.5.30-AIR-4EDAD658D2D3AC",
+            "2025.5.30-AIR-FF26392625DADF"
+          ],
+          "boundary_basis": "5月21日起黄海反潜重复"
+        }
+      ],
+      "observational_gaps": [
+        {
+          "from": "2025-05-05",
+          "to": "2025-05-12",
+          "days": 7
+        },
+        {
+          "from": "2025-05-12",
+          "to": "2025-05-21",
+          "days": 9
+        },
+        {
+          "from": "2025-05-21",
+          "to": "2025-05-25",
+          "days": 4
+        },
+        {
+          "from": "2025-05-28",
+          "to": "2025-05-30",
+          "days": 2
+        }
+      ],
+      "related_unverified_candidates": [
+        {
+          "event_id": "2025.5.12-AIR-19F5EB90095AAD",
+          "decision": "排除",
+          "issues": [
+            "关键区域冲突：[{'source': '网上舆论', 'region': '宁波外海'}, {'source': '网上舆论', 'region': '东海'}]",
+            "区域精度重审：无两类明确地名或共同核心海域支持"
+          ]
+        },
+        {
+          "event_id": "2025.5.16-AIR-F0DB0134C79493",
+          "decision": "排除",
+          "issues": [
+            "关键字段task不足两类来源支持",
+            "三类来源未全部关联，保留两源或单源候选",
+            "区域精度重审：无两类明确地名或共同核心海域支持"
+          ]
+        },
+        {
+          "event_id": "2025.5.30-AIR-27506392432473",
+          "decision": "排除",
+          "issues": [
+            "关键字段country明确冲突：{'雷达': '韩国', '开源军情': '韩国', '网上舆论': '俄罗斯'}"
+          ]
+        }
+      ],
+      "corridor_documents_in_scope": 0,
+      "accepted_entry_exit_claims": 0,
+      "second_section_history_scope": "full stage",
+      "history_outside_second_section": false
+    },
+    {
+      "node": "2025.6.9",
+      "today_events": 27,
+      "daily_facts_changed": false,
+      "full_related_verified_events": 7,
+      "restored_history": [],
+      "missing_related_verified_events": [],
+      "stages": [
+        {
+          "dates": [
+            "2025.5.27",
+            "2025.5.28"
+          ],
+          "events": [
+            "2025.5.27-AIR-879FFA4D79B17E",
+            "2025.5.28-AIR-AC5C2BC3CC3CA3",
+            "2025.5.28-AIR-BC628197D4A6D6"
+          ],
+          "boundary_basis": "5月27至28日东海两类任务并见"
+        },
+        {
+          "dates": [
+            "2025.6.3",
+            "2025.6.6"
+          ],
+          "events": [
+            "2025.6.3-AIR-B8C016CC73A05F",
+            "2025.6.6-AIR-3A9B1AB94D2A9B"
+          ],
+          "boundary_basis": "6月3日与6日仅核实电子侦察"
+        },
+        {
+          "dates": [
+            "2025.6.9"
+          ],
+          "events": [
+            "2025.6.9-AIR-066899117BEDAE",
+            "2025.6.9-AIR-900D3E39F755EC"
+          ],
+          "boundary_basis": "6月9日两类标签重现"
+        }
+      ],
+      "observational_gaps": [
+        {
+          "from": "2025-05-28",
+          "to": "2025-06-03",
+          "days": 6
+        },
+        {
+          "from": "2025-06-03",
+          "to": "2025-06-06",
+          "days": 3
+        },
+        {
+          "from": "2025-06-06",
+          "to": "2025-06-09",
+          "days": 3
+        }
+      ],
+      "related_unverified_candidates": [
+        {
+          "event_id": "2025.5.10-AIR-093CB109918635",
+          "decision": "排除",
+          "issues": [
+            "关键字段task不足两类来源支持",
+            "三类来源未全部关联，保留两源或单源候选",
+            "区域精度重审：无两类明确地名或共同核心海域支持"
+          ]
+        },
+        {
+          "event_id": "2025.5.14-AIR-E59171DA58DB2A",
+          "decision": "排除",
+          "issues": [
+            "关键字段country明确冲突：{'雷达': '英国', '开源军情': '新加坡', '网上舆论': '英国'}"
+          ]
+        },
+        {
+          "event_id": "2025.5.15-AIR-B491F9D488986E",
+          "decision": "域外",
+          "issues": []
+        },
+        {
+          "event_id": "2025.5.26-AIR-519028DBB4D8B2",
+          "decision": "排除",
+          "issues": [
+            "关键字段quantity不足两类来源支持",
+            "三类来源未全部关联，保留两源或单源候选",
+            "区域精度重审：无两类明确地名或共同核心海域支持"
+          ]
+        },
+        {
+          "event_id": "2025.5.27-AIR-7491F4F1F09C1F",
+          "decision": "排除",
+          "issues": [
+            "关键字段quantity不足两类来源支持",
+            "三类来源未全部关联，保留两源或单源候选",
+            "区域精度重审：无两类明确地名或共同核心海域支持"
+          ]
+        },
+        {
+          "event_id": "2025.5.27-AIR-E83F4B6C4ED3C3",
+          "decision": "排除",
+          "issues": [
+            "关键字段quantity明确冲突：{'雷达': 2, '开源军情': 3, '网上舆论': 2}"
+          ]
+        },
+        {
+          "event_id": "2025.5.27-AIR-FBF2B96B232C04",
+          "decision": "排除",
+          "issues": [
+            "关键字段start明确冲突：{'雷达': 1062, '开源军情': 1062, '网上舆论': 1098}"
+          ]
+        },
+        {
+          "event_id": "2025.5.30-AIR-7B89127FFA67DC",
+          "decision": "域外",
+          "issues": []
+        },
+        {
+          "event_id": "2025.5.6-AIR-D53EED074CFFB2",
+          "decision": "域外",
+          "issues": []
+        },
+        {
+          "event_id": "2025.6.3-AIR-6DA1B67FBE4F5D",
+          "decision": "排除",
+          "issues": [
+            "关键字段task明确冲突：{'雷达': '情报监视侦察', '开源军情': '情报监视侦察', '网上舆论': '电子侦察'}"
+          ]
+        },
+        {
+          "event_id": "2025.6.5-AIR-C0BDCCBD51D2C4",
+          "decision": "排除",
+          "issues": [
+            "关键字段quantity不足两类来源支持",
+            "三类来源未全部关联，保留两源或单源候选",
+            "区域精度重审：无两类明确地名或共同核心海域支持"
+          ]
+        }
+      ],
+      "corridor_documents_in_scope": 0,
+      "accepted_entry_exit_claims": 0,
+      "second_section_history_scope": "full stage",
+      "history_outside_second_section": false
+    },
+    {
+      "node": "2025.6.17",
+      "today_events": 25,
+      "daily_facts_changed": false,
+      "full_related_verified_events": 14,
+      "restored_history": [
+        {
+          "id": "2025.5.4-AIR-DF4C1627223A01",
+          "date": "2025.5.4",
+          "facts": {
+            "country": "澳大利亚",
+            "key": "p8a",
+            "quantity": 1,
+            "task": "反潜巡逻",
+            "start": "14:55",
+            "end": "16:20",
+            "region": "东海",
+            "direction": "东海",
+            "platform": "P-8A“海神”反潜巡逻机"
+          }
+        }
+      ],
+      "missing_related_verified_events": [],
+      "stages": [
+        {
+          "dates": [
+            "2025.5.4",
+            "2025.5.19",
+            "2025.5.24",
+            "2025.5.28"
+          ],
+          "events": [
+            "2025.5.4-AIR-DF4C1627223A01",
+            "2025.5.19-AIR-E45A1B9FE13CCA",
+            "2025.5.24-AIR-725E4A4366F2A5",
+            "2025.5.28-AIR-DF15518DFFCBCD"
+          ],
+          "boundary_basis": "5月东海单点与南海反潜重复，15日间隔保留"
+        },
+        {
+          "dates": [
+            "2025.5.29",
+            "2025.5.30"
+          ],
+          "events": [
+            "2025.5.29-AIR-47EB22B1C68E9F",
+            "2025.5.30-AIR-7AE85FE8199419"
+          ],
+          "boundary_basis": "5月底黄海联合巡逻和东海反潜"
+        },
+        {
+          "dates": [
+            "2025.6.2",
+            "2025.6.6",
+            "2025.6.8",
+            "2025.6.11",
+            "2025.6.14",
+            "2025.6.16",
+            "2025.6.17"
+          ],
+          "events": [
+            "2025.6.2-AIR-32054E31D4D608",
+            "2025.6.6-AIR-DD08A2D35D60C2",
+            "2025.6.8-AIR-A94318B8325C02",
+            "2025.6.11-AIR-156F137CD2150D",
+            "2025.6.14-AIR-AD664125907E23",
+            "2025.6.16-AIR-0FD53F2DB10A14",
+            "2025.6.17-AIR-15297A9B050E29",
+            "2025.6.17-AIR-F087E2B39C41DB"
+          ],
+          "boundary_basis": "6月南海反潜重复与其他任务并存，节点另有黄海活动"
+        }
+      ],
+      "observational_gaps": [
+        {
+          "from": "2025-05-04",
+          "to": "2025-05-19",
+          "days": 15
+        },
+        {
+          "from": "2025-05-19",
+          "to": "2025-05-24",
+          "days": 5
+        },
+        {
+          "from": "2025-05-24",
+          "to": "2025-05-28",
+          "days": 4
+        },
+        {
+          "from": "2025-05-30",
+          "to": "2025-06-02",
+          "days": 3
+        },
+        {
+          "from": "2025-06-02",
+          "to": "2025-06-06",
+          "days": 4
+        },
+        {
+          "from": "2025-06-06",
+          "to": "2025-06-08",
+          "days": 2
+        },
+        {
+          "from": "2025-06-08",
+          "to": "2025-06-11",
+          "days": 3
+        },
+        {
+          "from": "2025-06-11",
+          "to": "2025-06-14",
+          "days": 3
+        },
+        {
+          "from": "2025-06-14",
+          "to": "2025-06-16",
+          "days": 2
+        }
+      ],
+      "related_unverified_candidates": [
+        {
+          "event_id": "2025.5.19-AIR-6C024FE1E1C855",
+          "decision": "排除",
+          "issues": [
+            "关键字段task明确冲突：{'雷达': '联合巡逻', '开源军情': '联合巡逻', '网上舆论': '海上侦察巡逻'}"
+          ]
+        },
+        {
+          "event_id": "2025.5.29-AIR-4779DAB591FCB9",
+          "decision": "排除",
+          "issues": [
+            "关键字段start明确冲突：{'雷达': 314, '开源军情': 314, '网上舆论': 383}"
+          ]
+        },
+        {
+          "event_id": "2025.5.31-AIR-2F8826A1ACD084",
+          "decision": "排除",
+          "issues": [
+            "雷达轨迹存在并行异地观测或不合理跳变，未能定位可独立删除的噪声行",
+            "完整轨迹跨越粗海域相容窗，不能用中位点消除异常：黄海"
+          ]
+        },
+        {
+          "event_id": "2025.6.14-AIR-341ED15AE57AAD",
+          "decision": "排除",
+          "issues": [
+            "关键字段country明确冲突：{'雷达': '澳大利亚', '开源军情': '澳大利亚', '网上舆论': '俄罗斯'}"
+          ]
+        },
+        {
+          "event_id": "2025.6.8-AIR-48A5399F9F98DB",
+          "decision": "排除",
+          "issues": [
+            "关键区域冲突：[{'source': '开源军情', 'region': '北部湾'}, {'source': '雷达', 'reason': '轨迹与文本具体区域不相容'}]",
+            "关键区域不足两类来源支持",
+            "区域精度重审：无两类明确地名或共同核心海域支持"
+          ]
+        },
+        {
+          "event_id": "2025.6.8-AIR-4DF62148FE3C5A",
+          "decision": "排除",
+          "issues": [
+            "关键字段quantity不足两类来源支持",
+            "三类来源未全部关联，保留两源或单源候选",
+            "区域精度重审：无两类明确地名或共同核心海域支持"
+          ]
+        }
+      ],
+      "corridor_documents_in_scope": 0,
+      "accepted_entry_exit_claims": 0,
+      "second_section_history_scope": "full stage",
+      "history_outside_second_section": false
+    },
+    {
+      "node": "2025.6.29",
+      "today_events": 25,
+      "daily_facts_changed": false,
+      "full_related_verified_events": 6,
+      "restored_history": [],
+      "missing_related_verified_events": [],
+      "stages": [
+        {
+          "dates": [
+            "2025.6.2",
+            "2025.6.4",
+            "2025.6.6"
+          ],
+          "events": [
+            "2025.6.2-AIR-26DF9134786963",
+            "2025.6.4-AIR-FB406AA37C561E",
+            "2025.6.6-AIR-C04BC8955CA537"
+          ],
+          "boundary_basis": "东海情报监视侦察三日重复"
+        },
+        {
+          "dates": [
+            "2025.6.16"
+          ],
+          "events": [
+            "2025.6.16-AIR-74B5EB9BFAB738"
+          ],
+          "boundary_basis": "十日缺证间隔后东海空中警戒"
+        },
+        {
+          "dates": [
+            "2025.6.22",
+            "2025.6.29"
+          ],
+          "events": [
+            "2025.6.22-AIR-44CF55E75E5AAB",
+            "2025.6.29-AIR-4549C067D0FC8D"
+          ],
+          "boundary_basis": "黄海两个日期恢复侦察标签"
+        }
+      ],
+      "observational_gaps": [
+        {
+          "from": "2025-06-02",
+          "to": "2025-06-04",
+          "days": 2
+        },
+        {
+          "from": "2025-06-04",
+          "to": "2025-06-06",
+          "days": 2
+        },
+        {
+          "from": "2025-06-06",
+          "to": "2025-06-16",
+          "days": 10
+        },
+        {
+          "from": "2025-06-16",
+          "to": "2025-06-22",
+          "days": 6
+        },
+        {
+          "from": "2025-06-22",
+          "to": "2025-06-29",
+          "days": 7
+        }
+      ],
+      "related_unverified_candidates": [
+        {
+          "event_id": "2025.5.13-AIR-7F9C892472B45E",
+          "decision": "排除",
+          "issues": [
+            "关键字段task不足两类来源支持",
+            "三类来源未全部关联，保留两源或单源候选",
+            "区域精度重审：无两类明确地名或共同核心海域支持"
+          ]
+        },
+        {
+          "event_id": "2025.5.23-AIR-A9A7CE0C255C3A",
+          "decision": "排除",
+          "issues": [
+            "关键字段quantity不足两类来源支持",
+            "三类来源未全部关联，保留两源或单源候选",
+            "区域精度重审：无两类明确地名或共同核心海域支持"
+          ]
+        },
+        {
+          "event_id": "2025.5.25-AIR-3F23462907BB5D",
+          "decision": "域外",
+          "issues": []
+        },
+        {
+          "event_id": "2025.6.14-AIR-8738A5D90F5AA4",
+          "decision": "域外",
+          "issues": []
+        },
+        {
+          "event_id": "2025.6.14-AIR-F89BFE50267957",
+          "decision": "排除",
+          "issues": [
+            "关键区域冲突：[{'source': '网上舆论', 'region': '孟加拉湾'}]",
+            "关键区域不足两类来源支持"
+          ]
+        },
+        {
+          "event_id": "2025.6.22-AIR-713724A226412A",
+          "decision": "排除",
+          "issues": [
+            "关键字段quantity不足两类来源支持",
+            "三类来源未全部关联，保留两源或单源候选",
+            "区域精度重审：无两类明确地名或共同核心海域支持"
+          ]
+        },
+        {
+          "event_id": "2025.6.22-AIR-B5B8945D2CF27D",
+          "decision": "排除",
+          "issues": [
+            "关键字段quantity明确冲突：{'雷达': 2, '开源军情': 2, '网上舆论': 3}",
+            "关键字段task不足两类来源支持"
+          ]
+        }
+      ],
+      "corridor_documents_in_scope": 0,
+      "accepted_entry_exit_claims": 0,
+      "second_section_history_scope": "full stage",
+      "history_outside_second_section": false
+    },
+    {
+      "node": "2025.7.9",
+      "today_events": 27,
+      "daily_facts_changed": false,
+      "full_related_verified_events": 11,
+      "restored_history": [
+        {
+          "id": "2025.5.10-SHIP-69B3604EFC701D",
+          "date": "2025.5.10",
+          "facts": {
+            "country": "加拿大",
+            "key": "哈利法克斯",
+            "quantity": 1,
+            "task": "联合搜救训练",
+            "start": "14:06",
+            "end": "16:31",
+            "region": "东海北部",
+            "direction": "东海",
+            "platform": "哈利法克斯级导弹护卫舰"
+          }
+        },
+        {
+          "id": "2025.5.12-SHIP-74367CC218A73A",
+          "date": "2025.5.12",
+          "facts": {
+            "country": "加拿大",
+            "key": "哈利法克斯",
+            "quantity": 1,
+            "task": "海上护航",
+            "start": "11:10",
+            "end": "13:35",
+            "region": "上海外海",
+            "direction": "东海",
+            "platform": "哈利法克斯级导弹护卫舰"
+          }
+        },
+        {
+          "id": "2025.5.21-SHIP-73632EECE64425",
+          "date": "2025.5.21",
+          "facts": {
+            "country": "加拿大",
+            "key": "哈利法克斯",
+            "quantity": 1,
+            "task": "海上巡逻",
+            "start": "17:24",
+            "end": "19:49",
+            "region": "北黄海",
+            "direction": "黄海",
+            "platform": "哈利法克斯级导弹护卫舰"
+          }
+        },
+        {
+          "id": "2025.5.26-SHIP-F94751BB9D5FD2",
+          "date": "2025.5.26",
+          "facts": {
+            "country": "加拿大",
+            "key": "哈利法克斯",
+            "quantity": 1,
+            "task": "例行部署",
+            "start": "14:28",
+            "end": "16:53",
+            "region": "纳土纳群岛北部海域",
+            "direction": "南海",
+            "platform": "哈利法克斯级导弹护卫舰"
+          }
+        }
+      ],
+      "missing_related_verified_events": [],
+      "stages": [
+        {
+          "dates": [
+            "2025.5.10",
+            "2025.5.12",
+            "2025.5.21",
+            "2025.5.26"
+          ],
+          "events": [
+            "2025.5.10-SHIP-69B3604EFC701D",
+            "2025.5.12-SHIP-74367CC218A73A",
+            "2025.5.21-SHIP-73632EECE64425",
+            "2025.5.26-SHIP-F94751BB9D5FD2"
+          ],
+          "boundary_basis": "5月多方向多任务四次记录"
+        },
+        {
+          "dates": [
+            "2025.6.24",
+            "2025.6.26",
+            "2025.6.27",
+            "2025.6.29",
+            "2025.7.6"
+          ],
+          "events": [
+            "2025.6.24-SHIP-958C85D24DE265",
+            "2025.6.26-SHIP-D62A2C89AD3B6B",
+            "2025.6.27-SHIP-47F7F219FCF56D",
+            "2025.6.29-SHIP-E6F763B7F99D68",
+            "2025.7.6-SHIP-F907B76B7455DA"
+          ],
+          "boundary_basis": "29日缺证间隔后黄海警戒五日重复"
+        },
+        {
+          "dates": [
+            "2025.7.8",
+            "2025.7.9"
+          ],
+          "events": [
+            "2025.7.8-SHIP-3CC73A6800D0AD",
+            "2025.7.9-SHIP-84C74B4313BF87"
+          ],
+          "boundary_basis": "相邻两日南海巡逻与黄海警戒，身份仍仅到舰级"
+        }
+      ],
+      "observational_gaps": [
+        {
+          "from": "2025-05-10",
+          "to": "2025-05-12",
+          "days": 2
+        },
+        {
+          "from": "2025-05-12",
+          "to": "2025-05-21",
+          "days": 9
+        },
+        {
+          "from": "2025-05-21",
+          "to": "2025-05-26",
+          "days": 5
+        },
+        {
+          "from": "2025-05-26",
+          "to": "2025-06-24",
+          "days": 29
+        },
+        {
+          "from": "2025-06-24",
+          "to": "2025-06-26",
+          "days": 2
+        },
+        {
+          "from": "2025-06-27",
+          "to": "2025-06-29",
+          "days": 2
+        },
+        {
+          "from": "2025-06-29",
+          "to": "2025-07-06",
+          "days": 7
+        },
+        {
+          "from": "2025-07-06",
+          "to": "2025-07-08",
+          "days": 2
+        }
+      ],
+      "related_unverified_candidates": [
+        {
+          "event_id": "2025.5.14-SHIP-F34F54993AA64E",
+          "decision": "域外",
+          "issues": []
+        },
+        {
+          "event_id": "2025.5.26-SHIP-EE5A9860435C36",
+          "decision": "排除",
+          "issues": [
+            "关键字段quantity不足两类来源支持",
+            "三类来源未全部关联，保留两源或单源候选"
+          ]
+        },
+        {
+          "event_id": "2025.6.19-SHIP-B43C9BDDBB749E",
+          "decision": "排除",
+          "issues": [
+            "关键字段country明确冲突：{'雷达': '加拿大', '开源军情': '新加坡', '网上舆论': '加拿大'}"
+          ]
+        },
+        {
+          "event_id": "2025.6.20-SHIP-E0BC9911EE2F08",
+          "decision": "域外",
+          "issues": []
+        },
+        {
+          "event_id": "2025.6.23-SHIP-6A389CE2EA0283",
+          "decision": "排除",
+          "issues": [
+            "雷达区域明确冲突：['东海', '北黄海']",
+            "关键区域冲突：[{'source': '雷达', 'region': '东海'}]"
+          ]
+        },
+        {
+          "event_id": "2025.6.23-SHIP-8A209D7902703B",
+          "decision": "排除",
+          "issues": [
+            "关键字段country明确冲突：{'雷达': '加拿大', '开源军情': '加拿大', '网上舆论': '印度'}"
+          ]
+        },
+        {
+          "event_id": "2025.7.8-SHIP-FB6609AA02AD09",
+          "decision": "排除",
+          "issues": [
+            "雷达区域明确冲突：['南海', '舟山外海']",
+            "关键区域冲突：[{'source': '雷达', 'region': '南海'}]"
+          ]
+        }
+      ],
+      "corridor_documents_in_scope": 0,
+      "accepted_entry_exit_claims": 0,
+      "second_section_history_scope": "full stage",
+      "history_outside_second_section": false
+    },
+    {
+      "node": "2025.7.17",
+      "today_events": 24,
+      "daily_facts_changed": false,
+      "full_related_verified_events": 13,
+      "restored_history": [
+        {
+          "id": "2025.5.25-SHIP-9F8A91A35F4F50",
+          "date": "2025.5.25",
+          "facts": {
+            "country": "法国",
+            "key": "戴高乐",
+            "quantity": 1,
+            "task": "编队警戒部署",
+            "start": "14:28",
+            "end": "16:53",
+            "region": "南海",
+            "direction": "南海",
+            "platform": "戴高乐号航空母舰"
+          }
+        },
+        {
+          "id": "2025.5.27-SHIP-7DB0506A58938C",
+          "date": "2025.5.27",
+          "facts": {
+            "country": "法国",
+            "key": "戴高乐",
+            "quantity": 1,
+            "task": "编队警戒部署",
+            "start": "14:28",
+            "end": "16:53",
+            "region": "南海",
+            "direction": "南海",
+            "platform": "戴高乐号航空母舰"
+          }
+        },
+        {
+          "id": "2025.5.30-SHIP-33BD433A9FD3C4",
+          "date": "2025.5.30",
+          "facts": {
+            "country": "法国",
+            "key": "戴高乐",
+            "quantity": 1,
+            "task": "编队警戒部署",
+            "start": "11:21",
+            "end": "13:46",
+            "region": "南海",
+            "direction": "南海",
+            "platform": "戴高乐号航空母舰"
+          }
+        },
+        {
+          "id": "2025.6.2-SHIP-F371BD47F5CA5E",
+          "date": "2025.6.2",
+          "facts": {
+            "country": "法国",
+            "key": "戴高乐",
+            "quantity": 1,
+            "task": "编队警戒部署",
+            "start": "11:21",
+            "end": "13:46",
+            "region": "南海",
+            "direction": "南海",
+            "platform": "戴高乐号航空母舰"
+          }
+        },
+        {
+          "id": "2025.6.4-SHIP-F00CFC36C71F6E",
+          "date": "2025.6.4",
+          "facts": {
+            "country": "法国",
+            "key": "戴高乐",
+            "quantity": 1,
+            "task": "编队警戒部署",
+            "start": "14:28",
+            "end": "16:53",
+            "region": "南海",
+            "direction": "南海",
+            "platform": "戴高乐号航空母舰"
+          }
+        },
+        {
+          "id": "2025.6.6-SHIP-104B90FA7B2A96",
+          "date": "2025.6.6",
+          "facts": {
+            "country": "法国",
+            "key": "戴高乐",
+            "quantity": 1,
+            "task": "编队警戒部署",
+            "start": "17:35",
+            "end": "19:00",
+            "region": "南海",
+            "direction": "南海",
+            "platform": "戴高乐号航空母舰"
+          }
+        },
+        {
+          "id": "2025.6.9-SHIP-DAC6E72221D22D",
+          "date": "2025.6.9",
+          "facts": {
+            "country": "法国",
+            "key": "戴高乐",
+            "quantity": 1,
+            "task": "编队警戒部署",
+            "start": "08:14",
+            "end": "10:39",
+            "region": "南海",
+            "direction": "南海",
+            "platform": "戴高乐号航空母舰"
+          }
+        },
+        {
+          "id": "2025.6.13-SHIP-C05E03256CD00D",
+          "date": "2025.6.13",
+          "facts": {
+            "country": "法国",
+            "key": "戴高乐",
+            "quantity": 1,
+            "task": "战备巡逻",
+            "start": "08:52",
+            "end": "10:17",
+            "region": "青岛外海",
+            "direction": "黄海",
+            "platform": "戴高乐号航空母舰"
+          }
+        },
+        {
+          "id": "2025.6.23-SHIP-8A0AD05CC1CB0E",
+          "date": "2025.6.23",
+          "facts": {
+            "country": "法国",
+            "key": "戴高乐",
+            "quantity": 1,
+            "task": "编队警戒部署",
+            "start": "08:52",
+            "end": "10:17",
+            "region": "南海中部",
+            "direction": "南海",
+            "platform": "戴高乐号航空母舰"
+          }
+        }
+      ],
+      "missing_related_verified_events": [],
+      "stages": [
+        {
+          "dates": [
+            "2025.5.25",
+            "2025.5.27",
+            "2025.5.30",
+            "2025.6.2",
+            "2025.6.4",
+            "2025.6.6",
+            "2025.6.9"
+          ],
+          "events": [
+            "2025.5.25-SHIP-9F8A91A35F4F50",
+            "2025.5.27-SHIP-7DB0506A58938C",
+            "2025.5.30-SHIP-33BD433A9FD3C4",
+            "2025.6.2-SHIP-F371BD47F5CA5E",
+            "2025.6.4-SHIP-F00CFC36C71F6E",
+            "2025.6.6-SHIP-104B90FA7B2A96",
+            "2025.6.9-SHIP-DAC6E72221D22D"
+          ],
+          "boundary_basis": "5月25日至6月9日南海警戒七日重复"
+        },
+        {
+          "dates": [
+            "2025.6.13",
+            "2025.6.23",
+            "2025.7.11"
+          ],
+          "events": [
+            "2025.6.13-SHIP-C05E03256CD00D",
+            "2025.6.23-SHIP-8A0AD05CC1CB0E",
+            "2025.7.11-SHIP-1916604631BDF8"
+          ],
+          "boundary_basis": "黄海巡逻、南海警戒、黄海巡逻的间歇记录，含18日缺证间隔"
+        },
+        {
+          "dates": [
+            "2025.7.14",
+            "2025.7.16",
+            "2025.7.17"
+          ],
+          "events": [
+            "2025.7.14-SHIP-C77364A7FFC51A",
+            "2025.7.16-SHIP-037A584E5B3D33",
+            "2025.7.17-SHIP-EA12395FF3F79A"
+          ],
+          "boundary_basis": "7月14日起南海警戒三日再现"
+        }
+      ],
+      "observational_gaps": [
+        {
+          "from": "2025-05-25",
+          "to": "2025-05-27",
+          "days": 2
+        },
+        {
+          "from": "2025-05-27",
+          "to": "2025-05-30",
+          "days": 3
+        },
+        {
+          "from": "2025-05-30",
+          "to": "2025-06-02",
+          "days": 3
+        },
+        {
+          "from": "2025-06-02",
+          "to": "2025-06-04",
+          "days": 2
+        },
+        {
+          "from": "2025-06-04",
+          "to": "2025-06-06",
+          "days": 2
+        },
+        {
+          "from": "2025-06-06",
+          "to": "2025-06-09",
+          "days": 3
+        },
+        {
+          "from": "2025-06-09",
+          "to": "2025-06-13",
+          "days": 4
+        },
+        {
+          "from": "2025-06-13",
+          "to": "2025-06-23",
+          "days": 10
+        },
+        {
+          "from": "2025-06-23",
+          "to": "2025-07-11",
+          "days": 18
+        },
+        {
+          "from": "2025-07-11",
+          "to": "2025-07-14",
+          "days": 3
+        },
+        {
+          "from": "2025-07-14",
+          "to": "2025-07-16",
+          "days": 2
+        }
+      ],
+      "related_unverified_candidates": [
+        {
+          "event_id": "2025.5.15-SHIP-19276BF2A18F5D",
+          "decision": "域外",
+          "issues": []
+        },
+        {
+          "event_id": "2025.5.7-SHIP-2C39E03B0C197F",
+          "decision": "域外",
+          "issues": []
+        },
+        {
+          "event_id": "2025.6.21-SHIP-66ADD38C21B53B",
+          "decision": "排除",
+          "issues": [
+            "关键字段country明确冲突：{'雷达': '法国', '开源军情': '法国', '网上舆论': '台湾'}"
+          ]
+        },
+        {
+          "event_id": "2025.6.26-SHIP-7DD6AD2772901C",
+          "decision": "域外",
+          "issues": []
+        },
+        {
+          "event_id": "2025.6.28-SHIP-694931EA2C5E1D",
+          "decision": "排除",
+          "issues": [
+            "雷达区域明确冲突：['东海', '连云港外海']",
+            "关键区域冲突：[{'source': '雷达', 'region': '东海'}]"
+          ]
+        },
+        {
+          "event_id": "2025.6.4-SHIP-63295296E5C53F",
+          "decision": "排除",
+          "issues": [
+            "关键字段start明确冲突：{'雷达': 1073, '开源军情': 1073, '网上舆论': 1110}"
+          ]
+        },
+        {
+          "event_id": "2025.6.9-SHIP-76034BECD2919C",
+          "decision": "排除",
+          "issues": [
+            "关键字段start明确冲突：{'雷达': 699, '开源军情': 699, '网上舆论': 764}"
+          ]
+        },
+        {
+          "event_id": "2025.7.17-SHIP-BE6DFCBF2FFD00",
+          "decision": "域外",
+          "issues": []
+        }
+      ],
+      "corridor_documents_in_scope": 0,
+      "accepted_entry_exit_claims": 0,
+      "second_section_history_scope": "full stage",
+      "history_outside_second_section": false
+    }
+  ],
+  "raw_text_files": 7800,
+  "corridor_documents": [],
+  "restored_history_total": 14,
+  "daily_events": 205,
+  "platform_evaluation": null
+}
