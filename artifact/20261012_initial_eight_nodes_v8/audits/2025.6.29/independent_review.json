@@ -1,0 +1,49 @@
+{
+  "as_of": "2025-06-29",
+  "reviewer": "Codex session direct re-reading of original TXT/Excel evidence, distinct from extraction code",
+  "sample_count": 4,
+  "status": "PASS_sample_only",
+  "cards_sha256": "2768745ee2d11aaded215b698c2723659a6c1bebfd569c6da056530fa03ecac3",
+  "cases": [
+    {
+      "event_id": "2025.6.29-SHIP-7A9463DC960EDF",
+      "pipeline_decision": "纳入",
+      "judgment": "agree_with_original_evidence",
+      "basis": "中国055黄海联合搜救1艘三源相容",
+      "original_material": "independent_review_cards.json contains original full TXT and complete radar batch rows",
+      "limits": [
+        "每节点两纳入两排除，确定性哈希选样；不是盲测，不是独立外部专家审查，不估计整体正确率"
+      ]
+    },
+    {
+      "event_id": "2025.6.29-SHIP-48B2D0630F0984",
+      "pipeline_decision": "纳入",
+      "judgment": "agree_with_original_evidence",
+      "basis": "中国039A南沙例行1艘三源相容",
+      "original_material": "independent_review_cards.json contains original full TXT and complete radar batch rows",
+      "limits": [
+        "每节点两纳入两排除，确定性哈希选样；不是盲测，不是独立外部专家审查，不估计整体正确率"
+      ]
+    },
+    {
+      "event_id": "2025.6.29-AIR-EA34EFEF9C07D8",
+      "pipeline_decision": "排除",
+      "judgment": "agree_with_original_evidence",
+      "basis": "直20联合巡逻/情报监视侦察任务冲突，排除",
+      "original_material": "independent_review_cards.json contains original full TXT and complete radar batch rows",
+      "limits": [
+        "每节点两纳入两排除，确定性哈希选样；不是盲测，不是独立外部专家审查，不估计整体正确率"
+      ]
+    },
+    {
+      "event_id": "2025.6.29-AIR-462A403DF8FE9B",
+      "pipeline_decision": "排除",
+      "judgment": "agree_with_original_evidence",
+      "basis": "马来西亚苏30正文出现俄罗斯国别，关键国别冲突排除",
+      "original_material": "independent_review_cards.json contains original full TXT and complete radar batch rows",
+      "limits": [
+        "每节点两纳入两排除，确定性哈希选样；不是盲测，不是独立外部专家审查，不估计整体正确率"
+      ]
+    }
+  ]
+}

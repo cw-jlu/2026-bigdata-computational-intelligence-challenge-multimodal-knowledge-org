@@ -1,0 +1,168 @@
+{
+  "as_of": "2025-05-10",
+  "status": "PASS_full_node_visual_review",
+  "reviewer": "Codex session using view_image, all pages/full sheets and all four PNGs",
+  "docx_pages": 12,
+  "reviewed_docx_page_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "xlsx_sheets": [
+    "飞机",
+    "舰艇"
+  ],
+  "xlsx_ranges": "all populated rows and all 16/11 columns; native Excel four column bands per node",
+  "png_count": 4,
+  "method": "Microsoft Word/Excel read-only native PDF export, PDFium full raster; every page/contact viewed",
+  "formal_hashes": [
+    {
+      "node": "2025.5.10",
+      "as_of": "2025-05-10",
+      "path": "2025.5.10/2025.5.10日报.docx",
+      "sha256": "c841b77366f70f512dfface310d5fa3f168b63e63a7ab6a413be1b9cc64e53fd",
+      "bytes": 1927271
+    },
+    {
+      "node": "2025.5.10",
+      "as_of": "2025-05-10",
+      "path": "2025.5.10/2025.5.10机舰活动明细.xlsx",
+      "sha256": "10d737feaee139fd81744546ca1e41e4400e810644f11250805a625f82f68ebe",
+      "bytes": 8190
+    },
+    {
+      "node": "2025.5.10",
+      "as_of": "2025-05-10",
+      "path": "2025.5.10/附件图表/01_舰机侦巡数量曲线图.png",
+      "sha256": "06da0fdc3a38c7084ed5f880306783386b280fc8784c4d6019c91251afc0590b",
+      "bytes": 147913
+    },
+    {
+      "node": "2025.5.10",
+      "as_of": "2025-05-10",
+      "path": "2025.5.10/附件图表/02_中国主要机舰活动示意图.png",
+      "sha256": "e5298bcc7f221566cf2b96cf05f312e14a0762eea250d8d3a2fcde23e6c6e364",
+      "bytes": 312703
+    },
+    {
+      "node": "2025.5.10",
+      "as_of": "2025-05-10",
+      "path": "2025.5.10/附件图表/03_美国主要机舰活动示意图.png",
+      "sha256": "ebb020c2d9159dcdb1c43d50899a6322d4b35c2ef275c82d8e6e24d5eef61dea",
+      "bytes": 107812
+    },
+    {
+      "node": "2025.5.10",
+      "as_of": "2025-05-10",
+      "path": "2025.5.10/附件图表/04_其他国家主要机舰活动示意图.png",
+      "sha256": "bf8cf1d9d20c876cd9d0cfcccf557ec844c5b6368b30badebf34fab320850c68",
+      "bytes": 549394
+    }
+  ],
+  "visual_evidence": [
+    {
+      "path": "qa/docx/2025.5.10/page-01.png",
+      "sha256": "b39f1f4db564c4d0a6fb2e43d2a1d31bd4765e5c60e37fed4ded168cd76623bf"
+    },
+    {
+      "path": "qa/docx/2025.5.10/page-02.png",
+      "sha256": "c916b67563352a99892c60dd8040a4e74490540b826f071016e7e666650caa3f"
+    },
+    {
+      "path": "qa/docx/2025.5.10/page-03.png",
+      "sha256": "80515f694747298cee2d37b2491c2769d2249f9614f5bb121c03cdac47f74356"
+    },
+    {
+      "path": "qa/docx/2025.5.10/page-04.png",
+      "sha256": "a95c76bb0251cd7ce76738acdd89f8b210f268961da74db151a119672aab1ae6"
+    },
+    {
+      "path": "qa/docx/2025.5.10/page-05.png",
+      "sha256": "1c4bd00de676b658b2cfea538b6d8a60d706a76dc3aad5e805d0772205559006"
+    },
+    {
+      "path": "qa/docx/2025.5.10/page-06.png",
+      "sha256": "108df503295cf7fd9882914d90bf407323ed76fae4f2f446f3888e4d1c7f58f5"
+    },
+    {
+      "path": "qa/docx/2025.5.10/page-07.png",
+      "sha256": "f962f00873467ff38ddec9ddaff4220c09f270f380855eb4c4fb261cc70bcc49"
+    },
+    {
+      "path": "qa/docx/2025.5.10/page-08.png",
+      "sha256": "a93697b22a007a8b9779273720bd347e371f16003a460d7bf5852962cd072738"
+    },
+    {
+      "path": "qa/docx/2025.5.10/page-09.png",
+      "sha256": "35626101fffd8d37e5d35f3ce4941abbeb2c88a890e3495b6a6d4104e3d78169"
+    },
+    {
+      "path": "qa/docx/2025.5.10/page-10.png",
+      "sha256": "12331ae4563fcd3246665c472e93357d223da22c73658266c7d111652e114bfd"
+    },
+    {
+      "path": "qa/docx/2025.5.10/page-11.png",
+      "sha256": "d2d2c1eaff82243928bb0cacd0e3920ac3d850fd71ad5d2c72c49388ba7e3a67"
+    },
+    {
+      "path": "qa/docx/2025.5.10/page-12.png",
+      "sha256": "1e73b32aa98cff843c626dc39527ba42ffdfcd7e8b80f9b9373ce1617881a571"
+    },
+    {
+      "path": "qa/xlsx_native/2025.5.10/contact-1.png",
+      "sha256": "c56766f689363e7c42eb39c1d284e76f7db949b02832fa3c8e2fb1dc4ab1a143"
+    },
+    {
+      "path": "qa/xlsx_native/2025.5.10/舰艇_1-1.png",
+      "sha256": "926cbe9220553b899fb5e1f69bac5e3ec3e7cf65c5939cf48b0da4d49a16e3cb"
+    },
+    {
+      "path": "qa/xlsx_native/2025.5.10/舰艇_2-1.png",
+      "sha256": "64a0f8934219dc1a6c3ce339478f321f0102c74b8472cc6cd15093c374aa4700"
+    },
+    {
+      "path": "qa/xlsx_native/2025.5.10/飞机_1-1.png",
+      "sha256": "a9483459f2e72075302f8e3e83e98f8b83776d8eff0b044f5ea4d316df6d67a6"
+    },
+    {
+      "path": "qa/xlsx_native/2025.5.10/飞机_2-1.png",
+      "sha256": "99d6c65ab013040e7892b59103e4866129388fa7356843b884565669ec77e28b"
+    },
+    {
+      "path": "official/2025.5.10/附件图表/01_舰机侦巡数量曲线图.png",
+      "sha256": "06da0fdc3a38c7084ed5f880306783386b280fc8784c4d6019c91251afc0590b"
+    },
+    {
+      "path": "official/2025.5.10/附件图表/02_中国主要机舰活动示意图.png",
+      "sha256": "e5298bcc7f221566cf2b96cf05f312e14a0762eea250d8d3a2fcde23e6c6e364"
+    },
+    {
+      "path": "official/2025.5.10/附件图表/03_美国主要机舰活动示意图.png",
+      "sha256": "ebb020c2d9159dcdb1c43d50899a6322d4b35c2ef275c82d8e6e24d5eef61dea"
+    },
+    {
+      "path": "official/2025.5.10/附件图表/04_其他国家主要机舰活动示意图.png",
+      "sha256": "bf8cf1d9d20c876cd9d0cfcccf557ec844c5b6368b30badebf34fab320850c68"
+    }
+  ],
+  "findings": [
+    "正文无溢出/截断/乱码；五章及总览完整；图1—4引用和图件齐全",
+    "完整表格行列可见，长文字换行，数量是数值，日期/星期/时间是文本，辅助未知留空",
+    "全部PNG对象、标签、图例和数量可见；无核实美国活动的节点图3明确说明缺少核实记录",
+    "长URL在正文自动换行；不影响原文定位；单条图留白是未补造活动的结果"
+  ],
+  "renderer_issue": {
+    "artifact_preview": "飞机活动方向预览曾重复首个方向，导出的XLSX所有单元格比对及原生Excel渲染正常",
+    "impact": "仅工程预览不可靠；正式XLSX经逐值/类型校验和原生Excel完整检查",
+    "render_docx_py": "缺少LibreOffice，改用已安装Microsoft Word原生全页渲染"
+  }
+}

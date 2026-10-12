@@ -1,0 +1,19 @@
+test_duplicate_id (test_audit_sources.AuditTests.test_duplicate_id) ... ok
+test_dynamic_version_blocked (test_audit_sources.AuditTests.test_dynamic_version_blocked) ... ok
+test_future (test_audit_sources.AuditTests.test_future) ... ok
+test_invalid_url (test_audit_sources.AuditTests.test_invalid_url) ... ok
+test_later_retrieval_allowed (test_audit_sources.AuditTests.test_later_retrieval_allowed) ... ok
+test_later_version_blocked (test_audit_sources.AuditTests.test_later_version_blocked) ... ok
+test_method_not_data (test_audit_sources.AuditTests.test_method_not_data) ... ok
+test_month_only_is_not_day (test_audit_sources.AuditTests.test_month_only_is_not_day) ... ok
+test_past (test_audit_sources.AuditTests.test_past) ... ok
+test_same_day (test_audit_sources.AuditTests.test_same_day) ... ok
+test_shared_upstream (test_audit_sources.AuditTests.test_shared_upstream) ... ok
+test_unknown_id (test_audit_sources.AuditTests.test_unknown_id) ... ok
+test_unknown_publication_blocked (test_audit_sources.AuditTests.test_unknown_publication_blocked) ... ok
+test_unread (test_audit_sources.AuditTests.test_unread) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.001s
+
+OK

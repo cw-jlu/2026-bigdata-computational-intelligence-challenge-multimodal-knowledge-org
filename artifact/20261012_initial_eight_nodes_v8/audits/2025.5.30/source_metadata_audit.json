@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "as_of": "2025-05-30",
+  "status": "PASS",
+  "eligible_source_ids": [
+    "B04",
+    "B09",
+    "B10",
+    "B01",
+    "B07"
+  ],
+  "excluded_sources": [
+    {
+      "id": "E01",
+      "reasons": [
+        "source content not verified"
+      ]
+    },
+    {
+      "id": "E02",
+      "reasons": [
+        "source content not verified"
+      ]
+    },
+    {
+      "id": "D01",
+      "reasons": [
+        "source content not verified"
+      ]
+    },
+    {
+      "id": "D02",
+      "reasons": [
+        "source content not verified"
+      ]
+    },
+    {
+      "id": "M01",
+      "reasons": [
+        "source content not verified"
+      ]
+    },
+    {
+      "id": "M02",
+      "reasons": [
+        "source content not verified"
+      ]
+    },
+    {
+      "id": "P01",
+      "reasons": [
+        "source content not verified"
+      ]
+    },
+    {
+      "id": "P02",
+      "reasons": [
+        "source content not verified",
+        "historical version or translation date not established"
+      ]
+    },
+    {
+      "id": "P03",
+      "reasons": [
+        "source content not verified"
+      ]
+    },
+    {
+      "id": "X01",
+      "reasons": [
+        "source content not verified",
+        "publication upper bound after cutoff",
+        "historical version or translation date not established"
+      ]
+    }
+  ],
+  "used_source_ids": [],
+  "declared_substantive_source_ids": [],
+  "shared_independence_groups": {},
+  "errors": [],
+  "warnings": [
+    "Date checks do not prove authenticity, claim entailment, or event verification.",
+    "Dated webpages need a saved version before reproducible use; later edits may exist."
+  ],
+  "claim_level_support_checked": false,
+  "competition_score_estimated": false
+}

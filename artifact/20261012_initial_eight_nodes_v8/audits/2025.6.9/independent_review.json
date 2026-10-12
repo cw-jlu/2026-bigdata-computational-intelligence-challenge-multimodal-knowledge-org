@@ -1,0 +1,49 @@
+{
+  "as_of": "2025-06-09",
+  "reviewer": "Codex session direct re-reading of original TXT/Excel evidence, distinct from extraction code",
+  "sample_count": 4,
+  "status": "PASS_sample_only",
+  "cards_sha256": "7b4b65d7ca1376f966a5f52fc7e14c9c17e1c78621549c1d3f0cb194aa394d66",
+  "cases": [
+    {
+      "event_id": "2025.6.9-AIR-74C830734B7E44",
+      "pipeline_decision": "纳入",
+      "judgment": "agree_with_original_evidence",
+      "basis": "无侦7黄海电子侦察1架三源相容",
+      "original_material": "independent_review_cards.json contains original full TXT and complete radar batch rows",
+      "limits": [
+        "每节点两纳入两排除，确定性哈希选样；不是盲测，不是独立外部专家审查，不估计整体正确率"
+      ]
+    },
+    {
+      "event_id": "2025.6.9-AIR-6E755AB58C6BC6",
+      "pipeline_decision": "纳入",
+      "judgment": "agree_with_original_evidence",
+      "basis": "意大利P72南海海上侦察1架，单源细地名没有补造",
+      "original_material": "independent_review_cards.json contains original full TXT and complete radar batch rows",
+      "limits": [
+        "每节点两纳入两排除，确定性哈希选样；不是盲测，不是独立外部专家审查，不估计整体正确率"
+      ]
+    },
+    {
+      "event_id": "2025.6.9-AIR-56868B35824176",
+      "pipeline_decision": "排除",
+      "judgment": "agree_with_original_evidence",
+      "basis": "法国大西洋平台孟加拉湾/安达曼海冲突，域外且排除",
+      "original_material": "independent_review_cards.json contains original full TXT and complete radar batch rows",
+      "limits": [
+        "每节点两纳入两排除，确定性哈希选样；不是盲测，不是独立外部专家审查，不估计整体正确率"
+      ]
+    },
+    {
+      "event_id": "2025.6.9-SHIP-C7A3FDD80A3F9F",
+      "pipeline_decision": "排除",
+      "judgment": "agree_with_original_evidence",
+      "basis": "澳大利亚供应舰补给/护航明确任务冲突，排除",
+      "original_material": "independent_review_cards.json contains original full TXT and complete radar batch rows",
+      "limits": [
+        "每节点两纳入两排除，确定性哈希选样；不是盲测，不是独立外部专家审查，不估计整体正确率"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "status": "PASS",
+  "archive_sha256": "1f87e66dd79f0f35e6d3642bd2ad720ed803a98650b5120c94fba454d152c801",
+  "extraction_directory": "qa/unpacked_submission",
+  "nodes": [
+    "2025.5.10",
+    "2025.5.18",
+    "2025.5.30",
+    "2025.6.9",
+    "2025.6.17",
+    "2025.6.29",
+    "2025.7.9",
+    "2025.7.17"
+  ],
+  "actual_extracted_files": 48,
+  "files": [
+    {
+      "path": "2025.5.10/2025.5.10日报.docx",
+      "sha256": "c841b77366f70f512dfface310d5fa3f168b63e63a7ab6a413be1b9cc64e53fd",
+      "reopened": true
+    },
+    {
+      "path": "2025.5.10/2025.5.10机舰活动明细.xlsx",
+      "sha256": "10d737feaee139fd81744546ca1e41e4400e810644f11250805a625f82f68ebe",
+      "reopened": true
+    },
+    {
+      "path": "2025.5.10/附件图表/01_舰机侦巡数量曲线图.png",
+      "sha256": "06da0fdc3a38c7084ed5f880306783386b280fc8784c4d6019c91251afc0590b",
+      "reopened": true
+    },
+    {
+      "path": "2025.5.10/附件图表/02_中国主要机舰活动示意图.png",
+      "sha256": "e5298bcc7f221566cf2b96cf05f312e14a0762eea250d8d3a2fcde23e6c6e364",
+      "reopened": true
+    },
+    {
+      "path": "2025.5.10/附件图表/03_美国主要机舰活动示意图.png",
+      "sha256": "ebb020c2d9159dcdb1c43d50899a6322d4b35c2ef275c82d8e6e24d5eef61dea",
+      "reopened": true
+    },
+    {
+      "path": "2025.5.10/附件图表/04_其他国家主要机舰活动示意图.png",
+      "sha256": "bf8cf1d9d20c876cd9d0cfcccf557ec844c5b6368b30badebf34fab320850c68",
+      "reopened": true
+    },
+    {
+      "path": "2025.5.18/2025.5.18日报.docx",
+      "sha256": "9bd4673055299196d37922457c05fd8e66a96370bf042283883dc937357f1214",
+      "reopened": true
+    },
+    {
+      "path": "2025.5.18/2025.5.18机舰活动明细.xlsx",
+      "sha256": "add7789b517513cebdf3777c9364d1e8244c0b503a5f8f56e60815dbc62ec495",
+      "reopened": true
+    },
+    {
+      "path": "2025.5.18/附件图表/01_舰机侦巡数量曲线图.png",
+      "sha256": "6c748be5f59da4b7c61c668971cf5408575eb072994af32eb7f0ee3fda487902",
+      "reopened": true
+    },
+    {
+      "path": "2025.5.18/附件图表/02_中国主要机舰活动示意图.png",
+      "sha256": "da6b79f507fa2e2f8acddec7bc20531b6cbd80484f38706c386fd1432b768e42",
+      "reopened": true
+    },
+    {
+      "path": "2025.5.18/附件图表/03_美国主要机舰活动示意图.png",
+      "sha256": "b578c6c0f14ddf24e4d105fdf152f7b7b0d21e512781a553ba89a5e4907db369",
+      "reopened": true
+    },
+    {
+      "path": "2025.5.18/附件图表/04_其他国家主要机舰活动示意图.png",
+      "sha256": "e8c4ec3de138e167c6e3da4c8837664eeb09763f41226523c79c683b648370a3",
+      "reopened": true
+    },
+    {
+      "path": "2025.5.30/2025.5.30日报.docx",
+      "sha256": "21536d5745c4564303fc1b06bda1563ca42cfbebad69bfaf0a4235005591be1e",
+      "reopened": true
+    },
+    {
+      "path": "2025.5.30/2025.5.30机舰活动明细.xlsx",
+      "sha256": "57462112e730b006b85d8f3a7164f4cc002fe6012c3ba20e082903aa8e9407f9",
+      "reopened": true
+    },
+    {
+      "path": "2025.5.30/附件图表/01_舰机侦巡数量曲线图.png",
+      "sha256": "4aa5fe5b6aca2762877c7ec4ee29341332936ffd4646cc104c32016ae791e8ce",
+      "reopened": true
+    },
+    {
+      "path": "2025.5.30/附件图表/02_中国主要机舰活动示意图.png",
+      "sha256": "69df50117cbd65117d5ba0a5b2d35285816f3dc1792c96b23b42c7e5efe52bd3",
+      "reopened": true
+    },
+    {
+      "path": "2025.5.30/附件图表/03_美国主要机舰活动示意图.png",
+      "sha256": "0dd50b18982ae6dce03df595da7663c1455aba6516b5a4de2e669131471e0c10",
+      "reopened": true
+    },
+    {
+      "path": "2025.5.30/附件图表/04_其他国家主要机舰活动示意图.png",
+      "sha256": "2906615357cc354a54bfac0db0c658f16462c396acf6cf839044d0a671eceedc",
+      "reopened": true
+    },
+    {
+      "path": "2025.6.9/2025.6.9日报.docx",
+      "sha256": "2b4de0b34cb3035af72ae6f588eb7696bcd451c50701ac180e1bb2dd6fd04d40",
+      "reopened": true
+    },
+    {
+      "path": "2025.6.9/2025.6.9机舰活动明细.xlsx",
+      "sha256": "550cd3838a26f41100fc3a0e6cc83cc02135b5e1fde47cd9d5ba096be59ae3c6",
+      "reopened": true
+    },
+    {
+      "path": "2025.6.9/附件图表/01_舰机侦巡数量曲线图.png",
+      "sha256": "00dec47a6c2456a0a823ef5fd7a2ac361cc3338b4933241b38be161aaf0433b6",
+      "reopened": true
+    },
+    {
+      "path": "2025.6.9/附件图表/02_中国主要机舰活动示意图.png",
+      "sha256": "a1bcf0eb314ef630f6dc08d7f328d69c6119b6a98a1d9f7fd829355f1434c5cf",
+      "reopened": true
+    },
+    {
+      "path": "2025.6.9/附件图表/03_美国主要机舰活动示意图.png",
+      "sha256": "00f569602a9cf6fdb07ab6df98c7051e039d8a9ab91af3edf65ba01eb3dd8880",
+      "reopened": true
+    },
+    {
+      "path": "2025.6.9/附件图表/04_其他国家主要机舰活动示意图.png",
+      "sha256": "00007070bebf02607ca4e4413cebbea8d2ea943a60d09329af689e568a0ff08a",
+      "reopened": true
+    },
+    {
+      "path": "2025.6.17/2025.6.17日报.docx",
+      "sha256": "d94c7c4ab0c21bcf67511df3996a999ac4902b6b4e5b8a9e8afffb5752182436",
+      "reopened": true
+    },
+    {
+      "path": "2025.6.17/2025.6.17机舰活动明细.xlsx",
+      "sha256": "81fccbd6879f7b1474b714d984c217d2315f96d32776729af579ede326e4f6c5",
+      "reopened": true
+    },
+    {
+      "path": "2025.6.17/附件图表/01_舰机侦巡数量曲线图.png",
+      "sha256": "122dabe5c678007d8e27e87b8a44c9e982099dd45bf338be10308f45de006c7a",
+      "reopened": true
+    },
+    {
+      "path": "2025.6.17/附件图表/02_中国主要机舰活动示意图.png",
+      "sha256": "25bfbdf8969c7257ae2738e2861616cacd23e90544c792aacdfc1ca2b8407aa9",
+      "reopened": true
+    },
+    {
+      "path": "2025.6.17/附件图表/03_美国主要机舰活动示意图.png",
+      "sha256": "9290edb710b19c9311735926985f3f23b836faf30f26f35fef2f22db0570ef14",
+      "reopened": true
+    },
+    {
+      "path": "2025.6.17/附件图表/04_其他国家主要机舰活动示意图.png",
+      "sha256": "fcca306c3f55da23f1ea531d7fb577a0e100241a77212d3743cde744d8817fc6",
+      "reopened": true
+    },
+    {
+      "path": "2025.6.29/2025.6.29日报.docx",
+      "sha256": "bb63a5062b2467e8c5f42ec74f02e49b51ebf922784cf0bcc3faf36aa96f04be",
+      "reopened": true
+    },
+    {
+      "path": "2025.6.29/2025.6.29机舰活动明细.xlsx",
+      "sha256": "d7e9dcdb9df6ec99bdf83aaa784229656904e67a73c05449c24edfb184b2d56a",
+      "reopened": true
+    },
+    {
+      "path": "2025.6.29/附件图表/01_舰机侦巡数量曲线图.png",
+      "sha256": "d52aa1c1ecdb3d65b34714192947630207884e72196c475ba626f13e05f0b45d",
+      "reopened": true
+    },
+    {
+      "path": "2025.6.29/附件图表/02_中国主要机舰活动示意图.png",
+      "sha256": "56a8c4d605d4e2b084d06620ceca1b8e2122f7c923394081d1ae694b34c72a3d",
+      "reopened": true
+    },
+    {
+      "path": "2025.6.29/附件图表/03_美国主要机舰活动示意图.png",
+      "sha256": "b6d6b16bf172104cd629a994d955df5df84c09cc324bb713910fcb4bf726d1cf",
+      "reopened": true
+    },
+    {
+      "path": "2025.6.29/附件图表/04_其他国家主要机舰活动示意图.png",
+      "sha256": "d33c6175a49eb717651e5ddcaacc4fcc39cd2fbe917a328895c33cc5d1f94fa6",
+      "reopened": true
+    },
+    {
+      "path": "2025.7.9/2025.7.9日报.docx",
+      "sha256": "e156f2df8e3434b566574874c6f9ab040b92955a1a39492511f9a7b71654a055",
+      "reopened": true
+    },
+    {
+      "path": "2025.7.9/2025.7.9机舰活动明细.xlsx",
+      "sha256": "e58b5a31ec11641895e27fd44fb3505f8b086af5177d237430407813a2bb81d3",
+      "reopened": true
+    },
+    {
+      "path": "2025.7.9/附件图表/01_舰机侦巡数量曲线图.png",
+      "sha256": "59aa835182a3631b8e6a587ee03916ba9760588b8381325a2b8733bc60074ad7",
+      "reopened": true
+    },
+    {
+      "path": "2025.7.9/附件图表/02_中国主要机舰活动示意图.png",
+      "sha256": "f1ada9338d041f990ebc491967a8257cd13db8d5f334eec1fdfcc812e4401244",
+      "reopened": true
+    },
+    {
+      "path": "2025.7.9/附件图表/03_美国主要机舰活动示意图.png",
+      "sha256": "ea7a447e1e162f049297dd79f43c7ee11e1172745201c38066d5a2b6b0bcf04c",
+      "reopened": true
+    },
+    {
+      "path": "2025.7.9/附件图表/04_其他国家主要机舰活动示意图.png",
+      "sha256": "7f15fbf759ed5bf4662e9279c07f0506a79371bdcdcc4918e32ba3501c7ba071",
+      "reopened": true
+    },
+    {
+      "path": "2025.7.17/2025.7.17日报.docx",
+      "sha256": "efc7eafcb73aa07a7a9de28d0e49090c58f60f0082961329f5becf2d711a126b",
+      "reopened": true
+    },
+    {
+      "path": "2025.7.17/2025.7.17机舰活动明细.xlsx",
+      "sha256": "54cc57613db2f9b0a6199743ad5f589c98fcb0b617c509868f17e6b2cceb88cc",
+      "reopened": true
+    },
+    {
+      "path": "2025.7.17/附件图表/01_舰机侦巡数量曲线图.png",
+      "sha256": "74b08bb3e661cc3970ea41b87763ca5114e1be6f077f60638d71b05fabfb180e",
+      "reopened": true
+    },
+    {
+      "path": "2025.7.17/附件图表/02_中国主要机舰活动示意图.png",
+      "sha256": "0cfe8f96d0fcbbb5e0043877012af58dd77a914f0bd2d768c1478824f90ca2b7",
+      "reopened": true
+    },
+    {
+      "path": "2025.7.17/附件图表/03_美国主要机舰活动示意图.png",
+      "sha256": "482c263dcf85475c6428c5e92dd324f2c2b174ad15d284d774d838c70d32e730",
+      "reopened": true
+    },
+    {
+      "path": "2025.7.17/附件图表/04_其他国家主要机舰活动示意图.png",
+      "sha256": "ae2d048c409c3eb141f795137df7e2285d77720ad6680cba79ddc7dcbdeee09b",
+      "reopened": true
+    }
+  ],
+  "extra_engineering_files": []
+}

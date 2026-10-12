@@ -1,0 +1,49 @@
+{
+  "as_of": "2025-07-17",
+  "reviewer": "Codex session direct re-reading of original TXT/Excel evidence, distinct from extraction code",
+  "sample_count": 4,
+  "status": "PASS_sample_only",
+  "cards_sha256": "5d67098afa32bcf2090433626fd0355f4887da9b693ff50092baa42db20e2122",
+  "cases": [
+    {
+      "event_id": "2025.7.17-AIR-1585277EB777C7",
+      "pipeline_decision": "纳入",
+      "judgment": "agree_with_original_evidence",
+      "basis": "马来西亚苏30南海对海训练1架三源相容",
+      "original_material": "independent_review_cards.json contains original full TXT and complete radar batch rows",
+      "limits": [
+        "每节点两纳入两排除，确定性哈希选样；不是盲测，不是独立外部专家审查，不估计整体正确率"
+      ]
+    },
+    {
+      "event_id": "2025.7.17-AIR-8A357EE2600878",
+      "pipeline_decision": "纳入",
+      "judgment": "agree_with_original_evidence",
+      "basis": "中国歼16D中沙侦察1架三源相容",
+      "original_material": "independent_review_cards.json contains original full TXT and complete radar batch rows",
+      "limits": [
+        "每节点两纳入两排除，确定性哈希选样；不是盲测，不是独立外部专家审查，不估计整体正确率"
+      ]
+    },
+    {
+      "event_id": "2025.7.17-AIR-A8593407DB59E0",
+      "pipeline_decision": "排除",
+      "judgment": "agree_with_original_evidence",
+      "basis": "台湾F16V完整12雷达行同一时刻存在相距约700公里位置，未任意删点，保留排除",
+      "original_material": "independent_review_cards.json contains original full TXT and complete radar batch rows",
+      "limits": [
+        "每节点两纳入两排除，确定性哈希选样；不是盲测，不是独立外部专家审查，不估计整体正确率"
+      ]
+    },
+    {
+      "event_id": "2025.7.17-AIR-BD88C902F4E459",
+      "pipeline_decision": "排除",
+      "judgment": "agree_with_original_evidence",
+      "basis": "中国无侦7缺第三类关联及数量两类支持，排除",
+      "original_material": "independent_review_cards.json contains original full TXT and complete radar batch rows",
+      "limits": [
+        "每节点两纳入两排除，确定性哈希选样；不是盲测，不是独立外部专家审查，不估计整体正确率"
+      ]
+    }
+  ]
+}

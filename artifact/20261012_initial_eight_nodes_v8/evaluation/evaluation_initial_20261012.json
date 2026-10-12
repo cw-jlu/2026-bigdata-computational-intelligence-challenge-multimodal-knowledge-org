@@ -1,0 +1,232 @@
+{
+  "received_on": "2026-10-12",
+  "stage": "initial",
+  "node_count": 8,
+  "source": "user_reported_platform_evaluation",
+  "original_feedback": "赛程=initial；节点数=8；完整性=86.1320；准确性=65.2266；格式=96.5230；分析=45.2500；总分=各节点(完整性×25%+准确性×40%+格式×15%+分析×20%)的平均，分数出来了，写一下，然后把这版提交到GitHub，想想为什么分不够高",
+  "metrics": {
+    "completeness": "86.1320",
+    "accuracy": "65.2266",
+    "format": "96.5230",
+    "analysis": "45.2500"
+  },
+  "weights": {
+    "completeness": "0.25",
+    "accuracy": "0.40",
+    "format": "0.15",
+    "analysis": "0.20"
+  },
+  "weighted_contributions": {
+    "completeness": "21.533000",
+    "accuracy": "26.090640",
+    "format": "14.478450",
+    "analysis": "9.050000"
+  },
+  "weighted_total_exact_from_displayed_means": "71.152090",
+  "weighted_total_4dp": "71.1521",
+  "total_is_derived_not_separately_reported": true,
+  "loss_to_100_by_dimension_arithmetic_only": {
+    "completeness": "3.467000",
+    "accuracy": "13.909360",
+    "format": "0.521550",
+    "analysis": "10.950000"
+  },
+  "comparison_v2": {
+    "metric_deltas": {
+      "completeness": "1.6560",
+      "accuracy": "0.3877",
+      "format": "19.9839",
+      "analysis": "-7.2500"
+    },
+    "weighted_deltas": {
+      "completeness": "0.414000",
+      "accuracy": "0.155080",
+      "format": "2.997585",
+      "analysis": "-1.450000"
+    },
+    "total_delta_exact": "2.116665"
+  },
+  "artifact_association": "user feedback refers to preceding v8 delivery in this chat",
+  "independently_verified_submission_binding": false,
+  "platform_submission_id": null,
+  "platform_receipt": null,
+  "node_level_scores": null,
+  "deduction_details": null,
+  "formal_snapshot_unchanged": true,
+  "delivery_assets": [
+    {
+      "name": "赛题2_初赛_八节点_完整候选提交包.zip",
+      "sha256": "1f87e66dd79f0f35e6d3642bd2ad720ed803a98650b5120c94fba454d152c801",
+      "bytes": 23509190
+    },
+    {
+      "name": "赛题2_初赛_八节点_工程与证据包.zip",
+      "sha256": "4e14c1e160f45d81309d6171fc3047313681b7a0abb04015bff0b57b05b99436",
+      "bytes": 161166713
+    }
+  ],
+  "implementation_diagnostics": [
+    {
+      "node": "2025.5.10",
+      "included_events": 27,
+      "candidate_decisions": {
+        "纳入": 27,
+        "排除": 15,
+        "域外": 11
+      },
+      "generic_region_events": 13,
+      "unknown_task_events": 1,
+      "mainline_dates": 4,
+      "stages": 3,
+      "single_date_stages": 2,
+      "used_source_ids": [
+        "B04"
+      ],
+      "facts_sampled": 4,
+      "candidate_count": 17,
+      "original_selected_candidate_suitable": false
+    },
+    {
+      "node": "2025.5.18",
+      "included_events": 25,
+      "candidate_decisions": {
+        "排除": 19,
+        "纳入": 25,
+        "域外": 11
+      },
+      "generic_region_events": 8,
+      "unknown_task_events": 1,
+      "mainline_dates": 4,
+      "stages": 2,
+      "single_date_stages": 1,
+      "used_source_ids": [
+        "B04"
+      ],
+      "facts_sampled": 4,
+      "candidate_count": 15,
+      "original_selected_candidate_suitable": true
+    },
+    {
+      "node": "2025.5.30",
+      "included_events": 27,
+      "candidate_decisions": {
+        "域外": 11,
+        "纳入": 27,
+        "排除": 15
+      },
+      "generic_region_events": 13,
+      "unknown_task_events": 0,
+      "mainline_dates": 8,
+      "stages": 3,
+      "single_date_stages": 2,
+      "used_source_ids": [],
+      "facts_sampled": 4,
+      "candidate_count": 17,
+      "original_selected_candidate_suitable": true
+    },
+    {
+      "node": "2025.6.9",
+      "included_events": 27,
+      "candidate_decisions": {
+        "纳入": 27,
+        "排除": 16,
+        "域外": 10
+      },
+      "generic_region_events": 13,
+      "unknown_task_events": 0,
+      "mainline_dates": 3,
+      "stages": 3,
+      "single_date_stages": 3,
+      "used_source_ids": [
+        "B09"
+      ],
+      "facts_sampled": 4,
+      "candidate_count": 15,
+      "original_selected_candidate_suitable": true
+    },
+    {
+      "node": "2025.6.17",
+      "included_events": 24,
+      "candidate_decisions": {
+        "纳入": 24,
+        "排除": 21,
+        "域外": 10
+      },
+      "generic_region_events": 10,
+      "unknown_task_events": 0,
+      "mainline_dates": 12,
+      "stages": 3,
+      "single_date_stages": 0,
+      "used_source_ids": [
+        "B01"
+      ],
+      "facts_sampled": 4,
+      "candidate_count": 15,
+      "original_selected_candidate_suitable": false
+    },
+    {
+      "node": "2025.6.29",
+      "included_events": 25,
+      "candidate_decisions": {
+        "纳入": 25,
+        "排除": 15,
+        "域外": 13
+      },
+      "generic_region_events": 9,
+      "unknown_task_events": 0,
+      "mainline_dates": 6,
+      "stages": 3,
+      "single_date_stages": 1,
+      "used_source_ids": [],
+      "facts_sampled": 4,
+      "candidate_count": 15,
+      "original_selected_candidate_suitable": true
+    },
+    {
+      "node": "2025.7.9",
+      "included_events": 27,
+      "candidate_decisions": {
+        "纳入": 27,
+        "排除": 14,
+        "域外": 11
+      },
+      "generic_region_events": 12,
+      "unknown_task_events": 0,
+      "mainline_dates": 7,
+      "stages": 3,
+      "single_date_stages": 2,
+      "used_source_ids": [
+        "B07"
+      ],
+      "facts_sampled": 4,
+      "candidate_count": 16,
+      "original_selected_candidate_suitable": true
+    },
+    {
+      "node": "2025.7.17",
+      "included_events": 23,
+      "candidate_decisions": {
+        "排除": 18,
+        "纳入": 23,
+        "域外": 12
+      },
+      "generic_region_events": 8,
+      "unknown_task_events": 0,
+      "mainline_dates": 4,
+      "stages": 2,
+      "single_date_stages": 1,
+      "used_source_ids": [
+        "B10"
+      ],
+      "facts_sampled": 4,
+      "candidate_count": 16,
+      "original_selected_candidate_suitable": true
+    }
+  ],
+  "diagnostic_limits": [
+    "准确性评分不是事件正确率，完整性评分不是召回率",
+    "节点均值不定位具体事件或具体失分节点",
+    "实现问题为可核查观察；没有逐节点/逐字段扣分，不归因具体扣分数",
+    "原八节点日报、台账及两ZIP不改写，评测反馈作为交付后的独立记录"
+  ]
+}

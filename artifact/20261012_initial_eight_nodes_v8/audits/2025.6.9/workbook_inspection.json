@@ -1,0 +1,85 @@
+[
+  {
+    "recordCount": 1,
+    "truncated": false,
+    "metadata": {
+      "revision": "n7cj31",
+      "target": {
+        "id": "wb/y038au",
+        "beforeLines": 0,
+        "afterLines": 0
+      },
+      "kind": {
+        "requested": "table",
+        "tokens": [
+          "table"
+        ]
+      },
+      "include": {
+        "requested": "values,formulas",
+        "tokens": [
+          "values",
+          "formulas"
+        ]
+      },
+      "exclude": {
+        "tokens": []
+      },
+      "notices": []
+    }
+  },
+  {
+    "recordCount": 1,
+    "truncated": false,
+    "metadata": {
+      "revision": "buslld",
+      "target": {
+        "id": "wb/beem4j",
+        "beforeLines": 0,
+        "afterLines": 0
+      },
+      "kind": {
+        "requested": "table",
+        "tokens": [
+          "table"
+        ]
+      },
+      "include": {
+        "requested": "values,formulas",
+        "tokens": [
+          "values",
+          "formulas"
+        ]
+      },
+      "exclude": {
+        "tokens": []
+      },
+      "notices": []
+    }
+  },
+  {
+    "recordCount": 1,
+    "truncated": false,
+    "metadata": {
+      "revision": "j9tdm9",
+      "target": {
+        "id": "wb/njqqw5",
+        "beforeLines": 0,
+        "afterLines": 0
+      },
+      "kind": {
+        "requested": "match",
+        "tokens": [
+          "match"
+        ]
+      },
+      "include": {
+        "tokens": []
+      },
+      "exclude": {
+        "tokens": []
+      },
+      "notices": []
+    }
+  }
+]

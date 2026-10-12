@@ -1,0 +1,15 @@
+{
+  "accessed_at": "2026-10-12 Asia/Shanghai",
+  "url": "https://www.heywhale.com/home/competition/6aba1c4f6e5beff2fca33b42/content/3",
+  "official_api": "evidence/platform/competition.json",
+  "official_submission_text": "evidence/platform/tab_3.md",
+  "state": "IAB public page shows 登录/注册 and 报名; no authenticated upload session",
+  "available_browsers": [
+    "IAB",
+    "MCP Apps"
+  ],
+  "upload_attempted": false,
+  "receipt": null,
+  "reason": "可用访问条件没有已登录参赛会话；目录层级冲突未解决",
+  "submission_method": "官方在线结果提交入口上传全赛段ZIP；每日最多3次，取最高分，初赛按8节点平均评分"
+}

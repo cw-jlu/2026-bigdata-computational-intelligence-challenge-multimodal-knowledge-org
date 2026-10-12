@@ -1,0 +1,49 @@
+{
+  "as_of": "2025-06-17",
+  "reviewer": "Codex session direct re-reading of original TXT/Excel evidence, distinct from extraction code",
+  "sample_count": 4,
+  "status": "PASS_sample_only",
+  "cards_sha256": "56cef1637f8f2d55ed27419b04fb5f611d4891e4974b94d011bf5592fd6f3263",
+  "cases": [
+    {
+      "event_id": "2025.6.17-SHIP-932B6CB6E2A973",
+      "pipeline_decision": "纳入",
+      "judgment": "agree_with_original_evidence",
+      "basis": "加拿大哈里级连云港实弹1艘三源相容",
+      "original_material": "independent_review_cards.json contains original full TXT and complete radar batch rows",
+      "limits": [
+        "每节点两纳入两排除，确定性哈希选样；不是盲测，不是独立外部专家审查，不估计整体正确率"
+      ]
+    },
+    {
+      "event_id": "2025.6.17-AIR-CCACDBA428EB48",
+      "pipeline_decision": "纳入",
+      "judgment": "agree_with_original_evidence",
+      "basis": "俄罗斯图95东海对海训练1架三源相容",
+      "original_material": "independent_review_cards.json contains original full TXT and complete radar batch rows",
+      "limits": [
+        "每节点两纳入两排除，确定性哈希选样；不是盲测，不是独立外部专家审查，不估计整体正确率"
+      ]
+    },
+    {
+      "event_id": "2025.6.17-AIR-1F7A5A767AA173",
+      "pipeline_decision": "排除",
+      "judgment": "agree_with_original_evidence",
+      "basis": "新加坡福克50正文国家新加坡/印度冲突，排除",
+      "original_material": "independent_review_cards.json contains original full TXT and complete radar batch rows",
+      "limits": [
+        "每节点两纳入两排除，确定性哈希选样；不是盲测，不是独立外部专家审查，不估计整体正确率"
+      ]
+    },
+    {
+      "event_id": "2025.6.17-SHIP-92F6D3EBF6B8B2",
+      "pipeline_decision": "排除",
+      "judgment": "agree_with_original_evidence",
+      "basis": "美国阿利伯克缺第三类证据及数量两类支持，排除",
+      "original_material": "independent_review_cards.json contains original full TXT and complete radar batch rows",
+      "limits": [
+        "每节点两纳入两排除，确定性哈希选样；不是盲测，不是独立外部专家审查，不估计整体正确率"
+      ]
+    }
+  ]
+}

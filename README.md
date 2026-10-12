@@ -55,6 +55,10 @@ python run.py --input ../../赛题2-初赛/数据 --output output --stage prelim
 
 ## 文档
 
+2026-10-12 最新实测：[初赛八节点完整重做v8](artifact/20261012_initial_eight_nodes_v8/README.md)，完整性86.1320、准确性65.2266、格式96.5230、分析45.2500；按展示均值加权总分 **71.1521**。相较v2的总分提升主要来自格式，准确性与分析仍需改进。[评分与具体实现复盘](docs/08-v8初赛评测与复盘.md)区分已知代码问题和未确认扣分原因；正式48文件、源码、独立节点审计在版本目录，完整工程ZIP在[GitHub Release](https://github.com/cw-jlu/2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org/releases/tag/initial-v8-20261012)，保留原交付哈希。
+
+
+
 详细说明见 [`docs/README.md`](docs/README.md)。
 
 GPT 独立重做 v2 的完整实现与交付见 [`artifact/20261009_gpt_accuracy_v2/README.md`](artifact/20261009_gpt_accuracy_v2/README.md)。2026-10-09 收到 initial 八节点新结果：按所给均值计算总分 **69.0354**，比旧 GPT 提高 **24.9835** 分。[完整评测记录](docs/05-评测标准与复现清单.md)和[下一轮提示词草案](docs/07-评测反馈与提示词迭代.md)已归档；草案尚未执行。

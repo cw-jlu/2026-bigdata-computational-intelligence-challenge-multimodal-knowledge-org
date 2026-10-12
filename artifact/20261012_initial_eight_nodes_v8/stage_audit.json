@@ -1,0 +1,808 @@
+{
+  "target_dates": [
+    "2025-05-10",
+    "2025-05-18",
+    "2025-05-30",
+    "2025-06-09",
+    "2025-06-17",
+    "2025-06-29",
+    "2025-07-09",
+    "2025-07-17"
+  ],
+  "mode": "historical_public_research",
+  "status": "eight_node_content_and_candidate_package_complete",
+  "content_generated": true,
+  "complete_packaging": true,
+  "rules_confirmed": {
+    "eight_nodes_together": true,
+    "file_set": "本次提供实际示例：每节点DOCX、XLSX、4PNG",
+    "directory_layout": false,
+    "conflict": "组织方当前公开页含日报外层，本次提供说明要求根日期目录；无修订日期可判定先后，依用户明确口径制作候选包",
+    "actual_upload_method": "在线全赛段ZIP上传，但本轮无已登录上传会话"
+  },
+  "actual_upload": false,
+  "submission_receipt": null,
+  "platform_evaluation": null,
+  "rule_evidence": [
+    "evidence/platform/competition.json",
+    "evidence/platform/tab_3.md",
+    "evidence/platform/tab_4.md",
+    "inputs/提交示例文件/提交格式说明.md"
+  ],
+  "nodes": [
+    {
+      "date": "2025.5.10",
+      "as_of": "2025-05-10",
+      "formal_files": 6,
+      "included_events": 27,
+      "air_batches": 16,
+      "air_sorties": 17,
+      "ship_sorties": 11,
+      "frozen_sha256": "83769d4ca767dab43d08de01e623e9ce2594e0ccd626123eb9d367326decee61",
+      "structure": "PASS",
+      "source_metadata": "PASS_metadata_only",
+      "visual_review": "PASS_full_node_visual_review",
+      "independent_review": "PASS_sample_only",
+      "raw_reproduction": "PASS_all_eight_from_raw_inputs",
+      "used_source_ids": [
+        "B04"
+      ],
+      "mainline": {
+        "country": "德国",
+        "platform": "“台风”多用途战斗机",
+        "dates": [
+          "2025.5.1",
+          "2025.5.2",
+          "2025.5.6",
+          "2025.5.10"
+        ]
+      },
+      "missing_evidence": [
+        "辅助基地、呼号、起降与母港不足两源支持；留空",
+        "缺少间隔日期完整观察及实体标识，不能证明持续驻留"
+      ],
+      "docx_pages": 12,
+      "source_eligibility": "reviewed_fixed_versions_before_node",
+      "content_status": "complete_with_documented_limits",
+      "uploaded": false
+    },
+    {
+      "date": "2025.5.18",
+      "as_of": "2025-05-18",
+      "formal_files": 6,
+      "included_events": 25,
+      "air_batches": 11,
+      "air_sorties": 12,
+      "ship_sorties": 14,
+      "frozen_sha256": "dd868c9d09a5cfc24c28e7ee3a0d2e6fecb2c8f3a0d62164990b998191a63f3f",
+      "structure": "PASS",
+      "source_metadata": "PASS_metadata_only",
+      "visual_review": "PASS_full_node_visual_review",
+      "independent_review": "PASS_sample_only",
+      "raw_reproduction": "PASS_all_eight_from_raw_inputs",
+      "used_source_ids": [
+        "B04"
+      ],
+      "mainline": {
+        "country": "德国",
+        "platform": "巴登-符腾堡号导弹护卫舰",
+        "dates": [
+          "2025.5.3",
+          "2025.5.5",
+          "2025.5.7",
+          "2025.5.18"
+        ]
+      },
+      "missing_evidence": [
+        "辅助基地、呼号、起降与母港不足两源支持；留空",
+        "缺少间隔日期完整观察及实体标识，不能证明持续驻留"
+      ],
+      "docx_pages": 12,
+      "source_eligibility": "reviewed_fixed_versions_before_node",
+      "content_status": "complete_with_documented_limits",
+      "uploaded": false
+    },
+    {
+      "date": "2025.5.30",
+      "as_of": "2025-05-30",
+      "formal_files": 6,
+      "included_events": 27,
+      "air_batches": 16,
+      "air_sorties": 17,
+      "ship_sorties": 11,
+      "frozen_sha256": "d70fd4c5b228ce8b72e44fbab40497796fb6b1edb2c86d3aab8b3dd7af374d02",
+      "structure": "PASS",
+      "source_metadata": "PASS_metadata_only",
+      "visual_review": "PASS_full_node_visual_review",
+      "independent_review": "PASS_sample_only",
+      "raw_reproduction": "PASS_all_eight_from_raw_inputs",
+      "used_source_ids": [],
+      "mainline": {
+        "country": "韩国",
+        "platform": "P-8A“海神”反潜巡逻机",
+        "dates": [
+          "2025.5.5",
+          "2025.5.12",
+          "2025.5.21",
+          "2025.5.25",
+          "2025.5.26",
+          "2025.5.27",
+          "2025.5.28",
+          "2025.5.30"
+        ]
+      },
+      "missing_evidence": [
+        "未取得直接相关且历史版本已确认的新增外部实证资料",
+        "辅助基地、呼号、起降与母港不足两源支持；留空",
+        "缺少间隔日期完整观察及实体标识，不能证明持续驻留"
+      ],
+      "docx_pages": 12,
+      "source_eligibility": "no_qualified_external_source_used_gap_documented",
+      "content_status": "complete_with_documented_limits",
+      "uploaded": false
+    },
+    {
+      "date": "2025.6.9",
+      "as_of": "2025-06-09",
+      "formal_files": 6,
+      "included_events": 27,
+      "air_batches": 15,
+      "air_sorties": 15,
+      "ship_sorties": 12,
+      "frozen_sha256": "018e7f10a10ba67f53bbc15c7785a7a437c40fcea31cdae2980a508026b06353",
+      "structure": "PASS",
+      "source_metadata": "PASS_metadata_only",
+      "visual_review": "PASS_full_node_visual_review",
+      "independent_review": "PASS_sample_only",
+      "raw_reproduction": "PASS_all_eight_from_raw_inputs",
+      "used_source_ids": [
+        "B09"
+      ],
+      "mainline": {
+        "country": "马来西亚",
+        "platform": "莱库号导弹护卫舰",
+        "dates": [
+          "2025.5.24",
+          "2025.5.30",
+          "2025.6.9"
+        ]
+      },
+      "missing_evidence": [
+        "辅助基地、呼号、起降与母港不足两源支持；留空",
+        "缺少间隔日期完整观察及实体标识，不能证明持续驻留"
+      ],
+      "docx_pages": 12,
+      "source_eligibility": "reviewed_fixed_versions_before_node",
+      "content_status": "complete_with_documented_limits",
+      "uploaded": false
+    },
+    {
+      "date": "2025.6.17",
+      "as_of": "2025-06-17",
+      "formal_files": 6,
+      "included_events": 24,
+      "air_batches": 10,
+      "air_sorties": 10,
+      "ship_sorties": 14,
+      "frozen_sha256": "8194f254a8d3c5c7168ff811a523e5a520cd98ecf2b90794de0ac44f44907eff",
+      "structure": "PASS",
+      "source_metadata": "PASS_metadata_only",
+      "visual_review": "PASS_full_node_visual_review",
+      "independent_review": "PASS_sample_only",
+      "raw_reproduction": "PASS_all_eight_from_raw_inputs",
+      "used_source_ids": [
+        "B01"
+      ],
+      "mainline": {
+        "country": "澳大利亚",
+        "platform": "P-8A“海神”反潜巡逻机",
+        "dates": [
+          "2025.5.19",
+          "2025.5.24",
+          "2025.5.28",
+          "2025.5.29",
+          "2025.5.30",
+          "2025.6.2",
+          "2025.6.6",
+          "2025.6.8",
+          "2025.6.11",
+          "2025.6.14",
+          "2025.6.16",
+          "2025.6.17"
+        ]
+      },
+      "missing_evidence": [
+        "辅助基地、呼号、起降与母港不足两源支持；留空",
+        "缺少间隔日期完整观察及实体标识，不能证明持续驻留"
+      ],
+      "docx_pages": 13,
+      "source_eligibility": "reviewed_fixed_versions_before_node",
+      "content_status": "complete_with_documented_limits",
+      "uploaded": false
+    },
+    {
+      "date": "2025.6.29",
+      "as_of": "2025-06-29",
+      "formal_files": 6,
+      "included_events": 25,
+      "air_batches": 14,
+      "air_sorties": 14,
+      "ship_sorties": 11,
+      "frozen_sha256": "bd48ea4ba84f45523b86cfb43049489e0d6fe5444fd37aa42c30da5edc12f85d",
+      "structure": "PASS",
+      "source_metadata": "PASS_metadata_only",
+      "visual_review": "PASS_full_node_visual_review",
+      "independent_review": "PASS_sample_only",
+      "raw_reproduction": "PASS_all_eight_from_raw_inputs",
+      "used_source_ids": [],
+      "mainline": {
+        "country": "新加坡",
+        "platform": "G550空中预警机",
+        "dates": [
+          "2025.6.2",
+          "2025.6.4",
+          "2025.6.6",
+          "2025.6.16",
+          "2025.6.22",
+          "2025.6.29"
+        ]
+      },
+      "missing_evidence": [
+        "未取得直接相关且历史版本已确认的新增外部实证资料",
+        "辅助基地、呼号、起降与母港不足两源支持；留空",
+        "缺少间隔日期完整观察及实体标识，不能证明持续驻留"
+      ],
+      "docx_pages": 12,
+      "source_eligibility": "no_qualified_external_source_used_gap_documented",
+      "content_status": "complete_with_documented_limits",
+      "uploaded": false
+    },
+    {
+      "date": "2025.7.9",
+      "as_of": "2025-07-09",
+      "formal_files": 6,
+      "included_events": 27,
+      "air_batches": 15,
+      "air_sorties": 16,
+      "ship_sorties": 12,
+      "frozen_sha256": "9797b67dde15a5ea0efaa5d69b0864a00cfd4b66ecde0a0c1dab8aea86e637fc",
+      "structure": "PASS",
+      "source_metadata": "PASS_metadata_only",
+      "visual_review": "PASS_full_node_visual_review",
+      "independent_review": "PASS_sample_only",
+      "raw_reproduction": "PASS_all_eight_from_raw_inputs",
+      "used_source_ids": [
+        "B07"
+      ],
+      "mainline": {
+        "country": "加拿大",
+        "platform": "哈利法克斯级导弹护卫舰",
+        "dates": [
+          "2025.6.24",
+          "2025.6.26",
+          "2025.6.27",
+          "2025.6.29",
+          "2025.7.6",
+          "2025.7.8",
+          "2025.7.9"
+        ]
+      },
+      "missing_evidence": [
+        "辅助基地、呼号、起降与母港不足两源支持；留空",
+        "缺少间隔日期完整观察及实体标识，不能证明持续驻留"
+      ],
+      "docx_pages": 12,
+      "source_eligibility": "reviewed_fixed_versions_before_node",
+      "content_status": "complete_with_documented_limits",
+      "uploaded": false
+    },
+    {
+      "date": "2025.7.17",
+      "as_of": "2025-07-17",
+      "formal_files": 6,
+      "included_events": 23,
+      "air_batches": 9,
+      "air_sorties": 10,
+      "ship_sorties": 14,
+      "frozen_sha256": "676d1269d5b595cab12e6fda8f13843487d8456e60dafd451ab45978118ecaa7",
+      "structure": "PASS",
+      "source_metadata": "PASS_metadata_only",
+      "visual_review": "PASS_full_node_visual_review",
+      "independent_review": "PASS_sample_only",
+      "raw_reproduction": "PASS_all_eight_from_raw_inputs",
+      "used_source_ids": [
+        "B10"
+      ],
+      "mainline": {
+        "country": "法国",
+        "platform": "戴高乐号航空母舰",
+        "dates": [
+          "2025.7.11",
+          "2025.7.14",
+          "2025.7.16",
+          "2025.7.17"
+        ]
+      },
+      "missing_evidence": [
+        "辅助基地、呼号、起降与母港不足两源支持；留空",
+        "缺少间隔日期完整观察及实体标识，不能证明持续驻留"
+      ],
+      "docx_pages": 11,
+      "source_eligibility": "reviewed_fixed_versions_before_node",
+      "content_status": "complete_with_documented_limits",
+      "uploaded": false
+    }
+  ],
+  "formal_members": [
+    {
+      "node": "2025.5.10",
+      "as_of": "2025-05-10",
+      "path": "2025.5.10/2025.5.10日报.docx",
+      "sha256": "c841b77366f70f512dfface310d5fa3f168b63e63a7ab6a413be1b9cc64e53fd",
+      "bytes": 1927271
+    },
+    {
+      "node": "2025.5.10",
+      "as_of": "2025-05-10",
+      "path": "2025.5.10/2025.5.10机舰活动明细.xlsx",
+      "sha256": "10d737feaee139fd81744546ca1e41e4400e810644f11250805a625f82f68ebe",
+      "bytes": 8190
+    },
+    {
+      "node": "2025.5.10",
+      "as_of": "2025-05-10",
+      "path": "2025.5.10/附件图表/01_舰机侦巡数量曲线图.png",
+      "sha256": "06da0fdc3a38c7084ed5f880306783386b280fc8784c4d6019c91251afc0590b",
+      "bytes": 147913
+    },
+    {
+      "node": "2025.5.10",
+      "as_of": "2025-05-10",
+      "path": "2025.5.10/附件图表/02_中国主要机舰活动示意图.png",
+      "sha256": "e5298bcc7f221566cf2b96cf05f312e14a0762eea250d8d3a2fcde23e6c6e364",
+      "bytes": 312703
+    },
+    {
+      "node": "2025.5.10",
+      "as_of": "2025-05-10",
+      "path": "2025.5.10/附件图表/03_美国主要机舰活动示意图.png",
+      "sha256": "ebb020c2d9159dcdb1c43d50899a6322d4b35c2ef275c82d8e6e24d5eef61dea",
+      "bytes": 107812
+    },
+    {
+      "node": "2025.5.10",
+      "as_of": "2025-05-10",
+      "path": "2025.5.10/附件图表/04_其他国家主要机舰活动示意图.png",
+      "sha256": "bf8cf1d9d20c876cd9d0cfcccf557ec844c5b6368b30badebf34fab320850c68",
+      "bytes": 549394
+    },
+    {
+      "node": "2025.5.18",
+      "as_of": "2025-05-18",
+      "path": "2025.5.18/2025.5.18日报.docx",
+      "sha256": "9bd4673055299196d37922457c05fd8e66a96370bf042283883dc937357f1214",
+      "bytes": 1904000
+    },
+    {
+      "node": "2025.5.18",
+      "as_of": "2025-05-18",
+      "path": "2025.5.18/2025.5.18机舰活动明细.xlsx",
+      "sha256": "add7789b517513cebdf3777c9364d1e8244c0b503a5f8f56e60815dbc62ec495",
+      "bytes": 7938
+    },
+    {
+      "node": "2025.5.18",
+      "as_of": "2025-05-18",
+      "path": "2025.5.18/附件图表/01_舰机侦巡数量曲线图.png",
+      "sha256": "6c748be5f59da4b7c61c668971cf5408575eb072994af32eb7f0ee3fda487902",
+      "bytes": 148187
+    },
+    {
+      "node": "2025.5.18",
+      "as_of": "2025-05-18",
+      "path": "2025.5.18/附件图表/02_中国主要机舰活动示意图.png",
+      "sha256": "da6b79f507fa2e2f8acddec7bc20531b6cbd80484f38706c386fd1432b768e42",
+      "bytes": 250579
+    },
+    {
+      "node": "2025.5.18",
+      "as_of": "2025-05-18",
+      "path": "2025.5.18/附件图表/03_美国主要机舰活动示意图.png",
+      "sha256": "b578c6c0f14ddf24e4d105fdf152f7b7b0d21e512781a553ba89a5e4907db369",
+      "bytes": 166964
+    },
+    {
+      "node": "2025.5.18",
+      "as_of": "2025-05-18",
+      "path": "2025.5.18/附件图表/04_其他国家主要机舰活动示意图.png",
+      "sha256": "e8c4ec3de138e167c6e3da4c8837664eeb09763f41226523c79c683b648370a3",
+      "bytes": 525130
+    },
+    {
+      "node": "2025.5.30",
+      "as_of": "2025-05-30",
+      "path": "2025.5.30/2025.5.30日报.docx",
+      "sha256": "21536d5745c4564303fc1b06bda1563ca42cfbebad69bfaf0a4235005591be1e",
+      "bytes": 1955017
+    },
+    {
+      "node": "2025.5.30",
+      "as_of": "2025-05-30",
+      "path": "2025.5.30/2025.5.30机舰活动明细.xlsx",
+      "sha256": "57462112e730b006b85d8f3a7164f4cc002fe6012c3ba20e082903aa8e9407f9",
+      "bytes": 8232
+    },
+    {
+      "node": "2025.5.30",
+      "as_of": "2025-05-30",
+      "path": "2025.5.30/附件图表/01_舰机侦巡数量曲线图.png",
+      "sha256": "4aa5fe5b6aca2762877c7ec4ee29341332936ffd4646cc104c32016ae791e8ce",
+      "bytes": 150020
+    },
+    {
+      "node": "2025.5.30",
+      "as_of": "2025-05-30",
+      "path": "2025.5.30/附件图表/02_中国主要机舰活动示意图.png",
+      "sha256": "69df50117cbd65117d5ba0a5b2d35285816f3dc1792c96b23b42c7e5efe52bd3",
+      "bytes": 274190
+    },
+    {
+      "node": "2025.5.30",
+      "as_of": "2025-05-30",
+      "path": "2025.5.30/附件图表/03_美国主要机舰活动示意图.png",
+      "sha256": "0dd50b18982ae6dce03df595da7663c1455aba6516b5a4de2e669131471e0c10",
+      "bytes": 98714
+    },
+    {
+      "node": "2025.5.30",
+      "as_of": "2025-05-30",
+      "path": "2025.5.30/附件图表/04_其他国家主要机舰活动示意图.png",
+      "sha256": "2906615357cc354a54bfac0db0c658f16462c396acf6cf839044d0a671eceedc",
+      "bytes": 623292
+    },
+    {
+      "node": "2025.6.9",
+      "as_of": "2025-06-09",
+      "path": "2025.6.9/2025.6.9日报.docx",
+      "sha256": "2b4de0b34cb3035af72ae6f588eb7696bcd451c50701ac180e1bb2dd6fd04d40",
+      "bytes": 1936834
+    },
+    {
+      "node": "2025.6.9",
+      "as_of": "2025-06-09",
+      "path": "2025.6.9/2025.6.9机舰活动明细.xlsx",
+      "sha256": "550cd3838a26f41100fc3a0e6cc83cc02135b5e1fde47cd9d5ba096be59ae3c6",
+      "bytes": 8086
+    },
+    {
+      "node": "2025.6.9",
+      "as_of": "2025-06-09",
+      "path": "2025.6.9/附件图表/01_舰机侦巡数量曲线图.png",
+      "sha256": "00dec47a6c2456a0a823ef5fd7a2ac361cc3338b4933241b38be161aaf0433b6",
+      "bytes": 145562
+    },
+    {
+      "node": "2025.6.9",
+      "as_of": "2025-06-09",
+      "path": "2025.6.9/附件图表/02_中国主要机舰活动示意图.png",
+      "sha256": "a1bcf0eb314ef630f6dc08d7f328d69c6119b6a98a1d9f7fd829355f1434c5cf",
+      "bytes": 303177
+    },
+    {
+      "node": "2025.6.9",
+      "as_of": "2025-06-09",
+      "path": "2025.6.9/附件图表/03_美国主要机舰活动示意图.png",
+      "sha256": "00f569602a9cf6fdb07ab6df98c7051e039d8a9ab91af3edf65ba01eb3dd8880",
+      "bytes": 98214
+    },
+    {
+      "node": "2025.6.9",
+      "as_of": "2025-06-09",
+      "path": "2025.6.9/附件图表/04_其他国家主要机舰活动示意图.png",
+      "sha256": "00007070bebf02607ca4e4413cebbea8d2ea943a60d09329af689e568a0ff08a",
+      "bytes": 582986
+    },
+    {
+      "node": "2025.6.17",
+      "as_of": "2025-06-17",
+      "path": "2025.6.17/2025.6.17日报.docx",
+      "sha256": "d94c7c4ab0c21bcf67511df3996a999ac4902b6b4e5b8a9e8afffb5752182436",
+      "bytes": 1856320
+    },
+    {
+      "node": "2025.6.17",
+      "as_of": "2025-06-17",
+      "path": "2025.6.17/2025.6.17机舰活动明细.xlsx",
+      "sha256": "81fccbd6879f7b1474b714d984c217d2315f96d32776729af579ede326e4f6c5",
+      "bytes": 7766
+    },
+    {
+      "node": "2025.6.17",
+      "as_of": "2025-06-17",
+      "path": "2025.6.17/附件图表/01_舰机侦巡数量曲线图.png",
+      "sha256": "122dabe5c678007d8e27e87b8a44c9e982099dd45bf338be10308f45de006c7a",
+      "bytes": 145313
+    },
+    {
+      "node": "2025.6.17",
+      "as_of": "2025-06-17",
+      "path": "2025.6.17/附件图表/02_中国主要机舰活动示意图.png",
+      "sha256": "25bfbdf8969c7257ae2738e2861616cacd23e90544c792aacdfc1ca2b8407aa9",
+      "bytes": 270936
+    },
+    {
+      "node": "2025.6.17",
+      "as_of": "2025-06-17",
+      "path": "2025.6.17/附件图表/03_美国主要机舰活动示意图.png",
+      "sha256": "9290edb710b19c9311735926985f3f23b836faf30f26f35fef2f22db0570ef14",
+      "bytes": 139587
+    },
+    {
+      "node": "2025.6.17",
+      "as_of": "2025-06-17",
+      "path": "2025.6.17/附件图表/04_其他国家主要机舰活动示意图.png",
+      "sha256": "fcca306c3f55da23f1ea531d7fb577a0e100241a77212d3743cde744d8817fc6",
+      "bytes": 484006
+    },
+    {
+      "node": "2025.6.29",
+      "as_of": "2025-06-29",
+      "path": "2025.6.29/2025.6.29日报.docx",
+      "sha256": "bb63a5062b2467e8c5f42ec74f02e49b51ebf922784cf0bcc3faf36aa96f04be",
+      "bytes": 1885687
+    },
+    {
+      "node": "2025.6.29",
+      "as_of": "2025-06-29",
+      "path": "2025.6.29/2025.6.29机舰活动明细.xlsx",
+      "sha256": "d7e9dcdb9df6ec99bdf83aaa784229656904e67a73c05449c24edfb184b2d56a",
+      "bytes": 7983
+    },
+    {
+      "node": "2025.6.29",
+      "as_of": "2025-06-29",
+      "path": "2025.6.29/附件图表/01_舰机侦巡数量曲线图.png",
+      "sha256": "d52aa1c1ecdb3d65b34714192947630207884e72196c475ba626f13e05f0b45d",
+      "bytes": 147505
+    },
+    {
+      "node": "2025.6.29",
+      "as_of": "2025-06-29",
+      "path": "2025.6.29/附件图表/02_中国主要机舰活动示意图.png",
+      "sha256": "56a8c4d605d4e2b084d06620ceca1b8e2122f7c923394081d1ae694b34c72a3d",
+      "bytes": 309937
+    },
+    {
+      "node": "2025.6.29",
+      "as_of": "2025-06-29",
+      "path": "2025.6.29/附件图表/03_美国主要机舰活动示意图.png",
+      "sha256": "b6d6b16bf172104cd629a994d955df5df84c09cc324bb713910fcb4bf726d1cf",
+      "bytes": 108483
+    },
+    {
+      "node": "2025.6.29",
+      "as_of": "2025-06-29",
+      "path": "2025.6.29/附件图表/04_其他国家主要机舰活动示意图.png",
+      "sha256": "d33c6175a49eb717651e5ddcaacc4fcc39cd2fbe917a328895c33cc5d1f94fa6",
+      "bytes": 506759
+    },
+    {
+      "node": "2025.7.9",
+      "as_of": "2025-07-09",
+      "path": "2025.7.9/2025.7.9日报.docx",
+      "sha256": "e156f2df8e3434b566574874c6f9ab040b92955a1a39492511f9a7b71654a055",
+      "bytes": 1954108
+    },
+    {
+      "node": "2025.7.9",
+      "as_of": "2025-07-09",
+      "path": "2025.7.9/2025.7.9机舰活动明细.xlsx",
+      "sha256": "e58b5a31ec11641895e27fd44fb3505f8b086af5177d237430407813a2bb81d3",
+      "bytes": 8171
+    },
+    {
+      "node": "2025.7.9",
+      "as_of": "2025-07-09",
+      "path": "2025.7.9/附件图表/01_舰机侦巡数量曲线图.png",
+      "sha256": "59aa835182a3631b8e6a587ee03916ba9760588b8381325a2b8733bc60074ad7",
+      "bytes": 148533
+    },
+    {
+      "node": "2025.7.9",
+      "as_of": "2025-07-09",
+      "path": "2025.7.9/附件图表/02_中国主要机舰活动示意图.png",
+      "sha256": "f1ada9338d041f990ebc491967a8257cd13db8d5f334eec1fdfcc812e4401244",
+      "bytes": 305613
+    },
+    {
+      "node": "2025.7.9",
+      "as_of": "2025-07-09",
+      "path": "2025.7.9/附件图表/03_美国主要机舰活动示意图.png",
+      "sha256": "ea7a447e1e162f049297dd79f43c7ee11e1172745201c38066d5a2b6b0bcf04c",
+      "bytes": 97601
+    },
+    {
+      "node": "2025.7.9",
+      "as_of": "2025-07-09",
+      "path": "2025.7.9/附件图表/04_其他国家主要机舰活动示意图.png",
+      "sha256": "7f15fbf759ed5bf4662e9279c07f0506a79371bdcdcc4918e32ba3501c7ba071",
+      "bytes": 593178
+    },
+    {
+      "node": "2025.7.17",
+      "as_of": "2025-07-17",
+      "path": "2025.7.17/2025.7.17日报.docx",
+      "sha256": "efc7eafcb73aa07a7a9de28d0e49090c58f60f0082961329f5becf2d711a126b",
+      "bytes": 1833065
+    },
+    {
+      "node": "2025.7.17",
+      "as_of": "2025-07-17",
+      "path": "2025.7.17/2025.7.17机舰活动明细.xlsx",
+      "sha256": "54cc57613db2f9b0a6199743ad5f589c98fcb0b617c509868f17e6b2cceb88cc",
+      "bytes": 7666
+    },
+    {
+      "node": "2025.7.17",
+      "as_of": "2025-07-17",
+      "path": "2025.7.17/附件图表/01_舰机侦巡数量曲线图.png",
+      "sha256": "74b08bb3e661cc3970ea41b87763ca5114e1be6f077f60638d71b05fabfb180e",
+      "bytes": 145586
+    },
+    {
+      "node": "2025.7.17",
+      "as_of": "2025-07-17",
+      "path": "2025.7.17/附件图表/02_中国主要机舰活动示意图.png",
+      "sha256": "0cfe8f96d0fcbbb5e0043877012af58dd77a914f0bd2d768c1478824f90ca2b7",
+      "bytes": 230203
+    },
+    {
+      "node": "2025.7.17",
+      "as_of": "2025-07-17",
+      "path": "2025.7.17/附件图表/03_美国主要机舰活动示意图.png",
+      "sha256": "482c263dcf85475c6428c5e92dd324f2c2b174ad15d284d774d838c70d32e730",
+      "bytes": 107207
+    },
+    {
+      "node": "2025.7.17",
+      "as_of": "2025-07-17",
+      "path": "2025.7.17/附件图表/04_其他国家主要机舰活动示意图.png",
+      "sha256": "ae2d048c409c3eb141f795137df7e2285d77720ad6680cba79ddc7dcbdeee09b",
+      "bytes": 533678
+    }
+  ],
+  "formal_archive": {
+    "path": "赛题2_初赛_八节点_完整候选提交包.zip",
+    "sha256": "1f87e66dd79f0f35e6d3642bd2ad720ed803a98650b5120c94fba454d152c801",
+    "files": 48,
+    "root_directories": [
+      "2025.5.10",
+      "2025.5.18",
+      "2025.5.30",
+      "2025.6.9",
+      "2025.6.17",
+      "2025.6.29",
+      "2025.7.9",
+      "2025.7.17"
+    ],
+    "extra_members": [],
+    "independent_actual_extraction": "PASS"
+  },
+  "raw_input_files": 7878,
+  "frozen_ledger_hashes": {
+    "2025.5.10": "83769d4ca767dab43d08de01e623e9ce2594e0ccd626123eb9d367326decee61",
+    "2025.5.18": "dd868c9d09a5cfc24c28e7ee3a0d2e6fecb2c8f3a0d62164990b998191a63f3f",
+    "2025.5.30": "d70fd4c5b228ce8b72e44fbab40497796fb6b1edb2c86d3aab8b3dd7af374d02",
+    "2025.6.9": "018e7f10a10ba67f53bbc15c7785a7a437c40fcea31cdae2980a508026b06353",
+    "2025.6.17": "8194f254a8d3c5c7168ff811a523e5a520cd98ecf2b90794de0ac44f44907eff",
+    "2025.6.29": "bd48ea4ba84f45523b86cfb43049489e0d6fe5444fd37aa42c30da5edc12f85d",
+    "2025.7.9": "9797b67dde15a5ea0efaa5d69b0864a00cfd4b66ecde0a0c1dab8aea86e637fc",
+    "2025.7.17": "676d1269d5b595cab12e6fda8f13843487d8456e60dafd451ab45978118ecaa7"
+  },
+  "reproduction": {
+    "status": "PASS",
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\portable_reproduction",
+    "nodes": [
+      {
+        "date": "2025.5.10",
+        "raw_facts_recomputed": true,
+        "frozen_sha256_equal": true,
+        "analysis_equal": true,
+        "docx_body_xml_equal": true,
+        "xlsx_values_and_types_equal": true,
+        "png_sha256_equal": true,
+        "formal_package_members_verified": true
+      },
+      {
+        "date": "2025.5.18",
+        "raw_facts_recomputed": true,
+        "frozen_sha256_equal": true,
+        "analysis_equal": true,
+        "docx_body_xml_equal": true,
+        "xlsx_values_and_types_equal": true,
+        "png_sha256_equal": true,
+        "formal_package_members_verified": true
+      },
+      {
+        "date": "2025.5.30",
+        "raw_facts_recomputed": true,
+        "frozen_sha256_equal": true,
+        "analysis_equal": true,
+        "docx_body_xml_equal": true,
+        "xlsx_values_and_types_equal": true,
+        "png_sha256_equal": true,
+        "formal_package_members_verified": true
+      },
+      {
+        "date": "2025.6.9",
+        "raw_facts_recomputed": true,
+        "frozen_sha256_equal": true,
+        "analysis_equal": true,
+        "docx_body_xml_equal": true,
+        "xlsx_values_and_types_equal": true,
+        "png_sha256_equal": true,
+        "formal_package_members_verified": true
+      },
+      {
+        "date": "2025.6.17",
+        "raw_facts_recomputed": true,
+        "frozen_sha256_equal": true,
+        "analysis_equal": true,
+        "docx_body_xml_equal": true,
+        "xlsx_values_and_types_equal": true,
+        "png_sha256_equal": true,
+        "formal_package_members_verified": true
+      },
+      {
+        "date": "2025.6.29",
+        "raw_facts_recomputed": true,
+        "frozen_sha256_equal": true,
+        "analysis_equal": true,
+        "docx_body_xml_equal": true,
+        "xlsx_values_and_types_equal": true,
+        "png_sha256_equal": true,
+        "formal_package_members_verified": true
+      },
+      {
+        "date": "2025.7.9",
+        "raw_facts_recomputed": true,
+        "frozen_sha256_equal": true,
+        "analysis_equal": true,
+        "docx_body_xml_equal": true,
+        "xlsx_values_and_types_equal": true,
+        "png_sha256_equal": true,
+        "formal_package_members_verified": true
+      },
+      {
+        "date": "2025.7.17",
+        "raw_facts_recomputed": true,
+        "frozen_sha256_equal": true,
+        "analysis_equal": true,
+        "docx_body_xml_equal": true,
+        "xlsx_values_and_types_equal": true,
+        "png_sha256_equal": true,
+        "formal_package_members_verified": true
+      }
+    ],
+    "container_difference_policy": "DOCX/XLSX ZIP member timestamps and core created/modified timestamps may differ; content, schema and PNGs must match"
+  },
+  "checks": {
+    "structure_and_cross_artifact_consistency": "PASS_all_eight",
+    "source_metadata": "PASS_metadata_only_all_eight",
+    "actual_passage_semantic_review": "completed_all_eight_with_limits",
+    "independent_fact_sample": "32 cases, 4 per node, original reread, limited deterministic sample",
+    "visual": "96 full Word pages, 16 entire worksheets, 32 PNGs viewed",
+    "raw_reproduction": "PASS_all_eight",
+    "archive": "PASS_exact48_actual_extracted"
+  },
+  "unresolved_gaps": [
+    "平台ZIP外层规则冲突未确认",
+    "可用浏览器未登录，不能取得上传回执",
+    "5月30日/6月29日直接相关外部历史版本资料缺口",
+    "辅助基地/呼号/起降/母港不足支持留空；时间未注明时区",
+    "未观测日期及实体身份缺口；宽松坐标相容性窗口为工程假设，未获全部记录外部专家复核"
+  ],
+  "scores": "本轮没有平台评测，不推测或承诺任何得分提高",
+  "history_preserved": true,
+  "storage": "D盘无剩余空间；实际新目录在C盘，项目artifact下junction指向该目录"
+}

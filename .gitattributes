@@ -1,1 +1,2 @@
 artifact/20261009_gpt_accuracy_v2/复现材料_gpt_accuracy_v2.zip filter=lfs diff=lfs merge=lfs -text
+artifact/20261012_initial_eight_nodes_v8/** -text

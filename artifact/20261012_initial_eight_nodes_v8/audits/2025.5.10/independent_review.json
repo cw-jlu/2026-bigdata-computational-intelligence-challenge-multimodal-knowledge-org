@@ -1,0 +1,49 @@
+{
+  "as_of": "2025-05-10",
+  "reviewer": "Codex session direct re-reading of original TXT/Excel evidence, distinct from extraction code",
+  "sample_count": 4,
+  "status": "PASS_sample_only",
+  "cards_sha256": "76ed1b5962dbbb7a25513c4c69d96f3b324f34b42ccbb0d3b2909c0ae877ae73",
+  "cases": [
+    {
+      "event_id": "2025.5.10-SHIP-82FA3EBD366A15",
+      "pipeline_decision": "纳入",
+      "judgment": "agree_with_original_evidence",
+      "basis": "093A纳土纳1艘战备，原文及完整批次相容；辅助单源细节未补",
+      "original_material": "independent_review_cards.json contains original full TXT and complete radar batch rows",
+      "limits": [
+        "每节点两纳入两排除，确定性哈希选样；不是盲测，不是独立外部专家审查，不估计整体正确率"
+      ]
+    },
+    {
+      "event_id": "2025.5.10-AIR-3B564DE1F3DD6D",
+      "pipeline_decision": "纳入",
+      "judgment": "agree_with_original_evidence",
+      "basis": "英国P-8A联合巡逻1架，单源细地名降至南海",
+      "original_material": "independent_review_cards.json contains original full TXT and complete radar batch rows",
+      "limits": [
+        "每节点两纳入两排除，确定性哈希选样；不是盲测，不是独立外部专家审查，不估计整体正确率"
+      ]
+    },
+    {
+      "event_id": "2025.5.10-AIR-3B6F61E3F12895",
+      "pipeline_decision": "排除",
+      "judgment": "agree_with_original_evidence",
+      "basis": "台湾经国平台孟加拉湾/安达曼海冲突，域外且不纳入",
+      "original_material": "independent_review_cards.json contains original full TXT and complete radar batch rows",
+      "limits": [
+        "每节点两纳入两排除，确定性哈希选样；不是盲测，不是独立外部专家审查，不估计整体正确率"
+      ]
+    },
+    {
+      "event_id": "2025.5.10-SHIP-47CAC678D765A6",
+      "pipeline_decision": "排除",
+      "judgment": "agree_with_original_evidence",
+      "basis": "菲律宾舰艇搜救/自由航行明确任务冲突，不取多数",
+      "original_material": "independent_review_cards.json contains original full TXT and complete radar batch rows",
+      "limits": [
+        "每节点两纳入两排除，确定性哈希选样；不是盲测，不是独立外部专家审查，不估计整体正确率"
+      ]
+    }
+  ]
+}

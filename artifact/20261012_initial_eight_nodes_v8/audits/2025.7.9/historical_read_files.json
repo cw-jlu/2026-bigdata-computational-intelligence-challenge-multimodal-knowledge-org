@@ -1,0 +1,30 @@
+[
+  {
+    "version": "Claude",
+    "path": "artifact/20261008_001929_claude-opus-5.5high/output/中间结果/2025.7.9/events.jsonl",
+    "sha256": "0196818f88c4395616467ed5eb7de6240cb99c4011970fe722dbf88801b76b7b",
+    "reading_status": "pipeline_read_full_records",
+    "events": 52
+  },
+  {
+    "version": "v2",
+    "path": "artifact/20261009_gpt_accuracy_v2/output/中间证据/factpack_2025.7.9.json",
+    "sha256": "6d946950376a0927d7da77137364308afa884e29fc6e60eba5cace9d6798bcff",
+    "reading_status": "pipeline_read_full_records",
+    "events": 26
+  },
+  {
+    "version": "v3",
+    "path": "artifact/20261009_gpt_accuracy_v3/output/中间证据/factpack_2025.7.9.json",
+    "sha256": "d218782f261a312e7183fe05ac0b97ac89150ed3e835b236bf8aa4e453a7a139",
+    "reading_status": "pipeline_read_full_records",
+    "events": 26
+  },
+  {
+    "version": "v4",
+    "path": "artifact/20261009_gpt_independent_v4/output/payloads/2025.7.9.json",
+    "sha256": "462011730e7133320e84f818308a0934463c4bab2624638b763877af50779592",
+    "reading_status": "pipeline_read_full_records",
+    "events": 24
+  }
+]

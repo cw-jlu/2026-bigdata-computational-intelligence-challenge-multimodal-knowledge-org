@@ -1,0 +1,86 @@
+[
+  {
+    "path": "code/audit_sources.py",
+    "sha256": "635d3d7eedaee667cca4c18f844fe1e4a05113714c55612d58835a49e016145b"
+  },
+  {
+    "path": "code/build.py",
+    "sha256": "ea006e19a353503d3c1ac805f1412c5bd0183d91ab1e1687f1447212894cc4d4"
+  },
+  {
+    "path": "code/charts.py",
+    "sha256": "05a358ddab68715538e5b2ee7740df2c6a44212a84e6661b5c20551b7df4334d"
+  },
+  {
+    "path": "code/collect_inputs.py",
+    "sha256": "a535c777f8cd77b7119e12061e43fe83fb6eb4d8cbe3cbaad1a641f07bdbee56"
+  },
+  {
+    "path": "code/common.py",
+    "sha256": "3d5627af623a844c8b9e03e0de84cac713c02703ccef053f77d89acdea10b5c4"
+  },
+  {
+    "path": "code/events.py",
+    "sha256": "bdff8a35373af89770d71372f95c89b66834bf9d5e118f2c758ef1a7fef227a9"
+  },
+  {
+    "path": "code/extra_sources.py",
+    "sha256": "eeca94be5f2bb2ab8605226a3d5dd12cf16e261e77c4565c2a141d3abfac2b73"
+  },
+  {
+    "path": "code/fetch_sources.py",
+    "sha256": "40e3bc365996972e8437c080e91dd2910e52b6e449049d54221d9355cf19ee38"
+  },
+  {
+    "path": "code/finalize_stage.py",
+    "sha256": "dd3b34b2bf9ef445c172199fd078e06b064275858393c3b2663700e700c084a8"
+  },
+  {
+    "path": "code/package_engineering.py",
+    "sha256": "c82cbab61a0cdcf5878ab61c6e467941c7f7452342c55dd74a82b62fa3ae76e3"
+  },
+  {
+    "path": "code/prepare.py",
+    "sha256": "821685617de4aaa22fb0824b8289b62dccc33ab80acc9108f15b63f37b5460b2"
+  },
+  {
+    "path": "code/raster_excel.py",
+    "sha256": "3d04d3472b8f76b2120dd4225b9a42adb94df791567f54544abd48db5c0986cb"
+  },
+  {
+    "path": "code/raster_qa.py",
+    "sha256": "1d420dac0dc6e1e8921640eb0d1c22564daf7de3b804c5dccd7b60cddff972b9"
+  },
+  {
+    "path": "code/render_excel.ps1",
+    "sha256": "6ab9f69f65780974e69befe5d10c42a260fbb683e891f73f6e679bfb7c77e8e5"
+  },
+  {
+    "path": "code/render_word.ps1",
+    "sha256": "30eaa926eb4a58dc22cabfe880d4dde1ca61c5c495e0d69c78519347b5da0780"
+  },
+  {
+    "path": "code/reproduce.py",
+    "sha256": "8d7c719bcdeddd2207ae4388987c334edaa862cb1ab465c5e0c85aa5577227be"
+  },
+  {
+    "path": "code/review_cards.py",
+    "sha256": "8c920001fea0ec048da2f7a26542588482f59ac16960ee9bfa218586a2303c3f"
+  },
+  {
+    "path": "code/select_lines.py",
+    "sha256": "e8a3f6f5cc30e2ad4d59763acb6be649a702ddcbe7fe1dd11ea38b2cd5070cee"
+  },
+  {
+    "path": "code/source_config.py",
+    "sha256": "df0839981ff805bd6efab63c557f18f1271d98cdb0261c3bd2acefaaab9d4956"
+  },
+  {
+    "path": "code/validate.py",
+    "sha256": "18ae29bb340598198f313076eb6f29abcf1519ae797951d4ce453aef1fc9fe1b"
+  },
+  {
+    "path": "code/workbooks.mjs",
+    "sha256": "ece26779cf877ff619ff428e11f1c869e3a1681ed3c80c240d1be0878e514e9c"
+  }
+]

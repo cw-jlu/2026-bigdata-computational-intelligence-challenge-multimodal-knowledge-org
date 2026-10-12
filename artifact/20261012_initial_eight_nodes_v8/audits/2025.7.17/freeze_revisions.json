@@ -1,0 +1,6 @@
+{
+  "before_selection_sha256": "bb9530a6da5abb7c3c0bd24cffbd38ee1b695ab5dcc68c74836b22d71df9c582",
+  "after_selection_sha256": "676d1269d5b595cab12e6fda8f13843487d8456e60dafd451ab45978118ecaa7",
+  "fact_records_changed": false,
+  "reason": "在分析生成前根据候选比较重新选择主线和证据阶段，事实集不变"
+}

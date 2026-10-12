@@ -1,0 +1,322 @@
+[
+  {
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\qa\\xlsx_native\\2025.5.10\\飞机_1.pdf",
+    "version": "12.0",
+    "node": "2025.5.10",
+    "range": "A1:H17",
+    "renderer": "Microsoft Excel native",
+    "source_sha256": "10D737FEAEE139FD81744546CA1E41E4400E810644F11250805A625F82F68EBE",
+    "status": "exported",
+    "sheet": "飞机"
+  },
+  {
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\qa\\xlsx_native\\2025.5.10\\飞机_2.pdf",
+    "version": "12.0",
+    "node": "2025.5.10",
+    "range": "I1:P17",
+    "renderer": "Microsoft Excel native",
+    "source_sha256": "10D737FEAEE139FD81744546CA1E41E4400E810644F11250805A625F82F68EBE",
+    "status": "exported",
+    "sheet": "飞机"
+  },
+  {
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\qa\\xlsx_native\\2025.5.10\\舰艇_1.pdf",
+    "version": "12.0",
+    "node": "2025.5.10",
+    "range": "A1:F12",
+    "renderer": "Microsoft Excel native",
+    "source_sha256": "10D737FEAEE139FD81744546CA1E41E4400E810644F11250805A625F82F68EBE",
+    "status": "exported",
+    "sheet": "舰艇"
+  },
+  {
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\qa\\xlsx_native\\2025.5.10\\舰艇_2.pdf",
+    "version": "12.0",
+    "node": "2025.5.10",
+    "range": "G1:K12",
+    "renderer": "Microsoft Excel native",
+    "source_sha256": "10D737FEAEE139FD81744546CA1E41E4400E810644F11250805A625F82F68EBE",
+    "status": "exported",
+    "sheet": "舰艇"
+  },
+  {
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\qa\\xlsx_native\\2025.5.18\\飞机_1.pdf",
+    "version": "12.0",
+    "node": "2025.5.18",
+    "range": "A1:H12",
+    "renderer": "Microsoft Excel native",
+    "source_sha256": "ADD7789B517513CEBDF3777C9364D1E8244C0B503A5F8F56E60815DBC62EC495",
+    "status": "exported",
+    "sheet": "飞机"
+  },
+  {
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\qa\\xlsx_native\\2025.5.18\\飞机_2.pdf",
+    "version": "12.0",
+    "node": "2025.5.18",
+    "range": "I1:P12",
+    "renderer": "Microsoft Excel native",
+    "source_sha256": "ADD7789B517513CEBDF3777C9364D1E8244C0B503A5F8F56E60815DBC62EC495",
+    "status": "exported",
+    "sheet": "飞机"
+  },
+  {
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\qa\\xlsx_native\\2025.5.18\\舰艇_1.pdf",
+    "version": "12.0",
+    "node": "2025.5.18",
+    "range": "A1:F15",
+    "renderer": "Microsoft Excel native",
+    "source_sha256": "ADD7789B517513CEBDF3777C9364D1E8244C0B503A5F8F56E60815DBC62EC495",
+    "status": "exported",
+    "sheet": "舰艇"
+  },
+  {
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\qa\\xlsx_native\\2025.5.18\\舰艇_2.pdf",
+    "version": "12.0",
+    "node": "2025.5.18",
+    "range": "G1:K15",
+    "renderer": "Microsoft Excel native",
+    "source_sha256": "ADD7789B517513CEBDF3777C9364D1E8244C0B503A5F8F56E60815DBC62EC495",
+    "status": "exported",
+    "sheet": "舰艇"
+  },
+  {
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\qa\\xlsx_native\\2025.5.30\\飞机_1.pdf",
+    "version": "12.0",
+    "node": "2025.5.30",
+    "range": "A1:H17",
+    "renderer": "Microsoft Excel native",
+    "source_sha256": "57462112E730B006B85D8F3A7164F4CC002FE6012C3BA20E082903AA8E9407F9",
+    "status": "exported",
+    "sheet": "飞机"
+  },
+  {
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\qa\\xlsx_native\\2025.5.30\\飞机_2.pdf",
+    "version": "12.0",
+    "node": "2025.5.30",
+    "range": "I1:P17",
+    "renderer": "Microsoft Excel native",
+    "source_sha256": "57462112E730B006B85D8F3A7164F4CC002FE6012C3BA20E082903AA8E9407F9",
+    "status": "exported",
+    "sheet": "飞机"
+  },
+  {
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\qa\\xlsx_native\\2025.5.30\\舰艇_1.pdf",
+    "version": "12.0",
+    "node": "2025.5.30",
+    "range": "A1:F12",
+    "renderer": "Microsoft Excel native",
+    "source_sha256": "57462112E730B006B85D8F3A7164F4CC002FE6012C3BA20E082903AA8E9407F9",
+    "status": "exported",
+    "sheet": "舰艇"
+  },
+  {
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\qa\\xlsx_native\\2025.5.30\\舰艇_2.pdf",
+    "version": "12.0",
+    "node": "2025.5.30",
+    "range": "G1:K12",
+    "renderer": "Microsoft Excel native",
+    "source_sha256": "57462112E730B006B85D8F3A7164F4CC002FE6012C3BA20E082903AA8E9407F9",
+    "status": "exported",
+    "sheet": "舰艇"
+  },
+  {
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\qa\\xlsx_native\\2025.6.9\\飞机_1.pdf",
+    "version": "12.0",
+    "node": "2025.6.9",
+    "range": "A1:H16",
+    "renderer": "Microsoft Excel native",
+    "source_sha256": "550CD3838A26F41100FC3A0E6CC83CC02135B5E1FDE47CD9D5BA096BE59AE3C6",
+    "status": "exported",
+    "sheet": "飞机"
+  },
+  {
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\qa\\xlsx_native\\2025.6.9\\飞机_2.pdf",
+    "version": "12.0",
+    "node": "2025.6.9",
+    "range": "I1:P16",
+    "renderer": "Microsoft Excel native",
+    "source_sha256": "550CD3838A26F41100FC3A0E6CC83CC02135B5E1FDE47CD9D5BA096BE59AE3C6",
+    "status": "exported",
+    "sheet": "飞机"
+  },
+  {
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\qa\\xlsx_native\\2025.6.9\\舰艇_1.pdf",
+    "version": "12.0",
+    "node": "2025.6.9",
+    "range": "A1:F13",
+    "renderer": "Microsoft Excel native",
+    "source_sha256": "550CD3838A26F41100FC3A0E6CC83CC02135B5E1FDE47CD9D5BA096BE59AE3C6",
+    "status": "exported",
+    "sheet": "舰艇"
+  },
+  {
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\qa\\xlsx_native\\2025.6.9\\舰艇_2.pdf",
+    "version": "12.0",
+    "node": "2025.6.9",
+    "range": "G1:K13",
+    "renderer": "Microsoft Excel native",
+    "source_sha256": "550CD3838A26F41100FC3A0E6CC83CC02135B5E1FDE47CD9D5BA096BE59AE3C6",
+    "status": "exported",
+    "sheet": "舰艇"
+  },
+  {
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\qa\\xlsx_native\\2025.6.17\\飞机_1.pdf",
+    "version": "12.0",
+    "node": "2025.6.17",
+    "range": "A1:H11",
+    "renderer": "Microsoft Excel native",
+    "source_sha256": "81FCCBD6879F7B1474B714D984C217D2315F96D32776729AF579EDE326E4F6C5",
+    "status": "exported",
+    "sheet": "飞机"
+  },
+  {
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\qa\\xlsx_native\\2025.6.17\\飞机_2.pdf",
+    "version": "12.0",
+    "node": "2025.6.17",
+    "range": "I1:P11",
+    "renderer": "Microsoft Excel native",
+    "source_sha256": "81FCCBD6879F7B1474B714D984C217D2315F96D32776729AF579EDE326E4F6C5",
+    "status": "exported",
+    "sheet": "飞机"
+  },
+  {
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\qa\\xlsx_native\\2025.6.17\\舰艇_1.pdf",
+    "version": "12.0",
+    "node": "2025.6.17",
+    "range": "A1:F15",
+    "renderer": "Microsoft Excel native",
+    "source_sha256": "81FCCBD6879F7B1474B714D984C217D2315F96D32776729AF579EDE326E4F6C5",
+    "status": "exported",
+    "sheet": "舰艇"
+  },
+  {
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\qa\\xlsx_native\\2025.6.17\\舰艇_2.pdf",
+    "version": "12.0",
+    "node": "2025.6.17",
+    "range": "G1:K15",
+    "renderer": "Microsoft Excel native",
+    "source_sha256": "81FCCBD6879F7B1474B714D984C217D2315F96D32776729AF579EDE326E4F6C5",
+    "status": "exported",
+    "sheet": "舰艇"
+  },
+  {
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\qa\\xlsx_native\\2025.6.29\\飞机_1.pdf",
+    "version": "12.0",
+    "node": "2025.6.29",
+    "range": "A1:H15",
+    "renderer": "Microsoft Excel native",
+    "source_sha256": "D7E9DCDB9DF6EC99BDF83AAA784229656904E67A73C05449C24EDFB184B2D56A",
+    "status": "exported",
+    "sheet": "飞机"
+  },
+  {
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\qa\\xlsx_native\\2025.6.29\\飞机_2.pdf",
+    "version": "12.0",
+    "node": "2025.6.29",
+    "range": "I1:P15",
+    "renderer": "Microsoft Excel native",
+    "source_sha256": "D7E9DCDB9DF6EC99BDF83AAA784229656904E67A73C05449C24EDFB184B2D56A",
+    "status": "exported",
+    "sheet": "飞机"
+  },
+  {
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\qa\\xlsx_native\\2025.6.29\\舰艇_1.pdf",
+    "version": "12.0",
+    "node": "2025.6.29",
+    "range": "A1:F12",
+    "renderer": "Microsoft Excel native",
+    "source_sha256": "D7E9DCDB9DF6EC99BDF83AAA784229656904E67A73C05449C24EDFB184B2D56A",
+    "status": "exported",
+    "sheet": "舰艇"
+  },
+  {
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\qa\\xlsx_native\\2025.6.29\\舰艇_2.pdf",
+    "version": "12.0",
+    "node": "2025.6.29",
+    "range": "G1:K12",
+    "renderer": "Microsoft Excel native",
+    "source_sha256": "D7E9DCDB9DF6EC99BDF83AAA784229656904E67A73C05449C24EDFB184B2D56A",
+    "status": "exported",
+    "sheet": "舰艇"
+  },
+  {
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\qa\\xlsx_native\\2025.7.9\\飞机_1.pdf",
+    "version": "12.0",
+    "node": "2025.7.9",
+    "range": "A1:H16",
+    "renderer": "Microsoft Excel native",
+    "source_sha256": "E58B5A31EC11641895E27FD44FB3505F8B086AF5177D237430407813A2BB81D3",
+    "status": "exported",
+    "sheet": "飞机"
+  },
+  {
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\qa\\xlsx_native\\2025.7.9\\飞机_2.pdf",
+    "version": "12.0",
+    "node": "2025.7.9",
+    "range": "I1:P16",
+    "renderer": "Microsoft Excel native",
+    "source_sha256": "E58B5A31EC11641895E27FD44FB3505F8B086AF5177D237430407813A2BB81D3",
+    "status": "exported",
+    "sheet": "飞机"
+  },
+  {
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\qa\\xlsx_native\\2025.7.9\\舰艇_1.pdf",
+    "version": "12.0",
+    "node": "2025.7.9",
+    "range": "A1:F13",
+    "renderer": "Microsoft Excel native",
+    "source_sha256": "E58B5A31EC11641895E27FD44FB3505F8B086AF5177D237430407813A2BB81D3",
+    "status": "exported",
+    "sheet": "舰艇"
+  },
+  {
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\qa\\xlsx_native\\2025.7.9\\舰艇_2.pdf",
+    "version": "12.0",
+    "node": "2025.7.9",
+    "range": "G1:K13",
+    "renderer": "Microsoft Excel native",
+    "source_sha256": "E58B5A31EC11641895E27FD44FB3505F8B086AF5177D237430407813A2BB81D3",
+    "status": "exported",
+    "sheet": "舰艇"
+  },
+  {
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\qa\\xlsx_native\\2025.7.17\\飞机_1.pdf",
+    "version": "12.0",
+    "node": "2025.7.17",
+    "range": "A1:H10",
+    "renderer": "Microsoft Excel native",
+    "source_sha256": "54CC57613DB2F9B0A6199743AD5F589C98FCB0B617C509868F17E6B2CCEB88CC",
+    "status": "exported",
+    "sheet": "飞机"
+  },
+  {
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\qa\\xlsx_native\\2025.7.17\\飞机_2.pdf",
+    "version": "12.0",
+    "node": "2025.7.17",
+    "range": "I1:P10",
+    "renderer": "Microsoft Excel native",
+    "source_sha256": "54CC57613DB2F9B0A6199743AD5F589C98FCB0B617C509868F17E6B2CCEB88CC",
+    "status": "exported",
+    "sheet": "飞机"
+  },
+  {
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\qa\\xlsx_native\\2025.7.17\\舰艇_1.pdf",
+    "version": "12.0",
+    "node": "2025.7.17",
+    "range": "A1:F15",
+    "renderer": "Microsoft Excel native",
+    "source_sha256": "54CC57613DB2F9B0A6199743AD5F589C98FCB0B617C509868F17E6B2CCEB88CC",
+    "status": "exported",
+    "sheet": "舰艇"
+  },
+  {
+    "output": "C:\\Users\\Andy1\\.codex\\artifacts\\multimodal-knowledge-org\\20261012_initial_eight_nodes_v8\\qa\\xlsx_native\\2025.7.17\\舰艇_2.pdf",
+    "version": "12.0",
+    "node": "2025.7.17",
+    "range": "G1:K15",
+    "renderer": "Microsoft Excel native",
+    "source_sha256": "54CC57613DB2F9B0A6199743AD5F589C98FCB0B617C509868F17E6B2CCEB88CC",
+    "status": "exported",
+    "sheet": "舰艇"
+  }
+]

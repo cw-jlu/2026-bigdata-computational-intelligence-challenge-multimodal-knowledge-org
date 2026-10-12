@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "archive": "赛题2_初赛_八节点_工程与证据包.zip",
+  "sha256": "4e14c1e160f45d81309d6171fc3047313681b7a0abb04015bff0b57b05b99436",
+  "bytes": 161166713,
+  "members": 8963,
+  "raw_input_files": 7878,
+  "original_prompt_included": true,
+  "all_eight_independent_audits_included": true,
+  "source_code_included": true,
+  "formal_submission_zip_separate": true
+}

@@ -1,0 +1,17 @@
+{
+  "url": "https://www.mod.go.jp/en/images/ea07e6ad451bbc35d870ab43fa2b402fd8537d17.pdf",
+  "retrieved_at": "2026-10-12T02:27:06.216752+00:00",
+  "headers": {},
+  "metadata": {
+    "/CreationDate": "D:20240406114816+09'00'",
+    "/ModDate": "D:20240406114817+09'00'",
+    "/Producer": "JUST PDF 4"
+  },
+  "sha256": "400320055a9fcaaadbdc14954bda041c20533b7e929c001610ce816193121d1f",
+  "pages": 2,
+  "candidate_pages": [
+    1,
+    2
+  ],
+  "reading_status": "pipeline_pdf_text_extraction; human_content_review_pending"
+}

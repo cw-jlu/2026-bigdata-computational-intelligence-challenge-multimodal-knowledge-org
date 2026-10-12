@@ -1,0 +1,25 @@
+{
+  "url": "https://www.nzdf.mil.nz/assets/Uploads/DocumentLibrary/NZDF-Annual-Report-2024_Web-version.pdf",
+  "retrieved_at": "2026-10-12T02:27:08.513705+00:00",
+  "headers": {},
+  "metadata": {
+    "/CreationDate": "D:20241021155125+13'00'",
+    "/Creator": "Adobe InDesign 19.4 (Macintosh)",
+    "/ModDate": "D:20241021155303+13'00'",
+    "/Producer": "Adobe PDF Library 17.0",
+    "/Trapped": "/False"
+  },
+  "sha256": "f8ead6a7752299514455a6ae1b4bb77c3eef2cd5485a8cc7896ffabd81725d4d",
+  "pages": 244,
+  "candidate_pages": [
+    45,
+    49,
+    50,
+    51,
+    73,
+    75,
+    78,
+    117
+  ],
+  "reading_status": "pipeline_pdf_text_extraction; human_content_review_pending"
+}

@@ -1,0 +1,7 @@
+{
+  "as_of": "2025-06-09",
+  "path": "audits/2025.6.9/frozen_ledger.json",
+  "sha256": "018e7f10a10ba67f53bbc15c7785a7a437c40fcea31cdae2980a508026b06353",
+  "cutoff_check": true,
+  "frozen_before_analysis": true
+}
