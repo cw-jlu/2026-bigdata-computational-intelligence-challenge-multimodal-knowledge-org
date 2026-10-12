@@ -57,7 +57,7 @@ python run.py --input ../../赛题2-初赛/数据 --output output --stage prelim
 
 补充全版本比较：已归档成绩中v4总分 **75.5445** 最高，v8低 **4.3924**；v8格式最好，但准确性和分析低于v4。[六版评分、14项版本范围与逐节点差异](docs/09-历史全部版本与v8对照.md)已补齐，并更正此前遗漏v4完整评分的复盘。
 
-2026-10-12 最新实测：[初赛八节点完整重做v8](artifact/20261012_initial_eight_nodes_v8/README.md)，完整性86.1320、准确性65.2266、格式96.5230、分析45.2500；按展示均值加权总分 **71.1521**。相较v2的总分提升主要来自格式，准确性与分析仍需改进。[评分与具体实现复盘](docs/08-v8初赛评测与复盘.md)区分已知代码问题和未确认扣分原因；正式48文件、源码、独立节点审计在版本目录，完整工程ZIP在[GitHub Release](https://github.com/cw-jlu/2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org/releases/tag/initial-v8-20261012)，保留原交付哈希。
+2026-10-12 v8实测：[初赛八节点完整重做v8](artifact/20261012_initial_eight_nodes_v8/README.md)，完整性86.1320、准确性65.2266、格式96.5230、分析45.2500；按展示均值加权总分 **71.1521**。相较v2的总分提升主要来自格式，准确性与分析仍需改进。[评分与具体实现复盘](docs/08-v8初赛评测与复盘.md)区分已知代码问题和未确认扣分原因；正式48文件、源码、独立节点审计在版本目录，完整工程ZIP在[GitHub Release](https://github.com/cw-jlu/2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org/releases/tag/initial-v8-20261012)，保留原交付哈希。
 
 
 
@@ -73,3 +73,5 @@ GPT 独立重做 v2 的完整实现与交付见 [`artifact/20261009_gpt_accuracy
 - `main`：公共文档和环境配置
 
 每个阶段应保留可复现的代码、配置、依赖和最高成绩产物。
+
+2026-10-12 最新实测：v9初赛八节点完整性86.2631、准确性67.3760、格式96.5612、分析55.8750；按展示均值加权总分 **74.1754**，较v8 **+3.0233**、较v4 **−1.3691**。v4仍为最高总分对照。[评分记录与版本绑定](docs/10-v9初赛评测记录.md)。
