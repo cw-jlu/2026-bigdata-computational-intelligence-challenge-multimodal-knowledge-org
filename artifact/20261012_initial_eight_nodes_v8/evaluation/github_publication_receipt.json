@@ -1,0 +1,57 @@
+{
+  "repository": "cw-jlu/2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org",
+  "repository_private": true,
+  "commit": "4f885eb4f8d5031656515a6bd79a13a7546e401f",
+  "commit_url": "https://github.com/cw-jlu/2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org/commit/4f885eb4f8d5031656515a6bd79a13a7546e401f",
+  "release_tag": "initial-v8-20261012",
+  "release_id": 410156211,
+  "release_url": "https://github.com/cw-jlu/2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org/releases/tag/initial-v8-20261012",
+  "submission_platform_upload": false,
+  "actual_github_publication": true,
+  "assets": [
+    {
+      "name": "initial-v8-eight-nodes-submission.zip",
+      "id": 632639287,
+      "bytes": 23509190,
+      "local_sha256": "1f87e66dd79f0f35e6d3642bd2ad720ed803a98650b5120c94fba454d152c801",
+      "remote_digest": "sha256:1f87e66dd79f0f35e6d3642bd2ad720ed803a98650b5120c94fba454d152c801",
+      "state": "uploaded",
+      "download_url": "https://github.com/cw-jlu/2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org/releases/download/initial-v8-20261012/initial-v8-eight-nodes-submission.zip",
+      "sha256_verified": true
+    },
+    {
+      "name": "initial-v8-engineering-evidence.zip",
+      "id": 632639470,
+      "bytes": 161166713,
+      "local_sha256": "4e14c1e160f45d81309d6171fc3047313681b7a0abb04015bff0b57b05b99436",
+      "remote_digest": "sha256:4e14c1e160f45d81309d6171fc3047313681b7a0abb04015bff0b57b05b99436",
+      "state": "uploaded",
+      "download_url": "https://github.com/cw-jlu/2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org/releases/download/initial-v8-20261012/initial-v8-engineering-evidence.zip",
+      "sha256_verified": true
+    },
+    {
+      "name": "initial-v8-evaluation.json",
+      "id": 632640498,
+      "bytes": 6585,
+      "local_sha256": "4cd4fb3bfb087a08ed2a68dbdfaeb0921ba2d95aa6fe70def4b674fbc089f779",
+      "remote_digest": "sha256:4cd4fb3bfb087a08ed2a68dbdfaeb0921ba2d95aa6fe70def4b674fbc089f779",
+      "state": "uploaded",
+      "download_url": "https://github.com/cw-jlu/2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org/releases/download/initial-v8-20261012/initial-v8-evaluation.json",
+      "sha256_verified": true
+    },
+    {
+      "name": "initial-v8-review.md",
+      "id": 632640550,
+      "bytes": 8765,
+      "local_sha256": "64dbb04cc05144239fee818350695212242da64c120267cfaf87186b7b995ce5",
+      "remote_digest": "sha256:64dbb04cc05144239fee818350695212242da64c120267cfaf87186b7b995ce5",
+      "state": "uploaded",
+      "download_url": "https://github.com/cw-jlu/2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org/releases/download/initial-v8-20261012/initial-v8-review.md",
+      "sha256_verified": true
+    }
+  ],
+  "verification_status": "all_four_remote_assets_sha256_verified",
+  "release_created_at": "2026-10-12T04:17:10Z",
+  "release_published_at": "2026-10-12T04:19:04Z",
+  "verified_at_utc": "2026-10-12T04:21:01.925099+00:00"
+}
