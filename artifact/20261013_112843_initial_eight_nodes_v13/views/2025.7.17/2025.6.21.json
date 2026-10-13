@@ -1,0 +1,11 @@
+{
+  "candidate_ledger_sha256": "dd50eae59eed7cd486e0413738c51f7744c150550157079a465e4c742365cd9b",
+  "counts": {
+    "纳入": 24,
+    "排除": 20,
+    "域外": 11
+  },
+  "atoms": 113,
+  "unparsed": 0,
+  "future_input_used": false
+}

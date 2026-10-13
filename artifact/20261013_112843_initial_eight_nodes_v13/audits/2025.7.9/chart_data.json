@@ -1,0 +1,198 @@
+{
+  "as_of": "2025-07-09",
+  "event_ids": [
+    "2025.7.9-AIR-00E4A11648FD8A",
+    "2025.7.9-AIR-C07E718BA45003",
+    "2025.7.9-AIR-58871648E6771F",
+    "2025.7.9-AIR-6987CB8DEA50B8",
+    "2025.7.9-AIR-837E22A3A82271",
+    "2025.7.9-AIR-DF3BA9104FBBDD",
+    "2025.7.9-AIR-790C13D3E12D8D",
+    "2025.7.9-AIR-5F5CFC5CE15BB7",
+    "2025.7.9-AIR-E5D19CCDC0A2D9",
+    "2025.7.9-AIR-E6002140F96CB5",
+    "2025.7.9-AIR-CDC6B23809CAC2",
+    "2025.7.9-AIR-70BEFDDCEA7515",
+    "2025.7.9-AIR-4D3C301D3FD2BC",
+    "2025.7.9-AIR-C4528DADD3034E",
+    "2025.7.9-AIR-5A676A5A746D09",
+    "2025.7.9-SHIP-07BC21EE7E20DD",
+    "2025.7.9-SHIP-AF41F705A929BC",
+    "2025.7.9-SHIP-04B85D89354CC0",
+    "2025.7.9-SHIP-84C74B4313BF87",
+    "2025.7.9-SHIP-29E8BE84A312DA",
+    "2025.7.9-SHIP-CBF728BABB4814",
+    "2025.7.9-SHIP-9377CB451A86FB",
+    "2025.7.9-SHIP-720A50A3E075BD",
+    "2025.7.9-SHIP-5F87B4FBC42C1F",
+    "2025.7.9-SHIP-FE6EC8A8A5AAB8",
+    "2025.7.9-SHIP-44A175A3DA2C79",
+    "2025.7.9-SHIP-1C36982FD1B00D"
+  ],
+  "sampling": "核实活动窗口整点参与量之和，不是去重实体数；线段只连接整点；未知时间不补造",
+  "hourly": [
+    {
+      "hour": 0,
+      "air": 0,
+      "ship": 0
+    },
+    {
+      "hour": 1,
+      "air": 0,
+      "ship": 0
+    },
+    {
+      "hour": 2,
+      "air": 0,
+      "ship": 0
+    },
+    {
+      "hour": 3,
+      "air": 2,
+      "ship": 2
+    },
+    {
+      "hour": 4,
+      "air": 2,
+      "ship": 2
+    },
+    {
+      "hour": 5,
+      "air": 0,
+      "ship": 0
+    },
+    {
+      "hour": 6,
+      "air": 3,
+      "ship": 2
+    },
+    {
+      "hour": 7,
+      "air": 3,
+      "ship": 2
+    },
+    {
+      "hour": 8,
+      "air": 0,
+      "ship": 0
+    },
+    {
+      "hour": 9,
+      "air": 4,
+      "ship": 1
+    },
+    {
+      "hour": 10,
+      "air": 4,
+      "ship": 1
+    },
+    {
+      "hour": 11,
+      "air": 0,
+      "ship": 0
+    },
+    {
+      "hour": 12,
+      "air": 1,
+      "ship": 3
+    },
+    {
+      "hour": 13,
+      "air": 1,
+      "ship": 3
+    },
+    {
+      "hour": 14,
+      "air": 0,
+      "ship": 0
+    },
+    {
+      "hour": 15,
+      "air": 2,
+      "ship": 2
+    },
+    {
+      "hour": 16,
+      "air": 2,
+      "ship": 2
+    },
+    {
+      "hour": 17,
+      "air": 0,
+      "ship": 0
+    },
+    {
+      "hour": 18,
+      "air": 2,
+      "ship": 1
+    },
+    {
+      "hour": 19,
+      "air": 2,
+      "ship": 1
+    },
+    {
+      "hour": 20,
+      "air": 0,
+      "ship": 0
+    },
+    {
+      "hour": 21,
+      "air": 2,
+      "ship": 1
+    },
+    {
+      "hour": 22,
+      "air": 2,
+      "ship": 1
+    },
+    {
+      "hour": 23,
+      "air": 0,
+      "ship": 0
+    }
+  ],
+  "groups": [
+    {
+      "name": "02_中国主要机舰活动示意图.png",
+      "event_ids": [
+        "2025.7.9-SHIP-07BC21EE7E20DD",
+        "2025.7.9-AIR-00E4A11648FD8A",
+        "2025.7.9-AIR-C07E718BA45003",
+        "2025.7.9-AIR-58871648E6771F",
+        "2025.7.9-AIR-6987CB8DEA50B8",
+        "2025.7.9-AIR-837E22A3A82271",
+        "2025.7.9-SHIP-AF41F705A929BC",
+        "2025.7.9-AIR-DF3BA9104FBBDD",
+        "2025.7.9-SHIP-04B85D89354CC0"
+      ]
+    },
+    {
+      "name": "03_美国主要机舰活动示意图.png",
+      "event_ids": []
+    },
+    {
+      "name": "04_其他国家主要机舰活动示意图.png",
+      "event_ids": [
+        "2025.7.9-SHIP-1C36982FD1B00D",
+        "2025.7.9-AIR-5F5CFC5CE15BB7",
+        "2025.7.9-AIR-C4528DADD3034E",
+        "2025.7.9-AIR-70BEFDDCEA7515",
+        "2025.7.9-SHIP-44A175A3DA2C79",
+        "2025.7.9-AIR-E6002140F96CB5",
+        "2025.7.9-SHIP-9377CB451A86FB",
+        "2025.7.9-AIR-CDC6B23809CAC2",
+        "2025.7.9-SHIP-5F87B4FBC42C1F",
+        "2025.7.9-SHIP-720A50A3E075BD",
+        "2025.7.9-SHIP-84C74B4313BF87",
+        "2025.7.9-SHIP-FE6EC8A8A5AAB8",
+        "2025.7.9-SHIP-29E8BE84A312DA",
+        "2025.7.9-AIR-790C13D3E12D8D",
+        "2025.7.9-AIR-4D3C301D3FD2BC",
+        "2025.7.9-SHIP-CBF728BABB4814",
+        "2025.7.9-AIR-E5D19CCDC0A2D9",
+        "2025.7.9-AIR-5A676A5A746D09"
+      ]
+    }
+  ]
+}

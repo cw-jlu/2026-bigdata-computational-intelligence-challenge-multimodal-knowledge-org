@@ -1,0 +1,1118 @@
+[
+  {
+    "node": "2025.5.10",
+    "version": "v4",
+    "retained": [
+      "2025.5.10-AIR-026EC345AA8CFC",
+      "2025.5.10-AIR-25805D3B0D1796",
+      "2025.5.10-AIR-3B564DE1F3DD6D",
+      "2025.5.10-AIR-94408DEB623424",
+      "2025.5.10-AIR-960E55131A4A49",
+      "2025.5.10-AIR-965A1A0C03084F",
+      "2025.5.10-AIR-9740CBEDE14968",
+      "2025.5.10-AIR-9AF0FB7969EFE7",
+      "2025.5.10-AIR-A19EDC5BFA2976",
+      "2025.5.10-AIR-AABED5A2690625",
+      "2025.5.10-AIR-AF10F9EBB9E18A",
+      "2025.5.10-AIR-BAF8BCA0C55F92",
+      "2025.5.10-AIR-C498D3CE9B3184",
+      "2025.5.10-AIR-D4015A33B5ADEF",
+      "2025.5.10-AIR-F0865298F17A1F",
+      "2025.5.10-SHIP-0AB0D8C5EB8110",
+      "2025.5.10-SHIP-15B9B4C8E8B877",
+      "2025.5.10-SHIP-2C32CD0ACCDDF9",
+      "2025.5.10-SHIP-65264CA1B8CB37",
+      "2025.5.10-SHIP-69B3604EFC701D",
+      "2025.5.10-SHIP-73A935AD1853F9",
+      "2025.5.10-SHIP-82FA3EBD366A15",
+      "2025.5.10-SHIP-86AD1B85DCDEF3",
+      "2025.5.10-SHIP-A429047D9CB3EB"
+    ],
+    "added": [
+      "2025.5.10-SHIP-02B8E0C5729DCE",
+      "2025.5.10-SHIP-5800315760D819"
+    ],
+    "removed": [],
+    "field_changes": [
+      {
+        "id": "2025.5.10-AIR-026EC345AA8CFC",
+        "old_region": "钓鱼岛海域",
+        "new_region": "东海"
+      },
+      {
+        "id": "2025.5.10-AIR-25805D3B0D1796",
+        "old_region": "西沙群岛海域",
+        "new_region": "南海"
+      },
+      {
+        "id": "2025.5.10-AIR-3B564DE1F3DD6D",
+        "old_region": "海南岛东南海域",
+        "new_region": "南海"
+      },
+      {
+        "id": "2025.5.10-AIR-94408DEB623424",
+        "old_region": "苏岩礁附近海域",
+        "new_region": "东海"
+      },
+      {
+        "id": "2025.5.10-AIR-9740CBEDE14968",
+        "old_region": "黄海中部",
+        "new_region": "黄海"
+      },
+      {
+        "id": "2025.5.10-AIR-9AF0FB7969EFE7",
+        "old_region": "南黄海",
+        "new_region": "黄海"
+      },
+      {
+        "id": "2025.5.10-AIR-A19EDC5BFA2976",
+        "old_region": "钓鱼岛海域",
+        "new_region": "东海"
+      },
+      {
+        "id": "2025.5.10-AIR-AABED5A2690625",
+        "old_region": "北黄海",
+        "new_region": "黄海"
+      },
+      {
+        "id": "2025.5.10-AIR-D4015A33B5ADEF",
+        "old_region": "仁爱礁附近海域",
+        "new_region": "南海"
+      },
+      {
+        "id": "2025.5.10-AIR-F0865298F17A1F",
+        "old_region": "仁爱礁附近海域",
+        "new_region": "南海"
+      }
+    ]
+  },
+  {
+    "node": "2025.5.10",
+    "version": "v9",
+    "retained": [
+      "2025.5.10-AIR-026EC345AA8CFC",
+      "2025.5.10-AIR-25805D3B0D1796",
+      "2025.5.10-AIR-3B564DE1F3DD6D",
+      "2025.5.10-AIR-94408DEB623424",
+      "2025.5.10-AIR-960E55131A4A49",
+      "2025.5.10-AIR-965A1A0C03084F",
+      "2025.5.10-AIR-9740CBEDE14968",
+      "2025.5.10-AIR-9AF0FB7969EFE7",
+      "2025.5.10-AIR-A19EDC5BFA2976",
+      "2025.5.10-AIR-AABED5A2690625",
+      "2025.5.10-AIR-AF10F9EBB9E18A",
+      "2025.5.10-AIR-BAF8BCA0C55F92",
+      "2025.5.10-AIR-C498D3CE9B3184",
+      "2025.5.10-AIR-D4015A33B5ADEF",
+      "2025.5.10-AIR-F0865298F17A1F",
+      "2025.5.10-SHIP-02B8E0C5729DCE",
+      "2025.5.10-SHIP-0AB0D8C5EB8110",
+      "2025.5.10-SHIP-15B9B4C8E8B877",
+      "2025.5.10-SHIP-2C32CD0ACCDDF9",
+      "2025.5.10-SHIP-5800315760D819",
+      "2025.5.10-SHIP-65264CA1B8CB37",
+      "2025.5.10-SHIP-69B3604EFC701D",
+      "2025.5.10-SHIP-73A935AD1853F9",
+      "2025.5.10-SHIP-82FA3EBD366A15",
+      "2025.5.10-SHIP-86AD1B85DCDEF3",
+      "2025.5.10-SHIP-A429047D9CB3EB"
+    ],
+    "added": [],
+    "removed": [],
+    "field_changes": []
+  },
+  {
+    "node": "2025.5.10",
+    "version": "v12",
+    "retained": [
+      "2025.5.10-AIR-026EC345AA8CFC",
+      "2025.5.10-AIR-25805D3B0D1796",
+      "2025.5.10-AIR-3B564DE1F3DD6D",
+      "2025.5.10-AIR-94408DEB623424",
+      "2025.5.10-AIR-960E55131A4A49",
+      "2025.5.10-AIR-965A1A0C03084F",
+      "2025.5.10-AIR-9740CBEDE14968",
+      "2025.5.10-AIR-9AF0FB7969EFE7",
+      "2025.5.10-AIR-A19EDC5BFA2976",
+      "2025.5.10-AIR-AABED5A2690625",
+      "2025.5.10-AIR-AF10F9EBB9E18A",
+      "2025.5.10-AIR-BAF8BCA0C55F92",
+      "2025.5.10-AIR-C498D3CE9B3184",
+      "2025.5.10-AIR-D4015A33B5ADEF",
+      "2025.5.10-AIR-F0865298F17A1F",
+      "2025.5.10-SHIP-02B8E0C5729DCE",
+      "2025.5.10-SHIP-0AB0D8C5EB8110",
+      "2025.5.10-SHIP-15B9B4C8E8B877",
+      "2025.5.10-SHIP-2C32CD0ACCDDF9",
+      "2025.5.10-SHIP-5800315760D819",
+      "2025.5.10-SHIP-65264CA1B8CB37",
+      "2025.5.10-SHIP-69B3604EFC701D",
+      "2025.5.10-SHIP-73A935AD1853F9",
+      "2025.5.10-SHIP-82FA3EBD366A15",
+      "2025.5.10-SHIP-86AD1B85DCDEF3",
+      "2025.5.10-SHIP-A429047D9CB3EB"
+    ],
+    "added": [],
+    "removed": [],
+    "field_changes": []
+  },
+  {
+    "node": "2025.5.18",
+    "version": "v4",
+    "retained": [
+      "2025.5.18-AIR-16142222CAD914",
+      "2025.5.18-AIR-21D56C7A7D64EE",
+      "2025.5.18-AIR-324E901611E0D4",
+      "2025.5.18-AIR-3DE81ECF33F3CD",
+      "2025.5.18-AIR-6D81CA7290EEA5",
+      "2025.5.18-AIR-9AB84D23E12184",
+      "2025.5.18-AIR-ACA94339A8DF16",
+      "2025.5.18-AIR-B452BCCC01C39D",
+      "2025.5.18-AIR-D7C62364E3C9F0",
+      "2025.5.18-AIR-D99590FBECD5CC",
+      "2025.5.18-SHIP-09E9F08F7CCEB9",
+      "2025.5.18-SHIP-15B925EF6A6E38",
+      "2025.5.18-SHIP-3620BF9D87F5DD",
+      "2025.5.18-SHIP-5946CAFDE26C1A",
+      "2025.5.18-SHIP-67FEF132636297",
+      "2025.5.18-SHIP-754CE68DA4D68A",
+      "2025.5.18-SHIP-83DAA2F986F46C",
+      "2025.5.18-SHIP-8D9B5F7E41B14D",
+      "2025.5.18-SHIP-A6A7A2AB149A28"
+    ],
+    "added": [
+      "2025.5.18-AIR-95E885ABD4C78A",
+      "2025.5.18-SHIP-2CB42F45109B02",
+      "2025.5.18-SHIP-40E8F499829F42",
+      "2025.5.18-SHIP-5F0A5E4A5F20B7",
+      "2025.5.18-SHIP-A3121D0AD5A6C3"
+    ],
+    "removed": [],
+    "field_changes": [
+      {
+        "id": "2025.5.18-AIR-21D56C7A7D64EE",
+        "old_region": "纳土纳群岛北部海域",
+        "new_region": "南海"
+      },
+      {
+        "id": "2025.5.18-AIR-324E901611E0D4",
+        "old_region": "青岛外海",
+        "new_region": "黄海"
+      },
+      {
+        "id": "2025.5.18-AIR-3DE81ECF33F3CD",
+        "old_region": "温州外海",
+        "new_region": "东海"
+      },
+      {
+        "id": "2025.5.18-AIR-B452BCCC01C39D",
+        "old_region": "万安滩海域",
+        "new_region": "南海"
+      },
+      {
+        "id": "2025.5.18-AIR-D7C62364E3C9F0",
+        "old_region": "东海北部",
+        "new_region": "东海"
+      }
+    ]
+  },
+  {
+    "node": "2025.5.18",
+    "version": "v9",
+    "retained": [
+      "2025.5.18-AIR-16142222CAD914",
+      "2025.5.18-AIR-21D56C7A7D64EE",
+      "2025.5.18-AIR-324E901611E0D4",
+      "2025.5.18-AIR-3DE81ECF33F3CD",
+      "2025.5.18-AIR-6D81CA7290EEA5",
+      "2025.5.18-AIR-95E885ABD4C78A",
+      "2025.5.18-AIR-9AB84D23E12184",
+      "2025.5.18-AIR-ACA94339A8DF16",
+      "2025.5.18-AIR-B452BCCC01C39D",
+      "2025.5.18-AIR-D7C62364E3C9F0",
+      "2025.5.18-AIR-D99590FBECD5CC",
+      "2025.5.18-SHIP-09E9F08F7CCEB9",
+      "2025.5.18-SHIP-15B925EF6A6E38",
+      "2025.5.18-SHIP-2CB42F45109B02",
+      "2025.5.18-SHIP-3620BF9D87F5DD",
+      "2025.5.18-SHIP-40E8F499829F42",
+      "2025.5.18-SHIP-5946CAFDE26C1A",
+      "2025.5.18-SHIP-5F0A5E4A5F20B7",
+      "2025.5.18-SHIP-67FEF132636297",
+      "2025.5.18-SHIP-754CE68DA4D68A",
+      "2025.5.18-SHIP-83DAA2F986F46C",
+      "2025.5.18-SHIP-8D9B5F7E41B14D",
+      "2025.5.18-SHIP-A3121D0AD5A6C3",
+      "2025.5.18-SHIP-A6A7A2AB149A28"
+    ],
+    "added": [],
+    "removed": [],
+    "field_changes": []
+  },
+  {
+    "node": "2025.5.18",
+    "version": "v12",
+    "retained": [
+      "2025.5.18-AIR-16142222CAD914",
+      "2025.5.18-AIR-21D56C7A7D64EE",
+      "2025.5.18-AIR-324E901611E0D4",
+      "2025.5.18-AIR-3DE81ECF33F3CD",
+      "2025.5.18-AIR-6D81CA7290EEA5",
+      "2025.5.18-AIR-95E885ABD4C78A",
+      "2025.5.18-AIR-9AB84D23E12184",
+      "2025.5.18-AIR-ACA94339A8DF16",
+      "2025.5.18-AIR-B452BCCC01C39D",
+      "2025.5.18-AIR-D7C62364E3C9F0",
+      "2025.5.18-AIR-D99590FBECD5CC",
+      "2025.5.18-SHIP-09E9F08F7CCEB9",
+      "2025.5.18-SHIP-15B925EF6A6E38",
+      "2025.5.18-SHIP-2CB42F45109B02",
+      "2025.5.18-SHIP-3620BF9D87F5DD",
+      "2025.5.18-SHIP-40E8F499829F42",
+      "2025.5.18-SHIP-5946CAFDE26C1A",
+      "2025.5.18-SHIP-5F0A5E4A5F20B7",
+      "2025.5.18-SHIP-67FEF132636297",
+      "2025.5.18-SHIP-754CE68DA4D68A",
+      "2025.5.18-SHIP-83DAA2F986F46C",
+      "2025.5.18-SHIP-8D9B5F7E41B14D",
+      "2025.5.18-SHIP-A3121D0AD5A6C3",
+      "2025.5.18-SHIP-A6A7A2AB149A28"
+    ],
+    "added": [],
+    "removed": [],
+    "field_changes": []
+  },
+  {
+    "node": "2025.5.30",
+    "version": "v4",
+    "retained": [
+      "2025.5.30-AIR-0D82D6A790D88F",
+      "2025.5.30-AIR-2CED63D9B93476",
+      "2025.5.30-AIR-3504D0A15DE5CB",
+      "2025.5.30-AIR-3D14BA8654A71E",
+      "2025.5.30-AIR-41C020E9D4659E",
+      "2025.5.30-AIR-4EDAD658D2D3AC",
+      "2025.5.30-AIR-65D7D93F9F027D",
+      "2025.5.30-AIR-6D87BDE4F5F959",
+      "2025.5.30-AIR-887EB45921C891",
+      "2025.5.30-AIR-8FC28F0D307A5A",
+      "2025.5.30-AIR-94393E1FDB1293",
+      "2025.5.30-AIR-9811D007D417FC",
+      "2025.5.30-AIR-B029ABF10323C9",
+      "2025.5.30-AIR-BDBB375FEA4109",
+      "2025.5.30-AIR-FF26392625DADF",
+      "2025.5.30-SHIP-27AE7EADC24E03",
+      "2025.5.30-SHIP-29CFC354BE658A",
+      "2025.5.30-SHIP-66816A0F133FF5",
+      "2025.5.30-SHIP-7AE284DDE9E3AF",
+      "2025.5.30-SHIP-A313B909D0B466",
+      "2025.5.30-SHIP-B76FCE76E5B127",
+      "2025.5.30-SHIP-CD8E455B793631"
+    ],
+    "added": [
+      "2025.5.30-SHIP-33BD433A9FD3C4",
+      "2025.5.30-SHIP-6C26F0ADB64694",
+      "2025.5.30-SHIP-C722F95AB38966",
+      "2025.5.30-SHIP-FE7D46112C7F72"
+    ],
+    "removed": [
+      "2025.5.30-AIR-7AE85FE8199419"
+    ],
+    "field_changes": [
+      {
+        "id": "2025.5.30-AIR-0D82D6A790D88F",
+        "old_region": "北部湾",
+        "new_region": "南海"
+      },
+      {
+        "id": "2025.5.30-AIR-2CED63D9B93476",
+        "old_region": "仁爱礁附近海域",
+        "new_region": "南海"
+      },
+      {
+        "id": "2025.5.30-AIR-3D14BA8654A71E",
+        "old_region": "南海中部",
+        "new_region": "南海"
+      },
+      {
+        "id": "2025.5.30-AIR-41C020E9D4659E",
+        "old_region": "北部湾",
+        "new_region": "南海"
+      },
+      {
+        "id": "2025.5.30-AIR-6D87BDE4F5F959",
+        "old_region": "纳土纳群岛北部海域",
+        "new_region": "南海"
+      },
+      {
+        "id": "2025.5.30-AIR-8FC28F0D307A5A",
+        "old_region": "赤尾屿海域",
+        "new_region": "东海"
+      },
+      {
+        "id": "2025.5.30-AIR-94393E1FDB1293",
+        "old_region": "永暑礁附近海域",
+        "new_region": "南海"
+      },
+      {
+        "id": "2025.5.30-AIR-9811D007D417FC",
+        "old_region": "青岛外海",
+        "new_region": "黄海"
+      }
+    ]
+  },
+  {
+    "node": "2025.5.30",
+    "version": "v9",
+    "retained": [
+      "2025.5.30-AIR-0D82D6A790D88F",
+      "2025.5.30-AIR-2CED63D9B93476",
+      "2025.5.30-AIR-3504D0A15DE5CB",
+      "2025.5.30-AIR-3D14BA8654A71E",
+      "2025.5.30-AIR-41C020E9D4659E",
+      "2025.5.30-AIR-4EDAD658D2D3AC",
+      "2025.5.30-AIR-65D7D93F9F027D",
+      "2025.5.30-AIR-6D87BDE4F5F959",
+      "2025.5.30-AIR-887EB45921C891",
+      "2025.5.30-AIR-8FC28F0D307A5A",
+      "2025.5.30-AIR-94393E1FDB1293",
+      "2025.5.30-AIR-9811D007D417FC",
+      "2025.5.30-AIR-B029ABF10323C9",
+      "2025.5.30-AIR-BDBB375FEA4109",
+      "2025.5.30-AIR-FF26392625DADF",
+      "2025.5.30-SHIP-27AE7EADC24E03",
+      "2025.5.30-SHIP-29CFC354BE658A",
+      "2025.5.30-SHIP-33BD433A9FD3C4",
+      "2025.5.30-SHIP-66816A0F133FF5",
+      "2025.5.30-SHIP-6C26F0ADB64694",
+      "2025.5.30-SHIP-7AE284DDE9E3AF",
+      "2025.5.30-SHIP-A313B909D0B466",
+      "2025.5.30-SHIP-B76FCE76E5B127",
+      "2025.5.30-SHIP-C722F95AB38966",
+      "2025.5.30-SHIP-CD8E455B793631",
+      "2025.5.30-SHIP-FE7D46112C7F72"
+    ],
+    "added": [],
+    "removed": [
+      "2025.5.30-AIR-7AE85FE8199419"
+    ],
+    "field_changes": []
+  },
+  {
+    "node": "2025.5.30",
+    "version": "v12",
+    "retained": [
+      "2025.5.30-AIR-0D82D6A790D88F",
+      "2025.5.30-AIR-2CED63D9B93476",
+      "2025.5.30-AIR-3504D0A15DE5CB",
+      "2025.5.30-AIR-3D14BA8654A71E",
+      "2025.5.30-AIR-41C020E9D4659E",
+      "2025.5.30-AIR-4EDAD658D2D3AC",
+      "2025.5.30-AIR-65D7D93F9F027D",
+      "2025.5.30-AIR-6D87BDE4F5F959",
+      "2025.5.30-AIR-887EB45921C891",
+      "2025.5.30-AIR-8FC28F0D307A5A",
+      "2025.5.30-AIR-94393E1FDB1293",
+      "2025.5.30-AIR-9811D007D417FC",
+      "2025.5.30-AIR-B029ABF10323C9",
+      "2025.5.30-AIR-BDBB375FEA4109",
+      "2025.5.30-AIR-FF26392625DADF",
+      "2025.5.30-SHIP-27AE7EADC24E03",
+      "2025.5.30-SHIP-29CFC354BE658A",
+      "2025.5.30-SHIP-33BD433A9FD3C4",
+      "2025.5.30-SHIP-66816A0F133FF5",
+      "2025.5.30-SHIP-6C26F0ADB64694",
+      "2025.5.30-SHIP-7AE284DDE9E3AF",
+      "2025.5.30-SHIP-A313B909D0B466",
+      "2025.5.30-SHIP-B76FCE76E5B127",
+      "2025.5.30-SHIP-C722F95AB38966",
+      "2025.5.30-SHIP-CD8E455B793631",
+      "2025.5.30-SHIP-FE7D46112C7F72"
+    ],
+    "added": [],
+    "removed": [
+      "2025.5.30-AIR-7AE85FE8199419"
+    ],
+    "field_changes": []
+  },
+  {
+    "node": "2025.6.9",
+    "version": "v4",
+    "retained": [
+      "2025.6.9-AIR-066899117BEDAE",
+      "2025.6.9-AIR-296F85D0C21B4E",
+      "2025.6.9-AIR-44C7C32D37FDB5",
+      "2025.6.9-AIR-546ED9656E40CA",
+      "2025.6.9-AIR-5A6A39B6D60CEF",
+      "2025.6.9-AIR-5CDFE525F75A28",
+      "2025.6.9-AIR-6E755AB58C6BC6",
+      "2025.6.9-AIR-74C830734B7E44",
+      "2025.6.9-AIR-7A59BD98A4C16F",
+      "2025.6.9-AIR-900D3E39F755EC",
+      "2025.6.9-AIR-9BF6C1A9FA673D",
+      "2025.6.9-AIR-B0B5F28180FE03",
+      "2025.6.9-AIR-D0EAB644175642",
+      "2025.6.9-AIR-E36A81BF0E2BBE",
+      "2025.6.9-SHIP-287E8E861699DC",
+      "2025.6.9-SHIP-3FC9A4B3CE06CF",
+      "2025.6.9-SHIP-5DCB81BF5DD2EA",
+      "2025.6.9-SHIP-8B1D59AC58141C",
+      "2025.6.9-SHIP-A188050063F370",
+      "2025.6.9-SHIP-DAC6E72221D22D",
+      "2025.6.9-SHIP-E432BD765AA26E",
+      "2025.6.9-SHIP-F0D85418133F6E",
+      "2025.6.9-SHIP-F2257ED1CF6CA7"
+    ],
+    "added": [
+      "2025.6.9-SHIP-8E9164E2C5997D",
+      "2025.6.9-SHIP-C2057EF45D400A",
+      "2025.6.9-SHIP-E33E3658B144DE"
+    ],
+    "removed": [
+      "2025.6.9-AIR-69D2C9DC4DC401"
+    ],
+    "field_changes": [
+      {
+        "id": "2025.6.9-AIR-066899117BEDAE",
+        "old_region": "长江口外海",
+        "new_region": "东海"
+      },
+      {
+        "id": "2025.6.9-AIR-296F85D0C21B4E",
+        "old_region": "黄海中部",
+        "new_region": "黄海"
+      },
+      {
+        "id": "2025.6.9-AIR-44C7C32D37FDB5",
+        "old_region": "北康暗沙海域",
+        "new_region": "南海"
+      },
+      {
+        "id": "2025.6.9-AIR-546ED9656E40CA",
+        "old_region": "南海南部",
+        "new_region": "南海"
+      },
+      {
+        "id": "2025.6.9-AIR-6E755AB58C6BC6",
+        "old_region": "北部湾",
+        "new_region": "南海"
+      },
+      {
+        "id": "2025.6.9-AIR-74C830734B7E44",
+        "old_region": "连云港外海",
+        "new_region": "黄海"
+      },
+      {
+        "id": "2025.6.9-AIR-7A59BD98A4C16F",
+        "old_region": "黄海中部",
+        "new_region": "黄海"
+      },
+      {
+        "id": "2025.6.9-AIR-B0B5F28180FE03",
+        "old_region": "黄海中部",
+        "new_region": "黄海"
+      },
+      {
+        "id": "2025.6.9-AIR-D0EAB644175642",
+        "old_region": "长江口外海",
+        "new_region": "东海"
+      },
+      {
+        "id": "2025.6.9-AIR-E36A81BF0E2BBE",
+        "old_region": "渚碧礁附近海域",
+        "new_region": "南海"
+      }
+    ]
+  },
+  {
+    "node": "2025.6.9",
+    "version": "v9",
+    "retained": [
+      "2025.6.9-AIR-066899117BEDAE",
+      "2025.6.9-AIR-296F85D0C21B4E",
+      "2025.6.9-AIR-44C7C32D37FDB5",
+      "2025.6.9-AIR-546ED9656E40CA",
+      "2025.6.9-AIR-5A6A39B6D60CEF",
+      "2025.6.9-AIR-5CDFE525F75A28",
+      "2025.6.9-AIR-6E755AB58C6BC6",
+      "2025.6.9-AIR-74C830734B7E44",
+      "2025.6.9-AIR-7A59BD98A4C16F",
+      "2025.6.9-AIR-900D3E39F755EC",
+      "2025.6.9-AIR-9BF6C1A9FA673D",
+      "2025.6.9-AIR-B0B5F28180FE03",
+      "2025.6.9-AIR-D0EAB644175642",
+      "2025.6.9-AIR-E36A81BF0E2BBE",
+      "2025.6.9-SHIP-287E8E861699DC",
+      "2025.6.9-SHIP-3FC9A4B3CE06CF",
+      "2025.6.9-SHIP-5DCB81BF5DD2EA",
+      "2025.6.9-SHIP-8B1D59AC58141C",
+      "2025.6.9-SHIP-8E9164E2C5997D",
+      "2025.6.9-SHIP-A188050063F370",
+      "2025.6.9-SHIP-C2057EF45D400A",
+      "2025.6.9-SHIP-DAC6E72221D22D",
+      "2025.6.9-SHIP-E33E3658B144DE",
+      "2025.6.9-SHIP-E432BD765AA26E",
+      "2025.6.9-SHIP-F0D85418133F6E",
+      "2025.6.9-SHIP-F2257ED1CF6CA7"
+    ],
+    "added": [],
+    "removed": [
+      "2025.6.9-AIR-69D2C9DC4DC401"
+    ],
+    "field_changes": []
+  },
+  {
+    "node": "2025.6.9",
+    "version": "v12",
+    "retained": [
+      "2025.6.9-AIR-066899117BEDAE",
+      "2025.6.9-AIR-296F85D0C21B4E",
+      "2025.6.9-AIR-44C7C32D37FDB5",
+      "2025.6.9-AIR-546ED9656E40CA",
+      "2025.6.9-AIR-5A6A39B6D60CEF",
+      "2025.6.9-AIR-5CDFE525F75A28",
+      "2025.6.9-AIR-6E755AB58C6BC6",
+      "2025.6.9-AIR-74C830734B7E44",
+      "2025.6.9-AIR-7A59BD98A4C16F",
+      "2025.6.9-AIR-900D3E39F755EC",
+      "2025.6.9-AIR-9BF6C1A9FA673D",
+      "2025.6.9-AIR-B0B5F28180FE03",
+      "2025.6.9-AIR-D0EAB644175642",
+      "2025.6.9-AIR-E36A81BF0E2BBE",
+      "2025.6.9-SHIP-287E8E861699DC",
+      "2025.6.9-SHIP-3FC9A4B3CE06CF",
+      "2025.6.9-SHIP-5DCB81BF5DD2EA",
+      "2025.6.9-SHIP-8B1D59AC58141C",
+      "2025.6.9-SHIP-8E9164E2C5997D",
+      "2025.6.9-SHIP-A188050063F370",
+      "2025.6.9-SHIP-C2057EF45D400A",
+      "2025.6.9-SHIP-DAC6E72221D22D",
+      "2025.6.9-SHIP-E33E3658B144DE",
+      "2025.6.9-SHIP-E432BD765AA26E",
+      "2025.6.9-SHIP-F0D85418133F6E",
+      "2025.6.9-SHIP-F2257ED1CF6CA7"
+    ],
+    "added": [],
+    "removed": [
+      "2025.6.9-AIR-69D2C9DC4DC401"
+    ],
+    "field_changes": []
+  },
+  {
+    "node": "2025.6.17",
+    "version": "v4",
+    "retained": [
+      "2025.6.17-AIR-15297A9B050E29",
+      "2025.6.17-AIR-22C53D4D4E31FD",
+      "2025.6.17-AIR-765AC31F0E1C13",
+      "2025.6.17-AIR-A98AFB35434361",
+      "2025.6.17-AIR-CBD85B4286B7D6",
+      "2025.6.17-AIR-CCACDBA428EB48",
+      "2025.6.17-AIR-E6CF84C8AC8337",
+      "2025.6.17-AIR-EEF8C42F9A5EED",
+      "2025.6.17-AIR-F087E2B39C41DB",
+      "2025.6.17-AIR-F6EB6BEC42B89B",
+      "2025.6.17-SHIP-255BC38B0552CD",
+      "2025.6.17-SHIP-866E01095BA8CF",
+      "2025.6.17-SHIP-932B6CB6E2A973",
+      "2025.6.17-SHIP-BB2D8BB81D6BFC",
+      "2025.6.17-SHIP-CDA853A8E39947",
+      "2025.6.17-SHIP-E59D72A33681DD",
+      "2025.6.17-SHIP-FBF2A35D9790DF"
+    ],
+    "added": [
+      "2025.6.17-AIR-504BB362E5DDF8",
+      "2025.6.17-SHIP-3205CA1909117F",
+      "2025.6.17-SHIP-3785DF49FAF73C",
+      "2025.6.17-SHIP-37F0DC0E1C2114",
+      "2025.6.17-SHIP-4CFC17E1ACE676",
+      "2025.6.17-SHIP-7049DFAB8E081E",
+      "2025.6.17-SHIP-8E1D478FF73B99",
+      "2025.6.17-SHIP-F956579D5151A3"
+    ],
+    "removed": [],
+    "field_changes": [
+      {
+        "id": "2025.6.17-AIR-22C53D4D4E31FD",
+        "old_region": "连云港外海",
+        "new_region": "黄海"
+      },
+      {
+        "id": "2025.6.17-AIR-765AC31F0E1C13",
+        "old_region": "南黄海",
+        "new_region": "黄海"
+      },
+      {
+        "id": "2025.6.17-AIR-CBD85B4286B7D6",
+        "old_region": "舟山外海",
+        "new_region": "东海"
+      },
+      {
+        "id": "2025.6.17-AIR-CCACDBA428EB48",
+        "old_region": "东海中部",
+        "new_region": "东海"
+      }
+    ]
+  },
+  {
+    "node": "2025.6.17",
+    "version": "v9",
+    "retained": [
+      "2025.6.17-AIR-15297A9B050E29",
+      "2025.6.17-AIR-22C53D4D4E31FD",
+      "2025.6.17-AIR-504BB362E5DDF8",
+      "2025.6.17-AIR-765AC31F0E1C13",
+      "2025.6.17-AIR-A98AFB35434361",
+      "2025.6.17-AIR-CBD85B4286B7D6",
+      "2025.6.17-AIR-CCACDBA428EB48",
+      "2025.6.17-AIR-E6CF84C8AC8337",
+      "2025.6.17-AIR-EEF8C42F9A5EED",
+      "2025.6.17-AIR-F087E2B39C41DB",
+      "2025.6.17-AIR-F6EB6BEC42B89B",
+      "2025.6.17-SHIP-255BC38B0552CD",
+      "2025.6.17-SHIP-3205CA1909117F",
+      "2025.6.17-SHIP-3785DF49FAF73C",
+      "2025.6.17-SHIP-37F0DC0E1C2114",
+      "2025.6.17-SHIP-4CFC17E1ACE676",
+      "2025.6.17-SHIP-7049DFAB8E081E",
+      "2025.6.17-SHIP-866E01095BA8CF",
+      "2025.6.17-SHIP-8E1D478FF73B99",
+      "2025.6.17-SHIP-932B6CB6E2A973",
+      "2025.6.17-SHIP-BB2D8BB81D6BFC",
+      "2025.6.17-SHIP-CDA853A8E39947",
+      "2025.6.17-SHIP-E59D72A33681DD",
+      "2025.6.17-SHIP-F956579D5151A3",
+      "2025.6.17-SHIP-FBF2A35D9790DF"
+    ],
+    "added": [],
+    "removed": [],
+    "field_changes": []
+  },
+  {
+    "node": "2025.6.17",
+    "version": "v12",
+    "retained": [
+      "2025.6.17-AIR-15297A9B050E29",
+      "2025.6.17-AIR-22C53D4D4E31FD",
+      "2025.6.17-AIR-504BB362E5DDF8",
+      "2025.6.17-AIR-765AC31F0E1C13",
+      "2025.6.17-AIR-A98AFB35434361",
+      "2025.6.17-AIR-CBD85B4286B7D6",
+      "2025.6.17-AIR-CCACDBA428EB48",
+      "2025.6.17-AIR-E6CF84C8AC8337",
+      "2025.6.17-AIR-EEF8C42F9A5EED",
+      "2025.6.17-AIR-F087E2B39C41DB",
+      "2025.6.17-AIR-F6EB6BEC42B89B",
+      "2025.6.17-SHIP-255BC38B0552CD",
+      "2025.6.17-SHIP-3205CA1909117F",
+      "2025.6.17-SHIP-3785DF49FAF73C",
+      "2025.6.17-SHIP-37F0DC0E1C2114",
+      "2025.6.17-SHIP-4CFC17E1ACE676",
+      "2025.6.17-SHIP-7049DFAB8E081E",
+      "2025.6.17-SHIP-866E01095BA8CF",
+      "2025.6.17-SHIP-8E1D478FF73B99",
+      "2025.6.17-SHIP-932B6CB6E2A973",
+      "2025.6.17-SHIP-BB2D8BB81D6BFC",
+      "2025.6.17-SHIP-CDA853A8E39947",
+      "2025.6.17-SHIP-E59D72A33681DD",
+      "2025.6.17-SHIP-F956579D5151A3",
+      "2025.6.17-SHIP-FBF2A35D9790DF"
+    ],
+    "added": [],
+    "removed": [],
+    "field_changes": []
+  },
+  {
+    "node": "2025.6.29",
+    "version": "v4",
+    "retained": [
+      "2025.6.29-AIR-03CBBB1FB1405D",
+      "2025.6.29-AIR-09E6AA850D790E",
+      "2025.6.29-AIR-0D82C71F1168E5",
+      "2025.6.29-AIR-2B561CD7D67F96",
+      "2025.6.29-AIR-4549C067D0FC8D",
+      "2025.6.29-AIR-47112816CDFA04",
+      "2025.6.29-AIR-59514900467569",
+      "2025.6.29-AIR-6778CB4581BF2F",
+      "2025.6.29-AIR-B275E565BAD5E0",
+      "2025.6.29-AIR-C1C0F00190903E",
+      "2025.6.29-AIR-E13BD57A156414",
+      "2025.6.29-AIR-FA066C92DA7C4F",
+      "2025.6.29-AIR-FEF816C632183C",
+      "2025.6.29-SHIP-30C0D1B212BAC3",
+      "2025.6.29-SHIP-34431C793FE395",
+      "2025.6.29-SHIP-48B2D0630F0984",
+      "2025.6.29-SHIP-7A9463DC960EDF",
+      "2025.6.29-SHIP-970F48147DE23B",
+      "2025.6.29-SHIP-9FECD5E6A9B96A",
+      "2025.6.29-SHIP-CB75793FD5F322",
+      "2025.6.29-SHIP-E6F763B7F99D68"
+    ],
+    "added": [
+      "2025.6.29-SHIP-33B00ABB1CE0AB",
+      "2025.6.29-SHIP-47A3B67005F4C1",
+      "2025.6.29-SHIP-F074EEF8CFC29A"
+    ],
+    "removed": [
+      "2025.6.29-AIR-48DC01049C8B5E"
+    ],
+    "field_changes": [
+      {
+        "id": "2025.6.29-AIR-03CBBB1FB1405D",
+        "old_region": "南海中部",
+        "new_region": "南海"
+      },
+      {
+        "id": "2025.6.29-AIR-C1C0F00190903E",
+        "old_region": "东沙群岛海域",
+        "new_region": "南海"
+      },
+      {
+        "id": "2025.6.29-AIR-E13BD57A156414",
+        "old_region": "南黄海",
+        "new_region": "黄海"
+      },
+      {
+        "id": "2025.6.29-AIR-FA066C92DA7C4F",
+        "old_region": "连云港外海",
+        "new_region": "黄海"
+      },
+      {
+        "id": "2025.6.29-AIR-FEF816C632183C",
+        "old_region": "黄海中部",
+        "new_region": "黄海"
+      }
+    ]
+  },
+  {
+    "node": "2025.6.29",
+    "version": "v9",
+    "retained": [
+      "2025.6.29-AIR-03CBBB1FB1405D",
+      "2025.6.29-AIR-09E6AA850D790E",
+      "2025.6.29-AIR-0D82C71F1168E5",
+      "2025.6.29-AIR-2B561CD7D67F96",
+      "2025.6.29-AIR-4549C067D0FC8D",
+      "2025.6.29-AIR-47112816CDFA04",
+      "2025.6.29-AIR-59514900467569",
+      "2025.6.29-AIR-6778CB4581BF2F",
+      "2025.6.29-AIR-B275E565BAD5E0",
+      "2025.6.29-AIR-C1C0F00190903E",
+      "2025.6.29-AIR-E13BD57A156414",
+      "2025.6.29-AIR-FA066C92DA7C4F",
+      "2025.6.29-AIR-FEF816C632183C",
+      "2025.6.29-SHIP-30C0D1B212BAC3",
+      "2025.6.29-SHIP-33B00ABB1CE0AB",
+      "2025.6.29-SHIP-34431C793FE395",
+      "2025.6.29-SHIP-47A3B67005F4C1",
+      "2025.6.29-SHIP-48B2D0630F0984",
+      "2025.6.29-SHIP-7A9463DC960EDF",
+      "2025.6.29-SHIP-970F48147DE23B",
+      "2025.6.29-SHIP-9FECD5E6A9B96A",
+      "2025.6.29-SHIP-CB75793FD5F322",
+      "2025.6.29-SHIP-E6F763B7F99D68",
+      "2025.6.29-SHIP-F074EEF8CFC29A"
+    ],
+    "added": [],
+    "removed": [
+      "2025.6.29-AIR-48DC01049C8B5E"
+    ],
+    "field_changes": []
+  },
+  {
+    "node": "2025.6.29",
+    "version": "v12",
+    "retained": [
+      "2025.6.29-AIR-03CBBB1FB1405D",
+      "2025.6.29-AIR-09E6AA850D790E",
+      "2025.6.29-AIR-0D82C71F1168E5",
+      "2025.6.29-AIR-2B561CD7D67F96",
+      "2025.6.29-AIR-4549C067D0FC8D",
+      "2025.6.29-AIR-47112816CDFA04",
+      "2025.6.29-AIR-59514900467569",
+      "2025.6.29-AIR-6778CB4581BF2F",
+      "2025.6.29-AIR-B275E565BAD5E0",
+      "2025.6.29-AIR-C1C0F00190903E",
+      "2025.6.29-AIR-E13BD57A156414",
+      "2025.6.29-AIR-FA066C92DA7C4F",
+      "2025.6.29-AIR-FEF816C632183C",
+      "2025.6.29-SHIP-30C0D1B212BAC3",
+      "2025.6.29-SHIP-33B00ABB1CE0AB",
+      "2025.6.29-SHIP-34431C793FE395",
+      "2025.6.29-SHIP-47A3B67005F4C1",
+      "2025.6.29-SHIP-48B2D0630F0984",
+      "2025.6.29-SHIP-7A9463DC960EDF",
+      "2025.6.29-SHIP-970F48147DE23B",
+      "2025.6.29-SHIP-9FECD5E6A9B96A",
+      "2025.6.29-SHIP-CB75793FD5F322",
+      "2025.6.29-SHIP-E6F763B7F99D68",
+      "2025.6.29-SHIP-F074EEF8CFC29A"
+    ],
+    "added": [],
+    "removed": [
+      "2025.6.29-AIR-48DC01049C8B5E"
+    ],
+    "field_changes": []
+  },
+  {
+    "node": "2025.7.9",
+    "version": "v4",
+    "retained": [
+      "2025.7.9-AIR-00E4A11648FD8A",
+      "2025.7.9-AIR-4D3C301D3FD2BC",
+      "2025.7.9-AIR-58871648E6771F",
+      "2025.7.9-AIR-5A676A5A746D09",
+      "2025.7.9-AIR-5F5CFC5CE15BB7",
+      "2025.7.9-AIR-6987CB8DEA50B8",
+      "2025.7.9-AIR-70BEFDDCEA7515",
+      "2025.7.9-AIR-790C13D3E12D8D",
+      "2025.7.9-AIR-837E22A3A82271",
+      "2025.7.9-AIR-C07E718BA45003",
+      "2025.7.9-AIR-C4528DADD3034E",
+      "2025.7.9-AIR-CDC6B23809CAC2",
+      "2025.7.9-AIR-DF3BA9104FBBDD",
+      "2025.7.9-AIR-E5D19CCDC0A2D9",
+      "2025.7.9-AIR-E6002140F96CB5",
+      "2025.7.9-SHIP-04B85D89354CC0",
+      "2025.7.9-SHIP-07BC21EE7E20DD",
+      "2025.7.9-SHIP-1C36982FD1B00D",
+      "2025.7.9-SHIP-29E8BE84A312DA",
+      "2025.7.9-SHIP-44A175A3DA2C79",
+      "2025.7.9-SHIP-5F87B4FBC42C1F",
+      "2025.7.9-SHIP-84C74B4313BF87",
+      "2025.7.9-SHIP-9377CB451A86FB",
+      "2025.7.9-SHIP-CBF728BABB4814"
+    ],
+    "added": [
+      "2025.7.9-SHIP-720A50A3E075BD",
+      "2025.7.9-SHIP-AF41F705A929BC",
+      "2025.7.9-SHIP-FE6EC8A8A5AAB8"
+    ],
+    "removed": [],
+    "field_changes": [
+      {
+        "id": "2025.7.9-AIR-00E4A11648FD8A",
+        "old_region": "青岛外海",
+        "new_region": "黄海"
+      },
+      {
+        "id": "2025.7.9-AIR-4D3C301D3FD2BC",
+        "old_region": "南黄海",
+        "new_region": "黄海"
+      },
+      {
+        "id": "2025.7.9-AIR-5F5CFC5CE15BB7",
+        "old_region": "上海外海",
+        "new_region": "东海"
+      },
+      {
+        "id": "2025.7.9-AIR-790C13D3E12D8D",
+        "old_region": "海州湾外海",
+        "new_region": "黄海"
+      },
+      {
+        "id": "2025.7.9-AIR-837E22A3A82271",
+        "old_region": "北黄海",
+        "new_region": "黄海"
+      },
+      {
+        "id": "2025.7.9-AIR-C07E718BA45003",
+        "old_region": "青岛外海",
+        "new_region": "黄海"
+      },
+      {
+        "id": "2025.7.9-AIR-C4528DADD3034E",
+        "old_region": "冲绳海槽",
+        "new_region": "东海"
+      }
+    ]
+  },
+  {
+    "node": "2025.7.9",
+    "version": "v9",
+    "retained": [
+      "2025.7.9-AIR-00E4A11648FD8A",
+      "2025.7.9-AIR-4D3C301D3FD2BC",
+      "2025.7.9-AIR-58871648E6771F",
+      "2025.7.9-AIR-5A676A5A746D09",
+      "2025.7.9-AIR-5F5CFC5CE15BB7",
+      "2025.7.9-AIR-6987CB8DEA50B8",
+      "2025.7.9-AIR-70BEFDDCEA7515",
+      "2025.7.9-AIR-790C13D3E12D8D",
+      "2025.7.9-AIR-837E22A3A82271",
+      "2025.7.9-AIR-C07E718BA45003",
+      "2025.7.9-AIR-C4528DADD3034E",
+      "2025.7.9-AIR-CDC6B23809CAC2",
+      "2025.7.9-AIR-DF3BA9104FBBDD",
+      "2025.7.9-AIR-E5D19CCDC0A2D9",
+      "2025.7.9-AIR-E6002140F96CB5",
+      "2025.7.9-SHIP-04B85D89354CC0",
+      "2025.7.9-SHIP-07BC21EE7E20DD",
+      "2025.7.9-SHIP-1C36982FD1B00D",
+      "2025.7.9-SHIP-29E8BE84A312DA",
+      "2025.7.9-SHIP-44A175A3DA2C79",
+      "2025.7.9-SHIP-5F87B4FBC42C1F",
+      "2025.7.9-SHIP-720A50A3E075BD",
+      "2025.7.9-SHIP-84C74B4313BF87",
+      "2025.7.9-SHIP-9377CB451A86FB",
+      "2025.7.9-SHIP-AF41F705A929BC",
+      "2025.7.9-SHIP-CBF728BABB4814",
+      "2025.7.9-SHIP-FE6EC8A8A5AAB8"
+    ],
+    "added": [],
+    "removed": [],
+    "field_changes": []
+  },
+  {
+    "node": "2025.7.9",
+    "version": "v12",
+    "retained": [
+      "2025.7.9-AIR-00E4A11648FD8A",
+      "2025.7.9-AIR-4D3C301D3FD2BC",
+      "2025.7.9-AIR-58871648E6771F",
+      "2025.7.9-AIR-5A676A5A746D09",
+      "2025.7.9-AIR-5F5CFC5CE15BB7",
+      "2025.7.9-AIR-6987CB8DEA50B8",
+      "2025.7.9-AIR-70BEFDDCEA7515",
+      "2025.7.9-AIR-790C13D3E12D8D",
+      "2025.7.9-AIR-837E22A3A82271",
+      "2025.7.9-AIR-C07E718BA45003",
+      "2025.7.9-AIR-C4528DADD3034E",
+      "2025.7.9-AIR-CDC6B23809CAC2",
+      "2025.7.9-AIR-DF3BA9104FBBDD",
+      "2025.7.9-AIR-E5D19CCDC0A2D9",
+      "2025.7.9-AIR-E6002140F96CB5",
+      "2025.7.9-SHIP-04B85D89354CC0",
+      "2025.7.9-SHIP-07BC21EE7E20DD",
+      "2025.7.9-SHIP-1C36982FD1B00D",
+      "2025.7.9-SHIP-29E8BE84A312DA",
+      "2025.7.9-SHIP-44A175A3DA2C79",
+      "2025.7.9-SHIP-5F87B4FBC42C1F",
+      "2025.7.9-SHIP-720A50A3E075BD",
+      "2025.7.9-SHIP-84C74B4313BF87",
+      "2025.7.9-SHIP-9377CB451A86FB",
+      "2025.7.9-SHIP-AF41F705A929BC",
+      "2025.7.9-SHIP-CBF728BABB4814",
+      "2025.7.9-SHIP-FE6EC8A8A5AAB8"
+    ],
+    "added": [],
+    "removed": [],
+    "field_changes": []
+  },
+  {
+    "node": "2025.7.17",
+    "version": "v4",
+    "retained": [
+      "2025.7.17-AIR-0B9D8E0F114331",
+      "2025.7.17-AIR-1585277EB777C7",
+      "2025.7.17-AIR-1D6AF65A1827F0",
+      "2025.7.17-AIR-2155E43FD0342D",
+      "2025.7.17-AIR-327327E510AB9E",
+      "2025.7.17-AIR-85185794114528",
+      "2025.7.17-AIR-8A357EE2600878",
+      "2025.7.17-AIR-C7099FAEFEF22C",
+      "2025.7.17-AIR-F9B6C40CD6D539",
+      "2025.7.17-SHIP-03A8303A6871C3",
+      "2025.7.17-SHIP-05A1C3D6D75F9C",
+      "2025.7.17-SHIP-2C0A6159BD5341",
+      "2025.7.17-SHIP-54002F37385A98",
+      "2025.7.17-SHIP-5639593C2408F8",
+      "2025.7.17-SHIP-80B47BF0F3F4DF",
+      "2025.7.17-SHIP-8BC20A901F2836",
+      "2025.7.17-SHIP-906D4E3E9AF4DD",
+      "2025.7.17-SHIP-C95A9ED0F8D716",
+      "2025.7.17-SHIP-E2BA747DD74622",
+      "2025.7.17-SHIP-EA12395FF3F79A",
+      "2025.7.17-SHIP-F1DA41EB38AC4D",
+      "2025.7.17-SHIP-F2BD3E6FCC4CE3"
+    ],
+    "added": [
+      "2025.7.17-AIR-100FD4BE42A116",
+      "2025.7.17-SHIP-166748E2A138AC"
+    ],
+    "removed": [],
+    "field_changes": [
+      {
+        "id": "2025.7.17-AIR-2155E43FD0342D",
+        "old_region": "万安滩海域",
+        "new_region": "南海"
+      },
+      {
+        "id": "2025.7.17-AIR-C7099FAEFEF22C",
+        "old_region": "海州湾外海",
+        "new_region": "黄海"
+      },
+      {
+        "id": "2025.7.17-AIR-F9B6C40CD6D539",
+        "old_region": "南海北部",
+        "new_region": "南海"
+      }
+    ]
+  },
+  {
+    "node": "2025.7.17",
+    "version": "v9",
+    "retained": [
+      "2025.7.17-AIR-0B9D8E0F114331",
+      "2025.7.17-AIR-100FD4BE42A116",
+      "2025.7.17-AIR-1585277EB777C7",
+      "2025.7.17-AIR-1D6AF65A1827F0",
+      "2025.7.17-AIR-2155E43FD0342D",
+      "2025.7.17-AIR-327327E510AB9E",
+      "2025.7.17-AIR-85185794114528",
+      "2025.7.17-AIR-8A357EE2600878",
+      "2025.7.17-AIR-C7099FAEFEF22C",
+      "2025.7.17-AIR-F9B6C40CD6D539",
+      "2025.7.17-SHIP-03A8303A6871C3",
+      "2025.7.17-SHIP-05A1C3D6D75F9C",
+      "2025.7.17-SHIP-166748E2A138AC",
+      "2025.7.17-SHIP-2C0A6159BD5341",
+      "2025.7.17-SHIP-54002F37385A98",
+      "2025.7.17-SHIP-5639593C2408F8",
+      "2025.7.17-SHIP-80B47BF0F3F4DF",
+      "2025.7.17-SHIP-8BC20A901F2836",
+      "2025.7.17-SHIP-906D4E3E9AF4DD",
+      "2025.7.17-SHIP-C95A9ED0F8D716",
+      "2025.7.17-SHIP-E2BA747DD74622",
+      "2025.7.17-SHIP-EA12395FF3F79A",
+      "2025.7.17-SHIP-F1DA41EB38AC4D",
+      "2025.7.17-SHIP-F2BD3E6FCC4CE3"
+    ],
+    "added": [],
+    "removed": [],
+    "field_changes": []
+  },
+  {
+    "node": "2025.7.17",
+    "version": "v12",
+    "retained": [
+      "2025.7.17-AIR-0B9D8E0F114331",
+      "2025.7.17-AIR-100FD4BE42A116",
+      "2025.7.17-AIR-1585277EB777C7",
+      "2025.7.17-AIR-1D6AF65A1827F0",
+      "2025.7.17-AIR-2155E43FD0342D",
+      "2025.7.17-AIR-327327E510AB9E",
+      "2025.7.17-AIR-85185794114528",
+      "2025.7.17-AIR-8A357EE2600878",
+      "2025.7.17-AIR-C7099FAEFEF22C",
+      "2025.7.17-AIR-F9B6C40CD6D539",
+      "2025.7.17-SHIP-03A8303A6871C3",
+      "2025.7.17-SHIP-05A1C3D6D75F9C",
+      "2025.7.17-SHIP-166748E2A138AC",
+      "2025.7.17-SHIP-2C0A6159BD5341",
+      "2025.7.17-SHIP-54002F37385A98",
+      "2025.7.17-SHIP-5639593C2408F8",
+      "2025.7.17-SHIP-80B47BF0F3F4DF",
+      "2025.7.17-SHIP-8BC20A901F2836",
+      "2025.7.17-SHIP-906D4E3E9AF4DD",
+      "2025.7.17-SHIP-C95A9ED0F8D716",
+      "2025.7.17-SHIP-E2BA747DD74622",
+      "2025.7.17-SHIP-EA12395FF3F79A",
+      "2025.7.17-SHIP-F1DA41EB38AC4D",
+      "2025.7.17-SHIP-F2BD3E6FCC4CE3"
+    ],
+    "added": [],
+    "removed": [],
+    "field_changes": []
+  }
+]

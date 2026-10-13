@@ -1,0 +1,15 @@
+{
+  "program_only_manifests": [
+    "audit/program_read_manifest.json",
+    "audit/history_inventory.json",
+    "audit/actual_historical_section2.json",
+    "audit/score_archives.json",
+    "audit/raw_to_ledger_coverage.json"
+  ],
+  "agent_body_read": "v13 prompt; root/docs READMEs; docs01-05 and07-12; submission format; analysis skill/README/generation_prompt/catalog; historical comparison/fusion/v9-v12 README and selected source code/audit excerpts; research README/application_notes/catalog/node eligibility/reading log; reused parser/chart/workbook/build modules",
+  "agent_original_read": "actual sample DOCX/XLSX structure and sample rendered DOCX/4PNG; all 85 priority and53 sample factual excerpts; six complete anomaly coordinate groups; all current analysis bodies/claims and all current DOCX pages via contact sheets; all XLSX native filled range panels; all32PNG; R06/R07 one-page fixed originals/text/render",
+  "history_program_read": "21 local version folders, 81 actual historical DOCX section2 extractions plus8 recovered Git DOCX; six score JSONs plus initial two feedback values in docs05",
+  "history_secondary_reference": "history_review.json and existing all-version/fusion diagnostics used for navigation, not event truth; precise unobserved model configs unknown",
+  "external_unread_originals": "R03 full original not re-read, R08 only prior summary; excluded from formal empirical references. R04/R05 historical versions uncertified, method only.",
+  "scope_limits": "No claim that all historical source code or all original TXT prose was manually read. Some earlier combined tool reads truncated; docs08/10/11/12 subsequently reread in full. Program counts are not agent full-body reading."
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "as_of": "2025-07-17",
+  "status": "PASS",
+  "eligible_source_ids": [
+    "R06",
+    "R07"
+  ],
+  "excluded_sources": [],
+  "used_source_ids": [
+    "R06"
+  ],
+  "declared_substantive_source_ids": [
+    "R06"
+  ],
+  "shared_independence_groups": {},
+  "errors": [],
+  "warnings": [
+    "Date checks do not prove authenticity, claim entailment, or event verification.",
+    "Dated webpages need a saved version before reproducible use; later edits may exist."
+  ],
+  "claim_level_support_checked": false,
+  "competition_score_estimated": false
+}

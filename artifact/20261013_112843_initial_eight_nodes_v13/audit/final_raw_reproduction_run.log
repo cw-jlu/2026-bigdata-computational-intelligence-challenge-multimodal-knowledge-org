@@ -1,0 +1,35 @@
+2025.5.10 today {'纳入': 26, '排除': 16, '域外': 11} history 251 eligible mainlines 5
+2025.5.18 today {'排除': 20, '纳入': 24, '域外': 11} history 445 eligible mainlines 8
+2025.5.30 today {'域外': 11, '纳入': 26, '排除': 16} history 743 eligible mainlines 14
+2025.6.9 today {'纳入': 26, '域外': 11, '排除': 16} history 994 eligible mainlines 13
+2025.6.17 today {'纳入': 25, '排除': 19, '域外': 11} history 1183 eligible mainlines 14
+2025.6.29 today {'纳入': 24, '排除': 17, '域外': 12} history 1483 eligible mainlines 14
+2025.7.9 today {'纳入': 27, '排除': 14, '域外': 11} history 1743 eligible mainlines 16
+2025.7.17 today {'排除': 17, '纳入': 24, '域外': 12} history 1939 eligible mainlines 17
+BUILT 2025.5.10 events 26 mainline_dates 5
+BUILT 2025.5.18 events 24 mainline_dates 5
+BUILT 2025.5.30 events 26 mainline_dates 8
+BUILT 2025.6.9 events 26 mainline_dates 5
+BUILT 2025.6.17 events 25 mainline_dates 12
+BUILT 2025.6.29 events 24 mainline_dates 6
+BUILT 2025.7.9 events 27 mainline_dates 11
+BUILT 2025.7.17 events 24 mainline_dates 13
+Inspect result written to file: D:\CW\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\artifact\20261013_112843_initial_eight_nodes_v13\reproduced_raw_v13_final\official\2025.5.10\2025.5.10机舰活动明细.xlsx.inspect.ndjson
+{"node":"2025.5.10","sheets":[{"name":"飞机","records":15},{"name":"舰艇","records":11}],"exported":true,"rendered_all_cells":true}
+Inspect result written to file: D:\CW\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\artifact\20261013_112843_initial_eight_nodes_v13\reproduced_raw_v13_final\official\2025.5.18\2025.5.18机舰活动明细.xlsx.inspect.ndjson
+{"node":"2025.5.18","sheets":[{"name":"飞机","records":11},{"name":"舰艇","records":13}],"exported":true,"rendered_all_cells":true}
+Inspect result written to file: D:\CW\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\artifact\20261013_112843_initial_eight_nodes_v13\reproduced_raw_v13_final\official\2025.5.30\2025.5.30机舰活动明细.xlsx.inspect.ndjson
+{"node":"2025.5.30","sheets":[{"name":"飞机","records":15},{"name":"舰艇","records":11}],"exported":true,"rendered_all_cells":true}
+Inspect result written to file: D:\CW\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\artifact\20261013_112843_initial_eight_nodes_v13\reproduced_raw_v13_final\official\2025.6.9\2025.6.9机舰活动明细.xlsx.inspect.ndjson
+{"node":"2025.6.9","sheets":[{"name":"飞机","records":14},{"name":"舰艇","records":12}],"exported":true,"rendered_all_cells":true}
+Inspect result written to file: D:\CW\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\artifact\20261013_112843_initial_eight_nodes_v13\reproduced_raw_v13_final\official\2025.6.17\2025.6.17机舰活动明细.xlsx.inspect.ndjson
+{"node":"2025.6.17","sheets":[{"name":"飞机","records":11},{"name":"舰艇","records":14}],"exported":true,"rendered_all_cells":true}
+Inspect result written to file: D:\CW\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\artifact\20261013_112843_initial_eight_nodes_v13\reproduced_raw_v13_final\official\2025.6.29\2025.6.29机舰活动明细.xlsx.inspect.ndjson
+{"node":"2025.6.29","sheets":[{"name":"飞机","records":13},{"name":"舰艇","records":11}],"exported":true,"rendered_all_cells":true}
+Inspect result written to file: D:\CW\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\artifact\20261013_112843_initial_eight_nodes_v13\reproduced_raw_v13_final\official\2025.7.9\2025.7.9机舰活动明细.xlsx.inspect.ndjson
+{"node":"2025.7.9","sheets":[{"name":"飞机","records":15},{"name":"舰艇","records":12}],"exported":true,"rendered_all_cells":true}
+Inspect result written to file: D:\CW\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\artifact\20261013_112843_initial_eight_nodes_v13\reproduced_raw_v13_final\official\2025.7.17\2025.7.17机舰活动明细.xlsx.inspect.ndjson
+{"node":"2025.7.17","sheets":[{"name":"飞机","records":10},{"name":"舰艇","records":14}],"exported":true,"rendered_all_cells":true}
+VERIFIED 48 files 202 records directory
+D:\CW\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\artifact\20261013_112843_initial_eight_nodes_v13\reproduced_raw_v13_final\赛题2_初赛_v13_八节点正式提交包.zip 057ae606a52d89518a8f63a749bf2b992b86a494d2497f17fd659870cd595f08 14324832
+VERIFIED 48 files 202 records ZIP

@@ -1,0 +1,282 @@
+[
+  {
+    "path": "docs/01-赛题总览与赛程.md",
+    "sha256": "2237113222fa2d831945449674e76b83fa430f55351b1c03b97846146b055ce0",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "docs/02-数据说明与判定口径.md",
+    "sha256": "3702952ccac2840cc4f110bb4a12e438f57d945ca60b4301932883b2b4d5aa81",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "docs/03-系统处理流程与算法要求.md",
+    "sha256": "555c67da3733533f46d7bb148a42040647f8099538b9dc1bf38b7097c874c788",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "docs/04-日报交付格式与文件规范.md",
+    "sha256": "ab05cbc89afb22ab73f0875d30e712c96e3fbd5c806b8a487d74bc2a27d90bd1",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "docs/05-评测标准与复现清单.md",
+    "sha256": "be44c4e8c26b8a6e34558052e7770471be0876c12ece547f1a6105863e3ae5ab",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "docs/06-参赛思考记录.md",
+    "sha256": "107c50465adefa09a6f11aaaaffbd1ff33fb9fa1ebb63e1335806e423ab7acce",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "docs/07-评测反馈与提示词迭代.md",
+    "sha256": "096351874b011fe1d71eaa229e4e2c23348b5b93b10173f1ed4883e1180d8670",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "docs/08-v8初赛评测与复盘.md",
+    "sha256": "19b991df3e2e06aa8556b181a442e27938e72d0d6d4e16f5bf5c6ef9b6c8a3d8",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "docs/09-历史全部版本与v8对照.md",
+    "sha256": "0503e42448a70dfaff166c2b9a28b529dccf8003f431948a62d35ae6b6463ff8",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "docs/10-v9初赛评测记录.md",
+    "sha256": "22a517a103a81419eff45e0420bed32fba06d434f56c277ebce5cc231b155c9b",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "docs/11-v12初赛评测记录.md",
+    "sha256": "11b7c5785d93ae94eb2392e6ec4ac311c6e7e4b63004ccf6d9e33c0e9561be23",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "docs/12-下一轮提示词设计依据与启动方式.md",
+    "sha256": "efa7f91906b1294b2f48144f395f6ccf4d3d8d7381c894730ed1fb97aec8a7cd",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "docs/20261008_003845_gpt-6_方案总览.md",
+    "sha256": "503a329f9f73dee029cac6ac0a3993a1577b8c769b6280e14a7a8ca27d5a631b",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "docs/README.md",
+    "sha256": "5db1c23f036f6684c7160107b51582b6eeee7217ad1ad454b80d1b82ebb8b134",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "docs/prompts/赛题2-20250510-分析增强-v5.md",
+    "sha256": "e8a25be25456e4a504088b6444c11f3cc1423de2e6f4dbc7bd35f0f98be13e67",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "docs/prompts/赛题2-20250510-完整日报重做-v6.md",
+    "sha256": "5d5ae198d627291858db099fee8dddc1a81adbab80447fe69a03e7d5ef785cf6",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "docs/prompts/赛题2-initial-v3.md",
+    "sha256": "004ca02e9ceabe863c20326dbb359e4ff292c023fb933b86ea3ccedbfc3ab1af",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "docs/prompts/赛题2-初赛八节点-从原始证据重建-v13.md",
+    "sha256": "caa93b414f7441c8021f77c4ba3e1d9dede4d314b7406352756248f8174a35fe",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "docs/prompts/赛题2-初赛八节点-全版本证据收敛-v9.md",
+    "sha256": "8713390597a357c8b0c94256cc6fd3a47d2a38ad2e8dade3e75fcdadc867881f",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "docs/prompts/赛题2-初赛八节点-完整日报与赛段交付-v7.md",
+    "sha256": "487d76f51fd83eea8e680ba26a85c6c577c7d70e2602e8ef3440b274a55894b0",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "analysis_research_bundle/analysis_example.md",
+    "sha256": "37428ad8115ab83d990376f294f92b387aff7f82410ce4f13a85aec3a8b4de87",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "analysis_research_bundle/evaluation_plan.md",
+    "sha256": "82c71dbb7d513e2451cc88820ff4b5c80a5fb1e976ef3228410e680935f0c6d0",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "analysis_research_bundle/external_data_cards.json",
+    "sha256": "74ce49287b204d0814e742b0357ec0c88b68daba1f7372eb44a350e309b6e845",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "analysis_research_bundle/generation_prompt.md",
+    "sha256": "4792d85c27c4c1e7785b64a186a014e4abffed7ef04d65701439d86bdf4349c5",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "analysis_research_bundle/manifest.json",
+    "sha256": "7a3a56efcfefd3458e351ae4be7b99cd189173c12338bd98aab23cc75cedfe4f",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "analysis_research_bundle/README.md",
+    "sha256": "142f76628da8f0c77457fb8631b27aeb959b1747d00f2f8ab29c6dcfa1040247",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "analysis_research_bundle/sample_intake_audit.json",
+    "sha256": "f39062ba72bc7d45997bd144ad30ac9c56d9fc033399ecce81a2881edd060e89",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "analysis_research_bundle/source_catalog.json",
+    "sha256": "c95adae9e16a63276dc858e4483d5d5c872db29e7b30324bc904bdb316b2c809",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "analysis_research_bundle/source_catalog.md",
+    "sha256": "5ddf2a53a1c6f8843123c8edd095d02d343a252fa21ebc523007d2c5ee7c5114",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "analysis_research_bundle/audit/asof_2025-05-10.json",
+    "sha256": "113c9f37ff49ab059d312ac3c663c9a17cc7bea9300c1bbeab1751ba009f4360",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "analysis_research_bundle/audit/asof_2025-05-18.json",
+    "sha256": "b3ab39a3f8735d608b62c0ed43eeee92979665887e78b0d19abf3f39dc1ce2cf",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "analysis_research_bundle/audit/execution_status.json",
+    "sha256": "78621ba87a2a818591477ad6f81646777c526b2e351b79ce23a94a880064fe8b",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "analysis_research_bundle/audit/expected_rejection_0510_P03.json",
+    "sha256": "eec9f65175d074d0117af9220dde0b345bf58188791aed6aab42853e694d255d",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "analysis_research_bundle/skill/evidence-grounded-analysis/SKILL.md",
+    "sha256": "72a64f92f20c99adfa901f9c40c009fde8505292ec1df1cce1cd009d312033ee",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "analysis_research_bundle/skill/evidence-grounded-analysis/references/competition_rules.md",
+    "sha256": "0da9a35764c9c28b04ddfdd9fbbfd0dd601859dbd0f9737bb47ec2d42de64890",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "analysis_research_bundle/skill/evidence-grounded-analysis/references/external_data_cards.json",
+    "sha256": "74ce49287b204d0814e742b0357ec0c88b68daba1f7372eb44a350e309b6e845",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "analysis_research_bundle/skill/evidence-grounded-analysis/references/generation_prompt.md",
+    "sha256": "4792d85c27c4c1e7785b64a186a014e4abffed7ef04d65701439d86bdf4349c5",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "analysis_research_bundle/skill/evidence-grounded-analysis/references/input_output_contract.md",
+    "sha256": "471d42a37309ccd8bcc17f08b6bdf0103f7821c1df30107a40a9aafebc0c80c9",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "analysis_research_bundle/skill/evidence-grounded-analysis/references/source_catalog.json",
+    "sha256": "c95adae9e16a63276dc858e4483d5d5c872db29e7b30324bc904bdb316b2c809",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "analysis_research_bundle/skill/evidence-grounded-analysis/references/source_catalog.md",
+    "sha256": "5ddf2a53a1c6f8843123c8edd095d02d343a252fa21ebc523007d2c5ee7c5114",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "analysis_research_bundle/skill/evidence-grounded-analysis/references/writing_template.md",
+    "sha256": "050b31abf6032b6caabaf87997ead0e8196ff80a0ca87e24e1efdbf9a368c6f1",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "research/20261012_score_improvement_sources/application_notes.md",
+    "sha256": "4c315b71880daba9661a598253b3d6492f3073a8e3cd6b4567f859c770b52abe",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "research/20261012_score_improvement_sources/ATTRIBUTION.md",
+    "sha256": "c631ba1141823b4074058f1eaefe1950448faf7f67bba61be79c7e8c4271b4be",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "research/20261012_score_improvement_sources/baseline_binding.json",
+    "sha256": "8825d78b6ae8de2bf9fd91384a84442efa0b11e8308a20f7c2b99b61b2adc333",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "research/20261012_score_improvement_sources/excluded_or_deferred.json",
+    "sha256": "ef15ceae5ba92ef1904ab45e7868ebd39b552356861420e03baac0413879cd5e",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "research/20261012_score_improvement_sources/manifest.json",
+    "sha256": "df570d7b3353fad6d960d4b13ad3d5e59f95594ed916b4308b09f9ba8f5b08aa",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "research/20261012_score_improvement_sources/node_eligibility.json",
+    "sha256": "5d11645d74a2ad798ebdd47f565b37cfd95d3822f5d1c7c6f52caa98f0aaa265",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "research/20261012_score_improvement_sources/reading_log.json",
+    "sha256": "1860780d1f713b473f1e28f0da5e0654b1b886a4fd6f7385eb6d1c48689627e7",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "research/20261012_score_improvement_sources/README.md",
+    "sha256": "99bc11cedddd95207e968241843cca1895bf3c1764e7f573d655fc544fa87f48",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "research/20261012_score_improvement_sources/retrieval_log.json",
+    "sha256": "f02244e7e462a0529be13c493aef067eeddc281751871a150438c019735894b7",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "research/20261012_score_improvement_sources/review_schema.json",
+    "sha256": "aa51935462bbb1ba2b5a03689752b4273524f73b27cdbd5143796abee2e710ae",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "research/20261012_score_improvement_sources/source_catalog.json",
+    "sha256": "5418d37297ff3cb30a207bd93d06ef13709dcff11182f76b70279d5ff9feee77",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "research/20261012_score_improvement_sources/validation.json",
+    "sha256": "45eee16b93fdf05013d4b03c5203279e242e882083ac65a92c40aedcf1b44082",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "research/20261012_score_improvement_sources/notes/R03.md",
+    "sha256": "426b6b954728825c70920e40159a3c2600997f69535781e14215878e90a864b7",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "research/20261012_score_improvement_sources/notes/R08.md",
+    "sha256": "1c085a4d85528523678acec3d131abf589c64a3e92669e8d852d7945b95bc6a2",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  },
+  {
+    "path": "research/20261012_score_improvement_sources/notes/R09.md",
+    "sha256": "6d3447da9781d9c6b1d01a2a2174fb38ae0ac94340b20ab15d723f777004f240",
+    "reading": "program_full_read_hash; agent_reading_separate"
+  }
+]

@@ -1,0 +1,2368 @@
+[
+  {
+    "folder": "20261008_001028_gpt-5.6solhigh",
+    "source_code": [],
+    "actual_docx": [
+      "output/2025.5.10日报/2025.5.10日报.docx",
+      "output/2025.5.18日报/2025.5.18日报.docx",
+      "output/2025.5.30日报/2025.5.30日报.docx",
+      "output/2025.6.17日报/2025.6.17日报.docx",
+      "output/2025.6.29日报/2025.6.29日报.docx",
+      "output/2025.6.9日报/2025.6.9日报.docx",
+      "output/2025.7.17日报/2025.7.17日报.docx",
+      "output/2025.7.9日报/2025.7.9日报.docx"
+    ],
+    "readme": "# GPT-5 初赛答案（2026-10-08 00:10:28）\n\n本版本按题目文档实现确定性基线：TXT/XLSX 解析、字段归一、跨源加权关联、文本一致性检查、雷达异常与核心海域门控、跨日主线追踪，以及 8 个节点的 DOCX/XLSX/PNG 输出。\n\n## 运行\n\n```powershell\npython -m pip install -r requirements.txt\npython solution.py --input \"..\\..\\赛题2-初赛\\数据\" --output \"output\"\n```\n\n可用 `--nodes 2025.5.10` 只生成一个节点。全部中间证据位于 `output/中间结果/evidence.jsonl`，每行保存事件字段、三源文件定位、匹配分数、纳入/排除结论和理由。`output/validation.json` 是交付结构自检结果。\n\n## 核心口径\n\n- 文件编号不参与关联。\n- 开源军情和网上舆论均须达到字段支持阈值，且两类文本标题一致度不低于 0.30。\n- 只纳入东海、南海、黄海核心区域。\n- 经纬度越界等明显雷达异常直接排除。\n- 节点报告只使用节点日信息；第二节跨日主线只读取节点日及以前数据。\n\n这是可运行的规则基线，不调用外部模型或网络，便于复现。赛前建议根据官方隐藏评测样例校准别名词典、时间连续性和冲突阈值。\n"
+  },
+  {
+    "folder": "20261008_001929_claude-opus-5.5high",
+    "source_code": [
+      {
+        "path": "artifact/20261008_001929_claude-opus-5.5high/bdci/charts.py",
+        "sha256": "fb69cd09ef59c2bba04dbc73c00f6d3d9fe41308012deb5c739eb2d5571e6b8a",
+        "functions": [
+          "event_position",
+          "_minutes",
+          "hourly_curve",
+          "activity_map",
+          "_short"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261008_001929_claude-opus-5.5high/bdci/extract.py",
+        "sha256": "e84c9b1f16cc4b07473bc6038c68e32cb4df0875b0a6a9458a7bf77bdbd4e1fe",
+        "functions": [
+          "_field",
+          "read_doc",
+          "normalize_text",
+          "read_day_docs",
+          "_codes",
+          "build_alias_table",
+          "_spans_overlap",
+          "find_platforms",
+          "find_regions",
+          "mask_platform_words",
+          "find_country_before",
+          "find_first_country",
+          "find_count_before",
+          "find_task",
+          "find_times",
+          "find_action",
+          "extract_mentions",
+          "parse_day",
+          "text",
+          "is_fuzzy"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261008_001929_claude-opus-5.5high/bdci/fusion.py",
+        "sha256": "4af025fd45577050f3be72a0080ab9cab598334f02d52f4bead9978a39c49a6c",
+        "functions": [
+          "view_of_mention",
+          "view_of_track",
+          "_minutes",
+          "_platform_score",
+          "region_relation",
+          "pair_score",
+          "_greedy",
+          "_best_track_score",
+          "link_day",
+          "_cluster_score",
+          "_merge_round",
+          "_event_sort_key",
+          "_vote",
+          "_time_eq",
+          "verify",
+          "conflict_summary",
+          "get",
+          "sources",
+          "direction",
+          "credible",
+          "in_core",
+          "views",
+          "supports",
+          "dir_supports"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261008_001929_claude-opus-5.5high/bdci/lexicon.py",
+        "sha256": "ae3ccc24559a0940518b65a70c4b0e32b0688000cabd20a8175c127a347e64b2",
+        "functions": [
+          "region_direction",
+          "is_broad",
+          "platform_kind",
+          "platform_category",
+          "platform_countries",
+          "tasks_compatible",
+          "normalize_task"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261008_001929_claude-opus-5.5high/bdci/pipeline.py",
+        "sha256": "8d3978193b8229e7d913ad3058f3d6ed678df61646ccd60d8d4832363de6b0b3",
+        "functions": [
+          "process_day",
+          "event_record",
+          "dump_intermediate",
+          "build_node",
+          "validate_node",
+          "main",
+          "mention",
+          "check"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261008_001929_claude-opus-5.5high/bdci/radar.py",
+        "sha256": "79060103fc11c397a2a867df1fc5090ebb97e7e2f0c1e1bd821e74bde8a3f647",
+        "functions": [
+          "haversine",
+          "locate",
+          "region_fits",
+          "_hhmm",
+          "_split_positions",
+          "load_radar",
+          "region",
+          "direction"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261008_001929_claude-opus-5.5high/bdci/report.py",
+        "sha256": "26c315e321c65daf8327c4a09aaaecfb5ec7239da62a3975fd9b51746aefb1bb",
+        "functions": [
+          "cn_date",
+          "weekday",
+          "unit",
+          "doc_no",
+          "source_text",
+          "remark",
+          "task_sentence",
+          "sorted_events",
+          "write_xlsx",
+          "_set_font",
+          "_para",
+          "_tagged",
+          "_heading",
+          "_table",
+          "importance",
+          "write_docx",
+          "_add_fig",
+          "_formation_groups",
+          "_cn_num"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261008_001929_claude-opus-5.5high/bdci/tracking.py",
+        "sha256": "e0bcc378aa6fd16a875998d5f687985d0233d33bbd5d7f513605aae4bdbda6c0",
+        "functions": [
+          "_segments",
+          "build_mainline",
+          "_phase",
+          "days",
+          "regions",
+          "directions",
+          "tasks",
+          "days",
+          "main_dir"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261008_001929_claude-opus-5.5high/bdci/__init__.py",
+        "sha256": "a4e69c0d273afe4720d6a185051025dbfee43c7972bde2256799f248056f98f5",
+        "functions": [],
+        "reading": "program_parse_not_agent_full_read"
+      }
+    ],
+    "actual_docx": [
+      "output/2025.5.10/日报/2025.5.10日报.docx",
+      "output/2025.5.18/日报/2025.5.18日报.docx",
+      "output/2025.5.30/日报/2025.5.30日报.docx",
+      "output/2025.6.17/日报/2025.6.17日报.docx",
+      "output/2025.6.29/日报/2025.6.29日报.docx",
+      "output/2025.6.9/日报/2025.6.9日报.docx",
+      "output/2025.7.17/日报/2025.7.17日报.docx",
+      "output/2025.7.9/日报/2025.7.9日报.docx"
+    ],
+    "readme": "# Claude Opus 5.5 初赛答案（2026-10-08 00:19:29）\n\n赛题：多模态融合的知识组织与决策生成。本版本是一套**纯规则 + 领域词典 + 多源投票**的确定性流水线，不调用外部模型或网络，结果完全可复现；8 个初赛节点的 DOCX/XLSX/PNG 已生成在 `output/` 下。\n\n## 运行\n\n```bash\npip install -r requirements.txt\npython run.py --input \"../../赛题2-初赛/数据\" --output output --stage prelim\n# 只跑一个节点\npython run.py --input \"../../赛题2-初赛/数据\" --output output --nodes 2025.5.10\n```\n\n`--input` 指向包含 `2025.5.1/开源军情|网上舆论|雷达信息表_*.xlsx` 的数据目录。复赛用 `--stage semifinal`（节点和起始日见 `bdci/pipeline.py`）。\n\n测试环境：Windows 11，Python 3.13.0，pandas 2.2.3，numpy 2.2.4，openpyxl 3.1.5，python-docx 1.2.0，matplotlib 3.10.6；CPU 单核即可，内存 < 1 GB，8 个节点全流程约 40 秒。图表中文字体按 Microsoft YaHei → SimHei → Noto Sans CJK 顺序回退。无随机过程，无需随机种子。\n\n## 输出结构\n\n```text\noutput/\n├── 2025.5.10/\n│   ├── 日报/                          # 与赛题规定的提交目录一致\n│   │   ├── 2025.5.10日报.docx\n│   │   ├── 2025.5.10机舰活动明细.xlsx   # 仅“飞机”“舰艇”两个工作表，16/11 列\n│   │   └── 附件图表/01~04_*.png\n│   ├── 2025.5.10日报.zip              # 日报/ 目录打包\n│   └── mainline.json                  # 第二节重点主线及阶段划分\n├── …（其余 7 个节点）\n├── 中间结果/<日期>/events.jsonl        # 每个事件：三源证据、字段投票、冲突、雷达异常、排除原因\n├── 中间结果/<日期>/mentions.jsonl      # 文本抽取结果（含原始文件路径）\n├── 中间结果/<日期>/tracks.jsonl        # 雷达航迹、候选点迹簇、Excel 行号\n├── summary.json  validation.json  run.log\n```\n\n## 方法\n\n| 模块 | 文件 | 要点 |\n|---|---|---|\n| 领域词典 | `bdci/lexicon.py` | 80 余个海域地名（方向、中心坐标、半径）、国家别名、170 余型平台及合理隶属国、任务词表 |\n| 文本抽取 | `bdci/extract.py` | 去除“据××报道”信源短语；最长匹配识别平台（含“X”号/级、简称、代号）；就近抽取国家、数量、起止时间、地点、任务、进入/离开；遮蔽平台名防止“反潜巡逻机”被识别成任务；排除“菲律宾海军”“日本海上自卫队”中的伪海名；通行海峡只有明确进入/离开时才计入三海 |\n| 雷达解析 | `bdci/radar.py` | 按批号聚合航迹；识别两处交替出现的点迹（位置漂移/轨迹跳变）并拆成候选解释；识别批内区域错配、主体—平台错配、时间异常；坐标反查地名 |\n| 关联核验 | `bdci/fusion.py` | 开源↔雷达、舆论↔事件簇一对一贪心匹配（平台/国家/地点/时间/任务/数量打分），再对互补的不完整簇做合并；字段级投票：**平台、国家、活动方向都必须至少两类来源支持**，第三类冲突按多数结果和异常解释消解并记录；雷达主体—平台错配时雷达国家不计入支持 |\n| 主线追踪 | `bdci/tracking.py` | 仅用起始日至节点日的数据；在节点日仍出现的外（台）方三海平台中按出现日期数、方向多样性、主体优先级选主线；≤7 天连续、8—14 天另起阶段、≥15 天视为新线索；合并为 2—3 个阶段，判定持续/转移/间歇/离开 |\n| 报告 | `bdci/report.py` `bdci/charts.py` | DOCX 固定标题和六个章节，每句标注【核实】或【研判】并附事件编号与证据文件号；XLSX 严格 16/11 列；4 张 PNG 含图题、图例、坐标和单位，正文引用并嵌入 |\n\n在全部 80 天上：约 4,270 个事件通过核验（其中约 3,970 个是三源齐全），只有 27 条单源线索被排除；被处理掉的典型噪声包括：开源军情把柯林斯级潜艇写成意大利、舆论把 E-767 写成俄军、雷达把福建号标成日本、雷达舰船批内两种活动区域、飞机批号在南海和东海两处交替出现等。\n\n## 已知局限\n\n- 没有官方 XLSX 示例：日期列写成 Excel 日期类型，时间写成 `HH:MM` 文本，有官方样例后应逐列对齐。\n- 呼号列只在文本给出括号代号时填写，雷达表本身没有呼号字段。\n- 只有两类来源且互相冲突时直接排除；如果评测更偏向召回，可以放宽为“雷达无异常时优先采信雷达”。\n- 海岸线是示意用的粗略折线，不是测绘数据。\n"
+  },
+  {
+    "folder": "20261008_204137_976_workflow-agent-v1.1_deepseek-v4-pro_risk",
+    "source_code": [
+      {
+        "path": "artifact/20261008_204137_976_workflow-agent-v1.1_deepseek-v4-pro_risk/code/run.py",
+        "sha256": "874b2166fbe2a8a4383bfd869379f7f19b2f1803dcc57b5f0107593672138315",
+        "functions": [],
+        "reading": "program_parse_not_agent_full_read"
+      }
+    ],
+    "actual_docx": [],
+    "readme": null
+  },
+  {
+    "folder": "20261008_204853_747_workflow-agent-v1.2_deepseek-v4-pro_risk",
+    "source_code": [
+      {
+        "path": "artifact/20261008_204853_747_workflow-agent-v1.2_deepseek-v4-pro_risk/code/run.py",
+        "sha256": "874b2166fbe2a8a4383bfd869379f7f19b2f1803dcc57b5f0107593672138315",
+        "functions": [],
+        "reading": "program_parse_not_agent_full_read"
+      }
+    ],
+    "actual_docx": [],
+    "readme": null
+  },
+  {
+    "folder": "20261008_workflow_agent_v1",
+    "source_code": [
+      {
+        "path": "artifact/20261008_workflow_agent_v1/workflow_agent/analysis.py",
+        "sha256": "cb86c7267b29eb063ce2bc999602f6db56a03d3bd51d0abbc1c636022676e2a9",
+        "functions": [
+          "read_tools",
+          "analyze_seed",
+          "submit_event",
+          "finish_seed"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261008_workflow_agent_v1/workflow_agent/cli.py",
+        "sha256": "f377a13cd54973a81548df92de1f8bac7fdf38dc30a6e7bdcf1e087854a68dec",
+        "functions": [
+          "load_env",
+          "export_state",
+          "execute",
+          "_execute",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261008_workflow_agent_v1/workflow_agent/common.py",
+        "sha256": "1492c73df9d3d3ece40768b2200fc7db4ba4f286e2e7772159832c92570dde2f",
+        "functions": [
+          "now",
+          "register_secret",
+          "redact",
+          "dumps",
+          "digest",
+          "day",
+          "timestamp",
+          "write_json",
+          "append_json",
+          "load_config",
+          "check_no_secrets"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261008_workflow_agent_v1/workflow_agent/engine.py",
+        "sha256": "fb68ada4c0abc5df7e107934aa2dfbb8bf52e4d4a5b81524bac7e0714872422f",
+        "functions": [
+          "tool",
+          "run_agent",
+          "_run",
+          "record"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261008_workflow_agent_v1/workflow_agent/knowledge_baseline.py",
+        "sha256": "ae3ccc24559a0940518b65a70c4b0e32b0688000cabd20a8175c127a347e64b2",
+        "functions": [
+          "region_direction",
+          "is_broad",
+          "platform_kind",
+          "platform_category",
+          "platform_countries",
+          "tasks_compatible",
+          "normalize_task"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261008_workflow_agent_v1/workflow_agent/observability.py",
+        "sha256": "5b1d204ef917936526a72d78f754a9e6f1e73cdac52784be395e58c45437120c",
+        "functions": [
+          "experiment_directory",
+          "snapshot_code",
+          "invocation_metadata",
+          "summarize_trace"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261008_workflow_agent_v1/workflow_agent/preprocess.py",
+        "sha256": "cef64dcd01575b3e432682ad1025cb278b3dd38267182cf800d8872ef8b1e0fe",
+        "functions": [
+          "parse_text",
+          "scalar",
+          "number",
+          "distance_km",
+          "preprocess"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261008_workflow_agent_v1/workflow_agent/providers.py",
+        "sha256": "c2afb0b276a16a945b655c03acfbfab3ed6706688c3b3ad949a2270c21ead94a",
+        "functions": [
+          "__init__",
+          "emit",
+          "_post",
+          "request_payload",
+          "complete",
+          "_complete",
+          "add_results"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261008_workflow_agent_v1/workflow_agent/report.py",
+        "sha256": "ee24f50990e8fde94f49ddc0ad9bf1ce1f240e9f8dfd384e851303c153dc238e",
+        "functions": [
+          "val",
+          "report_packet",
+          "validate_mainline",
+          "create_narrative",
+          "write_xlsx",
+          "write_figures",
+          "write_docx",
+          "deliver",
+          "list_history_events",
+          "list_history_candidates",
+          "submit_report"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261008_workflow_agent_v1/workflow_agent/store.py",
+        "sha256": "a8c0dc9418a646de7122b37cfeb4940517cd2a559ba1c7d2f08dc550b9411463",
+        "functions": [
+          "__init__",
+          "put",
+          "get",
+          "all",
+          "has",
+          "close",
+          "__init__",
+          "records",
+          "list_records",
+          "read_record",
+          "search_records",
+          "get_track",
+          "list_events",
+          "lookup_knowledge",
+          "compare_radar"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261008_workflow_agent_v1/workflow_agent/trust.py",
+        "sha256": "ab52379668b9295a1f458baabfea3ee0eda46a6b8925e5cf29e77a273db61134",
+        "functions": [
+          "candidate",
+          "assess",
+          "review_event",
+          "rank_events",
+          "submit_assessment",
+          "submit_ranking"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261008_workflow_agent_v1/workflow_agent/validation.py",
+        "sha256": "d2c798ed8c81bd37fd2be4effdc2bfe79e4e0fef81d0fe90110dd228c034691e",
+        "functions": [
+          "validate_schema",
+          "evidence_record",
+          "check_event",
+          "refcheck"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261008_workflow_agent_v1/workflow_agent/__init__.py",
+        "sha256": "5bf439484856da3f542872bc546d681f29319c51ef7db02174a7dec412d34a69",
+        "functions": [],
+        "reading": "program_parse_not_agent_full_read"
+      }
+    ],
+    "actual_docx": [],
+    "readme": "# Workflow + Agent 第一版实现\n\n对应方案：`../20261008_workflow_agent方案_v1.md`。\n\n这里的模型会在运行时读原文、检索证据、查询完整轨迹、提交事件并根据校验反馈修订。原有两个 artifact 是 coding agent 开发出的规则程序，本版保留运行时模型调查。\n\n## 当前完成情况\n\n- 无需 API 的无损预处理：TXT 多行字段、原文位置、XLSX 行号与格式、批号前导零、重复组、异常标签、轨迹与时空指标；按内容哈希保存原始文件副本。\n- 本地 SQLite 证据库与分页工具：列记录、读原文、搜索、查轨迹、查已有事件、查基线词典、计算雷达时空关系。\n- 有界工具调用循环：轮数/调用数/上下文限制、参数验证、错误反馈、调用记录和逐记录覆盖状态。\n- 风险路线：逐事件风险评估与逐字段证据核验，再单独做当日候选的可信排序。\n- 辩论路线：证成与质疑独立首轮、一次回应、裁决；角色模型可分别配置。\n- 程序事实准入：三类来源、关键字段至少两类支持、引文存在、关键风险、冲突和异常处理、活动时间及三海边界。\n- 写作 Agent：基于事实包选择跨日主线、生成规定章节，并提交带事件引用的正文。\n- 确定性文件生成：DOCX、飞机/舰艇双表 XLSX、四张 PNG；检查章节、表头、数量总和、附件引用与文件可解析性。\n- 检查点、事件修订记录、独立输出目录和配置/代码/输入指纹；失败或证据不足保持待审。\n\n目前通过合成数据和脚本化模型响应验证工程流程，没有验证比赛原始数据，也没有获得比赛成绩。另已用用户提供的 DS 接口完成模型列表查询及一次真实工具调用往返测试；这仅验证连通性与工具协议，不代表事件分析效果。脚本化响应仅存在于测试文件，不作为生产可信判断的替代方案。\n\n## 安装与预处理\n\n在本目录执行（Python 3.10+）：\n\n```powershell\npython -m venv .venv\n& .venv/Scripts/python.exe -m pip install -r requirements.txt\n& .venv/Scripts/python.exe run.py --input \"原始数据目录\" --start 2025.5.1 --node 2025.5.10 --output output-risk --stage prepare\n```\n\n数据目录应包含 `2025.5.1/开源军情/*.txt`、`2025.5.1/网上舆论/*.txt`、`2025.5.1/*.xlsx`，雷达表名为“飞机”“舰船”。预处理不需要 API；缺失日期、缺少文件、解析失败写入 `quality.json`，不会以空输入冒充完整处理。\n\n## 接入 DS / GPT / Claude\n\n```powershell\nCopy-Item config.example.json config.local.json\nCopy-Item .env.example .env\n```\n\n在 `config.local.json` 中填写实际 `base_url` 和 `model`。`base_url` 为接口前缀：程序会追加 `/chat/completions` 或 `/messages`；前缀需要 `/v1` 时写入配置，不能填完整方法地址。示例没有假定用户的供应商、模型名或代理地址。\n\n在本地 `.env` 中填写密钥，或提前设置环境变量。密钥仅从 `api_key_env` 指定的环境变量读取，不能写进 JSON 配置；`.env` 与 `config.local.json` 已忽略。\n\n| 配置项 | 含义 |\n|---|---|\n| `protocol=openai` | OpenAI Chat Completions 兼容接口，可用于 GPT/DS 或对应网关 |\n| `protocol=anthropic` | 原生 Claude Messages 接口 |\n| `roles.analysis` | 主调查模型 |\n| `roles.risk` | 风险评估和可信排序模型 |\n| `roles.support/critic/judge` | 辩论各角色模型；回应复用 support |\n| `roles.writer` | 主线分析和报告写作模型 |\n| `extra_body` | 提供者允许的额外生成参数，例如 `max_tokens`、思考配置；不得覆盖消息和工具 |\n| `preserve_reasoning_content` | DS 等需要保留此返回字段时开启，回传至后续工具轮次 |\n\n默认角色配置只是占位映射，可改为任何已配置的 provider。Claude 经过 OpenAI 兼容网关时应选择 `openai` 协议。不同模型对参数、工具调用与 JSON Schema 的支持需要收到实际接口信息后联调。\n\n接口实现参考：[OpenAI Chat Completions](https://developers.openai.com/api/reference/resources/chat/subresources/completions/methods/create)、[Claude 工具结果协议](https://platform.claude.com/docs/en/agents-and-tools/tool-use/handle-tool-calls)。2026-10-08 已验证 DS `deepseek-v4-pro` 在关闭思考的轻量测试中完成工具调用与结果回传；思考模式和完整调查流程尚待联调。实际配置保存在忽略的 `config.local.json`，密钥保存在忽略的 `.env`。\n\n## 分阶段运行\n\n```powershell\n# 调查；开发时可加 --max-seeds 5 限制本次记录数\n& .venv/Scripts/python.exe run.py --input \"原始数据目录\" --start 2025.5.1 --node 2025.5.10 --output output-risk --config config.local.json --env-file .env --stage analyze\n\n# 可信判定\n& .venv/Scripts/python.exe run.py --input \"原始数据目录\" --start 2025.5.1 --node 2025.5.10 --output output-risk --config config.local.json --env-file .env --stage review --trust-mode risk\n\n# 报告\n& .venv/Scripts/python.exe run.py --input \"原始数据目录\" --start 2025.5.1 --node 2025.5.10 --output output-risk --config config.local.json --env-file .env --stage report\n```\n\n一次运行全流程时用 `--stage all`。相同输入、代码和配置可在同一输出目录续跑；完成的 seed 调查与可信核验会复用。报告生成和相对排序目前会重新执行，保留每次调用轨迹。\n\n若比较 `debate`，全过程添加 `--trust-mode debate`，使用独立的 `output-debate` 目录。切换模型、规则、代码、节点或判定路线需要新目录；程序会阻止混用旧检查点。两路线若需严格共用同一候选集，可先固定并审阅 `events.jsonl`；第一版 CLI 暂不支持跨实验导入候选，后续可加受指纹约束的导入入口。\n\n初次接入建议先 `prepare`，再用小数量 seed 做 `analyze`，检查证据与工具轨迹后扩展。未完成覆盖、文件缺失或解析问题会阻止标准日报生成，不会偷偷回退成规则报告。\n\n## 中间结果与状态\n\nv1.1 默认将每次实验保存在仓库 `artifact/时间戳_workflow-agent-v1.1_模型名称_可信路线/`。时间戳使用 Asia/Shanghai，包含毫秒。省略 `--output` 自动创建新目录；续跑时显式指定原目录。默认优先使用本地 `config.local.json` 和 `.env`。\n\n雷达调查默认按完整轨迹组调度，全部点仍留在证据库；每篇文本单独调查。`coverage.jsonl` 中 `reviewed_as_group` 区分轨迹组核查与逐条核查，组完成不表示每个异常点都被采信。节点日任务优先，之后调查历史日期。写作时历史主线候选和事件可分页查询，避免把全部历史塞进单次上下文。\n\n除下面的业务结果外，每次实验保留 `code/` 源码快照、`run_config.json` 配置与指纹、`run_status.json` 执行状态、`invocations.jsonl` 续跑记录、`run.log` 阶段日志，以及 `trace_summary.json` 调用和用量汇总。\n\n`traces.jsonl` 记录 task/角色/模型/独立 task_run_id、北京时间、完整提示词与工具定义、每轮消息、原生请求与响应（不含认证头）、工具调用 ID/参数/返回、HTTP 重试、请求 ID、耗时、usage、失败类型和预算耗尽。已知 API 密钥会在输出时脱敏。汇总对原生与规范化响应去重，保留截断响应返回的用量；超时且未返回 usage 的请求用量无法确认。\n\n```text\noutput-risk/\n  raw/<sha256>.txt或.xlsx   原始文件副本\n  state.sqlite             证据、事件与检查点\n  manifest.json            输入清单与指纹\n  quality.json             文件问题、记录和轨迹异常\n  run_config.json          代码与配置指纹，不含密钥\n  coverage.jsonl           每条输入记录的处理结果\n  events.jsonl             pending / trusted / excluded 事件和逐字段证据\n  event_revisions.jsonl    事件修订内容\n  reviews.jsonl            风险或辩论判定与依据\n  traces.jsonl             完整带时间戳的模型/工具/重试 trace\n  trace_summary.json       各角色用量、耗时、工具错误和任务失败汇总\n  code/                    本次源码快照，不含环境文件和本地密钥\n  run_status.json          最新一次启动/完成/失败状态\n  invocations.jsonl        多次启动和续跑记录\n  ranking/<日期>.json      相对可信排序，不改变绝对风险和准入\n  report_packet.json       已准入事实、历史事件、程序统计\n  narrative.json           主线、正文与事件引用\n  summary.json             进度和未覆盖记录\n  validation.json          交付结构检查及限制\n  日报/                    DOCX / XLSX / 四张 PNG\n```\n\n`trusted` 表示模型证据判断通过当前程序门槛，不表示经过独立人工确认。结构、引文与数字检查无法证明语义正确，需要标注集评测。\n\n候选无法调查完、模型预算耗尽、关键字段风险高、冲突/异常未解释时保持 `pending`；`excluded` 是带理由的排除，仍保留原始证据。排名第一、低风险标签、辩论一致均不能跳过程序准入。\n\n## 测试\n\n```powershell\n& .venv/Scripts/python.exe -m unittest discover -s tests -v\n```\n\n测试不调用外部 API。包含多行原文和信源保留、前导零、未来数据隔离、输入变更防混用、引文伪造、复制证据、未解决冲突、预算限制、工具参数修复、两种可信路线、三家协议适配和合成端到端交付/续跑。\n\n## 第一版限制与下一步\n\n- 只有本地全文 OR 关键词召回，没有向量索引；未知别名由模型扩展检索。大数据下 SQLite JSON 扫描可能较慢，当前应先小样本测量。\n- 来源独立性只做精确复制检查；相似转载和共同引用依靠模型核验，尚无独立转引图算法。\n- 轨迹初始分组按单文件/工作表/批号；跳变与字段不一致标记保留，不自动删除或拆成确定事件。\n- 基线词典复制自 Claude artifact 的 `bdci/lexicon.py`，版本标记为基线快照；未经独立核验，近似地理中心不能当真实观测或权威边界。\n- 关键字段采用严格准入；数量和时间不足时会降低召回。架次/批次/艘次统计采用“一准入活动=一批，精确数量=该事件架/艘次”的初版口径，需原始数据与官方示例验证。\n- 排序超过规模或上下文预算时标为未完成，保留绝对风险结果；不伪造全局排序。模型概率没有做统计校准。\n- 跨日主线暂限定相同标准主体/平台，不能覆盖所有复杂编队变化。同型号不是同一个体；需样本验证语义关联。\n- 事件显式拆分/废弃的专用工具尚未实现。可创建不同事件，但不能静默删除已有来源和冲突；需重新分配来源的事件先待审，保留修订记录。\n- 第一张图是节点日逐小时侦巡活动区间覆盖（任务含侦察/巡逻/侦巡/监视/反潜），不是逐小时独立雷达观测。后三张是区域矩阵示意，尚未按官方地图样式对齐。\n- 报告只做文件结构、引用和数字检查；没有自动语义审校，也没有 Word 页面的渲染与视觉验收，不能宣称比赛交付已经验收。\n- DS 仅完成轻量真实工具测试，GPT/Claude 接口待提供；没有原始数据端到端效果。未来优先测事件错配、字段准确率、风险等级实际错误率、召回率、成本及调用稳定性，再调清洗和预算。\n\n\n### v1.2 真实数据运行\n\n显式 `finish_seed(pending)` 表示调查完成但证据不足；事件仍待审。预算/接口中断表示调查未完成，可续跑。首次完整节点使用500000字符上下文、80次工具调用、24轮；保留v1.1试跑用于对照。最新实验目录见 `latest_experiment.txt`；`process.json`记录启动进程，`run_status.json`记录运行状态，`run.log`记录进度，`traces.jsonl`记录逐次调用，`trace_summary.json`在本次运行结束时汇总。\n"
+  },
+  {
+    "folder": "20261009_gpt_accuracy_v2",
+    "source_code": [
+      {
+        "path": "artifact/20261009_gpt_accuracy_v2/code/audit_cases.py",
+        "sha256": "a79cfbd2d02fcc1c5b0a572f2ead975058df6ba5381e9a4e84e55a9fa31d4b77",
+        "functions": [
+          "run"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v2/code/charts.py",
+        "sha256": "1e015e2fe287b3c51db3ad5ea32f867d4a5686af642c15249405bf1cd2c7df52",
+        "functions": [
+          "make"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v2/code/check_holdout.py",
+        "sha256": "1731d99e177a11880e84c7581ce4d66bbbe4a9a74785c7e6f9475b4c37dc7433",
+        "functions": [],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v2/code/fusion.py",
+        "sha256": "0f585f4f749cbc7578e5db12e21ea2d5ab01fc5e09cb6bb9570f9c2c4d56c371",
+        "functions": [
+          "date_value",
+          "normal",
+          "uid",
+          "direction",
+          "region_relation",
+          "regions_in",
+          "canon_platform",
+          "strip_reporter",
+          "fact_sentence",
+          "times_in",
+          "num",
+          "parse_text",
+          "distance",
+          "radar_time",
+          "coord_support",
+          "reconstruct_radar",
+          "time_relation",
+          "compare_claim",
+          "claims_relation",
+          "adjudicate",
+          "build_day",
+          "choose_trend"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v2/code/holdout_review.py",
+        "sha256": "7df6d013cbdef333f791aa6ffda7e76899ef52fea1db79463f58e31e8c956b3e",
+        "functions": [],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v2/code/inspect_raw.py",
+        "sha256": "2c229d9d9be85ecd61c84d549a8d3417e95e9f446b26845ac521c8af5b51601a",
+        "functions": [
+          "main",
+          "source_id",
+          "fingerprint"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v2/code/invariance_checks.py",
+        "sha256": "8f879ac49f8721280157609f4c3a2d148d62592070482ebe71fd38e98cf96673",
+        "functions": [
+          "facts"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v2/code/package_reproduction.py",
+        "sha256": "3c8c9cf63489fcfbb0565d28e2c7385bc3dc2652c23237d257764dee40c8b050",
+        "functions": [],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v2/code/rasterize_qa.py",
+        "sha256": "4d1da760884c9b9a4c5357054d990fcf87efa533d9598b6b864e2482cda17af8",
+        "functions": [],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v2/code/raster_excel.py",
+        "sha256": "3f6f7ecc27be4e36dad5807f8e1ef327f8bf74afb0a65a734b5659410a284156",
+        "functions": [],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v2/code/reconstruct.py",
+        "sha256": "8cdff2d8ee4d1aabc1deeb94a1a25e7ca5adae3c399c90c804e27b28ca063c3d",
+        "functions": [
+          "write_json",
+          "write_jsonl",
+          "run"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v2/code/report.py",
+        "sha256": "ef63c11c7880369fd97e788858618fbc3988ac7a3f43952607a73f9d752c107f",
+        "functions": [
+          "hm",
+          "span",
+          "reference",
+          "text_event",
+          "table",
+          "phase_text",
+          "document",
+          "workbook_rows"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v2/code/review_coverage.py",
+        "sha256": "358a70eba8c8b5752d0c23c7f3bdf1f9cf489d0f7866cbb51cc102b47485a078",
+        "functions": [
+          "jl"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v2/code/run.py",
+        "sha256": "cdb329dd857b45739a377ffa993f89ecca360fdecfe3897ae572c969e52f077f",
+        "functions": [
+          "main",
+          "execute"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v2/code/validate.py",
+        "sha256": "dbe02a4c8ffed64ae4c27b952795f84119b33543b84137917f52247c9a215e7f",
+        "functions": [
+          "sha",
+          "require",
+          "normalize_date",
+          "check"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v2/code/workbooks_fallback.py",
+        "sha256": "b0797507eec15b973c1dfa4cda616a0aa7ebf43a82ed5f49ef7886dc6eec98b4",
+        "functions": [],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v2/code/write_delivery_docs.py",
+        "sha256": "8e3ecf9b5735c5d29cec9853a6682cb030cfdff05849f491cbfe1a726d1e3bdd",
+        "functions": [
+          "read",
+          "save",
+          "sha"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      }
+    ],
+    "actual_docx": [
+      "output/日报/2025.5.10/2025.5.10日报.docx",
+      "output/日报/2025.5.18/2025.5.18日报.docx",
+      "output/日报/2025.5.30/2025.5.30日报.docx",
+      "output/日报/2025.6.17/2025.6.17日报.docx",
+      "output/日报/2025.6.29/2025.6.29日报.docx",
+      "output/日报/2025.6.9/2025.6.9日报.docx",
+      "output/日报/2025.7.17/2025.7.17日报.docx",
+      "output/日报/2025.7.9/2025.7.9日报.docx"
+    ],
+    "readme": "# 赛题2初赛：GPT 独立重做，20261009_gpt_accuracy_v2\n\n本目录包含八个节点的答案、完整代码、原始证据定位、人工案例、运行日志和校验记录。仅参考仓库规则、原始数据及旧 GPT 实现；没有读取或复制 Claude 代码及产物。旧目录和仓库文件保持原样。\n\n可提交文件是 `output/日报_gpt_accuracy_v2.zip`：48 个文件，8 DOCX、8 XLSX、32 PNG。`复现材料_gpt_accuracy_v2.zip` 包含本版本代码、证据、核查记录和输出，供工程复核，不能直接提交为日报答案。分析见 `ANALYSIS.md`，最终验证记录见 `AUDIT.md`。\n\n## 从原始输入复现\n\n以下命令在本版本目录执行。输入是仓库的 `赛题2-初赛/数据`，不是旧版中间结果。Python 3.12/3.13，推荐 Windows 和系统中文字体。\n\n```powershell\npython -m venv .venv\n& ./.venv/Scripts/Activate.ps1\npython -m pip install -r requirements.txt\npython code/run.py --input ../../赛题2-初赛/数据 --output output --audit audit --docx-python .venv/Scripts/python.exe --portable-xlsx\n```\n\n便携模式只需 Python 依赖，不需要模型、API 密钥、GPU、Node 或 Office。该模式已经在现有Python环境和全新隔离虚拟环境中分别从原始数据运行全部八节点，记录在 `audit/portable_reproduction/full_run.json`、`audit/clean_reproduction/full_run.json`，结果逐单元格与主交付内容比较。全新环境完整依赖锁定文件在 `audit/clean_reproduction/requirements.lock.txt`。两种写表引擎的样式和二进制文件可以不同，事件与字段应一致。\n\n本机主交付使用 Codex 自带 Python 3.12.14 写 DOCX，Node 和 `@oai/artifact-tool` 2.8.89 写 XLSX；解析、绘图和校验使用 Python 3.13.9。代码会自动发现本机缓存运行库；`code/node_modules` 是本机运行库联接，不打入复现包，也不是必须下载的模型依赖。\n\n```powershell\npython code/run.py --input ../../赛题2-初赛/数据 --output output --audit audit\n```\n\n默认重新读取原始 TXT/XLSX，计算输入 SHA256，依次执行提取、重构、绘图、DOCX、XLSX、独立结构与证据链校验，最后生成 ZIP。任一子进程或最终校验失败即返回非零退出码。`--reuse-verified-snapshot` 仅用于开发调试，最终复现未使用。日期节点和规则参数固定在 `code/fusion.py`；不存在根据文件编号配对或按匹配阈值认定真值的步骤。\n\n原始目录结构：\n\n```text\n赛题2-初赛/数据/\n  2025.5.1/\n    开源军情/*.txt\n    网上舆论/*.txt\n    雷达信息表_2025.5.1.xlsx    # 飞机、舰船，各300行\n  ...\n```\n\n原始数据80天，每天两类各50篇文本。只处理截至末节点7月17日的78天，即7800篇文本、46800条雷达记录；7月18—19日不参与答案。每个日报的词典和关联只使用当天材料，历史章节再使用截至该节点已核验记录。\n\n本机 Ryzen 7 8845H，8核16线程，约16GB内存，Windows 11。无需 GPU。实测运行时间和库版本在 `audit/full_run.json`、`audit/portable_reproduction/full_run.json`；热文件缓存时约半分钟，首次或磁盘较慢时约1—3分钟。建议留出4GB可用内存、1GB磁盘用于全部证据和视觉核查。首次安装依赖需网络，推断和生成过程完全本地。\n\nLinux/macOS 应替换虚拟环境激活方式，并安装可用中文字体。核心流水线没有 Office 依赖；本次视觉核查使用 Windows Word/Excel，其他平台版式不能仅凭本次结果保证。\n\n## 内容与格式检查\n\n```powershell\npython code/audit_cases.py --out audit/cases_final.json\npython code/check_holdout.py\npython code/invariance_checks.py\npython code/review_coverage.py\npython code/validate.py --output output --snapshot audit/raw_snapshot.jsonl\n```\n\n`audit_cases.py` 检查28条原始材料人工标签；`check_holdout.py` 检查其余七节点14条标签。后者参与过修复，是跨节点回归集，不是未触碰的测试集。`review_coverage.py` 仅为旧 GPT 覆盖比较，需要仓库旧 GPT 的 `evidence.jsonl`；其余生成与验证无需旧实现。`invariance_checks.py` 验证8节点雷达/文本乱序及文件独立重编号不改事实，以及加入节点之后记录不改历史主线。\n\n可选视觉核查，需要本机安装 Word、Excel，以及 `requirements-qa.txt`：\n\n```powershell\npython -m pip install -r requirements-qa.txt\n& ./code/render_word.ps1 -Reports ./output/日报 -Output ./audit/docx_visual\npython code/rasterize_qa.py audit/docx_visual\n& ./code/render_excel.ps1 -Reports ./output/日报 -Output ./audit/xlsx_native\npython code/raster_excel.py audit/xlsx_native\npython code/write_delivery_docs.py\npython code/package_reproduction.py\n```\n\nOffice 以隐藏、只读方式打开文件并导出 QA PDF，关闭时不保存。PDF/页面图片仅在 `audit`，日报提交 ZIP 不含 PDF。文档技能的 `render_docx.py` 曾因缺少 LibreOffice 失败，已采用本机 Word 实际渲染并记录回退。检查包括每页空白/越界检测、人工查看页面拼图、Excel 原生日期显示和16个工作表预览。结构、证据链一致性与人工样本复核是三个不同层次，均不能替代官方准确性评分。\n\n## 代码及证据入口\n\n| 文件 | 用途 |\n|---|---|\n| `inspect_raw.py` | 直接读取文本、Excel及原始行号；输入哈希与原始快照 |\n| `fusion.py` | 正文子事件、别名、任务/时间/区域、雷达分支和逐字段裁决 |\n| `reconstruct.py` | 所有日期事件、候选、排除理由和节点事实包 |\n| `charts.py` / `report.py` | 从事实包写4图、完整日报和规定列的数据矩阵 |\n| `workbooks.mjs` / `workbooks_fallback.py` | 主交付表格／便携表格 |\n| `validate.py` | 独立保存格式常量，重新读交付文件、原始定位、日期及ZIP |\n| `holdout_review.py` | 仅从原始三类数据提取其他节点审阅材料，不读融合输出 |\n| `audit_cases.py` / `check_holdout.py` | 独立人工标签回归检查，标签不由输出生成 |\n\n`output/中间证据/events.jsonl` 保存每条候选的纳入/排除、备选文本对和未解决冲突；`candidate_links.jsonl` 保存每次同型平台候选关联的支持、冲突、缺失字段及文本正文行号；`radar_tracks.jsonl` 保留原始Excel路径、工作表、行号和坐标；`claims.jsonl` 保留逐平台正文片段和字段依据。完整文本和原始行在 `audit/raw_snapshot.jsonl`，每个原始文件的校验值在 `audit/input_manifest.json`。\n\n`factpack_<日期>.json` 是该节点当日事实和截止该节点的历史主线。DOCX 的 D/H 证据编号和 XLSX 备注可定位到原始文件序号、雷达行号及事件 ID；这些序号只作为引用位置，不参与匹配。`chart_datasets.json` 保存4图原始绘图数据，便于独立重算。\n\n`audit/independent_cases_initial.json` 和 `cases_first_run.json` 保留初始标签及首次失败；当前标签、全部原始行和修订说明在 `independent_cases.json`、`manual_case_review.md`、`cases_raw_records.json`。`ANALYSIS.md` 明确列出错误修复、标签修正、覆盖变化和剩余风险。\n\n每个节点样例均已在 `output/日报/<日期>/` 中提供。可提交ZIP结构严格为 `日报/<日期>/`。辅助证据与测试日志不放入提交ZIP。\n"
+  },
+  {
+    "folder": "20261009_gpt_accuracy_v3",
+    "source_code": [
+      {
+        "path": "artifact/20261009_gpt_accuracy_v3/code/ablate.py",
+        "sha256": "fe4fc5e23625e07ddc46714f7760310040b722f1d4d1e516112785f1d08aa76e",
+        "functions": [],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v3/code/audit_cases.py",
+        "sha256": "a79cfbd2d02fcc1c5b0a572f2ead975058df6ba5381e9a4e84e55a9fa31d4b77",
+        "functions": [
+          "run"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v3/code/charts.py",
+        "sha256": "fae712e03c20eac927634f16113c640b1d0dedac9959b88c3fdad08a2ef1cf30",
+        "functions": [
+          "make"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v3/code/check_holdout.py",
+        "sha256": "1731d99e177a11880e84c7581ce4d66bbbe4a9a74785c7e6f9475b4c37dc7433",
+        "functions": [],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v3/code/check_new_cases.py",
+        "sha256": "f968cb04aaf9358a21fcf85841e2959dc8978bab8e4245f0d8a8e5640be1ccba",
+        "functions": [
+          "run"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v3/code/compare_versions.py",
+        "sha256": "966ab315b9357e6eaff4d2b2680d6e1ec4d09922aea7b4b4f901eaf92254d614",
+        "functions": [],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v3/code/diagnose.py",
+        "sha256": "ef06a76cab86b69095308aa61b433f914b1f16689b71559ddb26faa13f07ba13",
+        "functions": [],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v3/code/finalize_evidence.py",
+        "sha256": "012c8f7bdf6067617a05d34cc8e3143eae00076d18d306758e7312a6c0d6c165",
+        "functions": [
+          "read",
+          "save",
+          "sha",
+          "metadata",
+          "clean_compare",
+          "validator_probes",
+          "text",
+          "cells"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v3/code/freeze_baseline.py",
+        "sha256": "634f82bd2aabc0fb37d563859053d3a04ed3a16c862b0170c6f5fda90e67b588",
+        "functions": [
+          "sha"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v3/code/freeze_cases.py",
+        "sha256": "3acc3e61305140953020832043dc8a68f7a004e98aaf3c7df4f7fc93945dc9e3",
+        "functions": [
+          "freeze"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v3/code/fusion.py",
+        "sha256": "8577b0d7e5a3080b31eef6f312f72157f5aa1121d807a9e0320775e5a27a9ca5",
+        "functions": [
+          "date_value",
+          "normal",
+          "uid",
+          "direction",
+          "region_relation",
+          "regions_in",
+          "canon_platform",
+          "strip_reporter",
+          "fact_sentence",
+          "times_in",
+          "num",
+          "parse_segment",
+          "parse_text",
+          "distance",
+          "radar_time",
+          "coord_support",
+          "reconstruct_radar",
+          "time_relation",
+          "compare_claim",
+          "claims_relation",
+          "adjudicate",
+          "contextual_conflicts",
+          "field_ledger",
+          "build_day",
+          "choose_trend_v2_reference",
+          "choose_trend"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v3/code/fusion_event_stage.py",
+        "sha256": "cb53b116c34238fdd072618981f5d42395039c27460b3e30237cf96a31a9d15a",
+        "functions": [
+          "date_value",
+          "normal",
+          "uid",
+          "direction",
+          "region_relation",
+          "regions_in",
+          "canon_platform",
+          "strip_reporter",
+          "fact_sentence",
+          "times_in",
+          "num",
+          "parse_segment",
+          "parse_text",
+          "distance",
+          "radar_time",
+          "coord_support",
+          "reconstruct_radar",
+          "time_relation",
+          "compare_claim",
+          "claims_relation",
+          "adjudicate",
+          "contextual_conflicts",
+          "field_ledger",
+          "build_day",
+          "choose_trend"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v3/code/inspect_raw.py",
+        "sha256": "2c229d9d9be85ecd61c84d549a8d3417e95e9f446b26845ac521c8af5b51601a",
+        "functions": [
+          "main",
+          "source_id",
+          "fingerprint"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v3/code/invariance_checks.py",
+        "sha256": "8f879ac49f8721280157609f4c3a2d148d62592070482ebe71fd38e98cf96673",
+        "functions": [
+          "facts"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v3/code/new_relation_checks.py",
+        "sha256": "9460144714e583db5510180b3436f95a0f99a9d1f3ed33e53ea500e174ce5cb5",
+        "functions": [
+          "freeze",
+          "check"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v3/code/package_delivery.py",
+        "sha256": "ee3e808fee7306f37e9664f28449bf64170aa49f4121cfd70402994f8132b65d",
+        "functions": [
+          "read",
+          "sha",
+          "save",
+          "integrity",
+          "package"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v3/code/reconstruct.py",
+        "sha256": "9774ac9d892b19f720e1095aafca336875a9f1e1bd59483d3ca9811a04e157f5",
+        "functions": [
+          "write_json",
+          "write_jsonl",
+          "run"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v3/code/render_qa.py",
+        "sha256": "c1adb3d78ef27eefb83c5548191bddf68eee2520f6be625c5d02b64268307cc8",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v3/code/report.py",
+        "sha256": "17e48b2fcd480d8e721a9c1786c09ce573baaa4dfb5865f62977f797a1f9c7fd",
+        "functions": [
+          "hm",
+          "span",
+          "reference",
+          "text_event",
+          "table",
+          "phase_text",
+          "document",
+          "workbook_rows"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v3/code/run.py",
+        "sha256": "cdb329dd857b45739a377ffa993f89ecca360fdecfe3897ae572c969e52f077f",
+        "functions": [
+          "main",
+          "execute"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v3/code/trend_v3.py",
+        "sha256": "60c18a7408d7894e9720b74ddd952b18710fcc69622204beaa1decc044f1a2a8",
+        "functions": [
+          "date",
+          "phases",
+          "choose",
+          "cost",
+          "loss"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v3/code/validate.py",
+        "sha256": "de95cb0d597ed947a2411b3750d0ebdf2f1e709a9d77457980dfd807f9691334",
+        "functions": [
+          "sha",
+          "require",
+          "normalize_date",
+          "check"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v3/code/workbooks_fallback.py",
+        "sha256": "b0797507eec15b973c1dfa4cda616a0aa7ebf43a82ed5f49ef7886dc6eec98b4",
+        "functions": [],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_accuracy_v3/code/write_delivery_docs.py",
+        "sha256": "1eb4793e3e05231af94a55ff57d0b035fbb614a70c976363ed96b396f68b4bf9",
+        "functions": [
+          "read",
+          "sha",
+          "md",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      }
+    ],
+    "actual_docx": [
+      "output/日报/2025.5.10/2025.5.10日报.docx",
+      "output/日报/2025.5.18/2025.5.18日报.docx",
+      "output/日报/2025.5.30/2025.5.30日报.docx",
+      "output/日报/2025.6.17/2025.6.17日报.docx",
+      "output/日报/2025.6.29/2025.6.29日报.docx",
+      "output/日报/2025.6.9/2025.6.9日报.docx",
+      "output/日报/2025.7.17/2025.7.17日报.docx",
+      "output/日报/2025.7.9/2025.7.9日报.docx"
+    ],
+    "readme": "# GPT accuracy v3：赛题2初赛 initial 八节点\n\n本目录是新的完整交付版本。已完成8份DOCX、8份XLSX、32张PNG、可提交ZIP，以及源码、原始证据快照、人工案例、对照与视觉记录。旧GPT、v2和原提交包保持原样；不读取或复制Claude版本，也不使用其他正在运行版本的中间结果。\n\n交付入口：\n\n- `output/日报_gpt_accuracy_v3.zip`：正式提交包，根目录`日报/`，48个规范文件，无QA PDF。\n- `工程交付_gpt_accuracy_v3.zip`：源代码、配置、依赖、证据、案例、全部正式产物和最终QA记录；详见`audit/engineering_manifest.json`。\n- `output/日报/`：八节点可直接查看文件。\n- `ANALYSIS.md`：原始证据问题、修复、主线对照与限制。\n- `AUDIT.md`：结构、事实、视觉、复现检查分开报告。\n- `VISUAL_REVIEW.md`：实际渲染范围、问题和修复。\n- `audit/problem_table.md`及JSON：逐案例原始定位、依据、v2行为、修复与结果。\n\n基线为`artifact/20261009_gpt_accuracy_v2`。用户给定评测：完整性84.4760、准确性64.8389、格式76.5391、分析52.5000，展示总分69.0354；旧GPT44.0519。本版本没有下一轮官方结果，不预测得分，不编造扣分位置，不把既有总分增量归因于提示词。\n\n## 干净环境复现\n\n从本版本目录执行，Python 3.13；已验证Windows 11、Python 3.13.9。`--input`应指向完整原始`赛题2-初赛/数据`目录。字体使用本机微软雅黑/宋体/黑体；字体和Office版本不同可能改变排版和PNG字节。正式输出使用artifact-tool；以下命令使用无需Node的openpyxl可移植路径，所有单元格、事件、报告文字与PNG已比较一致。\n\n```powershell\npy -3.13 -m venv .venv-repro\n& ./.venv-repro/Scripts/python.exe -m pip --isolated install --index-url https://pypi.org/simple -r audit/requirements.lock.txt\n& ./.venv-repro/Scripts/python.exe -X utf8 code/run.py --input ../../赛题2-初赛/数据 --output audit/reproduce/output --audit audit/reproduce --docx-python .venv-repro/Scripts/python.exe --portable-xlsx\n& ./.venv-repro/Scripts/python.exe -X utf8 code/check_new_cases.py --split development --events audit/reproduce/output/中间证据/events.jsonl --out audit/reproduce/development_results.json\n& ./.venv-repro/Scripts/python.exe -X utf8 code/check_new_cases.py --split reserved --events audit/reproduce/output/中间证据/events.jsonl --out audit/reproduce/reserved_results.json\n& ./.venv-repro/Scripts/python.exe -X utf8 code/validate.py --output audit/reproduce/output --snapshot audit/reproduce/raw_snapshot.jsonl\n```\n\n默认运行重新读取原始7800个TXT和46800条雷达记录（5.1—7.17共78日），不默认复用快照；原数据还有7.18—7.19，截断于最后节点。节点正文、明细、统计、图表仅当日；第二节跨日历史截止该节点。运行不调用推理API，生成器为确定性规则，作者为Codex GPT-6，API快照不可取得。实际基线冻结、环境版本和参数见`audit/baseline_freeze.json`、`config/experiment_final.json`、`audit/repro_final/full_run.json`。\n\n既有42例都是开发回归：`audit_cases.py`的28例和`check_holdout.py`的14例（旧文件仍名holdout，不能当本轮独立测试）。新26例开发及24例预留先从完整原始三源录入预期；新10条关系断言复用4个开发案例，不增加样本分母。请只执行检查，不重新运行`freeze_cases.py`覆盖冻结标签。\n\n原生版式QA需要本地Microsoft Word/Excel，脚本隐藏只读打开、不保存原文件：\n\n```powershell\npwsh -File code/render_word.ps1 -Reports audit/reproduce/output/日报 -Output audit/reproduce/docx_visual\npwsh -File code/render_excel_full.ps1 -Reports audit/reproduce/output/日报 -Output audit/reproduce/xlsx_native\n& ./.venv-repro/Scripts/python.exe -X utf8 code/render_qa.py audit/reproduce/docx_visual\n& ./.venv-repro/Scripts/python.exe -X utf8 code/render_qa.py audit/reproduce/xlsx_native\n```\n\n`requirements-qa.txt`包含PyMuPDF；完整锁文件已包含QA环境。本机技能提供的LibreOffice renderer尝试失败（未安装LibreOffice），已用实际Word和Excel原生导出及PDF栅格检查完成，失败日志保留。原始文件不打包复制一整套；工程包提供处理范围内完整原始快照和输入哈希，重新从原TXT/XLSX读取需仓库原数据。\n\n## 证据与追溯\n\n`output/中间证据/`保存全部78日事件（含排除）、逐字段支持/冲突/未知、原始雷达全部点、全部解析文本子事件、所有候选关联、竞争证据分配、未分配证据、八节点提报包和图表/表格数据。事件ID只用于定位；来源序号、整篇关键词、标题、评分均不是事实依据。排除候选不能直接进入可信日报；未知辅助字段留空并注明未核实。\n\n`code/fusion_event_stage.py`保存事件核验阶段；`audit/event_verification_stage.json`与`audit/ablation_analysis.json`区分事件核验、固定事实下主线变化和版式变化。所有阶段均没有官方评分；不能据此证明提示词独立收益。\n\n完整清洁重跑在`audit/repro_final/`；最终工程包省略旧轮次重复渲染和重复生成数据、损坏探针副本与本机运行时目录，但原目录保留所有实验。工程包内保存最终QA、日志、比较、原始标签和标签更正。新运行请使用新的输出路径。\n"
+  },
+  {
+    "folder": "20261009_gpt_independent_v4",
+    "source_code": [
+      {
+        "path": "artifact/20261009_gpt_independent_v4/code/charts.py",
+        "sha256": "15ee5e11af716f8370fdc32ca2e8d0923a4a61e79d0857efaea3fe47d22a4820",
+        "functions": [
+          "render"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_independent_v4/code/check_cases.py",
+        "sha256": "4d68aedc9cdd2a5d225d329aca147a39d606bf552bf343889156eaf581847fd6",
+        "functions": [
+          "check"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_independent_v4/code/compare_legacy.py",
+        "sha256": "f61b107c7245fd680f7bcbf23c45e2ec5c210223f47d865b2f36e3d7e471cb4c",
+        "functions": [],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_independent_v4/code/compare_reproduction.py",
+        "sha256": "34a4f67d65f7c4780b3ddc5155b2e0133881734674dcb41d136310b916184627",
+        "functions": [
+          "sha",
+          "compare"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_independent_v4/code/events.py",
+        "sha256": "47c13e9530be3e4fa758a5593f5b27ed9aaff69636dd257862a683981177ebdf",
+        "functions": [
+          "date",
+          "norm",
+          "direction",
+          "compatible_region",
+          "km",
+          "position_support",
+          "minute",
+          "fmt",
+          "stamp",
+          "root_platform",
+          "vocabulary",
+          "text_atoms",
+          "radar_events",
+          "compare",
+          "assign",
+          "audit_fields",
+          "process_day",
+          "choose_chain"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_independent_v4/code/extract.py",
+        "sha256": "9e78405e03801c1d25f4affe222e77a92a53d689e8d527230ea927790ff7c3ac",
+        "functions": [
+          "write_jsonl",
+          "extract"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_independent_v4/code/make_cases.py",
+        "sha256": "6ea7c28c3a98a020f4e016e4217697fb2dee8e799ee720e06073d10cc6b3a2bc",
+        "functions": [],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_independent_v4/code/metamorphic.py",
+        "sha256": "8f5184c968fc37e9827bd93c93ec8db14c59154e2bb58e297d90f5f5f2ab1bcb",
+        "functions": [
+          "signature"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_independent_v4/code/package_engineering.py",
+        "sha256": "753bf8be377ebcee24cc16e98fe3fca28cccc1d29051c8d99701843dc7c78d56",
+        "functions": [
+          "sha",
+          "run"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_independent_v4/code/prepare.py",
+        "sha256": "5b3403ff9dca1ce3b568a4ac9493778e7c8a7127d34ae81ee9be8a2c02bddd1c",
+        "functions": [
+          "make"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_independent_v4/code/render_qa.py",
+        "sha256": "be6eb73b6e377dc1e5d2278d736dbfb050020ba65a0628444003807c7dc632a0",
+        "functions": [],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_independent_v4/code/report.py",
+        "sha256": "b128bd24fa9ea561b43dd99edc0057f77789696c28303d1d290abe41262b1f6b",
+        "functions": [
+          "citation",
+          "event_sentence",
+          "explain_issue",
+          "style",
+          "write"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_independent_v4/code/run.py",
+        "sha256": "c235485b12f054949636c3a0ca6b0a806a88929bdf450143ce9061d1e6bd44c7",
+        "functions": [],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_independent_v4/code/scout.py",
+        "sha256": "cddfa57827f2fbf86efcd0f8c4f1a076f534f7425764c0b61c806a0428fbe756",
+        "functions": [],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261009_gpt_independent_v4/code/validate.py",
+        "sha256": "02367df42d4b3d3ed32ba6862b3d913fc17ec9f44e9e3adbfce91b503359e572",
+        "functions": [
+          "run"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      }
+    ],
+    "actual_docx": [
+      "output/日报/2025.5.10/2025.5.10日报.docx",
+      "output/日报/2025.5.18/2025.5.18日报.docx",
+      "output/日报/2025.5.30/2025.5.30日报.docx",
+      "output/日报/2025.6.17/2025.6.17日报.docx",
+      "output/日报/2025.6.29/2025.6.29日报.docx",
+      "output/日报/2025.6.9/2025.6.9日报.docx",
+      "output/日报/2025.7.17/2025.7.17日报.docx",
+      "output/日报/2025.7.9/2025.7.9日报.docx"
+    ],
+    "readme": "# 赛题2初赛：GPT 独立重做 v4\n\n本目录保留独立代码、原始证据快照、抽查标注、验证记录和全部8个节点成果。原有 artifact、submission 和原始数据未被覆盖。只核查初始 GPT 版本 `20261008_001028_gpt-5.6solhigh`；未读取或复制 Claude 的代码与产物，也未借用其他 GPT 改进版实现。\n\n## 交付入口\n\n- `output/赛题2_初赛_八节点_提交.zip`：可提交压缩包，准确包含48个文件：8 DOCX、8 XLSX、32 PNG；没有PDF、代码或内部证据。\n- `output/日报/{日期}/`：解压后的正式文件。\n- `ANALYSIS.md`：实际数量、旧版覆盖差异、抽查修复与风险。\n- `audit/VALIDATION_RECORD.md`：各类检查的依据和边界；版式核查见 `audit/VISUAL_REVIEW.md`。\n- `工程交付_代码证据成果.zip`：工程交付包；不用于赛题提交。\n\n## 运行环境与依赖\n\nPython 3.13，依赖见 `requirements.txt`；新建虚拟环境实装的完整传递依赖见 `requirements.lock.txt`。Python 负责原始抽取、全局关联、逐字段核验、PNG、DOCX和校验。Node + `@oai/artifact-tool` 2.8.89负责XLSX创建与预览。具体解释器、模块入口、版本和哈希见 `audit/environment.json`。\n\n本机 Node / 文档 Python 来自 Codex 附带的运行时。artifact-tool 不随工程包重分发；迁移机器须先具备该运行时，或设置 `ARTIFACT_TOOL_ENTRY` 为已有 `artifact_tool.mjs` 的绝对路径。不能仅安装 Python 依赖后假定 XLSX 可以生成。PNG需要微软雅黑或等效中文字体；Windows本机已具备。DOCX渲染核查另外使用打包的 `render_docx.py`、LibreOffice 25.8.6和Poppler；渲染并非生成提交ZIP的运行时依赖。\n\n## 从仓库根目录复现（PowerShell）\n\n以下命令使用新输出位置，不覆盖原始成果。`--reuse-evidence` 默认不启用，因此会重新读取原始三类来源，且只处理2025.5.1至2025.7.17。\n\n```powershell\n$v = 'artifact/20261009_gpt_independent_v4'\npython -m venv \"$v/.venv-reproduce\"\n# 此机器的全局pip配置有额外索引；以下两项只影响当前进程。\n$env:PIP_CONFIG_FILE = (Resolve-Path \"$v/audit/empty-pip.ini\").Path\n$env:PIP_EXTRA_INDEX_URL = ' '\n& \"$v/.venv-reproduce/Scripts/python.exe\" -m pip install -r \"$v/requirements.lock.txt\"\n$env:PYTHONIOENCODING = 'utf-8'\n$docPython = \"$env:USERPROFILE/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe\"\n$node = \"$env:USERPROFILE/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe\"\n& \"$v/.venv-reproduce/Scripts/python.exe\" \"$v/code/run.py\" --input '赛题2-初赛/数据' --output \"$v/reproduced/output\" --doc-python $docPython --node $node\n& \"$v/.venv-reproduce/Scripts/python.exe\" \"$v/code/check_cases.py\" --events \"$v/reproduced/output/evidence/all_events.jsonl\" --cases \"$v/audit/gold_cases.json\" --output \"$v/reproduced/case_check.json\"\n& \"$v/.venv-reproduce/Scripts/python.exe\" \"$v/code/compare_reproduction.py\" --first \"$v/output\" --second \"$v/reproduced/output\" --record \"$v/reproduced/comparison.json\"\n```\n\n也可在依赖已安装后运行 `code/reproduce.ps1 -Python <解释器> -Node <Node解释器> -DocPython <文档解释器> -Output <新输出目录>`。所有脚本非交互、无需模型密钥，生成阶段模型调用为0。`run.py`子进程失败会立即停止；内容案例不通过时 `check_cases.py` 返回非零退出码。\n\n本次已在新建 `.venv` 中从零安装依赖并全量重抽取，产物保存在 `audit/reproduction/`；最后一次主线调整后重新执行制表、制图、正文和校验。原始证据字节、主线、正文、明细及PNG解码像素全部一致，详见复现日志和 `audit/reproduction_comparison.json`。容器时间戳和PNG压缩流不保证字节相同。\n\nDOCX视觉核查复现命令：\n\n```powershell\npython \"$v/code/render_qa.py\" --artifact $v --python $docPython --renderer \"$env:USERPROFILE/.codex/plugins/cache/openai-primary-runtime/documents/26.1007.11041/skills/documents/render_docx.py\" --soffice-bin 'D:/APPfile/Libreoffice25.8.6/program'\n```\n\n渲染PNG与QA PDF仅存于 `audit/docx_preview/`，不会进入提交包。`render_qa.py`仅清理当前新版本自己的旧页图，防止缩短文档留下过期页。\n\n## 数据、关联与核验\n\n`events.py`只从事实段抽取主体、具体型号、区域、任务、明确数量和时间。型号归一保留变型；同文多平台拆为不同原子事实。日期、型号之外还需具体区域或显式时段锚点。每来源原子事实只对应一个雷达事件；无时间且同型同日候选不可区分时保留歧义。文件序号和标题相似度不参与关联。\n\n雷达按批次保留全部Excel行，对各字段所有不同值、同刻异地、跳变、坐标越界和跨日时间进行审计。发现冲突不取首行或多数行代替。全局匹配分数只用于候选竞争，不能使事件通过事实核验。两文本相互支持但雷达冲突时保留同事件候选，冲突仍否决正式纳入。\n\n正式纳入须三类来源完成关联，且主体、型号、数量、任务、起止时段、具体区域均有至少两类来源支持；任何明确未消解冲突均否决。仅两源候选保留在证据中，不伪造缺少的第三源。未获两类来源支持的起飞基地、呼号、母港不写成核实字段；原雷达基地只在备注标为单源候选。雷达观测时间不等同于起降时间。\n\n日报正文（除第二章）、明细与四图只用节点当日。第二章只回溯至节点日，从当日外方主体同型平台形成至少三个证据日期、两至三阶段的主线；在15日断点切断，以具体区域、任务和7日以上间隔形成阶段。均匀证据不按日期中点强行分期。跨日批号不同不能证明同一机体或舰体。\n\n## 中间证据和独立检查\n\n本次“人工判读”指代理直接阅读原始资料进行独立于生成代码的判断，不表示已经获得外部军事专家复核。\n\n\n- `output/evidence/{日期}.events.jsonl`：所有雷达候选，完整Excel行号/字段/坐标，两个文本原子事实的路径、事实片段与SHA256，逐字段支持来源、冲突和纳入/排除/域外理由。\n- 同目录 `documents / atoms / candidates / ambiguities / unmatched_atoms`：原文事实段、拆分、全体同型候选的支持/冲突理由、歧义和未使用文本。以事件ID、原子事实ID关联文件，序号只用于原始定位。\n- `input_manifest.jsonl`：实际读取7878个原始文件的哈希；不包含晚于最后节点的数据。\n- `output/payloads/`：当日正式集合、主线日期阶段、图表数据和精确XLSX行。正文D01等编号对应当日证据索引。\n- `audit/gold_cases.json`：从原始三类来源人工判读46条应关联/不应关联案例及关键字段，不由生成结果反推；生成程序不读取该文件。\n- `cases_before / cases_after / cases_holdout_before / cases_final`：初始失败、修正和追加案例记录；一条人工错误标注的原版本单独保留。\n- `audit/metamorphic.json`：随机改文本名并打乱Excel行序、首节点不读取未来数据的稳定性检查。重复该脚本须使用新artifact目录，已有样本目录不自动删除。\n- `output/validation.json`：严格文件集合、工作表/列顺序/类型、日界、去重、合计、主线、PNG和ZIP字节/CRC校验。**这些是结构和内部一致性检查，不能证明内容准确。**\n\n工程包排除虚拟环境、缓存、重复复现成果和变形测试输入副本；保留正式成果、全部中间证据、原始抽查快照、代码、依赖、QA页面/工作表预览、日志与分析。`code/package_engineering.py`生成并验证工程包和文件清单。\n"
+  },
+  {
+    "folder": "20261011_20250510_rebuild_v5",
+    "source_code": [
+      {
+        "path": "artifact/20261011_20250510_rebuild_v5/code/events_base.py",
+        "sha256": "47c13e9530be3e4fa758a5593f5b27ed9aaff69636dd257862a683981177ebdf",
+        "functions": [
+          "date",
+          "norm",
+          "direction",
+          "compatible_region",
+          "km",
+          "position_support",
+          "minute",
+          "fmt",
+          "stamp",
+          "root_platform",
+          "vocabulary",
+          "text_atoms",
+          "radar_events",
+          "compare",
+          "assign",
+          "audit_fields",
+          "process_day",
+          "choose_chain"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      }
+    ],
+    "actual_docx": [],
+    "readme": null
+  },
+  {
+    "folder": "20261011_20250510_rebuild_v6",
+    "source_code": [
+      {
+        "path": "artifact/20261011_20250510_rebuild_v6/code/audit_sources.py",
+        "sha256": "635d3d7eedaee667cca4c18f844fe1e4a05113714c55612d58835a49e016145b",
+        "functions": [
+          "parse_day",
+          "audit",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261011_20250510_rebuild_v6/code/build.py",
+        "sha256": "e69541acbbe8532071cbc888774fa242dcdc12f34f150e8f887fb0c96817ab4d",
+        "functions": [
+          "sha",
+          "save",
+          "load",
+          "minute",
+          "task",
+          "item",
+          "build_analysis",
+          "chart",
+          "make_rows",
+          "document",
+          "main",
+          "obs",
+          "font",
+          "wrap",
+          "paragraph",
+          "heading",
+          "indexpara"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261011_20250510_rebuild_v6/code/events.py",
+        "sha256": "c5785a276bc59e8781bf6745d493de43c644704453e823b2c63ff5d3a274ab9f",
+        "functions": [
+          "linear_sum_assignment",
+          "date",
+          "norm",
+          "direction",
+          "compatible_region",
+          "km",
+          "position_support",
+          "minute",
+          "fmt",
+          "stamp",
+          "root_platform",
+          "vocabulary",
+          "text_atoms",
+          "radar_events",
+          "compare",
+          "assign",
+          "audit_fields",
+          "process_day",
+          "choose_chain"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261011_20250510_rebuild_v6/code/finalize.py",
+        "sha256": "62059408975fa6a45114cbfcff82c5354d43eae14ea7d700a7150f202364a7dc",
+        "functions": [
+          "load",
+          "sha",
+          "save",
+          "sid",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261011_20250510_rebuild_v6/code/freeze.py",
+        "sha256": "dbaaf24dca3a0bc0ad69ea4f84e6feeb012ccd69a8fa079490dfa529032b1d0e",
+        "functions": [
+          "load",
+          "save",
+          "sha",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261011_20250510_rebuild_v6/code/intake.py",
+        "sha256": "18e75d3096237ba659871f1a1ec3921cd773c0853050fcee1a4799e1f65b85d0",
+        "functions": [
+          "save",
+          "sha",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261011_20250510_rebuild_v6/code/package_engineering.py",
+        "sha256": "ff81921aaa9823a561d950ba6a50fde47c585089c58f2ce7fe7e1737e4beca88",
+        "functions": [
+          "sha",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261011_20250510_rebuild_v6/code/quality_checks.py",
+        "sha256": "54c695e03d762403cb69b9b621b1e72a97b42aaa2ccf7da1a69d94b1fbbdc8cb",
+        "functions": [
+          "load",
+          "sha",
+          "save",
+          "official_paths",
+          "main",
+          "check"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261011_20250510_rebuild_v6/code/raster.py",
+        "sha256": "39a301f3741882c7e56eabe491f728649755bfe17eb87253f66fb569b6d2d14a",
+        "functions": [],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261011_20250510_rebuild_v6/code/reproduce.py",
+        "sha256": "33ab695143147253d0c440c369f2ef8ec55411abf0f7fbac60d8aaf615f61e17",
+        "functions": [
+          "sha",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261011_20250510_rebuild_v6/code/review_inputs.py",
+        "sha256": "abea924e987c944676d452ea694068658f9722c0dee9a0257a2432c821992fe3",
+        "functions": [
+          "save"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261011_20250510_rebuild_v6/code/run_new.py",
+        "sha256": "4bb020a7d300c54f3155a868a767b4f8fd47bffd4c3206438398ac4c7b9c2d3c",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261011_20250510_rebuild_v6/code/verify.py",
+        "sha256": "f8b03df18897c2c885e7e59c40d728aeb61a9158fccf56e0dbbd2517450b23dd",
+        "functions": [
+          "write",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      }
+    ],
+    "actual_docx": [
+      "2025.5.10/2025.5.10日报.docx"
+    ],
+    "readme": "# 2025-05-10完整日报重做 v6\n\n本目录是新产物，未覆盖历史版本。正式交付为 `2025.5.10_单节点正式交付.zip`，根层直接为 `2025.5.10/`，仅含日报DOCX、机舰活动明细XLSX和4张规定命名PNG。代码、审计、PDF与证据均在ZIP外。**平台八节点齐交要求尚未取回组织方原文；本包明确为单节点交付，未实际上传，不代表完整赛段包。**\n\n本节点核实16批17架次飞机、11艘次舰艇，其中中国6批6架次和3艘次，外方及台湾10批11架次和8艘次。数量为独立核实活动的参与数量累加，不能当作去重实体数、舰日或报道数。飞机起降、基地、呼号和舰艇母港未充分核实，表内留空；活动观测时间保存在规定备注列，不冒充起降。美国RC-135任务未知。\n\n第二节主线为德国同主体同型“台风”，证据日期为5月1、2、6、10日，5个活动、6架次。三段按区域及任务组合划分，后两段各为单日，不构成持续驻留或具体航迹。只使用节点前历史资料G02（2024-08-01使馆联合新闻稿固定英文PDF）解释训练与转场这一合理替代解释，不核验比赛内事件。原发布页为 https://kuala-lumpur.diplo.de/my-en/2669260-2669260 ，所读PDF、哈希和页面快照见 `evidence/external/`。\n\n## 已执行检查\n\n- 2025-05-01至10日1000份TXT及10份完整雷达工作簿重新读取，按正文原子事实关联；每条纳入记录关键字段至少两类支持，第三类无未消解明确冲突。完整候选、竞争证据、全批次行号及字段闸门均保留。\n- 59项结构、数据类型、事实冻结、未来材料防护、反事实冲突及ZIP文件集合检查通过，见 `audit/validation.json`。元数据脚本G02 PASS与人工原文语义复查分别记录，不等同于赛事评分。\n- 完整DOCX经本机Word 12.0只读导出PDF，13页逐页查看；XLSX全部27数据行分列段渲染查看；4张PNG分别及在正文中查看。修复了固定行距导致图片裁切、标签拥挤和引用精度问题。样例也实际渲染并提取结构。记录见 `audit/manual_review.json` 与 `audit/word_render.json`。\n- 回原始正文复查纳入、排除及域外样本；发现5月5日德国“台风”正文实际写导弹巡洋舰/艘，返回核验阶段排除、重新冻结并重生成全部成果。飞机细地名只有一类正文支持时收敛到共同支持海域，原候选保留。前后哈希及纠正见 `audit/freeze_revision.json`。\n- `reproduction/run1/` 从原始输入独立重生成，冻结JSON哈希相同、4张PNG字节相同、XLSX全部单元格值/类型/格式相同、DOCX除时间元数据外全部包成员相同。见 `audit/reproduction.json`。没有使用缓存比赛事实。\n\n本机没有“方正小标宋简体”和“仿宋_GB2312”的精确字体名称；DOCX保留样例字体声明，渲染由本机字体替代。图表使用已安装微软雅黑。其他机器分页可能变化。bundled `render_docx.py` 因无LibreOffice失败，已保存日志，采用原生Word导出完成实际检查；无须把PDF加入提交ZIP。\n\n## 文件索引\n\n`audit.json`为判断链总审计；`facts/frozen_ledger.json`为冻结台账；`evidence/candidate_ledger.json`为全部候选及纳入/排除原因；`evidence/raw_texts.json`保存原始TXT全文及行号；`evidence/radar/`保存完整雷达行；`evidence/input_manifest.json`保存原文件哈希。`audit/version_diff_final.json`区分历史候选存在与正式纳入，逐项保存字段差异和原始依据。历史输出只作对照，不是真值。\n\n`analysis.md`仅为第二节可审阅副本。`audit/sample_structure.json`冻结实际示例标题、字体段落、两表字段和类型，其中飞机H1实际是单元格内换行“起飞\\n基地”；原始雷达工作表“舰船”与提交表“舰艇”分开处理。`qa/docx/final/`为当前13页；`qa/obsolete/`和`facts/revisions/`仅留早期修正前记录，不参与正式生成。\n\n`2025.5.10_代码证据审计包.zip`是独立工程包，包含本轮代码、证据、审计、渲染记录、原始1000份TXT/10个工作簿及格式参考文件，不可当成正式比赛提交包。第三方依赖和重复复现目录未装入；完整性记录在 `audit/engineering_package.json`。\n\n## 从原始输入复现\n\n在本项目根目录运行，`--output`必须是新的artifact目录；程序拒绝覆盖现有目录。\n\n```powershell\n$env:PYTHONIOENCODING = 'utf-8'\n& 'C:/Users/Andy1/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' 'artifact/20261011_20250510_rebuild_v6/code/run_new.py' --output 'artifact/20250510_reproduction_NEW'\n```\n\n该命令顺序执行 `intake → verify → freeze → build → workbook → quality_checks → audit_sources → finalize`，从`赛题2-初赛/数据/`读取节点前原材料，生成全套6文件、独立ZIP与审计。复用已保存且有SHA的外部固定PDF，历史结果仍只对照。新运行的视觉与语义复核不会自动冒充人工PASS，需检查渲染后补入review记录。\n\n本轮实际独立复现命令为 `python code/reproduce.py`（已执行，结果在run1；再次运行需另选目录或使用上面的run_new）。依赖版本、运行时路径及源码哈希见 `dependencies.lock.json`、`requirements.txt` 和 `audit/code_manifest.json`。XLSX使用 `@oai/artifact-tool`；openpyxl仅用于读入/独立检查。`code/node_modules`是bundled依赖目录联接，未复制第三方库。\n\n上述run_new命令已实际运行到 `reproduction/full_pipeline_test/`，全套6文件与单节点ZIP生成、59项检查通过；新运行审计保持待人工复核状态，没有把本轮视觉PASS直接复制过去。\n\n渲染单独运行 `powershell -NoProfile -File code/render_word.ps1`，再用同一Python执行 `code/raster.py`。默认渲染本目录的样例和正式DOCX。`code/quality_checks.py`生成ZIP并独立校验路径/CRC/每个成员SHA。`code/finalize.py`只整合审计，不修改冻结台账。\n\n## 尚未确认\n\n八节点齐交及“无外部资料分析分原则不超过60”没有可核对组织方原文；后者仅保存为用户反馈。无平台评测，不声称完整性、准确性、分析分或总分提高；已有历史均值不参与事件真值裁决。主线机体身份、连续状态、基地及具体因果均有缺口，正文采用有限判断。G02有固定PDF、原发布页日期和PDF元数据支持，但未取得节点当天网页快照，不能绝对排除同URL后来替换。\n"
+  },
+  {
+    "folder": "20261011_initial_eight_nodes_v7",
+    "source_code": [],
+    "actual_docx": [],
+    "readme": null
+  },
+  {
+    "folder": "20261011_initial_eight_nodes_v8",
+    "source_code": [
+      {
+        "path": "artifact/20261011_initial_eight_nodes_v8/code/common.py",
+        "sha256": "fd48e6e4955a2eb945ec34f6126c31e98177be529bacccb53517ac630e0604a9",
+        "functions": [
+          "sha",
+          "save",
+          "load",
+          "dt"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261011_initial_eight_nodes_v8/code/prepare.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "functions": [],
+        "reading": "program_parse_not_agent_full_read"
+      }
+    ],
+    "actual_docx": [],
+    "readme": null
+  },
+  {
+    "folder": "20261012_134432_initial_eight_nodes_v9",
+    "source_code": [
+      {
+        "path": "artifact/20261012_134432_initial_eight_nodes_v9/code/audit_sources.py",
+        "sha256": "635d3d7eedaee667cca4c18f844fe1e4a05113714c55612d58835a49e016145b",
+        "functions": [
+          "parse_day",
+          "audit",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_134432_initial_eight_nodes_v9/code/author_analysis_v9.py",
+        "sha256": "b607feedc5acd03de7374f1ddf4067206e87f57a62d3728a85930a2eba6b1f53",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_134432_initial_eight_nodes_v9/code/build.py",
+        "sha256": "24402dc6fa9e6ce4b86ca51fb7e438d85ee3f84f32b7f9b32e0c77c5e86339a2",
+        "functions": [
+          "item",
+          "source_locator",
+          "analysis",
+          "add_para",
+          "build"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_134432_initial_eight_nodes_v9/code/charts.py",
+        "sha256": "05a358ddab68715538e5b2ee7740df2c6a44212a84e6661b5c20551b7df4334d",
+        "functions": [
+          "minute",
+          "font",
+          "wrap",
+          "draw"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_134432_initial_eight_nodes_v9/code/collect_inputs_v9.py",
+        "sha256": "e18982323bdd0674b70e5bccece1b70bf5e4f34cbd6a24463e540f6e692ce5b3",
+        "functions": [
+          "main",
+          "cp"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_134432_initial_eight_nodes_v9/code/common.py",
+        "sha256": "3d5627af623a844c8b9e03e0de84cac713c02703ccef053f77d89acdea10b5c4",
+        "functions": [
+          "sha",
+          "save",
+          "load",
+          "dt"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_134432_initial_eight_nodes_v9/code/events.py",
+        "sha256": "b69cbc384cce89477566f4b639d7d23f0760ed563aad5a51cbbd92fab89a690e",
+        "functions": [
+          "linear_sum_assignment",
+          "date",
+          "norm",
+          "direction",
+          "compatible_region",
+          "km",
+          "_point_support_legacy",
+          "position_support",
+          "minute",
+          "fmt",
+          "stamp",
+          "root_platform",
+          "vocabulary",
+          "text_atoms",
+          "radar_events",
+          "compare",
+          "assign",
+          "audit_fields",
+          "audit_fields",
+          "process_day",
+          "choose_chain"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_134432_initial_eight_nodes_v9/code/evidence_audit_v9.py",
+        "sha256": "9636ef45e6ec4756b30098874434df6e4897baeb164eae42dcdeffa7a0f7401f",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_134432_initial_eight_nodes_v9/code/finalize_v9.py",
+        "sha256": "6a358c2b81b014fc16dc0c629e925855c5248d7290822c6cb0b530dddd4144a1",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_134432_initial_eight_nodes_v9/code/final_supplement_v9.py",
+        "sha256": "56fab08f92218f845baaa18749993c1768551056605c3b2e5c52fba80fc632bc",
+        "functions": [
+          "main",
+          "cp",
+          "read"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_134432_initial_eight_nodes_v9/code/history_v9.py",
+        "sha256": "ef72c513376447bba7eb675604a8f74fb34af23cdeaec2e3e8a9cd6ebc04604b",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_134432_initial_eight_nodes_v9/code/inspect_v9.py",
+        "sha256": "031834c13dcf001e796ff1e8ea691252170b06adb7d6729a7972050b3b5e4cca",
+        "functions": [
+          "fetch"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_134432_initial_eight_nodes_v9/code/intake_v9.py",
+        "sha256": "6feb2e8a15ce55b5ad9dfd2670a0f6ddb76405894e54c0136069acbfdaf382ed",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_134432_initial_eight_nodes_v9/code/package_v9.py",
+        "sha256": "3003c096eb38a471f681769290d579de69608283ddc9be21cb7333734531c290",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_134432_initial_eight_nodes_v9/code/patch_build_v9.py",
+        "sha256": "035b110e8c5e92345477e43c7922f47d2bb87057829377d0cd37b2c30582bdf3",
+        "functions": [],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_134432_initial_eight_nodes_v9/code/prepare.py",
+        "sha256": "821685617de4aaa22fb0824b8289b62dccc33ab80acc9108f15b63f37b5460b2",
+        "functions": [
+          "chain_options",
+          "history",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_134432_initial_eight_nodes_v9/code/raster_excel.py",
+        "sha256": "22e76ed8e2bb1b7163dc6dae4ef904a914fe77aa8c97de539c58f8123964f580",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_134432_initial_eight_nodes_v9/code/raster_qa.py",
+        "sha256": "3dac10bb6143c8b99b5c2ab6b4fad33d71687113ede84734ce0ec809bb6a0687",
+        "functions": [
+          "contacts",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_134432_initial_eight_nodes_v9/code/reproduce.py",
+        "sha256": "b861a3ff6ce3bd86b2d4a9baeb2c9593c9535d1537db55194425c1a04f8d532b",
+        "functions": [
+          "run",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_134432_initial_eight_nodes_v9/code/review_v9.py",
+        "sha256": "273abf841a193c232c1fecfebb17ede7c4516ccf166bcc798ad60b0a38c4046d",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_134432_initial_eight_nodes_v9/code/select_v9.py",
+        "sha256": "5cbb067670ab2a8f86dab7308423030cb77fbb601a89ada29932d5c9184fdab4",
+        "functions": [
+          "select"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_134432_initial_eight_nodes_v9/code/source_config_v9.py",
+        "sha256": "0abab8efd4198587c8bfa68397c7f4e321340c091bf62ff336776ede6843704d",
+        "functions": [
+          "catalog"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_134432_initial_eight_nodes_v9/code/validate.py",
+        "sha256": "02132679ee5f9b14a87f6868a3f1b6c615c29a4adfb0bd9501e0649850478c46",
+        "functions": [
+          "validate"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      }
+    ],
+    "actual_docx": [
+      "official/2025.5.10/2025.5.10日报.docx",
+      "official/2025.5.18/2025.5.18日报.docx",
+      "official/2025.5.30/2025.5.30日报.docx",
+      "official/2025.6.17/2025.6.17日报.docx",
+      "official/2025.6.29/2025.6.29日报.docx",
+      "official/2025.6.9/2025.6.9日报.docx",
+      "official/2025.7.17/2025.7.17日报.docx",
+      "official/2025.7.9/2025.7.9日报.docx"
+    ],
+    "readme": "# 初赛八节点 v9 交付记录\n\n八节点完整日报、明细和32图已生成，并完成全文渲染、修复、原始输入复现和48文件独立解包检查。此为候选提交包，未上传、无平台回执、无新评分。所有成果位于本新目录，历史版本只读保留。\n\n正式包：`赛题2_初赛_八节点_完整候选提交包.zip`。根层直接为八个日期目录，每日期恰好DOCX、XLSX及附件图表4PNG。工程文件、PDF、审计与重复包不进入正式包。工程包另行生成，见 `engineering_package.json`。\n\n|节点|当日活动|主线／证据日期数|外部资料|DOCX页数|交付与本地检查|\n|---|---:|---|---|---:|---|\n|2025.5.10|26|德国“台风”多用途战斗机／4|B04|11|6文件、渲染、复现、解包完成|\n|2025.5.18|24|德国巴登-符腾堡号导弹护卫舰／4|B04|11|6文件、渲染、复现、解包完成|\n|2025.5.30|27|韩国P-8A“海神”反潜巡逻机／8|相关历史版本缺口|11|6文件、渲染、复现、解包完成|\n|2025.6.9|27|英国RC-135W电子侦察机／5|相关历史版本缺口|11|6文件、渲染、复现、解包完成|\n|2025.6.17|25|澳大利亚P-8A“海神”反潜巡逻机／12|B01|12|6文件、渲染、复现、解包完成|\n|2025.6.29|25|新加坡G550空中预警机／6|相关历史版本缺口|11|6文件、渲染、复现、解包完成|\n|2025.7.9|27|加拿大哈利法克斯级导弹护卫舰／7|B12|11|6文件、渲染、复现、解包完成|\n|2025.7.17|24|法国戴高乐号航空母舰／4|B10|11|6文件、渲染、复现、解包完成|\n\n本轮事实变化：重新处理5月1日至7月17日78天的7,800篇TXT及78个完整雷达工作簿。每节点视图按自身截止日冻结。八个目标日427个雷达候选全部重算；所有完整历史版本、v6单节点及Git格式版共1,599条正式表格记录均定位回原始批次，无未映射正式表格候选。历史JSON候选与失败记录另见全版本读取清单及压缩原始解析档案，不把历史出现当真值。\n\n优先85项已保存逐项原文、完整雷达行、两版记录、逐字段支持及裁决。v8新增30条保留28、移除2：5月10日美国RC-135V/W、5月18日德国法兰克福号的任务不足两类明确支持。55次区域变粗保留：没有用宽坐标窗、粗海域一致或中位点充作细地名第二票。另恢复6月17日日本F-2A和7月17日澳大利亚EA-18G，两类文字均明确支持细区域，近似坐标窗的不确定不能自动否决。八节点最终205条与v8总数相同，但成员不同。其余候选字段修正及域外/排除标签变化见 `evidence/v8_v9_fact_changes.json`；不把未纳入候选的字段变化说成正式新增。\n\n共识没有免检：全量程序重核后，当前代理逐条审阅85项重点、32项分层样本、17个未关联文字原子及主线原文。样本按事件ID哈希每节点选2条共识纳入和2条共同排除，排除与重点85项重叠。全部7,800篇正文由程序完整读取；不冒称全部逐句人工阅读。复核者就是当前代理，已知历史标签；没有独立人员、子代理或盲测。任务词表漏检和评论范围误抽经原文发现，修正后重跑全部78天；修复案例不当成独立盲测。\n\n事实、分析、格式分开保存：事实层修正任务冲突漏检、同国同型竞争证据、类别/否定范围、型号数字、完整轨迹相容检查与细区域支持规则；事实冻结后，当前代理比较各节点候选并直接撰写八份具体分析，再由脚本渲染。`select_v9.py`保存已审阅取舍，`author_analysis_v9.py`保存具体文字；它们是本轮判断的可复现快照，不是通用段落模板或新模型调用。第二节推断指向明确事件ID，未用后续节点事件补证较早节点。\n\n实际作者为本Codex会话；精确后端模型、采样参数不可取得，模型API调用0次。复现重读原始输入并重新核验事实，然后回放已审阅分析快照；不宣称重新调用模型独立得出相同判断。\n\n各节点主要判断与外部资料：\n\n- 2025.5.10：B04。同日训练与巡逻已并存，5月10日警戒标签是本线近期首次核实；不据单日变化推成持续警戒或能力升级。\n- 2025.5.18：B04。三日东海警戒与11日空档后的南海训练可比；空档不能补成航行、驻留或突然升级。\n- 2025.5.30：无合格新增外部实证资料。六日七起黄海反潜形成重复基线；节点两次窗口合计3架次，支持活动条数变化，不等于3架同时在场。\n- 2025.6.9：无合格新增外部实证资料。两类侦察标签在5月28日已经并见，节点是组合重现；不足以确认新增能力、编组或强度上升。\n- 2025.6.17：B01。多日南海反潜与其他方向活动并存；节点黄海记录不能遗漏。5月19日另一条任务冲突已排除。\n- 2025.6.29：无合格新增外部实证资料。任务标签短暂改变后在另一海域重现；地域改变与任务改变分开比较，不推成永久改装或用途转换。\n- 2025.7.9：B12。黄海同类任务重复，南海为单日插入；舰级不能识别具体舰体，不写成单舰次日往返。\n- 2025.7.17：B10。具名舰四日记录中，南海警戒有三次重复；与更早记录的18日空档分开，不把艘次当航母数。\n\nB04为德国政府2024-09-25固定版印太执行报告，第8页3.1，帮助区分训练科目与部署解释；B01为2024-04-06四国部长联合声明，第1页第2—3段，只算一个来源组；B12为加拿大2022—2023实施更新的2024固定出版物，第6页/印刷页4，2024-12-31为保守公开上界而非精确发布日期；B10为日本海上幕僚监部2025-02-06固定公告，提供戴高乐合作演训的历史参照。全部相关原发布方正文在本轮读取，版本均早于使用节点。B01本地PDF来自历史缓存，本轮通过web重读原站两页，直连403已记录；B10保存允许的短摘录与定位。背景不能补充比赛第三源、辨认当日舰体或解释确定意图。\n\n5月30日、6月9日、6月29日仍缺直接相关且节点前版本可确认的新增外部实证资料。当前旧署名网页、未取得的附件、2026版本均未作为合格历史背景引用。具体检索与排除原因见各节点 `external_search_gaps.json`，无装饰性宏观引用。\n\n检查结果：8份DOCX总览及一至五章节齐全；8份XLSX仅“飞机”“舰艇”且表头、顺序、日期/星期文本和数量类型匹配实际示例，飞机H1保留“起飞\\n基地”换行；起降、基地、呼号不足两源支持时留空，观测窗口另在备注保存。正文、表格、图表事件与数量逐项比对。32PNG完整、可打开，正文引用附图1—4。WPS通过Word COM完整导出89页并全部查看；WPS通过Excel COM对两表所有填充单元格按四个列带完整渲染查看；全部32张独立PNG查看。修复小标题分页、长URL及分析中的技术过程描述。`render_docx.py`因缺LibreOffice无法运行，实际采用WPS Office Word.Application COM与pypdfium2，不冒称运行成功。\n\n`reproduction_comparison.json`确认八节点从封装的原始输入重算，冻结台账哈希、分析文字、DOCX正文XML、XLSX值/类型和PNG哈希全部一致。Office容器时间戳允许不同，不以整个DOCX/XLSX字节相同作为条件。`independent_package_check.json`另用独立代码路径解包并重新打开48个文件；这不是独立审阅人员。\n\n一键复现：在Windows PowerShell于本目录运行 `./run-all.ps1`。默认使用用户目录下Codex bundled Python/Node/artifact-tool依赖，生成全新 `reproduced_<时间戳>/`，不覆盖正式结果。支持 `-Python`、`-Node`、`-NodeModules`、`-Output`；`-SkipNativeRender`可跳过Office图像导出。须安装支持Word／Excel COM的Office（本机实际为WPS Office）及中文字体，依赖版本见 `dependency_versions.json`、`requirements-lock.txt`。工程包不重新分发Codex运行时二进制或Microsoft字体；因此不是无需环境的跨平台独立程序。主线与分析快照绑定当前原始数据，不承诺适配任意新数据。\n\n审计导航：`stage_audit.json`和`node_status_matrix.json`为全段状态；`audits/<日期>/audit.json`、`frozen_ledger.json`、`analysis.md`、`analysis_snapshot.json`、`visual_review.json`为节点证据链；`evidence/priority_85_adjudications.json`为优先差异；`evidence/stratified_review_cards.json`为抽查；`evidence/historical_formal_candidate_union.json`与`all_version_candidate_union.json`为候选映射；`evidence/task_taxonomy_recheck.json`为共享解析修正影响。`code/legacy_reference`只为旧实现只读对照，不是本轮执行入口，也不把其完成声明当本轮验证。\n\n历史评分：初始GPT44.0519、初始Claude52.9675、v2 69.0354、v3 67.1920、v4 75.5445、v8 71.1521，均为归档显示均值按25%/40%/15%/20%加权值。v4四项74.8767/85.5277/76.4282/55.7500，v8四项86.1320/65.2266/96.5230/45.2500。v4仍是当前最高分对照，不是事件真值；v8格式分不能迁移为本轮成绩。逐节点分数、扣分细目、平台提交ID仍缺失，不能从总分反推正确事件或把某个修正归因为分差原因。\n\n未解决限制：没有独立盲审；3节点外部实证缺口；部分实体身份、辅助字段与缺证日期未知；粗略坐标窗并非权威边界；本轮组织方页面未返回可读现行规则，按用户给定根日期目录打候选包；未取得上传回执或新平台评测。只报告本地检查，不宣称分数提高、已找到隐藏答案或已成功提交。\n\n补充执行记录：`run-all.ps1 -SkipNativeRender`已在全新one_click_reproduction目录实际执行并通过八节点全部比对。完整图像渲染另对最终正式文件执行。COM程序自报Word/Excel 12.0，但程序路径位于Kingsoft，实际渲染提供者为WPS Office，已据此修正审计名称。\n"
+  },
+  {
+    "folder": "20261012_152733_initial_eight_nodes_v10",
+    "source_code": [
+      {
+        "path": "artifact/20261012_152733_initial_eight_nodes_v10/code/audit_sources.py",
+        "sha256": "d810993621732c5e1f5984cbb56ea4976e15894c24455f8128ae95852ac1e7b1",
+        "functions": [
+          "parse_day",
+          "audit",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_152733_initial_eight_nodes_v10/code/audit_v10.py",
+        "sha256": "a1bcd8c64600aa658ee8252bf2469cecb33d49aa1be7feb42f6bdb1d85f64cea",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_152733_initial_eight_nodes_v10/code/author_analysis_v10.py",
+        "sha256": "b607feedc5acd03de7374f1ddf4067206e87f57a62d3728a85930a2eba6b1f53",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_152733_initial_eight_nodes_v10/code/build.py",
+        "sha256": "c650513abf8ccd4e33250fe1885df6767fb6711b45ca0f61809ad74265edfc79",
+        "functions": [
+          "locality_note",
+          "item",
+          "source_locator",
+          "analysis",
+          "add_para",
+          "build"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_152733_initial_eight_nodes_v10/code/capture_baseline.py",
+        "sha256": "dfbf984470719c9404355a7f1660ed079bd5d091f74a194cc2f5506f4b04d711",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_152733_initial_eight_nodes_v10/code/charts.py",
+        "sha256": "369a812e26904182c0577abe898822ebcfe4edaffaf6d10dde830383ac9fdd13",
+        "functions": [
+          "minute",
+          "font",
+          "wrap",
+          "draw"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_152733_initial_eight_nodes_v10/code/check_quantity_scope.py",
+        "sha256": "f2adf4b98382466b0579d608ebbbb01ad96fb5db66b19210a2864071ed22b242",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_152733_initial_eight_nodes_v10/code/collect_inputs_v10.py",
+        "sha256": "169d2595e6103e6270e322397553f611f8a31a1976181836d1af6d34b4983d53",
+        "functions": [
+          "main",
+          "cp"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_152733_initial_eight_nodes_v10/code/common.py",
+        "sha256": "e80b802f83c91bf46a00042541dfe9e16753c7bf618d51d1222dcdef649ae5ab",
+        "functions": [
+          "sha",
+          "save",
+          "load",
+          "dt"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_152733_initial_eight_nodes_v10/code/events.py",
+        "sha256": "6c46813c6d72d8e0cb665d2a7e453ad842ddc6583cb7fe50bb54d97723592ced",
+        "functions": [
+          "linear_sum_assignment",
+          "date",
+          "norm",
+          "direction",
+          "compatible_region",
+          "km",
+          "_point_support_legacy",
+          "position_support",
+          "minute",
+          "fmt",
+          "stamp",
+          "root_platform",
+          "vocabulary",
+          "text_atoms",
+          "radar_events",
+          "compare",
+          "assign",
+          "audit_fields",
+          "audit_fields",
+          "process_day",
+          "choose_chain"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_152733_initial_eight_nodes_v10/code/finalize_v10.py",
+        "sha256": "5e05c10744170db30b003e8aa58da60a4192327e1c816928f05640e0e3663e15",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_152733_initial_eight_nodes_v10/code/final_supplement_v10.py",
+        "sha256": "e947689bbd9a9a7ae174e3fa9b40fbdd81d961dd877b8becbaca366dfdfdd4e1",
+        "functions": [
+          "main",
+          "cp",
+          "read"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_152733_initial_eight_nodes_v10/code/history_v10.py",
+        "sha256": "0ac17bc050c5cad2f75f6efc2199be1059454f7c11ca34bb134294aa299e1ca6",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_152733_initial_eight_nodes_v10/code/inspect_v10.py",
+        "sha256": "50db6ebe079ad59c019f60e2463d0ed487ed4e5b7f17a2df1b1b0d05eb89b689",
+        "functions": [
+          "fetch"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_152733_initial_eight_nodes_v10/code/intake_v10.py",
+        "sha256": "0bb3a700f8e7682786b4307226b000595db2f09ed7f983102df82410c7bff6f2",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_152733_initial_eight_nodes_v10/code/package_v10.py",
+        "sha256": "dfb3eb0d8e3df441d31ca8d35effe4f2147b5281fcb05025014d2e539eb718c7",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_152733_initial_eight_nodes_v10/code/prepare.py",
+        "sha256": "2e42fd63d13774ce571ea996e12cd176a0e39b0789c1a016d09de5615f6ca914",
+        "functions": [
+          "chain_options",
+          "history",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_152733_initial_eight_nodes_v10/code/raster_excel.py",
+        "sha256": "98c5b645790c3ab743c556ce81d3d74d14b016cfbfc9db31e9237882a3d7b34a",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_152733_initial_eight_nodes_v10/code/raster_qa.py",
+        "sha256": "ec405b9abfd03a4f727075ee2539800072fad5e3f82a8a4c7012128b80bd6b6f",
+        "functions": [
+          "contacts",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_152733_initial_eight_nodes_v10/code/reproduce.py",
+        "sha256": "3cc35892f7bc2c4b2b944f710d9c941c21635714fabdce8bf599d8662b43dfb3",
+        "functions": [
+          "run",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_152733_initial_eight_nodes_v10/code/revise_analysis.py",
+        "sha256": "18ccb88aa56a50b46a1746aa7f3191403172ef7cd95513e91abaacb6650ed3c8",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_152733_initial_eight_nodes_v10/code/select_v10.py",
+        "sha256": "5cbb067670ab2a8f86dab7308423030cb77fbb601a89ada29932d5c9184fdab4",
+        "functions": [
+          "select"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_152733_initial_eight_nodes_v10/code/source_config_v10.py",
+        "sha256": "901ab256867286eb98a14244e5a52fcd93f1ca21c07b8fcdf5a5a34094dfecea",
+        "functions": [
+          "catalog"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_152733_initial_eight_nodes_v10/code/validate.py",
+        "sha256": "c3d52548adce854dd3422c13197e97677556e8883cf3b6a825e5aa9cfa2263ff",
+        "functions": [
+          "validate"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      }
+    ],
+    "actual_docx": [
+      "official/2025.5.10/2025.5.10日报.docx",
+      "official/2025.5.18/2025.5.18日报.docx",
+      "official/2025.5.30/2025.5.30日报.docx",
+      "official/2025.6.17/2025.6.17日报.docx",
+      "official/2025.6.29/2025.6.29日报.docx",
+      "official/2025.6.9/2025.6.9日报.docx",
+      "official/2025.7.17/2025.7.17日报.docx",
+      "official/2025.7.9/2025.7.9日报.docx"
+    ],
+    "readme": "# 初赛八节点 v10 交付说明\n\n八节点完整成品已生成：8份全章节DOCX、8份XLSX、32张PNG。正式候选包为 `赛题2_初赛_八节点_完整候选提交包.zip`，根层直接为八日期目录，每节点6文件。代码、原始输入、版本对照、审计与渲染证据另装工程ZIP，正式ZIP不混入这些材料。历史版本未覆盖。\n\n本版是在已完成全版本对照基础上的证据表达和分析修订。v4准确性85.5277、Claude完整性96.7004均是用户反馈的版本级指标，不能视作逐事件真值。实际对齐显示，v9的205条包含v4全部175条，Claude的323条又包含这两组；直接并集并不能兼得高准确性与高完整性。本版没有批量纳入Claude额外记录，也没有按v4高分恢复单源细地点。\n\n相对v9，78天裁决与关键事实值无变化，正式集合仍为205条。两个6月29日辽宁号正文中的“期间有一艘航母参与”现在作为显式后置数量证据，替代仅凭具名单舰计1的依据；数量仍为1，不能宣称增加了两条活动。修复仅限同一事实段单一平台、明确航母角色；多平台、数量冲突及角色总数指代不清保留未解决状态。8个数量范围边界检查不当作独立真值测试。\n\n55条只获一类正文明确支持的细地点，在明细备注以“单源地点线索（未独立核实）：军情/舆论称……”保留；活动区域仍填写两类支持的海域，图表不使用这些线索画细位置。飞机任务描述恢复已核实观测窗口，起降字段仍留空。这提升了信息可追溯性，不是把55条地点升级为已核实事实，也不保证平台会如何计分。\n\n八节点保留已有主线及事实前提，各重写一段核心论证：比较哪种解释更符合实际记录，明确反例及区分竞争解释所需的证据。主线取舍记录在 `select_v10.py`；原分析在 `author_analysis_v10.py`，本轮修订在 `revise_analysis.py`。并非重新生成通用模板，也不是全篇每段都改写。事实、分析、格式变更分别见各节点 `three_module_changes.json`。\n\n|节点|活动数|分析主线|证据日期数|DOCX页数|\n|---|---:|---|---:|---:|\n|2025.5.10|26|德国“台风”多用途战斗机|4|11|\n|2025.5.18|24|德国巴登-符腾堡号导弹护卫舰|4|11|\n|2025.5.30|27|韩国P-8A“海神”反潜巡逻机|8|11|\n|2025.6.9|27|英国RC-135W电子侦察机|5|11|\n|2025.6.17|25|澳大利亚P-8A“海神”反潜巡逻机|12|12|\n|2025.6.29|25|新加坡G550空中预警机|6|10|\n|2025.7.9|27|加拿大哈利法克斯级导弹护卫舰|7|11|\n|2025.7.17|24|法国戴高乐号航空母舰|4|11|\n\n全部78天的7,800篇TXT与78个雷达工作簿由程序重读，逐节点按自身截止日冻结；目标日427个雷达候选重判。历史7套完整正式表格的1,602行对齐及其他版本候选、失败记录见 `evidence/history_review/`。v9的85项重点与分层复核卡以v9前缀保留，本轮没有将历史人工复核冒充新的盲审。新修复证据原句、定位、哈希以及所有日期裁决差分见 `evidence/v9_v10_reconciliation.json`。共识、共同排除及各版未纳入候选仍参与全量重算；全部原文程序读取不等于逐句人工阅读。\n\n本地检查：八份DOCX总计88页，已完整渲染并逐页查看；两张工作表的全部填充单元格以四个列带经WPS导出查看，32张独立图表已检查。长备注增加行高；正式引用索引移除版本/web读取过程；F/H说明压缩以避免独占一页。`render_docx.py`实测因缺LibreOffice失败，替代渲染器为WPS Office通过Word.Application/Excel.Application COM及pypdfium2，并非Microsoft Office。渲染记录绑定最终文件SHA256。\n\n一键从原始输入重算已通过：`run-all.ps1 -SkipNativeRender`在新目录重新核验事实，再回放绑定事实哈希的已审阅分析快照。八节点冻结台账、分析文字、DOCX正文XML、XLSX值与类型、PNG哈希一致；Office容器时间戳可不同。另用单独ZIP读取路径重新打开48个正式文件并核对哈希。这些检查验证可复现性与一致性，不是平台评分或独立语义真值验证。\n\n复现：Windows PowerShell在本目录运行 `./run-all.ps1`；默认还会导出全套WPS页面。可用 `-Python`、`-Node`、`-NodeModules`指定已安装依赖，`-Output`须新目录。运行时、Office和字体不随工程包分发；版本见 `dependency_versions.json` 和 `requirements-lock.txt`。已审阅分析是保存的快照，复现不调用模型重新独立撰文，模型API调用为0。\n\n外部背景沿用同会话v9实际读过的固定历史版本及同哈希缓存：B04德国2024-09-25报告、B01四国2024-04-06联合声明、B10海自2025-02-06公告、B12加拿大2024版权固定出版物。B12取2024-12-31作为保守公开上界，不是精确发布日期。本轮未声称重新联网取得这些版本。它们只解释历史背景，不能修补赛内三源冲突。5月30日、6月9日、6月29日直接相关历史实证来源缺口仍如实保留。\n\n历史平台反馈：v4四项完整性74.8767、准确性85.5277、格式76.4282、分析55.7500，总分75.5445；v8总分71.1521；v9四项86.2631、67.3760、96.5612、55.8750，按权重计算74.1754。其余版本四项及总分见 `evidence/history_review/seven_version_scores.json`。没有逐节点扣分明细或隐藏答案，无法从聚合分数推出某条记录的真伪或归因某项分差。\n\nv10未上传、没有新平台评测。不能宣称准确性/完整性得分提高。未知辅助字段、实体身份、缺证日期和粗略坐标相容窗的局限仍在；当前代理已知历史结果，没有独立盲审。在线最新目录口径未重新确认，候选包按用户要求根日期目录打包。\n\n审计导航：`stage_audit.json`、`node_status_matrix.json`、`audits/<节点>/audit.json`、`three_module_changes.json`、`semantic_review.json`、`visual_review.json`、`reproduction_comparison.json`、`independent_package_check.json`。工程包构成及逐文件哈希见 `engineering_manifest.json`。\n"
+  },
+  {
+    "folder": "20261012_160950_initial_eight_nodes_v11",
+    "source_code": [
+      {
+        "path": "artifact/20261012_160950_initial_eight_nodes_v11/code/audit_sources.py",
+        "sha256": "d810993621732c5e1f5984cbb56ea4976e15894c24455f8128ae95852ac1e7b1",
+        "functions": [
+          "parse_day",
+          "audit",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_160950_initial_eight_nodes_v11/code/build.py",
+        "sha256": "508f67f8fcc43c1869f97de3e793bfb9931a0d700e062b6d64718e88d216cfe2",
+        "functions": [
+          "locality_note",
+          "item",
+          "source_locator",
+          "compact_refs",
+          "analysis",
+          "add_para",
+          "build"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_160950_initial_eight_nodes_v11/code/charts.py",
+        "sha256": "369a812e26904182c0577abe898822ebcfe4edaffaf6d10dde830383ac9fdd13",
+        "functions": [
+          "minute",
+          "font",
+          "wrap",
+          "draw"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_160950_initial_eight_nodes_v11/code/common.py",
+        "sha256": "e80b802f83c91bf46a00042541dfe9e16753c7bf618d51d1222dcdef649ae5ab",
+        "functions": [
+          "sha",
+          "save",
+          "load",
+          "dt"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_160950_initial_eight_nodes_v11/code/events.py",
+        "sha256": "6c46813c6d72d8e0cb665d2a7e453ad842ddc6583cb7fe50bb54d97723592ced",
+        "functions": [
+          "linear_sum_assignment",
+          "date",
+          "norm",
+          "direction",
+          "compatible_region",
+          "km",
+          "_point_support_legacy",
+          "position_support",
+          "minute",
+          "fmt",
+          "stamp",
+          "root_platform",
+          "vocabulary",
+          "text_atoms",
+          "radar_events",
+          "compare",
+          "assign",
+          "audit_fields",
+          "audit_fields",
+          "process_day",
+          "choose_chain"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_160950_initial_eight_nodes_v11/code/finalize_v11.py",
+        "sha256": "7964583863428af13e5993a65ef53e1d47e192f2e210f36735a6c80a7c21d38b",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_160950_initial_eight_nodes_v11/code/package_v11.py",
+        "sha256": "952bad18ad6eace94613c75bc438927045a3541e1a98ac67036e8a61a38aaa1e",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_160950_initial_eight_nodes_v11/code/prepare.py",
+        "sha256": "f3a60ffebf7e0cb7114a88e13edcb06b78fc6af4ebeb5778bb801e84fe7a2b87",
+        "functions": [
+          "chain_options",
+          "history",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_160950_initial_eight_nodes_v11/code/raster_excel.py",
+        "sha256": "98c5b645790c3ab743c556ce81d3d74d14b016cfbfc9db31e9237882a3d7b34a",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_160950_initial_eight_nodes_v11/code/raster_qa.py",
+        "sha256": "ec405b9abfd03a4f727075ee2539800072fad5e3f82a8a4c7012128b80bd6b6f",
+        "functions": [
+          "contacts",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_160950_initial_eight_nodes_v11/code/reproduce.py",
+        "sha256": "7323de177611ead5e5f2395e400d3a481dae22c7259d9dc8fa55b3868d2f8f50",
+        "functions": [
+          "run",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_160950_initial_eight_nodes_v11/code/review_v11.py",
+        "sha256": "6b0e89d058271a57be8d826a709264955f0a2a6c12ec5cd18be3ffa621f21326",
+        "functions": [
+          "relation_card",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_160950_initial_eight_nodes_v11/code/revise_analysis_v11.py",
+        "sha256": "09e0757ec14e0e6ce8237b4955e7dfb482f17e182bc164fe54780190f4dbb954",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_160950_initial_eight_nodes_v11/code/select_v11.py",
+        "sha256": "cd4e835ddbce8c8c0678f1873ee4328060fcd2c849091a4e4e4194ccd6ea8288",
+        "functions": [
+          "select"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_160950_initial_eight_nodes_v11/code/source_config_v11.py",
+        "sha256": "901ab256867286eb98a14244e5a52fcd93f1ca21c07b8fcdf5a5a34094dfecea",
+        "functions": [
+          "catalog"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_160950_initial_eight_nodes_v11/code/validate.py",
+        "sha256": "7c3e38e4e33b23c4143e672eb49950b52dd0643c17de3f4221fc0850cfef67fd",
+        "functions": [
+          "validate"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      }
+    ],
+    "actual_docx": [
+      "official/2025.5.10/2025.5.10日报.docx",
+      "official/2025.5.18/2025.5.18日报.docx",
+      "official/2025.5.30/2025.5.30日报.docx",
+      "official/2025.6.17/2025.6.17日报.docx",
+      "official/2025.6.29/2025.6.29日报.docx",
+      "official/2025.6.9/2025.6.9日报.docx",
+      "official/2025.7.17/2025.7.17日报.docx",
+      "official/2025.7.9/2025.7.9日报.docx"
+    ],
+    "readme": "# 初赛八节点 v11 修订说明\n\n本版按“在v10基础上稍微修改”的要求，修复已确认的完整历史回溯和章节日期范围问题。保留v10及此前目录，新目录交付8份DOCX、8份XLSX、32张PNG，正式ZIP内为八日期目录、共48文件。工程ZIP另含代码、原始输入、审计、渲染与复现记录。\n\n## 本次修订\n\n取消主线“相隔15天即删除前段”的规则。缺证间隔仅限制连续性判断，不再删除早期相关可信记录。所有八节点主线都覆盖赛段起始日2025年5月1日至自身节点的全部相关可信事件，并保留其他未核实候选的审计索引；不把被排除的记录当作事实。\n\n|节点与主线|补回历史记录|修订后的判断|\n|---|---|---|\n|6月17日 澳大利亚P-8A|5月4日东海反潜1条|全赛段14起活动，南海反潜重复与其他方向任务并存；15天间隔不证明连续驻留。|\n|7月9日 加拿大哈利法克斯级|5月10、12、21、26日4条|全赛段11条；5月已有多方向多任务，6月下旬黄海警戒重复，不能把舰级记录写成单舰航程。|\n|7月17日 法国戴高乐号|5—6月9条|全赛段13条；7月南海警戒是早期模式再现，不能写成首次转向南海或新建持续部署。|\n\n这三节点的第二节完整改写为总体判断和三个证据阶段，五个其他节点沿用已有论证。全部外部背景与跨日证据索引移入第二节；第五节八份均改为仅由当日事实提出核查重点。H引用显示为连续编号范围以减少拥挤，审计仍逐条保存对应事实。\n\n当日205条活动及其事实值与v10完全相同，8份XLSX保持相同填充值和格式，32张PNG与v10字节一致。14条补回的是跨日分析证据，不是新增14条节点当日活动。v10的数量证据修复、55条明确标注未独立核实的单源地点备注继续保留。\n\n## 活动关系与通行区域复核\n\n在已关联正文事实段中记录进入/离开的动词、对象、单一海域指代、来源原句与定位。观察窗口不改写为进出时刻；没有两类来源支持的进出关系不进入正式事实。节点当日可信事件仍按已核实区域活动纳入。审计见各节点 `relation_review.json`。\n\n对各节点截止范围及全78天7,800篇原文检查台湾海峡、巴士海峡、巴林塘海峡、宫古水道、对马海峡，未检出这五类名称。本版没有基于通行区域邻接关系补纳活动，也不能用零案例检查声称通行路线判定能力已完整验证。\n\n## 验证与限制\n\n八份日报共91页，经WPS Office的Word.Application COM导出并转为PNG逐页检查；XLSX全体填充单元格经WPS四列带导出检查。打包后重新打开48个文件并核对哈希。内置render_docx.py因缺少LibreOffice失败，日志已保留，没有把WPS冒称Microsoft Office。\n\n已用 `run-all.ps1 -SkipNativeRender` 在新目录从原始输入复现全部八节点。冻结台账、分析文本、DOCX正文XML、XLSX单元格值和类型、32张PNG均一致。分析为绑定事实哈希的已审阅快照回放，不是重新调用模型独立撰文；Office容器时间戳允许不同。运行时与Office依赖见 `dependency_versions.json` 和 `requirements-lock.txt`，不随工程包分发。\n\n本次属于局部修订，没有重写实体匹配、别名抽取、基地/港口关联或雷达噪声消解。事件仍以雷达批次组织候选，工程坐标窗仍有局限；进入/离开仅增加来源对象审计，尚不是完整路线重建系统。不能据此宣布七条原则已全部彻底满足，也没有独立盲审。\n\n事实处理按各节点日期隔离；背景引用沿用v10同哈希历史资料，未新增联网检索，不用于覆盖赛内三源冲突。5月30日、6月9日、6月29日直接相关外部实证缺口仍保留。已知历史反馈为v4总分75.5445、v8总分71.1521、v9总分74.1754；v10和v11均没有新平台评测。本版未上传，不宣称准确性、完整性或总分提高。\n\n复现入口：`run-all.ps1`，默认还生成WPS渲染；可指定 `-Python`、`-Node`、`-NodeModules`，`-Output`必须是新目录。全赛段主线选取见 `code/select_v11.py`，修订文字见 `code/revise_analysis_v11.py`，规则复核见 `code/review_v11.py`。历史v10快照保存在 `evidence/v10_baseline/`，v9/v10旧审计保留为历史材料，不冒充本轮新核验。\n\n审计入口：`stage_audit.json`、`evidence/v11_revision_audit.json`、各节点 `three_module_changes.json`、`relation_review.json`、`visual_review.json`、`reproduction_comparison.json`、`independent_package_check.json`。\n"
+  },
+  {
+    "folder": "20261012_163714_initial_eight_nodes_v12",
+    "source_code": [
+      {
+        "path": "artifact/20261012_163714_initial_eight_nodes_v12/code/audit_sources.py",
+        "sha256": "d810993621732c5e1f5984cbb56ea4976e15894c24455f8128ae95852ac1e7b1",
+        "functions": [
+          "parse_day",
+          "audit",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_163714_initial_eight_nodes_v12/code/build.py",
+        "sha256": "508f67f8fcc43c1869f97de3e793bfb9931a0d700e062b6d64718e88d216cfe2",
+        "functions": [
+          "locality_note",
+          "item",
+          "source_locator",
+          "compact_refs",
+          "analysis",
+          "add_para",
+          "build"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_163714_initial_eight_nodes_v12/code/charts.py",
+        "sha256": "c4cc232be572d543e4f88d04abc579c174b4adc2f12f020942f0d05f3dc9d5fb",
+        "functions": [
+          "minute",
+          "font",
+          "wrap",
+          "dashed",
+          "rotated_tick",
+          "draw"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_163714_initial_eight_nodes_v12/code/charts_v11.py",
+        "sha256": "369a812e26904182c0577abe898822ebcfe4edaffaf6d10dde830383ac9fdd13",
+        "functions": [
+          "minute",
+          "font",
+          "wrap",
+          "draw"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_163714_initial_eight_nodes_v12/code/common.py",
+        "sha256": "e80b802f83c91bf46a00042541dfe9e16753c7bf618d51d1222dcdef649ae5ab",
+        "functions": [
+          "sha",
+          "save",
+          "load",
+          "dt"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_163714_initial_eight_nodes_v12/code/events.py",
+        "sha256": "6c46813c6d72d8e0cb665d2a7e453ad842ddc6583cb7fe50bb54d97723592ced",
+        "functions": [
+          "linear_sum_assignment",
+          "date",
+          "norm",
+          "direction",
+          "compatible_region",
+          "km",
+          "_point_support_legacy",
+          "position_support",
+          "minute",
+          "fmt",
+          "stamp",
+          "root_platform",
+          "vocabulary",
+          "text_atoms",
+          "radar_events",
+          "compare",
+          "assign",
+          "audit_fields",
+          "audit_fields",
+          "process_day",
+          "choose_chain"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_163714_initial_eight_nodes_v12/code/finalize_v11.py",
+        "sha256": "7964583863428af13e5993a65ef53e1d47e192f2e210f36735a6c80a7c21d38b",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_163714_initial_eight_nodes_v12/code/finalize_v12.py",
+        "sha256": "623ed61e3a62c6db365b296310740c863a7ce6d4408c4da3b0ec4eacae3b251a",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_163714_initial_eight_nodes_v12/code/package_v11.py",
+        "sha256": "952bad18ad6eace94613c75bc438927045a3541e1a98ac67036e8a61a38aaa1e",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_163714_initial_eight_nodes_v12/code/package_v12.py",
+        "sha256": "e42269c4082aca233b61c91370bd1f9e72f7ca9d78596075b4b3c0a1eed5aca6",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_163714_initial_eight_nodes_v12/code/prepare.py",
+        "sha256": "f3a60ffebf7e0cb7114a88e13edcb06b78fc6af4ebeb5778bb801e84fe7a2b87",
+        "functions": [
+          "chain_options",
+          "history",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_163714_initial_eight_nodes_v12/code/raster_excel.py",
+        "sha256": "98c5b645790c3ab743c556ce81d3d74d14b016cfbfc9db31e9237882a3d7b34a",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_163714_initial_eight_nodes_v12/code/raster_qa.py",
+        "sha256": "ec405b9abfd03a4f727075ee2539800072fad5e3f82a8a4c7012128b80bd6b6f",
+        "functions": [
+          "contacts",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_163714_initial_eight_nodes_v12/code/reproduce.py",
+        "sha256": "7323de177611ead5e5f2395e400d3a481dae22c7259d9dc8fa55b3868d2f8f50",
+        "functions": [
+          "run",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_163714_initial_eight_nodes_v12/code/review_v11.py",
+        "sha256": "6b0e89d058271a57be8d826a709264955f0a2a6c12ec5cd18be3ffa621f21326",
+        "functions": [
+          "relation_card",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_163714_initial_eight_nodes_v12/code/review_v12.py",
+        "sha256": "fa3a682a6e8ce1e29a8c21caaefe70e9c267f63c98e87b625e3fcf558db10974",
+        "functions": [
+          "without_picture_sizes",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_163714_initial_eight_nodes_v12/code/revise_analysis_v11.py",
+        "sha256": "09e0757ec14e0e6ce8237b4955e7dfb482f17e182bc164fe54780190f4dbb954",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_163714_initial_eight_nodes_v12/code/select_v11.py",
+        "sha256": "cd4e835ddbce8c8c0678f1873ee4328060fcd2c849091a4e4e4194ccd6ea8288",
+        "functions": [
+          "select"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_163714_initial_eight_nodes_v12/code/source_config_v11.py",
+        "sha256": "901ab256867286eb98a14244e5a52fcd93f1ca21c07b8fcdf5a5a34094dfecea",
+        "functions": [
+          "catalog"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_163714_initial_eight_nodes_v12/code/validate.py",
+        "sha256": "7c3e38e4e33b23c4143e672eb49950b52dd0643c17de3f4221fc0850cfef67fd",
+        "functions": [
+          "validate"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      }
+    ],
+    "actual_docx": [
+      "official/2025.5.10/2025.5.10日报.docx",
+      "official/2025.5.18/2025.5.18日报.docx",
+      "official/2025.5.30/2025.5.30日报.docx",
+      "official/2025.6.17/2025.6.17日报.docx",
+      "official/2025.6.29/2025.6.29日报.docx",
+      "official/2025.6.9/2025.6.9日报.docx",
+      "official/2025.7.17/2025.7.17日报.docx",
+      "official/2025.7.9/2025.7.9日报.docx"
+    ],
+    "readme": "# 初赛八节点 v12 图表样式修订\n\n以 v11 为基线，按提交示例的四类附图调整全部 32 张 PNG，并同步嵌入八份日报。历史 artifact 目录未覆盖。\n\n本轮仅改图表呈现：白底、黑字、浅灰虚线网格；数量曲线采用红色圆点与蓝色方点，活动图采用橙蓝横条，区域、方向及任务紧邻横条。长平台名分行；晚间活动标签移至横条左侧以避免越界；图例放在图框外，避免示例中末行被遮挡的问题。\n\n## 内容边界与验证\n\n- 205 条当日事实、全部分析和正文文字保持 v11 原样；冻结台账和分析快照哈希一致。\n- 8 份 DOCX 字体、样式、设置与正文 XML 保持一致，只有图片及其适配尺寸变化；8 份 XLSX 与 v11 字节一致。\n- 曲线 24 时点数据和三组活动成员与 v11 完全一致。方向标签取既有核实字段，不增加事件或精度。\n- 八份 DOCX 经 WPS Office（Word.Application COM）完整导出 PDF，再渲染 91 页 PNG；已目视检查。59 页正文与 v11 逐像素相同，32 页附图更新，无发现裁切或标签重叠。\n- 8 份 XLSX 沿用 v11 完成的原生渲染检查，本轮用字节哈希确认未变；未宣称重新渲染工作簿。\n- 本轮另从原始 TXT 和 XLSX 输入重新执行八节点流水线，冻结事实、分析快照、DOCX 正文 XML、工作簿值与类型以及 32 张 PNG 一致。分析是回放已审阅快照，不是重新由模型生成。\n- 48 文件 ZIP 已逐成员校验名称、目录、CRC 和 SHA256。程序检查仅证明一致性与可复现性，不能证明隐藏标准答案或平台得分。\n\n## 交付与复现\n\n正式提交包：`赛题2_初赛_八节点_完整候选提交包.zip`，根目录为八个节点日期目录，每节点 1 DOCX、1 XLSX、4 PNG；全部文件也在 `official/`。\n\n执行 `./run-all.ps1 -Output <新的绝对目录>` 可从原始输入复现，默认调用本机 Office 导出；`-SkipNativeRender` 可只复现成果并比较内容。需要依赖清单中的 Python 包、Codex artifact-tool Node 运行时及 Windows 黑体字体；不将运行时与字体二进制打入工程包。`code/charts.py` 为本轮图表实现；`code/review_v12.py` 用于与保留的同级 v11 目录比较；旧版本维护脚本为历史来源，不是本轮入口。\n\n审计入口：`visual_revision_comparison.json`、`style_reference.json`、`render_comparison.json`、`reproduction_comparison.json`、`stage_audit.json`、`qa/current_agent_visual_receipt.json`。逐节点证据继续保存在 `audits/` 和 `evidence/`。\n\n## 限制\n\nv12 未取得新的平台评分，未上传。本轮不改事实裁决与分析，因此 v11 既有局限仍保留：候选组织仍利用雷达批次，别名与实体关联规则有限，坐标检查不是完整航迹重建，当前代理不是独立盲审。图片风格接近示例不等于平台格式满分，也不意味着准确性、完整性或总分提高。\n"
+  },
+  {
+    "folder": "20261012_all_versions_comparison",
+    "source_code": [],
+    "actual_docx": [],
+    "readme": "# 历史版本比较记录\n\n本目录保存2026-10-12对全部可查历史版本的补充比较。结论见[历史全部版本与v8对照](../../docs/09-历史全部版本与v8对照.md)：已评测六版中v4总分75.5445最高，本次v8为71.1521，低4.3924。全部总分由用户反馈归档的四项展示均值计算，未取得未舍入官方总分或逐节点细项。\n\n检查范围：14项版本/实验状态，57份实际DOCX第二节，28个关键代码文件的函数与差异，六版全部八节点当日活动计数，v4/v8八节点当日集合及主线的逐条差异。没有重新核验所有历史事件，也没有重新渲染历史文件，不新增视觉PASS。workflow试跑、未完成目录与v6单节点成果不参加八节点评分排名。\n\n数据与定位：\n\n- `scores.json`：六版四项、Decimal总分、v8相对每版的差值和权重贡献。\n- `version_inventory.json`：14项范围和成绩可用状态。\n- `actual_report_section2.json`、`report_text_profiles.json`：57份实际第二节、文本哈希、段落统计；不替代正式DOCX。\n- `v4_v8_fact_and_mainline_comparison.json`：175条保留、30条新增、55次区域改变、零移除；事件/字段/旧排除理由/证据定位。\n- `review_details.json`：六版当日计数、工作流真实试跑状态、八节点主线和格式对齐版对照。\n- `code_excerpts.json`、`code_comparison_summary.json`及`.diff`：实际函数和源文件行号；共同弱点与版本差异分开。\n- `comparison_read_manifest.json`：实际读取的文件哈希与读取方式。程序全文读取不等于代理逐字人工核验，语义判断限于正文讨论的片段。\n- `sources/docs05_before_comparison.md`：更新评分总表前的来源快照，支持初始两版的原表格定位。\n\n可在具有相应历史目录的原项目中使用bundled Python 3.12依次执行：\n\n```powershell\npython -X utf8 artifact/20261012_all_versions_comparison/compare_artifacts.py\npython -X utf8 artifact/20261012_all_versions_comparison/derive_comparison.py\npython -X utf8 artifact/20261012_all_versions_comparison/review_details.py\npython -X utf8 artifact/20261012_all_versions_comparison/compare_code.py\n```\n\n仅使用标准库。`compare_artifacts.py`还会生成本地临时`fact_profiles_raw.json`，供差异计算；Git仅保存精简比较，不重复归档完整旧台账。新复核请在新的比较目录执行，保存旧记录。部分v5/v6及早期未完成目录只存在本机，Git中没有全量输入；源码比较会记录缺失文件，不能把不同输入范围的重跑称为完全复现。格式对齐版读取已冻结的Git提交，其具体SHA保存在inventory和DOCX定位中。\n\n本次更正上一轮遗漏的v4格式和总分，并补入“v4单日阶段更多却得分更高”的反证，避免用阶段数、篇幅或引用数直接解释评分。原v8正式48文件、冻结台账、两份ZIP及Release附件保持原哈希。\n"
+  },
+  {
+    "folder": "20261012_initial_eight_nodes_v8",
+    "source_code": [
+      {
+        "path": "artifact/20261012_initial_eight_nodes_v8/code/audit_sources.py",
+        "sha256": "635d3d7eedaee667cca4c18f844fe1e4a05113714c55612d58835a49e016145b",
+        "functions": [
+          "parse_day",
+          "audit",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_initial_eight_nodes_v8/code/build.py",
+        "sha256": "ea006e19a353503d3c1ac805f1412c5bd0183d91ab1e1687f1447212894cc4d4",
+        "functions": [
+          "item",
+          "source_locator",
+          "analysis",
+          "add_para",
+          "build"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_initial_eight_nodes_v8/code/charts.py",
+        "sha256": "05a358ddab68715538e5b2ee7740df2c6a44212a84e6661b5c20551b7df4334d",
+        "functions": [
+          "minute",
+          "font",
+          "wrap",
+          "draw"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_initial_eight_nodes_v8/code/collect_inputs.py",
+        "sha256": "a535c777f8cd77b7119e12061e43fe83fb6eb4d8cbe3cbaad1a641f07bdbee56",
+        "functions": [
+          "copy_one",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_initial_eight_nodes_v8/code/common.py",
+        "sha256": "3d5627af623a844c8b9e03e0de84cac713c02703ccef053f77d89acdea10b5c4",
+        "functions": [
+          "sha",
+          "save",
+          "load",
+          "dt"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_initial_eight_nodes_v8/code/events.py",
+        "sha256": "bdff8a35373af89770d71372f95c89b66834bf9d5e118f2c758ef1a7fef227a9",
+        "functions": [
+          "linear_sum_assignment",
+          "date",
+          "norm",
+          "direction",
+          "compatible_region",
+          "km",
+          "position_support",
+          "minute",
+          "fmt",
+          "stamp",
+          "root_platform",
+          "vocabulary",
+          "text_atoms",
+          "radar_events",
+          "compare",
+          "assign",
+          "audit_fields",
+          "process_day",
+          "choose_chain"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_initial_eight_nodes_v8/code/extra_sources.py",
+        "sha256": "eeca94be5f2bb2ab8605226a3d5dd12cf16e261e77c4565c2a141d3abfac2b73",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_initial_eight_nodes_v8/code/fetch_sources.py",
+        "sha256": "40e3bc365996972e8437c080e91dd2910e52b6e449049d54221d9355cf19ee38",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_initial_eight_nodes_v8/code/finalize_stage.py",
+        "sha256": "dd3b34b2bf9ef445c172199fd078e06b064275858393c3b2663700e700c084a8",
+        "functions": [
+          "finalize"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_initial_eight_nodes_v8/code/package_engineering.py",
+        "sha256": "c82cbab61a0cdcf5878ab61c6e467941c7f7452342c55dd74a82b62fa3ae76e3",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_initial_eight_nodes_v8/code/prepare.py",
+        "sha256": "821685617de4aaa22fb0824b8289b62dccc33ab80acc9108f15b63f37b5460b2",
+        "functions": [
+          "chain_options",
+          "history",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_initial_eight_nodes_v8/code/raster_excel.py",
+        "sha256": "3d04d3472b8f76b2120dd4225b9a42adb94df791567f54544abd48db5c0986cb",
+        "functions": [
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_initial_eight_nodes_v8/code/raster_qa.py",
+        "sha256": "1d420dac0dc6e1e8921640eb0d1c22564daf7de3b804c5dccd7b60cddff972b9",
+        "functions": [
+          "contacts",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_initial_eight_nodes_v8/code/reproduce.py",
+        "sha256": "8d7c719bcdeddd2207ae4388987c334edaa862cb1ab465c5e0c85aa5577227be",
+        "functions": [
+          "run",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_initial_eight_nodes_v8/code/review_cards.py",
+        "sha256": "8c920001fea0ec048da2f7a26542588482f59ac16960ee9bfa218586a2303c3f",
+        "functions": [
+          "create",
+          "show"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_initial_eight_nodes_v8/code/select_lines.py",
+        "sha256": "e8a3f6f5cc30e2ad4d59763acb6be649a702ddcbe7fe1dd11ea38b2cd5070cee",
+        "functions": [
+          "select"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_initial_eight_nodes_v8/code/source_config.py",
+        "sha256": "df0839981ff805bd6efab63c557f18f1271d98cdb0261c3bd2acefaaab9d4956",
+        "functions": [
+          "catalog"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_initial_eight_nodes_v8/code/validate.py",
+        "sha256": "18ae29bb340598198f313076eb6f29abcf1519ae797951d4ce453aef1fc9fe1b",
+        "functions": [
+          "validate"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      }
+    ],
+    "actual_docx": [
+      "official/2025.5.10/2025.5.10日报.docx",
+      "official/2025.5.18/2025.5.18日报.docx",
+      "official/2025.5.30/2025.5.30日报.docx",
+      "official/2025.6.17/2025.6.17日报.docx",
+      "official/2025.6.29/2025.6.29日报.docx",
+      "official/2025.6.9/2025.6.9日报.docx",
+      "official/2025.7.17/2025.7.17日报.docx",
+      "official/2025.7.9/2025.7.9日报.docx"
+    ],
+    "readme": "# initial v8：八节点完整重做与实测反馈\n\n用户2026-10-12反馈初赛initial、8节点：完整性86.1320、准确性65.2266、格式96.5230、分析45.2500。按展示均值加权总分 **71.1521**，准确性评分不是事件正确率。\n\n原评测48份正式文件在`official/`，完整候选赛段ZIP也保存在本目录，根层8个日期目录。原工程包大于GitHub单文件限制，完整工程/证据包按原SHA256存于[Release](https://github.com/cw-jlu/2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org/releases/tag/initial-v8-20261012)；其中包含原始输入、96页视觉检查、源码和逐节点冻结台账。Git归档解包后的原工程文件，便于直接审阅。资产说明和原始哈希见`evaluation/evaluation_initial_20261012.json`。\n\n- [评分原文、精确计算和版本绑定限制](evaluation/evaluation_initial_20261012.json)\n- [分数复盘与下一轮应检验的改进](evaluation/复盘.md)\n- [评测前交付说明](交付说明.md)\n- [原始输入/方法边界](输入与方法边界.md)\n- [八节点总审计](stage_audit.json)、[逐节点矩阵](node_status_matrix.json)\n\n八节点各有自己的audit.json、analysis.md、冻结台账、来源资格、纳入/排除抽查和视觉检查。原工程文件及原始输入由原工程ZIP逐成员解包归档；评测反馈和本README为交付后的新增记录，不改变正式报告、台账或原ZIP。早期stage_audit中的平台评测null/未上传是当时状态，当前用户反馈在evaluation中独立追加，没有伪造平台回执。\n\nWindows PowerShell从本目录复现：`./Run-all.ps1 -Output 'C:/path/to/new-output'`。已封装原始inputs；依赖和可移植参数见dependencies.json、requirements.txt及交付说明。新的输出审查状态保持pending，不能自动冒称重新人工看过。\n\n本轮71.1521是按节点均值推算值，未提供平台独立总分、提交ID、逐节点结果或扣分细项。复盘提出待检验解释，不将某条事件或图表当作已确定扣分原因。\n"
+  },
+  {
+    "folder": "20261012_prompt_next_agent_v13",
+    "source_code": [],
+    "actual_docx": [],
+    "readme": null
+  },
+  {
+    "folder": "20261012_prompt_v9",
+    "source_code": [],
+    "actual_docx": [],
+    "readme": null
+  },
+  {
+    "folder": "20261012_v10_fusion_diagnosis",
+    "source_code": [
+      {
+        "path": "artifact/20261012_v10_fusion_diagnosis/code/diagnose.py",
+        "sha256": "3e358b1969fc21deccdce044ea8d30d0be355655016b474063b6982e03fbc033",
+        "functions": [
+          "read",
+          "load",
+          "save",
+          "risk",
+          "main",
+          "card"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      },
+      {
+        "path": "artifact/20261012_v10_fusion_diagnosis/code/quantity_probe.py",
+        "sha256": "51dbc6b21c56e89417556984a2fc45e4317905aaaf026a4ca8d588210a140d79",
+        "functions": [
+          "probe",
+          "main"
+        ],
+        "reading": "program_parse_not_agent_full_read"
+      }
+    ],
+    "actual_docx": [],
+    "readme": "# 初赛完整性与准确性融合诊断\n\n2026-10-12。本次回答“怎样结合高准确性、高完整性版本及其他历史成果”，读取七个已评测版本的实际表格、评分和八节点原始材料。结论是：值得继续融合，但v9的活动集合已经是“v4全部175条＋Claude候选中的30条”。重复做一次并集不能解决问题；下一步应分别检查区域精度、增量纳入依据和共同漏项，并保持分析与格式的对照条件稳定。\n\n本目录是诊断、证据卡和下一轮实施清单，**不是已经生成、上传或评测的v10正式赛段**。历史成果和交付ZIP未修改。评分来自已归档用户反馈，尚无逐节点评分、具体扣分项或独立平台回执。\n\n## 七版实际成绩\n\n|版本|完整性|准确性|格式|分析|加权总分|正式表格活动记录|\n|---|---:|---:|---:|---:|---:|---:|\n|初始GPT|83.2458|17.8993|73.3715|25.3750|44.0519|269|\n|初始Claude|96.7004|19.8215|80.2587|44.1250|52.9675|323|\n|v2|84.4760|64.8389|76.5391|52.5000|69.0354|212|\n|v3|84.6855|64.4434|76.6218|43.7500|67.1920|213|\n|v4|74.8767|85.5277|76.4282|55.7500|75.5445|175|\n|v8|86.1320|65.2266|96.5230|45.2500|71.1521|205|\n|v9|86.2631|67.3760|96.5612|55.8750|74.1754|205|\n\n精确计算见[seven_version_scores.json](seven_version_scores.json)。完整性不是召回率，准确性不是事件正确率，记录条数也不是评分代理。v5、v7和早期v8未完成，v6仅一个节点，格式对齐版无独立评分，工作流试跑未形成可信日报；不能把这些目录当作额外已评测样本。\n\n相对v4，v9完整性高11.3864，准确性低18.1517；格式高20.1330，分析仅高0.1250。相对v8，v9分析提高10.6250、准确性提高2.1494，而当日活动总数仍是205。这说明集合大小无法说明事实与分析质量；也不能因v9总分回升，就认为准确性差距已经解决。\n\n## 实际集合关系\n\n本次直接打开56份XLSX、读取1,602条正式记录，按日期和原始雷达批号定位比较单元。批号仅用于历史输出对齐，不能替代三源同事件关联。读取原始八日800篇TXT、8个完整雷达工作簿，并逐批验证本轮证据卡的雷达行与v9归档一致。\n\n- Claude的323条包含v4全部175条，也包含v9全部205条。\n- v9包含v4全部175条，另加30条。\n- 七个已评测版本的活动并集为325条。原始雷达候选共有427个，另102个未被这些正式版本纳入；按v9现有判定，其中79个域外、23个排除。这些判定仍可复核，不能当成真值标签。\n\nClaude较v4多出的148条，根据v9现有排除原因按固定优先顺序分组如下。此表是排查队列，**不是本轮重新确认的错误数**；有重叠问题的候选只计入第一个类别。\n\n|排查类别|条数|下一步处理|\n|v9已纳入|30|逐条保留具体数量、主体、任务与地域的支持依据，不因v4没纳入就删掉|\n|三源关联缺口|42|找缺失正文、复合事件及同型竞争；缺第三类不能靠标题、文件序号或默认值补齐|\n|雷达分支或记录异常|16|保留完整记录，区分候选分支与真值；不能挑看起来正确的一半数据|\n|主体冲突|13|回到主体指代，不能用两个一致来源覆盖未解决的第三源冲突|\n|任务冲突|11|区分实际任务、平台能力和评论；不同任务的明确断言不能直接合并|\n|时间冲突|10|先辨别观测点、观察区间、行动开始/结束，再判断是否矛盾|\n|数量冲突|9|核对单个平台、编队总数、同日多活动以及数字所在分句|\n|区域冲突|8|检查同一事件和地域层级，粗海域一致不能抹去不同细区域|\n|关键字段支持不足|3|继续保留为候选，不默认任务或数量|\n|域外|6|无三海进入/离开关系时不为追求覆盖纳入|\n\n148条原文、完整雷达行和历史版本成员关系见[claude_extra_148.json](claude_extra_148.json)；所有427候选见[all_427_candidate_cards.json](all_427_candidate_cards.json)。\n\n## 准确性排查首先落到55条区域精度变化\n\n直接比较v4与v9共同175条的正式单元格：国家、型号、数量、任务类型、方向均相同；活动时间值仅格式编码变化。事实字段差异集中于55条活动区域由细地名变为东海、南海或黄海。另有日期格式、104条飞机任务描述、175条备注改变；不能因此只研究事件纳入数量。\n\n这55条是最集中的可定位差异，值得优先核验和受控比较，但没有细项成绩，**不能认定它们造成了18.1517分准确性差距**。新增30条、正文和图表变化也可能有影响。\n\n具体处理必须分两层：正式“活动区域”使用实际支持的精度；若只有一类正文说出细地名，保留明确归属的原文线索和坐标核查结果，不把它升级成无条件事实，也不要在审计中丢失。若能取得与节点相符、可定位的地理范围，并用完整轨迹独立支持细区域，才考虑恢复精度。现有210/340公里中心圆和宽海域包络只是工程相容检查，不能直接充作第二类细地名证据。外部地理资料只定义空间解释方法，不能冒充赛事第三来源。\n\n例如5月10日歼-15D：军情明确说“钓鱼岛海域”，舆论只说“东海”，雷达提供坐标。v4写细地名，v9写东海。下一版应保留这一具体证据结构，再判断细区域支持是否充分；不能因为v4高分而批量回填55个旧地名。详见[fine_region_55_review.json](fine_region_55_review.json)。\n\n## 补完整性应优先补有依据的漏项\n\n30条v9增量中，按现有抽取结果，10条至少有一类正文显式数量；20条主要依赖具名舰艇确认单一参加者。这是两种不同证据机制，应分别核验。具名舰艇不能推广成“某级舰、某型飞机默认1”，编队文章也不能把同一个总数复制到每个平台。\n\n本轮逐条阅读这30条的两类原始正文并对照雷达关键值，未发现可以据此把30条统一删掉的依据。5月10日印度卡尔瓦里级潜艇的舆论明确写“一艘”，雷达数量为1，任务由军情和雷达支持，具体区域三类一致；这类解析遗漏应保留修复，不能为回到v4的175条而回退。\n\n同时发现一个实在的抽取缺口：6月29日两篇辽宁号舆论正文在后句明确写“期间有一艘航母参与”，v9仍将其数量依据记为“具名舰艇单一参加者”。窄范围诊断原型已识别这两处，只加强证据来源，不改变数量、不新增活动。原型限制同一事实段只有一个已识别参加平台，并测试多平台不借数、角色不匹配、重复显式数量冲突等边界；结果见[quantity_probe_results.json](quantity_probe_results.json)。这类修复有明确证据价值，但不能宣称会增加评分。\n\n16个雷达异常候选中，有6个飞机批号包含两个不同的“开始经度/开始纬度”组。v2/v3已有按起点区分候选分支的实现，可以借鉴其调查方式；其较低准确性也提示不能直接复用放行策略。5月18日韩国E-737同一批号有南海、黄海两组，各6行、时段重叠。不能按点数投票，也不能因文本支持南海就悄悄删除另一组。应记录分支的完整来源、同刻关系、实体标识和各文本能否独立锚定；未消解前保留候选。六个批号已抽成[radar_branch_hypotheses.json](radar_branch_hypotheses.json)，本轮没有自动纳入任何分支。\n\n## 各版真正可取的部分\n\n|来源|继承内容|须重新判断的内容|\n|Claude|候选覆盖、复合活动中的平台线索|贪心关联、多数投票、未核实字段、域外纳入|\n|v4|严格关键字段核验、冲突阻断、未知辅助字段留空|窄数量句法漏提、细区域依据、整批异常一票否决及历史分析错误|\n|v2/v3|原子拆分、起点分支、同型多活动候选关系|距离阈值、分支放行、自动主线与分阶段|\n|v8|实际示例字段、文件组织和渲染流程|不能将历史96.5230格式分迁移给新组合|\n|v9|数量与评论范围修正、节点截止、具体分析与证据审计|55条精度变化、数量后置句、未消解分支；分析55.8750仍不能等同充分解释|\n\n## 下一轮实施和比较顺序\n\n1. **固定基准。** 保留v4和v9原ZIP、哈希、评分与节点集合。目标同时看准确性85.5277和完整性86.2631这两个已达到的水平，不用总分上涨掩盖某一项退步。Claude96.7004作为覆盖调查参照，不预设必须输出323条。\n2. **先改证据抽取与语义范围。** 数量绑定到具体主体和事实分句；点时刻、观察区间与明确起止分别保存；细地名、粗海域和雷达坐标分别保存；关联与裁决分开。每个改动保存受影响记录，禁止在写作阶段偷偷改数量和地域。\n3. **分别记录三类事实差异。** A为现有175条中的字段修正；B为30条增量的逐条裁决；C为42条关联缺口、16条雷达异常和102个各版未纳入候选的复查。组内也不能自动采用历史标签。数量解析或地域规则影响历史主线时，从5月1日起按各节点截止重新处理，不以目标日试验代替78日正式核验。\n4. **统一输出条件做对照。** 事实与字段对照时固定分析版本、模板和统计口径；分析对照时固定核实事实。已有“格式对齐版”保留了v4段落但还增添文字，不能未经核对就称作纯格式实验。诊断用历史复刻与新证据裁决的正式候选须明确区分，不把复刻旧错误当成推荐答案。\n5. **再形成正式八节点版。** 仅使用重审后冻结的事实，保留v9具体分析的有效部分，重新检查受事实改动影响的主线与解释；生成8份全章节DOCX、8份XLSX、32图，完成完整渲染和原始输入复现。新得分只能来自下一次实际平台反馈。\n\n当前能确认的是排查范围和一个数量证据抽取缺口；还不能确认存在“85准确性与96完整性相加”的组合。没有新评测时，不能给诊断队列、局部测试或候选方案填预测分数。\n\n## 本次读取与复现\n\n`code/diagnose.py`重新读取七版实际XLSX、800篇原始TXT及8个完整雷达表，生成集合关系、字段差异和427张候选证据卡；未重新执行78天完整核验，也未重生日报。`code/quantity_probe.py`运行限定句式的证据诊断。依赖为已有Codex bundled Python和openpyxl，运行方式：\n\n```powershell\n& 'C:/Users/Andy1/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' './code/diagnose.py'\n& 'C:/Users/Andy1/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' './code/quantity_probe.py'\n```\n\n脚本依赖本仓库现存历史产物，不是脱离仓库独立运行的正式工程包。源文件哈希见[read_manifest.json](read_manifest.json)。程序全量读取与当前代理实际阅读原文的范围分别记录；无独立审阅人员或盲测。历史各版打分条件可能不同，现有对比不能证明单项修改的因果贡献。\n"
+  }
+]

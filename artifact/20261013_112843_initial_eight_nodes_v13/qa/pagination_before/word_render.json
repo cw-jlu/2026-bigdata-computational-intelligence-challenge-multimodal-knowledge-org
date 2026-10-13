@@ -1,0 +1,82 @@
+[
+  {
+    "status": "exported_full_document",
+    "source_sha256": "173744BA917F589ABFC4CA6F03190F656C32DB83E4893F23E1CD51C1555B3CB9",
+    "source": "D:\\CW\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261013_112843_initial_eight_nodes_v13\\official\\2025.5.10\\2025.5.10日报.docx",
+    "node": "2025.5.10",
+    "pages": 11,
+    "version": "12.0",
+    "application_path": "C:\\Users\\Andy1\\AppData\\Local\\Kingsoft\\WPSOFF~1\\1210~1.291\\office6",
+    "renderer": "WPS Office through Word.Application COM"
+  },
+  {
+    "status": "exported_full_document",
+    "source_sha256": "F36ECDED658FA86235B424541BF81DFCAC7F6A411692DAB0107389FBB5C655C2",
+    "source": "D:\\CW\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261013_112843_initial_eight_nodes_v13\\official\\2025.5.18\\2025.5.18日报.docx",
+    "node": "2025.5.18",
+    "pages": 11,
+    "version": "12.0",
+    "application_path": "C:\\Users\\Andy1\\AppData\\Local\\Kingsoft\\WPSOFF~1\\1210~1.291\\office6",
+    "renderer": "WPS Office through Word.Application COM"
+  },
+  {
+    "status": "exported_full_document",
+    "source_sha256": "2F5BBF7753268F3ACA5DA1A33065BA60748366020A2280496C1485623346C782",
+    "source": "D:\\CW\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261013_112843_initial_eight_nodes_v13\\official\\2025.5.30\\2025.5.30日报.docx",
+    "node": "2025.5.30",
+    "pages": 11,
+    "version": "12.0",
+    "application_path": "C:\\Users\\Andy1\\AppData\\Local\\Kingsoft\\WPSOFF~1\\1210~1.291\\office6",
+    "renderer": "WPS Office through Word.Application COM"
+  },
+  {
+    "status": "exported_full_document",
+    "source_sha256": "189A0836C3BAEC10F800DA68CC32C5D33AA3F4D26B34F7DD2E082554B6030C93",
+    "source": "D:\\CW\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261013_112843_initial_eight_nodes_v13\\official\\2025.6.9\\2025.6.9日报.docx",
+    "node": "2025.6.9",
+    "pages": 11,
+    "version": "12.0",
+    "application_path": "C:\\Users\\Andy1\\AppData\\Local\\Kingsoft\\WPSOFF~1\\1210~1.291\\office6",
+    "renderer": "WPS Office through Word.Application COM"
+  },
+  {
+    "status": "exported_full_document",
+    "source_sha256": "11F18844D8E9EAA52F9A08DDAEF5C2D0AE26DDC9615DA1C158B4BE0B053CFFC9",
+    "source": "D:\\CW\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261013_112843_initial_eight_nodes_v13\\official\\2025.6.17\\2025.6.17日报.docx",
+    "node": "2025.6.17",
+    "pages": 12,
+    "version": "12.0",
+    "application_path": "C:\\Users\\Andy1\\AppData\\Local\\Kingsoft\\WPSOFF~1\\1210~1.291\\office6",
+    "renderer": "WPS Office through Word.Application COM"
+  },
+  {
+    "status": "exported_full_document",
+    "source_sha256": "DDF9879973C99FD31ACC24C5D1C13C4669E58E0F8D25F681B5DA6BA1B34B01DC",
+    "source": "D:\\CW\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261013_112843_initial_eight_nodes_v13\\official\\2025.6.29\\2025.6.29日报.docx",
+    "node": "2025.6.29",
+    "pages": 11,
+    "version": "12.0",
+    "application_path": "C:\\Users\\Andy1\\AppData\\Local\\Kingsoft\\WPSOFF~1\\1210~1.291\\office6",
+    "renderer": "WPS Office through Word.Application COM"
+  },
+  {
+    "status": "exported_full_document",
+    "source_sha256": "CDB8B1EBB191CAF04EE4B826AD4AD15673C090492EAADCDDB57E8830BD2D24E8",
+    "source": "D:\\CW\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261013_112843_initial_eight_nodes_v13\\official\\2025.7.9\\2025.7.9日报.docx",
+    "node": "2025.7.9",
+    "pages": 12,
+    "version": "12.0",
+    "application_path": "C:\\Users\\Andy1\\AppData\\Local\\Kingsoft\\WPSOFF~1\\1210~1.291\\office6",
+    "renderer": "WPS Office through Word.Application COM"
+  },
+  {
+    "status": "exported_full_document",
+    "source_sha256": "F3356E3243A56788A353C87274FF8F40CDE4ECC819CFD79517B4ADDEA72A7AF8",
+    "source": "D:\\CW\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261013_112843_initial_eight_nodes_v13\\official\\2025.7.17\\2025.7.17日报.docx",
+    "node": "2025.7.17",
+    "pages": 12,
+    "version": "12.0",
+    "application_path": "C:\\Users\\Andy1\\AppData\\Local\\Kingsoft\\WPSOFF~1\\1210~1.291\\office6",
+    "renderer": "WPS Office through Word.Application COM"
+  }
+]

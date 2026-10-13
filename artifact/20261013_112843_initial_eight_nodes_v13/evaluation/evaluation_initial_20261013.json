@@ -1,0 +1,122 @@
+{
+  "recorded_date": "2026-10-13",
+  "stage": "initial",
+  "node_count": 8,
+  "version": "20261013_112843_initial_eight_nodes_v13",
+  "source": "用户在本版本交付后的当前聊天反馈；未独立访问平台记录",
+  "raw_user_feedback": "赛程=initial；节点数=8；完整性=86.5219；准确性=70.8849；格式=96.9027；分析=60.0000；总分=各节点(完整性×25%+准确性×40%+格式×15%+分析×20%)的平均值",
+  "reported_metrics": {
+    "completeness": "86.5219",
+    "accuracy": "70.8849",
+    "format": "96.9027",
+    "analysis": "60.0000"
+  },
+  "weights": {
+    "completeness": "0.25",
+    "accuracy": "0.40",
+    "format": "0.15",
+    "analysis": "0.20"
+  },
+  "computed_total_from_displayed_means": "76.519840",
+  "computed_total_display_4dp": "76.5198",
+  "platform_total_separately_provided": false,
+  "platform_submission_id": null,
+  "platform_receipt": null,
+  "per_node_scores": null,
+  "deduction_details": null,
+  "version_binding": "当前聊天在v13正式交付后用户反馈本版得分；本地ZIP哈希绑定未经平台回执独立核验",
+  "archives_unchanged": [
+    {
+      "path": "artifact/20261013_112843_initial_eight_nodes_v13/赛题2_初赛_v13_八节点正式提交包.zip",
+      "sha256": "33f8492b4f66e7500ff909c4ab8f28fe7343ddcaa795a7c48d80145c7993401d",
+      "bytes": 14324826
+    },
+    {
+      "path": "artifact/20261013_112843_initial_eight_nodes_v13/赛题2_初赛_v13_完整工程包.zip",
+      "sha256": "672080b26b5ccaa916f1ac2bdb7bc4ac22107e7b63bdadc4b62b6dc5a73cbfe0",
+      "bytes": 154903683
+    }
+  ],
+  "comparisons": {
+    "v4": {
+      "historical_metrics": {
+        "completeness": "74.8767",
+        "accuracy": "85.5277",
+        "format": "76.4282",
+        "analysis": "55.7500"
+      },
+      "historical_total": "75.544485",
+      "metric_differences": {
+        "completeness": "11.6452",
+        "accuracy": "-14.6428",
+        "format": "20.4745",
+        "analysis": "4.2500"
+      },
+      "weighted_contributions": {
+        "completeness": "2.911300",
+        "accuracy": "-5.857120",
+        "format": "3.071175",
+        "analysis": "0.850000"
+      },
+      "total_difference": "0.975355",
+      "total_difference_display_4dp": "0.9754"
+    },
+    "v9": {
+      "historical_metrics": {
+        "completeness": "86.2631",
+        "accuracy": "67.3760",
+        "format": "96.5612",
+        "analysis": "55.8750"
+      },
+      "historical_total": "74.175355",
+      "metric_differences": {
+        "completeness": "0.2588",
+        "accuracy": "3.5089",
+        "format": "0.3415",
+        "analysis": "4.1250"
+      },
+      "weighted_contributions": {
+        "completeness": "0.064700",
+        "accuracy": "1.403560",
+        "format": "0.051225",
+        "analysis": "0.825000"
+      },
+      "total_difference": "2.344485",
+      "total_difference_display_4dp": "2.3445"
+    },
+    "v12": {
+      "historical_metrics": {
+        "completeness": "86.2631",
+        "accuracy": "67.3760",
+        "format": "96.8050",
+        "analysis": "53.6250"
+      },
+      "historical_total": "73.761925",
+      "metric_differences": {
+        "completeness": "0.2588",
+        "accuracy": "3.5089",
+        "format": "0.0977",
+        "analysis": "6.3750"
+      },
+      "weighted_contributions": {
+        "completeness": "0.064700",
+        "accuracy": "1.403560",
+        "format": "0.014655",
+        "analysis": "1.275000"
+      },
+      "total_difference": "2.757915",
+      "total_difference_display_4dp": "2.7579"
+    }
+  },
+  "highest_known_historical_computed_total_before_v13": {
+    "version": "v4",
+    "value": "75.544485"
+  },
+  "new_highest_among_archived_user_reported_means": true,
+  "limits": [
+    "展示均值可能舍入；不是平台未舍入独立总分",
+    "准确性不是事件正确率，完整性不是召回率",
+    "多项事实/分析/格式变化，不能将分差唯一归因于某项修复",
+    "评测前正式文件、ZIP、审计和handoff保持原样；评分记录追加，旧无评分声明指交付时状态"
+  ]
+}

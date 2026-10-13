@@ -5,3 +5,7 @@ artifact/20261012_all_versions_comparison/** -text
 artifact/20261012_163714_initial_eight_nodes_v12/** -text
 artifact/20261012_163714_initial_eight_nodes_v12/赛题2_初赛_v12_完整工程包.zip filter=lfs diff=lfs merge=lfs -text
 research/20261012_score_improvement_sources/** -text
+
+artifact/20261013_112843_initial_eight_nodes_v13/** -text
+artifact/20261013_112843_initial_eight_nodes_v13/audits/*/frozen_ledger.json filter=lfs diff=lfs merge=lfs -text
+artifact/20261013_112843_initial_eight_nodes_v13/赛题2_初赛_v13_完整工程包.zip filter=lfs diff=lfs merge=lfs -text

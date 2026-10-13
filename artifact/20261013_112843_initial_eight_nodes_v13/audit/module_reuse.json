@@ -1,0 +1,50 @@
+[
+  {
+    "source": "artifact/20261012_163714_initial_eight_nodes_v12/code/common.py",
+    "sha256": "e80b802f83c91bf46a00042541dfe9e16753c7bf618d51d1222dcdef649ae5ab",
+    "new": "code/common.py",
+    "purpose": "复用已检查的工程模块；events将在本轮修改，不加载历史台账"
+  },
+  {
+    "source": "artifact/20261012_163714_initial_eight_nodes_v12/code/events.py",
+    "sha256": "6c46813c6d72d8e0cb665d2a7e453ad842ddc6583cb7fe50bb54d97723592ced",
+    "new": "code/events.py",
+    "purpose": "复用已检查的工程模块；events将在本轮修改，不加载历史台账"
+  },
+  {
+    "source": "artifact/20261012_163714_initial_eight_nodes_v12/code/charts.py",
+    "sha256": "c4cc232be572d543e4f88d04abc579c174b4adc2f12f020942f0d05f3dc9d5fb",
+    "new": "code/charts.py",
+    "purpose": "复用已检查的工程模块；events将在本轮修改，不加载历史台账"
+  },
+  {
+    "source": "artifact/20261012_163714_initial_eight_nodes_v12/code/workbooks.mjs",
+    "sha256": "16a9f9ac10c2ab2c9d054f4c8a023d3bdcb81fad4df87c21399193b9b8280475",
+    "new": "code/workbooks.mjs",
+    "purpose": "复用已检查的工程模块；events将在本轮修改，不加载历史台账"
+  },
+  {
+    "source": "artifact/20261012_163714_initial_eight_nodes_v12/code/render_word.ps1",
+    "sha256": "ea5dd538516d7bf8a58c097b2b052c53fc45b1061e57845d83748ac0df78c576",
+    "new": "code/render_word.ps1",
+    "purpose": "复用已检查的工程模块；events将在本轮修改，不加载历史台账"
+  },
+  {
+    "source": "artifact/20261012_163714_initial_eight_nodes_v12/code/render_excel.ps1",
+    "sha256": "3054e2263ba0175eeb87f84e9f184d4f70cbe3507b3436623b441089012c4b1a",
+    "new": "code/render_excel.ps1",
+    "purpose": "复用已检查的工程模块；events将在本轮修改，不加载历史台账"
+  },
+  {
+    "source": "artifact/20261012_163714_initial_eight_nodes_v12/code/raster_qa.py",
+    "sha256": "ec405b9abfd03a4f727075ee2539800072fad5e3f82a8a4c7012128b80bd6b6f",
+    "new": "code/raster_qa.py",
+    "purpose": "复用已检查的工程模块；events将在本轮修改，不加载历史台账"
+  },
+  {
+    "source": "artifact/20261012_163714_initial_eight_nodes_v12/code/raster_excel.py",
+    "sha256": "98c5b645790c3ab743c556ce81d3d74d14b016cfbfc9db31e9237882a3d7b34a",
+    "new": "code/raster_excel.py",
+    "purpose": "复用已检查的工程模块；events将在本轮修改，不加载历史台账"
+  }
+]

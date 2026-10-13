@@ -1,0 +1,403 @@
+{
+  "facts": [
+    {
+      "node": "2025.5.10",
+      "raw_fact_hash": "dc546d600ca749d17c4cc35997a7b3680630999fadc1973a95f60d6cb8db1f24",
+      "analysis_snapshot_hash": "ea4d0b236c5bb96b2c66924f3c5221fd0ad38f3cdc37233f2728fb6ddfccd725",
+      "fact_comparison": "identical",
+      "analysis_mode": "reviewed_snapshot_replay_not_new_reasoning"
+    },
+    {
+      "node": "2025.5.18",
+      "raw_fact_hash": "cd3378e1342a4d7d2f98c581e4a71eed3ecba42ec2774821e59f4ece4505a380",
+      "analysis_snapshot_hash": "9e5095a1d070bb04d283a5a00673ae4bf7f33fb1c4189629bc257ca3d895f43d",
+      "fact_comparison": "identical",
+      "analysis_mode": "reviewed_snapshot_replay_not_new_reasoning"
+    },
+    {
+      "node": "2025.5.30",
+      "raw_fact_hash": "cbc0b9cbe4fb727af3e2c51558f3ef75734c3f3274bdd35fbc2c1313b8a3e21a",
+      "analysis_snapshot_hash": "6b0382d6cd4dd8a05f5ec59412bbe82d9efb42cb478e858ab4fefb10ac7f62fa",
+      "fact_comparison": "identical",
+      "analysis_mode": "reviewed_snapshot_replay_not_new_reasoning"
+    },
+    {
+      "node": "2025.6.9",
+      "raw_fact_hash": "35edcfc597bbb00c8705a1aa6f04bf420caf9f59670d41186233bbb99bbc8d33",
+      "analysis_snapshot_hash": "808c4406c1ebd92e765d0d70a432080c559f8ca54b258c767ebc2948b55cf0dd",
+      "fact_comparison": "identical",
+      "analysis_mode": "reviewed_snapshot_replay_not_new_reasoning"
+    },
+    {
+      "node": "2025.6.17",
+      "raw_fact_hash": "15fac7bf9ef59cc41aefcf971099793dc05f95d9df939c10a0342a5c3de7cf29",
+      "analysis_snapshot_hash": "70f8241fb8bf8b96ba7b830d33c271e4581320f5ae35f176e1cd5db47d2ce104",
+      "fact_comparison": "identical",
+      "analysis_mode": "reviewed_snapshot_replay_not_new_reasoning"
+    },
+    {
+      "node": "2025.6.29",
+      "raw_fact_hash": "52a57e6459ba9fce82ffe2159d755df9c8ea3aaab8c8241f0feb34e4c7ab95e3",
+      "analysis_snapshot_hash": "e813a3d567b86c6dcc671b5e297b33c4c98feae500e7945526011ebad3a7e443",
+      "fact_comparison": "identical",
+      "analysis_mode": "reviewed_snapshot_replay_not_new_reasoning"
+    },
+    {
+      "node": "2025.7.9",
+      "raw_fact_hash": "8ec0a1d44f9905f1d2f6fc2090ccc3513412848e58ff9888172ce9d0afd645f5",
+      "analysis_snapshot_hash": "77b83f3dcc04c3e1e94534cd8a15c6c237ec2cb6b665538488d46f6765288231",
+      "fact_comparison": "identical",
+      "analysis_mode": "reviewed_snapshot_replay_not_new_reasoning"
+    },
+    {
+      "node": "2025.7.17",
+      "raw_fact_hash": "4ce4516704d38d844ba542f80a34627da1a52643472945ead228e0ad6cc8b72a",
+      "analysis_snapshot_hash": "cc626b3233bc419bd1589f01fce01ac45d8d00e8573f10988caefa9e07209ad7",
+      "fact_comparison": "identical",
+      "analysis_mode": "reviewed_snapshot_replay_not_new_reasoning"
+    }
+  ],
+  "products": [
+    {
+      "path": "2025.5.10/2025.5.10日报.docx",
+      "equal": true,
+      "scope": "DOCX body OOXML; container metadata can vary",
+      "reproduced_sha256": "793ed7e64dca5f38f9168857c3f422f74aeda1bf778d6870f76efb5f53274eb3",
+      "original_sha256": "2ae697b02fabfbf01124af5629dda2e9f418909e77a3d0a49660c767e418dbe9"
+    },
+    {
+      "path": "2025.5.10/2025.5.10机舰活动明细.xlsx",
+      "equal": true,
+      "scope": "all values/types/number formats",
+      "reproduced_sha256": "7f97bf3a7e343a8403684806d32fc5a0d56b94399aa30cbe26ce2d7052e41d80",
+      "original_sha256": "d61a4bb26364cb663f70f07b2f8314a94a7c47b42eacd712bd33be096d9b707a"
+    },
+    {
+      "path": "2025.5.18/2025.5.18日报.docx",
+      "equal": true,
+      "scope": "DOCX body OOXML; container metadata can vary",
+      "reproduced_sha256": "86d6729b69586a5a9fb3d40061af76ae409f0c7ea5ed438d98ae9295e40c0381",
+      "original_sha256": "d023a0da8729a11b9491f8ba354315216babe96fcdfa87354c7d61ec1165931f"
+    },
+    {
+      "path": "2025.5.18/2025.5.18机舰活动明细.xlsx",
+      "equal": true,
+      "scope": "all values/types/number formats",
+      "reproduced_sha256": "743e70728f65a7777e2f590ec17cea418cfb063a164400b26ce7f1216696ed32",
+      "original_sha256": "e9156c86e7978e90dad3b00e9bd405fe0403de6c34428fb1f6c5261cbe27bf83"
+    },
+    {
+      "path": "2025.5.30/2025.5.30日报.docx",
+      "equal": true,
+      "scope": "DOCX body OOXML; container metadata can vary",
+      "reproduced_sha256": "3b69157cca12e2dcb322894bf317142ebd2c288d57e9bd4227b189a75118f63a",
+      "original_sha256": "daab3d2bfbbff241fcefc5abb2c55966d26d9bf4d450052b1c750826c34889a1"
+    },
+    {
+      "path": "2025.5.30/2025.5.30机舰活动明细.xlsx",
+      "equal": true,
+      "scope": "all values/types/number formats",
+      "reproduced_sha256": "90646fe61d02c7c448daac7843afd9ede8d89b3b7ff8b907e6817234e6ff217f",
+      "original_sha256": "47b5d2150d566ce1321852652fe5667600588693268a9ca7172b8a1a0026313c"
+    },
+    {
+      "path": "2025.6.17/2025.6.17日报.docx",
+      "equal": true,
+      "scope": "DOCX body OOXML; container metadata can vary",
+      "reproduced_sha256": "cb36e8010cbe41dd40e26fa57be4b8bd0e880756af7ffd18316331a8f0a0c7f1",
+      "original_sha256": "91c9889ee93d6430887e120a2bba0d4eecf05abaa8a26f40c9180b9852355487"
+    },
+    {
+      "path": "2025.6.17/2025.6.17机舰活动明细.xlsx",
+      "equal": true,
+      "scope": "all values/types/number formats",
+      "reproduced_sha256": "4bf041dd0221823fd62ab92a1d32251c76a081b9c60fec0a1eeac041ec567f8f",
+      "original_sha256": "5bb4baaec649e06e4b78eb8872ae2093252535d679cc113ebed67f961c9b52e5"
+    },
+    {
+      "path": "2025.6.29/2025.6.29日报.docx",
+      "equal": true,
+      "scope": "DOCX body OOXML; container metadata can vary",
+      "reproduced_sha256": "0b0e808074e4d4b3e6bab2b4cd89ca1d153617b7f883ec77251309553463c172",
+      "original_sha256": "2fc0f270f51e4ec8ce2748ff94e48d13705041b5bb9a46c45fa9c98534710e07"
+    },
+    {
+      "path": "2025.6.29/2025.6.29机舰活动明细.xlsx",
+      "equal": true,
+      "scope": "all values/types/number formats",
+      "reproduced_sha256": "600438c88d8c9cfd123de55d2303b1351257bb827d8b014efb20063666f70238",
+      "original_sha256": "0cfda83fcd80207b2b480ae7aac27bf1bc7f4a78866337cfd040b37b9a0f003d"
+    },
+    {
+      "path": "2025.6.9/2025.6.9日报.docx",
+      "equal": true,
+      "scope": "DOCX body OOXML; container metadata can vary",
+      "reproduced_sha256": "5c14da7c594408eb1a21199124f33a3d990518217e4be77a58de19fe4cc49984",
+      "original_sha256": "f9dca425b2123ca5a0c73e42c3044957ea4c3ab4afbaaa7353c90b29858ae5a4"
+    },
+    {
+      "path": "2025.6.9/2025.6.9机舰活动明细.xlsx",
+      "equal": true,
+      "scope": "all values/types/number formats",
+      "reproduced_sha256": "e01cf7d8ce9ffaae666e11a876126a9de4364f36ac5f4b966b96bee4c31fb2ef",
+      "original_sha256": "1b09bb527084c08481e899535a3dacb52e17089dd4f61b2c899597cda9e626e8"
+    },
+    {
+      "path": "2025.7.17/2025.7.17日报.docx",
+      "equal": true,
+      "scope": "DOCX body OOXML; container metadata can vary",
+      "reproduced_sha256": "c6d8a79edd5eb7900aff5a4c8f213224cf891f7262cf241d39a351d6d893dcb2",
+      "original_sha256": "1917785b5519537a2518f0b84adc4fb897a5ade811c588a93884c5d82d64847f"
+    },
+    {
+      "path": "2025.7.17/2025.7.17机舰活动明细.xlsx",
+      "equal": true,
+      "scope": "all values/types/number formats",
+      "reproduced_sha256": "5b85d5c76ae02c0819056deee9650631c4af5597f26396f189cd38a5fb883618",
+      "original_sha256": "e81252cc7f8f1143eb21b5d8ae4af58760b245f6abff1793a9f1b1f8944ec9d6"
+    },
+    {
+      "path": "2025.7.9/2025.7.9日报.docx",
+      "equal": true,
+      "scope": "DOCX body OOXML; container metadata can vary",
+      "reproduced_sha256": "ce083b730d879436c9ac1d9cfe70860c5a9579fa51e947a289e6fa2362471a46",
+      "original_sha256": "b0193e1f57492ce3c0c77599a2f6c724473ab5da960e657846afe23f9194c6b9"
+    },
+    {
+      "path": "2025.7.9/2025.7.9机舰活动明细.xlsx",
+      "equal": true,
+      "scope": "all values/types/number formats",
+      "reproduced_sha256": "2a31bb1ee039ca80f64356b28e0a8444747e8da5176726afe75f7f0aa6e07760",
+      "original_sha256": "9c136a650b168eac854b4a17cfda1c5007d440b0ab1188f57cf8c2e726e7206a"
+    },
+    {
+      "path": "2025.5.10/附件图表/01_舰机侦巡数量曲线图.png",
+      "equal": true,
+      "scope": "PNG byte hash",
+      "reproduced_sha256": "2b3dbc5265fb38a8521685e10fe6f27f96191daf5df89df93a079a5fde28c547",
+      "original_sha256": "2b3dbc5265fb38a8521685e10fe6f27f96191daf5df89df93a079a5fde28c547"
+    },
+    {
+      "path": "2025.5.10/附件图表/02_中国主要机舰活动示意图.png",
+      "equal": true,
+      "scope": "PNG byte hash",
+      "reproduced_sha256": "d03eb54bf550b28633e54e388c917f10228526529f9051e074765a63c8ac2e70",
+      "original_sha256": "d03eb54bf550b28633e54e388c917f10228526529f9051e074765a63c8ac2e70"
+    },
+    {
+      "path": "2025.5.10/附件图表/03_美国主要机舰活动示意图.png",
+      "equal": true,
+      "scope": "PNG byte hash",
+      "reproduced_sha256": "79e7bd0bbeadb7e3792c99b0692c939eb96252254c09f2d4465a049a1d9514b3",
+      "original_sha256": "79e7bd0bbeadb7e3792c99b0692c939eb96252254c09f2d4465a049a1d9514b3"
+    },
+    {
+      "path": "2025.5.10/附件图表/04_其他国家主要机舰活动示意图.png",
+      "equal": true,
+      "scope": "PNG byte hash",
+      "reproduced_sha256": "da87f23581539764531a2e5d2006ded82cb181024cc39af41c5adb6be9fd2c5c",
+      "original_sha256": "da87f23581539764531a2e5d2006ded82cb181024cc39af41c5adb6be9fd2c5c"
+    },
+    {
+      "path": "2025.5.18/附件图表/01_舰机侦巡数量曲线图.png",
+      "equal": true,
+      "scope": "PNG byte hash",
+      "reproduced_sha256": "77deac355e6c1bc6b9a8d133970bac4dce50b485961956286efed057c225a325",
+      "original_sha256": "77deac355e6c1bc6b9a8d133970bac4dce50b485961956286efed057c225a325"
+    },
+    {
+      "path": "2025.5.18/附件图表/02_中国主要机舰活动示意图.png",
+      "equal": true,
+      "scope": "PNG byte hash",
+      "reproduced_sha256": "374e637901f8cd75cd713d2f152bd8147a2bc2d125fa68b20d57c7c8ca73afc6",
+      "original_sha256": "374e637901f8cd75cd713d2f152bd8147a2bc2d125fa68b20d57c7c8ca73afc6"
+    },
+    {
+      "path": "2025.5.18/附件图表/03_美国主要机舰活动示意图.png",
+      "equal": true,
+      "scope": "PNG byte hash",
+      "reproduced_sha256": "66a3a51d021b8d2fe0fc2150cfa18578418357bab8bad4072b0519f1bb659dc8",
+      "original_sha256": "66a3a51d021b8d2fe0fc2150cfa18578418357bab8bad4072b0519f1bb659dc8"
+    },
+    {
+      "path": "2025.5.18/附件图表/04_其他国家主要机舰活动示意图.png",
+      "equal": true,
+      "scope": "PNG byte hash",
+      "reproduced_sha256": "52a2fc2f993d98447edef3c4c67c20a78bf73fc68fe91f941544d0e09de40cf9",
+      "original_sha256": "52a2fc2f993d98447edef3c4c67c20a78bf73fc68fe91f941544d0e09de40cf9"
+    },
+    {
+      "path": "2025.5.30/附件图表/01_舰机侦巡数量曲线图.png",
+      "equal": true,
+      "scope": "PNG byte hash",
+      "reproduced_sha256": "725614d128a23e45f0376521918e96ffcc0fea6c84d5faf7367f0e58c6a80099",
+      "original_sha256": "725614d128a23e45f0376521918e96ffcc0fea6c84d5faf7367f0e58c6a80099"
+    },
+    {
+      "path": "2025.5.30/附件图表/02_中国主要机舰活动示意图.png",
+      "equal": true,
+      "scope": "PNG byte hash",
+      "reproduced_sha256": "78583653edeabc5f218467946dd054a2e0d74d669c5dfbfb1429dd18120c1df6",
+      "original_sha256": "78583653edeabc5f218467946dd054a2e0d74d669c5dfbfb1429dd18120c1df6"
+    },
+    {
+      "path": "2025.5.30/附件图表/03_美国主要机舰活动示意图.png",
+      "equal": true,
+      "scope": "PNG byte hash",
+      "reproduced_sha256": "b1cffc6c8e9f3a1363415e6bd1ecd95411f2d6afc285a90739c6b6112a5237c9",
+      "original_sha256": "b1cffc6c8e9f3a1363415e6bd1ecd95411f2d6afc285a90739c6b6112a5237c9"
+    },
+    {
+      "path": "2025.5.30/附件图表/04_其他国家主要机舰活动示意图.png",
+      "equal": true,
+      "scope": "PNG byte hash",
+      "reproduced_sha256": "21ceb5c2a3642656e694b34be4ee251436539969e801c62d33041129fd34b7c8",
+      "original_sha256": "21ceb5c2a3642656e694b34be4ee251436539969e801c62d33041129fd34b7c8"
+    },
+    {
+      "path": "2025.6.17/附件图表/01_舰机侦巡数量曲线图.png",
+      "equal": true,
+      "scope": "PNG byte hash",
+      "reproduced_sha256": "998b9dbdd46abb5f7696bebc90e2b93b6ba963f8217cf8b9a512dad052f4a979",
+      "original_sha256": "998b9dbdd46abb5f7696bebc90e2b93b6ba963f8217cf8b9a512dad052f4a979"
+    },
+    {
+      "path": "2025.6.17/附件图表/02_中国主要机舰活动示意图.png",
+      "equal": true,
+      "scope": "PNG byte hash",
+      "reproduced_sha256": "08872a9c66b58679219ecb82bf303c09fe0dd8a84f36ad0ab0cf604285594022",
+      "original_sha256": "08872a9c66b58679219ecb82bf303c09fe0dd8a84f36ad0ab0cf604285594022"
+    },
+    {
+      "path": "2025.6.17/附件图表/03_美国主要机舰活动示意图.png",
+      "equal": true,
+      "scope": "PNG byte hash",
+      "reproduced_sha256": "3bb00c3157493824db04458a16dcc9d99407d7c7b9736c8fc5a760a9cf88e019",
+      "original_sha256": "3bb00c3157493824db04458a16dcc9d99407d7c7b9736c8fc5a760a9cf88e019"
+    },
+    {
+      "path": "2025.6.17/附件图表/04_其他国家主要机舰活动示意图.png",
+      "equal": true,
+      "scope": "PNG byte hash",
+      "reproduced_sha256": "2e99cde6e8c28f3b67645749a7503ea1454eba48a1eca24681769e08f6c929b6",
+      "original_sha256": "2e99cde6e8c28f3b67645749a7503ea1454eba48a1eca24681769e08f6c929b6"
+    },
+    {
+      "path": "2025.6.29/附件图表/01_舰机侦巡数量曲线图.png",
+      "equal": true,
+      "scope": "PNG byte hash",
+      "reproduced_sha256": "bd0e3b193d753c990f5f7ca4ca5a050869e97645b1b2f0301a6457b29593487d",
+      "original_sha256": "bd0e3b193d753c990f5f7ca4ca5a050869e97645b1b2f0301a6457b29593487d"
+    },
+    {
+      "path": "2025.6.29/附件图表/02_中国主要机舰活动示意图.png",
+      "equal": true,
+      "scope": "PNG byte hash",
+      "reproduced_sha256": "0ea15cec3de3de90c984258cc42327dcefcfb849a2dfda4ac28eff286b31d412",
+      "original_sha256": "0ea15cec3de3de90c984258cc42327dcefcfb849a2dfda4ac28eff286b31d412"
+    },
+    {
+      "path": "2025.6.29/附件图表/03_美国主要机舰活动示意图.png",
+      "equal": true,
+      "scope": "PNG byte hash",
+      "reproduced_sha256": "dcdfe300fea92b6b69916123d10e8dff777ee763997bdece2c2b78903c200d3b",
+      "original_sha256": "dcdfe300fea92b6b69916123d10e8dff777ee763997bdece2c2b78903c200d3b"
+    },
+    {
+      "path": "2025.6.29/附件图表/04_其他国家主要机舰活动示意图.png",
+      "equal": true,
+      "scope": "PNG byte hash",
+      "reproduced_sha256": "0e43d89d759d23a5bc4cde2fd687d0dd6bb8049b0ac671edef496817c5eb42bb",
+      "original_sha256": "0e43d89d759d23a5bc4cde2fd687d0dd6bb8049b0ac671edef496817c5eb42bb"
+    },
+    {
+      "path": "2025.6.9/附件图表/01_舰机侦巡数量曲线图.png",
+      "equal": true,
+      "scope": "PNG byte hash",
+      "reproduced_sha256": "1ab70a002320b39b8b807731e402024d3a3bbe2ee30e129c4435c46c0d82d2d1",
+      "original_sha256": "1ab70a002320b39b8b807731e402024d3a3bbe2ee30e129c4435c46c0d82d2d1"
+    },
+    {
+      "path": "2025.6.9/附件图表/02_中国主要机舰活动示意图.png",
+      "equal": true,
+      "scope": "PNG byte hash",
+      "reproduced_sha256": "03ac7c31906f63dd28cc06d37b089e7a00a27a2c0356394d24f06c5664ea5834",
+      "original_sha256": "03ac7c31906f63dd28cc06d37b089e7a00a27a2c0356394d24f06c5664ea5834"
+    },
+    {
+      "path": "2025.6.9/附件图表/03_美国主要机舰活动示意图.png",
+      "equal": true,
+      "scope": "PNG byte hash",
+      "reproduced_sha256": "df6e8ce25e8d811f7908388015941233573c7bc2268015d5e6fdf9b39978268b",
+      "original_sha256": "df6e8ce25e8d811f7908388015941233573c7bc2268015d5e6fdf9b39978268b"
+    },
+    {
+      "path": "2025.6.9/附件图表/04_其他国家主要机舰活动示意图.png",
+      "equal": true,
+      "scope": "PNG byte hash",
+      "reproduced_sha256": "b3abca0fc2d86226767c5bf8b4ef952abcbc71c073fb813687f81f02ef0c581e",
+      "original_sha256": "b3abca0fc2d86226767c5bf8b4ef952abcbc71c073fb813687f81f02ef0c581e"
+    },
+    {
+      "path": "2025.7.17/附件图表/01_舰机侦巡数量曲线图.png",
+      "equal": true,
+      "scope": "PNG byte hash",
+      "reproduced_sha256": "73a6b0be5bd4fdc2bc5ad2270485bc6e70236f62c706d97bac1c6a6e1c375847",
+      "original_sha256": "73a6b0be5bd4fdc2bc5ad2270485bc6e70236f62c706d97bac1c6a6e1c375847"
+    },
+    {
+      "path": "2025.7.17/附件图表/02_中国主要机舰活动示意图.png",
+      "equal": true,
+      "scope": "PNG byte hash",
+      "reproduced_sha256": "18a13511e3934d46ac2c68bc6a116ccd0a94ef5ac8413fc547b45c6862c317e7",
+      "original_sha256": "18a13511e3934d46ac2c68bc6a116ccd0a94ef5ac8413fc547b45c6862c317e7"
+    },
+    {
+      "path": "2025.7.17/附件图表/03_美国主要机舰活动示意图.png",
+      "equal": true,
+      "scope": "PNG byte hash",
+      "reproduced_sha256": "990aa8b8e52995f59dd58c2ebd5a893417498b137fe52145e90a30aa845b8a79",
+      "original_sha256": "990aa8b8e52995f59dd58c2ebd5a893417498b137fe52145e90a30aa845b8a79"
+    },
+    {
+      "path": "2025.7.17/附件图表/04_其他国家主要机舰活动示意图.png",
+      "equal": true,
+      "scope": "PNG byte hash",
+      "reproduced_sha256": "58e731d33778965d721fdedfeff1a64a11b2ac43d093b0666d927022c734d4fa",
+      "original_sha256": "58e731d33778965d721fdedfeff1a64a11b2ac43d093b0666d927022c734d4fa"
+    },
+    {
+      "path": "2025.7.9/附件图表/01_舰机侦巡数量曲线图.png",
+      "equal": true,
+      "scope": "PNG byte hash",
+      "reproduced_sha256": "21afe6a175a90b4af1f26ff4f48b79872cfa7ea695eb74b325620e516e9d6a88",
+      "original_sha256": "21afe6a175a90b4af1f26ff4f48b79872cfa7ea695eb74b325620e516e9d6a88"
+    },
+    {
+      "path": "2025.7.9/附件图表/02_中国主要机舰活动示意图.png",
+      "equal": true,
+      "scope": "PNG byte hash",
+      "reproduced_sha256": "78da633ed0b61893d1a20075d712d4faa76b1542552a05566233a7536acea5d0",
+      "original_sha256": "78da633ed0b61893d1a20075d712d4faa76b1542552a05566233a7536acea5d0"
+    },
+    {
+      "path": "2025.7.9/附件图表/03_美国主要机舰活动示意图.png",
+      "equal": true,
+      "scope": "PNG byte hash",
+      "reproduced_sha256": "cb3fbd4148410870e357afecc695bf485670d89978c5184151cab04bec7f1b05",
+      "original_sha256": "cb3fbd4148410870e357afecc695bf485670d89978c5184151cab04bec7f1b05"
+    },
+    {
+      "path": "2025.7.9/附件图表/04_其他国家主要机舰活动示意图.png",
+      "equal": true,
+      "scope": "PNG byte hash",
+      "reproduced_sha256": "0ae1e1f6fd2d62235cb3f6ebee99b998f83f0f5a63ecb08bcdec964baaea810a",
+      "original_sha256": "0ae1e1f6fd2d62235cb3f6ebee99b998f83f0f5a63ecb08bcdec964baaea810a"
+    }
+  ],
+  "status": "PASS",
+  "raw_input_rebuilt": true,
+  "old_fact_ledger_loaded_as_generation_input": false,
+  "reviewed_analysis_replayed": true,
+  "new_analysis_reasoning_executed": false
+}

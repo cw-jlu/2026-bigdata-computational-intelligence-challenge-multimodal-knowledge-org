@@ -1,0 +1,798 @@
+{
+  "created_on": "2026-10-12",
+  "purpose": "next-agent prompt design, not new competition answers",
+  "scores": {
+    "gpt_initial": {
+      "metrics_order": [
+        "completeness",
+        "accuracy",
+        "format",
+        "analysis"
+      ],
+      "metrics": [
+        "83.2458",
+        "17.8993",
+        "73.3715",
+        "25.3750"
+      ],
+      "total_exact": "44.051895",
+      "total_4dp": "44.0519",
+      "source": {
+        "path": "docs/05-评测标准与复现清单.md",
+        "exists": true,
+        "sha256": "be44c4e8c26b8a6e34558052e7770471be0876c12ece547f1a6105863e3ae5ab"
+      },
+      "feedback_origin": "user_reported_aggregate_means",
+      "independent_receipt_available": false
+    },
+    "claude": {
+      "metrics_order": [
+        "completeness",
+        "accuracy",
+        "format",
+        "analysis"
+      ],
+      "metrics": [
+        "96.7004",
+        "19.8215",
+        "80.2587",
+        "44.1250"
+      ],
+      "total_exact": "52.967505",
+      "total_4dp": "52.9675",
+      "source": {
+        "path": "docs/05-评测标准与复现清单.md",
+        "exists": true,
+        "sha256": "be44c4e8c26b8a6e34558052e7770471be0876c12ece547f1a6105863e3ae5ab"
+      },
+      "feedback_origin": "user_reported_aggregate_means",
+      "independent_receipt_available": false
+    },
+    "v2": {
+      "metrics_order": [
+        "completeness",
+        "accuracy",
+        "format",
+        "analysis"
+      ],
+      "metrics": [
+        "84.4760",
+        "64.8389",
+        "76.5391",
+        "52.5000"
+      ],
+      "total_exact": "69.035425",
+      "total_4dp": "69.0354",
+      "source": {
+        "path": "artifact/20261009_gpt_accuracy_v2/audit/evaluation_initial_20261009.json",
+        "exists": true,
+        "sha256": "172701f7350b87c19434c007c5d5a57a74feb08b3a2b94a9bbbc38424ac72bc2"
+      },
+      "feedback_origin": "user_reported_aggregate_means",
+      "independent_receipt_available": false
+    },
+    "v3": {
+      "metrics_order": [
+        "completeness",
+        "accuracy",
+        "format",
+        "analysis"
+      ],
+      "metrics": [
+        "84.6855",
+        "64.4434",
+        "76.6218",
+        "43.7500"
+      ],
+      "total_exact": "67.192005",
+      "total_4dp": "67.1920",
+      "source": {
+        "path": "artifact/20261009_gpt_accuracy_v3/audit/post_evaluation/evaluation_and_diagnosis.json",
+        "exists": true,
+        "sha256": "a139597d6ae85d7fc03adb49354798dc70b6cd9530cbd804e6f0a981e1a5360f"
+      },
+      "feedback_origin": "user_reported_aggregate_means",
+      "independent_receipt_available": false
+    },
+    "v4": {
+      "metrics_order": [
+        "completeness",
+        "accuracy",
+        "format",
+        "analysis"
+      ],
+      "metrics": [
+        "74.8767",
+        "85.5277",
+        "76.4282",
+        "55.7500"
+      ],
+      "total_exact": "75.544485",
+      "total_4dp": "75.5445",
+      "source": {
+        "path": "artifact/20261009_gpt_independent_v4/audit/post_evaluation_trace/evaluation_comparison.json",
+        "exists": true,
+        "sha256": "a793ed6ae9b8ded631f3dd7d783a5f8ae9d2c5bbc64cefa3aa2c884be7d7d612"
+      },
+      "feedback_origin": "user_reported_aggregate_means",
+      "independent_receipt_available": false
+    },
+    "v8": {
+      "metrics_order": [
+        "completeness",
+        "accuracy",
+        "format",
+        "analysis"
+      ],
+      "metrics": [
+        "86.1320",
+        "65.2266",
+        "96.5230",
+        "45.2500"
+      ],
+      "total_exact": "71.152090",
+      "total_4dp": "71.1521",
+      "source": {
+        "path": "artifact/20261012_initial_eight_nodes_v8/evaluation/evaluation_initial_20261012.json",
+        "exists": true,
+        "sha256": "4cd4fb3bfb087a08ed2a68dbdfaeb0921ba2d95aa6fe70def4b674fbc089f779"
+      },
+      "feedback_origin": "user_reported_aggregate_means",
+      "independent_receipt_available": false
+    },
+    "v9": {
+      "metrics_order": [
+        "completeness",
+        "accuracy",
+        "format",
+        "analysis"
+      ],
+      "metrics": [
+        "86.2631",
+        "67.3760",
+        "96.5612",
+        "55.8750"
+      ],
+      "total_exact": "74.175355",
+      "total_4dp": "74.1754",
+      "source": {
+        "path": "artifact/20261012_134432_initial_eight_nodes_v9/evaluation/evaluation_initial_20261012.json",
+        "exists": true,
+        "sha256": "52f0955d0bed83373c619fe4343610b4a185ec2aa2ab7886893a3d86dd22441e"
+      },
+      "feedback_origin": "user_reported_aggregate_means",
+      "independent_receipt_available": false
+    },
+    "v12": {
+      "metrics_order": [
+        "completeness",
+        "accuracy",
+        "format",
+        "analysis"
+      ],
+      "metrics": [
+        "86.2631",
+        "67.3760",
+        "96.8050",
+        "53.6250"
+      ],
+      "total_exact": "73.761925",
+      "total_4dp": "73.7619",
+      "source": {
+        "path": "artifact/20261012_163714_initial_eight_nodes_v12/evaluation/evaluation_initial_20261012.json",
+        "exists": true,
+        "sha256": "4cff724d35582fb0db9a313be3cb73f1851167fbba19086fec3bf1b59a41565e"
+      },
+      "feedback_origin": "user_reported_aggregate_means",
+      "independent_receipt_available": false
+    }
+  },
+  "version_inventory": {
+    "gpt_initial": {
+      "folder": "artifact/20261008_001028_gpt-5.6solhigh",
+      "local_exists": true,
+      "score_available": true,
+      "count_scope": "artifact\\20261008_001028_gpt-5.6solhigh\\output",
+      "actual_official_file_counts": {
+        "docx": 8,
+        "xlsx": 8,
+        "png": 32
+      },
+      "earlier_inventory_counts": {
+        "docx": 8,
+        "xlsx": 8,
+        "png": 32
+      },
+      "readme": {
+        "path": "artifact/20261008_001028_gpt-5.6solhigh/README.md",
+        "exists": true,
+        "sha256": "8b5e4202f7a9a7fd08e04ac4ac066c453ffd70b7a8643bc7d31525392c0fca75"
+      }
+    },
+    "claude": {
+      "folder": "artifact/20261008_001929_claude-opus-5.5high",
+      "local_exists": true,
+      "score_available": true,
+      "count_scope": "artifact\\20261008_001929_claude-opus-5.5high\\output",
+      "actual_official_file_counts": {
+        "docx": 8,
+        "xlsx": 8,
+        "png": 32
+      },
+      "earlier_inventory_counts": {
+        "docx": 8,
+        "xlsx": 8,
+        "png": 32
+      },
+      "readme": {
+        "path": "artifact/20261008_001929_claude-opus-5.5high/README.md",
+        "exists": true,
+        "sha256": "7df4e5f2605414d461604801defd8b0ac221abb01b52eb5b1488769c4b403bf8"
+      }
+    },
+    "v2": {
+      "folder": "artifact/20261009_gpt_accuracy_v2",
+      "local_exists": true,
+      "score_available": true,
+      "count_scope": "artifact\\20261009_gpt_accuracy_v2\\output",
+      "actual_official_file_counts": {
+        "docx": 8,
+        "xlsx": 8,
+        "png": 32
+      },
+      "earlier_inventory_counts": {
+        "docx": 8,
+        "xlsx": 8,
+        "png": 32
+      },
+      "readme": {
+        "path": "artifact/20261009_gpt_accuracy_v2/README.md",
+        "exists": true,
+        "sha256": "9b68521e64f19bc019f07a7262144ee25fdd3046ec2914b9aa6102adcbe46bbb"
+      }
+    },
+    "v3": {
+      "folder": "artifact/20261009_gpt_accuracy_v3",
+      "local_exists": true,
+      "score_available": true,
+      "count_scope": "artifact\\20261009_gpt_accuracy_v3\\output",
+      "actual_official_file_counts": {
+        "docx": 8,
+        "xlsx": 8,
+        "png": 32
+      },
+      "earlier_inventory_counts": {
+        "docx": 8,
+        "xlsx": 8,
+        "png": 32
+      },
+      "readme": {
+        "path": "artifact/20261009_gpt_accuracy_v3/README.md",
+        "exists": true,
+        "sha256": "17c4f8e7310d71dc2bc693e8fb640c942a4a3a53614e3bc98775dbf0d2c105ca"
+      }
+    },
+    "v4": {
+      "folder": "artifact/20261009_gpt_independent_v4",
+      "local_exists": true,
+      "score_available": true,
+      "count_scope": "artifact\\20261009_gpt_independent_v4\\output",
+      "actual_official_file_counts": {
+        "docx": 8,
+        "xlsx": 8,
+        "png": 32
+      },
+      "earlier_inventory_counts": {
+        "docx": 8,
+        "xlsx": 8,
+        "png": 32
+      },
+      "readme": {
+        "path": "artifact/20261009_gpt_independent_v4/README.md",
+        "exists": true,
+        "sha256": "7842282fa5183a09ceb37eebd76c39a45e98693d4961e2edec119bd6107f3320"
+      }
+    },
+    "v5": {
+      "folder": "artifact/20261011_20250510_rebuild_v5",
+      "local_exists": true,
+      "score_available": false,
+      "count_scope": "artifact\\20261011_20250510_rebuild_v5\\output",
+      "actual_official_file_counts": {
+        "docx": 0,
+        "xlsx": 0,
+        "png": 0
+      },
+      "earlier_inventory_counts": {
+        "docx": 0,
+        "xlsx": 0,
+        "png": 0
+      },
+      "readme": {
+        "path": "artifact/20261011_20250510_rebuild_v5/README.md",
+        "exists": false,
+        "sha256": null
+      }
+    },
+    "v6": {
+      "folder": "artifact/20261011_20250510_rebuild_v6",
+      "local_exists": true,
+      "score_available": false,
+      "count_scope": "artifact\\20261011_20250510_rebuild_v6\\2025.5.10",
+      "actual_official_file_counts": {
+        "docx": 1,
+        "xlsx": 1,
+        "png": 4
+      },
+      "earlier_inventory_counts": {
+        "docx": 1,
+        "xlsx": 1,
+        "png": 4
+      },
+      "readme": {
+        "path": "artifact/20261011_20250510_rebuild_v6/README.md",
+        "exists": true,
+        "sha256": "18843c3ce93dc112071982eeb1bc90cad94799ac7a47b1a52eea4b6934983488"
+      }
+    },
+    "v7_unfinished": {
+      "folder": "artifact/20261011_initial_eight_nodes_v7",
+      "local_exists": true,
+      "score_available": false,
+      "count_scope": "artifact\\20261011_initial_eight_nodes_v7\\output",
+      "actual_official_file_counts": {
+        "docx": 0,
+        "xlsx": 0,
+        "png": 0
+      },
+      "earlier_inventory_counts": {
+        "docx": 0,
+        "xlsx": 0,
+        "png": 0
+      },
+      "readme": {
+        "path": "artifact/20261011_initial_eight_nodes_v7/README.md",
+        "exists": false,
+        "sha256": null
+      }
+    },
+    "v8_unfinished": {
+      "folder": "artifact/20261011_initial_eight_nodes_v8",
+      "local_exists": true,
+      "score_available": false,
+      "count_scope": "artifact\\20261011_initial_eight_nodes_v8\\output",
+      "actual_official_file_counts": {
+        "docx": 0,
+        "xlsx": 0,
+        "png": 0
+      },
+      "earlier_inventory_counts": {
+        "docx": 0,
+        "xlsx": 0,
+        "png": 0
+      },
+      "readme": {
+        "path": "artifact/20261011_initial_eight_nodes_v8/README.md",
+        "exists": false,
+        "sha256": null
+      }
+    },
+    "v8": {
+      "folder": "artifact/20261012_initial_eight_nodes_v8",
+      "local_exists": true,
+      "score_available": true,
+      "count_scope": "artifact\\20261012_initial_eight_nodes_v8\\official",
+      "actual_official_file_counts": {
+        "docx": 8,
+        "xlsx": 8,
+        "png": 32
+      },
+      "earlier_inventory_counts": {
+        "docx": 8,
+        "xlsx": 8,
+        "png": 32
+      },
+      "readme": {
+        "path": "artifact/20261012_initial_eight_nodes_v8/README.md",
+        "exists": true,
+        "sha256": "41f3130e42ce651e9f1425f575e82d9c7c093ed397461e8f18d5afd10f3369f0"
+      }
+    },
+    "formatted": {
+      "folder": "artifact/赛题2_初赛_八节点_格式对齐版",
+      "local_exists": false,
+      "score_available": false,
+      "count_scope": "git:a49ec55237c73dbf27b6c947da72780604f6db4e:artifact/赛题2_初赛_八节点_格式对齐版",
+      "actual_official_file_counts": {
+        "docx": 8,
+        "xlsx": 8,
+        "png": 32
+      },
+      "earlier_inventory_counts": {
+        "docx": 8,
+        "xlsx": 8,
+        "png": 32
+      },
+      "readme": {
+        "path": "artifact/赛题2_初赛_八节点_格式对齐版/README.md",
+        "exists": false,
+        "sha256": null
+      }
+    },
+    "workflow_v1_1": {
+      "folder": "artifact/20261008_204137_976_workflow-agent-v1.1_deepseek-v4-pro_risk",
+      "local_exists": true,
+      "score_available": false,
+      "count_scope": "artifact\\20261008_204137_976_workflow-agent-v1.1_deepseek-v4-pro_risk\\output",
+      "actual_official_file_counts": {
+        "docx": 0,
+        "xlsx": 0,
+        "png": 0
+      },
+      "earlier_inventory_counts": {
+        "docx": 0,
+        "xlsx": 0,
+        "png": 0
+      },
+      "readme": {
+        "path": "artifact/20261008_204137_976_workflow-agent-v1.1_deepseek-v4-pro_risk/README.md",
+        "exists": false,
+        "sha256": null
+      },
+      "workflow_status": {
+        "status": "completed",
+        "stage": "analyze",
+        "events": {
+          "trusted": 0,
+          "pending": 1,
+          "excluded": 0
+        },
+        "uncovered_count": 7000,
+        "report_generated": false,
+        "error": null
+      }
+    },
+    "workflow_v1_2": {
+      "folder": "artifact/20261008_204853_747_workflow-agent-v1.2_deepseek-v4-pro_risk",
+      "local_exists": true,
+      "score_available": false,
+      "count_scope": "artifact\\20261008_204853_747_workflow-agent-v1.2_deepseek-v4-pro_risk\\output",
+      "actual_official_file_counts": {
+        "docx": 0,
+        "xlsx": 0,
+        "png": 0
+      },
+      "earlier_inventory_counts": {
+        "docx": 0,
+        "xlsx": 0,
+        "png": 0
+      },
+      "readme": {
+        "path": "artifact/20261008_204853_747_workflow-agent-v1.2_deepseek-v4-pro_risk/README.md",
+        "exists": false,
+        "sha256": null
+      },
+      "workflow_status": {
+        "status": "failed",
+        "stage": "report",
+        "events": null,
+        "uncovered_count": null,
+        "report_generated": null,
+        "error": "尚有 5676 条记录未完成调查；已保存检查点，可先续跑 analyze，再 review/report"
+      }
+    },
+    "workflow_v1": {
+      "folder": "artifact/20261008_workflow_agent_v1",
+      "local_exists": true,
+      "score_available": false,
+      "count_scope": "artifact\\20261008_workflow_agent_v1\\output",
+      "actual_official_file_counts": {
+        "docx": 0,
+        "xlsx": 0,
+        "png": 0
+      },
+      "earlier_inventory_counts": {
+        "docx": 0,
+        "xlsx": 0,
+        "png": 0
+      },
+      "readme": {
+        "path": "artifact/20261008_workflow_agent_v1/README.md",
+        "exists": true,
+        "sha256": "e14645dc0febc2870099f06163fe026be19340383369c3777051566257ca3c04"
+      }
+    },
+    "v9": {
+      "folder": "artifact/20261012_134432_initial_eight_nodes_v9",
+      "local_exists": true,
+      "score_available": true,
+      "count_scope": "artifact\\20261012_134432_initial_eight_nodes_v9\\official",
+      "actual_official_file_counts": {
+        "docx": 8,
+        "xlsx": 8,
+        "png": 32
+      },
+      "earlier_inventory_counts": null,
+      "readme": {
+        "path": "artifact/20261012_134432_initial_eight_nodes_v9/README.md",
+        "exists": true,
+        "sha256": "ea21ea323d83460cf823f44b525cf99cf6c3d6aef826a3c8471d7c87a88b437e"
+      }
+    },
+    "v10": {
+      "folder": "artifact/20261012_152733_initial_eight_nodes_v10",
+      "local_exists": true,
+      "score_available": false,
+      "count_scope": "artifact\\20261012_152733_initial_eight_nodes_v10\\official",
+      "actual_official_file_counts": {
+        "docx": 8,
+        "xlsx": 8,
+        "png": 32
+      },
+      "earlier_inventory_counts": null,
+      "readme": {
+        "path": "artifact/20261012_152733_initial_eight_nodes_v10/README.md",
+        "exists": true,
+        "sha256": "ee7369d6e4ec5c43a33cbb702358e7bfa95f223c918739d66c3e078e19cdca79"
+      }
+    },
+    "v11": {
+      "folder": "artifact/20261012_160950_initial_eight_nodes_v11",
+      "local_exists": true,
+      "score_available": false,
+      "count_scope": "artifact\\20261012_160950_initial_eight_nodes_v11\\official",
+      "actual_official_file_counts": {
+        "docx": 8,
+        "xlsx": 8,
+        "png": 32
+      },
+      "earlier_inventory_counts": null,
+      "readme": {
+        "path": "artifact/20261012_160950_initial_eight_nodes_v11/README.md",
+        "exists": true,
+        "sha256": "f4af50a2fade00c15c3b5d9eb31a78d5c917cb0c8e9770b50888a93c80c3e438"
+      }
+    },
+    "v12": {
+      "folder": "artifact/20261012_163714_initial_eight_nodes_v12",
+      "local_exists": true,
+      "score_available": true,
+      "count_scope": "artifact\\20261012_163714_initial_eight_nodes_v12\\official",
+      "actual_official_file_counts": {
+        "docx": 8,
+        "xlsx": 8,
+        "png": 32
+      },
+      "earlier_inventory_counts": null,
+      "readme": {
+        "path": "artifact/20261012_163714_initial_eight_nodes_v12/README.md",
+        "exists": true,
+        "sha256": "7e55efd27dee7935d0fd3b5e1ed90e2551a9c7761ac46b42fcf28a7133c8202c"
+      }
+    }
+  },
+  "prompt_inventory": [
+    {
+      "path": "docs/prompts/赛题2-20250510-分析增强-v5.md",
+      "exists": true,
+      "sha256": "e8a25be25456e4a504088b6444c11f3cc1423de2e6f4dbc7bd35f0f98be13e67",
+      "characters": 5568,
+      "lines": 104,
+      "normalized_text_sha256": "6d5bea985c61b6a78607e79b9e74412e4770b1f344820fb89133e321f14185fe"
+    },
+    {
+      "path": "docs/prompts/赛题2-20250510-完整日报重做-v6.md",
+      "exists": true,
+      "sha256": "5d5ae198d627291858db099fee8dddc1a81adbab80447fe69a03e7d5ef785cf6",
+      "characters": 7556,
+      "lines": 124,
+      "normalized_text_sha256": "50fbf00a69b2beeef3c110eb97ff5188ae4a58d05e1cf3966bf5f4b3a7664e77"
+    },
+    {
+      "path": "docs/prompts/赛题2-initial-v3.md",
+      "exists": true,
+      "sha256": "004ca02e9ceabe863c20326dbb359e4ff292c023fb933b86ea3ccedbfc3ab1af",
+      "characters": 2065,
+      "lines": 25,
+      "normalized_text_sha256": "947871ee5cfc127111fa95037aa4d08a3ce311c4677b066f5f79e0f64695e7cc"
+    },
+    {
+      "path": "docs/prompts/赛题2-初赛八节点-全版本证据收敛-v9.md",
+      "exists": true,
+      "sha256": "8713390597a357c8b0c94256cc6fd3a47d2a38ad2e8dade3e75fcdadc867881f",
+      "characters": 15033,
+      "lines": 222,
+      "normalized_text_sha256": "97d52adba30c962fea874cd7042c916085f017f7b61e497d0c7cce49ca7db5ee"
+    },
+    {
+      "path": "docs/prompts/赛题2-初赛八节点-完整日报与赛段交付-v7.md",
+      "exists": true,
+      "sha256": "487d76f51fd83eea8e680ba26a85c6c577c7d70e2602e8ef3440b274a55894b0",
+      "characters": 10128,
+      "lines": 144,
+      "normalized_text_sha256": "a53ff1ec92b2e048cfda4d9472948c8b016f0fec806783cf466c4f957c69071e"
+    },
+    {
+      "path": "artifact/20261009_gpt_accuracy_v3/audit/post_evaluation/v2_original_user_prompt.txt",
+      "exists": true,
+      "sha256": "7b3d173022bda4aaf23a4fbb7f44412dd45994cc7a22faf28a7576ec72a2384c",
+      "characters": 1085,
+      "lines": 15,
+      "normalized_text_sha256": "2a04e0a6a2d88107af96e11badbe566cde1195bc50efc7d3595364e17ae3a93b"
+    },
+    {
+      "path": "artifact/20261009_gpt_independent_v4/audit/post_evaluation_trace/prompt_comparison.json",
+      "exists": true,
+      "sha256": "ce6f517f8641de3e50f6ba2bff7951d296f41f5fa76bcd02fcac83523dc565f7",
+      "characters": 2620,
+      "lines": 17,
+      "normalized_text_sha256": "f1b74a4d42aaa817f7e9846f6017d51908d297fcafe6016af417fb8864c08817"
+    },
+    {
+      "path": "analysis_research_bundle/generation_prompt.md",
+      "exists": true,
+      "sha256": "4792d85c27c4c1e7785b64a186a014e4abffed7ef04d65701439d86bdf4349c5",
+      "characters": 1137,
+      "lines": 21,
+      "normalized_text_sha256": "4792d85c27c4c1e7785b64a186a014e4abffed7ef04d65701439d86bdf4349c5"
+    },
+    {
+      "path": "analysis_research_bundle/skill/evidence-grounded-analysis/references/generation_prompt.md",
+      "exists": true,
+      "sha256": "4792d85c27c4c1e7785b64a186a014e4abffed7ef04d65701439d86bdf4349c5",
+      "characters": 1137,
+      "lines": 21,
+      "normalized_text_sha256": "4792d85c27c4c1e7785b64a186a014e4abffed7ef04d65701439d86bdf4349c5"
+    },
+    {
+      "path": "artifact/20261011_20250510_rebuild_v5/audit/analysis_prompt_base.md",
+      "exists": true,
+      "sha256": "4792d85c27c4c1e7785b64a186a014e4abffed7ef04d65701439d86bdf4349c5",
+      "characters": 1137,
+      "lines": 21,
+      "normalized_text_sha256": "4792d85c27c4c1e7785b64a186a014e4abffed7ef04d65701439d86bdf4349c5"
+    },
+    {
+      "path": "artifact/20261011_20250510_rebuild_v6/prompts/task_prompt.md",
+      "exists": true,
+      "sha256": "5d5ae198d627291858db099fee8dddc1a81adbab80447fe69a03e7d5ef785cf6",
+      "characters": 7556,
+      "lines": 124,
+      "normalized_text_sha256": "50fbf00a69b2beeef3c110eb97ff5188ae4a58d05e1cf3966bf5f4b3a7664e77"
+    },
+    {
+      "path": "artifact/20261011_20250510_rebuild_v6/prompts/analysis_module_prompt.md",
+      "exists": true,
+      "sha256": "4792d85c27c4c1e7785b64a186a014e4abffed7ef04d65701439d86bdf4349c5",
+      "characters": 1137,
+      "lines": 21,
+      "normalized_text_sha256": "4792d85c27c4c1e7785b64a186a014e4abffed7ef04d65701439d86bdf4349c5"
+    },
+    {
+      "path": "artifact/20261012_134432_initial_eight_nodes_v9/module_generation_prompt_original.md",
+      "exists": true,
+      "sha256": "4792d85c27c4c1e7785b64a186a014e4abffed7ef04d65701439d86bdf4349c5",
+      "characters": 1137,
+      "lines": 21,
+      "normalized_text_sha256": "4792d85c27c4c1e7785b64a186a014e4abffed7ef04d65701439d86bdf4349c5"
+    },
+    {
+      "path": "artifact/20261012_152733_initial_eight_nodes_v10/module_generation_prompt_original.md",
+      "exists": true,
+      "sha256": "4792d85c27c4c1e7785b64a186a014e4abffed7ef04d65701439d86bdf4349c5",
+      "characters": 1137,
+      "lines": 21,
+      "normalized_text_sha256": "4792d85c27c4c1e7785b64a186a014e4abffed7ef04d65701439d86bdf4349c5"
+    }
+  ],
+  "v2_v4_same_prompt": {
+    "equal": true,
+    "sha256": "ec4622393f87d2067ec960df169dab9f7354d1173ab5138e0f73b2e2b0b7eeef"
+  },
+  "supporting_sources": [
+    {
+      "path": "docs/02-数据说明与判定口径.md",
+      "exists": true,
+      "sha256": "3702952ccac2840cc4f110bb4a12e438f57d945ca60b4301932883b2b4d5aa81"
+    },
+    {
+      "path": "docs/03-系统处理流程与算法要求.md",
+      "exists": true,
+      "sha256": "555c67da3733533f46d7bb148a42040647f8099538b9dc1bf38b7097c874c788"
+    },
+    {
+      "path": "docs/07-评测反馈与提示词迭代.md",
+      "exists": true,
+      "sha256": "096351874b011fe1d71eaa229e4e2c23348b5b93b10173f1ed4883e1180d8670"
+    },
+    {
+      "path": "docs/09-历史全部版本与v8对照.md",
+      "exists": true,
+      "sha256": "0503e42448a70dfaff166c2b9a28b529dccf8003f431948a62d35ae6b6463ff8"
+    },
+    {
+      "path": "docs/11-v12初赛评测记录.md",
+      "exists": true,
+      "sha256": "11b7c5785d93ae94eb2392e6ec4ac311c6e7e4b63004ccf6d9e33c0e9561be23"
+    },
+    {
+      "path": "artifact/20261012_all_versions_comparison/version_inventory.json",
+      "exists": true,
+      "sha256": "0ad939eabde4193068232c8870677a2d0eb10e56ec750e58df0f9be6e4b7cf72"
+    },
+    {
+      "path": "artifact/20261012_all_versions_comparison/code_comparison_summary.json",
+      "exists": true,
+      "sha256": "c640f6d49d7044a1edbf6465adc33fcea72ee08ae4b7323674a3d86deadb8be6"
+    },
+    {
+      "path": "artifact/20261012_prompt_v9/prompt_provenance.json",
+      "exists": true,
+      "sha256": "000621d70b1a05fbc2969b86974a9583c70147038cf4d6dfe7cfb4c6853cf768"
+    },
+    {
+      "path": "artifact/20261008_workflow_agent_v1/workflow_agent/analysis.py",
+      "exists": true,
+      "sha256": "cb86c7267b29eb063ce2bc999602f6db56a03d3bd51d0abbc1c636022676e2a9"
+    },
+    {
+      "path": "artifact/20261008_workflow_agent_v1/workflow_agent/trust.py",
+      "exists": true,
+      "sha256": "ab52379668b9295a1f458baabfea3ee0eda46a6b8925e5cf29e77a273db61134"
+    },
+    {
+      "path": "artifact/20261008_workflow_agent_v1/workflow_agent/report.py",
+      "exists": true,
+      "sha256": "ee24f50990e8fde94f49ddc0ad9bf1ce1f240e9f8dfd384e851303c153dc238e"
+    },
+    {
+      "path": "artifact/20261012_v10_fusion_diagnosis/README.md",
+      "exists": true,
+      "sha256": "94145961b9213eea78fe7bf265376df031df369e90812fa99e4625251ba4c1b6"
+    },
+    {
+      "path": "artifact/20261012_163714_initial_eight_nodes_v12/code/select_v11.py",
+      "exists": true,
+      "sha256": "cd4e835ddbce8c8c0678f1873ee4328060fcd2c849091a4e4e4194ccd6ea8288"
+    },
+    {
+      "path": "research/20261012_score_improvement_sources/application_notes.md",
+      "exists": true,
+      "sha256": "4c315b71880daba9661a598253b3d6492f3073a8e3cd6b4567f859c770b52abe"
+    },
+    {
+      "path": "research/20261012_score_improvement_sources/source_catalog.json",
+      "exists": true,
+      "sha256": "5418d37297ff3cb30a207bd93d06ef13709dcff11182f76b70279d5ff9feee77"
+    },
+    {
+      "path": "research/20261012_score_improvement_sources/validation.json",
+      "exists": true,
+      "sha256": "45eee16b93fdf05013d4b03c5203279e242e882083ac65a92c40aedcf1b44082"
+    }
+  ],
+  "review_scope": [
+    "Agent reviewed historical prompts, score records, version READMEs and targeted change/code records.",
+    "Long tool outputs were truncated in places; whole-file hashes and parse checks are not a claim of line-by-line semantic review.",
+    "Historical comparison artifacts provide secondary evidence about older outputs; no fresh all-event adjudication or full historical rendering was done.",
+    "Initial full conversation prompts and unarchived launch instructions have not all been recovered.",
+    "Prompt copies in archived inputs are provenance mirrors, not additional independent experiments."
+  ],
+  "official_product_sources": [
+    "https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex",
+    "https://developers.openai.com/blog/mastering-codex-remote-for-engineering"
+  ],
+  "generation_executed": false,
+  "goal_created": false,
+  "platform_upload_executed": false,
+  "prompt": {
+    "path": "docs/prompts/赛题2-初赛八节点-从原始证据重建-v13.md",
+    "exists": true,
+    "sha256": "caa93b414f7441c8021f77c4ba3e1d9dede4d314b7406352756248f8174a35fe"
+  },
+  "rationale": {
+    "path": "docs/12-下一轮提示词设计依据与启动方式.md",
+    "exists": true,
+    "sha256": "efa7f91906b1294b2f48144f395f6ccf4d3d8d7381c894730ed1fb97aec8a7cd"
+  }
+}

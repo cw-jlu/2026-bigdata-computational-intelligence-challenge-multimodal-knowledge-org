@@ -1,0 +1,38 @@
+{
+  "local_completion": "COMPLETE",
+  "nodes": 8,
+  "formal_files": 48,
+  "verified_daily_records": 202,
+  "full_rendered_docx_pages": 90,
+  "archive_checks": {
+    "status": "PASS",
+    "members": 9136,
+    "crc_all_members": "PASS",
+    "all_member_hashes_against_pack_manifest": "PASS",
+    "current_source_hashes": "PASS",
+    "archived_inputs": 8095,
+    "official_files_inside_engineering": 48,
+    "oneclick_entry_present": true,
+    "zip_sha256": "672080b26b5ccaa916f1ac2bdb7bc4ac22107e7b63bdadc4b62b6dc5a73cbfe0",
+    "zip_bytes": 154903683,
+    "self_hash_receipts_outside_zip": true
+  },
+  "archives": [
+    {
+      "file": "赛题2_初赛_v13_八节点正式提交包.zip",
+      "sha256": "33f8492b4f66e7500ff909c4ab8f28fe7343ddcaa795a7c48d80145c7993401d",
+      "bytes": 14324826
+    },
+    {
+      "file": "赛题2_初赛_v13_完整工程包.zip",
+      "sha256": "672080b26b5ccaa916f1ac2bdb7bc4ac22107e7b63bdadc4b62b6dc5a73cbfe0",
+      "bytes": 154903683
+    }
+  ],
+  "raw_reproduction_comparison": "audit/final_raw_reproduction_comparison.json",
+  "physical_unpack_verification": "audit/physical_unpack_verification.json",
+  "new_platform_score": null,
+  "platform_upload": false,
+  "git_push": false,
+  "exact_model_sampling_config": "unavailable"
+}

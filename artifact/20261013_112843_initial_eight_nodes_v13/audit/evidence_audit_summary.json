@@ -1,0 +1,114 @@
+[
+  {
+    "node": "2025.5.10",
+    "radar_candidates": 53,
+    "decisions": {
+      "纳入": 26,
+      "排除": 16,
+      "域外": 11
+    },
+    "all_history_verified": 251,
+    "cutoff": "2025-05-10",
+    "selected_fact_hash": "dc546d600ca749d17c4cc35997a7b3680630999fadc1973a95f60d6cb8db1f24",
+    "sample_unique": 6,
+    "independent_blind_review": false
+  },
+  {
+    "node": "2025.5.18",
+    "radar_candidates": 55,
+    "decisions": {
+      "排除": 20,
+      "纳入": 24,
+      "域外": 11
+    },
+    "all_history_verified": 445,
+    "cutoff": "2025-05-18",
+    "selected_fact_hash": "cd3378e1342a4d7d2f98c581e4a71eed3ecba42ec2774821e59f4ece4505a380",
+    "sample_unique": 8,
+    "independent_blind_review": false
+  },
+  {
+    "node": "2025.5.30",
+    "radar_candidates": 53,
+    "decisions": {
+      "域外": 11,
+      "纳入": 26,
+      "排除": 16
+    },
+    "all_history_verified": 743,
+    "cutoff": "2025-05-30",
+    "selected_fact_hash": "cbc0b9cbe4fb727af3e2c51558f3ef75734c3f3274bdd35fbc2c1313b8a3e21a",
+    "sample_unique": 6,
+    "independent_blind_review": false
+  },
+  {
+    "node": "2025.6.9",
+    "radar_candidates": 53,
+    "decisions": {
+      "纳入": 26,
+      "域外": 11,
+      "排除": 16
+    },
+    "all_history_verified": 994,
+    "cutoff": "2025-06-09",
+    "selected_fact_hash": "35edcfc597bbb00c8705a1aa6f04bf420caf9f59670d41186233bbb99bbc8d33",
+    "sample_unique": 6,
+    "independent_blind_review": false
+  },
+  {
+    "node": "2025.6.17",
+    "radar_candidates": 55,
+    "decisions": {
+      "纳入": 25,
+      "排除": 19,
+      "域外": 11
+    },
+    "all_history_verified": 1183,
+    "cutoff": "2025-06-17",
+    "selected_fact_hash": "15fac7bf9ef59cc41aefcf971099793dc05f95d9df939c10a0342a5c3de7cf29",
+    "sample_unique": 8,
+    "independent_blind_review": false
+  },
+  {
+    "node": "2025.6.29",
+    "radar_candidates": 53,
+    "decisions": {
+      "纳入": 24,
+      "排除": 17,
+      "域外": 12
+    },
+    "all_history_verified": 1483,
+    "cutoff": "2025-06-29",
+    "selected_fact_hash": "52a57e6459ba9fce82ffe2159d755df9c8ea3aaab8c8241f0feb34e4c7ab95e3",
+    "sample_unique": 6,
+    "independent_blind_review": false
+  },
+  {
+    "node": "2025.7.9",
+    "radar_candidates": 52,
+    "decisions": {
+      "纳入": 27,
+      "排除": 14,
+      "域外": 11
+    },
+    "all_history_verified": 1743,
+    "cutoff": "2025-07-09",
+    "selected_fact_hash": "8ec0a1d44f9905f1d2f6fc2090ccc3513412848e58ff9888172ce9d0afd645f5",
+    "sample_unique": 6,
+    "independent_blind_review": false
+  },
+  {
+    "node": "2025.7.17",
+    "radar_candidates": 53,
+    "decisions": {
+      "排除": 17,
+      "纳入": 24,
+      "域外": 12
+    },
+    "all_history_verified": 1939,
+    "cutoff": "2025-07-17",
+    "selected_fact_hash": "4ce4516704d38d844ba542f80a34627da1a52643472945ead228e0ad6cc8b72a",
+    "sample_unique": 7,
+    "independent_blind_review": false
+  }
+]

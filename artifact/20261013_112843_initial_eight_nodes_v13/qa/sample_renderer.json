@@ -1,0 +1,8 @@
+{
+  "version": "12.0",
+  "pages": 13,
+  "packaged_renderer_failure": "LibreOffice soffice.exe was not found on PATH",
+  "renderer": "C:\\Users\\Andy1\\AppData\\Local\\Kingsoft\\WPSOFF~1\\1210~1.291\\office6",
+  "source_sha256": "3917964D2601382F51B340D331BC4EC256B97D55AC0A830CD1659A8931C6AE95",
+  "fallback": "Word.Application COM full export"
+}

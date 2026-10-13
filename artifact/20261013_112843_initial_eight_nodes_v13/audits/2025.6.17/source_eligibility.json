@@ -1,0 +1,68 @@
+{
+  "as_of": "2025-06-17",
+  "used": [
+    {
+      "id": "R07",
+      "title": "Joint ISR Conducted by Japan, the United States, and Australia",
+      "publisher": "日本防卫省",
+      "url": "https://www.mod.go.jp/en/images/1124a_usa_aus-j.pdf",
+      "published_by": "2023-11-24",
+      "date_basis": "固定PDF页首2023-11-24，原发布页同日并链接PDF",
+      "content_period": "2023-11-19至20",
+      "role": "official_assessment",
+      "independence_group": "Japan_MOD_R07",
+      "content_verified": true,
+      "version_status": "fixed_edition",
+      "locator": "PDF第1页第1项",
+      "local_path": "research/20261012_score_improvement_sources/originals/R07.pdf",
+      "sha256": "40378370662d2d55a6712ec6fcbe206573cd7fb28c136f45720648f450d55739",
+      "actual_read_scope": "一页全文提取及原件页面核查",
+      "contribution": "具体历史ISR案例约束把澳方P-8A型号机械等同反潜任务的解释",
+      "limits": "不是2025出动基线，不证明比赛飞行参加同一合作机制"
+    }
+  ],
+  "excluded": [
+    {
+      "ids": [
+        "R01",
+        "R02",
+        "R03"
+      ],
+      "reason": "用于审计/分析方法，非事件实证；R03本地仅阅读记录，未冒称重读完整原文"
+    },
+    {
+      "ids": [
+        "R04",
+        "R05"
+      ],
+      "reason": "当前网页历史版本未认证，仅工程方法"
+    },
+    {
+      "ids": [
+        "R08"
+      ],
+      "reason": "本轮仅有既有摘要，未重读原件，通用G550不自动升级AEW；不采用正式引用"
+    },
+    {
+      "ids": [
+        "R09"
+      ],
+      "reason": "历史网页文字未认证，别名线索不补当次事实"
+    },
+    {
+      "ids": [
+        "E01",
+        "E02",
+        "D01",
+        "D02",
+        "P01",
+        "P02",
+        "P03",
+        "X01"
+      ],
+      "reason": "没有能区分当前主线解释的具体贡献或版本不足；不用装饰性背景"
+    }
+  ],
+  "metadata_pass": true,
+  "event_validation_sources": []
+}

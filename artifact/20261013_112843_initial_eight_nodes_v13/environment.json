@@ -1,0 +1,21 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\Andy1\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "os": "Windows-11-10.0.26200-SP0",
+  "cpu_logical_count": 8,
+  "gpu_used": false,
+  "external_model_api_calls": 0,
+  "model_precise_backend": "unknown",
+  "packages": {
+    "numpy": "2.3.5",
+    "openpyxl": "3.1.5",
+    "python-docx": "1.2.0",
+    "Pillow": "12.3.0",
+    "pypdfium2": "5.14.0",
+    "pypdf": "6.10.0"
+  },
+  "node": "bundled runtime, user-overridable path",
+  "artifact_tool": "bundled @oai/artifact-tool required",
+  "renderer": "Native Office COM full export; pdfium rasterization",
+  "limitations": "exact model sampling parameters unavailable; no platform upload/score"
+}
