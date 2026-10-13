@@ -1,0 +1,62 @@
+{
+  "node_origins": [
+    {
+      "node": "2025.5.10",
+      "mode": "reuse_verified_unchanged_actual_inference",
+      "source": "D:\\CW\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261013_173116_initial_eight_nodes_v14\\audit\\codex_runs\\reviewed_A\\2025.5.10",
+      "prompt_sha256": "73c2614b99c87daa3c919f933ccb05e4339479ceb203d316ff442ce3a7ece503",
+      "new_model_calls": 0
+    },
+    {
+      "node": "2025.5.18",
+      "mode": "reuse_verified_unchanged_actual_inference",
+      "source": "D:\\CW\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261013_173116_initial_eight_nodes_v14\\audit\\codex_runs\\reviewed_A\\2025.5.18",
+      "prompt_sha256": "6e0251191326422f4817ebe854814140d287f60cc5832e464771396a1395b01d",
+      "new_model_calls": 0
+    },
+    {
+      "node": "2025.5.30",
+      "mode": "reuse_verified_unchanged_actual_inference",
+      "source": "D:\\CW\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261013_173116_initial_eight_nodes_v14\\audit\\codex_runs\\reviewed_A\\2025.5.30",
+      "prompt_sha256": "3ef5c8a477483c3d4a7ac46ada40f805c7028d4a49979cc8fbe3b62270032807",
+      "new_model_calls": 0
+    },
+    {
+      "node": "2025.6.9",
+      "mode": "reuse_verified_unchanged_actual_inference",
+      "source": "D:\\CW\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261013_173116_initial_eight_nodes_v14\\audit\\codex_runs\\reviewed_A\\2025.6.9",
+      "prompt_sha256": "eb8d90f11960323506b3e6d1ac4860c3832950b369890d3fa31e1c607b8879f6",
+      "new_model_calls": 0
+    },
+    {
+      "node": "2025.6.17",
+      "mode": "reuse_verified_unchanged_actual_inference",
+      "source": "D:\\CW\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261013_173116_initial_eight_nodes_v14\\audit\\codex_runs\\reviewed_A\\2025.6.17",
+      "prompt_sha256": "5f05ab20ddf12bd3ca0006444f59554674555e0bff1af252260814cc261b38ca",
+      "new_model_calls": 0
+    },
+    {
+      "node": "2025.6.29",
+      "mode": "reuse_verified_unchanged_actual_inference",
+      "source": "D:\\CW\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261013_173116_initial_eight_nodes_v14\\audit\\codex_runs\\reviewed_A\\2025.6.29",
+      "prompt_sha256": "6cedb182338d052976c2a55c45750b04cb6f10c175c4f007e4fc3728e484d1bb",
+      "new_model_calls": 0
+    },
+    {
+      "node": "2025.7.9",
+      "mode": "reuse_verified_unchanged_actual_inference",
+      "source": "D:\\CW\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261013_173116_initial_eight_nodes_v14\\audit\\codex_runs\\reviewed_A\\2025.7.9",
+      "prompt_sha256": "9745893f45e1860e2a9d9e45fdeb443ee1bb6032ed01291904115daafc93ce55",
+      "new_model_calls": 0
+    },
+    {
+      "node": "2025.7.17",
+      "mode": "new_actual_isolated_inference",
+      "source": "D:\\CW\\2026-bigdata-computational-intelligence-challenge-multimodal-knowledge-org\\artifact\\20261013_200510_initial_eight_nodes_v14_factfix\\audit\\codex_runs\\revised_final_A\\revision_attempt_01",
+      "prompt_sha256": "95f4163a4a39f6b58e84af4f6eacd0d919ed1685bcc4d1ba3f211879b8513b7f",
+      "new_model_calls": 1
+    }
+  ],
+  "new_successful_model_calls": 1,
+  "prior_nodes_raw_ledgers_and_authoring_packets_exact": true
+}

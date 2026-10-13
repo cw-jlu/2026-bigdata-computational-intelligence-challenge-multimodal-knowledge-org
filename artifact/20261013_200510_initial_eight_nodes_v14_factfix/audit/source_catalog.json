@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "E01",
+      "title": "Joint ISR Conducted by Japan, the United States, and Australia",
+      "publisher": "日本防卫省",
+      "url": "https://www.mod.go.jp/en/images/1124a_usa_aus-j.pdf",
+      "published_by": "2023-11-24",
+      "date_basis": "固定公告页首日期",
+      "content_period": "2023-11-19至20",
+      "role": "official_assessment",
+      "independence_group": "日本防卫省_E01",
+      "content_verified": true,
+      "version_status": "fixed_edition",
+      "locator": "PDF第1页第1项",
+      "local_path": "sources/E01.pdf",
+      "sha256": "40378370662d2d55a6712ec6fcbe206573cd7fb28c136f45720648f450d55739",
+      "actual_read_scope": "本轮提取并阅读所列原文；PDF对应页或HWP内置首页预览已视觉检查",
+      "specific_evidence": "公告明确日本P-1、美国海军P-8A、澳大利亚空军P-8A在日本周边水域及空域共同实施ISR，是多任务解释的具体历史案例。",
+      "contribution": "公告明确日本P-1、美国海军P-8A、澳大利亚空军P-8A在日本周边水域及空域共同实施ISR，是多任务解释的具体历史案例。",
+      "limits": "不证明2025年任何出动参加同一机制，不提供本赛段频次基线或机体身份。"
+    },
+    {
+      "id": "E03",
+      "title": "P-8A国内到达联合新闻稿",
+      "publisher": "韩国防卫事业厅、韩国海军",
+      "url": "https://www.dapa.go.kr/jfile/board/readDownloadFile.do?fileType=WT_CMS_DOC&fileTypeSeq=19316&fileNum=1",
+      "published_by": "2024-06-19",
+      "date_basis": "固定HWP首页发布及分发均为2024-06-19 08:30，与发布页及文件名240619一致",
+      "content_period": "2024-06交付，预计2025年中作战投入",
+      "role": "official_assessment",
+      "independence_group": "韩国防卫事业厅、韩国海军_E03",
+      "content_verified": true,
+      "version_status": "fixed_edition",
+      "locator": "HWP首页及正文末段，2024-06-19联合新闻稿",
+      "local_path": "sources/E03.hwp",
+      "sha256": "1682de54cc909f0674949336eafda65bc63d08fdbecc5b5b3cfb4ec0aa3918f6",
+      "actual_read_scope": "本轮提取并阅读所列原文；PDF对应页或HWP内置首页预览已视觉检查",
+      "specific_evidence": "报告2024年6月19日3架到达，另3架计划6月30日到达；拟经约一年训练及评估后于2025年中投入作战，支持把本节点解释放在引进与形成能力的阶段背景中。",
+      "contribution": "报告2024年6月19日3架到达，另3架计划6月30日到达；拟经约一年训练及评估后于2025年中投入作战，支持把本节点解释放在引进与形成能力的阶段背景中。",
+      "limits": "预计不等于完成，不把2025年5月比赛反潜记录擅改成训练；不证明机队扩充、实战状态或任务归因。"
+    },
+    {
+      "id": "E04",
+      "title": "JDP 2-00 Understanding and Intelligence Support to Joint Operations 4th Edition",
+      "publisher": "英国国防部",
+      "url": "https://assets.publishing.service.gov.uk/media/653a4b0780884d0013f71bb0/JDP_2_00_Ed_4_web.pdf",
+      "published_by": "2023-10-31",
+      "date_basis": "固定第4版August 2023；官方固定文件2023年10月路径，保守月末上界",
+      "content_period": "2023年第4版",
+      "role": "official_assessment",
+      "independence_group": "英国国防部_E04",
+      "content_verified": true,
+      "version_status": "fixed_edition",
+      "locator": "PDF第87页（印刷77）4.2、第96页（印刷86）4.15及RC135图注",
+      "local_path": "sources/E04.pdf",
+      "sha256": "b325402baca1ef65c42b88eefd141d7c6ef624e855b0c607ce93810986b6b823",
+      "actual_read_scope": "本轮提取并阅读所列原文；PDF对应页或HWP内置首页预览已视觉检查",
+      "specific_evidence": "SIGINT是来自电磁信号的情报，ISR是统筹任务、采集及加工的活动和过程，二者是不同层次概念；该页将英国RC135称为主要ISR平台。",
+      "contribution": "SIGINT是来自电磁信号的情报，ISR是统筹任务、采集及加工的活动和过程，二者是不同层次概念；该页将英国RC135称为主要ISR平台。",
+      "limits": "术语层次支持相容解释，不证明比赛电子侦察具体为SIGINT某子类、采集对象或成果，不替代任务原句。"
+    },
+    {
+      "id": "E06",
+      "title": "G550 Airborne Early Warning Fact Sheet Updated for Singapore Airshow 2012",
+      "publisher": "新加坡国防部、新加坡国家档案馆",
+      "url": "https://www.nas.gov.sg/archivesonline/data/pdfdoc/MINDEF_20070423001/MINDEF_20070423002_3.pdf",
+      "published_by": "2012-02-23",
+      "date_basis": "固定PDF标题Updated 23 Feb 2012；不采用旧署名2007冒充本版日期",
+      "content_period": "2012更新的G550-AEW改型能力说明",
+      "role": "official_assessment",
+      "independence_group": "新加坡国防部、新加坡国家档案馆_E06",
+      "content_verified": true,
+      "version_status": "fixed_edition",
+      "locator": "PDF第1页标题及第2—3正文段",
+      "local_path": "sources/E06.pdf",
+      "sha256": "47ce1b9a6838dce0bb63ab3ba93cd6b45bc67de64571ad5bcfbf48ef3b9d7183",
+      "actual_read_scope": "本轮提取并阅读所列原文；PDF对应页或HWP内置首页预览已视觉检查",
+      "specific_evidence": "G550-AEW用于空情感知和识别，是联网防空体系组成部分；其雷达针对空中目标检测、识别与跟踪，说明ISR描述与警戒用途并非必然互斥。",
+      "contribution": "G550-AEW用于空情感知和识别，是联网防空体系组成部分；其雷达针对空中目标检测、识别与跟踪，说明ISR描述与警戒用途并非必然互斥。",
+      "limits": "只针对AEW改型，不从型号背景补本次改型、任务、ADOC配属或联网成果；不能补造航迹或宣布战略重心转移。"
+    },
+    {
+      "id": "E07",
+      "title": "Canada’s Indo-Pacific Strategy 2022 to 2023 Implementation Update",
+      "publisher": "加拿大外交部",
+      "url": "https://www.international.gc.ca/transparency-transparence/assets/pdfs/indo-pacific-indo-pacifique/2022-2023-en.pdf",
+      "published_by": "2024-12-31",
+      "date_basis": "固定出版物版权页2024、PDF创建2024-04-25；无精确公开日，采用2024年末上界",
+      "content_period": "2023实施回顾",
+      "role": "official_assessment",
+      "independence_group": "加拿大外交部_E07",
+      "content_verified": true,
+      "version_status": "fixed_edition",
+      "locator": "PDF第6页（印刷4）Enhanced military presence in the region",
+      "local_path": "sources/E07.pdf",
+      "sha256": "8f680b191ec8f085a38c6cae68178191717a661c1d1826507250a6673ba19ba3",
+      "actual_read_scope": "本轮提取并阅读所列原文；PDF对应页或HWP内置首页预览已视觉检查",
+      "specific_evidence": "报告Montréal于2023年3—8月，Ottawa、Vancouver于8—12月部署印太，参与NEON及HORIZON；HORIZON承诺每年派3艘舰并参加演习，提供多舰与多任务的具体历史背景。",
+      "contribution": "报告Montréal于2023年3—8月，Ottawa、Vancouver于8—12月部署印太，参与NEON及HORIZON；HORIZON承诺每年派3艘舰并参加演习，提供多舰与多任务的具体历史背景。",
+      "limits": "背景多舰轮换是可能解释，不证明比赛哈利法克斯级记录对应这些具名舰；不证明2025部署、CH-148机体/母舰或单一舰体连续航程。"
+    },
+    {
+      "id": "E08",
+      "title": "Japan-U.S.-France Multilateral Exercise Pacific Steller Announcement",
+      "publisher": "日本海上幕僚监部",
+      "url": "https://www.mod.go.jp/msdf/en/release/202502/20250206-1en.pdf",
+      "published_by": "2025-02-06",
+      "date_basis": "固定公告页首日期",
+      "content_period": "拟2025-02-10至18",
+      "role": "official_assessment",
+      "independence_group": "日本海上幕僚监部_E08",
+      "content_verified": true,
+      "version_status": "fixed_edition",
+      "locator": "PDF第1页开头及第2—5项",
+      "local_path": "sources/E08.pdf",
+      "sha256": "398a1989cb6841eb43f82e70a83c05df443c2e5905e7b99f75c99075e93e9dd0",
+      "actual_read_scope": "本轮提取并阅读所列原文；PDF对应页或HWP内置首页预览已视觉检查",
+      "specific_evidence": "计划列戴高乐号与美日海军参加菲律宾以东海空域多科目训练，科目包括防空、反潜、数据链和交叉甲板，说明其合作活动不应被单一警戒标签概括。",
+      "contribution": "计划列戴高乐号与美日海军参加菲律宾以东海空域多科目训练，科目包括防空、反潜、数据链和交叉甲板，说明其合作活动不应被单一警戒标签概括。",
+      "limits": "仅计划公告，不证明实施、5—7月合作、警戒性质或两段连续部署；不填完整编队。"
+    }
+  ],
+  "excluded": [
+    {
+      "ids": [
+        "E02"
+      ],
+      "reason": "CH-148官方PDF搜索能定位，但原件多次超时/404；未取得原文，不采用搜索摘要"
+    },
+    {
+      "ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R09"
+      ],
+      "reason": "方法资料或动态网页历史版本不足，不作为事件背景"
+    },
+    {
+      "ids": [
+        "2025-06-Korea-operational-declaration"
+      ],
+      "reason": "晚于5月30日节点，严禁补证或校准"
+    }
+  ]
+}

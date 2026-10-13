@@ -1,0 +1,53 @@
+{
+  "as_of": "2025-05-30",
+  "used": [
+    {
+      "id": "E03",
+      "title": "P-8A国内到达联合新闻稿",
+      "publisher": "韩国防卫事业厅、韩国海军",
+      "url": "https://www.dapa.go.kr/jfile/board/readDownloadFile.do?fileType=WT_CMS_DOC&fileTypeSeq=19316&fileNum=1",
+      "published_by": "2024-06-19",
+      "date_basis": "固定HWP首页发布及分发均为2024-06-19 08:30，与发布页及文件名240619一致",
+      "content_period": "2024-06交付，预计2025年中作战投入",
+      "role": "official_assessment",
+      "independence_group": "韩国防卫事业厅、韩国海军_E03",
+      "content_verified": true,
+      "version_status": "fixed_edition",
+      "locator": "HWP首页及正文末段，2024-06-19联合新闻稿",
+      "local_path": "sources/E03.hwp",
+      "sha256": "1682de54cc909f0674949336eafda65bc63d08fdbecc5b5b3cfb4ec0aa3918f6",
+      "actual_read_scope": "本轮提取并阅读所列原文；PDF对应页或HWP内置首页预览已视觉检查",
+      "specific_evidence": "报告2024年6月19日3架到达，另3架计划6月30日到达；拟经约一年训练及评估后于2025年中投入作战，支持把本节点解释放在引进与形成能力的阶段背景中。",
+      "contribution": "报告2024年6月19日3架到达，另3架计划6月30日到达；拟经约一年训练及评估后于2025年中投入作战，支持把本节点解释放在引进与形成能力的阶段背景中。",
+      "limits": "预计不等于完成，不把2025年5月比赛反潜记录擅改成训练；不证明机队扩充、实战状态或任务归因。"
+    }
+  ],
+  "excluded": [
+    {
+      "ids": [
+        "E02"
+      ],
+      "reason": "CH-148官方PDF搜索能定位，但原件多次超时/404；未取得原文，不采用搜索摘要"
+    },
+    {
+      "ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R09"
+      ],
+      "reason": "方法资料或动态网页历史版本不足，不作为事件背景"
+    },
+    {
+      "ids": [
+        "2025-06-Korea-operational-declaration"
+      ],
+      "reason": "晚于5月30日节点，严禁补证或校准"
+    }
+  ],
+  "metadata_pass": true,
+  "event_validation_sources": [],
+  "E07_date_limit": "年度版权与PDF元数据提供年份上界，未取得独立日级发布回执"
+}

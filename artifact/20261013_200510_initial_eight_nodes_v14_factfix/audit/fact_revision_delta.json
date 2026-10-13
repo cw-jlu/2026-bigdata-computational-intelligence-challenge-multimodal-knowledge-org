@@ -1,0 +1,107 @@
+{
+  "scope": "8 current-day sets plus all 78 input days; programmatic screens and one full original-evidence semantic counterexample review",
+  "days": 78,
+  "radar_candidates_screened": 4165,
+  "all_daily_named_vessel_overlap_candidates": [
+    {
+      "date": "2025.7.17",
+      "identity": [
+        "法国",
+        "戴高乐"
+      ],
+      "events": [
+        "2025.7.17-SHIP-BE6DFCBF2FFD00",
+        "2025.7.17-SHIP-EA12395FF3F79A"
+      ],
+      "regions": [
+        "珊瑚海",
+        "南海"
+      ]
+    }
+  ],
+  "today_facts_before": 202,
+  "today_facts_after": 201,
+  "node_delta": [
+    {
+      "node": "2025.5.10",
+      "before": 26,
+      "after": 26,
+      "added": [],
+      "removed": [],
+      "field_changes": [],
+      "frozen_sha256_equal": true
+    },
+    {
+      "node": "2025.5.18",
+      "before": 24,
+      "after": 24,
+      "added": [],
+      "removed": [],
+      "field_changes": [],
+      "frozen_sha256_equal": true
+    },
+    {
+      "node": "2025.5.30",
+      "before": 26,
+      "after": 26,
+      "added": [],
+      "removed": [],
+      "field_changes": [],
+      "frozen_sha256_equal": true
+    },
+    {
+      "node": "2025.6.9",
+      "before": 26,
+      "after": 26,
+      "added": [],
+      "removed": [],
+      "field_changes": [],
+      "frozen_sha256_equal": true
+    },
+    {
+      "node": "2025.6.17",
+      "before": 25,
+      "after": 25,
+      "added": [],
+      "removed": [],
+      "field_changes": [],
+      "frozen_sha256_equal": true
+    },
+    {
+      "node": "2025.6.29",
+      "before": 24,
+      "after": 24,
+      "added": [],
+      "removed": [],
+      "field_changes": [],
+      "frozen_sha256_equal": true
+    },
+    {
+      "node": "2025.7.9",
+      "before": 27,
+      "after": 27,
+      "added": [],
+      "removed": [],
+      "field_changes": [],
+      "frozen_sha256_equal": true
+    },
+    {
+      "node": "2025.7.17",
+      "before": 24,
+      "after": 23,
+      "added": [],
+      "removed": [
+        "2025.7.17-SHIP-EA12395FF3F79A"
+      ],
+      "field_changes": [],
+      "frozen_sha256_equal": false
+    }
+  ],
+  "no_other_confirmed_field_correction": true,
+  "limitations": [
+    "Not a fresh blind review of every historical fact",
+    "Coordinate circles cannot certify finer place names; do not copy v4 specificity as truth",
+    "No platform score or error labels obtained",
+    "Only the explicitly reviewed South China Sea / Coral Sea disjoint pair enables the new veto"
+  ]
+}

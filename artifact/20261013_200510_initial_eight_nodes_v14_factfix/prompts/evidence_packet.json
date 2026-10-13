@@ -1,0 +1,5846 @@
+{
+  "execution_policy": "preserve_v13_mainline_and_stage_boundaries_after_new_raw_reconstruction",
+  "nodes": [
+    {
+      "node": "2025.5.10",
+      "as_of": "2025-05-10",
+      "frozen_sha256": "dc546d600ca749d17c4cc35997a7b3680630999fadc1973a95f60d6cb8db1f24",
+      "question": "日本P-1的侦察记录是否代表反潜任务被替代，还是同一海域任务组合内的插入？",
+      "selection": {
+        "country": "日本",
+        "key": "p1",
+        "kind": "飞机",
+        "platform": "P-1反潜巡逻机",
+        "dates": [
+          "2025.5.5",
+          "2025.5.6",
+          "2025.5.7",
+          "2025.5.8",
+          "2025.5.10"
+        ],
+        "events": [
+          "2025.5.5-AIR-026979DA0B36CB",
+          "2025.5.6-AIR-C7EBE5EC4CD015",
+          "2025.5.7-AIR-76D43F62D88D1A",
+          "2025.5.8-AIR-7A19E242B6A3F9",
+          "2025.5.10-AIR-AF10F9EBB9E18A"
+        ],
+        "stages": [
+          {
+            "id": "S1",
+            "dates": [
+              "2025.5.5"
+            ],
+            "events": [
+              "2025.5.5-AIR-026979DA0B36CB"
+            ],
+            "boundary_basis": "待模型根据本阶段任务、方向、窗口及与相邻阶段的区别说明；边界为本次低风险对照预先冻结的执行政策",
+            "count": {
+              "evidence_days": 1,
+              "events": 1,
+              "participation": 2
+            },
+            "tasks": {
+              "反潜巡逻": 1
+            },
+            "directions": {
+              "东海": 1
+            }
+          },
+          {
+            "id": "S2",
+            "dates": [
+              "2025.5.6"
+            ],
+            "events": [
+              "2025.5.6-AIR-C7EBE5EC4CD015"
+            ],
+            "boundary_basis": "待模型根据本阶段任务、方向、窗口及与相邻阶段的区别说明；边界为本次低风险对照预先冻结的执行政策",
+            "count": {
+              "evidence_days": 1,
+              "events": 1,
+              "participation": 1
+            },
+            "tasks": {
+              "海上侦察巡逻": 1
+            },
+            "directions": {
+              "东海": 1
+            }
+          },
+          {
+            "id": "S3",
+            "dates": [
+              "2025.5.7",
+              "2025.5.8",
+              "2025.5.10"
+            ],
+            "events": [
+              "2025.5.7-AIR-76D43F62D88D1A",
+              "2025.5.8-AIR-7A19E242B6A3F9",
+              "2025.5.10-AIR-AF10F9EBB9E18A"
+            ],
+            "boundary_basis": "待模型根据本阶段任务、方向、窗口及与相邻阶段的区别说明；边界为本次低风险对照预先冻结的执行政策",
+            "count": {
+              "evidence_days": 3,
+              "events": 3,
+              "participation": 4
+            },
+            "tasks": {
+              "反潜巡逻": 3
+            },
+            "directions": {
+              "东海": 3
+            }
+          }
+        ],
+        "selection_reason": "v14预先冻结主线用于最后一次改进与Codex重复运行对照；全部合格候选在输入中保留并要求比较，不冒称盲选",
+        "identity_scope": "platform_model_or_class"
+      },
+      "events": [
+        {
+          "id": "2025.5.5-AIR-026979DA0B36CB",
+          "date": "2025.5.5",
+          "kind": "飞机",
+          "facts": {
+            "country": "日本",
+            "key": "p1",
+            "quantity": 2,
+            "task": "反潜巡逻",
+            "start": "05:07",
+            "end": "07:32",
+            "region": "东海",
+            "direction": "东海",
+            "platform": "P-1反潜巡逻机"
+          }
+        },
+        {
+          "id": "2025.5.6-AIR-C7EBE5EC4CD015",
+          "date": "2025.5.6",
+          "kind": "飞机",
+          "facts": {
+            "country": "日本",
+            "key": "p1",
+            "quantity": 1,
+            "task": "海上侦察巡逻",
+            "start": "17:13",
+            "end": "19:38",
+            "region": "东海",
+            "direction": "东海",
+            "platform": "P-1反潜巡逻机"
+          }
+        },
+        {
+          "id": "2025.5.7-AIR-76D43F62D88D1A",
+          "date": "2025.5.7",
+          "kind": "飞机",
+          "facts": {
+            "country": "日本",
+            "key": "p1",
+            "quantity": 2,
+            "task": "反潜巡逻",
+            "start": "05:07",
+            "end": "07:32",
+            "region": "东海",
+            "direction": "东海",
+            "platform": "P-1反潜巡逻机"
+          }
+        },
+        {
+          "id": "2025.5.8-AIR-7A19E242B6A3F9",
+          "date": "2025.5.8",
+          "kind": "飞机",
+          "facts": {
+            "country": "日本",
+            "key": "p1",
+            "quantity": 1,
+            "task": "反潜巡逻",
+            "start": "05:07",
+            "end": "07:32",
+            "region": "东海",
+            "direction": "东海",
+            "platform": "P-1反潜巡逻机"
+          }
+        },
+        {
+          "id": "2025.5.10-AIR-AF10F9EBB9E18A",
+          "date": "2025.5.10",
+          "kind": "飞机",
+          "facts": {
+            "country": "日本",
+            "key": "p1",
+            "quantity": 1,
+            "task": "反潜巡逻",
+            "start": "05:07",
+            "end": "07:32",
+            "region": "东海",
+            "direction": "东海",
+            "platform": "P-1反潜巡逻机"
+          }
+        }
+      ],
+      "conflict_candidates": [],
+      "no_verified_record_dates": [
+        "2025.5.1",
+        "2025.5.2",
+        "2025.5.3",
+        "2025.5.4",
+        "2025.5.9"
+      ],
+      "candidates": [
+        {
+          "country": "德国",
+          "key": "台风",
+          "kind": "飞机",
+          "platform": "“台风”多用途战斗机",
+          "dates": [
+            "2025.5.1",
+            "2025.5.2",
+            "2025.5.6",
+            "2025.5.10"
+          ],
+          "observed_tasks": {
+            "对海突击训练": 2,
+            "联合巡逻": 2,
+            "空中警戒": 1
+          },
+          "directions": {
+            "东海": 2,
+            "黄海": 2,
+            "南海": 1
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.5.10-AIR-965A1A0C03084F"
+          ],
+          "conflict_candidate_count": 4
+        },
+        {
+          "country": "新西兰",
+          "key": "p8a",
+          "kind": "飞机",
+          "platform": "P-8A“海神”反潜巡逻机",
+          "dates": [
+            "2025.5.5",
+            "2025.5.6",
+            "2025.5.10"
+          ],
+          "observed_tasks": {
+            "联合巡逻": 1,
+            "海上侦察巡逻": 1,
+            "反潜巡逻": 2
+          },
+          "directions": {
+            "黄海": 2,
+            "南海": 2
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.5.10-AIR-F0865298F17A1F"
+          ],
+          "conflict_candidate_count": 2
+        },
+        {
+          "country": "日本",
+          "key": "p1",
+          "kind": "飞机",
+          "platform": "P-1反潜巡逻机",
+          "dates": [
+            "2025.5.5",
+            "2025.5.6",
+            "2025.5.7",
+            "2025.5.8",
+            "2025.5.10"
+          ],
+          "observed_tasks": {
+            "反潜巡逻": 4,
+            "海上侦察巡逻": 1
+          },
+          "directions": {
+            "东海": 5
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.5.10-AIR-AF10F9EBB9E18A"
+          ],
+          "conflict_candidate_count": 0
+        },
+        {
+          "country": "菲律宾",
+          "key": "米格尔马尔瓦尔",
+          "kind": "舰艇",
+          "platform": "米格尔·马尔瓦尔号导弹护卫舰",
+          "dates": [
+            "2025.5.1",
+            "2025.5.2",
+            "2025.5.10"
+          ],
+          "observed_tasks": {
+            "远海训练": 1,
+            "编队警戒部署": 1,
+            "反潜巡逻": 1
+          },
+          "directions": {
+            "东海": 2,
+            "黄海": 1
+          },
+          "identity_scope": "named_vessel",
+          "today_ids": [
+            "2025.5.10-SHIP-5800315760D819"
+          ],
+          "conflict_candidate_count": 0
+        },
+        {
+          "country": "越南",
+          "key": "猎豹3.9",
+          "kind": "舰艇",
+          "platform": "猎豹3.9级导弹护卫舰",
+          "dates": [
+            "2025.5.7",
+            "2025.5.8",
+            "2025.5.9",
+            "2025.5.10"
+          ],
+          "observed_tasks": {
+            "联合巡航": 2,
+            "实弹射击训练": 1,
+            "海上监视侦察": 1
+          },
+          "directions": {
+            "南海": 3,
+            "东海": 1
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.5.10-SHIP-15B9B4C8E8B877"
+          ],
+          "conflict_candidate_count": 1
+        }
+      ],
+      "external_sources": [
+        {
+          "id": "E01",
+          "title": "Joint ISR Conducted by Japan, the United States, and Australia",
+          "publisher": "日本防卫省",
+          "url": "https://www.mod.go.jp/en/images/1124a_usa_aus-j.pdf",
+          "published_by": "2023-11-24",
+          "date_basis": "固定公告页首日期",
+          "content_period": "2023-11-19至20",
+          "role": "official_assessment",
+          "independence_group": "日本防卫省_E01",
+          "content_verified": true,
+          "version_status": "fixed_edition",
+          "locator": "PDF第1页第1项",
+          "local_path": "sources/E01.pdf",
+          "sha256": "40378370662d2d55a6712ec6fcbe206573cd7fb28c136f45720648f450d55739",
+          "actual_read_scope": "本轮提取并阅读所列原文；PDF对应页或HWP内置首页预览已视觉检查",
+          "specific_evidence": "公告明确日本P-1、美国海军P-8A、澳大利亚空军P-8A在日本周边水域及空域共同实施ISR，是多任务解释的具体历史案例。",
+          "contribution": "公告明确日本P-1、美国海军P-8A、澳大利亚空军P-8A在日本周边水域及空域共同实施ISR，是多任务解释的具体历史案例。",
+          "limits": "不证明2025年任何出动参加同一机制，不提供本赛段频次基线或机体身份。"
+        }
+      ]
+    },
+    {
+      "node": "2025.5.18",
+      "as_of": "2025-05-18",
+      "frozen_sha256": "cd3378e1342a4d7d2f98c581e4a71eed3ecba42ec2774821e59f4ece4505a380",
+      "question": "加拿大CH-148多海域活动后重现南海联合巡逻，是任务与方向再现还是同一机体转移？",
+      "selection": {
+        "country": "加拿大",
+        "key": "ch148",
+        "kind": "飞机",
+        "platform": "CH-148“旋风”海上作战直升机",
+        "dates": [
+          "2025.5.2",
+          "2025.5.5",
+          "2025.5.7",
+          "2025.5.12",
+          "2025.5.18"
+        ],
+        "events": [
+          "2025.5.2-AIR-09F5F04BAA2193",
+          "2025.5.5-AIR-14D6B9F1F43292",
+          "2025.5.5-AIR-70C6B765C9F4AE",
+          "2025.5.7-AIR-16D4AE4571CC71",
+          "2025.5.12-AIR-7A8D3C3437B7E6",
+          "2025.5.18-AIR-6D81CA7290EEA5"
+        ],
+        "stages": [
+          {
+            "id": "S1",
+            "dates": [
+              "2025.5.2",
+              "2025.5.5"
+            ],
+            "events": [
+              "2025.5.2-AIR-09F5F04BAA2193",
+              "2025.5.5-AIR-14D6B9F1F43292",
+              "2025.5.5-AIR-70C6B765C9F4AE"
+            ],
+            "boundary_basis": "待模型根据本阶段任务、方向、窗口及与相邻阶段的区别说明；边界为本次低风险对照预先冻结的执行政策",
+            "count": {
+              "evidence_days": 2,
+              "events": 3,
+              "participation": 5
+            },
+            "tasks": {
+              "反潜巡逻": 2,
+              "联合巡逻": 1
+            },
+            "directions": {
+              "南海": 3
+            }
+          },
+          {
+            "id": "S2",
+            "dates": [
+              "2025.5.7",
+              "2025.5.12"
+            ],
+            "events": [
+              "2025.5.7-AIR-16D4AE4571CC71",
+              "2025.5.12-AIR-7A8D3C3437B7E6"
+            ],
+            "boundary_basis": "待模型根据本阶段任务、方向、窗口及与相邻阶段的区别说明；边界为本次低风险对照预先冻结的执行政策",
+            "count": {
+              "evidence_days": 2,
+              "events": 2,
+              "participation": 3
+            },
+            "tasks": {
+              "海上侦察巡逻": 1,
+              "反潜巡逻": 1
+            },
+            "directions": {
+              "东海": 1,
+              "黄海": 1
+            }
+          },
+          {
+            "id": "S3",
+            "dates": [
+              "2025.5.18"
+            ],
+            "events": [
+              "2025.5.18-AIR-6D81CA7290EEA5"
+            ],
+            "boundary_basis": "待模型根据本阶段任务、方向、窗口及与相邻阶段的区别说明；边界为本次低风险对照预先冻结的执行政策",
+            "count": {
+              "evidence_days": 1,
+              "events": 1,
+              "participation": 1
+            },
+            "tasks": {
+              "联合巡逻": 1
+            },
+            "directions": {
+              "南海": 1
+            }
+          }
+        ],
+        "selection_reason": "v14预先冻结主线用于最后一次改进与Codex重复运行对照；全部合格候选在输入中保留并要求比较，不冒称盲选",
+        "identity_scope": "platform_model_or_class"
+      },
+      "events": [
+        {
+          "id": "2025.5.2-AIR-09F5F04BAA2193",
+          "date": "2025.5.2",
+          "kind": "飞机",
+          "facts": {
+            "country": "加拿大",
+            "key": "ch148",
+            "quantity": 1,
+            "task": "反潜巡逻",
+            "start": "02:27",
+            "end": "04:52",
+            "region": "东沙群岛海域",
+            "direction": "南海",
+            "platform": "CH-148“旋风”海上作战直升机"
+          }
+        },
+        {
+          "id": "2025.5.5-AIR-14D6B9F1F43292",
+          "date": "2025.5.5",
+          "kind": "飞机",
+          "facts": {
+            "country": "加拿大",
+            "key": "ch148",
+            "quantity": 2,
+            "task": "反潜巡逻",
+            "start": "02:49",
+            "end": "04:14",
+            "region": "南海",
+            "direction": "南海",
+            "platform": "CH-148“旋风”海上作战直升机"
+          }
+        },
+        {
+          "id": "2025.5.5-AIR-70C6B765C9F4AE",
+          "date": "2025.5.5",
+          "kind": "飞机",
+          "facts": {
+            "country": "加拿大",
+            "key": "ch148",
+            "quantity": 2,
+            "task": "联合巡逻",
+            "start": "08:03",
+            "end": "10:28",
+            "region": "南海",
+            "direction": "南海",
+            "platform": "CH-148“旋风”海上作战直升机"
+          }
+        },
+        {
+          "id": "2025.5.7-AIR-16D4AE4571CC71",
+          "date": "2025.5.7",
+          "kind": "飞机",
+          "facts": {
+            "country": "加拿大",
+            "key": "ch148",
+            "quantity": 2,
+            "task": "海上侦察巡逻",
+            "start": "05:45",
+            "end": "07:10",
+            "region": "宁波外海",
+            "direction": "东海",
+            "platform": "CH-148“旋风”海上作战直升机"
+          }
+        },
+        {
+          "id": "2025.5.12-AIR-7A8D3C3437B7E6",
+          "date": "2025.5.12",
+          "kind": "飞机",
+          "facts": {
+            "country": "加拿大",
+            "key": "ch148",
+            "quantity": 1,
+            "task": "反潜巡逻",
+            "start": "17:13",
+            "end": "19:38",
+            "region": "黄海",
+            "direction": "黄海",
+            "platform": "CH-148“旋风”海上作战直升机"
+          }
+        },
+        {
+          "id": "2025.5.18-AIR-6D81CA7290EEA5",
+          "date": "2025.5.18",
+          "kind": "飞机",
+          "facts": {
+            "country": "加拿大",
+            "key": "ch148",
+            "quantity": 1,
+            "task": "联合巡逻",
+            "start": "05:45",
+            "end": "07:10",
+            "region": "南海",
+            "direction": "南海",
+            "platform": "CH-148“旋风”海上作战直升机"
+          }
+        }
+      ],
+      "conflict_candidates": [],
+      "no_verified_record_dates": [
+        "2025.5.1",
+        "2025.5.3",
+        "2025.5.4",
+        "2025.5.6",
+        "2025.5.8",
+        "2025.5.9",
+        "2025.5.10",
+        "2025.5.11",
+        "2025.5.13",
+        "2025.5.14",
+        "2025.5.15",
+        "2025.5.16",
+        "2025.5.17"
+      ],
+      "candidates": [
+        {
+          "country": "加拿大",
+          "key": "ch148",
+          "kind": "飞机",
+          "platform": "CH-148“旋风”海上作战直升机",
+          "dates": [
+            "2025.5.2",
+            "2025.5.5",
+            "2025.5.7",
+            "2025.5.12",
+            "2025.5.18"
+          ],
+          "observed_tasks": {
+            "反潜巡逻": 3,
+            "联合巡逻": 2,
+            "海上侦察巡逻": 1
+          },
+          "directions": {
+            "南海": 4,
+            "东海": 1,
+            "黄海": 1
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.5.18-AIR-6D81CA7290EEA5"
+          ],
+          "conflict_candidate_count": 0
+        },
+        {
+          "country": "加拿大",
+          "key": "哈里德沃尔夫",
+          "kind": "舰艇",
+          "platform": "哈里·德沃尔夫级近海巡逻舰",
+          "dates": [
+            "2025.5.3",
+            "2025.5.6",
+            "2025.5.13",
+            "2025.5.16",
+            "2025.5.18"
+          ],
+          "observed_tasks": {
+            "友好访问": 1,
+            "联合巡航": 1,
+            "海上护航": 1,
+            "海上巡逻": 1,
+            "实弹射击训练": 1,
+            "反潜巡逻": 1,
+            "例行部署": 1
+          },
+          "directions": {
+            "黄海": 4,
+            "南海": 3
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.5.18-SHIP-09E9F08F7CCEB9"
+          ],
+          "conflict_candidate_count": 4
+        },
+        {
+          "country": "台湾",
+          "key": "p3c",
+          "kind": "飞机",
+          "platform": "P-3C反潜巡逻机",
+          "dates": [
+            "2025.5.10",
+            "2025.5.14",
+            "2025.5.15",
+            "2025.5.17",
+            "2025.5.18"
+          ],
+          "observed_tasks": {
+            "反潜巡逻": 3,
+            "联合巡逻": 2,
+            "海上侦察巡逻": 1
+          },
+          "directions": {
+            "东海": 5,
+            "黄海": 1
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.5.18-AIR-9AB84D23E12184"
+          ],
+          "conflict_candidate_count": 3
+        },
+        {
+          "country": "德国",
+          "key": "巴登符腾堡",
+          "kind": "舰艇",
+          "platform": "巴登-符腾堡号导弹护卫舰",
+          "dates": [
+            "2025.5.3",
+            "2025.5.5",
+            "2025.5.7",
+            "2025.5.18"
+          ],
+          "observed_tasks": {
+            "编队警戒部署": 3,
+            "防空反导训练": 1
+          },
+          "directions": {
+            "东海": 3,
+            "南海": 1
+          },
+          "identity_scope": "named_vessel",
+          "today_ids": [
+            "2025.5.18-SHIP-8D9B5F7E41B14D"
+          ],
+          "conflict_candidate_count": 2
+        },
+        {
+          "country": "新加坡",
+          "key": "f15sg",
+          "kind": "飞机",
+          "platform": "F-15SG多用途战斗机",
+          "dates": [
+            "2025.5.6",
+            "2025.5.12",
+            "2025.5.18"
+          ],
+          "observed_tasks": {
+            "对海突击训练": 1,
+            "联合巡逻": 1,
+            "战备警巡": 1
+          },
+          "directions": {
+            "黄海": 1,
+            "南海": 2
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.5.18-AIR-ACA94339A8DF16"
+          ],
+          "conflict_candidate_count": 1
+        },
+        {
+          "country": "新西兰",
+          "key": "奥特亚罗瓦",
+          "kind": "舰艇",
+          "platform": "奥特亚罗瓦号综合补给舰",
+          "dates": [
+            "2025.5.10",
+            "2025.5.13",
+            "2025.5.18"
+          ],
+          "observed_tasks": {
+            "例行部署": 1,
+            "海上护航": 1,
+            "海上补给训练": 1
+          },
+          "directions": {
+            "南海": 2,
+            "黄海": 1
+          },
+          "identity_scope": "named_vessel",
+          "today_ids": [
+            "2025.5.18-SHIP-40E8F499829F42"
+          ],
+          "conflict_candidate_count": 3
+        },
+        {
+          "country": "法国",
+          "key": "地平线",
+          "kind": "舰艇",
+          "platform": "地平线级导弹驱逐舰",
+          "dates": [
+            "2025.5.16",
+            "2025.5.17",
+            "2025.5.18"
+          ],
+          "observed_tasks": {
+            "联合搜救训练": 1,
+            "实弹射击训练": 1,
+            "反潜巡逻": 1
+          },
+          "directions": {
+            "东海": 2,
+            "南海": 1
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.5.18-SHIP-5946CAFDE26C1A"
+          ],
+          "conflict_candidate_count": 0
+        },
+        {
+          "country": "美国",
+          "key": "西奥多罗斯福",
+          "kind": "舰艇",
+          "platform": "西奥多·罗斯福号航空母舰",
+          "dates": [
+            "2025.5.11",
+            "2025.5.15",
+            "2025.5.16",
+            "2025.5.17",
+            "2025.5.18"
+          ],
+          "observed_tasks": {
+            "编队警戒部署": 5
+          },
+          "directions": {
+            "南海": 5
+          },
+          "identity_scope": "named_vessel",
+          "today_ids": [
+            "2025.5.18-SHIP-5F0A5E4A5F20B7"
+          ],
+          "conflict_candidate_count": 0
+        }
+      ],
+      "external_sources": [
+        {
+          "id": "E07",
+          "title": "Canada’s Indo-Pacific Strategy 2022 to 2023 Implementation Update",
+          "publisher": "加拿大外交部",
+          "url": "https://www.international.gc.ca/transparency-transparence/assets/pdfs/indo-pacific-indo-pacifique/2022-2023-en.pdf",
+          "published_by": "2024-12-31",
+          "date_basis": "固定出版物版权页2024、PDF创建2024-04-25；无精确公开日，采用2024年末上界",
+          "content_period": "2023实施回顾",
+          "role": "official_assessment",
+          "independence_group": "加拿大外交部_E07",
+          "content_verified": true,
+          "version_status": "fixed_edition",
+          "locator": "PDF第6页（印刷4）Enhanced military presence in the region",
+          "local_path": "sources/E07.pdf",
+          "sha256": "8f680b191ec8f085a38c6cae68178191717a661c1d1826507250a6673ba19ba3",
+          "actual_read_scope": "本轮提取并阅读所列原文；PDF对应页或HWP内置首页预览已视觉检查",
+          "specific_evidence": "报告Montréal于2023年3—8月，Ottawa、Vancouver于8—12月部署印太，参与NEON及HORIZON；HORIZON承诺每年派3艘舰并参加演习，提供多舰与多任务的具体历史背景。",
+          "contribution": "报告Montréal于2023年3—8月，Ottawa、Vancouver于8—12月部署印太，参与NEON及HORIZON；HORIZON承诺每年派3艘舰并参加演习，提供多舰与多任务的具体历史背景。",
+          "limits": "背景多舰轮换是可能解释，不证明比赛哈利法克斯级记录对应这些具名舰；不证明2025部署、CH-148机体/母舰或单一舰体连续航程。"
+        }
+      ]
+    },
+    {
+      "node": "2025.5.30",
+      "as_of": "2025-05-30",
+      "frozen_sha256": "cbc0b9cbe4fb727af3e2c51558f3ef75734c3f3274bdd35fbc2c1313b8a3e21a",
+      "question": "韩国P-8A黄海反潜记录为何值得跟踪，当日两批说明任务集中还是机队扩大？",
+      "selection": {
+        "country": "韩国",
+        "key": "p8a",
+        "kind": "飞机",
+        "platform": "P-8A“海神”反潜巡逻机",
+        "dates": [
+          "2025.5.5",
+          "2025.5.12",
+          "2025.5.21",
+          "2025.5.25",
+          "2025.5.26",
+          "2025.5.27",
+          "2025.5.28",
+          "2025.5.30"
+        ],
+        "events": [
+          "2025.5.5-AIR-006C60EFADB317",
+          "2025.5.12-AIR-A7F7AA84B2BC84",
+          "2025.5.21-AIR-1C5CB539CDF7F7",
+          "2025.5.25-AIR-F6A24C7F81E848",
+          "2025.5.26-AIR-BEB66F230F996B",
+          "2025.5.27-AIR-026631CC30D138",
+          "2025.5.28-AIR-7BD2E1024A2A22",
+          "2025.5.30-AIR-4EDAD658D2D3AC",
+          "2025.5.30-AIR-FF26392625DADF"
+        ],
+        "stages": [
+          {
+            "id": "S1",
+            "dates": [
+              "2025.5.5"
+            ],
+            "events": [
+              "2025.5.5-AIR-006C60EFADB317"
+            ],
+            "boundary_basis": "待模型根据本阶段任务、方向、窗口及与相邻阶段的区别说明；边界为本次低风险对照预先冻结的执行政策",
+            "count": {
+              "evidence_days": 1,
+              "events": 1,
+              "participation": 2
+            },
+            "tasks": {
+              "海上侦察巡逻": 1
+            },
+            "directions": {
+              "南海": 1
+            }
+          },
+          {
+            "id": "S2",
+            "dates": [
+              "2025.5.12"
+            ],
+            "events": [
+              "2025.5.12-AIR-A7F7AA84B2BC84"
+            ],
+            "boundary_basis": "待模型根据本阶段任务、方向、窗口及与相邻阶段的区别说明；边界为本次低风险对照预先冻结的执行政策",
+            "count": {
+              "evidence_days": 1,
+              "events": 1,
+              "participation": 1
+            },
+            "tasks": {
+              "联合巡逻": 1
+            },
+            "directions": {
+              "黄海": 1
+            }
+          },
+          {
+            "id": "S3",
+            "dates": [
+              "2025.5.21",
+              "2025.5.25",
+              "2025.5.26",
+              "2025.5.27",
+              "2025.5.28",
+              "2025.5.30"
+            ],
+            "events": [
+              "2025.5.21-AIR-1C5CB539CDF7F7",
+              "2025.5.25-AIR-F6A24C7F81E848",
+              "2025.5.26-AIR-BEB66F230F996B",
+              "2025.5.27-AIR-026631CC30D138",
+              "2025.5.28-AIR-7BD2E1024A2A22",
+              "2025.5.30-AIR-4EDAD658D2D3AC",
+              "2025.5.30-AIR-FF26392625DADF"
+            ],
+            "boundary_basis": "待模型根据本阶段任务、方向、窗口及与相邻阶段的区别说明；边界为本次低风险对照预先冻结的执行政策",
+            "count": {
+              "evidence_days": 6,
+              "events": 7,
+              "participation": 11
+            },
+            "tasks": {
+              "反潜巡逻": 7
+            },
+            "directions": {
+              "黄海": 7
+            }
+          }
+        ],
+        "selection_reason": "v14预先冻结主线用于最后一次改进与Codex重复运行对照；全部合格候选在输入中保留并要求比较，不冒称盲选",
+        "identity_scope": "platform_model_or_class"
+      },
+      "events": [
+        {
+          "id": "2025.5.5-AIR-006C60EFADB317",
+          "date": "2025.5.5",
+          "kind": "飞机",
+          "facts": {
+            "country": "韩国",
+            "key": "p8a",
+            "quantity": 2,
+            "task": "海上侦察巡逻",
+            "start": "02:27",
+            "end": "04:52",
+            "region": "南海",
+            "direction": "南海",
+            "platform": "P-8A“海神”反潜巡逻机"
+          }
+        },
+        {
+          "id": "2025.5.12-AIR-A7F7AA84B2BC84",
+          "date": "2025.5.12",
+          "kind": "飞机",
+          "facts": {
+            "country": "韩国",
+            "key": "p8a",
+            "quantity": 1,
+            "task": "联合巡逻",
+            "start": "20:31",
+            "end": "22:56",
+            "region": "黄海",
+            "direction": "黄海",
+            "platform": "P-8A“海神”反潜巡逻机"
+          }
+        },
+        {
+          "id": "2025.5.21-AIR-1C5CB539CDF7F7",
+          "date": "2025.5.21",
+          "kind": "飞机",
+          "facts": {
+            "country": "韩国",
+            "key": "p8a",
+            "quantity": 2,
+            "task": "反潜巡逻",
+            "start": "05:07",
+            "end": "07:32",
+            "region": "黄海",
+            "direction": "黄海",
+            "platform": "P-8A“海神”反潜巡逻机"
+          }
+        },
+        {
+          "id": "2025.5.25-AIR-F6A24C7F81E848",
+          "date": "2025.5.25",
+          "kind": "飞机",
+          "facts": {
+            "country": "韩国",
+            "key": "p8a",
+            "quantity": 2,
+            "task": "反潜巡逻",
+            "start": "05:07",
+            "end": "07:32",
+            "region": "黄海",
+            "direction": "黄海",
+            "platform": "P-8A“海神”反潜巡逻机"
+          }
+        },
+        {
+          "id": "2025.5.26-AIR-BEB66F230F996B",
+          "date": "2025.5.26",
+          "kind": "飞机",
+          "facts": {
+            "country": "韩国",
+            "key": "p8a",
+            "quantity": 1,
+            "task": "反潜巡逻",
+            "start": "05:07",
+            "end": "07:32",
+            "region": "黄海",
+            "direction": "黄海",
+            "platform": "P-8A“海神”反潜巡逻机"
+          }
+        },
+        {
+          "id": "2025.5.27-AIR-026631CC30D138",
+          "date": "2025.5.27",
+          "kind": "飞机",
+          "facts": {
+            "country": "韩国",
+            "key": "p8a",
+            "quantity": 2,
+            "task": "反潜巡逻",
+            "start": "05:07",
+            "end": "07:32",
+            "region": "黄海",
+            "direction": "黄海",
+            "platform": "P-8A“海神”反潜巡逻机"
+          }
+        },
+        {
+          "id": "2025.5.28-AIR-7BD2E1024A2A22",
+          "date": "2025.5.28",
+          "kind": "飞机",
+          "facts": {
+            "country": "韩国",
+            "key": "p8a",
+            "quantity": 1,
+            "task": "反潜巡逻",
+            "start": "05:07",
+            "end": "07:32",
+            "region": "黄海",
+            "direction": "黄海",
+            "platform": "P-8A“海神”反潜巡逻机"
+          }
+        },
+        {
+          "id": "2025.5.30-AIR-4EDAD658D2D3AC",
+          "date": "2025.5.30",
+          "kind": "飞机",
+          "facts": {
+            "country": "韩国",
+            "key": "p8a",
+            "quantity": 1,
+            "task": "反潜巡逻",
+            "start": "05:07",
+            "end": "07:32",
+            "region": "黄海",
+            "direction": "黄海",
+            "platform": "P-8A“海神”反潜巡逻机"
+          }
+        },
+        {
+          "id": "2025.5.30-AIR-FF26392625DADF",
+          "date": "2025.5.30",
+          "kind": "飞机",
+          "facts": {
+            "country": "韩国",
+            "key": "p8a",
+            "quantity": 2,
+            "task": "反潜巡逻",
+            "start": "08:14",
+            "end": "10:39",
+            "region": "黄海",
+            "direction": "黄海",
+            "platform": "P-8A“海神”反潜巡逻机"
+          }
+        }
+      ],
+      "conflict_candidates": [
+        {
+          "event_id": "2025.5.12-AIR-19F5EB90095AAD",
+          "date": "2025.5.12",
+          "issues": [
+            "关键区域冲突：[{'source': '网上舆论', 'region': '宁波外海'}, {'source': '网上舆论', 'region': '东海'}]",
+            "区域精度重审：无两类明确地名或共同核心海域支持"
+          ]
+        },
+        {
+          "event_id": "2025.5.16-AIR-F0DB0134C79493",
+          "date": "2025.5.16",
+          "issues": [
+            "关键字段task不足两类来源支持",
+            "三类来源未全部关联，保留两源或单源候选",
+            "区域精度重审：无两类明确地名或共同核心海域支持"
+          ]
+        },
+        {
+          "event_id": "2025.5.30-AIR-27506392432473",
+          "date": "2025.5.30",
+          "issues": [
+            "关键字段country明确冲突：{'雷达': '韩国', '开源军情': '韩国', '网上舆论': '俄罗斯'}"
+          ]
+        }
+      ],
+      "no_verified_record_dates": [
+        "2025.5.1",
+        "2025.5.2",
+        "2025.5.3",
+        "2025.5.4",
+        "2025.5.6",
+        "2025.5.7",
+        "2025.5.8",
+        "2025.5.9",
+        "2025.5.10",
+        "2025.5.11",
+        "2025.5.13",
+        "2025.5.14",
+        "2025.5.15",
+        "2025.5.16",
+        "2025.5.17",
+        "2025.5.18",
+        "2025.5.19",
+        "2025.5.20",
+        "2025.5.22",
+        "2025.5.23",
+        "2025.5.24",
+        "2025.5.29"
+      ],
+      "candidates": [
+        {
+          "country": "俄罗斯",
+          "key": "守护",
+          "kind": "舰艇",
+          "platform": "守护级导弹护卫舰",
+          "dates": [
+            "2025.5.2",
+            "2025.5.3",
+            "2025.5.29",
+            "2025.5.30"
+          ],
+          "observed_tasks": {
+            "联合巡航": 2,
+            "海上护航": 1,
+            "反潜巡逻": 1
+          },
+          "directions": {
+            "东海": 2,
+            "黄海": 1,
+            "南海": 1
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.5.30-SHIP-27AE7EADC24E03"
+          ],
+          "conflict_candidate_count": 3
+        },
+        {
+          "country": "俄罗斯",
+          "key": "瓦良格",
+          "kind": "舰艇",
+          "platform": "瓦良格号导弹巡洋舰",
+          "dates": [
+            "2025.5.1",
+            "2025.5.16",
+            "2025.5.19",
+            "2025.5.28",
+            "2025.5.30"
+          ],
+          "observed_tasks": {
+            "海上护航": 1,
+            "联合巡航": 1,
+            "编队警戒部署": 1,
+            "友好访问": 1,
+            "海上监视侦察": 1
+          },
+          "directions": {
+            "南海": 3,
+            "东海": 1,
+            "黄海": 1
+          },
+          "identity_scope": "named_vessel",
+          "today_ids": [
+            "2025.5.30-SHIP-CD8E455B793631"
+          ],
+          "conflict_candidate_count": 7
+        },
+        {
+          "country": "印度",
+          "key": "卡尔瓦里",
+          "kind": "舰艇",
+          "platform": "卡尔瓦里级常规潜艇",
+          "dates": [
+            "2025.5.7",
+            "2025.5.10",
+            "2025.5.17",
+            "2025.5.27",
+            "2025.5.28",
+            "2025.5.30"
+          ],
+          "observed_tasks": {
+            "海上巡逻": 4,
+            "战备巡逻": 2,
+            "例行部署": 1,
+            "远海训练": 1,
+            "反潜巡逻": 1
+          },
+          "directions": {
+            "南海": 2,
+            "东海": 4,
+            "黄海": 3
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.5.30-SHIP-66816A0F133FF5",
+            "2025.5.30-SHIP-7AE284DDE9E3AF"
+          ],
+          "conflict_candidate_count": 5
+        },
+        {
+          "country": "德国",
+          "key": "法兰克福",
+          "kind": "舰艇",
+          "platform": "法兰克福号综合补给舰",
+          "dates": [
+            "2025.5.4",
+            "2025.5.8",
+            "2025.5.15",
+            "2025.5.19",
+            "2025.5.21",
+            "2025.5.30"
+          ],
+          "observed_tasks": {
+            "海上补给训练": 2,
+            "海上护航": 1,
+            "例行部署": 3
+          },
+          "directions": {
+            "东海": 3,
+            "南海": 2,
+            "黄海": 1
+          },
+          "identity_scope": "named_vessel",
+          "today_ids": [
+            "2025.5.30-SHIP-C722F95AB38966"
+          ],
+          "conflict_candidate_count": 6
+        },
+        {
+          "country": "意大利",
+          "key": "f35b",
+          "kind": "飞机",
+          "platform": "F-35B短距起降战斗机",
+          "dates": [
+            "2025.5.1",
+            "2025.5.16",
+            "2025.5.20",
+            "2025.5.21",
+            "2025.5.30"
+          ],
+          "observed_tasks": {
+            "对海突击训练": 1,
+            "空中警戒": 3,
+            "舰载机起降训练": 1,
+            "战备警巡": 1
+          },
+          "directions": {
+            "南海": 3,
+            "东海": 3
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.5.30-AIR-3D14BA8654A71E"
+          ],
+          "conflict_candidate_count": 7
+        },
+        {
+          "country": "意大利",
+          "key": "加富尔",
+          "kind": "舰艇",
+          "platform": "加富尔号航空母舰",
+          "dates": [
+            "2025.5.11",
+            "2025.5.19",
+            "2025.5.26",
+            "2025.5.29",
+            "2025.5.30"
+          ],
+          "observed_tasks": {
+            "联合巡航": 2,
+            "例行部署": 1,
+            "远海训练": 1,
+            "编队警戒部署": 1
+          },
+          "directions": {
+            "黄海": 1,
+            "东海": 2,
+            "南海": 2
+          },
+          "identity_scope": "named_vessel",
+          "today_ids": [
+            "2025.5.30-SHIP-FE7D46112C7F72"
+          ],
+          "conflict_candidate_count": 4
+        },
+        {
+          "country": "新西兰",
+          "key": "p8a",
+          "kind": "飞机",
+          "platform": "P-8A“海神”反潜巡逻机",
+          "dates": [
+            "2025.5.5",
+            "2025.5.6",
+            "2025.5.10",
+            "2025.5.14",
+            "2025.5.15",
+            "2025.5.23",
+            "2025.5.27",
+            "2025.5.30"
+          ],
+          "observed_tasks": {
+            "联合巡逻": 3,
+            "海上侦察巡逻": 2,
+            "反潜巡逻": 4
+          },
+          "directions": {
+            "黄海": 5,
+            "南海": 3,
+            "东海": 1
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.5.30-AIR-3504D0A15DE5CB"
+          ],
+          "conflict_candidate_count": 10
+        },
+        {
+          "country": "日本",
+          "key": "e767",
+          "kind": "飞机",
+          "platform": "E-767预警与控制机",
+          "dates": [
+            "2025.5.4",
+            "2025.5.14",
+            "2025.5.30"
+          ],
+          "observed_tasks": {
+            "情报监视侦察": 1,
+            "预警指挥": 2
+          },
+          "directions": {
+            "东海": 2,
+            "南海": 1
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.5.30-AIR-65D7D93F9F027D"
+          ],
+          "conflict_candidate_count": 2
+        },
+        {
+          "country": "法国",
+          "key": "戴高乐",
+          "kind": "舰艇",
+          "platform": "戴高乐号航空母舰",
+          "dates": [
+            "2025.5.25",
+            "2025.5.27",
+            "2025.5.30"
+          ],
+          "observed_tasks": {
+            "编队警戒部署": 3
+          },
+          "directions": {
+            "南海": 3
+          },
+          "identity_scope": "named_vessel",
+          "today_ids": [
+            "2025.5.30-SHIP-33BD433A9FD3C4"
+          ],
+          "conflict_candidate_count": 0
+        },
+        {
+          "country": "澳大利亚",
+          "key": "ea18g",
+          "kind": "飞机",
+          "platform": "EA-18G“咆哮者”电子攻击机",
+          "dates": [
+            "2025.5.12",
+            "2025.5.21",
+            "2025.5.30"
+          ],
+          "observed_tasks": {
+            "情报监视侦察": 2,
+            "电子侦察": 1
+          },
+          "directions": {
+            "东海": 2,
+            "南海": 1
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.5.30-AIR-6D87BDE4F5F959"
+          ],
+          "conflict_candidate_count": 2
+        },
+        {
+          "country": "菲律宾",
+          "key": "fa50ph",
+          "kind": "飞机",
+          "platform": "FA-50PH轻型战斗机",
+          "dates": [
+            "2025.5.3",
+            "2025.5.10",
+            "2025.5.12",
+            "2025.5.17",
+            "2025.5.23",
+            "2025.5.26",
+            "2025.5.29",
+            "2025.5.30"
+          ],
+          "observed_tasks": {
+            "战备警巡": 2,
+            "对海突击训练": 3,
+            "联合巡逻": 1,
+            "空中警戒": 2
+          },
+          "directions": {
+            "东海": 3,
+            "南海": 4,
+            "黄海": 1
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.5.30-AIR-94393E1FDB1293"
+          ],
+          "conflict_candidate_count": 7
+        },
+        {
+          "country": "韩国",
+          "key": "p8a",
+          "kind": "飞机",
+          "platform": "P-8A“海神”反潜巡逻机",
+          "dates": [
+            "2025.5.5",
+            "2025.5.12",
+            "2025.5.21",
+            "2025.5.25",
+            "2025.5.26",
+            "2025.5.27",
+            "2025.5.28",
+            "2025.5.30"
+          ],
+          "observed_tasks": {
+            "海上侦察巡逻": 1,
+            "联合巡逻": 1,
+            "反潜巡逻": 7
+          },
+          "directions": {
+            "南海": 1,
+            "黄海": 8
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.5.30-AIR-4EDAD658D2D3AC",
+            "2025.5.30-AIR-FF26392625DADF"
+          ],
+          "conflict_candidate_count": 3
+        },
+        {
+          "country": "马来西亚",
+          "key": "苏30mkm",
+          "kind": "飞机",
+          "platform": "苏-30MKM多用途战斗机",
+          "dates": [
+            "2025.5.8",
+            "2025.5.9",
+            "2025.5.13",
+            "2025.5.14",
+            "2025.5.16",
+            "2025.5.17",
+            "2025.5.22",
+            "2025.5.25",
+            "2025.5.30"
+          ],
+          "observed_tasks": {
+            "战备警巡": 5,
+            "空中警戒": 1,
+            "对海突击训练": 1,
+            "联合巡逻": 4
+          },
+          "directions": {
+            "南海": 4,
+            "黄海": 3,
+            "东海": 4
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.5.30-AIR-B029ABF10323C9"
+          ],
+          "conflict_candidate_count": 6
+        },
+        {
+          "country": "马来西亚",
+          "key": "莱库",
+          "kind": "舰艇",
+          "platform": "莱库号导弹护卫舰",
+          "dates": [
+            "2025.5.5",
+            "2025.5.24",
+            "2025.5.30"
+          ],
+          "observed_tasks": {
+            "远海训练": 1,
+            "联合搜救训练": 1,
+            "自由航行": 1
+          },
+          "directions": {
+            "南海": 1,
+            "东海": 2
+          },
+          "identity_scope": "named_vessel",
+          "today_ids": [
+            "2025.5.30-SHIP-6C26F0ADB64694"
+          ],
+          "conflict_candidate_count": 5
+        }
+      ],
+      "external_sources": [
+        {
+          "id": "E03",
+          "title": "P-8A国内到达联合新闻稿",
+          "publisher": "韩国防卫事业厅、韩国海军",
+          "url": "https://www.dapa.go.kr/jfile/board/readDownloadFile.do?fileType=WT_CMS_DOC&fileTypeSeq=19316&fileNum=1",
+          "published_by": "2024-06-19",
+          "date_basis": "固定HWP首页发布及分发均为2024-06-19 08:30，与发布页及文件名240619一致",
+          "content_period": "2024-06交付，预计2025年中作战投入",
+          "role": "official_assessment",
+          "independence_group": "韩国防卫事业厅、韩国海军_E03",
+          "content_verified": true,
+          "version_status": "fixed_edition",
+          "locator": "HWP首页及正文末段，2024-06-19联合新闻稿",
+          "local_path": "sources/E03.hwp",
+          "sha256": "1682de54cc909f0674949336eafda65bc63d08fdbecc5b5b3cfb4ec0aa3918f6",
+          "actual_read_scope": "本轮提取并阅读所列原文；PDF对应页或HWP内置首页预览已视觉检查",
+          "specific_evidence": "报告2024年6月19日3架到达，另3架计划6月30日到达；拟经约一年训练及评估后于2025年中投入作战，支持把本节点解释放在引进与形成能力的阶段背景中。",
+          "contribution": "报告2024年6月19日3架到达，另3架计划6月30日到达；拟经约一年训练及评估后于2025年中投入作战，支持把本节点解释放在引进与形成能力的阶段背景中。",
+          "limits": "预计不等于完成，不把2025年5月比赛反潜记录擅改成训练；不证明机队扩充、实战状态或任务归因。"
+        }
+      ]
+    },
+    {
+      "node": "2025.6.9",
+      "as_of": "2025-06-09",
+      "frozen_sha256": "35edcfc597bbb00c8705a1aa6f04bf420caf9f59670d41186233bbb99bbc8d33",
+      "question": "英国RC-135W的ISR与电子侦察标签并存，是任务更替还是分类层次不同？",
+      "selection": {
+        "country": "英国",
+        "key": "rc135w",
+        "kind": "飞机",
+        "platform": "RC-135W电子侦察机",
+        "dates": [
+          "2025.5.27",
+          "2025.5.28",
+          "2025.6.3",
+          "2025.6.6",
+          "2025.6.9"
+        ],
+        "events": [
+          "2025.5.27-AIR-879FFA4D79B17E",
+          "2025.5.28-AIR-AC5C2BC3CC3CA3",
+          "2025.5.28-AIR-BC628197D4A6D6",
+          "2025.6.3-AIR-B8C016CC73A05F",
+          "2025.6.6-AIR-3A9B1AB94D2A9B",
+          "2025.6.9-AIR-066899117BEDAE",
+          "2025.6.9-AIR-900D3E39F755EC"
+        ],
+        "stages": [
+          {
+            "id": "S1",
+            "dates": [
+              "2025.5.27",
+              "2025.5.28"
+            ],
+            "events": [
+              "2025.5.27-AIR-879FFA4D79B17E",
+              "2025.5.28-AIR-BC628197D4A6D6",
+              "2025.5.28-AIR-AC5C2BC3CC3CA3"
+            ],
+            "boundary_basis": "待模型根据本阶段任务、方向、窗口及与相邻阶段的区别说明；边界为本次低风险对照预先冻结的执行政策",
+            "count": {
+              "evidence_days": 2,
+              "events": 3,
+              "participation": 4
+            },
+            "tasks": {
+              "电子侦察": 2,
+              "情报监视侦察": 1
+            },
+            "directions": {
+              "东海": 3
+            }
+          },
+          {
+            "id": "S2",
+            "dates": [
+              "2025.6.3",
+              "2025.6.6"
+            ],
+            "events": [
+              "2025.6.3-AIR-B8C016CC73A05F",
+              "2025.6.6-AIR-3A9B1AB94D2A9B"
+            ],
+            "boundary_basis": "待模型根据本阶段任务、方向、窗口及与相邻阶段的区别说明；边界为本次低风险对照预先冻结的执行政策",
+            "count": {
+              "evidence_days": 2,
+              "events": 2,
+              "participation": 3
+            },
+            "tasks": {
+              "电子侦察": 2
+            },
+            "directions": {
+              "东海": 2
+            }
+          },
+          {
+            "id": "S3",
+            "dates": [
+              "2025.6.9"
+            ],
+            "events": [
+              "2025.6.9-AIR-900D3E39F755EC",
+              "2025.6.9-AIR-066899117BEDAE"
+            ],
+            "boundary_basis": "待模型根据本阶段任务、方向、窗口及与相邻阶段的区别说明；边界为本次低风险对照预先冻结的执行政策",
+            "count": {
+              "evidence_days": 1,
+              "events": 2,
+              "participation": 2
+            },
+            "tasks": {
+              "电子侦察": 1,
+              "情报监视侦察": 1
+            },
+            "directions": {
+              "东海": 2
+            }
+          }
+        ],
+        "selection_reason": "v14预先冻结主线用于最后一次改进与Codex重复运行对照；全部合格候选在输入中保留并要求比较，不冒称盲选",
+        "identity_scope": "platform_model_or_class"
+      },
+      "events": [
+        {
+          "id": "2025.5.27-AIR-879FFA4D79B17E",
+          "date": "2025.5.27",
+          "kind": "飞机",
+          "facts": {
+            "country": "英国",
+            "key": "rc135w",
+            "quantity": 2,
+            "task": "电子侦察",
+            "start": "14:17",
+            "end": "16:42",
+            "region": "钓鱼岛海域",
+            "direction": "东海",
+            "platform": "RC-135W电子侦察机"
+          }
+        },
+        {
+          "id": "2025.5.28-AIR-BC628197D4A6D6",
+          "date": "2025.5.28",
+          "kind": "飞机",
+          "facts": {
+            "country": "英国",
+            "key": "rc135w",
+            "quantity": 1,
+            "task": "电子侦察",
+            "start": "05:23",
+            "end": "07:48",
+            "region": "东海北部",
+            "direction": "东海",
+            "platform": "RC-135W电子侦察机"
+          }
+        },
+        {
+          "id": "2025.5.28-AIR-AC5C2BC3CC3CA3",
+          "date": "2025.5.28",
+          "kind": "飞机",
+          "facts": {
+            "country": "英国",
+            "key": "rc135w",
+            "quantity": 1,
+            "task": "情报监视侦察",
+            "start": "20:09",
+            "end": "22:34",
+            "region": "东海",
+            "direction": "东海",
+            "platform": "RC-135W电子侦察机"
+          }
+        },
+        {
+          "id": "2025.6.3-AIR-B8C016CC73A05F",
+          "date": "2025.6.3",
+          "kind": "飞机",
+          "facts": {
+            "country": "英国",
+            "key": "rc135w",
+            "quantity": 2,
+            "task": "电子侦察",
+            "start": "08:14",
+            "end": "10:39",
+            "region": "东海",
+            "direction": "东海",
+            "platform": "RC-135W电子侦察机"
+          }
+        },
+        {
+          "id": "2025.6.6-AIR-3A9B1AB94D2A9B",
+          "date": "2025.6.6",
+          "kind": "飞机",
+          "facts": {
+            "country": "英国",
+            "key": "rc135w",
+            "quantity": 1,
+            "task": "电子侦察",
+            "start": "20:42",
+            "end": "22:07",
+            "region": "东海",
+            "direction": "东海",
+            "platform": "RC-135W电子侦察机"
+          }
+        },
+        {
+          "id": "2025.6.9-AIR-900D3E39F755EC",
+          "date": "2025.6.9",
+          "kind": "飞机",
+          "facts": {
+            "country": "英国",
+            "key": "rc135w",
+            "quantity": 1,
+            "task": "电子侦察",
+            "start": "11:21",
+            "end": "13:46",
+            "region": "东海",
+            "direction": "东海",
+            "platform": "RC-135W电子侦察机"
+          }
+        },
+        {
+          "id": "2025.6.9-AIR-066899117BEDAE",
+          "date": "2025.6.9",
+          "kind": "飞机",
+          "facts": {
+            "country": "英国",
+            "key": "rc135w",
+            "quantity": 1,
+            "task": "情报监视侦察",
+            "start": "14:55",
+            "end": "16:20",
+            "region": "东海",
+            "direction": "东海",
+            "platform": "RC-135W电子侦察机"
+          }
+        }
+      ],
+      "conflict_candidates": [
+        {
+          "event_id": "2025.5.10-AIR-093CB109918635",
+          "date": "2025.5.10",
+          "issues": [
+            "关键字段task不足两类来源支持",
+            "三类来源未全部关联，保留两源或单源候选",
+            "区域精度重审：无两类明确地名或共同核心海域支持"
+          ]
+        },
+        {
+          "event_id": "2025.5.14-AIR-E59171DA58DB2A",
+          "date": "2025.5.14",
+          "issues": [
+            "关键字段country明确冲突：{'雷达': '英国', '开源军情': '新加坡', '网上舆论': '英国'}"
+          ]
+        },
+        {
+          "event_id": "2025.5.26-AIR-519028DBB4D8B2",
+          "date": "2025.5.26",
+          "issues": [
+            "关键字段quantity不足两类来源支持",
+            "三类来源未全部关联，保留两源或单源候选",
+            "区域精度重审：无两类明确地名或共同核心海域支持"
+          ]
+        },
+        {
+          "event_id": "2025.5.27-AIR-7491F4F1F09C1F",
+          "date": "2025.5.27",
+          "issues": [
+            "关键字段quantity不足两类来源支持",
+            "三类来源未全部关联，保留两源或单源候选",
+            "区域精度重审：无两类明确地名或共同核心海域支持"
+          ]
+        },
+        {
+          "event_id": "2025.5.27-AIR-E83F4B6C4ED3C3",
+          "date": "2025.5.27",
+          "issues": [
+            "关键字段quantity明确冲突：{'雷达': 2, '开源军情': 3, '网上舆论': 2}"
+          ]
+        },
+        {
+          "event_id": "2025.5.27-AIR-FBF2B96B232C04",
+          "date": "2025.5.27",
+          "issues": [
+            "关键字段start明确冲突：{'雷达': 1062, '开源军情': 1062, '网上舆论': 1098}"
+          ]
+        },
+        {
+          "event_id": "2025.6.3-AIR-6DA1B67FBE4F5D",
+          "date": "2025.6.3",
+          "issues": [
+            "关键字段task明确冲突：{'雷达': '情报监视侦察', '开源军情': '情报监视侦察', '网上舆论': '电子侦察'}"
+          ]
+        },
+        {
+          "event_id": "2025.6.5-AIR-C0BDCCBD51D2C4",
+          "date": "2025.6.5",
+          "issues": [
+            "关键字段quantity不足两类来源支持",
+            "三类来源未全部关联，保留两源或单源候选",
+            "区域精度重审：无两类明确地名或共同核心海域支持"
+          ]
+        }
+      ],
+      "no_verified_record_dates": [
+        "2025.5.1",
+        "2025.5.2",
+        "2025.5.3",
+        "2025.5.4",
+        "2025.5.5",
+        "2025.5.6",
+        "2025.5.7",
+        "2025.5.8",
+        "2025.5.9",
+        "2025.5.10",
+        "2025.5.11",
+        "2025.5.12",
+        "2025.5.13",
+        "2025.5.14",
+        "2025.5.15",
+        "2025.5.16",
+        "2025.5.17",
+        "2025.5.18",
+        "2025.5.19",
+        "2025.5.20",
+        "2025.5.21",
+        "2025.5.22",
+        "2025.5.23",
+        "2025.5.24",
+        "2025.5.25",
+        "2025.5.26",
+        "2025.5.29",
+        "2025.5.30",
+        "2025.5.31",
+        "2025.6.1",
+        "2025.6.2",
+        "2025.6.4",
+        "2025.6.5",
+        "2025.6.7",
+        "2025.6.8"
+      ],
+      "candidates": [
+        {
+          "country": "俄罗斯",
+          "key": "守护",
+          "kind": "舰艇",
+          "platform": "守护级导弹护卫舰",
+          "dates": [
+            "2025.5.2",
+            "2025.5.3",
+            "2025.5.29",
+            "2025.5.30",
+            "2025.5.31",
+            "2025.6.9"
+          ],
+          "observed_tasks": {
+            "联合巡航": 2,
+            "海上护航": 1,
+            "反潜巡逻": 1,
+            "联合搜救训练": 1,
+            "编队警戒部署": 1
+          },
+          "directions": {
+            "东海": 2,
+            "黄海": 1,
+            "南海": 3
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.6.9-SHIP-E432BD765AA26E"
+          ],
+          "conflict_candidate_count": 4
+        },
+        {
+          "country": "印度",
+          "key": "卡尔瓦里",
+          "kind": "舰艇",
+          "platform": "卡尔瓦里级常规潜艇",
+          "dates": [
+            "2025.5.7",
+            "2025.5.10",
+            "2025.5.17",
+            "2025.5.27",
+            "2025.5.28",
+            "2025.5.30",
+            "2025.6.1",
+            "2025.6.2",
+            "2025.6.9"
+          ],
+          "observed_tasks": {
+            "海上巡逻": 6,
+            "战备巡逻": 4,
+            "例行部署": 1,
+            "远海训练": 1,
+            "反潜巡逻": 2
+          },
+          "directions": {
+            "南海": 5,
+            "东海": 4,
+            "黄海": 5
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.6.9-SHIP-8B1D59AC58141C",
+            "2025.6.9-SHIP-F0D85418133F6E"
+          ],
+          "conflict_candidate_count": 8
+        },
+        {
+          "country": "印度",
+          "key": "维沙卡帕特南",
+          "kind": "舰艇",
+          "platform": "维沙卡帕特南级导弹驱逐舰",
+          "dates": [
+            "2025.5.6",
+            "2025.5.17",
+            "2025.5.21",
+            "2025.5.23",
+            "2025.6.3",
+            "2025.6.9"
+          ],
+          "observed_tasks": {
+            "实弹射击训练": 1,
+            "自由航行": 2,
+            "编队警戒部署": 1,
+            "海上护航": 1,
+            "防空反导训练": 1,
+            "海上巡逻": 1
+          },
+          "directions": {
+            "南海": 3,
+            "黄海": 3,
+            "东海": 1
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.6.9-SHIP-5DCB81BF5DD2EA"
+          ],
+          "conflict_candidate_count": 2
+        },
+        {
+          "country": "德国",
+          "key": "巴登符腾堡",
+          "kind": "舰艇",
+          "platform": "巴登-符腾堡号导弹护卫舰",
+          "dates": [
+            "2025.5.3",
+            "2025.5.5",
+            "2025.5.7",
+            "2025.5.18",
+            "2025.5.21",
+            "2025.6.1",
+            "2025.6.2",
+            "2025.6.3",
+            "2025.6.5",
+            "2025.6.9"
+          ],
+          "observed_tasks": {
+            "编队警戒部署": 4,
+            "防空反导训练": 1,
+            "友好访问": 2,
+            "联合巡航": 1,
+            "实弹射击训练": 1,
+            "海上监视侦察": 1
+          },
+          "directions": {
+            "东海": 5,
+            "南海": 4,
+            "黄海": 1
+          },
+          "identity_scope": "named_vessel",
+          "today_ids": [
+            "2025.6.9-SHIP-C2057EF45D400A"
+          ],
+          "conflict_candidate_count": 3
+        },
+        {
+          "country": "意大利",
+          "key": "f35b",
+          "kind": "飞机",
+          "platform": "F-35B短距起降战斗机",
+          "dates": [
+            "2025.5.1",
+            "2025.5.16",
+            "2025.5.20",
+            "2025.5.21",
+            "2025.5.30",
+            "2025.6.9"
+          ],
+          "observed_tasks": {
+            "对海突击训练": 1,
+            "空中警戒": 4,
+            "舰载机起降训练": 1,
+            "战备警巡": 2
+          },
+          "directions": {
+            "南海": 5,
+            "东海": 3
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.6.9-AIR-44C7C32D37FDB5",
+            "2025.6.9-AIR-5A6A39B6D60CEF"
+          ],
+          "conflict_candidate_count": 8
+        },
+        {
+          "country": "意大利",
+          "key": "p72a",
+          "kind": "飞机",
+          "platform": "P-72A海上巡逻机",
+          "dates": [
+            "2025.5.3",
+            "2025.5.10",
+            "2025.5.21",
+            "2025.5.24",
+            "2025.5.28",
+            "2025.6.9"
+          ],
+          "observed_tasks": {
+            "海上侦察巡逻": 2,
+            "情报监视侦察": 3,
+            "联合巡逻": 2
+          },
+          "directions": {
+            "东海": 2,
+            "黄海": 2,
+            "南海": 3
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.6.9-AIR-6E755AB58C6BC6"
+          ],
+          "conflict_candidate_count": 6
+        },
+        {
+          "country": "新加坡",
+          "key": "福克50",
+          "kind": "飞机",
+          "platform": "福克50海上巡逻机",
+          "dates": [
+            "2025.5.3",
+            "2025.5.4",
+            "2025.5.9",
+            "2025.6.9"
+          ],
+          "observed_tasks": {
+            "情报监视侦察": 1,
+            "联合巡逻": 2,
+            "反潜巡逻": 1,
+            "海上侦察巡逻": 1
+          },
+          "directions": {
+            "南海": 2,
+            "东海": 1,
+            "黄海": 2
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.6.9-AIR-5CDFE525F75A28"
+          ],
+          "conflict_candidate_count": 2
+        },
+        {
+          "country": "法国",
+          "key": "大西洋2",
+          "kind": "飞机",
+          "platform": "“大西洋”2反潜巡逻机",
+          "dates": [
+            "2025.5.14",
+            "2025.6.5",
+            "2025.6.9"
+          ],
+          "observed_tasks": {
+            "联合巡逻": 1,
+            "反潜巡逻": 2
+          },
+          "directions": {
+            "南海": 1,
+            "东海": 1,
+            "黄海": 1
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.6.9-AIR-296F85D0C21B4E"
+          ],
+          "conflict_candidate_count": 4
+        },
+        {
+          "country": "法国",
+          "key": "戴高乐",
+          "kind": "舰艇",
+          "platform": "戴高乐号航空母舰",
+          "dates": [
+            "2025.5.25",
+            "2025.5.27",
+            "2025.5.30",
+            "2025.6.2",
+            "2025.6.4",
+            "2025.6.6",
+            "2025.6.9"
+          ],
+          "observed_tasks": {
+            "编队警戒部署": 7
+          },
+          "directions": {
+            "南海": 7
+          },
+          "identity_scope": "named_vessel",
+          "today_ids": [
+            "2025.6.9-SHIP-DAC6E72221D22D"
+          ],
+          "conflict_candidate_count": 2
+        },
+        {
+          "country": "英国",
+          "key": "rc135w",
+          "kind": "飞机",
+          "platform": "RC-135W电子侦察机",
+          "dates": [
+            "2025.5.27",
+            "2025.5.28",
+            "2025.6.3",
+            "2025.6.6",
+            "2025.6.9"
+          ],
+          "observed_tasks": {
+            "电子侦察": 5,
+            "情报监视侦察": 2
+          },
+          "directions": {
+            "东海": 7
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.6.9-AIR-066899117BEDAE",
+            "2025.6.9-AIR-900D3E39F755EC"
+          ],
+          "conflict_candidate_count": 8
+        },
+        {
+          "country": "越南",
+          "key": "苏30mk2",
+          "kind": "飞机",
+          "platform": "苏-30MK2多用途战斗机",
+          "dates": [
+            "2025.5.2",
+            "2025.5.4",
+            "2025.5.6",
+            "2025.5.17",
+            "2025.5.19",
+            "2025.5.20",
+            "2025.5.24",
+            "2025.5.25",
+            "2025.5.28",
+            "2025.5.29",
+            "2025.6.5",
+            "2025.6.6",
+            "2025.6.7",
+            "2025.6.9"
+          ],
+          "observed_tasks": {
+            "空中警戒": 4,
+            "战备警巡": 8,
+            "联合巡逻": 1,
+            "对海突击训练": 2
+          },
+          "directions": {
+            "东海": 9,
+            "黄海": 2,
+            "南海": 4
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.6.9-AIR-546ED9656E40CA"
+          ],
+          "conflict_candidate_count": 10
+        },
+        {
+          "country": "韩国",
+          "key": "岛山安昌浩",
+          "kind": "舰艇",
+          "platform": "岛山安昌浩级常规潜艇",
+          "dates": [
+            "2025.5.21",
+            "2025.6.1",
+            "2025.6.9"
+          ],
+          "observed_tasks": {
+            "反潜巡逻": 2,
+            "战备巡逻": 1
+          },
+          "directions": {
+            "黄海": 2,
+            "东海": 1
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.6.9-SHIP-287E8E861699DC"
+          ],
+          "conflict_candidate_count": 3
+        },
+        {
+          "country": "马来西亚",
+          "key": "莱库",
+          "kind": "舰艇",
+          "platform": "莱库号导弹护卫舰",
+          "dates": [
+            "2025.5.5",
+            "2025.5.24",
+            "2025.5.30",
+            "2025.6.9"
+          ],
+          "observed_tasks": {
+            "远海训练": 1,
+            "联合搜救训练": 1,
+            "自由航行": 1,
+            "防空反导训练": 1
+          },
+          "directions": {
+            "南海": 2,
+            "东海": 2
+          },
+          "identity_scope": "named_vessel",
+          "today_ids": [
+            "2025.6.9-SHIP-A188050063F370"
+          ],
+          "conflict_candidate_count": 6
+        }
+      ],
+      "external_sources": [
+        {
+          "id": "E04",
+          "title": "JDP 2-00 Understanding and Intelligence Support to Joint Operations 4th Edition",
+          "publisher": "英国国防部",
+          "url": "https://assets.publishing.service.gov.uk/media/653a4b0780884d0013f71bb0/JDP_2_00_Ed_4_web.pdf",
+          "published_by": "2023-10-31",
+          "date_basis": "固定第4版August 2023；官方固定文件2023年10月路径，保守月末上界",
+          "content_period": "2023年第4版",
+          "role": "official_assessment",
+          "independence_group": "英国国防部_E04",
+          "content_verified": true,
+          "version_status": "fixed_edition",
+          "locator": "PDF第87页（印刷77）4.2、第96页（印刷86）4.15及RC135图注",
+          "local_path": "sources/E04.pdf",
+          "sha256": "b325402baca1ef65c42b88eefd141d7c6ef624e855b0c607ce93810986b6b823",
+          "actual_read_scope": "本轮提取并阅读所列原文；PDF对应页或HWP内置首页预览已视觉检查",
+          "specific_evidence": "SIGINT是来自电磁信号的情报，ISR是统筹任务、采集及加工的活动和过程，二者是不同层次概念；该页将英国RC135称为主要ISR平台。",
+          "contribution": "SIGINT是来自电磁信号的情报，ISR是统筹任务、采集及加工的活动和过程，二者是不同层次概念；该页将英国RC135称为主要ISR平台。",
+          "limits": "术语层次支持相容解释，不证明比赛电子侦察具体为SIGINT某子类、采集对象或成果，不替代任务原句。"
+        }
+      ]
+    },
+    {
+      "node": "2025.6.17",
+      "as_of": "2025-06-17",
+      "frozen_sha256": "15fac7bf9ef59cc41aefcf971099793dc05f95d9df939c10a0342a5c3de7cf29",
+      "question": "澳大利亚P-8A南海反潜与黄海侦察并存，如何判断任务扩展与身份缺口？",
+      "selection": {
+        "country": "澳大利亚",
+        "key": "p8a",
+        "kind": "飞机",
+        "platform": "P-8A“海神”反潜巡逻机",
+        "dates": [
+          "2025.5.4",
+          "2025.5.19",
+          "2025.5.24",
+          "2025.5.28",
+          "2025.5.29",
+          "2025.6.2",
+          "2025.6.6",
+          "2025.6.8",
+          "2025.6.11",
+          "2025.6.14",
+          "2025.6.16",
+          "2025.6.17"
+        ],
+        "events": [
+          "2025.5.4-AIR-DF4C1627223A01",
+          "2025.5.19-AIR-E45A1B9FE13CCA",
+          "2025.5.24-AIR-725E4A4366F2A5",
+          "2025.5.28-AIR-DF15518DFFCBCD",
+          "2025.5.29-AIR-47EB22B1C68E9F",
+          "2025.6.2-AIR-32054E31D4D608",
+          "2025.6.6-AIR-DD08A2D35D60C2",
+          "2025.6.8-AIR-A94318B8325C02",
+          "2025.6.11-AIR-156F137CD2150D",
+          "2025.6.14-AIR-AD664125907E23",
+          "2025.6.16-AIR-0FD53F2DB10A14",
+          "2025.6.17-AIR-15297A9B050E29",
+          "2025.6.17-AIR-F087E2B39C41DB"
+        ],
+        "stages": [
+          {
+            "id": "S1",
+            "dates": [
+              "2025.5.4",
+              "2025.5.19",
+              "2025.5.24"
+            ],
+            "events": [
+              "2025.5.4-AIR-DF4C1627223A01",
+              "2025.5.19-AIR-E45A1B9FE13CCA",
+              "2025.5.24-AIR-725E4A4366F2A5"
+            ],
+            "boundary_basis": "待模型根据本阶段任务、方向、窗口及与相邻阶段的区别说明；边界为本次低风险对照预先冻结的执行政策",
+            "count": {
+              "evidence_days": 3,
+              "events": 3,
+              "participation": 4
+            },
+            "tasks": {
+              "反潜巡逻": 3
+            },
+            "directions": {
+              "东海": 1,
+              "南海": 2
+            }
+          },
+          {
+            "id": "S2",
+            "dates": [
+              "2025.5.28",
+              "2025.5.29",
+              "2025.6.2",
+              "2025.6.6",
+              "2025.6.8"
+            ],
+            "events": [
+              "2025.5.28-AIR-DF15518DFFCBCD",
+              "2025.5.29-AIR-47EB22B1C68E9F",
+              "2025.6.2-AIR-32054E31D4D608",
+              "2025.6.6-AIR-DD08A2D35D60C2",
+              "2025.6.8-AIR-A94318B8325C02"
+            ],
+            "boundary_basis": "待模型根据本阶段任务、方向、窗口及与相邻阶段的区别说明；边界为本次低风险对照预先冻结的执行政策",
+            "count": {
+              "evidence_days": 5,
+              "events": 5,
+              "participation": 8
+            },
+            "tasks": {
+              "反潜巡逻": 3,
+              "联合巡逻": 2
+            },
+            "directions": {
+              "南海": 4,
+              "黄海": 1
+            }
+          },
+          {
+            "id": "S3",
+            "dates": [
+              "2025.6.11",
+              "2025.6.14",
+              "2025.6.16",
+              "2025.6.17"
+            ],
+            "events": [
+              "2025.6.11-AIR-156F137CD2150D",
+              "2025.6.14-AIR-AD664125907E23",
+              "2025.6.16-AIR-0FD53F2DB10A14",
+              "2025.6.17-AIR-15297A9B050E29",
+              "2025.6.17-AIR-F087E2B39C41DB"
+            ],
+            "boundary_basis": "待模型根据本阶段任务、方向、窗口及与相邻阶段的区别说明；边界为本次低风险对照预先冻结的执行政策",
+            "count": {
+              "evidence_days": 4,
+              "events": 5,
+              "participation": 7
+            },
+            "tasks": {
+              "反潜巡逻": 4,
+              "海上侦察巡逻": 1
+            },
+            "directions": {
+              "南海": 4,
+              "黄海": 1
+            }
+          }
+        ],
+        "selection_reason": "v14预先冻结主线用于最后一次改进与Codex重复运行对照；全部合格候选在输入中保留并要求比较，不冒称盲选",
+        "identity_scope": "platform_model_or_class"
+      },
+      "events": [
+        {
+          "id": "2025.5.4-AIR-DF4C1627223A01",
+          "date": "2025.5.4",
+          "kind": "飞机",
+          "facts": {
+            "country": "澳大利亚",
+            "key": "p8a",
+            "quantity": 1,
+            "task": "反潜巡逻",
+            "start": "14:55",
+            "end": "16:20",
+            "region": "东海",
+            "direction": "东海",
+            "platform": "P-8A“海神”反潜巡逻机"
+          }
+        },
+        {
+          "id": "2025.5.19-AIR-E45A1B9FE13CCA",
+          "date": "2025.5.19",
+          "kind": "飞机",
+          "facts": {
+            "country": "澳大利亚",
+            "key": "p8a",
+            "quantity": 2,
+            "task": "反潜巡逻",
+            "start": "05:07",
+            "end": "07:32",
+            "region": "南海",
+            "direction": "南海",
+            "platform": "P-8A“海神”反潜巡逻机"
+          }
+        },
+        {
+          "id": "2025.5.24-AIR-725E4A4366F2A5",
+          "date": "2025.5.24",
+          "kind": "飞机",
+          "facts": {
+            "country": "澳大利亚",
+            "key": "p8a",
+            "quantity": 1,
+            "task": "反潜巡逻",
+            "start": "05:07",
+            "end": "07:32",
+            "region": "南海",
+            "direction": "南海",
+            "platform": "P-8A“海神”反潜巡逻机"
+          }
+        },
+        {
+          "id": "2025.5.28-AIR-DF15518DFFCBCD",
+          "date": "2025.5.28",
+          "kind": "飞机",
+          "facts": {
+            "country": "澳大利亚",
+            "key": "p8a",
+            "quantity": 2,
+            "task": "反潜巡逻",
+            "start": "08:14",
+            "end": "10:39",
+            "region": "南海",
+            "direction": "南海",
+            "platform": "P-8A“海神”反潜巡逻机"
+          }
+        },
+        {
+          "id": "2025.5.29-AIR-47EB22B1C68E9F",
+          "date": "2025.5.29",
+          "kind": "飞机",
+          "facts": {
+            "country": "澳大利亚",
+            "key": "p8a",
+            "quantity": 2,
+            "task": "联合巡逻",
+            "start": "02:49",
+            "end": "04:14",
+            "region": "南黄海",
+            "direction": "黄海",
+            "platform": "P-8A“海神”反潜巡逻机"
+          }
+        },
+        {
+          "id": "2025.6.2-AIR-32054E31D4D608",
+          "date": "2025.6.2",
+          "kind": "飞机",
+          "facts": {
+            "country": "澳大利亚",
+            "key": "p8a",
+            "quantity": 1,
+            "task": "反潜巡逻",
+            "start": "08:14",
+            "end": "10:39",
+            "region": "南海",
+            "direction": "南海",
+            "platform": "P-8A“海神”反潜巡逻机"
+          }
+        },
+        {
+          "id": "2025.6.6-AIR-DD08A2D35D60C2",
+          "date": "2025.6.6",
+          "kind": "飞机",
+          "facts": {
+            "country": "澳大利亚",
+            "key": "p8a",
+            "quantity": 1,
+            "task": "反潜巡逻",
+            "start": "14:28",
+            "end": "16:53",
+            "region": "南海",
+            "direction": "南海",
+            "platform": "P-8A“海神”反潜巡逻机"
+          }
+        },
+        {
+          "id": "2025.6.8-AIR-A94318B8325C02",
+          "date": "2025.6.8",
+          "kind": "飞机",
+          "facts": {
+            "country": "澳大利亚",
+            "key": "p8a",
+            "quantity": 2,
+            "task": "联合巡逻",
+            "start": "08:03",
+            "end": "10:28",
+            "region": "南海",
+            "direction": "南海",
+            "platform": "P-8A“海神”反潜巡逻机"
+          }
+        },
+        {
+          "id": "2025.6.11-AIR-156F137CD2150D",
+          "date": "2025.6.11",
+          "kind": "飞机",
+          "facts": {
+            "country": "澳大利亚",
+            "key": "p8a",
+            "quantity": 1,
+            "task": "反潜巡逻",
+            "start": "05:07",
+            "end": "07:32",
+            "region": "南海",
+            "direction": "南海",
+            "platform": "P-8A“海神”反潜巡逻机"
+          }
+        },
+        {
+          "id": "2025.6.14-AIR-AD664125907E23",
+          "date": "2025.6.14",
+          "kind": "飞机",
+          "facts": {
+            "country": "澳大利亚",
+            "key": "p8a",
+            "quantity": 2,
+            "task": "反潜巡逻",
+            "start": "05:07",
+            "end": "07:32",
+            "region": "南海",
+            "direction": "南海",
+            "platform": "P-8A“海神”反潜巡逻机"
+          }
+        },
+        {
+          "id": "2025.6.16-AIR-0FD53F2DB10A14",
+          "date": "2025.6.16",
+          "kind": "飞机",
+          "facts": {
+            "country": "澳大利亚",
+            "key": "p8a",
+            "quantity": 2,
+            "task": "反潜巡逻",
+            "start": "05:07",
+            "end": "07:32",
+            "region": "南海",
+            "direction": "南海",
+            "platform": "P-8A“海神”反潜巡逻机"
+          }
+        },
+        {
+          "id": "2025.6.17-AIR-15297A9B050E29",
+          "date": "2025.6.17",
+          "kind": "飞机",
+          "facts": {
+            "country": "澳大利亚",
+            "key": "p8a",
+            "quantity": 1,
+            "task": "反潜巡逻",
+            "start": "05:07",
+            "end": "07:32",
+            "region": "南海",
+            "direction": "南海",
+            "platform": "P-8A“海神”反潜巡逻机"
+          }
+        },
+        {
+          "id": "2025.6.17-AIR-F087E2B39C41DB",
+          "date": "2025.6.17",
+          "kind": "飞机",
+          "facts": {
+            "country": "澳大利亚",
+            "key": "p8a",
+            "quantity": 1,
+            "task": "海上侦察巡逻",
+            "start": "17:13",
+            "end": "19:38",
+            "region": "黄海",
+            "direction": "黄海",
+            "platform": "P-8A“海神”反潜巡逻机"
+          }
+        }
+      ],
+      "conflict_candidates": [
+        {
+          "event_id": "2025.5.19-AIR-6C024FE1E1C855",
+          "date": "2025.5.19",
+          "issues": [
+            "关键字段task明确冲突：{'雷达': '联合巡逻', '开源军情': '联合巡逻', '网上舆论': '海上侦察巡逻'}"
+          ]
+        },
+        {
+          "event_id": "2025.5.29-AIR-4779DAB591FCB9",
+          "date": "2025.5.29",
+          "issues": [
+            "关键字段start明确冲突：{'雷达': 314, '开源军情': 314, '网上舆论': 383}"
+          ]
+        },
+        {
+          "event_id": "2025.5.30-AIR-7AE85FE8199419",
+          "date": "2025.5.30",
+          "issues": [
+            "关键字段start明确冲突：{'雷达': 1049, '开源军情': 1086, '网上舆论': 1049}"
+          ]
+        },
+        {
+          "event_id": "2025.5.31-AIR-2F8826A1ACD084",
+          "date": "2025.5.31",
+          "issues": [
+            "雷达轨迹存在并行异地观测或不合理跳变，未能定位可独立删除的噪声行",
+            "完整轨迹跨越粗海域相容窗，不能用中位点消除异常：黄海"
+          ]
+        },
+        {
+          "event_id": "2025.6.8-AIR-48A5399F9F98DB",
+          "date": "2025.6.8",
+          "issues": [
+            "关键区域冲突：[{'source': '开源军情', 'region': '北部湾'}, {'source': '雷达', 'reason': '轨迹与文本具体区域不相容'}]",
+            "关键区域不足两类来源支持",
+            "区域精度重审：无两类明确地名或共同核心海域支持"
+          ]
+        },
+        {
+          "event_id": "2025.6.8-AIR-4DF62148FE3C5A",
+          "date": "2025.6.8",
+          "issues": [
+            "关键字段quantity不足两类来源支持",
+            "三类来源未全部关联，保留两源或单源候选",
+            "区域精度重审：无两类明确地名或共同核心海域支持"
+          ]
+        },
+        {
+          "event_id": "2025.6.14-AIR-341ED15AE57AAD",
+          "date": "2025.6.14",
+          "issues": [
+            "关键字段country明确冲突：{'雷达': '澳大利亚', '开源军情': '澳大利亚', '网上舆论': '俄罗斯'}"
+          ]
+        }
+      ],
+      "no_verified_record_dates": [
+        "2025.5.1",
+        "2025.5.2",
+        "2025.5.3",
+        "2025.5.5",
+        "2025.5.6",
+        "2025.5.7",
+        "2025.5.8",
+        "2025.5.9",
+        "2025.5.10",
+        "2025.5.11",
+        "2025.5.12",
+        "2025.5.13",
+        "2025.5.14",
+        "2025.5.15",
+        "2025.5.16",
+        "2025.5.17",
+        "2025.5.18",
+        "2025.5.20",
+        "2025.5.21",
+        "2025.5.22",
+        "2025.5.23",
+        "2025.5.25",
+        "2025.5.26",
+        "2025.5.27",
+        "2025.5.30",
+        "2025.5.31",
+        "2025.6.1",
+        "2025.6.3",
+        "2025.6.4",
+        "2025.6.5",
+        "2025.6.7",
+        "2025.6.9",
+        "2025.6.10",
+        "2025.6.12",
+        "2025.6.13",
+        "2025.6.15"
+      ],
+      "candidates": [
+        {
+          "country": "加拿大",
+          "key": "cf188",
+          "kind": "飞机",
+          "platform": "CF-188多用途战斗机",
+          "dates": [
+            "2025.5.2",
+            "2025.5.9",
+            "2025.5.12",
+            "2025.5.14",
+            "2025.5.25",
+            "2025.5.26",
+            "2025.6.3",
+            "2025.6.10",
+            "2025.6.15",
+            "2025.6.17"
+          ],
+          "observed_tasks": {
+            "战备警巡": 3,
+            "联合巡逻": 4,
+            "空中警戒": 5,
+            "对海突击训练": 2
+          },
+          "directions": {
+            "黄海": 5,
+            "东海": 4,
+            "南海": 5
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.6.17-AIR-A98AFB35434361"
+          ],
+          "conflict_candidate_count": 12
+        },
+        {
+          "country": "加拿大",
+          "key": "哈里德沃尔夫",
+          "kind": "舰艇",
+          "platform": "哈里·德沃尔夫级近海巡逻舰",
+          "dates": [
+            "2025.5.3",
+            "2025.5.6",
+            "2025.5.13",
+            "2025.5.16",
+            "2025.5.18",
+            "2025.5.25",
+            "2025.6.15",
+            "2025.6.17"
+          ],
+          "observed_tasks": {
+            "友好访问": 1,
+            "联合巡航": 1,
+            "海上护航": 1,
+            "海上巡逻": 1,
+            "实弹射击训练": 2,
+            "反潜巡逻": 1,
+            "例行部署": 1,
+            "联合搜救训练": 1,
+            "海上监视侦察": 1
+          },
+          "directions": {
+            "黄海": 7,
+            "南海": 3
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.6.17-SHIP-932B6CB6E2A973"
+          ],
+          "conflict_candidate_count": 5
+        },
+        {
+          "country": "台湾",
+          "key": "康定",
+          "kind": "舰艇",
+          "platform": "康定级导弹护卫舰",
+          "dates": [
+            "2025.5.11",
+            "2025.5.24",
+            "2025.5.26",
+            "2025.6.17"
+          ],
+          "observed_tasks": {
+            "自由航行": 1,
+            "反潜巡逻": 2,
+            "联合搜救训练": 1
+          },
+          "directions": {
+            "南海": 2,
+            "东海": 1,
+            "黄海": 1
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.6.17-SHIP-FBF2A35D9790DF"
+          ],
+          "conflict_candidate_count": 2
+        },
+        {
+          "country": "德国",
+          "key": "台风",
+          "kind": "飞机",
+          "platform": "“台风”多用途战斗机",
+          "dates": [
+            "2025.5.1",
+            "2025.5.2",
+            "2025.5.6",
+            "2025.5.10",
+            "2025.5.11",
+            "2025.5.15",
+            "2025.5.17",
+            "2025.5.24",
+            "2025.5.31",
+            "2025.6.2",
+            "2025.6.4",
+            "2025.6.7",
+            "2025.6.10",
+            "2025.6.11",
+            "2025.6.12",
+            "2025.6.14",
+            "2025.6.15",
+            "2025.6.17"
+          ],
+          "observed_tasks": {
+            "对海突击训练": 9,
+            "联合巡逻": 5,
+            "空中警戒": 5,
+            "战备警巡": 5
+          },
+          "directions": {
+            "东海": 9,
+            "黄海": 9,
+            "南海": 6
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.6.17-AIR-22C53D4D4E31FD"
+          ],
+          "conflict_candidate_count": 14
+        },
+        {
+          "country": "德国",
+          "key": "巴登符腾堡",
+          "kind": "舰艇",
+          "platform": "巴登-符腾堡号导弹护卫舰",
+          "dates": [
+            "2025.5.3",
+            "2025.5.5",
+            "2025.5.7",
+            "2025.5.18",
+            "2025.5.21",
+            "2025.6.1",
+            "2025.6.2",
+            "2025.6.3",
+            "2025.6.5",
+            "2025.6.9",
+            "2025.6.17"
+          ],
+          "observed_tasks": {
+            "编队警戒部署": 4,
+            "防空反导训练": 1,
+            "友好访问": 2,
+            "联合巡航": 1,
+            "实弹射击训练": 1,
+            "海上监视侦察": 1,
+            "海上护航": 1
+          },
+          "directions": {
+            "东海": 6,
+            "南海": 4,
+            "黄海": 1
+          },
+          "identity_scope": "named_vessel",
+          "today_ids": [
+            "2025.6.17-SHIP-F956579D5151A3"
+          ],
+          "conflict_candidate_count": 3
+        },
+        {
+          "country": "德国",
+          "key": "法兰克福",
+          "kind": "舰艇",
+          "platform": "法兰克福号综合补给舰",
+          "dates": [
+            "2025.5.4",
+            "2025.5.8",
+            "2025.5.15",
+            "2025.5.19",
+            "2025.5.21",
+            "2025.5.30",
+            "2025.5.31",
+            "2025.6.8",
+            "2025.6.17"
+          ],
+          "observed_tasks": {
+            "海上补给训练": 2,
+            "海上护航": 3,
+            "例行部署": 3,
+            "远海训练": 1
+          },
+          "directions": {
+            "东海": 4,
+            "南海": 4,
+            "黄海": 1
+          },
+          "identity_scope": "named_vessel",
+          "today_ids": [
+            "2025.6.17-SHIP-8E1D478FF73B99"
+          ],
+          "conflict_candidate_count": 8
+        },
+        {
+          "country": "日本",
+          "key": "f2a",
+          "kind": "飞机",
+          "platform": "F-2A多用途战斗机",
+          "dates": [
+            "2025.5.22",
+            "2025.5.25",
+            "2025.5.27",
+            "2025.6.1",
+            "2025.6.4",
+            "2025.6.5",
+            "2025.6.13",
+            "2025.6.17"
+          ],
+          "observed_tasks": {
+            "战备警巡": 3,
+            "空中警戒": 1,
+            "对海突击训练": 2,
+            "联合巡逻": 3
+          },
+          "directions": {
+            "东海": 4,
+            "黄海": 3,
+            "南海": 2
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.6.17-AIR-504BB362E5DDF8"
+          ],
+          "conflict_candidate_count": 3
+        },
+        {
+          "country": "日本",
+          "key": "村雨",
+          "kind": "舰艇",
+          "platform": "村雨号导弹护卫舰",
+          "dates": [
+            "2025.5.1",
+            "2025.5.6",
+            "2025.5.11",
+            "2025.5.17",
+            "2025.5.22",
+            "2025.5.27",
+            "2025.6.1",
+            "2025.6.6",
+            "2025.6.12",
+            "2025.6.17"
+          ],
+          "observed_tasks": {
+            "编队警戒部署": 10
+          },
+          "directions": {
+            "东海": 10
+          },
+          "identity_scope": "named_vessel",
+          "today_ids": [
+            "2025.6.17-SHIP-3205CA1909117F"
+          ],
+          "conflict_candidate_count": 0
+        },
+        {
+          "country": "澳大利亚",
+          "key": "p8a",
+          "kind": "飞机",
+          "platform": "P-8A“海神”反潜巡逻机",
+          "dates": [
+            "2025.5.4",
+            "2025.5.19",
+            "2025.5.24",
+            "2025.5.28",
+            "2025.5.29",
+            "2025.6.2",
+            "2025.6.6",
+            "2025.6.8",
+            "2025.6.11",
+            "2025.6.14",
+            "2025.6.16",
+            "2025.6.17"
+          ],
+          "observed_tasks": {
+            "反潜巡逻": 10,
+            "联合巡逻": 2,
+            "海上侦察巡逻": 1
+          },
+          "directions": {
+            "东海": 1,
+            "南海": 10,
+            "黄海": 2
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.6.17-AIR-15297A9B050E29",
+            "2025.6.17-AIR-F087E2B39C41DB"
+          ],
+          "conflict_candidate_count": 7
+        },
+        {
+          "country": "美国",
+          "key": "西奥多罗斯福",
+          "kind": "舰艇",
+          "platform": "西奥多·罗斯福号航空母舰",
+          "dates": [
+            "2025.5.11",
+            "2025.5.15",
+            "2025.5.16",
+            "2025.5.17",
+            "2025.5.18",
+            "2025.5.20",
+            "2025.5.25",
+            "2025.5.29",
+            "2025.6.3",
+            "2025.6.8",
+            "2025.6.12",
+            "2025.6.17"
+          ],
+          "observed_tasks": {
+            "编队警戒部署": 12
+          },
+          "directions": {
+            "南海": 12
+          },
+          "identity_scope": "named_vessel",
+          "today_ids": [
+            "2025.6.17-SHIP-4CFC17E1ACE676"
+          ],
+          "conflict_candidate_count": 1
+        },
+        {
+          "country": "菲律宾",
+          "key": "fa50ph",
+          "kind": "飞机",
+          "platform": "FA-50PH轻型战斗机",
+          "dates": [
+            "2025.5.3",
+            "2025.5.10",
+            "2025.5.12",
+            "2025.5.17",
+            "2025.5.23",
+            "2025.5.26",
+            "2025.5.29",
+            "2025.5.30",
+            "2025.6.1",
+            "2025.6.2",
+            "2025.6.6",
+            "2025.6.8",
+            "2025.6.15",
+            "2025.6.17"
+          ],
+          "observed_tasks": {
+            "战备警巡": 3,
+            "对海突击训练": 4,
+            "联合巡逻": 4,
+            "空中警戒": 3
+          },
+          "directions": {
+            "东海": 6,
+            "南海": 5,
+            "黄海": 3
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.6.17-AIR-E6CF84C8AC8337"
+          ],
+          "conflict_candidate_count": 10
+        },
+        {
+          "country": "菲律宾",
+          "key": "迭戈西朗",
+          "kind": "舰艇",
+          "platform": "迭戈·西朗号导弹护卫舰",
+          "dates": [
+            "2025.5.16",
+            "2025.6.10",
+            "2025.6.12",
+            "2025.6.17"
+          ],
+          "observed_tasks": {
+            "远海训练": 1,
+            "友好访问": 1,
+            "海上监视侦察": 1,
+            "战备巡逻": 1
+          },
+          "directions": {
+            "东海": 2,
+            "黄海": 1,
+            "南海": 1
+          },
+          "identity_scope": "named_vessel",
+          "today_ids": [
+            "2025.6.17-SHIP-7049DFAB8E081E"
+          ],
+          "conflict_candidate_count": 4
+        },
+        {
+          "country": "韩国",
+          "key": "f15k",
+          "kind": "飞机",
+          "platform": "F-15K多用途战斗机",
+          "dates": [
+            "2025.5.3",
+            "2025.5.9",
+            "2025.6.16",
+            "2025.6.17"
+          ],
+          "observed_tasks": {
+            "对海突击训练": 1,
+            "战备警巡": 2,
+            "联合巡逻": 1,
+            "空中警戒": 1
+          },
+          "directions": {
+            "南海": 3,
+            "黄海": 2
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.6.17-AIR-EEF8C42F9A5EED"
+          ],
+          "conflict_candidate_count": 4
+        },
+        {
+          "country": "韩国",
+          "key": "世宗大王",
+          "kind": "舰艇",
+          "platform": "世宗大王级导弹驱逐舰",
+          "dates": [
+            "2025.5.2",
+            "2025.5.5",
+            "2025.5.7",
+            "2025.5.31",
+            "2025.6.3",
+            "2025.6.12",
+            "2025.6.16",
+            "2025.6.17"
+          ],
+          "observed_tasks": {
+            "海上监视侦察": 2,
+            "海上巡逻": 2,
+            "友好访问": 1,
+            "战备巡逻": 1,
+            "编队警戒部署": 2
+          },
+          "directions": {
+            "南海": 2,
+            "东海": 3,
+            "黄海": 3
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.6.17-SHIP-CDA853A8E39947"
+          ],
+          "conflict_candidate_count": 2
+        }
+      ],
+      "external_sources": [
+        {
+          "id": "E01",
+          "title": "Joint ISR Conducted by Japan, the United States, and Australia",
+          "publisher": "日本防卫省",
+          "url": "https://www.mod.go.jp/en/images/1124a_usa_aus-j.pdf",
+          "published_by": "2023-11-24",
+          "date_basis": "固定公告页首日期",
+          "content_period": "2023-11-19至20",
+          "role": "official_assessment",
+          "independence_group": "日本防卫省_E01",
+          "content_verified": true,
+          "version_status": "fixed_edition",
+          "locator": "PDF第1页第1项",
+          "local_path": "sources/E01.pdf",
+          "sha256": "40378370662d2d55a6712ec6fcbe206573cd7fb28c136f45720648f450d55739",
+          "actual_read_scope": "本轮提取并阅读所列原文；PDF对应页或HWP内置首页预览已视觉检查",
+          "specific_evidence": "公告明确日本P-1、美国海军P-8A、澳大利亚空军P-8A在日本周边水域及空域共同实施ISR，是多任务解释的具体历史案例。",
+          "contribution": "公告明确日本P-1、美国海军P-8A、澳大利亚空军P-8A在日本周边水域及空域共同实施ISR，是多任务解释的具体历史案例。",
+          "limits": "不证明2025年任何出动参加同一机制，不提供本赛段频次基线或机体身份。"
+        }
+      ]
+    },
+    {
+      "node": "2025.6.29",
+      "as_of": "2025-06-29",
+      "frozen_sha256": "52a57e6459ba9fce82ffe2159d755df9c8ea3aaab8c8241f0feb34e4c7ab95e3",
+      "question": "新加坡G550由东海ISR、空中警戒到黄海ISR，变化发生在任务还是地域层面？",
+      "selection": {
+        "country": "新加坡",
+        "key": "g550",
+        "kind": "飞机",
+        "platform": "G550空中预警机",
+        "dates": [
+          "2025.6.2",
+          "2025.6.4",
+          "2025.6.6",
+          "2025.6.16",
+          "2025.6.22",
+          "2025.6.29"
+        ],
+        "events": [
+          "2025.6.2-AIR-26DF9134786963",
+          "2025.6.4-AIR-FB406AA37C561E",
+          "2025.6.6-AIR-C04BC8955CA537",
+          "2025.6.16-AIR-74B5EB9BFAB738",
+          "2025.6.22-AIR-44CF55E75E5AAB",
+          "2025.6.29-AIR-4549C067D0FC8D"
+        ],
+        "stages": [
+          {
+            "id": "S1",
+            "dates": [
+              "2025.6.2",
+              "2025.6.4",
+              "2025.6.6"
+            ],
+            "events": [
+              "2025.6.2-AIR-26DF9134786963",
+              "2025.6.4-AIR-FB406AA37C561E",
+              "2025.6.6-AIR-C04BC8955CA537"
+            ],
+            "boundary_basis": "待模型根据本阶段任务、方向、窗口及与相邻阶段的区别说明；边界为本次低风险对照预先冻结的执行政策",
+            "count": {
+              "evidence_days": 3,
+              "events": 3,
+              "participation": 4
+            },
+            "tasks": {
+              "情报监视侦察": 3
+            },
+            "directions": {
+              "东海": 3
+            }
+          },
+          {
+            "id": "S2",
+            "dates": [
+              "2025.6.16"
+            ],
+            "events": [
+              "2025.6.16-AIR-74B5EB9BFAB738"
+            ],
+            "boundary_basis": "待模型根据本阶段任务、方向、窗口及与相邻阶段的区别说明；边界为本次低风险对照预先冻结的执行政策",
+            "count": {
+              "evidence_days": 1,
+              "events": 1,
+              "participation": 2
+            },
+            "tasks": {
+              "空中警戒": 1
+            },
+            "directions": {
+              "东海": 1
+            }
+          },
+          {
+            "id": "S3",
+            "dates": [
+              "2025.6.22",
+              "2025.6.29"
+            ],
+            "events": [
+              "2025.6.22-AIR-44CF55E75E5AAB",
+              "2025.6.29-AIR-4549C067D0FC8D"
+            ],
+            "boundary_basis": "待模型根据本阶段任务、方向、窗口及与相邻阶段的区别说明；边界为本次低风险对照预先冻结的执行政策",
+            "count": {
+              "evidence_days": 2,
+              "events": 2,
+              "participation": 3
+            },
+            "tasks": {
+              "情报监视侦察": 2
+            },
+            "directions": {
+              "黄海": 2
+            }
+          }
+        ],
+        "selection_reason": "v14预先冻结主线用于最后一次改进与Codex重复运行对照；全部合格候选在输入中保留并要求比较，不冒称盲选",
+        "identity_scope": "platform_model_or_class"
+      },
+      "events": [
+        {
+          "id": "2025.6.2-AIR-26DF9134786963",
+          "date": "2025.6.2",
+          "kind": "飞机",
+          "facts": {
+            "country": "新加坡",
+            "key": "g550",
+            "quantity": 2,
+            "task": "情报监视侦察",
+            "start": "05:07",
+            "end": "07:32",
+            "region": "东海",
+            "direction": "东海",
+            "platform": "G550空中预警机"
+          }
+        },
+        {
+          "id": "2025.6.4-AIR-FB406AA37C561E",
+          "date": "2025.6.4",
+          "kind": "飞机",
+          "facts": {
+            "country": "新加坡",
+            "key": "g550",
+            "quantity": 1,
+            "task": "情报监视侦察",
+            "start": "08:14",
+            "end": "10:39",
+            "region": "东海",
+            "direction": "东海",
+            "platform": "G550空中预警机"
+          }
+        },
+        {
+          "id": "2025.6.6-AIR-C04BC8955CA537",
+          "date": "2025.6.6",
+          "kind": "飞机",
+          "facts": {
+            "country": "新加坡",
+            "key": "g550",
+            "quantity": 1,
+            "task": "情报监视侦察",
+            "start": "08:14",
+            "end": "10:39",
+            "region": "东海",
+            "direction": "东海",
+            "platform": "G550空中预警机"
+          }
+        },
+        {
+          "id": "2025.6.16-AIR-74B5EB9BFAB738",
+          "date": "2025.6.16",
+          "kind": "飞机",
+          "facts": {
+            "country": "新加坡",
+            "key": "g550",
+            "quantity": 2,
+            "task": "空中警戒",
+            "start": "14:55",
+            "end": "16:20",
+            "region": "东海",
+            "direction": "东海",
+            "platform": "G550空中预警机"
+          }
+        },
+        {
+          "id": "2025.6.22-AIR-44CF55E75E5AAB",
+          "date": "2025.6.22",
+          "kind": "飞机",
+          "facts": {
+            "country": "新加坡",
+            "key": "g550",
+            "quantity": 2,
+            "task": "情报监视侦察",
+            "start": "08:03",
+            "end": "10:28",
+            "region": "南黄海",
+            "direction": "黄海",
+            "platform": "G550空中预警机"
+          }
+        },
+        {
+          "id": "2025.6.29-AIR-4549C067D0FC8D",
+          "date": "2025.6.29",
+          "kind": "飞机",
+          "facts": {
+            "country": "新加坡",
+            "key": "g550",
+            "quantity": 1,
+            "task": "情报监视侦察",
+            "start": "02:27",
+            "end": "04:52",
+            "region": "成山头外海",
+            "direction": "黄海",
+            "platform": "G550空中预警机"
+          }
+        }
+      ],
+      "conflict_candidates": [
+        {
+          "event_id": "2025.5.13-AIR-7F9C892472B45E",
+          "date": "2025.5.13",
+          "issues": [
+            "关键字段task不足两类来源支持",
+            "三类来源未全部关联，保留两源或单源候选",
+            "区域精度重审：无两类明确地名或共同核心海域支持"
+          ]
+        },
+        {
+          "event_id": "2025.5.23-AIR-A9A7CE0C255C3A",
+          "date": "2025.5.23",
+          "issues": [
+            "关键字段quantity不足两类来源支持",
+            "三类来源未全部关联，保留两源或单源候选",
+            "区域精度重审：无两类明确地名或共同核心海域支持"
+          ]
+        },
+        {
+          "event_id": "2025.6.14-AIR-F89BFE50267957",
+          "date": "2025.6.14",
+          "issues": [
+            "关键区域冲突：[{'source': '网上舆论', 'region': '孟加拉湾'}]",
+            "关键区域不足两类来源支持"
+          ]
+        },
+        {
+          "event_id": "2025.6.22-AIR-713724A226412A",
+          "date": "2025.6.22",
+          "issues": [
+            "关键字段quantity不足两类来源支持",
+            "三类来源未全部关联，保留两源或单源候选",
+            "区域精度重审：无两类明确地名或共同核心海域支持"
+          ]
+        },
+        {
+          "event_id": "2025.6.22-AIR-B5B8945D2CF27D",
+          "date": "2025.6.22",
+          "issues": [
+            "关键字段quantity明确冲突：{'雷达': 2, '开源军情': 2, '网上舆论': 3}",
+            "关键字段task不足两类来源支持"
+          ]
+        }
+      ],
+      "no_verified_record_dates": [
+        "2025.5.1",
+        "2025.5.2",
+        "2025.5.3",
+        "2025.5.4",
+        "2025.5.5",
+        "2025.5.6",
+        "2025.5.7",
+        "2025.5.8",
+        "2025.5.9",
+        "2025.5.10",
+        "2025.5.11",
+        "2025.5.12",
+        "2025.5.13",
+        "2025.5.14",
+        "2025.5.15",
+        "2025.5.16",
+        "2025.5.17",
+        "2025.5.18",
+        "2025.5.19",
+        "2025.5.20",
+        "2025.5.21",
+        "2025.5.22",
+        "2025.5.23",
+        "2025.5.24",
+        "2025.5.25",
+        "2025.5.26",
+        "2025.5.27",
+        "2025.5.28",
+        "2025.5.29",
+        "2025.5.30",
+        "2025.5.31",
+        "2025.6.1",
+        "2025.6.3",
+        "2025.6.5",
+        "2025.6.7",
+        "2025.6.8",
+        "2025.6.9",
+        "2025.6.10",
+        "2025.6.11",
+        "2025.6.12",
+        "2025.6.13",
+        "2025.6.14",
+        "2025.6.15",
+        "2025.6.17",
+        "2025.6.18",
+        "2025.6.19",
+        "2025.6.20",
+        "2025.6.21",
+        "2025.6.23",
+        "2025.6.24",
+        "2025.6.25",
+        "2025.6.26",
+        "2025.6.27",
+        "2025.6.28"
+      ],
+      "candidates": [
+        {
+          "country": "俄罗斯",
+          "key": "基洛",
+          "kind": "舰艇",
+          "platform": "基洛级常规潜艇",
+          "dates": [
+            "2025.5.4",
+            "2025.5.5",
+            "2025.5.12",
+            "2025.5.24",
+            "2025.6.3",
+            "2025.6.5",
+            "2025.6.7",
+            "2025.6.23",
+            "2025.6.24",
+            "2025.6.29"
+          ],
+          "observed_tasks": {
+            "远海训练": 4,
+            "海上巡逻": 2,
+            "例行部署": 3,
+            "反潜巡逻": 2,
+            "战备巡逻": 1
+          },
+          "directions": {
+            "南海": 8,
+            "黄海": 3,
+            "东海": 1
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.6.29-SHIP-47A3B67005F4C1"
+          ],
+          "conflict_candidate_count": 6
+        },
+        {
+          "country": "加拿大",
+          "key": "哈利法克斯",
+          "kind": "舰艇",
+          "platform": "哈利法克斯级导弹护卫舰",
+          "dates": [
+            "2025.5.10",
+            "2025.5.12",
+            "2025.5.21",
+            "2025.5.26",
+            "2025.6.24",
+            "2025.6.26",
+            "2025.6.27",
+            "2025.6.29"
+          ],
+          "observed_tasks": {
+            "联合搜救训练": 1,
+            "海上护航": 1,
+            "海上巡逻": 1,
+            "例行部署": 1,
+            "编队警戒部署": 4
+          },
+          "directions": {
+            "东海": 2,
+            "黄海": 5,
+            "南海": 1
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.6.29-SHIP-E6F763B7F99D68"
+          ],
+          "conflict_candidate_count": 4
+        },
+        {
+          "country": "印度",
+          "key": "维克兰特",
+          "kind": "舰艇",
+          "platform": "维克兰特号航空母舰",
+          "dates": [
+            "2025.5.29",
+            "2025.6.20",
+            "2025.6.27",
+            "2025.6.29"
+          ],
+          "observed_tasks": {
+            "编队警戒部署": 1,
+            "战备巡逻": 1,
+            "远海训练": 1,
+            "例行部署": 1
+          },
+          "directions": {
+            "黄海": 3,
+            "南海": 1
+          },
+          "identity_scope": "named_vessel",
+          "today_ids": [
+            "2025.6.29-SHIP-30C0D1B212BAC3"
+          ],
+          "conflict_candidate_count": 5
+        },
+        {
+          "country": "印度",
+          "key": "维沙卡帕特南",
+          "kind": "舰艇",
+          "platform": "维沙卡帕特南级导弹驱逐舰",
+          "dates": [
+            "2025.5.6",
+            "2025.5.17",
+            "2025.5.21",
+            "2025.5.23",
+            "2025.6.3",
+            "2025.6.9",
+            "2025.6.26",
+            "2025.6.29"
+          ],
+          "observed_tasks": {
+            "实弹射击训练": 2,
+            "自由航行": 2,
+            "编队警戒部署": 2,
+            "海上护航": 1,
+            "防空反导训练": 1,
+            "海上巡逻": 1
+          },
+          "directions": {
+            "南海": 3,
+            "黄海": 3,
+            "东海": 3
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.6.29-SHIP-34431C793FE395"
+          ],
+          "conflict_candidate_count": 3
+        },
+        {
+          "country": "新加坡",
+          "key": "g550",
+          "kind": "飞机",
+          "platform": "G550空中预警机",
+          "dates": [
+            "2025.6.2",
+            "2025.6.4",
+            "2025.6.6",
+            "2025.6.16",
+            "2025.6.22",
+            "2025.6.29"
+          ],
+          "observed_tasks": {
+            "情报监视侦察": 5,
+            "空中警戒": 1
+          },
+          "directions": {
+            "东海": 4,
+            "黄海": 2
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.6.29-AIR-4549C067D0FC8D"
+          ],
+          "conflict_candidate_count": 5
+        },
+        {
+          "country": "日本",
+          "key": "大鲸",
+          "kind": "舰艇",
+          "platform": "大鲸级常规潜艇",
+          "dates": [
+            "2025.5.17",
+            "2025.6.2",
+            "2025.6.12",
+            "2025.6.28",
+            "2025.6.29"
+          ],
+          "observed_tasks": {
+            "远海训练": 4,
+            "反潜巡逻": 1
+          },
+          "directions": {
+            "东海": 3,
+            "南海": 1,
+            "黄海": 1
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.6.29-SHIP-33B00ABB1CE0AB"
+          ],
+          "conflict_candidate_count": 2
+        },
+        {
+          "country": "澳大利亚",
+          "key": "f35a",
+          "kind": "飞机",
+          "platform": "F-35A隐身战斗机",
+          "dates": [
+            "2025.5.7",
+            "2025.6.6",
+            "2025.6.29"
+          ],
+          "observed_tasks": {
+            "联合巡逻": 2,
+            "空中警戒": 1
+          },
+          "directions": {
+            "东海": 1,
+            "南海": 1,
+            "黄海": 1
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.6.29-AIR-E13BD57A156414"
+          ],
+          "conflict_candidate_count": 5
+        },
+        {
+          "country": "澳大利亚",
+          "key": "安扎克",
+          "kind": "舰艇",
+          "platform": "安扎克级导弹护卫舰",
+          "dates": [
+            "2025.5.10",
+            "2025.5.11",
+            "2025.6.29"
+          ],
+          "observed_tasks": {
+            "自由航行": 1,
+            "海上监视侦察": 1,
+            "远海训练": 1
+          },
+          "directions": {
+            "东海": 2,
+            "南海": 1
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.6.29-SHIP-CB75793FD5F322"
+          ],
+          "conflict_candidate_count": 1
+        },
+        {
+          "country": "美国",
+          "key": "ea18g",
+          "kind": "飞机",
+          "platform": "EA-18G“咆哮者”电子攻击机",
+          "dates": [
+            "2025.5.22",
+            "2025.6.5",
+            "2025.6.29"
+          ],
+          "observed_tasks": {
+            "电子对抗训练": 1,
+            "情报监视侦察": 1,
+            "电子侦察": 1
+          },
+          "directions": {
+            "东海": 2,
+            "南海": 1
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.6.29-AIR-B275E565BAD5E0"
+          ],
+          "conflict_candidate_count": 3
+        },
+        {
+          "country": "英国",
+          "key": "p8a",
+          "kind": "飞机",
+          "platform": "P-8A“海神”反潜巡逻机",
+          "dates": [
+            "2025.5.10",
+            "2025.5.21",
+            "2025.5.27",
+            "2025.6.20",
+            "2025.6.24",
+            "2025.6.29"
+          ],
+          "observed_tasks": {
+            "联合巡逻": 2,
+            "海上侦察巡逻": 3,
+            "反潜巡逻": 3
+          },
+          "directions": {
+            "南海": 1,
+            "东海": 6,
+            "黄海": 1
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.6.29-AIR-47112816CDFA04",
+            "2025.6.29-AIR-FEF816C632183C"
+          ],
+          "conflict_candidate_count": 4
+        },
+        {
+          "country": "菲律宾",
+          "key": "aw159",
+          "kind": "飞机",
+          "platform": "AW-159“野猫”反潜直升机",
+          "dates": [
+            "2025.5.7",
+            "2025.5.8",
+            "2025.5.16",
+            "2025.5.19",
+            "2025.5.20",
+            "2025.5.21",
+            "2025.5.27",
+            "2025.6.2",
+            "2025.6.6",
+            "2025.6.29"
+          ],
+          "observed_tasks": {
+            "海上侦察巡逻": 4,
+            "反潜巡逻": 2,
+            "联合巡逻": 4
+          },
+          "directions": {
+            "东海": 7,
+            "黄海": 3
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.6.29-AIR-FA066C92DA7C4F"
+          ],
+          "conflict_candidate_count": 11
+        },
+        {
+          "country": "韩国",
+          "key": "p8a",
+          "kind": "飞机",
+          "platform": "P-8A“海神”反潜巡逻机",
+          "dates": [
+            "2025.5.5",
+            "2025.5.12",
+            "2025.5.21",
+            "2025.5.25",
+            "2025.5.26",
+            "2025.5.27",
+            "2025.5.28",
+            "2025.5.30",
+            "2025.6.4",
+            "2025.6.8",
+            "2025.6.13",
+            "2025.6.18",
+            "2025.6.21",
+            "2025.6.22",
+            "2025.6.27",
+            "2025.6.28",
+            "2025.6.29"
+          ],
+          "observed_tasks": {
+            "海上侦察巡逻": 1,
+            "联合巡逻": 4,
+            "反潜巡逻": 14
+          },
+          "directions": {
+            "南海": 3,
+            "黄海": 14,
+            "东海": 2
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.6.29-AIR-C1C0F00190903E"
+          ],
+          "conflict_candidate_count": 8
+        },
+        {
+          "country": "韩国",
+          "key": "独岛",
+          "kind": "舰艇",
+          "platform": "独岛级两栖攻击舰",
+          "dates": [
+            "2025.5.1",
+            "2025.5.8",
+            "2025.5.22",
+            "2025.5.27",
+            "2025.6.8",
+            "2025.6.18",
+            "2025.6.21",
+            "2025.6.29"
+          ],
+          "observed_tasks": {
+            "两栖作战训练": 4,
+            "联合巡航": 1,
+            "例行部署": 1,
+            "联合搜救训练": 1,
+            "编队警戒部署": 1
+          },
+          "directions": {
+            "东海": 4,
+            "南海": 3,
+            "黄海": 1
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.6.29-SHIP-9FECD5E6A9B96A"
+          ],
+          "conflict_candidate_count": 3
+        },
+        {
+          "country": "马来西亚",
+          "key": "苏30mkm",
+          "kind": "飞机",
+          "platform": "苏-30MKM多用途战斗机",
+          "dates": [
+            "2025.5.8",
+            "2025.5.9",
+            "2025.5.13",
+            "2025.5.14",
+            "2025.5.16",
+            "2025.5.17",
+            "2025.5.22",
+            "2025.5.25",
+            "2025.5.30",
+            "2025.6.6",
+            "2025.6.11",
+            "2025.6.13",
+            "2025.6.27",
+            "2025.6.29"
+          ],
+          "observed_tasks": {
+            "战备警巡": 6,
+            "空中警戒": 3,
+            "对海突击训练": 2,
+            "联合巡逻": 5
+          },
+          "directions": {
+            "南海": 4,
+            "黄海": 5,
+            "东海": 7
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.6.29-AIR-6778CB4581BF2F"
+          ],
+          "conflict_candidate_count": 17
+        }
+      ],
+      "external_sources": [
+        {
+          "id": "E06",
+          "title": "G550 Airborne Early Warning Fact Sheet Updated for Singapore Airshow 2012",
+          "publisher": "新加坡国防部、新加坡国家档案馆",
+          "url": "https://www.nas.gov.sg/archivesonline/data/pdfdoc/MINDEF_20070423001/MINDEF_20070423002_3.pdf",
+          "published_by": "2012-02-23",
+          "date_basis": "固定PDF标题Updated 23 Feb 2012；不采用旧署名2007冒充本版日期",
+          "content_period": "2012更新的G550-AEW改型能力说明",
+          "role": "official_assessment",
+          "independence_group": "新加坡国防部、新加坡国家档案馆_E06",
+          "content_verified": true,
+          "version_status": "fixed_edition",
+          "locator": "PDF第1页标题及第2—3正文段",
+          "local_path": "sources/E06.pdf",
+          "sha256": "47ce1b9a6838dce0bb63ab3ba93cd6b45bc67de64571ad5bcfbf48ef3b9d7183",
+          "actual_read_scope": "本轮提取并阅读所列原文；PDF对应页或HWP内置首页预览已视觉检查",
+          "specific_evidence": "G550-AEW用于空情感知和识别，是联网防空体系组成部分；其雷达针对空中目标检测、识别与跟踪，说明ISR描述与警戒用途并非必然互斥。",
+          "contribution": "G550-AEW用于空情感知和识别，是联网防空体系组成部分；其雷达针对空中目标检测、识别与跟踪，说明ISR描述与警戒用途并非必然互斥。",
+          "limits": "只针对AEW改型，不从型号背景补本次改型、任务、ADOC配属或联网成果；不能补造航迹或宣布战略重心转移。"
+        }
+      ]
+    },
+    {
+      "node": "2025.7.9",
+      "as_of": "2025-07-09",
+      "frozen_sha256": "8ec0a1d44f9905f1d2f6fc2090ccc3513412848e58ff9888172ce9d0afd645f5",
+      "question": "加拿大哈利法克斯级黄海编队警戒的重复记录，能说明何种模式，舰级身份留下何种替代解释？",
+      "selection": {
+        "country": "加拿大",
+        "key": "哈利法克斯",
+        "kind": "舰艇",
+        "platform": "哈利法克斯级导弹护卫舰",
+        "dates": [
+          "2025.5.10",
+          "2025.5.12",
+          "2025.5.21",
+          "2025.5.26",
+          "2025.6.24",
+          "2025.6.26",
+          "2025.6.27",
+          "2025.6.29",
+          "2025.7.6",
+          "2025.7.8",
+          "2025.7.9"
+        ],
+        "events": [
+          "2025.5.10-SHIP-69B3604EFC701D",
+          "2025.5.12-SHIP-74367CC218A73A",
+          "2025.5.21-SHIP-73632EECE64425",
+          "2025.5.26-SHIP-F94751BB9D5FD2",
+          "2025.6.24-SHIP-958C85D24DE265",
+          "2025.6.26-SHIP-D62A2C89AD3B6B",
+          "2025.6.27-SHIP-47F7F219FCF56D",
+          "2025.6.29-SHIP-E6F763B7F99D68",
+          "2025.7.6-SHIP-F907B76B7455DA",
+          "2025.7.8-SHIP-3CC73A6800D0AD",
+          "2025.7.9-SHIP-84C74B4313BF87"
+        ],
+        "stages": [
+          {
+            "id": "S1",
+            "dates": [
+              "2025.5.10",
+              "2025.5.12",
+              "2025.5.21",
+              "2025.5.26"
+            ],
+            "events": [
+              "2025.5.10-SHIP-69B3604EFC701D",
+              "2025.5.12-SHIP-74367CC218A73A",
+              "2025.5.21-SHIP-73632EECE64425",
+              "2025.5.26-SHIP-F94751BB9D5FD2"
+            ],
+            "boundary_basis": "待模型根据本阶段任务、方向、窗口及与相邻阶段的区别说明；边界为本次低风险对照预先冻结的执行政策",
+            "count": {
+              "evidence_days": 4,
+              "events": 4,
+              "participation": 4
+            },
+            "tasks": {
+              "联合搜救训练": 1,
+              "海上护航": 1,
+              "海上巡逻": 1,
+              "例行部署": 1
+            },
+            "directions": {
+              "东海": 2,
+              "黄海": 1,
+              "南海": 1
+            }
+          },
+          {
+            "id": "S2",
+            "dates": [
+              "2025.6.24",
+              "2025.6.26",
+              "2025.6.27",
+              "2025.6.29",
+              "2025.7.6"
+            ],
+            "events": [
+              "2025.6.24-SHIP-958C85D24DE265",
+              "2025.6.26-SHIP-D62A2C89AD3B6B",
+              "2025.6.27-SHIP-47F7F219FCF56D",
+              "2025.6.29-SHIP-E6F763B7F99D68",
+              "2025.7.6-SHIP-F907B76B7455DA"
+            ],
+            "boundary_basis": "待模型根据本阶段任务、方向、窗口及与相邻阶段的区别说明；边界为本次低风险对照预先冻结的执行政策",
+            "count": {
+              "evidence_days": 5,
+              "events": 5,
+              "participation": 5
+            },
+            "tasks": {
+              "编队警戒部署": 5
+            },
+            "directions": {
+              "黄海": 5
+            }
+          },
+          {
+            "id": "S3",
+            "dates": [
+              "2025.7.8",
+              "2025.7.9"
+            ],
+            "events": [
+              "2025.7.8-SHIP-3CC73A6800D0AD",
+              "2025.7.9-SHIP-84C74B4313BF87"
+            ],
+            "boundary_basis": "待模型根据本阶段任务、方向、窗口及与相邻阶段的区别说明；边界为本次低风险对照预先冻结的执行政策",
+            "count": {
+              "evidence_days": 2,
+              "events": 2,
+              "participation": 2
+            },
+            "tasks": {
+              "战备巡逻": 1,
+              "编队警戒部署": 1
+            },
+            "directions": {
+              "南海": 1,
+              "黄海": 1
+            }
+          }
+        ],
+        "selection_reason": "v14预先冻结主线用于最后一次改进与Codex重复运行对照；全部合格候选在输入中保留并要求比较，不冒称盲选",
+        "identity_scope": "platform_model_or_class"
+      },
+      "events": [
+        {
+          "id": "2025.5.10-SHIP-69B3604EFC701D",
+          "date": "2025.5.10",
+          "kind": "舰艇",
+          "facts": {
+            "country": "加拿大",
+            "key": "哈利法克斯",
+            "quantity": 1,
+            "task": "联合搜救训练",
+            "start": "14:06",
+            "end": "16:31",
+            "region": "东海北部",
+            "direction": "东海",
+            "platform": "哈利法克斯级导弹护卫舰"
+          }
+        },
+        {
+          "id": "2025.5.12-SHIP-74367CC218A73A",
+          "date": "2025.5.12",
+          "kind": "舰艇",
+          "facts": {
+            "country": "加拿大",
+            "key": "哈利法克斯",
+            "quantity": 1,
+            "task": "海上护航",
+            "start": "11:10",
+            "end": "13:35",
+            "region": "上海外海",
+            "direction": "东海",
+            "platform": "哈利法克斯级导弹护卫舰"
+          }
+        },
+        {
+          "id": "2025.5.21-SHIP-73632EECE64425",
+          "date": "2025.5.21",
+          "kind": "舰艇",
+          "facts": {
+            "country": "加拿大",
+            "key": "哈利法克斯",
+            "quantity": 1,
+            "task": "海上巡逻",
+            "start": "17:24",
+            "end": "19:49",
+            "region": "北黄海",
+            "direction": "黄海",
+            "platform": "哈利法克斯级导弹护卫舰"
+          }
+        },
+        {
+          "id": "2025.5.26-SHIP-F94751BB9D5FD2",
+          "date": "2025.5.26",
+          "kind": "舰艇",
+          "facts": {
+            "country": "加拿大",
+            "key": "哈利法克斯",
+            "quantity": 1,
+            "task": "例行部署",
+            "start": "14:28",
+            "end": "16:53",
+            "region": "纳土纳群岛北部海域",
+            "direction": "南海",
+            "platform": "哈利法克斯级导弹护卫舰"
+          }
+        },
+        {
+          "id": "2025.6.24-SHIP-958C85D24DE265",
+          "date": "2025.6.24",
+          "kind": "舰艇",
+          "facts": {
+            "country": "加拿大",
+            "key": "哈利法克斯",
+            "quantity": 1,
+            "task": "编队警戒部署",
+            "start": "05:07",
+            "end": "07:32",
+            "region": "黄海",
+            "direction": "黄海",
+            "platform": "哈利法克斯级导弹护卫舰"
+          }
+        },
+        {
+          "id": "2025.6.26-SHIP-D62A2C89AD3B6B",
+          "date": "2025.6.26",
+          "kind": "舰艇",
+          "facts": {
+            "country": "加拿大",
+            "key": "哈利法克斯",
+            "quantity": 1,
+            "task": "编队警戒部署",
+            "start": "05:07",
+            "end": "07:32",
+            "region": "黄海",
+            "direction": "黄海",
+            "platform": "哈利法克斯级导弹护卫舰"
+          }
+        },
+        {
+          "id": "2025.6.27-SHIP-47F7F219FCF56D",
+          "date": "2025.6.27",
+          "kind": "舰艇",
+          "facts": {
+            "country": "加拿大",
+            "key": "哈利法克斯",
+            "quantity": 1,
+            "task": "编队警戒部署",
+            "start": "05:07",
+            "end": "07:32",
+            "region": "黄海",
+            "direction": "黄海",
+            "platform": "哈利法克斯级导弹护卫舰"
+          }
+        },
+        {
+          "id": "2025.6.29-SHIP-E6F763B7F99D68",
+          "date": "2025.6.29",
+          "kind": "舰艇",
+          "facts": {
+            "country": "加拿大",
+            "key": "哈利法克斯",
+            "quantity": 1,
+            "task": "编队警戒部署",
+            "start": "05:07",
+            "end": "07:32",
+            "region": "黄海",
+            "direction": "黄海",
+            "platform": "哈利法克斯级导弹护卫舰"
+          }
+        },
+        {
+          "id": "2025.7.6-SHIP-F907B76B7455DA",
+          "date": "2025.7.6",
+          "kind": "舰艇",
+          "facts": {
+            "country": "加拿大",
+            "key": "哈利法克斯",
+            "quantity": 1,
+            "task": "编队警戒部署",
+            "start": "14:28",
+            "end": "16:53",
+            "region": "黄海",
+            "direction": "黄海",
+            "platform": "哈利法克斯级导弹护卫舰"
+          }
+        },
+        {
+          "id": "2025.7.8-SHIP-3CC73A6800D0AD",
+          "date": "2025.7.8",
+          "kind": "舰艇",
+          "facts": {
+            "country": "加拿大",
+            "key": "哈利法克斯",
+            "quantity": 1,
+            "task": "战备巡逻",
+            "start": "08:52",
+            "end": "10:17",
+            "region": "珠江口外海",
+            "direction": "南海",
+            "platform": "哈利法克斯级导弹护卫舰"
+          }
+        },
+        {
+          "id": "2025.7.9-SHIP-84C74B4313BF87",
+          "date": "2025.7.9",
+          "kind": "舰艇",
+          "facts": {
+            "country": "加拿大",
+            "key": "哈利法克斯",
+            "quantity": 1,
+            "task": "编队警戒部署",
+            "start": "11:21",
+            "end": "13:46",
+            "region": "黄海",
+            "direction": "黄海",
+            "platform": "哈利法克斯级导弹护卫舰"
+          }
+        }
+      ],
+      "conflict_candidates": [
+        {
+          "event_id": "2025.5.26-SHIP-EE5A9860435C36",
+          "date": "2025.5.26",
+          "issues": [
+            "关键字段quantity不足两类来源支持",
+            "三类来源未全部关联，保留两源或单源候选"
+          ]
+        },
+        {
+          "event_id": "2025.6.19-SHIP-B43C9BDDBB749E",
+          "date": "2025.6.19",
+          "issues": [
+            "关键字段country明确冲突：{'雷达': '加拿大', '开源军情': '新加坡', '网上舆论': '加拿大'}"
+          ]
+        },
+        {
+          "event_id": "2025.6.23-SHIP-6A389CE2EA0283",
+          "date": "2025.6.23",
+          "issues": [
+            "雷达区域明确冲突：['东海', '北黄海']",
+            "关键区域冲突：[{'source': '雷达', 'region': '东海'}]"
+          ]
+        },
+        {
+          "event_id": "2025.6.23-SHIP-8A209D7902703B",
+          "date": "2025.6.23",
+          "issues": [
+            "关键字段country明确冲突：{'雷达': '加拿大', '开源军情': '加拿大', '网上舆论': '印度'}"
+          ]
+        },
+        {
+          "event_id": "2025.7.8-SHIP-FB6609AA02AD09",
+          "date": "2025.7.8",
+          "issues": [
+            "雷达区域明确冲突：['南海', '舟山外海']",
+            "关键区域冲突：[{'source': '雷达', 'region': '南海'}]"
+          ]
+        }
+      ],
+      "no_verified_record_dates": [
+        "2025.5.1",
+        "2025.5.2",
+        "2025.5.3",
+        "2025.5.4",
+        "2025.5.5",
+        "2025.5.6",
+        "2025.5.7",
+        "2025.5.8",
+        "2025.5.9",
+        "2025.5.11",
+        "2025.5.13",
+        "2025.5.14",
+        "2025.5.15",
+        "2025.5.16",
+        "2025.5.17",
+        "2025.5.18",
+        "2025.5.19",
+        "2025.5.20",
+        "2025.5.22",
+        "2025.5.23",
+        "2025.5.24",
+        "2025.5.25",
+        "2025.5.27",
+        "2025.5.28",
+        "2025.5.29",
+        "2025.5.30",
+        "2025.5.31",
+        "2025.6.1",
+        "2025.6.2",
+        "2025.6.3",
+        "2025.6.4",
+        "2025.6.5",
+        "2025.6.6",
+        "2025.6.7",
+        "2025.6.8",
+        "2025.6.9",
+        "2025.6.10",
+        "2025.6.11",
+        "2025.6.12",
+        "2025.6.13",
+        "2025.6.14",
+        "2025.6.15",
+        "2025.6.16",
+        "2025.6.17",
+        "2025.6.18",
+        "2025.6.19",
+        "2025.6.20",
+        "2025.6.21",
+        "2025.6.22",
+        "2025.6.23",
+        "2025.6.25",
+        "2025.6.28",
+        "2025.6.30",
+        "2025.7.1",
+        "2025.7.2",
+        "2025.7.3",
+        "2025.7.4",
+        "2025.7.5",
+        "2025.7.7"
+      ],
+      "candidates": [
+        {
+          "country": "俄罗斯",
+          "key": "苏30sm",
+          "kind": "飞机",
+          "platform": "苏-30SM多用途战斗机",
+          "dates": [
+            "2025.5.1",
+            "2025.5.20",
+            "2025.5.23",
+            "2025.6.15",
+            "2025.7.4",
+            "2025.7.9"
+          ],
+          "observed_tasks": {
+            "对海突击训练": 2,
+            "联合巡逻": 2,
+            "战备警巡": 1,
+            "空中警戒": 1
+          },
+          "directions": {
+            "南海": 2,
+            "东海": 3,
+            "黄海": 1
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.7.9-AIR-790C13D3E12D8D"
+          ],
+          "conflict_candidate_count": 5
+        },
+        {
+          "country": "加拿大",
+          "key": "哈利法克斯",
+          "kind": "舰艇",
+          "platform": "哈利法克斯级导弹护卫舰",
+          "dates": [
+            "2025.5.10",
+            "2025.5.12",
+            "2025.5.21",
+            "2025.5.26",
+            "2025.6.24",
+            "2025.6.26",
+            "2025.6.27",
+            "2025.6.29",
+            "2025.7.6",
+            "2025.7.8",
+            "2025.7.9"
+          ],
+          "observed_tasks": {
+            "联合搜救训练": 1,
+            "海上护航": 1,
+            "海上巡逻": 1,
+            "例行部署": 1,
+            "编队警戒部署": 6,
+            "战备巡逻": 1
+          },
+          "directions": {
+            "东海": 2,
+            "黄海": 7,
+            "南海": 2
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.7.9-SHIP-84C74B4313BF87"
+          ],
+          "conflict_candidate_count": 5
+        },
+        {
+          "country": "加拿大",
+          "key": "维多利亚",
+          "kind": "舰艇",
+          "platform": "维多利亚级常规潜艇",
+          "dates": [
+            "2025.5.2",
+            "2025.5.26",
+            "2025.6.21",
+            "2025.6.30",
+            "2025.7.2",
+            "2025.7.9"
+          ],
+          "observed_tasks": {
+            "反潜巡逻": 3,
+            "战备巡逻": 2,
+            "远海训练": 1
+          },
+          "directions": {
+            "南海": 4,
+            "黄海": 2
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.7.9-SHIP-CBF728BABB4814"
+          ],
+          "conflict_candidate_count": 7
+        },
+        {
+          "country": "加拿大",
+          "key": "金斯顿",
+          "kind": "舰艇",
+          "platform": "金斯顿级近海巡逻舰",
+          "dates": [
+            "2025.5.5",
+            "2025.5.12",
+            "2025.5.15",
+            "2025.5.29",
+            "2025.7.9"
+          ],
+          "observed_tasks": {
+            "防空反导训练": 1,
+            "海上护航": 1,
+            "战备巡逻": 1,
+            "远海训练": 1,
+            "友好访问": 1
+          },
+          "directions": {
+            "东海": 3,
+            "南海": 1,
+            "黄海": 1
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.7.9-SHIP-29E8BE84A312DA"
+          ],
+          "conflict_candidate_count": 4
+        },
+        {
+          "country": "印度",
+          "key": "卡尔瓦里",
+          "kind": "舰艇",
+          "platform": "卡尔瓦里级常规潜艇",
+          "dates": [
+            "2025.5.7",
+            "2025.5.10",
+            "2025.5.17",
+            "2025.5.27",
+            "2025.5.28",
+            "2025.5.30",
+            "2025.6.1",
+            "2025.6.2",
+            "2025.6.9",
+            "2025.6.16",
+            "2025.7.2",
+            "2025.7.3",
+            "2025.7.4",
+            "2025.7.9"
+          ],
+          "observed_tasks": {
+            "海上巡逻": 10,
+            "战备巡逻": 6,
+            "例行部署": 2,
+            "远海训练": 1,
+            "反潜巡逻": 4
+          },
+          "directions": {
+            "南海": 7,
+            "东海": 8,
+            "黄海": 8
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.7.9-SHIP-720A50A3E075BD",
+            "2025.7.9-SHIP-9377CB451A86FB"
+          ],
+          "conflict_candidate_count": 9
+        },
+        {
+          "country": "台湾",
+          "key": "康定",
+          "kind": "舰艇",
+          "platform": "康定级导弹护卫舰",
+          "dates": [
+            "2025.5.11",
+            "2025.5.24",
+            "2025.5.26",
+            "2025.6.17",
+            "2025.6.27",
+            "2025.7.9"
+          ],
+          "observed_tasks": {
+            "自由航行": 1,
+            "反潜巡逻": 2,
+            "联合搜救训练": 1,
+            "例行部署": 1,
+            "编队警戒部署": 1
+          },
+          "directions": {
+            "南海": 3,
+            "东海": 2,
+            "黄海": 1
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.7.9-SHIP-5F87B4FBC42C1F"
+          ],
+          "conflict_candidate_count": 4
+        },
+        {
+          "country": "德国",
+          "key": "巴登符腾堡",
+          "kind": "舰艇",
+          "platform": "巴登-符腾堡号导弹护卫舰",
+          "dates": [
+            "2025.5.3",
+            "2025.5.5",
+            "2025.5.7",
+            "2025.5.18",
+            "2025.5.21",
+            "2025.6.1",
+            "2025.6.2",
+            "2025.6.3",
+            "2025.6.5",
+            "2025.6.9",
+            "2025.6.17",
+            "2025.6.19",
+            "2025.6.22",
+            "2025.6.23",
+            "2025.7.1",
+            "2025.7.8",
+            "2025.7.9"
+          ],
+          "observed_tasks": {
+            "编队警戒部署": 4,
+            "防空反导训练": 1,
+            "友好访问": 2,
+            "联合巡航": 1,
+            "实弹射击训练": 1,
+            "海上监视侦察": 2,
+            "海上护航": 2,
+            "自由航行": 2,
+            "战备巡逻": 1,
+            "反潜巡逻": 1
+          },
+          "directions": {
+            "东海": 8,
+            "南海": 6,
+            "黄海": 3
+          },
+          "identity_scope": "named_vessel",
+          "today_ids": [
+            "2025.7.9-SHIP-FE6EC8A8A5AAB8"
+          ],
+          "conflict_candidate_count": 6
+        },
+        {
+          "country": "意大利",
+          "key": "p72a",
+          "kind": "飞机",
+          "platform": "P-72A海上巡逻机",
+          "dates": [
+            "2025.5.3",
+            "2025.5.10",
+            "2025.5.21",
+            "2025.5.24",
+            "2025.5.28",
+            "2025.6.9",
+            "2025.6.24",
+            "2025.6.27",
+            "2025.7.1",
+            "2025.7.2",
+            "2025.7.4",
+            "2025.7.6",
+            "2025.7.9"
+          ],
+          "observed_tasks": {
+            "海上侦察巡逻": 2,
+            "情报监视侦察": 9,
+            "联合巡逻": 2,
+            "反潜巡逻": 1
+          },
+          "directions": {
+            "东海": 6,
+            "黄海": 5,
+            "南海": 3
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.7.9-AIR-5F5CFC5CE15BB7"
+          ],
+          "conflict_candidate_count": 12
+        },
+        {
+          "country": "新西兰",
+          "key": "p8a",
+          "kind": "飞机",
+          "platform": "P-8A“海神”反潜巡逻机",
+          "dates": [
+            "2025.5.5",
+            "2025.5.6",
+            "2025.5.10",
+            "2025.5.14",
+            "2025.5.15",
+            "2025.5.23",
+            "2025.5.27",
+            "2025.5.30",
+            "2025.6.1",
+            "2025.6.7",
+            "2025.6.10",
+            "2025.6.16",
+            "2025.6.25",
+            "2025.6.27",
+            "2025.6.28",
+            "2025.7.5",
+            "2025.7.6",
+            "2025.7.8",
+            "2025.7.9"
+          ],
+          "observed_tasks": {
+            "联合巡逻": 7,
+            "海上侦察巡逻": 5,
+            "反潜巡逻": 9
+          },
+          "directions": {
+            "黄海": 10,
+            "南海": 4,
+            "东海": 7
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.7.9-AIR-E5D19CCDC0A2D9"
+          ],
+          "conflict_candidate_count": 23
+        },
+        {
+          "country": "日本",
+          "key": "p1",
+          "kind": "飞机",
+          "platform": "P-1反潜巡逻机",
+          "dates": [
+            "2025.5.5",
+            "2025.5.6",
+            "2025.5.7",
+            "2025.5.8",
+            "2025.5.10",
+            "2025.5.12",
+            "2025.6.2",
+            "2025.6.5",
+            "2025.6.18",
+            "2025.6.23",
+            "2025.6.28",
+            "2025.7.4",
+            "2025.7.9"
+          ],
+          "observed_tasks": {
+            "反潜巡逻": 9,
+            "海上侦察巡逻": 2,
+            "联合巡逻": 2
+          },
+          "directions": {
+            "东海": 10,
+            "南海": 2,
+            "黄海": 1
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.7.9-AIR-CDC6B23809CAC2"
+          ],
+          "conflict_candidate_count": 3
+        },
+        {
+          "country": "日本",
+          "key": "rq4",
+          "kind": "飞机",
+          "platform": "RQ-4“全球鹰”无人机",
+          "dates": [
+            "2025.5.11",
+            "2025.6.10",
+            "2025.7.4",
+            "2025.7.9"
+          ],
+          "observed_tasks": {
+            "电子侦察": 2,
+            "海上侦察巡逻": 2
+          },
+          "directions": {
+            "东海": 2,
+            "南海": 2
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.7.9-AIR-E6002140F96CB5"
+          ],
+          "conflict_candidate_count": 3
+        },
+        {
+          "country": "澳大利亚",
+          "key": "安扎克",
+          "kind": "舰艇",
+          "platform": "安扎克级导弹护卫舰",
+          "dates": [
+            "2025.5.10",
+            "2025.5.11",
+            "2025.6.29",
+            "2025.7.2",
+            "2025.7.9"
+          ],
+          "observed_tasks": {
+            "自由航行": 1,
+            "海上监视侦察": 2,
+            "远海训练": 1,
+            "海上护航": 1
+          },
+          "directions": {
+            "东海": 3,
+            "南海": 1,
+            "黄海": 1
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.7.9-SHIP-44A175A3DA2C79"
+          ],
+          "conflict_candidate_count": 1
+        },
+        {
+          "country": "英国",
+          "key": "p8a",
+          "kind": "飞机",
+          "platform": "P-8A“海神”反潜巡逻机",
+          "dates": [
+            "2025.5.10",
+            "2025.5.21",
+            "2025.5.27",
+            "2025.6.20",
+            "2025.6.24",
+            "2025.6.29",
+            "2025.6.30",
+            "2025.7.9"
+          ],
+          "observed_tasks": {
+            "联合巡逻": 2,
+            "海上侦察巡逻": 5,
+            "反潜巡逻": 3
+          },
+          "directions": {
+            "南海": 1,
+            "东海": 7,
+            "黄海": 2
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.7.9-AIR-4D3C301D3FD2BC"
+          ],
+          "conflict_candidate_count": 4
+        },
+        {
+          "country": "英国",
+          "key": "rc135w",
+          "kind": "飞机",
+          "platform": "RC-135W电子侦察机",
+          "dates": [
+            "2025.5.27",
+            "2025.5.28",
+            "2025.6.3",
+            "2025.6.6",
+            "2025.6.9",
+            "2025.6.12",
+            "2025.6.16",
+            "2025.6.19",
+            "2025.6.21",
+            "2025.6.22",
+            "2025.6.23",
+            "2025.6.25",
+            "2025.7.4",
+            "2025.7.6",
+            "2025.7.7",
+            "2025.7.9"
+          ],
+          "observed_tasks": {
+            "电子侦察": 15,
+            "情报监视侦察": 3
+          },
+          "directions": {
+            "东海": 18
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.7.9-AIR-70BEFDDCEA7515"
+          ],
+          "conflict_candidate_count": 10
+        },
+        {
+          "country": "菲律宾",
+          "key": "aw159",
+          "kind": "飞机",
+          "platform": "AW-159“野猫”反潜直升机",
+          "dates": [
+            "2025.5.7",
+            "2025.5.8",
+            "2025.5.16",
+            "2025.5.19",
+            "2025.5.20",
+            "2025.5.21",
+            "2025.5.27",
+            "2025.6.2",
+            "2025.6.6",
+            "2025.6.29",
+            "2025.7.8",
+            "2025.7.9"
+          ],
+          "observed_tasks": {
+            "海上侦察巡逻": 5,
+            "反潜巡逻": 3,
+            "联合巡逻": 5
+          },
+          "directions": {
+            "东海": 8,
+            "黄海": 4,
+            "南海": 1
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.7.9-AIR-5A676A5A746D09",
+            "2025.7.9-AIR-C4528DADD3034E"
+          ],
+          "conflict_candidate_count": 12
+        },
+        {
+          "country": "韩国",
+          "key": "独岛",
+          "kind": "舰艇",
+          "platform": "独岛级两栖攻击舰",
+          "dates": [
+            "2025.5.1",
+            "2025.5.8",
+            "2025.5.22",
+            "2025.5.27",
+            "2025.6.8",
+            "2025.6.18",
+            "2025.6.21",
+            "2025.6.29",
+            "2025.7.9"
+          ],
+          "observed_tasks": {
+            "两栖作战训练": 5,
+            "联合巡航": 1,
+            "例行部署": 1,
+            "联合搜救训练": 1,
+            "编队警戒部署": 1
+          },
+          "directions": {
+            "东海": 4,
+            "南海": 3,
+            "黄海": 2
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.7.9-SHIP-1C36982FD1B00D"
+          ],
+          "conflict_candidate_count": 3
+        }
+      ],
+      "external_sources": [
+        {
+          "id": "E07",
+          "title": "Canada’s Indo-Pacific Strategy 2022 to 2023 Implementation Update",
+          "publisher": "加拿大外交部",
+          "url": "https://www.international.gc.ca/transparency-transparence/assets/pdfs/indo-pacific-indo-pacifique/2022-2023-en.pdf",
+          "published_by": "2024-12-31",
+          "date_basis": "固定出版物版权页2024、PDF创建2024-04-25；无精确公开日，采用2024年末上界",
+          "content_period": "2023实施回顾",
+          "role": "official_assessment",
+          "independence_group": "加拿大外交部_E07",
+          "content_verified": true,
+          "version_status": "fixed_edition",
+          "locator": "PDF第6页（印刷4）Enhanced military presence in the region",
+          "local_path": "sources/E07.pdf",
+          "sha256": "8f680b191ec8f085a38c6cae68178191717a661c1d1826507250a6673ba19ba3",
+          "actual_read_scope": "本轮提取并阅读所列原文；PDF对应页或HWP内置首页预览已视觉检查",
+          "specific_evidence": "报告Montréal于2023年3—8月，Ottawa、Vancouver于8—12月部署印太，参与NEON及HORIZON；HORIZON承诺每年派3艘舰并参加演习，提供多舰与多任务的具体历史背景。",
+          "contribution": "报告Montréal于2023年3—8月，Ottawa、Vancouver于8—12月部署印太，参与NEON及HORIZON；HORIZON承诺每年派3艘舰并参加演习，提供多舰与多任务的具体历史背景。",
+          "limits": "背景多舰轮换是可能解释，不证明比赛哈利法克斯级记录对应这些具名舰；不证明2025部署、CH-148机体/母舰或单一舰体连续航程。"
+        }
+      ]
+    },
+    {
+      "node": "2025.7.17",
+      "as_of": "2025-07-17",
+      "frozen_sha256": "8cd4105c089d0d8e33a6d3627ce8c960fd331cf46211fa5be7bd49c3f232ddae",
+      "question": "澳大利亚EA-18G在东海ISR、南海电子侦察、黄海ISR后重现东海电子侦察，变化发生在地域分布还是任务标签？",
+      "selection": {
+        "country": "澳大利亚",
+        "key": "ea18g",
+        "kind": "飞机",
+        "platform": "EA-18G“咆哮者”电子攻击机",
+        "dates": [
+          "2025.5.12",
+          "2025.5.21",
+          "2025.5.30",
+          "2025.6.12",
+          "2025.6.13",
+          "2025.6.18",
+          "2025.7.17"
+        ],
+        "events": [
+          "2025.5.12-AIR-51DB533444691E",
+          "2025.5.21-AIR-376F9BDA894D1C",
+          "2025.5.30-AIR-6D87BDE4F5F959",
+          "2025.6.12-AIR-C5FCA25BBEA624",
+          "2025.6.13-AIR-873BC2BF50D3A4",
+          "2025.6.18-AIR-E4C19B54D45937",
+          "2025.7.17-AIR-100FD4BE42A116"
+        ],
+        "stages": [
+          {
+            "id": "S1",
+            "dates": [
+              "2025.5.12",
+              "2025.5.21"
+            ],
+            "events": [
+              "2025.5.12-AIR-51DB533444691E",
+              "2025.5.21-AIR-376F9BDA894D1C"
+            ],
+            "boundary_basis": "待模型根据本阶段任务、方向、窗口及与相邻阶段的区别说明；边界为本次低风险对照预先冻结的执行政策",
+            "count": {
+              "evidence_days": 2,
+              "events": 2,
+              "participation": 3
+            },
+            "tasks": {
+              "情报监视侦察": 2
+            },
+            "directions": {
+              "东海": 2
+            }
+          },
+          {
+            "id": "S2",
+            "dates": [
+              "2025.5.30",
+              "2025.6.12"
+            ],
+            "events": [
+              "2025.5.30-AIR-6D87BDE4F5F959",
+              "2025.6.12-AIR-C5FCA25BBEA624"
+            ],
+            "boundary_basis": "待模型根据本阶段任务、方向、窗口及与相邻阶段的区别说明；边界为本次低风险对照预先冻结的执行政策",
+            "count": {
+              "evidence_days": 2,
+              "events": 2,
+              "participation": 3
+            },
+            "tasks": {
+              "电子侦察": 2
+            },
+            "directions": {
+              "南海": 2
+            }
+          },
+          {
+            "id": "S3",
+            "dates": [
+              "2025.6.13",
+              "2025.6.18",
+              "2025.7.17"
+            ],
+            "events": [
+              "2025.6.13-AIR-873BC2BF50D3A4",
+              "2025.6.18-AIR-E4C19B54D45937",
+              "2025.7.17-AIR-100FD4BE42A116"
+            ],
+            "boundary_basis": "待模型根据本阶段任务、方向、窗口及与相邻阶段的区别说明；边界为本次低风险对照预先冻结的执行政策",
+            "count": {
+              "evidence_days": 3,
+              "events": 3,
+              "participation": 4
+            },
+            "tasks": {
+              "情报监视侦察": 2,
+              "电子侦察": 1
+            },
+            "directions": {
+              "黄海": 2,
+              "东海": 1
+            }
+          }
+        ],
+        "selection_reason": "原法国主线当日记录因具名R91跨批次南海/珊瑚海重叠冲突而排除；EA-18G当日可信，7个证据日出现ISR与电子侦察两种任务标签及东海、南海、黄海方向变化，适合具体比较地域与任务标签；仍须实质比较P-8I、金斯顿级、E-767等替代主线，不以证据日最多选取。此选择及阶段边界在纠错后公开固定，非盲选。",
+        "identity_scope": "platform_model_or_class"
+      },
+      "events": [
+        {
+          "id": "2025.5.12-AIR-51DB533444691E",
+          "date": "2025.5.12",
+          "kind": "飞机",
+          "facts": {
+            "country": "澳大利亚",
+            "key": "ea18g",
+            "quantity": 1,
+            "task": "情报监视侦察",
+            "start": "02:27",
+            "end": "04:52",
+            "region": "东海",
+            "direction": "东海",
+            "platform": "EA-18G“咆哮者”电子攻击机"
+          }
+        },
+        {
+          "id": "2025.5.21-AIR-376F9BDA894D1C",
+          "date": "2025.5.21",
+          "kind": "飞机",
+          "facts": {
+            "country": "澳大利亚",
+            "key": "ea18g",
+            "quantity": 2,
+            "task": "情报监视侦察",
+            "start": "20:31",
+            "end": "22:56",
+            "region": "上海外海",
+            "direction": "东海",
+            "platform": "EA-18G“咆哮者”电子攻击机"
+          }
+        },
+        {
+          "id": "2025.5.30-AIR-6D87BDE4F5F959",
+          "date": "2025.5.30",
+          "kind": "飞机",
+          "facts": {
+            "country": "澳大利亚",
+            "key": "ea18g",
+            "quantity": 1,
+            "task": "电子侦察",
+            "start": "20:31",
+            "end": "22:56",
+            "region": "南海",
+            "direction": "南海",
+            "platform": "EA-18G“咆哮者”电子攻击机"
+          }
+        },
+        {
+          "id": "2025.6.12-AIR-C5FCA25BBEA624",
+          "date": "2025.6.12",
+          "kind": "飞机",
+          "facts": {
+            "country": "澳大利亚",
+            "key": "ea18g",
+            "quantity": 2,
+            "task": "电子侦察",
+            "start": "02:27",
+            "end": "04:52",
+            "region": "南康暗沙海域",
+            "direction": "南海",
+            "platform": "EA-18G“咆哮者”电子攻击机"
+          }
+        },
+        {
+          "id": "2025.6.13-AIR-873BC2BF50D3A4",
+          "date": "2025.6.13",
+          "kind": "飞机",
+          "facts": {
+            "country": "澳大利亚",
+            "key": "ea18g",
+            "quantity": 1,
+            "task": "情报监视侦察",
+            "start": "17:13",
+            "end": "19:38",
+            "region": "成山头外海",
+            "direction": "黄海",
+            "platform": "EA-18G“咆哮者”电子攻击机"
+          }
+        },
+        {
+          "id": "2025.6.18-AIR-E4C19B54D45937",
+          "date": "2025.6.18",
+          "kind": "飞机",
+          "facts": {
+            "country": "澳大利亚",
+            "key": "ea18g",
+            "quantity": 2,
+            "task": "情报监视侦察",
+            "start": "20:31",
+            "end": "22:56",
+            "region": "黄海",
+            "direction": "黄海",
+            "platform": "EA-18G“咆哮者”电子攻击机"
+          }
+        },
+        {
+          "id": "2025.7.17-AIR-100FD4BE42A116",
+          "date": "2025.7.17",
+          "kind": "飞机",
+          "facts": {
+            "country": "澳大利亚",
+            "key": "ea18g",
+            "quantity": 1,
+            "task": "电子侦察",
+            "start": "17:13",
+            "end": "19:38",
+            "region": "东海油气田海域",
+            "direction": "东海",
+            "platform": "EA-18G“咆哮者”电子攻击机"
+          }
+        }
+      ],
+      "conflict_candidates": [
+        {
+          "event_id": "2025.5.4-AIR-1F92EF2DA1B542",
+          "date": "2025.5.4",
+          "issues": [
+            "关键字段quantity不足两类来源支持",
+            "三类来源未全部关联，保留两源或单源候选",
+            "区域精度重审：无两类明确地名或共同核心海域支持"
+          ]
+        },
+        {
+          "event_id": "2025.5.21-AIR-67CF9CA1CB7109",
+          "date": "2025.5.21",
+          "issues": [
+            "关键字段quantity明确冲突：{'雷达': 2, '开源军情': 2, '网上舆论': 3}"
+          ]
+        },
+        {
+          "event_id": "2025.6.16-AIR-1AD420CE6F6E33",
+          "date": "2025.6.16",
+          "issues": [
+            "关键字段task不足两类来源支持",
+            "三类来源未全部关联，保留两源或单源候选",
+            "区域精度重审：无两类明确地名或共同核心海域支持"
+          ]
+        },
+        {
+          "event_id": "2025.6.16-AIR-9151930E92401D",
+          "date": "2025.6.16",
+          "issues": [
+            "关键字段country明确冲突：{'雷达': '澳大利亚', '开源军情': '日本', '网上舆论': '澳大利亚'}"
+          ]
+        },
+        {
+          "event_id": "2025.7.8-AIR-C7B3A6AF32EB32",
+          "date": "2025.7.8",
+          "issues": [
+            "关键字段country明确冲突：{'雷达': '澳大利亚', '开源军情': '新加坡', '网上舆论': '澳大利亚'}"
+          ]
+        },
+        {
+          "event_id": "2025.7.16-AIR-C4C66F983586F5",
+          "date": "2025.7.16",
+          "issues": [
+            "关键字段task不足两类来源支持",
+            "三类来源未全部关联，保留两源或单源候选",
+            "区域精度重审：无两类明确地名或共同核心海域支持"
+          ]
+        }
+      ],
+      "no_verified_record_dates": [
+        "2025.5.1",
+        "2025.5.2",
+        "2025.5.3",
+        "2025.5.4",
+        "2025.5.5",
+        "2025.5.6",
+        "2025.5.7",
+        "2025.5.8",
+        "2025.5.9",
+        "2025.5.10",
+        "2025.5.11",
+        "2025.5.13",
+        "2025.5.14",
+        "2025.5.15",
+        "2025.5.16",
+        "2025.5.17",
+        "2025.5.18",
+        "2025.5.19",
+        "2025.5.20",
+        "2025.5.22",
+        "2025.5.23",
+        "2025.5.24",
+        "2025.5.25",
+        "2025.5.26",
+        "2025.5.27",
+        "2025.5.28",
+        "2025.5.29",
+        "2025.5.31",
+        "2025.6.1",
+        "2025.6.2",
+        "2025.6.3",
+        "2025.6.4",
+        "2025.6.5",
+        "2025.6.6",
+        "2025.6.7",
+        "2025.6.8",
+        "2025.6.9",
+        "2025.6.10",
+        "2025.6.11",
+        "2025.6.14",
+        "2025.6.15",
+        "2025.6.16",
+        "2025.6.17",
+        "2025.6.19",
+        "2025.6.20",
+        "2025.6.21",
+        "2025.6.22",
+        "2025.6.23",
+        "2025.6.24",
+        "2025.6.25",
+        "2025.6.26",
+        "2025.6.27",
+        "2025.6.28",
+        "2025.6.29",
+        "2025.6.30",
+        "2025.7.1",
+        "2025.7.2",
+        "2025.7.3",
+        "2025.7.4",
+        "2025.7.5",
+        "2025.7.6",
+        "2025.7.7",
+        "2025.7.8",
+        "2025.7.9",
+        "2025.7.10",
+        "2025.7.11",
+        "2025.7.12",
+        "2025.7.13",
+        "2025.7.14",
+        "2025.7.15",
+        "2025.7.16"
+      ],
+      "candidates": [
+        {
+          "country": "俄罗斯",
+          "key": "守护",
+          "kind": "舰艇",
+          "platform": "守护级导弹护卫舰",
+          "dates": [
+            "2025.5.2",
+            "2025.5.3",
+            "2025.5.29",
+            "2025.5.30",
+            "2025.5.31",
+            "2025.6.9",
+            "2025.6.20",
+            "2025.6.30",
+            "2025.7.14",
+            "2025.7.17"
+          ],
+          "observed_tasks": {
+            "联合巡航": 2,
+            "海上护航": 2,
+            "反潜巡逻": 1,
+            "联合搜救训练": 1,
+            "编队警戒部署": 1,
+            "远海训练": 1,
+            "战备巡逻": 1,
+            "防空反导训练": 1
+          },
+          "directions": {
+            "东海": 2,
+            "黄海": 4,
+            "南海": 4
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.7.17-SHIP-2C0A6159BD5341"
+          ],
+          "conflict_candidate_count": 10
+        },
+        {
+          "country": "俄罗斯",
+          "key": "瓦良格",
+          "kind": "舰艇",
+          "platform": "瓦良格号导弹巡洋舰",
+          "dates": [
+            "2025.5.1",
+            "2025.5.16",
+            "2025.5.19",
+            "2025.5.28",
+            "2025.5.30",
+            "2025.6.3",
+            "2025.6.5",
+            "2025.6.16",
+            "2025.6.24",
+            "2025.6.28",
+            "2025.7.4",
+            "2025.7.5",
+            "2025.7.7",
+            "2025.7.15",
+            "2025.7.17"
+          ],
+          "observed_tasks": {
+            "海上护航": 2,
+            "联合巡航": 2,
+            "编队警戒部署": 1,
+            "友好访问": 1,
+            "海上监视侦察": 3,
+            "海上巡逻": 1,
+            "防空反导训练": 1,
+            "例行部署": 1,
+            "联合搜救训练": 1,
+            "远海训练": 2
+          },
+          "directions": {
+            "南海": 7,
+            "东海": 5,
+            "黄海": 3
+          },
+          "identity_scope": "named_vessel",
+          "today_ids": [
+            "2025.7.17-SHIP-166748E2A138AC"
+          ],
+          "conflict_candidate_count": 11
+        },
+        {
+          "country": "加拿大",
+          "key": "金斯顿",
+          "kind": "舰艇",
+          "platform": "金斯顿级近海巡逻舰",
+          "dates": [
+            "2025.5.5",
+            "2025.5.12",
+            "2025.5.15",
+            "2025.5.29",
+            "2025.7.9",
+            "2025.7.17"
+          ],
+          "observed_tasks": {
+            "防空反导训练": 1,
+            "海上护航": 1,
+            "战备巡逻": 2,
+            "远海训练": 1,
+            "友好访问": 1
+          },
+          "directions": {
+            "东海": 4,
+            "南海": 1,
+            "黄海": 1
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.7.17-SHIP-E2BA747DD74622"
+          ],
+          "conflict_candidate_count": 4
+        },
+        {
+          "country": "印度",
+          "key": "p8i",
+          "kind": "飞机",
+          "platform": "P-8I反潜巡逻机",
+          "dates": [
+            "2025.5.4",
+            "2025.5.8",
+            "2025.5.11",
+            "2025.5.16",
+            "2025.5.23",
+            "2025.5.31",
+            "2025.6.14",
+            "2025.6.22",
+            "2025.6.28",
+            "2025.7.5",
+            "2025.7.17"
+          ],
+          "observed_tasks": {
+            "海上侦察巡逻": 6,
+            "反潜巡逻": 2,
+            "联合巡逻": 6
+          },
+          "directions": {
+            "黄海": 7,
+            "南海": 5,
+            "东海": 2
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.7.17-AIR-327327E510AB9E"
+          ],
+          "conflict_candidate_count": 9
+        },
+        {
+          "country": "印度",
+          "key": "加尔各答",
+          "kind": "舰艇",
+          "platform": "加尔各答级导弹驱逐舰",
+          "dates": [
+            "2025.5.20",
+            "2025.5.29",
+            "2025.6.6",
+            "2025.6.11",
+            "2025.6.20",
+            "2025.6.25",
+            "2025.6.28",
+            "2025.6.30",
+            "2025.7.2",
+            "2025.7.7",
+            "2025.7.17"
+          ],
+          "observed_tasks": {
+            "联合巡航": 2,
+            "反潜巡逻": 1,
+            "编队警戒部署": 3,
+            "远海训练": 2,
+            "海上巡逻": 2,
+            "友好访问": 1,
+            "例行部署": 1,
+            "防空反导训练": 2,
+            "战备巡逻": 1
+          },
+          "directions": {
+            "黄海": 10,
+            "东海": 3,
+            "南海": 2
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.7.17-SHIP-03A8303A6871C3"
+          ],
+          "conflict_candidate_count": 6
+        },
+        {
+          "country": "印度",
+          "key": "尼尔吉里",
+          "kind": "舰艇",
+          "platform": "尼尔吉里级导弹护卫舰",
+          "dates": [
+            "2025.5.12",
+            "2025.5.24",
+            "2025.5.31",
+            "2025.6.13",
+            "2025.7.14",
+            "2025.7.17"
+          ],
+          "observed_tasks": {
+            "远海训练": 3,
+            "联合巡航": 1,
+            "海上护航": 1,
+            "实弹射击训练": 1
+          },
+          "directions": {
+            "东海": 5,
+            "南海": 1
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.7.17-SHIP-8BC20A901F2836"
+          ],
+          "conflict_candidate_count": 2
+        },
+        {
+          "country": "日本",
+          "key": "e767",
+          "kind": "飞机",
+          "platform": "E-767预警与控制机",
+          "dates": [
+            "2025.5.4",
+            "2025.5.14",
+            "2025.5.30",
+            "2025.7.17"
+          ],
+          "observed_tasks": {
+            "情报监视侦察": 1,
+            "预警指挥": 3
+          },
+          "directions": {
+            "东海": 2,
+            "南海": 2
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.7.17-AIR-2155E43FD0342D"
+          ],
+          "conflict_candidate_count": 6
+        },
+        {
+          "country": "澳大利亚",
+          "key": "ea18g",
+          "kind": "飞机",
+          "platform": "EA-18G“咆哮者”电子攻击机",
+          "dates": [
+            "2025.5.12",
+            "2025.5.21",
+            "2025.5.30",
+            "2025.6.12",
+            "2025.6.13",
+            "2025.6.18",
+            "2025.7.17"
+          ],
+          "observed_tasks": {
+            "情报监视侦察": 4,
+            "电子侦察": 3
+          },
+          "directions": {
+            "东海": 3,
+            "南海": 2,
+            "黄海": 2
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.7.17-AIR-100FD4BE42A116"
+          ],
+          "conflict_candidate_count": 6
+        },
+        {
+          "country": "澳大利亚",
+          "key": "供应",
+          "kind": "舰艇",
+          "platform": "供应级综合补给舰",
+          "dates": [
+            "2025.5.2",
+            "2025.5.16",
+            "2025.5.20",
+            "2025.5.24",
+            "2025.6.8",
+            "2025.6.18",
+            "2025.6.25",
+            "2025.7.5",
+            "2025.7.17"
+          ],
+          "observed_tasks": {
+            "海上护航": 3,
+            "远海训练": 3,
+            "海上补给训练": 3,
+            "例行部署": 1
+          },
+          "directions": {
+            "黄海": 6,
+            "东海": 3,
+            "南海": 1
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.7.17-SHIP-5639593C2408F8"
+          ],
+          "conflict_candidate_count": 5
+        },
+        {
+          "country": "美国",
+          "key": "b52h",
+          "kind": "飞机",
+          "platform": "B-52H战略轰炸机",
+          "dates": [
+            "2025.6.19",
+            "2025.7.12",
+            "2025.7.14",
+            "2025.7.15",
+            "2025.7.17"
+          ],
+          "observed_tasks": {
+            "远程轰炸训练": 5
+          },
+          "directions": {
+            "东海": 5
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.7.17-AIR-85185794114528"
+          ],
+          "conflict_candidate_count": 1
+        },
+        {
+          "country": "菲律宾",
+          "key": "安东尼奥卢纳",
+          "kind": "舰艇",
+          "platform": "安东尼奥·卢纳号导弹护卫舰",
+          "dates": [
+            "2025.5.5",
+            "2025.5.15",
+            "2025.6.3",
+            "2025.6.8",
+            "2025.6.14",
+            "2025.7.17"
+          ],
+          "observed_tasks": {
+            "编队警戒部署": 2,
+            "海上监视侦察": 1,
+            "远海训练": 2,
+            "防空反导训练": 1
+          },
+          "directions": {
+            "东海": 1,
+            "南海": 4,
+            "黄海": 1
+          },
+          "identity_scope": "named_vessel",
+          "today_ids": [
+            "2025.7.17-SHIP-906D4E3E9AF4DD"
+          ],
+          "conflict_candidate_count": 1
+        },
+        {
+          "country": "越南",
+          "key": "猎豹3.9",
+          "kind": "舰艇",
+          "platform": "猎豹3.9级导弹护卫舰",
+          "dates": [
+            "2025.5.7",
+            "2025.5.8",
+            "2025.5.9",
+            "2025.5.10",
+            "2025.5.13",
+            "2025.5.14",
+            "2025.5.17",
+            "2025.5.26",
+            "2025.6.15",
+            "2025.6.30",
+            "2025.7.7",
+            "2025.7.17"
+          ],
+          "observed_tasks": {
+            "联合巡航": 4,
+            "实弹射击训练": 1,
+            "海上监视侦察": 1,
+            "友好访问": 2,
+            "远海训练": 1,
+            "编队警戒部署": 2,
+            "例行部署": 1
+          },
+          "directions": {
+            "南海": 4,
+            "东海": 4,
+            "黄海": 4
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.7.17-SHIP-F1DA41EB38AC4D"
+          ],
+          "conflict_candidate_count": 5
+        },
+        {
+          "country": "越南",
+          "key": "苏30mk2",
+          "kind": "飞机",
+          "platform": "苏-30MK2多用途战斗机",
+          "dates": [
+            "2025.5.2",
+            "2025.5.4",
+            "2025.5.6",
+            "2025.5.17",
+            "2025.5.19",
+            "2025.5.20",
+            "2025.5.24",
+            "2025.5.25",
+            "2025.5.28",
+            "2025.5.29",
+            "2025.6.5",
+            "2025.6.6",
+            "2025.6.7",
+            "2025.6.9",
+            "2025.6.14",
+            "2025.6.18",
+            "2025.6.19",
+            "2025.6.21",
+            "2025.6.22",
+            "2025.6.26",
+            "2025.6.30",
+            "2025.7.1",
+            "2025.7.3",
+            "2025.7.5",
+            "2025.7.6",
+            "2025.7.7",
+            "2025.7.12",
+            "2025.7.14",
+            "2025.7.17"
+          ],
+          "observed_tasks": {
+            "空中警戒": 9,
+            "战备警巡": 11,
+            "联合巡逻": 8,
+            "对海突击训练": 7
+          },
+          "directions": {
+            "东海": 14,
+            "黄海": 9,
+            "南海": 12
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.7.17-AIR-C7099FAEFEF22C"
+          ],
+          "conflict_candidate_count": 22
+        },
+        {
+          "country": "韩国",
+          "key": "f15k",
+          "kind": "飞机",
+          "platform": "F-15K多用途战斗机",
+          "dates": [
+            "2025.5.3",
+            "2025.5.9",
+            "2025.6.16",
+            "2025.6.17",
+            "2025.6.24",
+            "2025.7.1",
+            "2025.7.2",
+            "2025.7.17"
+          ],
+          "observed_tasks": {
+            "对海突击训练": 3,
+            "战备警巡": 2,
+            "联合巡逻": 3,
+            "空中警戒": 1
+          },
+          "directions": {
+            "南海": 4,
+            "黄海": 5
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.7.17-AIR-1D6AF65A1827F0"
+          ],
+          "conflict_candidate_count": 6
+        },
+        {
+          "country": "马来西亚",
+          "key": "苏30mkm",
+          "kind": "飞机",
+          "platform": "苏-30MKM多用途战斗机",
+          "dates": [
+            "2025.5.8",
+            "2025.5.9",
+            "2025.5.13",
+            "2025.5.14",
+            "2025.5.16",
+            "2025.5.17",
+            "2025.5.22",
+            "2025.5.25",
+            "2025.5.30",
+            "2025.6.6",
+            "2025.6.11",
+            "2025.6.13",
+            "2025.6.27",
+            "2025.6.29",
+            "2025.7.7",
+            "2025.7.10",
+            "2025.7.17"
+          ],
+          "observed_tasks": {
+            "战备警巡": 7,
+            "空中警戒": 5,
+            "对海突击训练": 3,
+            "联合巡逻": 5
+          },
+          "directions": {
+            "南海": 8,
+            "黄海": 5,
+            "东海": 7
+          },
+          "identity_scope": "platform_model_or_class",
+          "today_ids": [
+            "2025.7.17-AIR-1585277EB777C7",
+            "2025.7.17-AIR-F9B6C40CD6D539"
+          ],
+          "conflict_candidate_count": 21
+        },
+        {
+          "country": "马来西亚",
+          "key": "莱库",
+          "kind": "舰艇",
+          "platform": "莱库号导弹护卫舰",
+          "dates": [
+            "2025.5.5",
+            "2025.5.24",
+            "2025.5.30",
+            "2025.6.9",
+            "2025.6.11",
+            "2025.6.12",
+            "2025.6.14",
+            "2025.6.16",
+            "2025.6.21",
+            "2025.7.5",
+            "2025.7.11",
+            "2025.7.12",
+            "2025.7.14",
+            "2025.7.17"
+          ],
+          "observed_tasks": {
+            "远海训练": 2,
+            "联合搜救训练": 1,
+            "自由航行": 2,
+            "防空反导训练": 1,
+            "海上巡逻": 1,
+            "编队警戒部署": 3,
+            "反潜巡逻": 1,
+            "战备巡逻": 2,
+            "海上护航": 1
+          },
+          "directions": {
+            "南海": 6,
+            "东海": 4,
+            "黄海": 4
+          },
+          "identity_scope": "named_vessel",
+          "today_ids": [
+            "2025.7.17-SHIP-54002F37385A98"
+          ],
+          "conflict_candidate_count": 13
+        }
+      ],
+      "external_sources": [
+        {
+          "id": "E04",
+          "title": "JDP 2-00 Understanding and Intelligence Support to Joint Operations 4th Edition",
+          "publisher": "英国国防部",
+          "url": "https://assets.publishing.service.gov.uk/media/653a4b0780884d0013f71bb0/JDP_2_00_Ed_4_web.pdf",
+          "published_by": "2023-10-31",
+          "date_basis": "固定第4版August 2023；官方固定文件2023年10月路径，保守月末上界",
+          "content_period": "2023年第4版",
+          "role": "official_assessment",
+          "independence_group": "英国国防部_E04",
+          "content_verified": true,
+          "version_status": "fixed_edition",
+          "locator": "PDF第87页（印刷77）4.2、第96页（印刷86）4.15及RC135图注",
+          "local_path": "sources/E04.pdf",
+          "sha256": "b325402baca1ef65c42b88eefd141d7c6ef624e855b0c607ce93810986b6b823",
+          "actual_read_scope": "本轮提取并阅读所列原文；PDF对应页或HWP内置首页预览已视觉检查",
+          "specific_evidence": "SIGINT是来自电磁信号的情报，ISR是统筹任务、采集及加工的活动和过程，二者是不同层次概念；该页将英国RC135称为主要ISR平台。",
+          "contribution": "SIGINT是来自电磁信号的情报，ISR是统筹任务、采集及加工的活动和过程，二者是不同层次概念；该页将英国RC135称为主要ISR平台。",
+          "limits": "术语层次支持相容解释，不证明比赛电子侦察具体为SIGINT某子类、采集对象或成果，不替代任务原句。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "2025.5.10.json": "f72969a634b283301ba326afd69edb6f84c66cdbb1cd9ff037a34fe1e8879538",
+    "2025.5.18.json": "ebda168da98ee90c9590026f85d5dd68235cedb1a730a9a248604b22f8fb6d6c",
+    "2025.5.30.json": "74422b22ef34b878b00cf67ad2145b5af674622dd4ef7ff6803f22fa1d48dbbb",
+    "2025.6.17.json": "95328a18613126d57244d69e185abc63061eac41eea3e01b001aeaeb547f518e",
+    "2025.6.29.json": "3cbe2ddd8789b7da233c0ed5006eca58b3e6af97b1536a64a69823d43c0ded7d",
+    "2025.6.9.json": "a6628d1b9a0aa0f9e45f0481eb350a74045517c9777fcd1e7f91ac60b5f10bdd",
+    "2025.7.17.json": "66b17277b89bfed324310a0217ab1e821d78fd66073d551ae90e64f914e18883",
+    "2025.7.9.json": "7d4c0bb1172d7a8c93fd1412ae66f96699c116d4c898f0f22819522dc23ab5b8"
+  },
+  "revision_fact_binding": "all eight hashes checked by compile and reconstruction",
+  "review": "final corrected-node A/B full responses read; previous seven genuinely unchanged reviewed analyses reused",
+  "platform_score": null
+}

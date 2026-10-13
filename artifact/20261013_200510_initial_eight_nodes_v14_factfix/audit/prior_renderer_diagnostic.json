@@ -1,0 +1,8 @@
+{
+  "renderer": "packaged render_docx.py",
+  "result": "failed",
+  "reason": "LibreOffice soffice.exe not found on PATH",
+  "actual_attempt_input": "reproduced_fresh_v14/official/2025.5.10/2025.5.10日报.docx",
+  "fallback": "WPS through Word.Application COM export followed by pypdfium2 full-page rasterization",
+  "status": "fallback_completed_and_all_pages_visually_reviewed"
+}

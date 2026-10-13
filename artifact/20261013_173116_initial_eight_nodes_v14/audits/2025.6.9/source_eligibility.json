@@ -1,0 +1,53 @@
+{
+  "as_of": "2025-06-09",
+  "used": [
+    {
+      "id": "E04",
+      "title": "JDP 2-00 Understanding and Intelligence Support to Joint Operations 4th Edition",
+      "publisher": "英国国防部",
+      "url": "https://assets.publishing.service.gov.uk/media/653a4b0780884d0013f71bb0/JDP_2_00_Ed_4_web.pdf",
+      "published_by": "2023-10-31",
+      "date_basis": "固定第4版August 2023；官方固定文件2023年10月路径，保守月末上界",
+      "content_period": "2023年第4版",
+      "role": "official_assessment",
+      "independence_group": "英国国防部_E04",
+      "content_verified": true,
+      "version_status": "fixed_edition",
+      "locator": "PDF第87页（印刷77）4.2、第96页（印刷86）4.15及RC135图注",
+      "local_path": "sources/E04.pdf",
+      "sha256": "b325402baca1ef65c42b88eefd141d7c6ef624e855b0c607ce93810986b6b823",
+      "actual_read_scope": "本轮提取并阅读所列原文；PDF对应页或HWP内置首页预览已视觉检查",
+      "specific_evidence": "SIGINT是来自电磁信号的情报，ISR是统筹任务、采集及加工的活动和过程，二者是不同层次概念；该页将英国RC135称为主要ISR平台。",
+      "contribution": "SIGINT是来自电磁信号的情报，ISR是统筹任务、采集及加工的活动和过程，二者是不同层次概念；该页将英国RC135称为主要ISR平台。",
+      "limits": "术语层次支持相容解释，不证明比赛电子侦察具体为SIGINT某子类、采集对象或成果，不替代任务原句。"
+    }
+  ],
+  "excluded": [
+    {
+      "ids": [
+        "E02"
+      ],
+      "reason": "CH-148官方PDF搜索能定位，但原件多次超时/404；未取得原文，不采用搜索摘要"
+    },
+    {
+      "ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R09"
+      ],
+      "reason": "方法资料或动态网页历史版本不足，不作为事件背景"
+    },
+    {
+      "ids": [
+        "2025-06-Korea-operational-declaration"
+      ],
+      "reason": "晚于5月30日节点，严禁补证或校准"
+    }
+  ],
+  "metadata_pass": true,
+  "event_validation_sources": [],
+  "E07_date_limit": "年度版权与PDF元数据提供年份上界，未取得独立日级发布回执"
+}

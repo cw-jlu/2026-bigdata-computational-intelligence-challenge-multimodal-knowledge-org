@@ -1,0 +1,21 @@
+{
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "transport": "HTTP/SSE via v14_openai_http; verified successful",
+  "cli_version_required": "codex-cli 0.162.0-alpha.17.2",
+  "temperature": "not_exposed_by_this_Codex_CLI",
+  "seed": "not_exposed_by_this_Codex_CLI",
+  "context": "one node per ephemeral fresh process; ignore user config and rules; no later-node inputs in stdin",
+  "credentials": "existing Codex login or separately configured authorized provider; never bundled",
+  "policy_version": "v14.1",
+  "provider": {
+    "id": "v14_openai_http",
+    "name": "OpenAI",
+    "base_url": "https://chatgpt.com/backend-api/codex",
+    "wire_api": "responses",
+    "requires_openai_auth": true,
+    "supports_websockets": false
+  },
+  "max_node_attempts": 3,
+  "parallel_calls": 2
+}

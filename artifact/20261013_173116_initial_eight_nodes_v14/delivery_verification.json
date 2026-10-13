@@ -1,0 +1,143 @@
+{
+  "members": 48,
+  "nodes": [
+    {
+      "node": "2025.5.10",
+      "official_files": 6,
+      "activity_records": 26,
+      "source_hashes": {
+        "2025.5.10/2025.5.10日报.docx": "15dfedbed6ee05b5c31265b291d8f9f70b548b82180040f13a0a855ee20c0a81",
+        "2025.5.10/2025.5.10机舰活动明细.xlsx": "36f1fd33b0f4db862401583ee2218019271fc18df4046464e13886a20136eef6",
+        "2025.5.10/附件图表/01_舰机侦巡数量曲线图.png": "2b3dbc5265fb38a8521685e10fe6f27f96191daf5df89df93a079a5fde28c547",
+        "2025.5.10/附件图表/02_中国主要机舰活动示意图.png": "d03eb54bf550b28633e54e388c917f10228526529f9051e074765a63c8ac2e70",
+        "2025.5.10/附件图表/03_美国主要机舰活动示意图.png": "79e7bd0bbeadb7e3792c99b0692c939eb96252254c09f2d4465a049a1d9514b3",
+        "2025.5.10/附件图表/04_其他国家主要机舰活动示意图.png": "da87f23581539764531a2e5d2006ded82cb181024cc39af41c5adb6be9fd2c5c"
+      },
+      "structure_values_types_references": "PASS",
+      "semantic_truth": "not_established_by_this_code",
+      "reopened_from_archive": false,
+      "reopened_from_physical_unpacked_directory": true
+    },
+    {
+      "node": "2025.5.18",
+      "official_files": 6,
+      "activity_records": 24,
+      "source_hashes": {
+        "2025.5.18/2025.5.18日报.docx": "85f07165853ffb27acda40241820ed944cf9cd01f128b399724119dfe4855823",
+        "2025.5.18/2025.5.18机舰活动明细.xlsx": "cbbba222bf144db175f57111572407098c5132fb43d9af34747f4656b167e562",
+        "2025.5.18/附件图表/01_舰机侦巡数量曲线图.png": "77deac355e6c1bc6b9a8d133970bac4dce50b485961956286efed057c225a325",
+        "2025.5.18/附件图表/02_中国主要机舰活动示意图.png": "374e637901f8cd75cd713d2f152bd8147a2bc2d125fa68b20d57c7c8ca73afc6",
+        "2025.5.18/附件图表/03_美国主要机舰活动示意图.png": "66a3a51d021b8d2fe0fc2150cfa18578418357bab8bad4072b0519f1bb659dc8",
+        "2025.5.18/附件图表/04_其他国家主要机舰活动示意图.png": "52a2fc2f993d98447edef3c4c67c20a78bf73fc68fe91f941544d0e09de40cf9"
+      },
+      "structure_values_types_references": "PASS",
+      "semantic_truth": "not_established_by_this_code",
+      "reopened_from_archive": false,
+      "reopened_from_physical_unpacked_directory": true
+    },
+    {
+      "node": "2025.5.30",
+      "official_files": 6,
+      "activity_records": 26,
+      "source_hashes": {
+        "2025.5.30/2025.5.30日报.docx": "d094a3d23024d21f4f837c395941544bb09a66b813f81a176d8ba5310426e53b",
+        "2025.5.30/2025.5.30机舰活动明细.xlsx": "84fcf6da0a7aa1d3aab7dbf63e432d991758b17b771d095895281009acbe24ac",
+        "2025.5.30/附件图表/01_舰机侦巡数量曲线图.png": "725614d128a23e45f0376521918e96ffcc0fea6c84d5faf7367f0e58c6a80099",
+        "2025.5.30/附件图表/02_中国主要机舰活动示意图.png": "78583653edeabc5f218467946dd054a2e0d74d669c5dfbfb1429dd18120c1df6",
+        "2025.5.30/附件图表/03_美国主要机舰活动示意图.png": "b1cffc6c8e9f3a1363415e6bd1ecd95411f2d6afc285a90739c6b6112a5237c9",
+        "2025.5.30/附件图表/04_其他国家主要机舰活动示意图.png": "21ceb5c2a3642656e694b34be4ee251436539969e801c62d33041129fd34b7c8"
+      },
+      "structure_values_types_references": "PASS",
+      "semantic_truth": "not_established_by_this_code",
+      "reopened_from_archive": false,
+      "reopened_from_physical_unpacked_directory": true
+    },
+    {
+      "node": "2025.6.9",
+      "official_files": 6,
+      "activity_records": 26,
+      "source_hashes": {
+        "2025.6.9/2025.6.9日报.docx": "78ee917e9c011c3a3719c731ad96f3e1ce0bf969e930a38124b7a24922fba9c3",
+        "2025.6.9/2025.6.9机舰活动明细.xlsx": "69d3a0cc42eec4ea4767491eb9a7cf9861f977bfb8406dde314f5a338d82ee8e",
+        "2025.6.9/附件图表/01_舰机侦巡数量曲线图.png": "1ab70a002320b39b8b807731e402024d3a3bbe2ee30e129c4435c46c0d82d2d1",
+        "2025.6.9/附件图表/02_中国主要机舰活动示意图.png": "03ac7c31906f63dd28cc06d37b089e7a00a27a2c0356394d24f06c5664ea5834",
+        "2025.6.9/附件图表/03_美国主要机舰活动示意图.png": "df6e8ce25e8d811f7908388015941233573c7bc2268015d5e6fdf9b39978268b",
+        "2025.6.9/附件图表/04_其他国家主要机舰活动示意图.png": "b3abca0fc2d86226767c5bf8b4ef952abcbc71c073fb813687f81f02ef0c581e"
+      },
+      "structure_values_types_references": "PASS",
+      "semantic_truth": "not_established_by_this_code",
+      "reopened_from_archive": false,
+      "reopened_from_physical_unpacked_directory": true
+    },
+    {
+      "node": "2025.6.17",
+      "official_files": 6,
+      "activity_records": 25,
+      "source_hashes": {
+        "2025.6.17/2025.6.17日报.docx": "89440ef27b67e1b435232cc9f60a8a30d806793f2a6c23baac6ea2140c4932b0",
+        "2025.6.17/2025.6.17机舰活动明细.xlsx": "1fb0a9ebec6a91496690c0365c4e16ff3ca9ce9f80ff6fbaff65d3164226fb9b",
+        "2025.6.17/附件图表/01_舰机侦巡数量曲线图.png": "998b9dbdd46abb5f7696bebc90e2b93b6ba963f8217cf8b9a512dad052f4a979",
+        "2025.6.17/附件图表/02_中国主要机舰活动示意图.png": "08872a9c66b58679219ecb82bf303c09fe0dd8a84f36ad0ab0cf604285594022",
+        "2025.6.17/附件图表/03_美国主要机舰活动示意图.png": "3bb00c3157493824db04458a16dcc9d99407d7c7b9736c8fc5a760a9cf88e019",
+        "2025.6.17/附件图表/04_其他国家主要机舰活动示意图.png": "2e99cde6e8c28f3b67645749a7503ea1454eba48a1eca24681769e08f6c929b6"
+      },
+      "structure_values_types_references": "PASS",
+      "semantic_truth": "not_established_by_this_code",
+      "reopened_from_archive": false,
+      "reopened_from_physical_unpacked_directory": true
+    },
+    {
+      "node": "2025.6.29",
+      "official_files": 6,
+      "activity_records": 24,
+      "source_hashes": {
+        "2025.6.29/2025.6.29日报.docx": "afd620e3bec926d288cf8fff6008935e53956be3a77346d558cb2727992ab428",
+        "2025.6.29/2025.6.29机舰活动明细.xlsx": "92a658a1563dfdbcdb8d312171ce13b9d3eab7befc447b6d6b928495567b0993",
+        "2025.6.29/附件图表/01_舰机侦巡数量曲线图.png": "bd0e3b193d753c990f5f7ca4ca5a050869e97645b1b2f0301a6457b29593487d",
+        "2025.6.29/附件图表/02_中国主要机舰活动示意图.png": "0ea15cec3de3de90c984258cc42327dcefcfb849a2dfda4ac28eff286b31d412",
+        "2025.6.29/附件图表/03_美国主要机舰活动示意图.png": "dcdfe300fea92b6b69916123d10e8dff777ee763997bdece2c2b78903c200d3b",
+        "2025.6.29/附件图表/04_其他国家主要机舰活动示意图.png": "0e43d89d759d23a5bc4cde2fd687d0dd6bb8049b0ac671edef496817c5eb42bb"
+      },
+      "structure_values_types_references": "PASS",
+      "semantic_truth": "not_established_by_this_code",
+      "reopened_from_archive": false,
+      "reopened_from_physical_unpacked_directory": true
+    },
+    {
+      "node": "2025.7.9",
+      "official_files": 6,
+      "activity_records": 27,
+      "source_hashes": {
+        "2025.7.9/2025.7.9日报.docx": "1ca9f82e5a11faa2b2ea2cece7a0170bfe9a07e3e88097cede622a8b93dc7283",
+        "2025.7.9/2025.7.9机舰活动明细.xlsx": "4d3d799637c29969b9aa25de3f2ef7b868bdbabea128d8d20af7353528aa40a1",
+        "2025.7.9/附件图表/01_舰机侦巡数量曲线图.png": "21afe6a175a90b4af1f26ff4f48b79872cfa7ea695eb74b325620e516e9d6a88",
+        "2025.7.9/附件图表/02_中国主要机舰活动示意图.png": "78da633ed0b61893d1a20075d712d4faa76b1542552a05566233a7536acea5d0",
+        "2025.7.9/附件图表/03_美国主要机舰活动示意图.png": "cb3fbd4148410870e357afecc695bf485670d89978c5184151cab04bec7f1b05",
+        "2025.7.9/附件图表/04_其他国家主要机舰活动示意图.png": "0ae1e1f6fd2d62235cb3f6ebee99b998f83f0f5a63ecb08bcdec964baaea810a"
+      },
+      "structure_values_types_references": "PASS",
+      "semantic_truth": "not_established_by_this_code",
+      "reopened_from_archive": false,
+      "reopened_from_physical_unpacked_directory": true
+    },
+    {
+      "node": "2025.7.17",
+      "official_files": 6,
+      "activity_records": 24,
+      "source_hashes": {
+        "2025.7.17/2025.7.17日报.docx": "d13cc9bfddaee1373dcbfba48a794a4e62843317444fcb48ec44bcd0e3568f7c",
+        "2025.7.17/2025.7.17机舰活动明细.xlsx": "f6758b89e9f9b9a479de9eef5589f0181217487113b20b1569ab01774a8e4a09",
+        "2025.7.17/附件图表/01_舰机侦巡数量曲线图.png": "73a6b0be5bd4fdc2bc5ad2270485bc6e70236f62c706d97bac1c6a6e1c375847",
+        "2025.7.17/附件图表/02_中国主要机舰活动示意图.png": "18a13511e3934d46ac2c68bc6a116ccd0a94ef5ac8413fc547b45c6862c317e7",
+        "2025.7.17/附件图表/03_美国主要机舰活动示意图.png": "990aa8b8e52995f59dd58c2ebd5a893417498b137fe52145e90a30aa845b8a79",
+        "2025.7.17/附件图表/04_其他国家主要机舰活动示意图.png": "58e731d33778965d721fdedfeff1a64a11b2ac43d093b0666d927022c734d4fa"
+      },
+      "structure_values_types_references": "PASS",
+      "semantic_truth": "not_established_by_this_code",
+      "reopened_from_archive": false,
+      "reopened_from_physical_unpacked_directory": true
+    }
+  ],
+  "independent_code_path": true,
+  "independent_human_reviewer": false
+}

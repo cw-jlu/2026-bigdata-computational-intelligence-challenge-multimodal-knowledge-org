@@ -1,0 +1,73 @@
+{
+  "sources": [
+    {
+      "source_id": "E01",
+      "current_agent_read_scope": "全文；第1项具体ISR案例",
+      "visually_inspected": [
+        {
+          "path": "qa/E01-p1.png",
+          "sha256": "16fb2c454c5aef1cdfe9b34072dc0e3351cea492b4c0a8301041780559280c8d"
+        }
+      ]
+    },
+    {
+      "source_id": "E03",
+      "current_agent_read_scope": "HWP正文提取全文；首页内置预览；动态HTML仅用于寻找附件",
+      "visually_inspected": [
+        {
+          "path": "qa/E03-preview.png",
+          "sha256": "0d40dbda41fd7fa8ced1e980622f250a9f2b3c33247cc235927132e429af7d07"
+        }
+      ]
+    },
+    {
+      "source_id": "E04",
+      "current_agent_read_scope": "PDF 87、96页正文及图注",
+      "visually_inspected": [
+        {
+          "path": "qa/E04-p87.png",
+          "sha256": "dae84590e962dab53a4a73cb34612a540730f25b0cc64d2b15967b66be88e18e"
+        },
+        {
+          "path": "qa/E04-p96.png",
+          "sha256": "85e89cc8d9e2cb192ab1f129ec458d1b98bc1a7349482f29f2a0b1c7d13b9b4b"
+        }
+      ]
+    },
+    {
+      "source_id": "E06",
+      "current_agent_read_scope": "一页全文与标题更新日期",
+      "visually_inspected": [
+        {
+          "path": "qa/E06-p1.png",
+          "sha256": "d1423448ad20a980e502923db484a2601294861e28028d8f59865a24489e003c"
+        }
+      ]
+    },
+    {
+      "source_id": "E07",
+      "current_agent_read_scope": "PDF第2版权页、第6页实施进度",
+      "visually_inspected": [
+        {
+          "path": "qa/E07-p6.png",
+          "sha256": "174a703dc4aca6921a197068de578c399e79ace6b4cb61839073f556c03ca22c"
+        }
+      ]
+    },
+    {
+      "source_id": "E08",
+      "current_agent_read_scope": "一页全文，计划用语与列项",
+      "visually_inspected": [
+        {
+          "path": "qa/E08-p1.png",
+          "sha256": "84c0ec8c4905e1e881dc95f92488a030054f477acc0e496e3a17008a6fdd1828"
+        }
+      ]
+    }
+  ],
+  "excluded_unread_original": [
+    "E02"
+  ],
+  "search_summary_not_treated_as_original": true,
+  "historical_version_limit": "E07有年度出版物与元数据年份依据，无独立日级公开回执"
+}

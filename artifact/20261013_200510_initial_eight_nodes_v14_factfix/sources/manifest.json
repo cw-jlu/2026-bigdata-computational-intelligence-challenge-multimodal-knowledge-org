@@ -1,0 +1,14 @@
+{
+  "files": {
+    "E01.pdf": "40378370662d2d55a6712ec6fcbe206573cd7fb28c136f45720648f450d55739",
+    "E03.hwp": "1682de54cc909f0674949336eafda65bc63d08fdbecc5b5b3cfb4ec0aa3918f6",
+    "E04.pdf": "b325402baca1ef65c42b88eefd141d7c6ef624e855b0c607ce93810986b6b823",
+    "E06.pdf": "47ce1b9a6838dce0bb63ab3ba93cd6b45bc67de64571ad5bcfbf48ef3b9d7183",
+    "E07.pdf": "8f680b191ec8f085a38c6cae68178191717a661c1d1826507250a6673ba19ba3",
+    "E08.pdf": "398a1989cb6841eb43f82e70a83c05df443c2e5905e7b99f75c99075e93e9dd0"
+  },
+  "approved_reading_receipt": "audit/source_reading_receipt.json",
+  "geography_files": {
+    "geography/IHO_S23_1953.pdf": "ff838517a57c725a721647256cee08cf3054a1a5f14e58ee5b2a45c36e764645"
+  }
+}

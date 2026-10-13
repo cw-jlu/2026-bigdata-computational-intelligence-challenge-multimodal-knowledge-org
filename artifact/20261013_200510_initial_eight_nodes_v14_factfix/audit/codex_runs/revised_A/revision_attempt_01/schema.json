@@ -1,0 +1,185 @@
+{
+  "type": "object",
+  "properties": {
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "node": {
+            "type": "string",
+            "enum": [
+              "2025.5.10",
+              "2025.5.18",
+              "2025.5.30",
+              "2025.6.9",
+              "2025.6.17",
+              "2025.6.29",
+              "2025.7.9",
+              "2025.7.17"
+            ]
+          },
+          "question": {
+            "type": "string"
+          },
+          "selection_review": {
+            "type": "string"
+          },
+          "overall": {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": "string"
+              },
+              "premise_event_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "text",
+              "premise_event_ids"
+            ],
+            "additionalProperties": false
+          },
+          "stage1": {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": "string"
+              },
+              "premise_event_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "boundary_basis": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "text",
+              "premise_event_ids",
+              "boundary_basis"
+            ],
+            "additionalProperties": false
+          },
+          "stage2": {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": "string"
+              },
+              "premise_event_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "boundary_basis": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "text",
+              "premise_event_ids",
+              "boundary_basis"
+            ],
+            "additionalProperties": false
+          },
+          "stage3": {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": "string"
+              },
+              "premise_event_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "boundary_basis": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "text",
+              "premise_event_ids",
+              "boundary_basis"
+            ],
+            "additionalProperties": false
+          },
+          "external": {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": "string"
+              },
+              "premise_event_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "external_source_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "text",
+              "premise_event_ids",
+              "external_source_ids"
+            ],
+            "additionalProperties": false
+          },
+          "judgment": {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": "string"
+              },
+              "premise_event_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "text",
+              "premise_event_ids"
+            ],
+            "additionalProperties": false
+          },
+          "next_focus": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "node",
+          "question",
+          "selection_review",
+          "overall",
+          "stage1",
+          "stage2",
+          "stage3",
+          "external",
+          "judgment",
+          "next_focus"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "nodes"
+  ],
+  "additionalProperties": false
+}

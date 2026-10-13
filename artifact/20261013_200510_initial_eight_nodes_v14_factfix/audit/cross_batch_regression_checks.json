@@ -1,0 +1,36 @@
+{
+  "cases": [
+    {
+      "case": "actual_raw_counterexample",
+      "conflicting_events": 2,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "case": "different_ship_class_not_same_hull",
+      "conflicting_events": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "case": "non_overlapping_intervals",
+      "conflicting_events": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "case": "same_sea_multiple_events",
+      "conflicting_events": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "case": "interval_without_two_source_support",
+      "conflicting_events": 0,
+      "expected": 0,
+      "pass": true
+    }
+  ],
+  "source_of_positive_case": "original evidence archived before implementation",
+  "no_random_threshold_tuning": true
+}

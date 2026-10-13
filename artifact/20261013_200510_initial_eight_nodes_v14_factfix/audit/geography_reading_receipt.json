@@ -1,0 +1,16 @@
+{
+  "url": "https://iho.int/uploads/user/pubs/standards/s-23/S-23_Ed3_1953_EN.pdf",
+  "download": "actual urllib retrieval, PDF magic verified",
+  "sha256": "ff838517a57c725a721647256cee08cf3054a1a5f14e58ee5b2a45c36e764645",
+  "edition": "3rd edition 1953, cover bears 1971 reprint mark",
+  "actual_visual_pages": [
+    1,
+    4,
+    32,
+    33,
+    39
+  ],
+  "sections": "49 South China Sea, 64 Coral Sea",
+  "use": "non-overlap of named marine areas only; no choosing event/source truth, no political boundary claim",
+  "scope_limit": "one explicitly reviewed disjoint pair, not general exact geofencing"
+}

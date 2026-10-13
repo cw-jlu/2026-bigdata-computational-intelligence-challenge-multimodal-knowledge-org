@@ -1,0 +1,53 @@
+{
+  "as_of": "2025-06-29",
+  "used": [
+    {
+      "id": "E06",
+      "title": "G550 Airborne Early Warning Fact Sheet Updated for Singapore Airshow 2012",
+      "publisher": "新加坡国防部、新加坡国家档案馆",
+      "url": "https://www.nas.gov.sg/archivesonline/data/pdfdoc/MINDEF_20070423001/MINDEF_20070423002_3.pdf",
+      "published_by": "2012-02-23",
+      "date_basis": "固定PDF标题Updated 23 Feb 2012；不采用旧署名2007冒充本版日期",
+      "content_period": "2012更新的G550-AEW改型能力说明",
+      "role": "official_assessment",
+      "independence_group": "新加坡国防部、新加坡国家档案馆_E06",
+      "content_verified": true,
+      "version_status": "fixed_edition",
+      "locator": "PDF第1页标题及第2—3正文段",
+      "local_path": "sources/E06.pdf",
+      "sha256": "47ce1b9a6838dce0bb63ab3ba93cd6b45bc67de64571ad5bcfbf48ef3b9d7183",
+      "actual_read_scope": "本轮提取并阅读所列原文；PDF对应页或HWP内置首页预览已视觉检查",
+      "specific_evidence": "G550-AEW用于空情感知和识别，是联网防空体系组成部分；其雷达针对空中目标检测、识别与跟踪，说明ISR描述与警戒用途并非必然互斥。",
+      "contribution": "G550-AEW用于空情感知和识别，是联网防空体系组成部分；其雷达针对空中目标检测、识别与跟踪，说明ISR描述与警戒用途并非必然互斥。",
+      "limits": "只针对AEW改型，不从型号背景补本次改型、任务、ADOC配属或联网成果；不能补造航迹或宣布战略重心转移。"
+    }
+  ],
+  "excluded": [
+    {
+      "ids": [
+        "E02"
+      ],
+      "reason": "CH-148官方PDF搜索能定位，但原件多次超时/404；未取得原文，不采用搜索摘要"
+    },
+    {
+      "ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R09"
+      ],
+      "reason": "方法资料或动态网页历史版本不足，不作为事件背景"
+    },
+    {
+      "ids": [
+        "2025-06-Korea-operational-declaration"
+      ],
+      "reason": "晚于5月30日节点，严禁补证或校准"
+    }
+  ],
+  "metadata_pass": true,
+  "event_validation_sources": [],
+  "E07_date_limit": "年度版权与PDF元数据提供年份上界，未取得独立日级发布回执"
+}

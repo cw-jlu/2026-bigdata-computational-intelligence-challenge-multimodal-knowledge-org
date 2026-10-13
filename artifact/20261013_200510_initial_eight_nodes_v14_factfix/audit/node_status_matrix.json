@@ -1,0 +1,74 @@
+[
+  {
+    "node": "2025.5.10",
+    "records": 26,
+    "formal_files": 6,
+    "facts": "rebuilt",
+    "analysis": "reviewed unchanged",
+    "visual": "PASS",
+    "reproduction": "48/48 and outer ZIP exact; cold archive raw reconstruction"
+  },
+  {
+    "node": "2025.5.18",
+    "records": 24,
+    "formal_files": 6,
+    "facts": "rebuilt",
+    "analysis": "reviewed unchanged",
+    "visual": "PASS",
+    "reproduction": "48/48 and outer ZIP exact; cold archive raw reconstruction"
+  },
+  {
+    "node": "2025.5.30",
+    "records": 26,
+    "formal_files": 6,
+    "facts": "rebuilt",
+    "analysis": "reviewed unchanged",
+    "visual": "PASS",
+    "reproduction": "48/48 and outer ZIP exact; cold archive raw reconstruction"
+  },
+  {
+    "node": "2025.6.9",
+    "records": 26,
+    "formal_files": 6,
+    "facts": "rebuilt",
+    "analysis": "reviewed unchanged",
+    "visual": "PASS",
+    "reproduction": "48/48 and outer ZIP exact; cold archive raw reconstruction"
+  },
+  {
+    "node": "2025.6.17",
+    "records": 25,
+    "formal_files": 6,
+    "facts": "rebuilt",
+    "analysis": "reviewed unchanged",
+    "visual": "PASS",
+    "reproduction": "48/48 and outer ZIP exact; cold archive raw reconstruction"
+  },
+  {
+    "node": "2025.6.29",
+    "records": 24,
+    "formal_files": 6,
+    "facts": "rebuilt",
+    "analysis": "reviewed unchanged",
+    "visual": "PASS",
+    "reproduction": "48/48 and outer ZIP exact; cold archive raw reconstruction"
+  },
+  {
+    "node": "2025.7.9",
+    "records": 27,
+    "formal_files": 6,
+    "facts": "rebuilt",
+    "analysis": "reviewed unchanged",
+    "visual": "PASS",
+    "reproduction": "48/48 and outer ZIP exact; cold archive raw reconstruction"
+  },
+  {
+    "node": "2025.7.17",
+    "records": 23,
+    "formal_files": 6,
+    "facts": "rebuilt",
+    "analysis": "new actual A/B reviewed",
+    "visual": "PASS",
+    "reproduction": "48/48 and outer ZIP exact; cold archive raw reconstruction"
+  }
+]

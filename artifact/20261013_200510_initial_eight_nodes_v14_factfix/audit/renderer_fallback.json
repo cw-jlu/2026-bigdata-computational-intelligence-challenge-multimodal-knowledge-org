@@ -1,0 +1,11 @@
+{
+  "status": "PASS actual WPS exports with PDFium raster",
+  "prior_packaged_renderer_diagnostic": "audit/prior_renderer_diagnostic.json",
+  "same_runtime_unavailable_soffice": "documented earlier; no false packaged-renderer success",
+  "Word_pages_each_run": 97,
+  "Excel_full_filled_range_panels_each_run": 32,
+  "native_export_records": [
+    "word_render.json",
+    "excel_render.json"
+  ]
+}

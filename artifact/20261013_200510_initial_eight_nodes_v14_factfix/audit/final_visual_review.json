@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "word_pages_each_run": 97,
+  "new_changed_node_pages_viewed": 24,
+  "unchanged_word_page_images_exact_previous_reviewed": 170,
+  "new_native_excel_panels_A": 32,
+  "unchanged_28_excel_panels_pixels_match_previous_reviewed": true,
+  "changed_four_excel_panels_and_four_pngs_A_viewed": true,
+  "B_all_8_xlsx_and_32_png_exact_A": true,
+  "actually_viewed_contacts": [
+    {
+      "run": "A",
+      "file": "qa/docx/2025.7.17/contact-1.png",
+      "sha256": "c0df01d4fcf638f24f73f535156780ae95a9c9c232d31e7ebb80e4a701d8e4d8",
+      "actual_viewed": true
+    },
+    {
+      "run": "A",
+      "file": "qa/docx/2025.7.17/contact-2.png",
+      "sha256": "4aa974701b8367beb820c6896111ba5bd2013173a7725f0e22ef2a859f51d8c9",
+      "actual_viewed": true
+    },
+    {
+      "run": "A",
+      "file": "qa/docx/2025.7.17/contact-3.png",
+      "sha256": "52f3312bfe176d3256f0f879fcf63cc9dc810020d6edb7bbbd725fe0679696aa",
+      "actual_viewed": true
+    },
+    {
+      "run": "B",
+      "file": "reproduced_fresh_v14/qa/docx/2025.7.17/contact-1.png",
+      "sha256": "358a16c6b27e42ba339da1a8def65c8824e4e7f0c64a8dfb5b4668959fe5e77f",
+      "actual_viewed": true
+    },
+    {
+      "run": "B",
+      "file": "reproduced_fresh_v14/qa/docx/2025.7.17/contact-2.png",
+      "sha256": "4827581e7a13442e80f4f55a2b51cdc9d72f85a9f2f2d432e971d33ab4c0a028",
+      "actual_viewed": true
+    },
+    {
+      "run": "B",
+      "file": "reproduced_fresh_v14/qa/docx/2025.7.17/contact-3.png",
+      "sha256": "52f3312bfe176d3256f0f879fcf63cc9dc810020d6edb7bbbd725fe0679696aa",
+      "actual_viewed": true
+    },
+    {
+      "run": "A",
+      "file": "qa/xlsx/2025.7.17/contact-1.png",
+      "sha256": "839582ea9ff7ccb1efd34ae9b32da3eb3d548c8f874e0abd6867f6d56fe64298",
+      "actual_viewed": true
+    },
+    {
+      "run": "A",
+      "file": "qa/charts/2025.7.17/contact-1.png",
+      "sha256": "ef277683a0013fa9c4409efac692050c213f348e001a7aae2861d7ce3096fc60",
+      "actual_viewed": true
+    }
+  ],
+  "human_review": "current agent, not independent blind reviewer",
+  "layout_issues_found": []
+}

@@ -1,0 +1,339 @@
+{
+  "node": "2025.5.10",
+  "as_of": "2025-05-10",
+  "frozen_sha256": "dc546d600ca749d17c4cc35997a7b3680630999fadc1973a95f60d6cb8db1f24",
+  "question": "日本P-1的侦察记录是否代表反潜任务被替代，还是同一海域任务组合内的插入？",
+  "selection": {
+    "country": "日本",
+    "key": "p1",
+    "kind": "飞机",
+    "platform": "P-1反潜巡逻机",
+    "dates": [
+      "2025.5.5",
+      "2025.5.6",
+      "2025.5.7",
+      "2025.5.8",
+      "2025.5.10"
+    ],
+    "events": [
+      "2025.5.5-AIR-026979DA0B36CB",
+      "2025.5.6-AIR-C7EBE5EC4CD015",
+      "2025.5.7-AIR-76D43F62D88D1A",
+      "2025.5.8-AIR-7A19E242B6A3F9",
+      "2025.5.10-AIR-AF10F9EBB9E18A"
+    ],
+    "stages": [
+      {
+        "id": "S1",
+        "dates": [
+          "2025.5.5"
+        ],
+        "events": [
+          "2025.5.5-AIR-026979DA0B36CB"
+        ],
+        "boundary_basis": "待模型根据本阶段任务、方向、窗口及与相邻阶段的区别说明；边界为本次低风险对照预先冻结的执行政策",
+        "count": {
+          "evidence_days": 1,
+          "events": 1,
+          "participation": 2
+        },
+        "tasks": {
+          "反潜巡逻": 1
+        },
+        "directions": {
+          "东海": 1
+        }
+      },
+      {
+        "id": "S2",
+        "dates": [
+          "2025.5.6"
+        ],
+        "events": [
+          "2025.5.6-AIR-C7EBE5EC4CD015"
+        ],
+        "boundary_basis": "待模型根据本阶段任务、方向、窗口及与相邻阶段的区别说明；边界为本次低风险对照预先冻结的执行政策",
+        "count": {
+          "evidence_days": 1,
+          "events": 1,
+          "participation": 1
+        },
+        "tasks": {
+          "海上侦察巡逻": 1
+        },
+        "directions": {
+          "东海": 1
+        }
+      },
+      {
+        "id": "S3",
+        "dates": [
+          "2025.5.7",
+          "2025.5.8",
+          "2025.5.10"
+        ],
+        "events": [
+          "2025.5.7-AIR-76D43F62D88D1A",
+          "2025.5.8-AIR-7A19E242B6A3F9",
+          "2025.5.10-AIR-AF10F9EBB9E18A"
+        ],
+        "boundary_basis": "待模型根据本阶段任务、方向、窗口及与相邻阶段的区别说明；边界为本次低风险对照预先冻结的执行政策",
+        "count": {
+          "evidence_days": 3,
+          "events": 3,
+          "participation": 4
+        },
+        "tasks": {
+          "反潜巡逻": 3
+        },
+        "directions": {
+          "东海": 3
+        }
+      }
+    ],
+    "selection_reason": "v14预先冻结主线用于最后一次改进与Codex重复运行对照；全部合格候选在输入中保留并要求比较，不冒称盲选",
+    "identity_scope": "platform_model_or_class"
+  },
+  "events": [
+    {
+      "id": "2025.5.5-AIR-026979DA0B36CB",
+      "date": "2025.5.5",
+      "kind": "飞机",
+      "facts": {
+        "country": "日本",
+        "key": "p1",
+        "quantity": 2,
+        "task": "反潜巡逻",
+        "start": "05:07",
+        "end": "07:32",
+        "region": "东海",
+        "direction": "东海",
+        "platform": "P-1反潜巡逻机"
+      }
+    },
+    {
+      "id": "2025.5.6-AIR-C7EBE5EC4CD015",
+      "date": "2025.5.6",
+      "kind": "飞机",
+      "facts": {
+        "country": "日本",
+        "key": "p1",
+        "quantity": 1,
+        "task": "海上侦察巡逻",
+        "start": "17:13",
+        "end": "19:38",
+        "region": "东海",
+        "direction": "东海",
+        "platform": "P-1反潜巡逻机"
+      }
+    },
+    {
+      "id": "2025.5.7-AIR-76D43F62D88D1A",
+      "date": "2025.5.7",
+      "kind": "飞机",
+      "facts": {
+        "country": "日本",
+        "key": "p1",
+        "quantity": 2,
+        "task": "反潜巡逻",
+        "start": "05:07",
+        "end": "07:32",
+        "region": "东海",
+        "direction": "东海",
+        "platform": "P-1反潜巡逻机"
+      }
+    },
+    {
+      "id": "2025.5.8-AIR-7A19E242B6A3F9",
+      "date": "2025.5.8",
+      "kind": "飞机",
+      "facts": {
+        "country": "日本",
+        "key": "p1",
+        "quantity": 1,
+        "task": "反潜巡逻",
+        "start": "05:07",
+        "end": "07:32",
+        "region": "东海",
+        "direction": "东海",
+        "platform": "P-1反潜巡逻机"
+      }
+    },
+    {
+      "id": "2025.5.10-AIR-AF10F9EBB9E18A",
+      "date": "2025.5.10",
+      "kind": "飞机",
+      "facts": {
+        "country": "日本",
+        "key": "p1",
+        "quantity": 1,
+        "task": "反潜巡逻",
+        "start": "05:07",
+        "end": "07:32",
+        "region": "东海",
+        "direction": "东海",
+        "platform": "P-1反潜巡逻机"
+      }
+    }
+  ],
+  "conflict_candidates": [],
+  "no_verified_record_dates": [
+    "2025.5.1",
+    "2025.5.2",
+    "2025.5.3",
+    "2025.5.4",
+    "2025.5.9"
+  ],
+  "candidates": [
+    {
+      "country": "德国",
+      "key": "台风",
+      "kind": "飞机",
+      "platform": "“台风”多用途战斗机",
+      "dates": [
+        "2025.5.1",
+        "2025.5.2",
+        "2025.5.6",
+        "2025.5.10"
+      ],
+      "observed_tasks": {
+        "对海突击训练": 2,
+        "联合巡逻": 2,
+        "空中警戒": 1
+      },
+      "directions": {
+        "东海": 2,
+        "黄海": 2,
+        "南海": 1
+      },
+      "identity_scope": "platform_model_or_class",
+      "today_ids": [
+        "2025.5.10-AIR-965A1A0C03084F"
+      ],
+      "conflict_candidate_count": 4
+    },
+    {
+      "country": "新西兰",
+      "key": "p8a",
+      "kind": "飞机",
+      "platform": "P-8A“海神”反潜巡逻机",
+      "dates": [
+        "2025.5.5",
+        "2025.5.6",
+        "2025.5.10"
+      ],
+      "observed_tasks": {
+        "联合巡逻": 1,
+        "海上侦察巡逻": 1,
+        "反潜巡逻": 2
+      },
+      "directions": {
+        "黄海": 2,
+        "南海": 2
+      },
+      "identity_scope": "platform_model_or_class",
+      "today_ids": [
+        "2025.5.10-AIR-F0865298F17A1F"
+      ],
+      "conflict_candidate_count": 2
+    },
+    {
+      "country": "日本",
+      "key": "p1",
+      "kind": "飞机",
+      "platform": "P-1反潜巡逻机",
+      "dates": [
+        "2025.5.5",
+        "2025.5.6",
+        "2025.5.7",
+        "2025.5.8",
+        "2025.5.10"
+      ],
+      "observed_tasks": {
+        "反潜巡逻": 4,
+        "海上侦察巡逻": 1
+      },
+      "directions": {
+        "东海": 5
+      },
+      "identity_scope": "platform_model_or_class",
+      "today_ids": [
+        "2025.5.10-AIR-AF10F9EBB9E18A"
+      ],
+      "conflict_candidate_count": 0
+    },
+    {
+      "country": "菲律宾",
+      "key": "米格尔马尔瓦尔",
+      "kind": "舰艇",
+      "platform": "米格尔·马尔瓦尔号导弹护卫舰",
+      "dates": [
+        "2025.5.1",
+        "2025.5.2",
+        "2025.5.10"
+      ],
+      "observed_tasks": {
+        "远海训练": 1,
+        "编队警戒部署": 1,
+        "反潜巡逻": 1
+      },
+      "directions": {
+        "东海": 2,
+        "黄海": 1
+      },
+      "identity_scope": "named_vessel",
+      "today_ids": [
+        "2025.5.10-SHIP-5800315760D819"
+      ],
+      "conflict_candidate_count": 0
+    },
+    {
+      "country": "越南",
+      "key": "猎豹3.9",
+      "kind": "舰艇",
+      "platform": "猎豹3.9级导弹护卫舰",
+      "dates": [
+        "2025.5.7",
+        "2025.5.8",
+        "2025.5.9",
+        "2025.5.10"
+      ],
+      "observed_tasks": {
+        "联合巡航": 2,
+        "实弹射击训练": 1,
+        "海上监视侦察": 1
+      },
+      "directions": {
+        "南海": 3,
+        "东海": 1
+      },
+      "identity_scope": "platform_model_or_class",
+      "today_ids": [
+        "2025.5.10-SHIP-15B9B4C8E8B877"
+      ],
+      "conflict_candidate_count": 1
+    }
+  ],
+  "external_sources": [
+    {
+      "id": "E01",
+      "title": "Joint ISR Conducted by Japan, the United States, and Australia",
+      "publisher": "日本防卫省",
+      "url": "https://www.mod.go.jp/en/images/1124a_usa_aus-j.pdf",
+      "published_by": "2023-11-24",
+      "date_basis": "固定公告页首日期",
+      "content_period": "2023-11-19至20",
+      "role": "official_assessment",
+      "independence_group": "日本防卫省_E01",
+      "content_verified": true,
+      "version_status": "fixed_edition",
+      "locator": "PDF第1页第1项",
+      "local_path": "sources/E01.pdf",
+      "sha256": "40378370662d2d55a6712ec6fcbe206573cd7fb28c136f45720648f450d55739",
+      "actual_read_scope": "本轮提取并阅读所列原文；PDF对应页或HWP内置首页预览已视觉检查",
+      "specific_evidence": "公告明确日本P-1、美国海军P-8A、澳大利亚空军P-8A在日本周边水域及空域共同实施ISR，是多任务解释的具体历史案例。",
+      "contribution": "公告明确日本P-1、美国海军P-8A、澳大利亚空军P-8A在日本周边水域及空域共同实施ISR，是多任务解释的具体历史案例。",
+      "limits": "不证明2025年任何出动参加同一机制，不提供本赛段频次基线或机体身份。"
+    }
+  ]
+}

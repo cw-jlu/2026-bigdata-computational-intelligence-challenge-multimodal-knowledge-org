@@ -1,0 +1,22 @@
+{
+  "archives": [
+    {
+      "file": "赛题2_初赛_v14_事实修订_八节点正式提交包.zip",
+      "bytes": 14262087,
+      "sha256": "0ac08d27b835763957f2c8b851a3219a850e30e364067b5205b1999abf505635"
+    },
+    {
+      "file": "赛题2_初赛_v14_事实修订_分析重跑对照包.zip",
+      "bytes": 14262101,
+      "sha256": "9188a90672c6cf5e6e58355dbefb03e03d7ffd39ebd3eb564cdcd95ce9235048"
+    },
+    {
+      "file": "赛题2_初赛_v14_事实修订_原始输入复现包.zip",
+      "bytes": 14262087,
+      "sha256": "0ac08d27b835763957f2c8b851a3219a850e30e364067b5205b1999abf505635"
+    }
+  ],
+  "platform_submission_executed": false,
+  "platform_score": null,
+  "revision_today_records": 201
+}

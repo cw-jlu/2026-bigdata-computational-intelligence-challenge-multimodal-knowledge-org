@@ -1,0 +1,250 @@
+[
+  {
+    "path": "2025.5.10日报.docx",
+    "before": "ea9149cb26963cb19ec27a2789c620418bce1e66af6a408a5a1cd32f5fd398e4",
+    "after": "15dfedbed6ee05b5c31265b291d8f9f70b548b82180040f13a0a855ee20c0a81",
+    "normalized": "ZIP member timestamps/order/compression and equivalent relationship IDs",
+    "relationships": [
+      {
+        "relationship_part": "customXml/_rels/item1.xml.rels",
+        "owner": "customXml/item1.xml",
+        "relationships": 1
+      },
+      {
+        "relationship_part": "word/_rels/document.xml.rels",
+        "owner": "word/document.xml",
+        "relationships": 13
+      }
+    ]
+  },
+  {
+    "path": "2025.5.10机舰活动明细.xlsx",
+    "before": "d5ac88c7ebf0799bd7e3f019f1aa9b1ccf9d28c3b8197b33a18c2031d126358e",
+    "after": "36f1fd33b0f4db862401583ee2218019271fc18df4046464e13886a20136eef6",
+    "normalized": "ZIP member timestamps/order/compression and equivalent relationship IDs",
+    "relationships": [
+      {
+        "relationship_part": "xl/_rels/workbook.xml.rels",
+        "owner": "xl/workbook.xml",
+        "relationships": 5
+      }
+    ]
+  },
+  {
+    "path": "2025.5.18日报.docx",
+    "before": "26fad9e2156cf207e009b3ba2c4c5c919aef6e37ec257ed9d9d6c67db488530d",
+    "after": "85f07165853ffb27acda40241820ed944cf9cd01f128b399724119dfe4855823",
+    "normalized": "ZIP member timestamps/order/compression and equivalent relationship IDs",
+    "relationships": [
+      {
+        "relationship_part": "customXml/_rels/item1.xml.rels",
+        "owner": "customXml/item1.xml",
+        "relationships": 1
+      },
+      {
+        "relationship_part": "word/_rels/document.xml.rels",
+        "owner": "word/document.xml",
+        "relationships": 13
+      }
+    ]
+  },
+  {
+    "path": "2025.5.18机舰活动明细.xlsx",
+    "before": "6ecc4480fab4100a4ef4faf8705f7f310b3d96818d49bff99d680ad9497a186d",
+    "after": "cbbba222bf144db175f57111572407098c5132fb43d9af34747f4656b167e562",
+    "normalized": "ZIP member timestamps/order/compression and equivalent relationship IDs",
+    "relationships": [
+      {
+        "relationship_part": "xl/_rels/workbook.xml.rels",
+        "owner": "xl/workbook.xml",
+        "relationships": 5
+      }
+    ]
+  },
+  {
+    "path": "2025.5.30日报.docx",
+    "before": "4a8449ca16056111549c7adf1fd750c9bfe8d90fe98eeb9a87c8cf4a47c3d143",
+    "after": "d094a3d23024d21f4f837c395941544bb09a66b813f81a176d8ba5310426e53b",
+    "normalized": "ZIP member timestamps/order/compression and equivalent relationship IDs",
+    "relationships": [
+      {
+        "relationship_part": "customXml/_rels/item1.xml.rels",
+        "owner": "customXml/item1.xml",
+        "relationships": 1
+      },
+      {
+        "relationship_part": "word/_rels/document.xml.rels",
+        "owner": "word/document.xml",
+        "relationships": 13
+      }
+    ]
+  },
+  {
+    "path": "2025.5.30机舰活动明细.xlsx",
+    "before": "93c6897cfbcf74cf6aad1e72b8318c8f89422f362bdd45040e63bfa5b6a0f1a3",
+    "after": "84fcf6da0a7aa1d3aab7dbf63e432d991758b17b771d095895281009acbe24ac",
+    "normalized": "ZIP member timestamps/order/compression and equivalent relationship IDs",
+    "relationships": [
+      {
+        "relationship_part": "xl/_rels/workbook.xml.rels",
+        "owner": "xl/workbook.xml",
+        "relationships": 5
+      }
+    ]
+  },
+  {
+    "path": "2025.6.17日报.docx",
+    "before": "c5122457e426a0f9b93b569250c9efb09a8fd26622b0ee29f3c560903f35a07c",
+    "after": "89440ef27b67e1b435232cc9f60a8a30d806793f2a6c23baac6ea2140c4932b0",
+    "normalized": "ZIP member timestamps/order/compression and equivalent relationship IDs",
+    "relationships": [
+      {
+        "relationship_part": "customXml/_rels/item1.xml.rels",
+        "owner": "customXml/item1.xml",
+        "relationships": 1
+      },
+      {
+        "relationship_part": "word/_rels/document.xml.rels",
+        "owner": "word/document.xml",
+        "relationships": 13
+      }
+    ]
+  },
+  {
+    "path": "2025.6.17机舰活动明细.xlsx",
+    "before": "254ff5ee1324f899c2796e6fdb5701b854dec0a8ff51914556823b04a1a842f2",
+    "after": "1fb0a9ebec6a91496690c0365c4e16ff3ca9ce9f80ff6fbaff65d3164226fb9b",
+    "normalized": "ZIP member timestamps/order/compression and equivalent relationship IDs",
+    "relationships": [
+      {
+        "relationship_part": "xl/_rels/workbook.xml.rels",
+        "owner": "xl/workbook.xml",
+        "relationships": 5
+      }
+    ]
+  },
+  {
+    "path": "2025.6.29日报.docx",
+    "before": "c3dfbe137e0f366ad8dda57dc647b9c9025cbf05bb1cfad6d7664cb2bc801141",
+    "after": "afd620e3bec926d288cf8fff6008935e53956be3a77346d558cb2727992ab428",
+    "normalized": "ZIP member timestamps/order/compression and equivalent relationship IDs",
+    "relationships": [
+      {
+        "relationship_part": "customXml/_rels/item1.xml.rels",
+        "owner": "customXml/item1.xml",
+        "relationships": 1
+      },
+      {
+        "relationship_part": "word/_rels/document.xml.rels",
+        "owner": "word/document.xml",
+        "relationships": 13
+      }
+    ]
+  },
+  {
+    "path": "2025.6.29机舰活动明细.xlsx",
+    "before": "10f30dfbc684ce63b7a696ae11d732b81c1a2edbdc95ab519bf20ba0afee4a45",
+    "after": "92a658a1563dfdbcdb8d312171ce13b9d3eab7befc447b6d6b928495567b0993",
+    "normalized": "ZIP member timestamps/order/compression and equivalent relationship IDs",
+    "relationships": [
+      {
+        "relationship_part": "xl/_rels/workbook.xml.rels",
+        "owner": "xl/workbook.xml",
+        "relationships": 5
+      }
+    ]
+  },
+  {
+    "path": "2025.6.9日报.docx",
+    "before": "28b6de7e3faf60a73ca12324284b653096955ffe4b075cc9a1f2bf973e686074",
+    "after": "78ee917e9c011c3a3719c731ad96f3e1ce0bf969e930a38124b7a24922fba9c3",
+    "normalized": "ZIP member timestamps/order/compression and equivalent relationship IDs",
+    "relationships": [
+      {
+        "relationship_part": "customXml/_rels/item1.xml.rels",
+        "owner": "customXml/item1.xml",
+        "relationships": 1
+      },
+      {
+        "relationship_part": "word/_rels/document.xml.rels",
+        "owner": "word/document.xml",
+        "relationships": 13
+      }
+    ]
+  },
+  {
+    "path": "2025.6.9机舰活动明细.xlsx",
+    "before": "afe283abb95e0014b0d04e98ce0696eabcfb64827aa52c64b33f164f4ea81f22",
+    "after": "69d3a0cc42eec4ea4767491eb9a7cf9861f977bfb8406dde314f5a338d82ee8e",
+    "normalized": "ZIP member timestamps/order/compression and equivalent relationship IDs",
+    "relationships": [
+      {
+        "relationship_part": "xl/_rels/workbook.xml.rels",
+        "owner": "xl/workbook.xml",
+        "relationships": 5
+      }
+    ]
+  },
+  {
+    "path": "2025.7.17日报.docx",
+    "before": "3fe44aaf2897da65f8e48a65cfa3b7496adcc2d911c9c21d2619f82616cdd8d1",
+    "after": "19d4f0a6ca55859c930964af450fff74ae7d238e62949cd5f56f4cdb4c644c34",
+    "normalized": "ZIP member timestamps/order/compression and equivalent relationship IDs",
+    "relationships": [
+      {
+        "relationship_part": "customXml/_rels/item1.xml.rels",
+        "owner": "customXml/item1.xml",
+        "relationships": 1
+      },
+      {
+        "relationship_part": "word/_rels/document.xml.rels",
+        "owner": "word/document.xml",
+        "relationships": 13
+      }
+    ]
+  },
+  {
+    "path": "2025.7.17机舰活动明细.xlsx",
+    "before": "4fd23f140716792cfcc9c4cc0f9cea1d9c130f073deec955a3c2da6123e8dfd5",
+    "after": "6e5146a829a6d73147e75ae6ff5a17b7c91a7a0697e858cd57fb0a49a16bc868",
+    "normalized": "ZIP member timestamps/order/compression and equivalent relationship IDs",
+    "relationships": [
+      {
+        "relationship_part": "xl/_rels/workbook.xml.rels",
+        "owner": "xl/workbook.xml",
+        "relationships": 5
+      }
+    ]
+  },
+  {
+    "path": "2025.7.9日报.docx",
+    "before": "10de48e8e1c59f93000bcc8c14ece80876ecac3a1b9a57f3989fd934eceafc48",
+    "after": "1ca9f82e5a11faa2b2ea2cece7a0170bfe9a07e3e88097cede622a8b93dc7283",
+    "normalized": "ZIP member timestamps/order/compression and equivalent relationship IDs",
+    "relationships": [
+      {
+        "relationship_part": "customXml/_rels/item1.xml.rels",
+        "owner": "customXml/item1.xml",
+        "relationships": 1
+      },
+      {
+        "relationship_part": "word/_rels/document.xml.rels",
+        "owner": "word/document.xml",
+        "relationships": 13
+      }
+    ]
+  },
+  {
+    "path": "2025.7.9机舰活动明细.xlsx",
+    "before": "ca1ecae7252fd2f63e0347f0a4be8bd325bea407d006d9e67a7fc6c81a24e006",
+    "after": "4d3d799637c29969b9aa25de3f2ef7b868bdbabea128d8d20af7353528aa40a1",
+    "normalized": "ZIP member timestamps/order/compression and equivalent relationship IDs",
+    "relationships": [
+      {
+        "relationship_part": "xl/_rels/workbook.xml.rels",
+        "owner": "xl/workbook.xml",
+        "relationships": 5
+      }
+    ]
+  }
+]

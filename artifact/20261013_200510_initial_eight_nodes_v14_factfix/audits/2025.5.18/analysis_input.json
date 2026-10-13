@@ -1,0 +1,450 @@
+{
+  "node": "2025.5.18",
+  "as_of": "2025-05-18",
+  "frozen_sha256": "cd3378e1342a4d7d2f98c581e4a71eed3ecba42ec2774821e59f4ece4505a380",
+  "question": "加拿大CH-148多海域活动后重现南海联合巡逻，是任务与方向再现还是同一机体转移？",
+  "selection": {
+    "country": "加拿大",
+    "key": "ch148",
+    "kind": "飞机",
+    "platform": "CH-148“旋风”海上作战直升机",
+    "dates": [
+      "2025.5.2",
+      "2025.5.5",
+      "2025.5.7",
+      "2025.5.12",
+      "2025.5.18"
+    ],
+    "events": [
+      "2025.5.2-AIR-09F5F04BAA2193",
+      "2025.5.5-AIR-14D6B9F1F43292",
+      "2025.5.5-AIR-70C6B765C9F4AE",
+      "2025.5.7-AIR-16D4AE4571CC71",
+      "2025.5.12-AIR-7A8D3C3437B7E6",
+      "2025.5.18-AIR-6D81CA7290EEA5"
+    ],
+    "stages": [
+      {
+        "id": "S1",
+        "dates": [
+          "2025.5.2",
+          "2025.5.5"
+        ],
+        "events": [
+          "2025.5.2-AIR-09F5F04BAA2193",
+          "2025.5.5-AIR-14D6B9F1F43292",
+          "2025.5.5-AIR-70C6B765C9F4AE"
+        ],
+        "boundary_basis": "待模型根据本阶段任务、方向、窗口及与相邻阶段的区别说明；边界为本次低风险对照预先冻结的执行政策",
+        "count": {
+          "evidence_days": 2,
+          "events": 3,
+          "participation": 5
+        },
+        "tasks": {
+          "反潜巡逻": 2,
+          "联合巡逻": 1
+        },
+        "directions": {
+          "南海": 3
+        }
+      },
+      {
+        "id": "S2",
+        "dates": [
+          "2025.5.7",
+          "2025.5.12"
+        ],
+        "events": [
+          "2025.5.7-AIR-16D4AE4571CC71",
+          "2025.5.12-AIR-7A8D3C3437B7E6"
+        ],
+        "boundary_basis": "待模型根据本阶段任务、方向、窗口及与相邻阶段的区别说明；边界为本次低风险对照预先冻结的执行政策",
+        "count": {
+          "evidence_days": 2,
+          "events": 2,
+          "participation": 3
+        },
+        "tasks": {
+          "海上侦察巡逻": 1,
+          "反潜巡逻": 1
+        },
+        "directions": {
+          "东海": 1,
+          "黄海": 1
+        }
+      },
+      {
+        "id": "S3",
+        "dates": [
+          "2025.5.18"
+        ],
+        "events": [
+          "2025.5.18-AIR-6D81CA7290EEA5"
+        ],
+        "boundary_basis": "待模型根据本阶段任务、方向、窗口及与相邻阶段的区别说明；边界为本次低风险对照预先冻结的执行政策",
+        "count": {
+          "evidence_days": 1,
+          "events": 1,
+          "participation": 1
+        },
+        "tasks": {
+          "联合巡逻": 1
+        },
+        "directions": {
+          "南海": 1
+        }
+      }
+    ],
+    "selection_reason": "v14预先冻结主线用于最后一次改进与Codex重复运行对照；全部合格候选在输入中保留并要求比较，不冒称盲选",
+    "identity_scope": "platform_model_or_class"
+  },
+  "events": [
+    {
+      "id": "2025.5.2-AIR-09F5F04BAA2193",
+      "date": "2025.5.2",
+      "kind": "飞机",
+      "facts": {
+        "country": "加拿大",
+        "key": "ch148",
+        "quantity": 1,
+        "task": "反潜巡逻",
+        "start": "02:27",
+        "end": "04:52",
+        "region": "东沙群岛海域",
+        "direction": "南海",
+        "platform": "CH-148“旋风”海上作战直升机"
+      }
+    },
+    {
+      "id": "2025.5.5-AIR-14D6B9F1F43292",
+      "date": "2025.5.5",
+      "kind": "飞机",
+      "facts": {
+        "country": "加拿大",
+        "key": "ch148",
+        "quantity": 2,
+        "task": "反潜巡逻",
+        "start": "02:49",
+        "end": "04:14",
+        "region": "南海",
+        "direction": "南海",
+        "platform": "CH-148“旋风”海上作战直升机"
+      }
+    },
+    {
+      "id": "2025.5.5-AIR-70C6B765C9F4AE",
+      "date": "2025.5.5",
+      "kind": "飞机",
+      "facts": {
+        "country": "加拿大",
+        "key": "ch148",
+        "quantity": 2,
+        "task": "联合巡逻",
+        "start": "08:03",
+        "end": "10:28",
+        "region": "南海",
+        "direction": "南海",
+        "platform": "CH-148“旋风”海上作战直升机"
+      }
+    },
+    {
+      "id": "2025.5.7-AIR-16D4AE4571CC71",
+      "date": "2025.5.7",
+      "kind": "飞机",
+      "facts": {
+        "country": "加拿大",
+        "key": "ch148",
+        "quantity": 2,
+        "task": "海上侦察巡逻",
+        "start": "05:45",
+        "end": "07:10",
+        "region": "宁波外海",
+        "direction": "东海",
+        "platform": "CH-148“旋风”海上作战直升机"
+      }
+    },
+    {
+      "id": "2025.5.12-AIR-7A8D3C3437B7E6",
+      "date": "2025.5.12",
+      "kind": "飞机",
+      "facts": {
+        "country": "加拿大",
+        "key": "ch148",
+        "quantity": 1,
+        "task": "反潜巡逻",
+        "start": "17:13",
+        "end": "19:38",
+        "region": "黄海",
+        "direction": "黄海",
+        "platform": "CH-148“旋风”海上作战直升机"
+      }
+    },
+    {
+      "id": "2025.5.18-AIR-6D81CA7290EEA5",
+      "date": "2025.5.18",
+      "kind": "飞机",
+      "facts": {
+        "country": "加拿大",
+        "key": "ch148",
+        "quantity": 1,
+        "task": "联合巡逻",
+        "start": "05:45",
+        "end": "07:10",
+        "region": "南海",
+        "direction": "南海",
+        "platform": "CH-148“旋风”海上作战直升机"
+      }
+    }
+  ],
+  "conflict_candidates": [],
+  "no_verified_record_dates": [
+    "2025.5.1",
+    "2025.5.3",
+    "2025.5.4",
+    "2025.5.6",
+    "2025.5.8",
+    "2025.5.9",
+    "2025.5.10",
+    "2025.5.11",
+    "2025.5.13",
+    "2025.5.14",
+    "2025.5.15",
+    "2025.5.16",
+    "2025.5.17"
+  ],
+  "candidates": [
+    {
+      "country": "加拿大",
+      "key": "ch148",
+      "kind": "飞机",
+      "platform": "CH-148“旋风”海上作战直升机",
+      "dates": [
+        "2025.5.2",
+        "2025.5.5",
+        "2025.5.7",
+        "2025.5.12",
+        "2025.5.18"
+      ],
+      "observed_tasks": {
+        "反潜巡逻": 3,
+        "联合巡逻": 2,
+        "海上侦察巡逻": 1
+      },
+      "directions": {
+        "南海": 4,
+        "东海": 1,
+        "黄海": 1
+      },
+      "identity_scope": "platform_model_or_class",
+      "today_ids": [
+        "2025.5.18-AIR-6D81CA7290EEA5"
+      ],
+      "conflict_candidate_count": 0
+    },
+    {
+      "country": "加拿大",
+      "key": "哈里德沃尔夫",
+      "kind": "舰艇",
+      "platform": "哈里·德沃尔夫级近海巡逻舰",
+      "dates": [
+        "2025.5.3",
+        "2025.5.6",
+        "2025.5.13",
+        "2025.5.16",
+        "2025.5.18"
+      ],
+      "observed_tasks": {
+        "友好访问": 1,
+        "联合巡航": 1,
+        "海上护航": 1,
+        "海上巡逻": 1,
+        "实弹射击训练": 1,
+        "反潜巡逻": 1,
+        "例行部署": 1
+      },
+      "directions": {
+        "黄海": 4,
+        "南海": 3
+      },
+      "identity_scope": "platform_model_or_class",
+      "today_ids": [
+        "2025.5.18-SHIP-09E9F08F7CCEB9"
+      ],
+      "conflict_candidate_count": 4
+    },
+    {
+      "country": "台湾",
+      "key": "p3c",
+      "kind": "飞机",
+      "platform": "P-3C反潜巡逻机",
+      "dates": [
+        "2025.5.10",
+        "2025.5.14",
+        "2025.5.15",
+        "2025.5.17",
+        "2025.5.18"
+      ],
+      "observed_tasks": {
+        "反潜巡逻": 3,
+        "联合巡逻": 2,
+        "海上侦察巡逻": 1
+      },
+      "directions": {
+        "东海": 5,
+        "黄海": 1
+      },
+      "identity_scope": "platform_model_or_class",
+      "today_ids": [
+        "2025.5.18-AIR-9AB84D23E12184"
+      ],
+      "conflict_candidate_count": 3
+    },
+    {
+      "country": "德国",
+      "key": "巴登符腾堡",
+      "kind": "舰艇",
+      "platform": "巴登-符腾堡号导弹护卫舰",
+      "dates": [
+        "2025.5.3",
+        "2025.5.5",
+        "2025.5.7",
+        "2025.5.18"
+      ],
+      "observed_tasks": {
+        "编队警戒部署": 3,
+        "防空反导训练": 1
+      },
+      "directions": {
+        "东海": 3,
+        "南海": 1
+      },
+      "identity_scope": "named_vessel",
+      "today_ids": [
+        "2025.5.18-SHIP-8D9B5F7E41B14D"
+      ],
+      "conflict_candidate_count": 2
+    },
+    {
+      "country": "新加坡",
+      "key": "f15sg",
+      "kind": "飞机",
+      "platform": "F-15SG多用途战斗机",
+      "dates": [
+        "2025.5.6",
+        "2025.5.12",
+        "2025.5.18"
+      ],
+      "observed_tasks": {
+        "对海突击训练": 1,
+        "联合巡逻": 1,
+        "战备警巡": 1
+      },
+      "directions": {
+        "黄海": 1,
+        "南海": 2
+      },
+      "identity_scope": "platform_model_or_class",
+      "today_ids": [
+        "2025.5.18-AIR-ACA94339A8DF16"
+      ],
+      "conflict_candidate_count": 1
+    },
+    {
+      "country": "新西兰",
+      "key": "奥特亚罗瓦",
+      "kind": "舰艇",
+      "platform": "奥特亚罗瓦号综合补给舰",
+      "dates": [
+        "2025.5.10",
+        "2025.5.13",
+        "2025.5.18"
+      ],
+      "observed_tasks": {
+        "例行部署": 1,
+        "海上护航": 1,
+        "海上补给训练": 1
+      },
+      "directions": {
+        "南海": 2,
+        "黄海": 1
+      },
+      "identity_scope": "named_vessel",
+      "today_ids": [
+        "2025.5.18-SHIP-40E8F499829F42"
+      ],
+      "conflict_candidate_count": 3
+    },
+    {
+      "country": "法国",
+      "key": "地平线",
+      "kind": "舰艇",
+      "platform": "地平线级导弹驱逐舰",
+      "dates": [
+        "2025.5.16",
+        "2025.5.17",
+        "2025.5.18"
+      ],
+      "observed_tasks": {
+        "联合搜救训练": 1,
+        "实弹射击训练": 1,
+        "反潜巡逻": 1
+      },
+      "directions": {
+        "东海": 2,
+        "南海": 1
+      },
+      "identity_scope": "platform_model_or_class",
+      "today_ids": [
+        "2025.5.18-SHIP-5946CAFDE26C1A"
+      ],
+      "conflict_candidate_count": 0
+    },
+    {
+      "country": "美国",
+      "key": "西奥多罗斯福",
+      "kind": "舰艇",
+      "platform": "西奥多·罗斯福号航空母舰",
+      "dates": [
+        "2025.5.11",
+        "2025.5.15",
+        "2025.5.16",
+        "2025.5.17",
+        "2025.5.18"
+      ],
+      "observed_tasks": {
+        "编队警戒部署": 5
+      },
+      "directions": {
+        "南海": 5
+      },
+      "identity_scope": "named_vessel",
+      "today_ids": [
+        "2025.5.18-SHIP-5F0A5E4A5F20B7"
+      ],
+      "conflict_candidate_count": 0
+    }
+  ],
+  "external_sources": [
+    {
+      "id": "E07",
+      "title": "Canada’s Indo-Pacific Strategy 2022 to 2023 Implementation Update",
+      "publisher": "加拿大外交部",
+      "url": "https://www.international.gc.ca/transparency-transparence/assets/pdfs/indo-pacific-indo-pacifique/2022-2023-en.pdf",
+      "published_by": "2024-12-31",
+      "date_basis": "固定出版物版权页2024、PDF创建2024-04-25；无精确公开日，采用2024年末上界",
+      "content_period": "2023实施回顾",
+      "role": "official_assessment",
+      "independence_group": "加拿大外交部_E07",
+      "content_verified": true,
+      "version_status": "fixed_edition",
+      "locator": "PDF第6页（印刷4）Enhanced military presence in the region",
+      "local_path": "sources/E07.pdf",
+      "sha256": "8f680b191ec8f085a38c6cae68178191717a661c1d1826507250a6673ba19ba3",
+      "actual_read_scope": "本轮提取并阅读所列原文；PDF对应页或HWP内置首页预览已视觉检查",
+      "specific_evidence": "报告Montréal于2023年3—8月，Ottawa、Vancouver于8—12月部署印太，参与NEON及HORIZON；HORIZON承诺每年派3艘舰并参加演习，提供多舰与多任务的具体历史背景。",
+      "contribution": "报告Montréal于2023年3—8月，Ottawa、Vancouver于8—12月部署印太，参与NEON及HORIZON；HORIZON承诺每年派3艘舰并参加演习，提供多舰与多任务的具体历史背景。",
+      "limits": "背景多舰轮换是可能解释，不证明比赛哈利法克斯级记录对应这些具名舰；不证明2025部署、CH-148机体/母舰或单一舰体连续航程。"
+    }
+  ]
+}

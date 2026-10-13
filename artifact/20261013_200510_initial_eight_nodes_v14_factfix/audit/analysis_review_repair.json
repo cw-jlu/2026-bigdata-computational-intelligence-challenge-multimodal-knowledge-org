@@ -1,0 +1,6 @@
+{
+  "discarded_authoring_run": "revised_A",
+  "reason": "judgment ambiguously claimed task original sentences were missing, although provided text task assertions exist; clarify missing taxonomy/tasking orders and 28 interior dates",
+  "action": "update deterministic node constraints, regenerate both final corrected-node analyses with exactly identical prompts",
+  "manual_final_prose_edits": false
+}

@@ -1,0 +1,53 @@
+{
+  "as_of": "2025-05-10",
+  "used": [
+    {
+      "id": "E01",
+      "title": "Joint ISR Conducted by Japan, the United States, and Australia",
+      "publisher": "日本防卫省",
+      "url": "https://www.mod.go.jp/en/images/1124a_usa_aus-j.pdf",
+      "published_by": "2023-11-24",
+      "date_basis": "固定公告页首日期",
+      "content_period": "2023-11-19至20",
+      "role": "official_assessment",
+      "independence_group": "日本防卫省_E01",
+      "content_verified": true,
+      "version_status": "fixed_edition",
+      "locator": "PDF第1页第1项",
+      "local_path": "sources/E01.pdf",
+      "sha256": "40378370662d2d55a6712ec6fcbe206573cd7fb28c136f45720648f450d55739",
+      "actual_read_scope": "本轮提取并阅读所列原文；PDF对应页或HWP内置首页预览已视觉检查",
+      "specific_evidence": "公告明确日本P-1、美国海军P-8A、澳大利亚空军P-8A在日本周边水域及空域共同实施ISR，是多任务解释的具体历史案例。",
+      "contribution": "公告明确日本P-1、美国海军P-8A、澳大利亚空军P-8A在日本周边水域及空域共同实施ISR，是多任务解释的具体历史案例。",
+      "limits": "不证明2025年任何出动参加同一机制，不提供本赛段频次基线或机体身份。"
+    }
+  ],
+  "excluded": [
+    {
+      "ids": [
+        "E02"
+      ],
+      "reason": "CH-148官方PDF搜索能定位，但原件多次超时/404；未取得原文，不采用搜索摘要"
+    },
+    {
+      "ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R09"
+      ],
+      "reason": "方法资料或动态网页历史版本不足，不作为事件背景"
+    },
+    {
+      "ids": [
+        "2025-06-Korea-operational-declaration"
+      ],
+      "reason": "晚于5月30日节点，严禁补证或校准"
+    }
+  ],
+  "metadata_pass": true,
+  "event_validation_sources": [],
+  "E07_date_limit": "年度版权与PDF元数据提供年份上界，未取得独立日级发布回执"
+}

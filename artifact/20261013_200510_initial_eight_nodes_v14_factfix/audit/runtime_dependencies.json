@@ -1,0 +1,12 @@
+{
+  "numpy": "2.3.5",
+  "openpyxl": "3.1.5",
+  "python-docx": "1.2.0",
+  "Pillow": "12.3.0",
+  "pypdfium2": "5.14.0",
+  "pypdf": "6.10.0",
+  "olefile": "0.47",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "node": "v24.19.0",
+  "artifact_tool": "2.8.93"
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "sha256": "3a9fec0191c343615be3ebe1c458e8cd165e4e5dea3d0da309b30bda07a2119c",
+  "contents_verified": 10062,
+  "cold_tested_protected_files_unchanged": 8152,
+  "final_repackage_changes": "completion receipts and prose only",
+  "official_zip_sha256": "0ac08d27b835763957f2c8b851a3219a850e30e364067b5205b1999abf505635",
+  "raw_reproduction_zip_exact": true
+}

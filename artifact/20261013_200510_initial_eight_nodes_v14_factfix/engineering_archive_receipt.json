@@ -1,0 +1,11 @@
+{
+  "archive": "赛题2_初赛_v14_事实修订_完整工程包.zip",
+  "sha256": "3a9fec0191c343615be3ebe1c458e8cd165e4e5dea3d0da309b30bda07a2119c",
+  "members": 10063,
+  "bytes": 322251382,
+  "raw_input_files": 8095,
+  "credentials_included": false,
+  "node_modules_included": false,
+  "independent_rebuilds": "Both fresh-model and frozen-analysis experiments; raw input duplicated once only",
+  "score": "v14 pending platform evaluation"
+}

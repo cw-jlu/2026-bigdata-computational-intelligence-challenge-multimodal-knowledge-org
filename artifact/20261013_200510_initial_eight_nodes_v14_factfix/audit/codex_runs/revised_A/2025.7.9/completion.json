@@ -1,0 +1,18 @@
+{
+  "exit_code": 0,
+  "elapsed_seconds": 150.173,
+  "response_sha256": "5075b93676087de5279fbc94ecae3d1647c61f99dcdf57b9dda196564d91cbd9",
+  "unexpected_tool_item_types": [],
+  "output_usage": [
+    {
+      "input_tokens": 23747,
+      "cached_input_tokens": 12928,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 4584,
+      "reasoning_output_tokens": 2588
+    }
+  ],
+  "context_reused": false,
+  "node_isolation": true,
+  "input_node": "2025.7.9"
+}
